@@ -56,7 +56,7 @@ class DataladRepo(BaseModel):
 
     def as_table_row(self) -> str:
         return (
-            f"| [{self.name}](self.url) | {self.stars} | {check(self.dataset)} "
+            f"| [{self.name}]({self.url}) | {self.stars} | {check(self.dataset)} "
             f"| {check(self.run)} | {check(self.container_run)} |"
         )
 
