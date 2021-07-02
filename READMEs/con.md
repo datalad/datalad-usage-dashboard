@@ -1,5 +1,5 @@
 # Active
-| Repository (3) | Stars (38) | Dataset (2) | `run` (3) | `containers-run` (0) |
+| Repository (3) | Stars (38) | Dataset (2) | `run` (3) | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [con/centerforopenneuroscience.org](https://github.com/con/centerforopenneuroscience.org) | 2 | :heavy_check_mark: | :heavy_check_mark: |  |
 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 36 |  | :heavy_check_mark: |  |

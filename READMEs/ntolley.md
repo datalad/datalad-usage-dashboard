@@ -1,5 +1,5 @@
 # Active
-| Repository (3) | Stars (0) | Dataset (0) | `run` (3) | `containers-run` (0) |
+| Repository (3) | Stars | Dataset | `run` (3) | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [ntolley/lfp_reeb_github](https://github.com/ntolley/lfp_reeb_github) | 0 |  | :heavy_check_mark: |  |
 | [ntolley/reeb_matching_github](https://github.com/ntolley/reeb_matching_github) | 0 |  | :heavy_check_mark: |  |

@@ -1,5 +1,5 @@
 # Active
-| Repository (5) | Stars (0) | Dataset (5) | `run` (2) | `containers-run` (0) |
+| Repository (5) | Stars | Dataset (5) | `run` (2) | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [LAAC-LSCP/datalad-procedures](https://github.com/LAAC-LSCP/datalad-procedures) | 0 | :heavy_check_mark: |  |  |
 | [LAAC-LSCP/laac2-template](https://github.com/LAAC-LSCP/laac2-template) | 0 | :heavy_check_mark: |  |  |

@@ -1,5 +1,5 @@
 # Active
-| Repository (12) | Stars (0) | Dataset (12) | `run` (0) | `containers-run` (0) |
+| Repository (12) | Stars | Dataset (12) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [nipreps-data/HCP101006](https://github.com/nipreps-data/HCP101006) | 0 | :heavy_check_mark: |  |  |
 | [nipreps-data/brain-extraction-tests](https://github.com/nipreps-data/brain-extraction-tests) | 0 | :heavy_check_mark: |  |  |

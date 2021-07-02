@@ -164,7 +164,7 @@ class SubtableRow(TableRow):
             if qty > 0:
                 cells.append(f"[{check(True)} ({qty})]({file_link})")
             else:
-                cells.append(f"[(0)]({file_link})")
+                cells.append("")
         return cells
 
     def get_qtys(self) -> Statistics:
@@ -190,7 +190,13 @@ class RepoTable(BaseModel):
         s = f"# {self.title}\n"
         if self.rows:
             qtys = self.get_total_qtys()
-            s += self.render_row(f"{h} ({q})" for h, q in zip(self.HEADERS, qtys))
+            headers = []
+            for h, q in zip(self.HEADERS, qtys):
+                if q > 0:
+                    headers.append(f"{h} ({q})")
+                else:
+                    headers.append(h)
+            s += self.render_row(headers)
             s += self.render_row(["---"] * len(self.HEADERS))
             for r in self.rows:
                 s += self.render_row(r.get_cells())

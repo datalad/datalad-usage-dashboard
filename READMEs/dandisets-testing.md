@@ -1,5 +1,5 @@
 # Active
-| Repository (31) | Stars (0) | Dataset (31) | `run` (0) | `containers-run` (0) |
+| Repository (31) | Stars | Dataset (31) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [dandisets-testing/000003](https://github.com/dandisets-testing/000003) | 0 | :heavy_check_mark: |  |  |
 | [dandisets-testing/000004](https://github.com/dandisets-testing/000004) | 0 | :heavy_check_mark: |  |  |

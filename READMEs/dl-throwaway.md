@@ -1,5 +1,5 @@
 # Active
-| Repository (12) | Stars (0) | Dataset (12) | `run` (0) | `containers-run` (0) |
+| Repository (12) | Stars | Dataset (12) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [dl-throwaway/test-gh](https://github.com/dl-throwaway/test-gh) | 0 | :heavy_check_mark: |  |  |
 | [dl-throwaway/test-gh-sub__1](https://github.com/dl-throwaway/test-gh-sub__1) | 0 | :heavy_check_mark: |  |  |

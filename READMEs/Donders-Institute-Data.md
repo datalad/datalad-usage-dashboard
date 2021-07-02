@@ -1,5 +1,5 @@
 # Active
-| Repository (11) | Stars (0) | Dataset (11) | `run` (0) | `containers-run` (0) |
+| Repository (11) | Stars | Dataset (11) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [Donders-Institute-Data/dccn.DSC_3015000.00_677_v1](https://github.com/Donders-Institute-Data/dccn.DSC_3015000.00_677_v1) | 0 | :heavy_check_mark: |  |  |
 | [Donders-Institute-Data/dccn.DSC_3015000.00_734_v1](https://github.com/Donders-Institute-Data/dccn.DSC_3015000.00_734_v1) | 0 | :heavy_check_mark: |  |  |

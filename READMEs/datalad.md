@@ -1,5 +1,5 @@
 # Active
-| Repository (18) | Stars (266) | Dataset (13) | `run` (6) | `containers-run` (0) |
+| Repository (18) | Stars (266) | Dataset (13) | `run` (6) | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [datalad/datalad](https://github.com/datalad/datalad) | 251 |  | :heavy_check_mark: |  |
 | [datalad/datalad-extension-template](https://github.com/datalad/datalad-extension-template) | 0 |  | :heavy_check_mark: |  |

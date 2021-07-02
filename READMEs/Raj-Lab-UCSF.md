@@ -1,5 +1,5 @@
 # Active
-| Repository (3) | Stars (0) | Dataset (3) | `run` (0) | `containers-run` (0) |
+| Repository (3) | Stars | Dataset (3) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [Raj-Lab-UCSF/Human_Brain_Atlases](https://github.com/Raj-Lab-UCSF/Human_Brain_Atlases) | 0 | :heavy_check_mark: |  |  |
 | [Raj-Lab-UCSF/Human_Brain_Atlases-brainnectome](https://github.com/Raj-Lab-UCSF/Human_Brain_Atlases-brainnectome) | 0 | :heavy_check_mark: |  |  |

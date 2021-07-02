@@ -1,5 +1,5 @@
 # Active
-| Repository (8) | Stars (2) | Dataset (8) | `run` (2) | `containers-run` (0) |
+| Repository (8) | Stars (2) | Dataset (8) | `run` (2) | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [yarikoptic/demo1](https://github.com/yarikoptic/demo1) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | [yarikoptic/gearificated-nipype](https://github.com/yarikoptic/gearificated-nipype) | 1 | :heavy_check_mark: |  |  |

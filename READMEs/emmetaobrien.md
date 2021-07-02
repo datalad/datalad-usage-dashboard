@@ -1,5 +1,5 @@
 # Active
-| Repository (4) | Stars (0) | Dataset (4) | `run` (0) | `containers-run` (0) |
+| Repository (4) | Stars | Dataset (4) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [emmetaobrien/BigBrain_3DClassifiedVolumes](https://github.com/emmetaobrien/BigBrain_3DClassifiedVolumes) | 0 | :heavy_check_mark: |  |  |
 | [emmetaobrien/BigBrain_3DSurfaces](https://github.com/emmetaobrien/BigBrain_3DSurfaces) | 0 | :heavy_check_mark: |  |  |

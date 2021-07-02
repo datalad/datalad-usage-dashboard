@@ -1,5 +1,5 @@
 # Active
-| Repository (7) | Stars (24) | Dataset (7) | `run` (0) | `containers-run` (0) |
+| Repository (7) | Stars (24) | Dataset (7) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 23 | :heavy_check_mark: |  |  |
 | [templateflow/tpl-MNI152NLin2009cAsym](https://github.com/templateflow/tpl-MNI152NLin2009cAsym) | 1 | :heavy_check_mark: |  |  |
