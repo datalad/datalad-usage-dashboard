@@ -19,6 +19,9 @@ import requests
 # Searching too fast can trigger abuse detection
 INTER_SEARCH_DELAY = 10
 
+# How long to wait after triggering abuse detection
+POST_ABUSE_DELAY = 45
+
 OURSELVES = {"datalad"}
 
 RECORD_FILE = "datalad-repos.json"
@@ -172,6 +175,13 @@ class GHDataladSearcher:
                 )
                 log.info("Search rate limit exceeded; sleeping for %s seconds", delay)
                 sleep(delay)
+                continue
+            elif r.status_code == 403 and "abuse detection" in data.get("message", ""):
+                log.warning(
+                    "Abuse detection triggered; sleeping for %s seconds",
+                    POST_ABUSE_DELAY,
+                )
+                sleep(POST_ABUSE_DELAY)
                 continue
             if not r.ok:
                 log.error("Request to %s returned %d: %s", r.url, r.status_code, r.text)
