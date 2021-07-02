@@ -209,7 +209,12 @@ class GHDataladSearcher:
         for hit in self.search("commits", '"DATALAD RUNCMD" merge:false is:public'):
             container_run = is_container_run(hit["commit"]["message"])
             repo = hit["repository"]
-            log.info("Found %s (container run: %s)", repo["full_name"], container_run)
+            log.info(
+                "Found commit %s in %s (container run: %s)",
+                hit["sha"][:7],
+                repo["full_name"],
+                container_run,
+            )
             yield (GHRepo.from_repository(repo), container_run)
 
     def get_repo_stars(self, repo: GHRepo) -> int:
