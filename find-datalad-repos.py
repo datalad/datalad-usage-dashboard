@@ -199,23 +199,23 @@ class GHDataladSearcher:
     def search_dataset_repos(self) -> Iterator[GHRepo]:
         log.info("Searching for repositories with .datalad/config files")
         for hit in self.search("code", "path:.datalad filename:config"):
-            repo = hit["repository"]
-            log.info("Found %s", repo["full_name"])
-            yield GHRepo.from_repository(repo)
+            repo = GHRepo.from_repository(hit["repository"])
+            log.info("Found %s", repo.name)
+            yield repo
 
     def search_runcmds(self) -> Iterator[Tuple[GHRepo, bool]]:
         """Returns a generator of (ghrepo, is_container_run) pairs"""
         log.info('Searching for "DATALAD RUNCMD" commits')
         for hit in self.search("commits", '"DATALAD RUNCMD" merge:false is:public'):
             container_run = is_container_run(hit["commit"]["message"])
-            repo = hit["repository"]
+            repo = GHRepo.from_repository(hit["repository"])
             log.info(
                 "Found commit %s in %s (container run: %s)",
                 hit["sha"][:7],
-                repo["full_name"],
+                repo.name,
                 container_run,
             )
-            yield (GHRepo.from_repository(repo), container_run)
+            yield (repo, container_run)
 
     def get_repo_stars(self, repo: GHRepo) -> int:
         r = self.session.get(f"{self.API_URL}/repos/{repo.name}")
