@@ -331,7 +331,12 @@ def is_container_run(commit_msg: str) -> bool:
         metadata = json.loads(m[1])
     except ValueError:
         return False
-    return bool(metadata.get("extra_inputs"))
+    try:
+        return bool(metadata.get("extra_inputs"))
+    except AttributeError:
+        # Apparently there are some commits with strings for the RUNCMD
+        # metadata?
+        return False
 
 
 def check(yesno: bool) -> str:
