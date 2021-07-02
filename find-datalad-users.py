@@ -115,7 +115,8 @@ class CollectionUpdater(BaseModel):
                 active.append(repo)
             else:
                 gone.append(repo)
-        # TODO: Should the lists be sorted?
+        active.sort(key=attrgetter("name"))
+        gone.sort(key=attrgetter("name"))
         return RepoCollection(active=active, gone=gone)
 
     def get_report(self) -> str:
@@ -235,7 +236,13 @@ class GHDataladSearcher:
     default=logging.INFO,
     help="Set logging level  [default: INFO]",
 )
-def main(log_level):
+@click.option(
+    "-R",
+    "--regen-readme",
+    is_flag=True,
+    help="Regenerate the README from the JSON file without querying GitHub",
+)
+def main(log_level, regen_readme):
     logging.basicConfig(
         format="%(asctime)s [%(levelname)-8s] %(name)s %(message)s",
         datefmt="%Y-%m-%dT%H:%M:%S%z",
@@ -247,20 +254,22 @@ def main(log_level):
     except FileNotFoundError:
         record = RepoRecord()
 
-    updater = CollectionUpdater.from_collection(record.github)
+    if not regen_readme:
+        updater = CollectionUpdater.from_collection(record.github)
+        with GHDataladSearcher(get_github_token()) as searcher:
+            for repo in searcher.get_datalad_repos():
+                updater.register_repo(repo)
+        record.github = updater.get_new_collection()
+        with open(RECORD_FILE, "w") as fp:
+            print(record.json(indent=4), file=fp)
+
     wild_repos: List[DataladRepo] = []
     our_repos: List[DataladRepo] = []
-    with GHDataladSearcher(get_github_token()) as searcher:
-        for repo in searcher.get_datalad_repos():
-            updater.register_repo(repo)
-            if repo.ours:
-                our_repos.append(repo)
-            else:
-                wild_repos.append(repo)
-
-    record.github = updater.get_new_collection()
-    with open(RECORD_FILE, "w") as fp:
-        print(record.json(indent=4), file=fp)
+    for repo in record.github.active:
+        if repo.ours:
+            our_repos.append(repo)
+        else:
+            wild_repos.append(repo)
 
     with open("README.md", "w") as fp:
         for header, repo_list in [
@@ -277,8 +286,9 @@ def main(log_level):
                 print("No repositories found!", file=fp)
             print(file=fp)
 
-    runcmd("git", "add", RECORD_FILE, "README.md")
-    commit(updater.get_report())
+    if not regen_readme:
+        runcmd("git", "add", RECORD_FILE, "README.md")
+        commit(updater.get_report())
 
 
 def get_github_token() -> str:
