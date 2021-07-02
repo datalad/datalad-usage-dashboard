@@ -31,7 +31,7 @@ TABLE_HEADER = (
     "| ----- | ----- | ----- | ----- | ----- |"
 )
 
-USER_AGENT = "find-datalad-users ({}) requests/{} {}/{}".format(
+USER_AGENT = "find-datalad-repos.py ({}) requests/{} {}/{}".format(
     "https://github.com/datalad/datalad-usage-dashboard",
     requests.__version__,
     platform.python_implementation(),
