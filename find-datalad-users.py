@@ -44,11 +44,15 @@ log = logging.getLogger(__name__)
 class DataladRepo(BaseModel):
     name: str
     url: str
-    ours: bool
     stars: int
     dataset: bool
     run: bool
     container_run: bool
+
+    @property
+    def ours(self) -> bool:
+        owner, _, _ = self.name.partition("/")
+        return owner in OURSELVES
 
     def as_table_row(self) -> str:
         return (
@@ -58,7 +62,6 @@ class DataladRepo(BaseModel):
 
 
 class GHRepo(BaseModel):
-    owner: str
     url: str
     name: str
 
@@ -67,9 +70,7 @@ class GHRepo(BaseModel):
 
     @classmethod
     def from_repository(cls, data: Dict[str, Any]) -> "GHRepo":
-        return cls(
-            url=data["html_url"], owner=data["owner"]["login"], name=data["full_name"]
-        )
+        return cls(url=data["html_url"], name=data["full_name"])
 
 
 class RepoCollection(BaseModel):
@@ -227,7 +228,6 @@ class GHDataladSearcher:
                 DataladRepo(
                     url=repo.url,
                     name=repo.name,
-                    ours=repo.owner in OURSELVES,
                     stars=self.get_repo_stars(repo),
                     dataset=repo in datasets,
                     run=repo in runcmds,

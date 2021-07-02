@@ -4,7 +4,6 @@
             {
                 "name": "AllenInstitute/AllenSDK",
                 "url": "https://github.com/AllenInstitute/AllenSDK",
-                "ours": false,
                 "stars": 215,
                 "dataset": false,
                 "run": true,
@@ -13,7 +12,6 @@
             {
                 "name": "Arshitha/abcd-repronim-PW-parts-1-2",
                 "url": "https://github.com/Arshitha/abcd-repronim-PW-parts-1-2",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -22,7 +20,6 @@
             {
                 "name": "Community-Maintenance/blockchains",
                 "url": "https://github.com/Community-Maintenance/blockchains",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -31,7 +28,6 @@
             {
                 "name": "Community-Maintenance/blockchains-bitcoin-core",
                 "url": "https://github.com/Community-Maintenance/blockchains-bitcoin-core",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -40,7 +36,6 @@
             {
                 "name": "Community-Maintenance/blockchains-bitcoin-core-other",
                 "url": "https://github.com/Community-Maintenance/blockchains-bitcoin-core-other",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -49,7 +44,6 @@
             {
                 "name": "Community-Maintenance/blockchains-bitcoin-sv",
                 "url": "https://github.com/Community-Maintenance/blockchains-bitcoin-sv",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -58,7 +52,6 @@
             {
                 "name": "Community-Maintenance/blockchains-sia",
                 "url": "https://github.com/Community-Maintenance/blockchains-sia",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -67,7 +60,6 @@
             {
                 "name": "DGarnica7/ds000102",
                 "url": "https://github.com/DGarnica7/ds000102",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -76,7 +68,6 @@
             {
                 "name": "DVS-Lab/ds.istart",
                 "url": "https://github.com/DVS-Lab/ds.istart",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -85,7 +76,6 @@
             {
                 "name": "DVS-Lab/istart-analyses",
                 "url": "https://github.com/DVS-Lab/istart-analyses",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -94,7 +84,6 @@
             {
                 "name": "DVS-Lab/srndna-public-test",
                 "url": "https://github.com/DVS-Lab/srndna-public-test",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -103,7 +92,6 @@
             {
                 "name": "DVS-Lab/srndna-test",
                 "url": "https://github.com/DVS-Lab/srndna-test",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -112,7 +100,6 @@
             {
                 "name": "DiedrichsenLab/cerebellar_atlases",
                 "url": "https://github.com/DiedrichsenLab/cerebellar_atlases",
-                "ours": false,
                 "stars": 4,
                 "dataset": true,
                 "run": false,
@@ -121,7 +108,6 @@
             {
                 "name": "Donders-Institute-Data/dccn.DSC_3015000.00_677_v1",
                 "url": "https://github.com/Donders-Institute-Data/dccn.DSC_3015000.00_677_v1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -130,7 +116,6 @@
             {
                 "name": "Donders-Institute-Data/dccn.DSC_3015000.00_734_v1",
                 "url": "https://github.com/Donders-Institute-Data/dccn.DSC_3015000.00_734_v1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -139,7 +124,6 @@
             {
                 "name": "Donders-Institute-Data/dccn.DSC_3015000.00_810_v1",
                 "url": "https://github.com/Donders-Institute-Data/dccn.DSC_3015000.00_810_v1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -148,7 +132,6 @@
             {
                 "name": "Donders-Institute-Data/dccn.DSC_3015000.00_810_v2",
                 "url": "https://github.com/Donders-Institute-Data/dccn.DSC_3015000.00_810_v2",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -157,7 +140,6 @@
             {
                 "name": "Donders-Institute-Data/dccn.DSC_3017033.03_624_v1",
                 "url": "https://github.com/Donders-Institute-Data/dccn.DSC_3017033.03_624_v1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -166,7 +148,6 @@
             {
                 "name": "Donders-Institute-Data/dccn.DSC_3018029.09_654_v1",
                 "url": "https://github.com/Donders-Institute-Data/dccn.DSC_3018029.09_654_v1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -175,7 +156,6 @@
             {
                 "name": "Donders-Institute-Data/dccn.DSC_3018035.01_533_v1",
                 "url": "https://github.com/Donders-Institute-Data/dccn.DSC_3018035.01_533_v1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -184,7 +164,6 @@
             {
                 "name": "Donders-Institute-Data/dcmn.DSC_4180000.18_502_v1",
                 "url": "https://github.com/Donders-Institute-Data/dcmn.DSC_4180000.18_502_v1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -193,7 +172,6 @@
             {
                 "name": "Donders-Institute-Data/dcn.DSC_620840_0003_891_v1",
                 "url": "https://github.com/Donders-Institute-Data/dcn.DSC_620840_0003_891_v1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -202,7 +180,6 @@
             {
                 "name": "Donders-Institute-Data/dcn.DSC_626810_0003_650_v1",
                 "url": "https://github.com/Donders-Institute-Data/dcn.DSC_626810_0003_650_v1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -211,7 +188,6 @@
             {
                 "name": "Donders-Institute-Data/dcn.DSC_626810_0006_072_v1",
                 "url": "https://github.com/Donders-Institute-Data/dcn.DSC_626810_0006_072_v1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -220,7 +196,6 @@
             {
                 "name": "FrancoisPgm/visual_encoding_decoding",
                 "url": "https://github.com/FrancoisPgm/visual_encoding_decoding",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -229,7 +204,6 @@
             {
                 "name": "Hobbeist/encode_pipeline_tki",
                 "url": "https://github.com/Hobbeist/encode_pipeline_tki",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -238,7 +212,6 @@
             {
                 "name": "KaiserTim/Name-not-found",
                 "url": "https://github.com/KaiserTim/Name-not-found",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -247,7 +220,6 @@
             {
                 "name": "LAAC-LSCP/datalad-procedures",
                 "url": "https://github.com/LAAC-LSCP/datalad-procedures",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -256,7 +228,6 @@
             {
                 "name": "LAAC-LSCP/laac2-template",
                 "url": "https://github.com/LAAC-LSCP/laac2-template",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -265,7 +236,6 @@
             {
                 "name": "LAAC-LSCP/solomon-analysis",
                 "url": "https://github.com/LAAC-LSCP/solomon-analysis",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -274,7 +244,6 @@
             {
                 "name": "LAAC-LSCP/vandam-daylong-demo",
                 "url": "https://github.com/LAAC-LSCP/vandam-daylong-demo",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -283,7 +252,6 @@
             {
                 "name": "LAAC-LSCP/zoo-phon-data",
                 "url": "https://github.com/LAAC-LSCP/zoo-phon-data",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -292,7 +260,6 @@
             {
                 "name": "NBCLab/conn-repo",
                 "url": "https://github.com/NBCLab/conn-repo",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -301,7 +268,6 @@
             {
                 "name": "NGenetzky/academic-oss-elc",
                 "url": "https://github.com/NGenetzky/academic-oss-elc",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -310,7 +276,6 @@
             {
                 "name": "NGenetzky/balena-phusion",
                 "url": "https://github.com/NGenetzky/balena-phusion",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -319,7 +284,6 @@
             {
                 "name": "NGenetzky/us.genetzky.academic",
                 "url": "https://github.com/NGenetzky/us.genetzky.academic",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -328,7 +292,6 @@
             {
                 "name": "NGenetzky/xilinx-bsp",
                 "url": "https://github.com/NGenetzky/xilinx-bsp",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -337,7 +300,6 @@
             {
                 "name": "NGenetzky/yocto-downloads",
                 "url": "https://github.com/NGenetzky/yocto-downloads",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -346,7 +308,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000006",
                 "url": "https://github.com/OpenNeuroDatasets/ds000006",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -355,7 +316,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000031",
                 "url": "https://github.com/OpenNeuroDatasets/ds000031",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -364,7 +324,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000053",
                 "url": "https://github.com/OpenNeuroDatasets/ds000053",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -373,7 +332,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000113",
                 "url": "https://github.com/OpenNeuroDatasets/ds000113",
-                "ours": false,
                 "stars": 2,
                 "dataset": true,
                 "run": false,
@@ -382,7 +340,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000117",
                 "url": "https://github.com/OpenNeuroDatasets/ds000117",
-                "ours": false,
                 "stars": 2,
                 "dataset": true,
                 "run": false,
@@ -391,7 +348,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000149",
                 "url": "https://github.com/OpenNeuroDatasets/ds000149",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -400,7 +356,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000206",
                 "url": "https://github.com/OpenNeuroDatasets/ds000206",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -409,7 +364,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000212",
                 "url": "https://github.com/OpenNeuroDatasets/ds000212",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -418,7 +372,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000217",
                 "url": "https://github.com/OpenNeuroDatasets/ds000217",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -427,7 +380,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000220",
                 "url": "https://github.com/OpenNeuroDatasets/ds000220",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -436,7 +388,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000221",
                 "url": "https://github.com/OpenNeuroDatasets/ds000221",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -445,7 +396,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000223",
                 "url": "https://github.com/OpenNeuroDatasets/ds000223",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -454,7 +404,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000238",
                 "url": "https://github.com/OpenNeuroDatasets/ds000238",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -463,7 +412,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000241",
                 "url": "https://github.com/OpenNeuroDatasets/ds000241",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -472,7 +420,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000243",
                 "url": "https://github.com/OpenNeuroDatasets/ds000243",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -481,7 +428,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000244",
                 "url": "https://github.com/OpenNeuroDatasets/ds000244",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -490,7 +436,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000245",
                 "url": "https://github.com/OpenNeuroDatasets/ds000245",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -499,7 +444,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000247",
                 "url": "https://github.com/OpenNeuroDatasets/ds000247",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -508,7 +452,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000249",
                 "url": "https://github.com/OpenNeuroDatasets/ds000249",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -517,7 +460,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000253",
                 "url": "https://github.com/OpenNeuroDatasets/ds000253",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -526,7 +468,6 @@
             {
                 "name": "OpenNeuroDatasets/ds000258",
                 "url": "https://github.com/OpenNeuroDatasets/ds000258",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -535,7 +476,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001353",
                 "url": "https://github.com/OpenNeuroDatasets/ds001353",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -544,7 +484,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001399",
                 "url": "https://github.com/OpenNeuroDatasets/ds001399",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -553,7 +492,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001417",
                 "url": "https://github.com/OpenNeuroDatasets/ds001417",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -562,7 +500,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001439",
                 "url": "https://github.com/OpenNeuroDatasets/ds001439",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -571,7 +508,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001454",
                 "url": "https://github.com/OpenNeuroDatasets/ds001454",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -580,7 +516,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001461",
                 "url": "https://github.com/OpenNeuroDatasets/ds001461",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -589,7 +524,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001497",
                 "url": "https://github.com/OpenNeuroDatasets/ds001497",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -598,7 +532,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001506",
                 "url": "https://github.com/OpenNeuroDatasets/ds001506",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -607,7 +540,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001510",
                 "url": "https://github.com/OpenNeuroDatasets/ds001510",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -616,7 +548,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001511",
                 "url": "https://github.com/OpenNeuroDatasets/ds001511",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -625,7 +556,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001517",
                 "url": "https://github.com/OpenNeuroDatasets/ds001517",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -634,7 +564,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001525",
                 "url": "https://github.com/OpenNeuroDatasets/ds001525",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -643,7 +572,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001653",
                 "url": "https://github.com/OpenNeuroDatasets/ds001653",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -652,7 +580,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001751",
                 "url": "https://github.com/OpenNeuroDatasets/ds001751",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -661,7 +588,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001761",
                 "url": "https://github.com/OpenNeuroDatasets/ds001761",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -670,7 +596,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001769",
                 "url": "https://github.com/OpenNeuroDatasets/ds001769",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -679,7 +604,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001785",
                 "url": "https://github.com/OpenNeuroDatasets/ds001785",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -688,7 +612,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001787",
                 "url": "https://github.com/OpenNeuroDatasets/ds001787",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -697,7 +620,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001810",
                 "url": "https://github.com/OpenNeuroDatasets/ds001810",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -706,7 +628,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001814",
                 "url": "https://github.com/OpenNeuroDatasets/ds001814",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -715,7 +636,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001838",
                 "url": "https://github.com/OpenNeuroDatasets/ds001838",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -724,7 +644,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001839",
                 "url": "https://github.com/OpenNeuroDatasets/ds001839",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -733,7 +652,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001840",
                 "url": "https://github.com/OpenNeuroDatasets/ds001840",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -742,7 +660,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001847",
                 "url": "https://github.com/OpenNeuroDatasets/ds001847",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -751,7 +668,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001883",
                 "url": "https://github.com/OpenNeuroDatasets/ds001883",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -760,7 +676,6 @@
             {
                 "name": "OpenNeuroDatasets/ds001894",
                 "url": "https://github.com/OpenNeuroDatasets/ds001894",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -769,7 +684,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002016",
                 "url": "https://github.com/OpenNeuroDatasets/ds002016",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -778,7 +692,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002033",
                 "url": "https://github.com/OpenNeuroDatasets/ds002033",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -787,7 +700,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002041",
                 "url": "https://github.com/OpenNeuroDatasets/ds002041",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -796,7 +708,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002080",
                 "url": "https://github.com/OpenNeuroDatasets/ds002080",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -805,7 +716,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002134",
                 "url": "https://github.com/OpenNeuroDatasets/ds002134",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -814,7 +724,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002168",
                 "url": "https://github.com/OpenNeuroDatasets/ds002168",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -823,7 +732,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002241",
                 "url": "https://github.com/OpenNeuroDatasets/ds002241",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -832,7 +740,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002250",
                 "url": "https://github.com/OpenNeuroDatasets/ds002250",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -841,7 +748,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002307",
                 "url": "https://github.com/OpenNeuroDatasets/ds002307",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -850,7 +756,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002328",
                 "url": "https://github.com/OpenNeuroDatasets/ds002328",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -859,7 +764,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002336",
                 "url": "https://github.com/OpenNeuroDatasets/ds002336",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -868,7 +772,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002366",
                 "url": "https://github.com/OpenNeuroDatasets/ds002366",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -877,7 +780,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002380",
                 "url": "https://github.com/OpenNeuroDatasets/ds002380",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -886,7 +788,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002382",
                 "url": "https://github.com/OpenNeuroDatasets/ds002382",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -895,7 +796,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002422",
                 "url": "https://github.com/OpenNeuroDatasets/ds002422",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -904,7 +804,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002543",
                 "url": "https://github.com/OpenNeuroDatasets/ds002543",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -913,7 +812,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002549",
                 "url": "https://github.com/OpenNeuroDatasets/ds002549",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -922,7 +820,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002574",
                 "url": "https://github.com/OpenNeuroDatasets/ds002574",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -931,7 +828,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002596",
                 "url": "https://github.com/OpenNeuroDatasets/ds002596",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -940,7 +836,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002602",
                 "url": "https://github.com/OpenNeuroDatasets/ds002602",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -949,7 +844,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002608",
                 "url": "https://github.com/OpenNeuroDatasets/ds002608",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -958,7 +852,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002609",
                 "url": "https://github.com/OpenNeuroDatasets/ds002609",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -967,7 +860,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002614",
                 "url": "https://github.com/OpenNeuroDatasets/ds002614",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -976,7 +868,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002634",
                 "url": "https://github.com/OpenNeuroDatasets/ds002634",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -985,7 +876,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002647",
                 "url": "https://github.com/OpenNeuroDatasets/ds002647",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -994,7 +884,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002672",
                 "url": "https://github.com/OpenNeuroDatasets/ds002672",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1003,7 +892,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002674",
                 "url": "https://github.com/OpenNeuroDatasets/ds002674",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1012,7 +900,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002685",
                 "url": "https://github.com/OpenNeuroDatasets/ds002685",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1021,7 +908,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002687",
                 "url": "https://github.com/OpenNeuroDatasets/ds002687",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1030,7 +916,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002712",
                 "url": "https://github.com/OpenNeuroDatasets/ds002712",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1039,7 +924,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002718",
                 "url": "https://github.com/OpenNeuroDatasets/ds002718",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1048,7 +932,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002725",
                 "url": "https://github.com/OpenNeuroDatasets/ds002725",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1057,7 +940,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002727",
                 "url": "https://github.com/OpenNeuroDatasets/ds002727",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1066,7 +948,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002731",
                 "url": "https://github.com/OpenNeuroDatasets/ds002731",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1075,7 +956,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002733",
                 "url": "https://github.com/OpenNeuroDatasets/ds002733",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1084,7 +964,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002734",
                 "url": "https://github.com/OpenNeuroDatasets/ds002734",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -1093,7 +972,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002735",
                 "url": "https://github.com/OpenNeuroDatasets/ds002735",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1102,7 +980,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002737",
                 "url": "https://github.com/OpenNeuroDatasets/ds002737",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1111,7 +988,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002743",
                 "url": "https://github.com/OpenNeuroDatasets/ds002743",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1120,7 +996,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002750",
                 "url": "https://github.com/OpenNeuroDatasets/ds002750",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1129,7 +1004,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002766",
                 "url": "https://github.com/OpenNeuroDatasets/ds002766",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1138,7 +1012,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002773",
                 "url": "https://github.com/OpenNeuroDatasets/ds002773",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1147,7 +1020,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002778",
                 "url": "https://github.com/OpenNeuroDatasets/ds002778",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1156,7 +1028,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002785",
                 "url": "https://github.com/OpenNeuroDatasets/ds002785",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1165,7 +1036,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002790",
                 "url": "https://github.com/OpenNeuroDatasets/ds002790",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1174,7 +1044,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002797",
                 "url": "https://github.com/OpenNeuroDatasets/ds002797",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1183,7 +1052,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002833",
                 "url": "https://github.com/OpenNeuroDatasets/ds002833",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1192,7 +1060,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002842",
                 "url": "https://github.com/OpenNeuroDatasets/ds002842",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1201,7 +1068,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002848",
                 "url": "https://github.com/OpenNeuroDatasets/ds002848",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1210,7 +1076,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002878",
                 "url": "https://github.com/OpenNeuroDatasets/ds002878",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1219,7 +1084,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002879",
                 "url": "https://github.com/OpenNeuroDatasets/ds002879",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1228,7 +1092,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002886",
                 "url": "https://github.com/OpenNeuroDatasets/ds002886",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1237,7 +1100,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002896",
                 "url": "https://github.com/OpenNeuroDatasets/ds002896",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1246,7 +1108,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002900",
                 "url": "https://github.com/OpenNeuroDatasets/ds002900",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1255,7 +1116,6 @@
             {
                 "name": "OpenNeuroDatasets/ds002995",
                 "url": "https://github.com/OpenNeuroDatasets/ds002995",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1264,7 +1124,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003004",
                 "url": "https://github.com/OpenNeuroDatasets/ds003004",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1273,7 +1132,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003011",
                 "url": "https://github.com/OpenNeuroDatasets/ds003011",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1282,7 +1140,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003012",
                 "url": "https://github.com/OpenNeuroDatasets/ds003012",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1291,7 +1148,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003017",
                 "url": "https://github.com/OpenNeuroDatasets/ds003017",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1300,7 +1156,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003027",
                 "url": "https://github.com/OpenNeuroDatasets/ds003027",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1309,7 +1164,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003029",
                 "url": "https://github.com/OpenNeuroDatasets/ds003029",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1318,7 +1172,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003037",
                 "url": "https://github.com/OpenNeuroDatasets/ds003037",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1327,7 +1180,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003061",
                 "url": "https://github.com/OpenNeuroDatasets/ds003061",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1336,7 +1188,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003076",
                 "url": "https://github.com/OpenNeuroDatasets/ds003076",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1345,7 +1196,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003082",
                 "url": "https://github.com/OpenNeuroDatasets/ds003082",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1354,7 +1204,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003083",
                 "url": "https://github.com/OpenNeuroDatasets/ds003083",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1363,7 +1212,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003097",
                 "url": "https://github.com/OpenNeuroDatasets/ds003097",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1372,7 +1220,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003103",
                 "url": "https://github.com/OpenNeuroDatasets/ds003103",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1381,7 +1228,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003145",
                 "url": "https://github.com/OpenNeuroDatasets/ds003145",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1390,7 +1236,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003151",
                 "url": "https://github.com/OpenNeuroDatasets/ds003151",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1399,7 +1244,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003170",
                 "url": "https://github.com/OpenNeuroDatasets/ds003170",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1408,7 +1252,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003171",
                 "url": "https://github.com/OpenNeuroDatasets/ds003171",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1417,7 +1260,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003190",
                 "url": "https://github.com/OpenNeuroDatasets/ds003190",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1426,7 +1268,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003194",
                 "url": "https://github.com/OpenNeuroDatasets/ds003194",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1435,7 +1276,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003195",
                 "url": "https://github.com/OpenNeuroDatasets/ds003195",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1444,7 +1284,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003233",
                 "url": "https://github.com/OpenNeuroDatasets/ds003233",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1453,7 +1292,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003242",
                 "url": "https://github.com/OpenNeuroDatasets/ds003242",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1462,7 +1300,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003325",
                 "url": "https://github.com/OpenNeuroDatasets/ds003325",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1471,7 +1308,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003342",
                 "url": "https://github.com/OpenNeuroDatasets/ds003342",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1480,7 +1316,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003345",
                 "url": "https://github.com/OpenNeuroDatasets/ds003345",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1489,7 +1324,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003346",
                 "url": "https://github.com/OpenNeuroDatasets/ds003346",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1498,7 +1332,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003382",
                 "url": "https://github.com/OpenNeuroDatasets/ds003382",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1507,7 +1340,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003416",
                 "url": "https://github.com/OpenNeuroDatasets/ds003416",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1516,7 +1348,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003417",
                 "url": "https://github.com/OpenNeuroDatasets/ds003417",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1525,7 +1356,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003430",
                 "url": "https://github.com/OpenNeuroDatasets/ds003430",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1534,7 +1364,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003436",
                 "url": "https://github.com/OpenNeuroDatasets/ds003436",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1543,7 +1372,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003437",
                 "url": "https://github.com/OpenNeuroDatasets/ds003437",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1552,7 +1380,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003438",
                 "url": "https://github.com/OpenNeuroDatasets/ds003438",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1561,7 +1388,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003439",
                 "url": "https://github.com/OpenNeuroDatasets/ds003439",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1570,7 +1396,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003440",
                 "url": "https://github.com/OpenNeuroDatasets/ds003440",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1579,7 +1404,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003441",
                 "url": "https://github.com/OpenNeuroDatasets/ds003441",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1588,7 +1412,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003442",
                 "url": "https://github.com/OpenNeuroDatasets/ds003442",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1597,7 +1420,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003443",
                 "url": "https://github.com/OpenNeuroDatasets/ds003443",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1606,7 +1428,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003444",
                 "url": "https://github.com/OpenNeuroDatasets/ds003444",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1615,7 +1436,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003445",
                 "url": "https://github.com/OpenNeuroDatasets/ds003445",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1624,7 +1444,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003446",
                 "url": "https://github.com/OpenNeuroDatasets/ds003446",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1633,7 +1452,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003452",
                 "url": "https://github.com/OpenNeuroDatasets/ds003452",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1642,7 +1460,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003453",
                 "url": "https://github.com/OpenNeuroDatasets/ds003453",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1651,7 +1468,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003454",
                 "url": "https://github.com/OpenNeuroDatasets/ds003454",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1660,7 +1476,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003455",
                 "url": "https://github.com/OpenNeuroDatasets/ds003455",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1669,7 +1484,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003458",
                 "url": "https://github.com/OpenNeuroDatasets/ds003458",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1678,7 +1492,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003459",
                 "url": "https://github.com/OpenNeuroDatasets/ds003459",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1687,7 +1500,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003463",
                 "url": "https://github.com/OpenNeuroDatasets/ds003463",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1696,7 +1508,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003464",
                 "url": "https://github.com/OpenNeuroDatasets/ds003464",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1705,7 +1516,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003466",
                 "url": "https://github.com/OpenNeuroDatasets/ds003466",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1714,7 +1524,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003468",
                 "url": "https://github.com/OpenNeuroDatasets/ds003468",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1723,7 +1532,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003469",
                 "url": "https://github.com/OpenNeuroDatasets/ds003469",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1732,7 +1540,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003470",
                 "url": "https://github.com/OpenNeuroDatasets/ds003470",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1741,7 +1548,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003477",
                 "url": "https://github.com/OpenNeuroDatasets/ds003477",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1750,7 +1556,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003478",
                 "url": "https://github.com/OpenNeuroDatasets/ds003478",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1759,7 +1564,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003481",
                 "url": "https://github.com/OpenNeuroDatasets/ds003481",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1768,7 +1572,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003483",
                 "url": "https://github.com/OpenNeuroDatasets/ds003483",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1777,7 +1580,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003495",
                 "url": "https://github.com/OpenNeuroDatasets/ds003495",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1786,7 +1588,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003498",
                 "url": "https://github.com/OpenNeuroDatasets/ds003498",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1795,7 +1596,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003500",
                 "url": "https://github.com/OpenNeuroDatasets/ds003500",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1804,7 +1604,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003505",
                 "url": "https://github.com/OpenNeuroDatasets/ds003505",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1813,7 +1612,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003511",
                 "url": "https://github.com/OpenNeuroDatasets/ds003511",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1822,7 +1620,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003517",
                 "url": "https://github.com/OpenNeuroDatasets/ds003517",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1831,7 +1628,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003518",
                 "url": "https://github.com/OpenNeuroDatasets/ds003518",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1840,7 +1636,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003519",
                 "url": "https://github.com/OpenNeuroDatasets/ds003519",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1849,7 +1644,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003520",
                 "url": "https://github.com/OpenNeuroDatasets/ds003520",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1858,7 +1652,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003521",
                 "url": "https://github.com/OpenNeuroDatasets/ds003521",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1867,7 +1660,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003522",
                 "url": "https://github.com/OpenNeuroDatasets/ds003522",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1876,7 +1668,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003523",
                 "url": "https://github.com/OpenNeuroDatasets/ds003523",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1885,7 +1676,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003524",
                 "url": "https://github.com/OpenNeuroDatasets/ds003524",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1894,7 +1684,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003540",
                 "url": "https://github.com/OpenNeuroDatasets/ds003540",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1903,7 +1692,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003542",
                 "url": "https://github.com/OpenNeuroDatasets/ds003542",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1912,7 +1700,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003545",
                 "url": "https://github.com/OpenNeuroDatasets/ds003545",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1921,7 +1708,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003548",
                 "url": "https://github.com/OpenNeuroDatasets/ds003548",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1930,7 +1716,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003552",
                 "url": "https://github.com/OpenNeuroDatasets/ds003552",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1939,7 +1724,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003555",
                 "url": "https://github.com/OpenNeuroDatasets/ds003555",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1948,7 +1732,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003563",
                 "url": "https://github.com/OpenNeuroDatasets/ds003563",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -1957,7 +1740,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003565",
                 "url": "https://github.com/OpenNeuroDatasets/ds003565",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1966,7 +1748,6 @@
             {
                 "name": "OpenNeuroDatasets/ds003568",
                 "url": "https://github.com/OpenNeuroDatasets/ds003568",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1975,7 +1756,6 @@
             {
                 "name": "OpenNeuroDev/ds001095",
                 "url": "https://github.com/OpenNeuroDev/ds001095",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1984,7 +1764,6 @@
             {
                 "name": "OpenNeuroDev/ds001501",
                 "url": "https://github.com/OpenNeuroDev/ds001501",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -1993,7 +1772,6 @@
             {
                 "name": "PennSIVE/UVMdata",
                 "url": "https://github.com/PennSIVE/UVMdata",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -2002,7 +1780,6 @@
             {
                 "name": "PennSIVE/agespan7t",
                 "url": "https://github.com/PennSIVE/agespan7t",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -2011,7 +1788,6 @@
             {
                 "name": "PennSIVE/hyperfine",
                 "url": "https://github.com/PennSIVE/hyperfine",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2020,7 +1796,6 @@
             {
                 "name": "PennSIVE/insurance",
                 "url": "https://github.com/PennSIVE/insurance",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2029,7 +1804,6 @@
             {
                 "name": "Raj-Lab-UCSF/Human_Brain_Atlases",
                 "url": "https://github.com/Raj-Lab-UCSF/Human_Brain_Atlases",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2038,7 +1812,6 @@
             {
                 "name": "Raj-Lab-UCSF/Human_Brain_Atlases-brainnectome",
                 "url": "https://github.com/Raj-Lab-UCSF/Human_Brain_Atlases-brainnectome",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2047,7 +1820,6 @@
             {
                 "name": "Raj-Lab-UCSF/Human_Brain_Atlases-desikan-killiany",
                 "url": "https://github.com/Raj-Lab-UCSF/Human_Brain_Atlases-desikan-killiany",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2056,7 +1828,6 @@
             {
                 "name": "Remi-Gau/rvm5HTsource",
                 "url": "https://github.com/Remi-Gau/rvm5HTsource",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": true,
@@ -2065,7 +1836,6 @@
             {
                 "name": "ReproNim/ReproTube",
                 "url": "https://github.com/ReproNim/ReproTube",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2074,7 +1844,6 @@
             {
                 "name": "ReproNim/coco2019-training",
                 "url": "https://github.com/ReproNim/coco2019-training",
-                "ours": false,
                 "stars": 3,
                 "dataset": true,
                 "run": false,
@@ -2083,7 +1852,6 @@
             {
                 "name": "ReproNim/containers",
                 "url": "https://github.com/ReproNim/containers",
-                "ours": false,
                 "stars": 13,
                 "dataset": true,
                 "run": true,
@@ -2092,7 +1860,6 @@
             {
                 "name": "ReproNim/containers-artwork",
                 "url": "https://github.com/ReproNim/containers-artwork",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2101,7 +1868,6 @@
             {
                 "name": "ReproNim/ds000003-demo",
                 "url": "https://github.com/ReproNim/ds000003-demo",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2110,7 +1876,6 @@
             {
                 "name": "ReproNim/ds000003-qc",
                 "url": "https://github.com/ReproNim/ds000003-qc",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -2119,7 +1884,6 @@
             {
                 "name": "ReproNim/module-reproducible-basics",
                 "url": "https://github.com/ReproNim/module-reproducible-basics",
-                "ours": false,
                 "stars": 6,
                 "dataset": false,
                 "run": true,
@@ -2128,7 +1892,6 @@
             {
                 "name": "ReproNim/neurodocker",
                 "url": "https://github.com/ReproNim/neurodocker",
-                "ours": false,
                 "stars": 222,
                 "dataset": false,
                 "run": true,
@@ -2137,7 +1900,6 @@
             {
                 "name": "ReproNim/openneuro-tools",
                 "url": "https://github.com/ReproNim/openneuro-tools",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2146,7 +1908,6 @@
             {
                 "name": "ReproNim/publications",
                 "url": "https://github.com/ReproNim/publications",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2155,7 +1916,6 @@
             {
                 "name": "ReproNim/reproin",
                 "url": "https://github.com/ReproNim/reproin",
-                "ours": false,
                 "stars": 37,
                 "dataset": false,
                 "run": true,
@@ -2164,7 +1924,6 @@
             {
                 "name": "ReproNim/reproman",
                 "url": "https://github.com/ReproNim/reproman",
-                "ours": false,
                 "stars": 21,
                 "dataset": false,
                 "run": true,
@@ -2173,7 +1932,6 @@
             {
                 "name": "ReproNim/sfn2018-training",
                 "url": "https://github.com/ReproNim/sfn2018-training",
-                "ours": false,
                 "stars": 2,
                 "dataset": true,
                 "run": false,
@@ -2182,7 +1940,6 @@
             {
                 "name": "ReproNim/webinar-2020-reprocomp",
                 "url": "https://github.com/ReproNim/webinar-2020-reprocomp",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2191,7 +1948,6 @@
             {
                 "name": "SIMEXP/fmriprep-reproducibility",
                 "url": "https://github.com/SIMEXP/fmriprep-reproducibility",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -2200,7 +1956,6 @@
             {
                 "name": "TomasLenc/midtermproject",
                 "url": "https://github.com/TomasLenc/midtermproject",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -2209,7 +1964,6 @@
             {
                 "name": "adswa/BIDSsacc",
                 "url": "https://github.com/adswa/BIDSsacc",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2218,7 +1972,6 @@
             {
                 "name": "adswa/DataLad-101",
                 "url": "https://github.com/adswa/DataLad-101",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2227,7 +1980,6 @@
             {
                 "name": "adswa/DataLad-101-tagged",
                 "url": "https://github.com/adswa/DataLad-101-tagged",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2236,7 +1988,6 @@
             {
                 "name": "adswa/multimatch_forrest",
                 "url": "https://github.com/adswa/multimatch_forrest",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -2245,7 +1996,6 @@
             {
                 "name": "adswa/myanalysis",
                 "url": "https://github.com/adswa/myanalysis",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2254,7 +2004,6 @@
             {
                 "name": "adswa/papers",
                 "url": "https://github.com/adswa/papers",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2263,7 +2012,6 @@
             {
                 "name": "adswa/python-ml",
                 "url": "https://github.com/adswa/python-ml",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2272,7 +2020,6 @@
             {
                 "name": "adswa/seafile",
                 "url": "https://github.com/adswa/seafile",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2281,7 +2028,6 @@
             {
                 "name": "adswa/talk-computational-reproducibility",
                 "url": "https://github.com/adswa/talk-computational-reproducibility",
-                "ours": false,
                 "stars": 8,
                 "dataset": true,
                 "run": false,
@@ -2290,7 +2036,6 @@
             {
                 "name": "adswa/windowstesting",
                 "url": "https://github.com/adswa/windowstesting",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -2299,7 +2044,6 @@
             {
                 "name": "adswa/workflow-testing",
                 "url": "https://github.com/adswa/workflow-testing",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2308,7 +2052,6 @@
             {
                 "name": "adswa/working",
                 "url": "https://github.com/adswa/working",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2317,7 +2060,6 @@
             {
                 "name": "adulbo28/docker",
                 "url": "https://github.com/adulbo28/docker",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2326,7 +2068,6 @@
             {
                 "name": "afni/afni_atlases",
                 "url": "https://github.com/afni/afni_atlases",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2335,7 +2076,6 @@
             {
                 "name": "afni/afni_ci_test_data",
                 "url": "https://github.com/afni/afni_ci_test_data",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": true,
@@ -2344,7 +2084,6 @@
             {
                 "name": "akhanf/test_datalad",
                 "url": "https://github.com/akhanf/test_datalad",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2353,7 +2092,6 @@
             {
                 "name": "aragilar/PPDSolutions",
                 "url": "https://github.com/aragilar/PPDSolutions",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2362,7 +2100,6 @@
             {
                 "name": "axiezai/collab-git-tutorial",
                 "url": "https://github.com/axiezai/collab-git-tutorial",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2371,7 +2108,6 @@
             {
                 "name": "beckolson/mytest",
                 "url": "https://github.com/beckolson/mytest",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2380,7 +2116,6 @@
             {
                 "name": "bids-standard/bids-bep016",
                 "url": "https://github.com/bids-standard/bids-bep016",
-                "ours": false,
                 "stars": 4,
                 "dataset": false,
                 "run": true,
@@ -2389,7 +2124,6 @@
             {
                 "name": "bids-standard/bids-specification",
                 "url": "https://github.com/bids-standard/bids-specification",
-                "ours": false,
                 "stars": 151,
                 "dataset": false,
                 "run": true,
@@ -2398,7 +2132,6 @@
             {
                 "name": "big-data-lab-team/bigbrain-datalad",
                 "url": "https://github.com/big-data-lab-team/bigbrain-datalad",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2407,7 +2140,6 @@
             {
                 "name": "big-data-lab-team/openpain-BrainNetworkChange_Mano",
                 "url": "https://github.com/big-data-lab-team/openpain-BrainNetworkChange_Mano",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2416,7 +2148,6 @@
             {
                 "name": "big-data-lab-team/openpain-cbp_resting",
                 "url": "https://github.com/big-data-lab-team/openpain-cbp_resting",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2425,7 +2156,6 @@
             {
                 "name": "big-data-lab-team/openpain-placebo_1",
                 "url": "https://github.com/big-data-lab-team/openpain-placebo_1",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -2434,7 +2164,6 @@
             {
                 "name": "big-data-lab-team/openpain-placebo_predict_tetreault",
                 "url": "https://github.com/big-data-lab-team/openpain-placebo_predict_tetreault",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2443,7 +2172,6 @@
             {
                 "name": "big-data-lab-team/openpain-subacute_longitudinal_study",
                 "url": "https://github.com/big-data-lab-team/openpain-subacute_longitudinal_study",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -2452,7 +2180,6 @@
             {
                 "name": "big-data-lab-team/openpain-thermal",
                 "url": "https://github.com/big-data-lab-team/openpain-thermal",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2461,7 +2188,6 @@
             {
                 "name": "bioimagesuiteweb/bisweb",
                 "url": "https://github.com/bioimagesuiteweb/bisweb",
-                "ours": false,
                 "stars": 58,
                 "dataset": false,
                 "run": true,
@@ -2470,7 +2196,6 @@
             {
                 "name": "brainhack-school2020/stephaniealley_bhs2020_project",
                 "url": "https://github.com/brainhack-school2020/stephaniealley_bhs2020_project",
-                "ours": false,
                 "stars": 1,
                 "dataset": false,
                 "run": true,
@@ -2479,7 +2204,6 @@
             {
                 "name": "chrispycheng/qa",
                 "url": "https://github.com/chrispycheng/qa",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2488,7 +2212,6 @@
             {
                 "name": "chrisvdt/midtermproject",
                 "url": "https://github.com/chrisvdt/midtermproject",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -2497,7 +2220,6 @@
             {
                 "name": "cmadjar/test_tmp2",
                 "url": "https://github.com/cmadjar/test_tmp2",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2506,7 +2228,6 @@
             {
                 "name": "con/centerforopenneuroscience.org",
                 "url": "https://github.com/con/centerforopenneuroscience.org",
-                "ours": false,
                 "stars": 2,
                 "dataset": true,
                 "run": true,
@@ -2515,7 +2236,6 @@
             {
                 "name": "con/open-brain-consent",
                 "url": "https://github.com/con/open-brain-consent",
-                "ours": false,
                 "stars": 36,
                 "dataset": false,
                 "run": true,
@@ -2524,7 +2244,6 @@
             {
                 "name": "con/shub",
                 "url": "https://github.com/con/shub",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -2533,7 +2252,6 @@
             {
                 "name": "conp-bot/conp-dataset-Another_Private_Test",
                 "url": "https://github.com/conp-bot/conp-dataset-Another_Private_Test",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2542,7 +2260,6 @@
             {
                 "name": "conp-bot/conp-dataset-CFMM-7T-MP2RAGE-T1-mapping",
                 "url": "https://github.com/conp-bot/conp-dataset-CFMM-7T-MP2RAGE-T1-mapping",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2551,7 +2268,6 @@
             {
                 "name": "conp-bot/conp-dataset-Comparing-Perturbation-Modes-for-Evaluating-Instabilities-in-Neuroimaging-Processed-NK",
                 "url": "https://github.com/conp-bot/conp-dataset-Comparing-Perturbation-Modes-for-Evaluating-Instabilities-in-Neuroimaging-Processed-NK",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2560,7 +2276,6 @@
             {
                 "name": "conp-bot/conp-dataset-Expression-based-polygenic-score-from-the-amygdala-5HTT-gene-network",
                 "url": "https://github.com/conp-bot/conp-dataset-Expression-based-polygenic-score-from-the-amygdala-5HTT-gene-network",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2569,7 +2284,6 @@
             {
                 "name": "conp-bot/conp-dataset-Fork-of-Calgary-Preschool-MRI-Dataset",
                 "url": "https://github.com/conp-bot/conp-dataset-Fork-of-Calgary-Preschool-MRI-Dataset",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2578,7 +2292,6 @@
             {
                 "name": "conp-bot/conp-dataset-Longitudinal-structural-MRI-and-behavioural-data-for-mice-prenatally-exposed-to-materna",
                 "url": "https://github.com/conp-bot/conp-dataset-Longitudinal-structural-MRI-and-behavioural-data-for-mice-prenatally-exposed-to-materna",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2587,7 +2300,6 @@
             {
                 "name": "conp-bot/conp-dataset-MRI_and_unbiased_averages_of_wild_muskrats__Ondatra_zibethicus__and_red_squirrels__Tami",
                 "url": "https://github.com/conp-bot/conp-dataset-MRI_and_unbiased_averages_of_wild_muskrats__Ondatra_zibethicus__and_red_squirrels__Tami",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2596,7 +2308,6 @@
             {
                 "name": "conp-bot/conp-dataset-Multimodal-data-with-wide-field-GCaMP-imaging",
                 "url": "https://github.com/conp-bot/conp-dataset-Multimodal-data-with-wide-field-GCaMP-imaging",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2605,7 +2316,6 @@
             {
                 "name": "conp-bot/conp-dataset-Numerically-Perturbed-Structural-Connectomes-from-100-individuals-in-the-NKI-Rockland-D",
                 "url": "https://github.com/conp-bot/conp-dataset-Numerically-Perturbed-Structural-Connectomes-from-100-individuals-in-the-NKI-Rockland-D",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2614,7 +2324,6 @@
             {
                 "name": "conp-bot/conp-dataset-Open-Access-The-Effect-of-Neurorehabilitation-on-Multiple-Sclerosis-Unlocking-the-Re",
                 "url": "https://github.com/conp-bot/conp-dataset-Open-Access-The-Effect-of-Neurorehabilitation-on-Multiple-Sclerosis-Unlocking-the-Re",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2623,7 +2332,6 @@
             {
                 "name": "conp-bot/conp-dataset-PERFORM-Dataset-one-control-subject",
                 "url": "https://github.com/conp-bot/conp-dataset-PERFORM-Dataset-one-control-subject",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2632,7 +2340,6 @@
             {
                 "name": "conp-bot/conp-dataset-Quantifying-Neural-Cognitive-Relationships-Across-the-Brain",
                 "url": "https://github.com/conp-bot/conp-dataset-Quantifying-Neural-Cognitive-Relationships-Across-the-Brain",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2641,7 +2348,6 @@
             {
                 "name": "conp-bot/conp-dataset-Synthetic-Animated-Mouse-SAM-University-of-British-Columbia-Datasets-and-3D-models",
                 "url": "https://github.com/conp-bot/conp-dataset-Synthetic-Animated-Mouse-SAM-University-of-British-Columbia-Datasets-and-3D-models",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2650,7 +2356,6 @@
             {
                 "name": "conp-bot/conp-dataset-This-is-a-test-for-the-crawlers",
                 "url": "https://github.com/conp-bot/conp-dataset-This-is-a-test-for-the-crawlers",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2659,7 +2364,6 @@
             {
                 "name": "conp-bot/conp-dataset-VFA_T1_mapping___RTHawk__open__vs_Siemens__commercial_",
                 "url": "https://github.com/conp-bot/conp-dataset-VFA_T1_mapping___RTHawk__open__vs_Siemens__commercial_",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2668,7 +2372,6 @@
             {
                 "name": "conpdatasets/BigBrain_3DROIs",
                 "url": "https://github.com/conpdatasets/BigBrain_3DROIs",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2677,7 +2380,6 @@
             {
                 "name": "conpdatasets/BigBrain_3D_MRI",
                 "url": "https://github.com/conpdatasets/BigBrain_3D_MRI",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2686,7 +2388,6 @@
             {
                 "name": "conpdatasets/BigBrain_A3D",
                 "url": "https://github.com/conpdatasets/BigBrain_A3D",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2695,7 +2396,6 @@
             {
                 "name": "conpdatasets/BigBrain_BigBrainWarp_Support",
                 "url": "https://github.com/conpdatasets/BigBrain_BigBrainWarp_Support",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2704,7 +2404,6 @@
             {
                 "name": "conpdatasets/BigBrain_Hippocampus_Segmentation",
                 "url": "https://github.com/conpdatasets/BigBrain_Hippocampus_Segmentation",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2713,7 +2412,6 @@
             {
                 "name": "conpdatasets/BigBrain_MRISIM",
                 "url": "https://github.com/conpdatasets/BigBrain_MRISIM",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2722,7 +2420,6 @@
             {
                 "name": "conpdatasets/BigBrain_Surface_Parcellations",
                 "url": "https://github.com/conpdatasets/BigBrain_Surface_Parcellations",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2731,7 +2428,6 @@
             {
                 "name": "conpdatasets/CHBMP",
                 "url": "https://github.com/conpdatasets/CHBMP",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2740,7 +2436,6 @@
             {
                 "name": "conpdatasets/Multi-model_functionalization_of_disease-associated_PTEN_missense_mutations",
                 "url": "https://github.com/conpdatasets/Multi-model_functionalization_of_disease-associated_PTEN_missense_mutations",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -2749,7 +2444,6 @@
             {
                 "name": "conpdatasets/SIMON-dataset",
                 "url": "https://github.com/conpdatasets/SIMON-dataset",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -2758,7 +2452,6 @@
             {
                 "name": "conpdatasets/braincode_Mouse_Image",
                 "url": "https://github.com/conpdatasets/braincode_Mouse_Image",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2767,7 +2460,6 @@
             {
                 "name": "conpdatasets/braincode_NDD_Priority_Setting_Partnership",
                 "url": "https://github.com/conpdatasets/braincode_NDD_Priority_Setting_Partnership",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2776,7 +2468,6 @@
             {
                 "name": "conpdatasets/braincode_fBIRN",
                 "url": "https://github.com/conpdatasets/braincode_fBIRN",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2785,7 +2476,6 @@
             {
                 "name": "conpdatasets/multicenter-phantom",
                 "url": "https://github.com/conpdatasets/multicenter-phantom",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2794,7 +2484,6 @@
             {
                 "name": "conpdatasets/preventad-open",
                 "url": "https://github.com/conpdatasets/preventad-open",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2803,7 +2492,6 @@
             {
                 "name": "conpdatasets/preventad-open-bids",
                 "url": "https://github.com/conpdatasets/preventad-open-bids",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -2812,7 +2500,6 @@
             {
                 "name": "conpdatasets/preventad-registered",
                 "url": "https://github.com/conpdatasets/preventad-registered",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -2821,7 +2508,6 @@
             {
                 "name": "conpdatasets/preventad-registered-clinical-data",
                 "url": "https://github.com/conpdatasets/preventad-registered-clinical-data",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2830,7 +2516,6 @@
             {
                 "name": "conpdatasets/preventad-registered-images-in-BIDS",
                 "url": "https://github.com/conpdatasets/preventad-registered-images-in-BIDS",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2839,7 +2524,6 @@
             {
                 "name": "conpdatasets/preventad-registered-images-in-MINC",
                 "url": "https://github.com/conpdatasets/preventad-registered-images-in-MINC",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2848,7 +2532,6 @@
             {
                 "name": "courtois-neuromod/IBC",
                 "url": "https://github.com/courtois-neuromod/IBC",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2857,7 +2540,6 @@
             {
                 "name": "courtois-neuromod/cneuromod",
                 "url": "https://github.com/courtois-neuromod/cneuromod",
-                "ours": false,
                 "stars": 2,
                 "dataset": true,
                 "run": false,
@@ -2866,7 +2548,6 @@
             {
                 "name": "courtois-neuromod/task_stimuli",
                 "url": "https://github.com/courtois-neuromod/task_stimuli",
-                "ours": false,
                 "stars": 2,
                 "dataset": true,
                 "run": false,
@@ -2875,7 +2556,6 @@
             {
                 "name": "cryo-data/QGreenland",
                 "url": "https://github.com/cryo-data/QGreenland",
-                "ours": false,
                 "stars": 1,
                 "dataset": false,
                 "run": true,
@@ -2884,7 +2564,6 @@
             {
                 "name": "dandi-containers/pynwb-mpi",
                 "url": "https://github.com/dandi-containers/pynwb-mpi",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2893,7 +2572,6 @@
             {
                 "name": "dandi/dandi-api-datasets",
                 "url": "https://github.com/dandi/dandi-api-datasets",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -2902,7 +2580,6 @@
             {
                 "name": "dandi/dandi-api-webshots",
                 "url": "https://github.com/dandi/dandi-api-webshots",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -2911,7 +2588,6 @@
             {
                 "name": "dandi/dandi-cli",
                 "url": "https://github.com/dandi/dandi-cli",
-                "ours": false,
                 "stars": 5,
                 "dataset": false,
                 "run": true,
@@ -2920,7 +2596,6 @@
             {
                 "name": "dandi/dandischema",
                 "url": "https://github.com/dandi/dandischema",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2929,7 +2604,6 @@
             {
                 "name": "dandi/dandisets",
                 "url": "https://github.com/dandi/dandisets",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": true,
@@ -2938,7 +2612,6 @@
             {
                 "name": "dandi/metadata-dumps",
                 "url": "https://github.com/dandi/metadata-dumps",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2947,7 +2620,6 @@
             {
                 "name": "dandi/ndx-dandi",
                 "url": "https://github.com/dandi/ndx-dandi",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2956,7 +2628,6 @@
             {
                 "name": "dandi/nwb-healthstatus",
                 "url": "https://github.com/dandi/nwb-healthstatus",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -2965,7 +2636,6 @@
             {
                 "name": "dandi/redirector",
                 "url": "https://github.com/dandi/redirector",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -2974,7 +2644,6 @@
             {
                 "name": "dandi/schema",
                 "url": "https://github.com/dandi/schema",
-                "ours": false,
                 "stars": 1,
                 "dataset": false,
                 "run": true,
@@ -2983,7 +2652,6 @@
             {
                 "name": "dandisets-testing/000003",
                 "url": "https://github.com/dandisets-testing/000003",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -2992,7 +2660,6 @@
             {
                 "name": "dandisets-testing/000004",
                 "url": "https://github.com/dandisets-testing/000004",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3001,7 +2668,6 @@
             {
                 "name": "dandisets-testing/000005",
                 "url": "https://github.com/dandisets-testing/000005",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3010,7 +2676,6 @@
             {
                 "name": "dandisets-testing/000006",
                 "url": "https://github.com/dandisets-testing/000006",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3019,7 +2684,6 @@
             {
                 "name": "dandisets-testing/000007",
                 "url": "https://github.com/dandisets-testing/000007",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3028,7 +2692,6 @@
             {
                 "name": "dandisets-testing/000008",
                 "url": "https://github.com/dandisets-testing/000008",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3037,7 +2700,6 @@
             {
                 "name": "dandisets-testing/000009",
                 "url": "https://github.com/dandisets-testing/000009",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3046,7 +2708,6 @@
             {
                 "name": "dandisets-testing/000010",
                 "url": "https://github.com/dandisets-testing/000010",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3055,7 +2716,6 @@
             {
                 "name": "dandisets-testing/000011",
                 "url": "https://github.com/dandisets-testing/000011",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3064,7 +2724,6 @@
             {
                 "name": "dandisets-testing/000012",
                 "url": "https://github.com/dandisets-testing/000012",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3073,7 +2732,6 @@
             {
                 "name": "dandisets-testing/000013",
                 "url": "https://github.com/dandisets-testing/000013",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3082,7 +2740,6 @@
             {
                 "name": "dandisets-testing/000015",
                 "url": "https://github.com/dandisets-testing/000015",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3091,7 +2748,6 @@
             {
                 "name": "dandisets-testing/000016",
                 "url": "https://github.com/dandisets-testing/000016",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3100,7 +2756,6 @@
             {
                 "name": "dandisets-testing/000017",
                 "url": "https://github.com/dandisets-testing/000017",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3109,7 +2764,6 @@
             {
                 "name": "dandisets-testing/000018",
                 "url": "https://github.com/dandisets-testing/000018",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3118,7 +2772,6 @@
             {
                 "name": "dandisets-testing/000019",
                 "url": "https://github.com/dandisets-testing/000019",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3127,7 +2780,6 @@
             {
                 "name": "dandisets-testing/000020",
                 "url": "https://github.com/dandisets-testing/000020",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3136,7 +2788,6 @@
             {
                 "name": "dandisets-testing/000021",
                 "url": "https://github.com/dandisets-testing/000021",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3145,7 +2796,6 @@
             {
                 "name": "dandisets-testing/000022",
                 "url": "https://github.com/dandisets-testing/000022",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3154,7 +2804,6 @@
             {
                 "name": "dandisets-testing/000023",
                 "url": "https://github.com/dandisets-testing/000023",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3163,7 +2812,6 @@
             {
                 "name": "dandisets-testing/000024",
                 "url": "https://github.com/dandisets-testing/000024",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3172,7 +2820,6 @@
             {
                 "name": "dandisets-testing/000025",
                 "url": "https://github.com/dandisets-testing/000025",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3181,7 +2828,6 @@
             {
                 "name": "dandisets-testing/000027",
                 "url": "https://github.com/dandisets-testing/000027",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3190,7 +2836,6 @@
             {
                 "name": "dandisets-testing/000028",
                 "url": "https://github.com/dandisets-testing/000028",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3199,7 +2844,6 @@
             {
                 "name": "dandisets-testing/000029",
                 "url": "https://github.com/dandisets-testing/000029",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3208,7 +2852,6 @@
             {
                 "name": "dandisets-testing/000030",
                 "url": "https://github.com/dandisets-testing/000030",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3217,7 +2860,6 @@
             {
                 "name": "dandisets-testing/000031",
                 "url": "https://github.com/dandisets-testing/000031",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3226,7 +2868,6 @@
             {
                 "name": "dandisets-testing/000032",
                 "url": "https://github.com/dandisets-testing/000032",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3235,7 +2876,6 @@
             {
                 "name": "dandisets-testing/000033",
                 "url": "https://github.com/dandisets-testing/000033",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3244,7 +2884,6 @@
             {
                 "name": "dandisets-testing/000035",
                 "url": "https://github.com/dandisets-testing/000035",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3253,7 +2892,6 @@
             {
                 "name": "dandisets-testing/000041",
                 "url": "https://github.com/dandisets-testing/000041",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3262,7 +2900,6 @@
             {
                 "name": "dandisets/000003",
                 "url": "https://github.com/dandisets/000003",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3271,7 +2908,6 @@
             {
                 "name": "dandisets/000004",
                 "url": "https://github.com/dandisets/000004",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3280,7 +2916,6 @@
             {
                 "name": "dandisets/000005",
                 "url": "https://github.com/dandisets/000005",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3289,7 +2924,6 @@
             {
                 "name": "dandisets/000006",
                 "url": "https://github.com/dandisets/000006",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3298,7 +2932,6 @@
             {
                 "name": "dandisets/000007",
                 "url": "https://github.com/dandisets/000007",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3307,7 +2940,6 @@
             {
                 "name": "dandisets/000008",
                 "url": "https://github.com/dandisets/000008",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3316,7 +2948,6 @@
             {
                 "name": "dandisets/000009",
                 "url": "https://github.com/dandisets/000009",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3325,7 +2956,6 @@
             {
                 "name": "dandisets/000010",
                 "url": "https://github.com/dandisets/000010",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3334,7 +2964,6 @@
             {
                 "name": "dandisets/000011",
                 "url": "https://github.com/dandisets/000011",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3343,7 +2972,6 @@
             {
                 "name": "dandisets/000012",
                 "url": "https://github.com/dandisets/000012",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3352,7 +2980,6 @@
             {
                 "name": "dandisets/000013",
                 "url": "https://github.com/dandisets/000013",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3361,7 +2988,6 @@
             {
                 "name": "dandisets/000015",
                 "url": "https://github.com/dandisets/000015",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3370,7 +2996,6 @@
             {
                 "name": "dandisets/000016",
                 "url": "https://github.com/dandisets/000016",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3379,7 +3004,6 @@
             {
                 "name": "dandisets/000017",
                 "url": "https://github.com/dandisets/000017",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -3388,7 +3012,6 @@
             {
                 "name": "dandisets/000018",
                 "url": "https://github.com/dandisets/000018",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3397,7 +3020,6 @@
             {
                 "name": "dandisets/000019",
                 "url": "https://github.com/dandisets/000019",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3406,7 +3028,6 @@
             {
                 "name": "dandisets/000020",
                 "url": "https://github.com/dandisets/000020",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3415,7 +3036,6 @@
             {
                 "name": "dandisets/000021",
                 "url": "https://github.com/dandisets/000021",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3424,7 +3044,6 @@
             {
                 "name": "dandisets/000022",
                 "url": "https://github.com/dandisets/000022",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3433,7 +3052,6 @@
             {
                 "name": "dandisets/000023",
                 "url": "https://github.com/dandisets/000023",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3442,7 +3060,6 @@
             {
                 "name": "dandisets/000024",
                 "url": "https://github.com/dandisets/000024",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3451,7 +3068,6 @@
             {
                 "name": "dandisets/000025",
                 "url": "https://github.com/dandisets/000025",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3460,7 +3076,6 @@
             {
                 "name": "dandisets/000026",
                 "url": "https://github.com/dandisets/000026",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3469,7 +3084,6 @@
             {
                 "name": "dandisets/000027",
                 "url": "https://github.com/dandisets/000027",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3478,7 +3092,6 @@
             {
                 "name": "dandisets/000028",
                 "url": "https://github.com/dandisets/000028",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3487,7 +3100,6 @@
             {
                 "name": "dandisets/000029",
                 "url": "https://github.com/dandisets/000029",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3496,7 +3108,6 @@
             {
                 "name": "dandisets/000030",
                 "url": "https://github.com/dandisets/000030",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3505,7 +3116,6 @@
             {
                 "name": "dandisets/000031",
                 "url": "https://github.com/dandisets/000031",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3514,7 +3124,6 @@
             {
                 "name": "dandisets/000032",
                 "url": "https://github.com/dandisets/000032",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3523,7 +3132,6 @@
             {
                 "name": "dandisets/000033",
                 "url": "https://github.com/dandisets/000033",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3532,7 +3140,6 @@
             {
                 "name": "dandisets/000034",
                 "url": "https://github.com/dandisets/000034",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3541,7 +3148,6 @@
             {
                 "name": "dandisets/000035",
                 "url": "https://github.com/dandisets/000035",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3550,7 +3156,6 @@
             {
                 "name": "dandisets/000036",
                 "url": "https://github.com/dandisets/000036",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3559,7 +3164,6 @@
             {
                 "name": "dandisets/000037",
                 "url": "https://github.com/dandisets/000037",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3568,7 +3172,6 @@
             {
                 "name": "dandisets/000038",
                 "url": "https://github.com/dandisets/000038",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3577,7 +3180,6 @@
             {
                 "name": "dandisets/000039",
                 "url": "https://github.com/dandisets/000039",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3586,7 +3188,6 @@
             {
                 "name": "dandisets/000040",
                 "url": "https://github.com/dandisets/000040",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3595,7 +3196,6 @@
             {
                 "name": "dandisets/000041",
                 "url": "https://github.com/dandisets/000041",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3604,7 +3204,6 @@
             {
                 "name": "dandisets/000042",
                 "url": "https://github.com/dandisets/000042",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3613,7 +3212,6 @@
             {
                 "name": "dandisets/000043",
                 "url": "https://github.com/dandisets/000043",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3622,7 +3220,6 @@
             {
                 "name": "dandisets/000044",
                 "url": "https://github.com/dandisets/000044",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3631,7 +3228,6 @@
             {
                 "name": "dandisets/000045",
                 "url": "https://github.com/dandisets/000045",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3640,7 +3236,6 @@
             {
                 "name": "dandisets/000051",
                 "url": "https://github.com/dandisets/000051",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3649,7 +3244,6 @@
             {
                 "name": "dandisets/000052",
                 "url": "https://github.com/dandisets/000052",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3658,7 +3252,6 @@
             {
                 "name": "dandisets/000053",
                 "url": "https://github.com/dandisets/000053",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3667,7 +3260,6 @@
             {
                 "name": "dandisets/000054",
                 "url": "https://github.com/dandisets/000054",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3676,7 +3268,6 @@
             {
                 "name": "dandisets/000055",
                 "url": "https://github.com/dandisets/000055",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3685,7 +3276,6 @@
             {
                 "name": "dandisets/000059",
                 "url": "https://github.com/dandisets/000059",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3694,7 +3284,6 @@
             {
                 "name": "dandisets/000060",
                 "url": "https://github.com/dandisets/000060",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3703,7 +3292,6 @@
             {
                 "name": "datalad-collection-1/datasets.datalad.org",
                 "url": "https://github.com/datalad-collection-1/datasets.datalad.org",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3712,7 +3300,6 @@
             {
                 "name": "datalad-collection-1/datasets.datalad.org-crcns-aa-2",
                 "url": "https://github.com/datalad-collection-1/datasets.datalad.org-crcns-aa-2",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3721,7 +3308,6 @@
             {
                 "name": "datalad-collection-1/openfmri--ds000001-sub01-anat",
                 "url": "https://github.com/datalad-collection-1/openfmri--ds000001-sub01-anat",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3730,7 +3316,6 @@
             {
                 "name": "datalad-datasets/hcp-7T_Movies",
                 "url": "https://github.com/datalad-datasets/hcp-7T_Movies",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -3739,7 +3324,6 @@
             {
                 "name": "datalad-datasets/hcp-functional-connectivity",
                 "url": "https://github.com/datalad-datasets/hcp-functional-connectivity",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": true,
@@ -3748,7 +3332,6 @@
             {
                 "name": "datalad-datasets/hcp-structural-connectivity",
                 "url": "https://github.com/datalad-datasets/hcp-structural-connectivity",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -3757,7 +3340,6 @@
             {
                 "name": "datalad-datasets/hcp-structural-preprocessed",
                 "url": "https://github.com/datalad-datasets/hcp-structural-preprocessed",
-                "ours": false,
                 "stars": 1,
                 "dataset": false,
                 "run": true,
@@ -3766,7 +3348,6 @@
             {
                 "name": "datalad-datasets/hcp_MNI_T1w",
                 "url": "https://github.com/datalad-datasets/hcp_MNI_T1w",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -3775,7 +3356,6 @@
             {
                 "name": "datalad-datasets/hcp_emorec_preprocessed",
                 "url": "https://github.com/datalad-datasets/hcp_emorec_preprocessed",
-                "ours": false,
                 "stars": 1,
                 "dataset": false,
                 "run": true,
@@ -3784,7 +3364,6 @@
             {
                 "name": "datalad-datasets/hcp_movies",
                 "url": "https://github.com/datalad-datasets/hcp_movies",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -3793,7 +3372,6 @@
             {
                 "name": "datalad-datasets/hcp_smoothedmyelin",
                 "url": "https://github.com/datalad-datasets/hcp_smoothedmyelin",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -3802,7 +3380,6 @@
             {
                 "name": "datalad-datasets/hcp_social_preprocessed",
                 "url": "https://github.com/datalad-datasets/hcp_social_preprocessed",
-                "ours": false,
                 "stars": 1,
                 "dataset": false,
                 "run": true,
@@ -3811,7 +3388,6 @@
             {
                 "name": "datalad-datasets/hcp_wm_preprocessed",
                 "url": "https://github.com/datalad-datasets/hcp_wm_preprocessed",
-                "ours": false,
                 "stars": 1,
                 "dataset": false,
                 "run": true,
@@ -3820,7 +3396,6 @@
             {
                 "name": "datalad-datasets/human-connectome-project-openaccess",
                 "url": "https://github.com/datalad-datasets/human-connectome-project-openaccess",
-                "ours": false,
                 "stars": 13,
                 "dataset": true,
                 "run": false,
@@ -3829,7 +3404,6 @@
             {
                 "name": "datalad-datasets/kdenlive-what-is-datalad",
                 "url": "https://github.com/datalad-datasets/kdenlive-what-is-datalad",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3838,7 +3412,6 @@
             {
                 "name": "datalad-datasets/longnow-podcasts",
                 "url": "https://github.com/datalad-datasets/longnow-podcasts",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -3847,7 +3420,6 @@
             {
                 "name": "datalad-datasets/machinelearning-books",
                 "url": "https://github.com/datalad-datasets/machinelearning-books",
-                "ours": false,
                 "stars": 106,
                 "dataset": true,
                 "run": false,
@@ -3856,7 +3428,6 @@
             {
                 "name": "datalad-datasets/ohbm2020-posters",
                 "url": "https://github.com/datalad-datasets/ohbm2020-posters",
-                "ours": false,
                 "stars": 32,
                 "dataset": true,
                 "run": true,
@@ -3865,7 +3436,6 @@
             {
                 "name": "datalad-datasets/ohbm2020-posters-pdfs",
                 "url": "https://github.com/datalad-datasets/ohbm2020-posters-pdfs",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -3874,7 +3444,6 @@
             {
                 "name": "datalad-handbook/DVC-DataLad",
                 "url": "https://github.com/datalad-handbook/DVC-DataLad",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -3883,7 +3452,6 @@
             {
                 "name": "datalad-handbook/book",
                 "url": "https://github.com/datalad-handbook/book",
-                "ours": false,
                 "stars": 70,
                 "dataset": false,
                 "run": true,
@@ -3892,7 +3460,6 @@
             {
                 "name": "datalad-handbook/resources",
                 "url": "https://github.com/datalad-handbook/resources",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -3901,7 +3468,6 @@
             {
                 "name": "datalad-tester/dev-containers",
                 "url": "https://github.com/datalad-tester/dev-containers",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -3910,7 +3476,6 @@
             {
                 "name": "datalad-tester/docker-ssh-target",
                 "url": "https://github.com/datalad-tester/docker-ssh-target",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -3919,7 +3484,6 @@
             {
                 "name": "datalad/datalad",
                 "url": "https://github.com/datalad/datalad",
-                "ours": true,
                 "stars": 251,
                 "dataset": false,
                 "run": true,
@@ -3928,7 +3492,6 @@
             {
                 "name": "datalad/datalad-extension-template",
                 "url": "https://github.com/datalad/datalad-extension-template",
-                "ours": true,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -3937,7 +3500,6 @@
             {
                 "name": "datalad/datalad-extensions",
                 "url": "https://github.com/datalad/datalad-extensions",
-                "ours": true,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -3946,7 +3508,6 @@
             {
                 "name": "datalad/datalad-git-bug-dumps",
                 "url": "https://github.com/datalad/datalad-git-bug-dumps",
-                "ours": true,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -3955,7 +3516,6 @@
             {
                 "name": "datalad/datalad-installer",
                 "url": "https://github.com/datalad/datalad-installer",
-                "ours": true,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -3964,7 +3524,6 @@
             {
                 "name": "datalad/datalad-paper-joss",
                 "url": "https://github.com/datalad/datalad-paper-joss",
-                "ours": true,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -3973,7 +3532,6 @@
             {
                 "name": "datalad/datasets.datalad.org",
                 "url": "https://github.com/datalad/datasets.datalad.org",
-                "ours": true,
                 "stars": 4,
                 "dataset": true,
                 "run": false,
@@ -3982,7 +3540,6 @@
             {
                 "name": "datalad/git-annex",
                 "url": "https://github.com/datalad/git-annex",
-                "ours": true,
                 "stars": 1,
                 "dataset": false,
                 "run": true,
@@ -3991,7 +3548,6 @@
             {
                 "name": "datalad/hcp-100307-test",
                 "url": "https://github.com/datalad/hcp-100307-test",
-                "ours": true,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -4000,7 +3556,6 @@
             {
                 "name": "datalad/packages",
                 "url": "https://github.com/datalad/packages",
-                "ours": true,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4009,7 +3564,6 @@
             {
                 "name": "datalad/ria-tools",
                 "url": "https://github.com/datalad/ria-tools",
-                "ours": true,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -4018,7 +3572,6 @@
             {
                 "name": "datalad/talk-2019-mila",
                 "url": "https://github.com/datalad/talk-2019-mila",
-                "ours": true,
                 "stars": 4,
                 "dataset": true,
                 "run": false,
@@ -4027,7 +3580,6 @@
             {
                 "name": "datalad/talk-fosdem-2020",
                 "url": "https://github.com/datalad/talk-fosdem-2020",
-                "ours": true,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4036,7 +3588,6 @@
             {
                 "name": "datalad/talk-openneuro-2018",
                 "url": "https://github.com/datalad/talk-openneuro-2018",
-                "ours": true,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -4045,7 +3596,6 @@
             {
                 "name": "datalad/talks",
                 "url": "https://github.com/datalad/talks",
-                "ours": true,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4054,7 +3604,6 @@
             {
                 "name": "datalad/testrepo--minimalds",
                 "url": "https://github.com/datalad/testrepo--minimalds",
-                "ours": true,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4063,7 +3612,6 @@
             {
                 "name": "datalad/testrepo--minimalds-osf",
                 "url": "https://github.com/datalad/testrepo--minimalds-osf",
-                "ours": true,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4072,7 +3620,6 @@
             {
                 "name": "datalad/videos-onlinebrainintensive-2017",
                 "url": "https://github.com/datalad/videos-onlinebrainintensive-2017",
-                "ours": true,
                 "stars": 2,
                 "dataset": true,
                 "run": false,
@@ -4081,7 +3628,6 @@
             {
                 "name": "datasets-mila/mila",
                 "url": "https://github.com/datasets-mila/mila",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4090,7 +3636,6 @@
             {
                 "name": "dbic/QA",
                 "url": "https://github.com/dbic/QA",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4099,7 +3644,6 @@
             {
                 "name": "dbic/handbook",
                 "url": "https://github.com/dbic/handbook",
-                "ours": false,
                 "stars": 2,
                 "dataset": false,
                 "run": true,
@@ -4108,7 +3652,6 @@
             {
                 "name": "dguibert/nur-packages",
                 "url": "https://github.com/dguibert/nur-packages",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -4117,7 +3660,6 @@
             {
                 "name": "dhivakark/iris_data",
                 "url": "https://github.com/dhivakark/iris_data",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4126,7 +3668,6 @@
             {
                 "name": "dhivakark/midterm_project",
                 "url": "https://github.com/dhivakark/midterm_project",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4135,7 +3676,6 @@
             {
                 "name": "dl-throwaway/test-gh",
                 "url": "https://github.com/dl-throwaway/test-gh",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4144,7 +3684,6 @@
             {
                 "name": "dl-throwaway/test-gh-sub__1",
                 "url": "https://github.com/dl-throwaway/test-gh-sub__1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4153,7 +3692,6 @@
             {
                 "name": "dl-throwaway/test-gh-sub__1-d-sub_sub-_1",
                 "url": "https://github.com/dl-throwaway/test-gh-sub__1-d-sub_sub-_1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4162,7 +3700,6 @@
             {
                 "name": "dl-throwaway/test_gh3",
                 "url": "https://github.com/dl-throwaway/test_gh3",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4171,7 +3708,6 @@
             {
                 "name": "dl-throwaway/test_gh3-sub__1",
                 "url": "https://github.com/dl-throwaway/test_gh3-sub__1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4180,7 +3716,6 @@
             {
                 "name": "dl-throwaway/test_gh3-sub__1-d-sub_sub-_1",
                 "url": "https://github.com/dl-throwaway/test_gh3-sub__1-d-sub_sub-_1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4189,7 +3724,6 @@
             {
                 "name": "dl-throwaway/test_gh4",
                 "url": "https://github.com/dl-throwaway/test_gh4",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4198,7 +3732,6 @@
             {
                 "name": "dl-throwaway/test_gh4-sub__1",
                 "url": "https://github.com/dl-throwaway/test_gh4-sub__1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4207,7 +3740,6 @@
             {
                 "name": "dl-throwaway/test_gh4-sub__1-d-sub_sub-_1",
                 "url": "https://github.com/dl-throwaway/test_gh4-sub__1-d-sub_sub-_1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4216,7 +3748,6 @@
             {
                 "name": "dl-throwaway/testgh",
                 "url": "https://github.com/dl-throwaway/testgh",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4225,7 +3756,6 @@
             {
                 "name": "dl-throwaway/testgh-sub__1",
                 "url": "https://github.com/dl-throwaway/testgh-sub__1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4234,7 +3764,6 @@
             {
                 "name": "dl-throwaway/testgh-sub__1-d-sub_sub-_1",
                 "url": "https://github.com/dl-throwaway/testgh-sub__1-d-sub_sub-_1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4243,7 +3772,6 @@
             {
                 "name": "docker-library/official-images",
                 "url": "https://github.com/docker-library/official-images",
-                "ours": false,
                 "stars": 4818,
                 "dataset": false,
                 "run": true,
@@ -4252,7 +3780,6 @@
             {
                 "name": "emmetaobrien/BigBrain_3DClassifiedVolumes",
                 "url": "https://github.com/emmetaobrien/BigBrain_3DClassifiedVolumes",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4261,7 +3788,6 @@
             {
                 "name": "emmetaobrien/BigBrain_3DSurfaces",
                 "url": "https://github.com/emmetaobrien/BigBrain_3DSurfaces",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4270,7 +3796,6 @@
             {
                 "name": "emmetaobrien/calgary-campinas",
                 "url": "https://github.com/emmetaobrien/calgary-campinas",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4279,7 +3804,6 @@
             {
                 "name": "emmetaobrien/microstructure_informed_connectomics",
                 "url": "https://github.com/emmetaobrien/microstructure_informed_connectomics",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4288,7 +3812,6 @@
             {
                 "name": "ffinazzi/odoo-docker-official",
                 "url": "https://github.com/ffinazzi/odoo-docker-official",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4297,7 +3820,6 @@
             {
                 "name": "flatironinstitute/reactopya",
                 "url": "https://github.com/flatironinstitute/reactopya",
-                "ours": false,
                 "stars": 5,
                 "dataset": false,
                 "run": true,
@@ -4306,7 +3828,6 @@
             {
                 "name": "glatard/fmriprep-lts-images",
                 "url": "https://github.com/glatard/fmriprep-lts-images",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4315,7 +3836,6 @@
             {
                 "name": "htwangtw/hrvtrt",
                 "url": "https://github.com/htwangtw/hrvtrt",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4324,7 +3844,6 @@
             {
                 "name": "incf-nidash/demo-datalad-nidmresults",
                 "url": "https://github.com/incf-nidash/demo-datalad-nidmresults",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4333,7 +3852,6 @@
             {
                 "name": "inm7/cbptools-example-data",
                 "url": "https://github.com/inm7/cbptools-example-data",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -4342,7 +3860,6 @@
             {
                 "name": "inm7/vbc_dwmri",
                 "url": "https://github.com/inm7/vbc_dwmri",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4351,7 +3868,6 @@
             {
                 "name": "inm7/vbc_fmri",
                 "url": "https://github.com/inm7/vbc_fmri",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -4360,7 +3876,6 @@
             {
                 "name": "jasongallant/midtermproject",
                 "url": "https://github.com/jasongallant/midtermproject",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -4369,7 +3884,6 @@
             {
                 "name": "jbpoline/datasets.datalad.org",
                 "url": "https://github.com/jbpoline/datasets.datalad.org",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4378,7 +3892,6 @@
             {
                 "name": "jsheunis/datalad-s3-test",
                 "url": "https://github.com/jsheunis/datalad-s3-test",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4387,7 +3900,6 @@
             {
                 "name": "jsheunis/datalad-s3-test2",
                 "url": "https://github.com/jsheunis/datalad-s3-test2",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -4396,7 +3908,6 @@
             {
                 "name": "jsheunis/neuro-data-s3",
                 "url": "https://github.com/jsheunis/neuro-data-s3",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4405,7 +3916,6 @@
             {
                 "name": "jsheunis/neuro-data-s3-v2",
                 "url": "https://github.com/jsheunis/neuro-data-s3-v2",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4414,7 +3924,6 @@
             {
                 "name": "khanlab-datasets/BigBrainHippoUnfold",
                 "url": "https://github.com/khanlab-datasets/BigBrainHippoUnfold",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4423,7 +3932,6 @@
             {
                 "name": "khanlab-datasets/BigBrainMRICoreg",
                 "url": "https://github.com/khanlab-datasets/BigBrainMRICoreg",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -4432,7 +3940,6 @@
             {
                 "name": "khanlab-datasets/HCPUR100-Template",
                 "url": "https://github.com/khanlab-datasets/HCPUR100-Template",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4441,7 +3948,6 @@
             {
                 "name": "kimjetwav/KIMEL_DATASETS",
                 "url": "https://github.com/kimjetwav/KIMEL_DATASETS",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4450,7 +3956,6 @@
             {
                 "name": "leej3/afni_ci_test_data",
                 "url": "https://github.com/leej3/afni_ci_test_data",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4459,7 +3964,6 @@
             {
                 "name": "lnnrtwttkhn/DataLad-101",
                 "url": "https://github.com/lnnrtwttkhn/DataLad-101",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4468,7 +3972,6 @@
             {
                 "name": "lnnrtwttkhn/highspeed-analysis",
                 "url": "https://github.com/lnnrtwttkhn/highspeed-analysis",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4477,7 +3980,6 @@
             {
                 "name": "lnnrtwttkhn/highspeed-bids",
                 "url": "https://github.com/lnnrtwttkhn/highspeed-bids",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -4486,7 +3988,6 @@
             {
                 "name": "lnnrtwttkhn/highspeed-data",
                 "url": "https://github.com/lnnrtwttkhn/highspeed-data",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4495,7 +3996,6 @@
             {
                 "name": "lnnrtwttkhn/highspeed-data-behavior",
                 "url": "https://github.com/lnnrtwttkhn/highspeed-data-behavior",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4504,7 +4004,6 @@
             {
                 "name": "lnnrtwttkhn/highspeed-decoding",
                 "url": "https://github.com/lnnrtwttkhn/highspeed-decoding",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4513,7 +4012,6 @@
             {
                 "name": "lnnrtwttkhn/highspeed-fmriprep",
                 "url": "https://github.com/lnnrtwttkhn/highspeed-fmriprep",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4522,7 +4020,6 @@
             {
                 "name": "lnnrtwttkhn/highspeed-glm",
                 "url": "https://github.com/lnnrtwttkhn/highspeed-glm",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4531,7 +4028,6 @@
             {
                 "name": "lnnrtwttkhn/highspeed-masks",
                 "url": "https://github.com/lnnrtwttkhn/highspeed-masks",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4540,7 +4036,6 @@
             {
                 "name": "lnnrtwttkhn/highspeed-mriqc",
                 "url": "https://github.com/lnnrtwttkhn/highspeed-mriqc",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4549,7 +4044,6 @@
             {
                 "name": "lnnrtwttkhn/keeper-test",
                 "url": "https://github.com/lnnrtwttkhn/keeper-test",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4558,7 +4052,6 @@
             {
                 "name": "lnnrtwttkhn/keeper-test2",
                 "url": "https://github.com/lnnrtwttkhn/keeper-test2",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4567,7 +4060,6 @@
             {
                 "name": "lnnrtwttkhn/tools",
                 "url": "https://github.com/lnnrtwttkhn/tools",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -4576,7 +4068,6 @@
             {
                 "name": "loj/test_dlrun",
                 "url": "https://github.com/loj/test_dlrun",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4585,7 +4076,6 @@
             {
                 "name": "maelleF/compute_canada_tuto",
                 "url": "https://github.com/maelleF/compute_canada_tuto",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4594,7 +4084,6 @@
             {
                 "name": "mathdugre/BigBrain_3DROIs",
                 "url": "https://github.com/mathdugre/BigBrain_3DROIs",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4603,7 +4092,6 @@
             {
                 "name": "maxadam2017/midtermproject",
                 "url": "https://github.com/maxadam2017/midtermproject",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4612,7 +4100,6 @@
             {
                 "name": "mfrebo/vandam-data",
                 "url": "https://github.com/mfrebo/vandam-data",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4621,7 +4108,6 @@
             {
                 "name": "mih/datalad-dropboxdemo",
                 "url": "https://github.com/mih/datalad-dropboxdemo",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4630,7 +4116,6 @@
             {
                 "name": "mih/datalad-osf-component-tester",
                 "url": "https://github.com/mih/datalad-osf-component-tester",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4639,7 +4124,6 @@
             {
                 "name": "mih/demoannex",
                 "url": "https://github.com/mih/demoannex",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4648,7 +4132,6 @@
             {
                 "name": "mih/ebrains-demo",
                 "url": "https://github.com/mih/ebrains-demo",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4657,7 +4140,6 @@
             {
                 "name": "mih/gumpdata",
                 "url": "https://github.com/mih/gumpdata",
-                "ours": false,
                 "stars": 9,
                 "dataset": true,
                 "run": false,
@@ -4666,7 +4148,6 @@
             {
                 "name": "mikapfl/datalad-example",
                 "url": "https://github.com/mikapfl/datalad-example",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4675,7 +4156,6 @@
             {
                 "name": "mikapfl/read_di_unfccc",
                 "url": "https://github.com/mikapfl/read_di_unfccc",
-                "ours": false,
                 "stars": 5,
                 "dataset": false,
                 "run": true,
@@ -4684,7 +4164,6 @@
             {
                 "name": "mikapfl/unfccc_di_data",
                 "url": "https://github.com/mikapfl/unfccc_di_data",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4693,7 +4172,6 @@
             {
                 "name": "miykael/nipype_tutorial",
                 "url": "https://github.com/miykael/nipype_tutorial",
-                "ours": false,
                 "stars": 79,
                 "dataset": false,
                 "run": true,
@@ -4702,7 +4180,6 @@
             {
                 "name": "mjboos/testrepo6",
                 "url": "https://github.com/mjboos/testrepo6",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4711,7 +4188,6 @@
             {
                 "name": "msrlab/DataLad-101",
                 "url": "https://github.com/msrlab/DataLad-101",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4720,7 +4196,6 @@
             {
                 "name": "myyoda/demo-dataset-glmanalysis",
                 "url": "https://github.com/myyoda/demo-dataset-glmanalysis",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4729,7 +4204,6 @@
             {
                 "name": "myyoda/demo-dataset-localizerscans",
                 "url": "https://github.com/myyoda/demo-dataset-localizerscans",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4738,7 +4212,6 @@
             {
                 "name": "myyoda/talk-principles",
                 "url": "https://github.com/myyoda/talk-principles",
-                "ours": false,
                 "stars": 3,
                 "dataset": true,
                 "run": false,
@@ -4747,7 +4220,6 @@
             {
                 "name": "neurodebian/dockerfiles",
                 "url": "https://github.com/neurodebian/dockerfiles",
-                "ours": false,
                 "stars": 9,
                 "dataset": false,
                 "run": true,
@@ -4756,7 +4228,6 @@
             {
                 "name": "neurodebian/neurodebian",
                 "url": "https://github.com/neurodebian/neurodebian",
-                "ours": false,
                 "stars": 48,
                 "dataset": false,
                 "run": true,
@@ -4765,7 +4236,6 @@
             {
                 "name": "neuronets/trained-models",
                 "url": "https://github.com/neuronets/trained-models",
-                "ours": false,
                 "stars": 7,
                 "dataset": true,
                 "run": false,
@@ -4774,7 +4244,6 @@
             {
                 "name": "neuroscout-datasets/ds001338_raw",
                 "url": "https://github.com/neuroscout-datasets/ds001338_raw",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4783,7 +4252,6 @@
             {
                 "name": "neuroscout/fmriprep-singularity",
                 "url": "https://github.com/neuroscout/fmriprep-singularity",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4792,7 +4260,6 @@
             {
                 "name": "neurostuff/simulate-cbma",
                 "url": "https://github.com/neurostuff/simulate-cbma",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4801,7 +4268,6 @@
             {
                 "name": "nicolocin/openmind-rclone-test",
                 "url": "https://github.com/nicolocin/openmind-rclone-test",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4810,7 +4276,6 @@
             {
                 "name": "nicolocin/test-dir1",
                 "url": "https://github.com/nicolocin/test-dir1",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4819,7 +4284,6 @@
             {
                 "name": "nicolocin/test-dir2",
                 "url": "https://github.com/nicolocin/test-dir2",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4828,7 +4292,6 @@
             {
                 "name": "nipreps-data/HCP101006",
                 "url": "https://github.com/nipreps-data/HCP101006",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4837,7 +4300,6 @@
             {
                 "name": "nipreps-data/brain-extraction-tests",
                 "url": "https://github.com/nipreps-data/brain-extraction-tests",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4846,7 +4308,6 @@
             {
                 "name": "nipreps-data/ds000003",
                 "url": "https://github.com/nipreps-data/ds000003",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4855,7 +4316,6 @@
             {
                 "name": "nipreps-data/ds000003-derivatives",
                 "url": "https://github.com/nipreps-data/ds000003-derivatives",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4864,7 +4324,6 @@
             {
                 "name": "nipreps-data/ds000054",
                 "url": "https://github.com/nipreps-data/ds000054",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4873,7 +4332,6 @@
             {
                 "name": "nipreps-data/ds000054-derivatives",
                 "url": "https://github.com/nipreps-data/ds000054-derivatives",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4882,7 +4340,6 @@
             {
                 "name": "nipreps-data/ds000210",
                 "url": "https://github.com/nipreps-data/ds000210",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4891,7 +4348,6 @@
             {
                 "name": "nipreps-data/ds000210-derivatives",
                 "url": "https://github.com/nipreps-data/ds000210-derivatives",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4900,7 +4356,6 @@
             {
                 "name": "nipreps-data/ds001600-derivatives",
                 "url": "https://github.com/nipreps-data/ds001600-derivatives",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4909,7 +4364,6 @@
             {
                 "name": "nipreps-data/ds001771-derivatives",
                 "url": "https://github.com/nipreps-data/ds001771-derivatives",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4918,7 +4372,6 @@
             {
                 "name": "nipreps-data/nirodents-bold-se",
                 "url": "https://github.com/nipreps-data/nirodents-bold-se",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4927,7 +4380,6 @@
             {
                 "name": "nipreps-data/nirodents-bold-se-derivatives",
                 "url": "https://github.com/nipreps-data/nirodents-bold-se-derivatives",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4936,7 +4388,6 @@
             {
                 "name": "nipy/heudiconv",
                 "url": "https://github.com/nipy/heudiconv",
-                "ours": false,
                 "stars": 145,
                 "dataset": false,
                 "run": true,
@@ -4945,7 +4396,6 @@
             {
                 "name": "ntolley/lfp_reeb_github",
                 "url": "https://github.com/ntolley/lfp_reeb_github",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4954,7 +4404,6 @@
             {
                 "name": "ntolley/reeb_matching_github",
                 "url": "https://github.com/ntolley/reeb_matching_github",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4963,7 +4412,6 @@
             {
                 "name": "ntolley/template_hnn_github",
                 "url": "https://github.com/ntolley/template_hnn_github",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4972,7 +4420,6 @@
             {
                 "name": "oesteban/tpl-RESILIENT",
                 "url": "https://github.com/oesteban/tpl-RESILIENT",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -4981,7 +4428,6 @@
             {
                 "name": "opening-hours/opening_hours.js",
                 "url": "https://github.com/opening-hours/opening_hours.js",
-                "ours": false,
                 "stars": 167,
                 "dataset": false,
                 "run": true,
@@ -4990,7 +4436,6 @@
             {
                 "name": "pecansdik/libary",
                 "url": "https://github.com/pecansdik/libary",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -4999,7 +4444,6 @@
             {
                 "name": "pithanakrit/nginx_1",
                 "url": "https://github.com/pithanakrit/nginx_1",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -5008,7 +4452,6 @@
             {
                 "name": "proj-nuisance/nuisance",
                 "url": "https://github.com/proj-nuisance/nuisance",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -5017,7 +4460,6 @@
             {
                 "name": "protontypes/LibreSelery",
                 "url": "https://github.com/protontypes/LibreSelery",
-                "ours": false,
                 "stars": 97,
                 "dataset": false,
                 "run": true,
@@ -5026,7 +4468,6 @@
             {
                 "name": "psychoinformatics-de/anima",
                 "url": "https://github.com/psychoinformatics-de/anima",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5035,7 +4476,6 @@
             {
                 "name": "psychoinformatics-de/fairly-big-processing-workflow-tutorial",
                 "url": "https://github.com/psychoinformatics-de/fairly-big-processing-workflow-tutorial",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -5044,7 +4484,6 @@
             {
                 "name": "psychoinformatics-de/hirni-demo",
                 "url": "https://github.com/psychoinformatics-de/hirni-demo",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5053,7 +4492,6 @@
             {
                 "name": "psychoinformatics-de/hirni-demo-acq1",
                 "url": "https://github.com/psychoinformatics-de/hirni-demo-acq1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5062,7 +4500,6 @@
             {
                 "name": "psychoinformatics-de/hirni-demo-acq2",
                 "url": "https://github.com/psychoinformatics-de/hirni-demo-acq2",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5071,7 +4508,6 @@
             {
                 "name": "psychoinformatics-de/hirni-toolbox",
                 "url": "https://github.com/psychoinformatics-de/hirni-toolbox",
-                "ours": false,
                 "stars": 2,
                 "dataset": true,
                 "run": false,
@@ -5080,7 +4516,6 @@
             {
                 "name": "psychoinformatics-de/kdenlive-gource-ukbiobank",
                 "url": "https://github.com/psychoinformatics-de/kdenlive-gource-ukbiobank",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -5089,7 +4524,6 @@
             {
                 "name": "psychoinformatics-de/paper-remodnav",
                 "url": "https://github.com/psychoinformatics-de/paper-remodnav",
-                "ours": false,
                 "stars": 2,
                 "dataset": false,
                 "run": true,
@@ -5098,7 +4532,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -5107,7 +4540,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-aggregate",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-aggregate",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -5116,7 +4548,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-aligned",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-aligned",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -5125,7 +4556,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-annotations",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-annotations",
-                "ours": false,
                 "stars": 10,
                 "dataset": true,
                 "run": true,
@@ -5134,7 +4564,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-confoundsannotation",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-confoundsannotation",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -5143,7 +4572,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-eyemovementlabels",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-eyemovementlabels",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -5152,7 +4580,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-freesurfer",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-freesurfer",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -5161,7 +4588,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-multires3t",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-multires3t",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -5170,7 +4596,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-multires7t",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-multires7t",
-                "ours": false,
                 "stars": 4,
                 "dataset": true,
                 "run": false,
@@ -5179,7 +4604,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-perceivedemotions",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-perceivedemotions",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5188,7 +4612,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-phase2",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-phase2",
-                "ours": false,
                 "stars": 8,
                 "dataset": true,
                 "run": false,
@@ -5197,7 +4620,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-retinotopy",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-retinotopy",
-                "ours": false,
                 "stars": 2,
                 "dataset": true,
                 "run": false,
@@ -5206,7 +4628,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-structural",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-structural",
-                "ours": false,
                 "stars": 2,
                 "dataset": true,
                 "run": false,
@@ -5215,7 +4636,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-templatetransforms",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-templatetransforms",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5224,7 +4644,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-data-visualrois",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-data-visualrois",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -5233,7 +4652,6 @@
             {
                 "name": "psychoinformatics-de/studyforrest-paper-speechannotation",
                 "url": "https://github.com/psychoinformatics-de/studyforrest-paper-speechannotation",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -5242,7 +4660,6 @@
             {
                 "name": "psychoinformatics-de/talk-datalad-gofair",
                 "url": "https://github.com/psychoinformatics-de/talk-datalad-gofair",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5251,7 +4668,6 @@
             {
                 "name": "qlux/dataladrepo",
                 "url": "https://github.com/qlux/dataladrepo",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5260,7 +4676,6 @@
             {
                 "name": "richford/hbn_url_csv",
                 "url": "https://github.com/richford/hbn_url_csv",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -5269,7 +4684,6 @@
             {
                 "name": "satra/testdatalad",
                 "url": "https://github.com/satra/testdatalad",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -5278,7 +4692,6 @@
             {
                 "name": "satyaog/pybenzinaconcat_test_datasets",
                 "url": "https://github.com/satyaog/pybenzinaconcat_test_datasets",
-                "ours": false,
                 "stars": 0,
                 "dataset": false,
                 "run": true,
@@ -5287,7 +4700,6 @@
             {
                 "name": "sensein/kwyk-data",
                 "url": "https://github.com/sensein/kwyk-data",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5296,7 +4708,6 @@
             {
                 "name": "shots47s/conp-dataset-test_dataset_do_not_merge",
                 "url": "https://github.com/shots47s/conp-dataset-test_dataset_do_not_merge",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5305,7 +4716,6 @@
             {
                 "name": "soichih/datalad-o3d-test",
                 "url": "https://github.com/soichih/datalad-o3d-test",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5314,7 +4724,6 @@
             {
                 "name": "srmemar/mousebytesdataset",
                 "url": "https://github.com/srmemar/mousebytesdataset",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5323,7 +4732,6 @@
             {
                 "name": "templateflow/templateflow",
                 "url": "https://github.com/templateflow/templateflow",
-                "ours": false,
                 "stars": 23,
                 "dataset": true,
                 "run": false,
@@ -5332,7 +4740,6 @@
             {
                 "name": "templateflow/tpl-MNI152NLin2009cAsym",
                 "url": "https://github.com/templateflow/tpl-MNI152NLin2009cAsym",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -5341,7 +4748,6 @@
             {
                 "name": "templateflow/tpl-MNI152NLin6Asym",
                 "url": "https://github.com/templateflow/tpl-MNI152NLin6Asym",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5350,7 +4756,6 @@
             {
                 "name": "templateflow/tpl-MNIInfant",
                 "url": "https://github.com/templateflow/tpl-MNIInfant",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5359,7 +4764,6 @@
             {
                 "name": "templateflow/tpl-OASIS30ANTs",
                 "url": "https://github.com/templateflow/tpl-OASIS30ANTs",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5368,7 +4772,6 @@
             {
                 "name": "templateflow/tpl-UNCInfant",
                 "url": "https://github.com/templateflow/tpl-UNCInfant",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5377,7 +4780,6 @@
             {
                 "name": "templateflow/tpl-fsLR",
                 "url": "https://github.com/templateflow/tpl-fsLR",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5386,7 +4788,6 @@
             {
                 "name": "tsankeuodelfa/midtermproject",
                 "url": "https://github.com/tsankeuodelfa/midtermproject",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -5395,7 +4796,6 @@
             {
                 "name": "vandermeerlab/labs--mvdm",
                 "url": "https://github.com/vandermeerlab/labs--mvdm",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5404,7 +4804,6 @@
             {
                 "name": "yarikoptic/demo1",
                 "url": "https://github.com/yarikoptic/demo1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": true,
@@ -5413,7 +4812,6 @@
             {
                 "name": "yarikoptic/gearificated-nipype",
                 "url": "https://github.com/yarikoptic/gearificated-nipype",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": false,
@@ -5422,7 +4820,6 @@
             {
                 "name": "yarikoptic/hbn-datalad-ls",
                 "url": "https://github.com/yarikoptic/hbn-datalad-ls",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5431,7 +4828,6 @@
             {
                 "name": "yarikoptic/sparkle-container",
                 "url": "https://github.com/yarikoptic/sparkle-container",
-                "ours": false,
                 "stars": 1,
                 "dataset": true,
                 "run": true,
@@ -5440,7 +4836,6 @@
             {
                 "name": "yarikoptic/testgh",
                 "url": "https://github.com/yarikoptic/testgh",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5449,7 +4844,6 @@
             {
                 "name": "yarikoptic/testgh-sub1",
                 "url": "https://github.com/yarikoptic/testgh-sub1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5458,7 +4852,6 @@
             {
                 "name": "yarikoptic/testgh-sub1-subsub1",
                 "url": "https://github.com/yarikoptic/testgh-sub1-subsub1",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
@@ -5467,7 +4860,6 @@
             {
                 "name": "yarikoptic/tipp-reference-datalad",
                 "url": "https://github.com/yarikoptic/tipp-reference-datalad",
-                "ours": false,
                 "stars": 0,
                 "dataset": true,
                 "run": false,
