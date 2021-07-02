@@ -1,4 +1,5 @@
 from datetime import datetime, timezone
+from enum import Enum
 import json
 import logging
 from operator import attrgetter
@@ -41,6 +42,11 @@ USER_AGENT = "find-datalad-repos.py ({}) requests/{} {}/{}".format(
 log = logging.getLogger(__name__)
 
 
+class Status(Enum):
+    ACTIVE = "active"
+    GONE = "gone"
+
+
 class DataladRepo(BaseModel):
     name: str
     url: str
@@ -48,11 +54,19 @@ class DataladRepo(BaseModel):
     dataset: bool
     run: bool
     container_run: bool
+    status: Status
+
+    @property
+    def owner(self) -> str:
+        return self.name.partition("/")[0]
 
     @property
     def ours(self) -> bool:
-        owner, _, _ = self.name.partition("/")
-        return owner in OURSELVES
+        return self.owner in OURSELVES
+
+    @property
+    def gone(self) -> bool:
+        return self.status is Status.GONE
 
     def as_table_row(self) -> str:
         return (
@@ -73,13 +87,8 @@ class GHRepo(BaseModel):
         return cls(url=data["html_url"], name=data["full_name"])
 
 
-class RepoCollection(BaseModel):
-    active: List[DataladRepo] = Field(default_factory=list)
-    gone: List[DataladRepo] = Field(default_factory=list)
-
-
 class RepoRecord(BaseModel):
-    github: RepoCollection = Field(default_factory=RepoCollection)
+    github: List[DataladRepo] = Field(default_factory=list)
 
 
 class CollectionUpdater(BaseModel):
@@ -90,11 +99,8 @@ class CollectionUpdater(BaseModel):
     new_runs: int = 0
 
     @classmethod
-    def from_collection(cls, collection: RepoCollection) -> "CollectionUpdater":
-        all_repos = {repo.name: repo for repo in collection.active}
-        for repo in collection.gone:
-            all_repos[repo.name] = repo
-        return cls(all_repos=all_repos)
+    def from_collection(cls, collection: List[DataladRepo]) -> "CollectionUpdater":
+        return cls(all_repos={repo.name: repo for repo in collection})
 
     def register_repo(self, repo: DataladRepo) -> None:
         self.seen.add(repo.name)
@@ -111,17 +117,16 @@ class CollectionUpdater(BaseModel):
                 self.new_runs += 1
         self.all_repos[repo.name] = repo
 
-    def get_new_collection(self) -> RepoCollection:
-        active: List[DataladRepo] = []
-        gone: List[DataladRepo] = []
+    def get_new_collection(self) -> List[DataladRepo]:
+        collection: List[DataladRepo] = []
         for repo in self.all_repos.values():
             if repo.name in self.seen:
-                active.append(repo)
+                status = Status.ACTIVE
             else:
-                gone.append(repo)
-        active.sort(key=attrgetter("name"))
-        gone.sort(key=attrgetter("name"))
-        return RepoCollection(active=active, gone=gone)
+                status = Status.GONE
+            collection.append(repo.copy(update={"status": status}))
+        collection.sort(key=attrgetter("name"))
+        return collection
 
     def get_report(self) -> str:
         return (
@@ -237,6 +242,7 @@ class GHDataladSearcher:
                     dataset=repo in datasets,
                     run=repo in runcmds,
                     container_run=runcmds.get(repo, False),
+                    status=Status.ACTIVE,
                 )
             )
         results.sort(key=attrgetter("name"))
@@ -280,8 +286,11 @@ def main(log_level, regen_readme):
 
     wild_repos: List[DataladRepo] = []
     our_repos: List[DataladRepo] = []
-    for repo in record.github.active:
-        if repo.ours:
+    gone: List[DataladRepo] = []
+    for repo in record.github:
+        if repo.gone:
+            gone.append(repo)
+        elif repo.ours:
             our_repos.append(repo)
         else:
             wild_repos.append(repo)
@@ -290,7 +299,7 @@ def main(log_level, regen_readme):
         for header, repo_list in [
             ("In the wild", wild_repos),
             ("Inner circle", our_repos),
-            ("Gone", record.github.gone),
+            ("Gone", gone),
         ]:
             print("#", header, file=fp)
             if repo_list:
