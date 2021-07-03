@@ -16,6 +16,11 @@ jobs:
         with:
           python-version: '^3.8'
 
+      - name: Set up environment
+        run: |
+          git config --global user.email "test@github.land"
+          git config --global user.name "GitHub Almighty"
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip wheel
