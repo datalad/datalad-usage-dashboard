@@ -41,7 +41,25 @@ INTER_SEARCH_DELAY = 10
 # How long to wait after triggering abuse detection
 POST_ABUSE_DELAY = 45
 
-OURSELVES = {"datalad"}
+OURSELVES = {
+    "con",
+    "dandi",
+    "dandisets",
+    "datalad",
+    "datalad-collection-1",
+    "datalad-datasets",
+    "datalad-handbook",
+    "datalad-tester",
+    "dbic",
+    "jsheunis",
+    "jwodder",
+    "loj",
+    "mih",
+    "myyoda",
+    "proj-nuisance",
+    "psychoinformatics-de",
+    "yarikoptic",
+}
 
 RECORD_FILE = "datalad-repos.json"
 
