@@ -5,7 +5,7 @@ on:
     - cron: '0 6 * * *'
 
 jobs:
-  updqte:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
