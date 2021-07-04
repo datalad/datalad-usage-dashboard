@@ -1,11 +1,9 @@
 # Active
-| Repository (25) | Stars (36) | Dataset (24) | `run` (7) | `containers-run` (1) |
+| Repository (23) | Stars (36) | Dataset (22) | `run` (7) | `containers-run` (1) |
 | --- | --- | --- | --- | --- |
 | [psychoinformatics-de/anima](https://github.com/psychoinformatics-de/anima) | 0 | :heavy_check_mark: |  |  |
 | [psychoinformatics-de/fairly-big-processing-workflow-tutorial](https://github.com/psychoinformatics-de/fairly-big-processing-workflow-tutorial) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| [psychoinformatics-de/hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) | 0 | :heavy_check_mark: |  |  |
 | [psychoinformatics-de/hirni-demo-acq1](https://github.com/psychoinformatics-de/hirni-demo-acq1) | 0 | :heavy_check_mark: |  |  |
-| [psychoinformatics-de/hirni-demo-acq2](https://github.com/psychoinformatics-de/hirni-demo-acq2) | 0 | :heavy_check_mark: |  |  |
 | [psychoinformatics-de/hirni-toolbox](https://github.com/psychoinformatics-de/hirni-toolbox) | 2 | :heavy_check_mark: |  |  |
 | [psychoinformatics-de/kdenlive-gource-ukbiobank](https://github.com/psychoinformatics-de/kdenlive-gource-ukbiobank) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | [psychoinformatics-de/paper-remodnav](https://github.com/psychoinformatics-de/paper-remodnav) | 2 |  | :heavy_check_mark: |  |
@@ -28,4 +26,7 @@
 | [psychoinformatics-de/talk-datalad-gofair](https://github.com/psychoinformatics-de/talk-datalad-gofair) | 0 | :heavy_check_mark: |  |  |
 
 # Gone
-No repositories found!
+| Repository (2) | Stars | Dataset (2) | `run` | `containers-run` |
+| --- | --- | --- | --- | --- |
+| [psychoinformatics-de/hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) | 0 | :heavy_check_mark: |  |  |
+| [psychoinformatics-de/hirni-demo-acq2](https://github.com/psychoinformatics-de/hirni-demo-acq2) | 0 | :heavy_check_mark: |  |  |
