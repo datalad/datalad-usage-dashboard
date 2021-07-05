@@ -1,8 +1,10 @@
 # Active
-| Repository (3) | Stars | Dataset | `run` (3) | `containers-run` |
+| Repository (5) | Stars (1) | Dataset (2) | `run` (3) | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [lnnrtwttkhn/DataLad-101](https://github.com/lnnrtwttkhn/DataLad-101) | 0 |  | :heavy_check_mark: |  |
+| [lnnrtwttkhn/datalad-keeper-test](https://github.com/lnnrtwttkhn/datalad-keeper-test) | 0 | :heavy_check_mark: |  |  |
 | [lnnrtwttkhn/highspeed-bids](https://github.com/lnnrtwttkhn/highspeed-bids) | 0 |  | :heavy_check_mark: |  |
+| [lnnrtwttkhn/resources](https://github.com/lnnrtwttkhn/resources) | 1 | :heavy_check_mark: |  |  |
 | [lnnrtwttkhn/tools](https://github.com/lnnrtwttkhn/tools) | 0 |  | :heavy_check_mark: |  |
 
 # Gone
