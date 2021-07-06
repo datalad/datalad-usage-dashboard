@@ -1,6 +1,7 @@
 # Active
-| Repository (36) | Stars | Dataset (36) | `run` | `containers-run` |
+| Repository (38) | Stars | Dataset (38) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- |
+| [dandisets-testing/000003](https://github.com/dandisets-testing/000003) | 0 | :heavy_check_mark: |  |  |
 | [dandisets-testing/000004](https://github.com/dandisets-testing/000004) | 0 | :heavy_check_mark: |  |  |
 | [dandisets-testing/000005](https://github.com/dandisets-testing/000005) | 0 | :heavy_check_mark: |  |  |
 | [dandisets-testing/000006](https://github.com/dandisets-testing/000006) | 0 | :heavy_check_mark: |  |  |
@@ -17,6 +18,7 @@
 | [dandisets-testing/000018](https://github.com/dandisets-testing/000018) | 0 | :heavy_check_mark: |  |  |
 | [dandisets-testing/000019](https://github.com/dandisets-testing/000019) | 0 | :heavy_check_mark: |  |  |
 | [dandisets-testing/000020](https://github.com/dandisets-testing/000020) | 0 | :heavy_check_mark: |  |  |
+| [dandisets-testing/000021](https://github.com/dandisets-testing/000021) | 0 | :heavy_check_mark: |  |  |
 | [dandisets-testing/000022](https://github.com/dandisets-testing/000022) | 0 | :heavy_check_mark: |  |  |
 | [dandisets-testing/000023](https://github.com/dandisets-testing/000023) | 0 | :heavy_check_mark: |  |  |
 | [dandisets-testing/000024](https://github.com/dandisets-testing/000024) | 0 | :heavy_check_mark: |  |  |
@@ -39,7 +41,4 @@
 | [dandisets-testing/000041](https://github.com/dandisets-testing/000041) | 0 | :heavy_check_mark: |  |  |
 
 # Gone
-| Repository (2) | Stars | Dataset (2) | `run` | `containers-run` |
-| --- | --- | --- | --- | --- |
-| [dandisets-testing/000003](https://github.com/dandisets-testing/000003) | 0 | :heavy_check_mark: |  |  |
-| [dandisets-testing/000021](https://github.com/dandisets-testing/000021) | 0 | :heavy_check_mark: |  |  |
+No repositories found!

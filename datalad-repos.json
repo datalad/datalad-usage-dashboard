@@ -3,7 +3,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 215,
+            "stars": 217,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -16,7 +16,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "CONP-PCNO/conp-dataset",
@@ -25,7 +25,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "Community-Maintenance/blockchains",
@@ -133,7 +133,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "Donders-Institute-Data/dccn.DSC_3015000.00_677_v1",
@@ -187,7 +187,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "Donders-Institute-Data/dccn.DSC_3018035.01_533_v1",
@@ -214,7 +214,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "Donders-Institute-Data/dcn.DSC_626810_0003_650_v1",
@@ -223,7 +223,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "Donders-Institute-Data/dcn.DSC_626810_0006_072_v1",
@@ -232,7 +232,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "FrancoisPgm/visual_encoding_decoding",
@@ -241,7 +241,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "Hobbeist/encode_pipeline_tki",
@@ -250,7 +250,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "KaiserTim/Name-not-found",
@@ -268,7 +268,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "LAAC-LSCP/laac2-template",
@@ -283,7 +283,7 @@
             "name": "LAAC-LSCP/solomon-analysis",
             "url": "https://github.com/LAAC-LSCP/solomon-analysis",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -301,7 +301,7 @@
             "name": "LAAC-LSCP/zoo-phon-data",
             "url": "https://github.com/LAAC-LSCP/zoo-phon-data",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -331,7 +331,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "NGenetzky/bitbake.bblayer",
@@ -349,7 +349,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "NGenetzky/meta-bb-ngenetzky",
@@ -367,7 +367,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "NGenetzky/us.genetzky.academic",
@@ -376,7 +376,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "NGenetzky/xilinx-bsp",
@@ -385,13 +385,13 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "NGenetzky/yocto-downloads",
             "url": "https://github.com/NGenetzky/yocto-downloads",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -412,7 +412,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000011",
@@ -421,7 +421,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000031",
@@ -448,7 +448,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000105",
@@ -457,7 +457,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000113",
@@ -466,7 +466,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000117",
@@ -484,7 +484,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000149",
@@ -502,7 +502,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000206",
@@ -529,7 +529,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000214",
@@ -538,7 +538,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000217",
@@ -556,7 +556,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000220",
@@ -583,7 +583,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000223",
@@ -601,7 +601,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000234",
@@ -610,7 +610,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000235",
@@ -619,7 +619,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000236",
@@ -628,7 +628,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000237",
@@ -637,7 +637,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000238",
@@ -655,7 +655,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000241",
@@ -691,7 +691,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000246",
@@ -700,7 +700,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000247",
@@ -736,7 +736,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds000258",
@@ -754,7 +754,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds001353",
@@ -772,7 +772,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds001417",
@@ -799,7 +799,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds001461",
@@ -826,7 +826,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds001510",
@@ -880,7 +880,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds001751",
@@ -889,7 +889,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds001761",
@@ -907,7 +907,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds001769",
@@ -925,7 +925,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds001785",
@@ -934,7 +934,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds001787",
@@ -943,7 +943,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds001810",
@@ -961,7 +961,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds001838",
@@ -997,7 +997,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds001883",
@@ -1069,7 +1069,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002158",
@@ -1078,7 +1078,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002168",
@@ -1096,7 +1096,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002250",
@@ -1123,7 +1123,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002336",
@@ -1159,7 +1159,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002422",
@@ -1213,7 +1213,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002602",
@@ -1231,7 +1231,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002609",
@@ -1240,7 +1240,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002614",
@@ -1258,7 +1258,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002647",
@@ -1267,7 +1267,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002672",
@@ -1276,7 +1276,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002674",
@@ -1285,7 +1285,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002685",
@@ -1348,7 +1348,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002733",
@@ -1474,7 +1474,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds002835",
@@ -1501,7 +1501,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds002848",
@@ -1519,7 +1519,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds002879",
@@ -1582,7 +1582,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003012",
@@ -1591,7 +1591,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003017",
@@ -1618,7 +1618,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003037",
@@ -1663,7 +1663,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003097",
@@ -1672,7 +1672,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003103",
@@ -1690,7 +1690,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003151",
@@ -1699,7 +1699,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003170",
@@ -1717,7 +1717,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003190",
@@ -1726,7 +1726,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003192",
@@ -1798,7 +1798,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003345",
@@ -1843,7 +1843,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003400",
@@ -1861,7 +1861,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003417",
@@ -1870,7 +1870,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003420",
@@ -1906,7 +1906,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003433",
@@ -1933,7 +1933,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003437",
@@ -1969,7 +1969,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003441",
@@ -1978,7 +1978,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003442",
@@ -1987,7 +1987,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003443",
@@ -2041,7 +2041,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003454",
@@ -2059,7 +2059,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003458",
@@ -2068,7 +2068,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003459",
@@ -2095,7 +2095,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003465",
@@ -2113,7 +2113,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003468",
@@ -2122,7 +2122,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003469",
@@ -2131,7 +2131,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003470",
@@ -2140,7 +2140,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003474",
@@ -2167,7 +2167,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003481",
@@ -2176,7 +2176,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003483",
@@ -2185,7 +2185,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003487",
@@ -2194,7 +2194,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003490",
@@ -2203,7 +2203,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003495",
@@ -2212,7 +2212,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003498",
@@ -2221,7 +2221,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003500",
@@ -2239,7 +2239,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003506",
@@ -2248,7 +2248,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003507",
@@ -2257,7 +2257,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003509",
@@ -2275,7 +2275,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003516",
@@ -2311,7 +2311,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003520",
@@ -2329,7 +2329,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003522",
@@ -2356,7 +2356,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003540",
@@ -2383,7 +2383,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003548",
@@ -2392,7 +2392,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "OpenNeuroDatasets/ds003552",
@@ -2401,7 +2401,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003555",
@@ -2410,7 +2410,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003563",
@@ -2419,7 +2419,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003565",
@@ -2428,7 +2428,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003568",
@@ -2437,7 +2437,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003569",
@@ -2455,7 +2455,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003639",
@@ -2464,7 +2464,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003642",
@@ -2473,7 +2473,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003643",
@@ -2482,7 +2482,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003645",
@@ -2491,7 +2491,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003647",
@@ -2500,7 +2500,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003653",
@@ -2518,7 +2518,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003669",
@@ -2527,7 +2527,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003701",
@@ -2641,7 +2641,7 @@
             "name": "PennSIVE/UVMdata",
             "url": "https://github.com/PennSIVE/UVMdata",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -2662,7 +2662,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "PennSIVE/insurance",
@@ -2671,7 +2671,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "Raj-Lab-UCSF/Human_Brain_Atlases",
@@ -2680,7 +2680,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "Raj-Lab-UCSF/Human_Brain_Atlases-brainnectome",
@@ -2689,7 +2689,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "Raj-Lab-UCSF/Human_Brain_Atlases-desikan-killiany",
@@ -2698,7 +2698,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "Remi-Gau/miss_hit-gallery",
@@ -2707,13 +2707,13 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "Remi-Gau/rvm5HTsource",
             "url": "https://github.com/Remi-Gau/rvm5HTsource",
             "stars": 1,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -2725,7 +2725,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "Remi-Gau/vis_loc",
@@ -2740,7 +2740,7 @@
             "name": "ReproNim/ReproTube",
             "url": "https://github.com/ReproNim/ReproTube",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -2802,7 +2802,7 @@
         {
             "name": "ReproNim/neurodocker",
             "url": "https://github.com/ReproNim/neurodocker",
-            "stars": 223,
+            "stars": 224,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -2812,7 +2812,7 @@
             "name": "ReproNim/openneuro-tools",
             "url": "https://github.com/ReproNim/openneuro-tools",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -2824,7 +2824,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "ReproNim/publications",
@@ -2869,7 +2869,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "SIMEXP/borear_ibc_analysis",
@@ -2887,7 +2887,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "SIMEXP/ltetrel_gpu_cc_tuto",
@@ -2896,7 +2896,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "TobiasKadelka/123420",
@@ -2923,13 +2923,13 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "adswa/BIDSsacc",
             "url": "https://github.com/adswa/BIDSsacc",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -2941,7 +2941,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "adswa/DataLad-101-tagged",
@@ -2977,7 +2977,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "adswa/papers",
@@ -3064,7 +3064,7 @@
             "name": "afni/afni_ci_test_data",
             "url": "https://github.com/afni/afni_ci_test_data",
             "stars": 1,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3076,7 +3076,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "alexlicohen/Cohen2019_Prosopagnosia",
@@ -3112,7 +3112,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "bids-standard/bids-bep016",
@@ -3139,7 +3139,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "big-data-lab-team/bigbrain-datalad",
@@ -3229,7 +3229,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "christian-monch/metadata-test",
@@ -3238,7 +3238,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "chrisvdt/midtermproject",
@@ -3256,7 +3256,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "cmadjar/test_2_master",
@@ -3265,7 +3265,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "cmadjar/test_tmp2",
@@ -3274,7 +3274,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "con/centerforopenneuroscience.org",
@@ -3328,7 +3328,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "conp-bot/conp-dataset-Comparing-Perturbation-Modes-for-Evaluating-Instabilities-in-Neuroimaging-Processed-NK",
@@ -3355,7 +3355,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "conp-bot/conp-dataset-Learning_Naturalistic_Structure__Processed_fMRI_dataset",
@@ -3364,7 +3364,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "conp-bot/conp-dataset-Longitudinal-structural-MRI-and-behavioural-data-for-mice-prenatally-exposed-to-materna",
@@ -3526,7 +3526,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "conpdatasets/Multi-model_functionalization_of_disease-associated_PTEN_missense_mutations",
@@ -3544,7 +3544,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "conpdatasets/braincode_Mouse_Image",
@@ -3553,7 +3553,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "conpdatasets/braincode_NDD_Priority_Setting_Partnership",
@@ -3580,7 +3580,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "conpdatasets/preventad-open",
@@ -3589,7 +3589,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "conpdatasets/preventad-open-bids",
@@ -3598,7 +3598,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "conpdatasets/preventad-registered",
@@ -3607,7 +3607,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "conpdatasets/preventad-registered-clinical-data",
@@ -3616,7 +3616,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "conpdatasets/preventad-registered-images-in-BIDS",
@@ -3625,7 +3625,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "conpdatasets/preventad-registered-images-in-MINC",
@@ -3634,7 +3634,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "courtois-neuromod/IBC",
@@ -3748,7 +3748,7 @@
             "name": "dandi/dandisets",
             "url": "https://github.com/dandi/dandisets",
             "stars": 1,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3805,7 +3805,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets-testing/000004",
@@ -3958,7 +3958,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets-testing/000022",
@@ -4174,7 +4174,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000007",
@@ -4210,7 +4210,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000011",
@@ -4264,7 +4264,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000018",
@@ -4291,7 +4291,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000021",
@@ -4300,7 +4300,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000022",
@@ -4318,7 +4318,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000024",
@@ -4327,7 +4327,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000025",
@@ -4381,7 +4381,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000031",
@@ -4399,7 +4399,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000033",
@@ -4408,7 +4408,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000034",
@@ -4417,7 +4417,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000035",
@@ -4489,7 +4489,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000043",
@@ -4498,7 +4498,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000044",
@@ -4507,7 +4507,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000045",
@@ -4516,7 +4516,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000046",
@@ -4534,7 +4534,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000048",
@@ -4597,7 +4597,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000055",
@@ -4606,7 +4606,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000056",
@@ -4615,7 +4615,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000057",
@@ -4642,7 +4642,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dandisets/000060",
@@ -4651,7 +4651,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000061",
@@ -4669,7 +4669,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000069",
@@ -4678,7 +4678,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000070",
@@ -4687,7 +4687,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000071",
@@ -4696,7 +4696,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000072",
@@ -4705,7 +4705,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000105",
@@ -4714,7 +4714,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000106",
@@ -4723,7 +4723,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000107",
@@ -4732,7 +4732,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000108",
@@ -4741,7 +4741,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dandisets/000110",
@@ -4795,7 +4795,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "datalad-collection-1/datasets.datalad.org",
@@ -4837,7 +4837,7 @@
             "name": "datalad-datasets/hcp-functional-connectivity",
             "url": "https://github.com/datalad-datasets/hcp-functional-connectivity",
             "stars": 1,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -4921,7 +4921,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "datalad-datasets/kdenlive-what-is-datalad",
@@ -4936,7 +4936,7 @@
             "name": "datalad-datasets/longnow-podcasts",
             "url": "https://github.com/datalad-datasets/longnow-podcasts",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -4948,13 +4948,13 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "datalad-datasets/ohbm2020-posters",
             "url": "https://github.com/datalad-datasets/ohbm2020-posters",
             "stars": 32,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5038,13 +5038,13 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "datalad-tester/docker-ssh-target",
             "url": "https://github.com/datalad-tester/docker-ssh-target",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5119,7 +5119,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "datalad/example-dicom-functional",
@@ -5128,7 +5128,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "datalad/example-dicom-structural",
@@ -5137,7 +5137,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "datalad/git-annex",
@@ -5236,7 +5236,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "datalad/videos-onlinebrainintensive-2017",
@@ -5254,7 +5254,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dbic/QA",
@@ -5263,7 +5263,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dbic/handbook",
@@ -5290,7 +5290,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dhivakark/midterm_project",
@@ -5299,7 +5299,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "dl-throwaway/test-gh",
@@ -5317,7 +5317,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dl-throwaway/test-gh-sub__1-d-sub_sub-_1",
@@ -5335,7 +5335,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dl-throwaway/test_gh3-sub__1",
@@ -5353,7 +5353,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dl-throwaway/test_gh4",
@@ -5362,7 +5362,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dl-throwaway/test_gh4-sub__1",
@@ -5389,7 +5389,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "dl-throwaway/testgh-sub__1",
@@ -5407,7 +5407,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "docker-library/official-images",
@@ -5506,7 +5506,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "incf-nidash/demo-datalad-nidmresults",
@@ -5542,7 +5542,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "jasongallant/midtermproject",
@@ -5569,7 +5569,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "joeyzhou98/osf-private-test",
@@ -5668,7 +5668,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "leej3/afni_ci_test_data",
@@ -5695,7 +5695,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "lnnrtwttkhn/highspeed-analysis",
@@ -5803,7 +5803,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "lnnrtwttkhn/tools",
@@ -5839,7 +5839,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "maxadam2017/midtermproject",
@@ -5866,7 +5866,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "mih/datalad-osf-component-tester",
@@ -5875,7 +5875,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "mih/demoannex",
@@ -5884,7 +5884,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "mih/ebrains-demo",
@@ -5911,13 +5911,13 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "mikapfl/read_di_unfccc",
             "url": "https://github.com/mikapfl/read_di_unfccc",
             "stars": 5,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5947,7 +5947,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "msrlab/DataLad-101",
@@ -5965,7 +5965,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "myyoda/demo-dataset-localizerscans",
@@ -5974,7 +5974,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "myyoda/talk-principles",
@@ -5983,7 +5983,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "naturalistic-data-analysis/naturalistic-data",
@@ -6019,7 +6019,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "neuroscout-datasets/ds001338_raw",
@@ -6064,7 +6064,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "nicolocin/openmind-rclone-test",
@@ -6079,7 +6079,7 @@
             "name": "nicolocin/test-dir1",
             "url": "https://github.com/nicolocin/test-dir1",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6118,7 +6118,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/ds000003",
@@ -6127,7 +6127,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/ds000003-derivatives",
@@ -6136,7 +6136,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/ds000054",
@@ -6145,7 +6145,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/ds000054-derivatives",
@@ -6154,7 +6154,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/ds000206",
@@ -6163,7 +6163,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/ds000206-derivatives",
@@ -6172,7 +6172,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/ds000210",
@@ -6181,7 +6181,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/ds000210-derivatives",
@@ -6190,7 +6190,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/ds001600",
@@ -6199,7 +6199,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/ds001600-derivatives",
@@ -6208,7 +6208,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/ds001771",
@@ -6244,7 +6244,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/nirodents-bold-se-derivatives",
@@ -6253,7 +6253,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipreps-data/nitransforms-tests",
@@ -6262,7 +6262,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "nipy/heudiconv",
@@ -6292,6 +6292,15 @@
             "status": "active"
         },
         {
+            "name": "ntolley/sbi_hnn_github",
+            "url": "https://github.com/ntolley/sbi_hnn_github",
+            "stars": 1,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "ntolley/template_hnn_github",
             "url": "https://github.com/ntolley/template_hnn_github",
             "stars": 0,
@@ -6316,7 +6325,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "opening-hours/opening_hours.js",
@@ -6349,7 +6358,7 @@
             "name": "proj-nuisance/nuisance",
             "url": "https://github.com/proj-nuisance/nuisance",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6361,7 +6370,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "protontypes/LibreSelery",
@@ -6424,7 +6433,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "psychoinformatics-de/kdenlive-gource-ukbiobank",
@@ -6460,7 +6469,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "psychoinformatics-de/studyforrest-data-aligned",
@@ -6496,7 +6505,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "psychoinformatics-de/studyforrest-data-freesurfer",
@@ -6511,7 +6520,7 @@
             "name": "psychoinformatics-de/studyforrest-data-multires3t",
             "url": "https://github.com/psychoinformatics-de/studyforrest-data-multires3t",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6532,7 +6541,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "psychoinformatics-de/studyforrest-data-phase2",
@@ -6583,7 +6592,7 @@
             "name": "psychoinformatics-de/studyforrest-paper-speechannotation",
             "url": "https://github.com/psychoinformatics-de/studyforrest-paper-speechannotation",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6595,7 +6604,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "qlux/dataladrepo",
@@ -6676,7 +6685,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "soichih/datalad-o3d-test",
@@ -6685,7 +6694,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "srmemar/mousebytesdataset",
@@ -6703,7 +6712,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "templateflow/tpl-MNI152NLin2009cAsym",
@@ -6721,7 +6730,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "templateflow/tpl-MNIInfant",
@@ -6730,7 +6739,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "templateflow/tpl-OASIS30ANTs",
@@ -6775,7 +6784,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "tsankeuodelfa/midtermproject",
@@ -6799,7 +6808,7 @@
             "name": "yarikoptic/demo1",
             "url": "https://github.com/yarikoptic/demo1",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6865,7 +6874,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "zxenia/mcgill-emc-rna-seq-experiment",
@@ -6874,7 +6883,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         }
     ]
 }
