@@ -28,6 +28,7 @@ from typing import (
     Set,
     Tuple,
     Type,
+    Union,
     cast,
 )
 import click
@@ -270,10 +271,10 @@ class CollectionUpdater(BaseModel):
                 self.new_runs += 1
         self.all_repos[repo.name] = repo
 
-    def get_new_collection(self) -> List[DataladRepo]:
+    def get_new_collection(self, searcher: "GHDataladSearcher") -> List[DataladRepo]:
         collection: List[DataladRepo] = []
         for repo in self.all_repos.values():
-            if repo.name in self.seen:
+            if repo.name in self.seen or searcher.repo_exists(repo.name):
                 status = Status.ACTIVE
             else:
                 status = Status.GONE
@@ -401,6 +402,16 @@ class GHDataladSearcher:
         results.sort(key=attrgetter("name"))
         return results
 
+    def repo_exists(self, repo_fullname: str) -> bool:
+        r = self.session.get(f"{self.API_URL}/repos/{repo_fullname}")
+        if r.ok:
+            return True
+        elif r.status_code in (403, 404):
+            return False
+        else:
+            r.raise_for_status()
+            raise AssertionError("Unreachable")
+
 
 @click.command()
 @click.option(
@@ -416,7 +427,7 @@ class GHDataladSearcher:
     is_flag=True,
     help="Regenerate the README from the JSON file without querying GitHub",
 )
-def main(log_level, regen_readme):
+def main(log_level: int, regen_readme: bool) -> None:
     logging.basicConfig(
         format="%(asctime)s [%(levelname)-8s] %(name)s %(message)s",
         datefmt="%Y-%m-%dT%H:%M:%S%z",
@@ -433,7 +444,7 @@ def main(log_level, regen_readme):
         with GHDataladSearcher(get_github_token()) as searcher:
             for repo in searcher.get_datalad_repos():
                 updater.register_repo(repo)
-        record.github = updater.get_new_collection()
+            record.github = updater.get_new_collection(searcher)
         with open(RECORD_FILE, "w") as fp:
             print(record.json(indent=4), file=fp)
 
@@ -448,7 +459,7 @@ def main(log_level, regen_readme):
                 make_table_file(
                     Path(README_FOLDER, f"{owner}.md"),
                     owner,
-                    repos,
+                    list(repos),  # Copy to make mypy happy
                     show_ours=False,
                 )
             )
@@ -545,14 +556,14 @@ def check(yesno: bool) -> str:
     return ":heavy_check_mark:" if yesno else ""
 
 
-def runcmd(*args, **kwargs):
+def runcmd(*args: Union[str, Path], **kwargs: Any) -> None:
     log.debug("Running: %s", " ".join(shlex.quote(str(a)) for a in args))
     r = subprocess.run(args, **kwargs)
     if r.returncode != 0:
         sys.exit(r.returncode)
 
 
-def commit(msg):
+def commit(msg: str) -> None:
     if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
         runcmd("git", "commit", "-m", msg)
     else:
