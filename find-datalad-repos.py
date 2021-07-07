@@ -405,7 +405,7 @@ class GHDataladSearcher:
         r = self.session.get(f"{self.API_URL}/repos/{repo_fullname}")
         if r.ok:
             return True
-        elif r.status_code == 404:
+        elif r.status_code in (403, 404):
             return False
         else:
             r.raise_for_status()
