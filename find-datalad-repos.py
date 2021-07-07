@@ -28,6 +28,7 @@ from typing import (
     Set,
     Tuple,
     Type,
+    Union,
     cast,
 )
 import click
@@ -425,7 +426,7 @@ class GHDataladSearcher:
     is_flag=True,
     help="Regenerate the README from the JSON file without querying GitHub",
 )
-def main(log_level, regen_readme):
+def main(log_level: int, regen_readme: bool) -> None:
     logging.basicConfig(
         format="%(asctime)s [%(levelname)-8s] %(name)s %(message)s",
         datefmt="%Y-%m-%dT%H:%M:%S%z",
@@ -457,7 +458,7 @@ def main(log_level, regen_readme):
                 make_table_file(
                     Path(README_FOLDER, f"{owner}.md"),
                     owner,
-                    repos,
+                    list(repos),  # Copy to make mypy happy
                     show_ours=False,
                 )
             )
@@ -554,14 +555,14 @@ def check(yesno: bool) -> str:
     return ":heavy_check_mark:" if yesno else ""
 
 
-def runcmd(*args, **kwargs):
+def runcmd(*args: Union[str, Path], **kwargs: Any) -> None:
     log.debug("Running: %s", " ".join(shlex.quote(str(a)) for a in args))
     r = subprocess.run(args, **kwargs)
     if r.returncode != 0:
         sys.exit(r.returncode)
 
 
-def commit(msg):
+def commit(msg: str) -> None:
     if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
         runcmd("git", "commit", "-m", msg)
     else:
