@@ -1,13 +1,16 @@
 # Active
-| Repository (18) | Stars (267) | Dataset (13) | `run` (6) | `containers-run` |
+| Repository (21) | Stars (271) | Dataset (17) | `run` (6) | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [datalad/datalad](https://github.com/datalad/datalad) | 252 |  | :heavy_check_mark: |  |
 | [datalad/datalad-extension-template](https://github.com/datalad/datalad-extension-template) | 0 |  | :heavy_check_mark: |  |
 | [datalad/datalad-extensions](https://github.com/datalad/datalad-extensions) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| [datalad/datalad-git-bug-dumps](https://github.com/datalad/datalad-git-bug-dumps) | 0 |  | :heavy_check_mark: |  |
-| [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 0 |  | :heavy_check_mark: |  |
+| [datalad/datalad-git-bug-dumps](https://github.com/datalad/datalad-git-bug-dumps) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 1 |  | :heavy_check_mark: |  |
 | [datalad/datalad-paper-joss](https://github.com/datalad/datalad-paper-joss) | 1 | :heavy_check_mark: |  |  |
 | [datalad/datasets.datalad.org](https://github.com/datalad/datasets.datalad.org) | 4 | :heavy_check_mark: |  |  |
+| [datalad/datasets.datalad.org--labs](https://github.com/datalad/datasets.datalad.org--labs) | 0 | :heavy_check_mark: |  |  |
+| [datalad/example-dicom-functional](https://github.com/datalad/example-dicom-functional) | 1 | :heavy_check_mark: |  |  |
+| [datalad/example-dicom-structural](https://github.com/datalad/example-dicom-structural) | 2 | :heavy_check_mark: |  |  |
 | [datalad/git-annex](https://github.com/datalad/git-annex) | 1 |  | :heavy_check_mark: |  |
 | [datalad/hcp-100307-test](https://github.com/datalad/hcp-100307-test) | 1 | :heavy_check_mark: |  |  |
 | [datalad/packages](https://github.com/datalad/packages) | 0 | :heavy_check_mark: |  |  |
@@ -21,9 +24,6 @@
 | [datalad/videos-onlinebrainintensive-2017](https://github.com/datalad/videos-onlinebrainintensive-2017) | 2 | :heavy_check_mark: |  |  |
 
 # Gone
-| Repository (4) | Stars (3) | Dataset (4) | `run` | `containers-run` |
+| Repository (1) | Stars | Dataset (1) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- |
-| [datalad/datasets.datalad.org--labs](https://github.com/datalad/datasets.datalad.org--labs) | 0 | :heavy_check_mark: |  |  |
-| [datalad/example-dicom-functional](https://github.com/datalad/example-dicom-functional) | 1 | :heavy_check_mark: |  |  |
-| [datalad/example-dicom-structural](https://github.com/datalad/example-dicom-structural) | 2 | :heavy_check_mark: |  |  |
 | [datalad/testrepo_gh-sub__1-d-sub_-_1](https://github.com/datalad/testrepo_gh-sub__1-d-sub_-_1) | 0 | :heavy_check_mark: |  |  |

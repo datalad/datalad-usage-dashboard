@@ -1,14 +1,15 @@
 # Active
-| Repository (5) | Stars | Dataset (5) | `run` | `containers-run` |
+| Repository (6) | Stars | Dataset (6) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [nipreps-data/HCP101006](https://github.com/nipreps-data/HCP101006) | 0 | :heavy_check_mark: |  |  |
 | [nipreps-data/HCP101006-derivatives](https://github.com/nipreps-data/HCP101006-derivatives) | 0 | :heavy_check_mark: |  |  |
 | [nipreps-data/ds001771](https://github.com/nipreps-data/ds001771) | 0 | :heavy_check_mark: |  |  |
 | [nipreps-data/ds001771-derivatives](https://github.com/nipreps-data/ds001771-derivatives) | 0 | :heavy_check_mark: |  |  |
 | [nipreps-data/epi-references](https://github.com/nipreps-data/epi-references) | 0 | :heavy_check_mark: |  |  |
+| [nipreps-data/nitransforms-tests](https://github.com/nipreps-data/nitransforms-tests) | 0 | :heavy_check_mark: |  |  |
 
 # Gone
-| Repository (14) | Stars (1) | Dataset (14) | `run` | `containers-run` |
+| Repository (13) | Stars (1) | Dataset (13) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- |
 | [nipreps-data/brain-extraction-tests](https://github.com/nipreps-data/brain-extraction-tests) | 0 | :heavy_check_mark: |  |  |
 | [nipreps-data/ds000003](https://github.com/nipreps-data/ds000003) | 0 | :heavy_check_mark: |  |  |
@@ -23,4 +24,3 @@
 | [nipreps-data/ds001600-derivatives](https://github.com/nipreps-data/ds001600-derivatives) | 0 | :heavy_check_mark: |  |  |
 | [nipreps-data/nirodents-bold-se](https://github.com/nipreps-data/nirodents-bold-se) | 0 | :heavy_check_mark: |  |  |
 | [nipreps-data/nirodents-bold-se-derivatives](https://github.com/nipreps-data/nirodents-bold-se-derivatives) | 0 | :heavy_check_mark: |  |  |
-| [nipreps-data/nitransforms-tests](https://github.com/nipreps-data/nitransforms-tests) | 0 | :heavy_check_mark: |  |  |
