@@ -191,6 +191,7 @@ class SubtableRow(TableRow):
 
 class RepoTable(BaseModel):
     HEADERS: ClassVar[List[str]] = [
+        "#",
         "Repository",
         "Stars",
         "Dataset",
@@ -208,16 +209,16 @@ class RepoTable(BaseModel):
         s = f"# {self.title}\n"
         if self.rows:
             qtys = self.get_total_qtys()
-            headers = []
-            for h, q in zip(self.HEADERS, qtys):
+            headers = [self.HEADERS[0]]
+            for h, q in zip(self.HEADERS[1:], qtys):
                 if q > 0:
                     headers.append(f"{h} ({q})")
                 else:
                     headers.append(h)
             s += self.render_row(headers)
             s += self.render_row(["---"] * len(self.HEADERS))
-            for r in self.rows:
-                s += self.render_row(r.get_cells())
+            for i, r in enumerate(self.rows, start=1):
+                s += self.render_row([str(i)] + r.get_cells())
         else:
             s += "No repositories found!\n"
         return s
