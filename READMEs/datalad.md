@@ -1,29 +1,29 @@
 # Active
-| Repository (21) | Stars (271) | Dataset (17) | `run` (6) | `containers-run` |
-| --- | --- | --- | --- | --- |
-| [datalad/datalad](https://github.com/datalad/datalad) | 252 |  | :heavy_check_mark: |  |
-| [datalad/datalad-extension-template](https://github.com/datalad/datalad-extension-template) | 0 |  | :heavy_check_mark: |  |
-| [datalad/datalad-extensions](https://github.com/datalad/datalad-extensions) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| [datalad/datalad-git-bug-dumps](https://github.com/datalad/datalad-git-bug-dumps) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 1 |  | :heavy_check_mark: |  |
-| [datalad/datalad-paper-joss](https://github.com/datalad/datalad-paper-joss) | 1 | :heavy_check_mark: |  |  |
-| [datalad/datasets.datalad.org](https://github.com/datalad/datasets.datalad.org) | 4 | :heavy_check_mark: |  |  |
-| [datalad/datasets.datalad.org--labs](https://github.com/datalad/datasets.datalad.org--labs) | 0 | :heavy_check_mark: |  |  |
-| [datalad/example-dicom-functional](https://github.com/datalad/example-dicom-functional) | 1 | :heavy_check_mark: |  |  |
-| [datalad/example-dicom-structural](https://github.com/datalad/example-dicom-structural) | 2 | :heavy_check_mark: |  |  |
-| [datalad/git-annex](https://github.com/datalad/git-annex) | 1 |  | :heavy_check_mark: |  |
-| [datalad/hcp-100307-test](https://github.com/datalad/hcp-100307-test) | 1 | :heavy_check_mark: |  |  |
-| [datalad/packages](https://github.com/datalad/packages) | 0 | :heavy_check_mark: |  |  |
-| [datalad/ria-tools](https://github.com/datalad/ria-tools) | 1 | :heavy_check_mark: |  |  |
-| [datalad/talk-2019-mila](https://github.com/datalad/talk-2019-mila) | 4 | :heavy_check_mark: |  |  |
-| [datalad/talk-fosdem-2020](https://github.com/datalad/talk-fosdem-2020) | 0 | :heavy_check_mark: |  |  |
-| [datalad/talk-openneuro-2018](https://github.com/datalad/talk-openneuro-2018) | 1 | :heavy_check_mark: |  |  |
-| [datalad/talks](https://github.com/datalad/talks) | 0 | :heavy_check_mark: |  |  |
-| [datalad/testrepo--minimalds](https://github.com/datalad/testrepo--minimalds) | 0 | :heavy_check_mark: |  |  |
-| [datalad/testrepo--minimalds-osf](https://github.com/datalad/testrepo--minimalds-osf) | 0 | :heavy_check_mark: |  |  |
-| [datalad/videos-onlinebrainintensive-2017](https://github.com/datalad/videos-onlinebrainintensive-2017) | 2 | :heavy_check_mark: |  |  |
+| # | Repository (21) | Stars (271) | Dataset (17) | `run` (6) | `containers-run` |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [datalad/datalad](https://github.com/datalad/datalad) | 252 |  | :heavy_check_mark: |  |
+| 2 | [datalad/datalad-extension-template](https://github.com/datalad/datalad-extension-template) | 0 |  | :heavy_check_mark: |  |
+| 3 | [datalad/datalad-extensions](https://github.com/datalad/datalad-extensions) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 4 | [datalad/datalad-git-bug-dumps](https://github.com/datalad/datalad-git-bug-dumps) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 5 | [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 1 |  | :heavy_check_mark: |  |
+| 6 | [datalad/datalad-paper-joss](https://github.com/datalad/datalad-paper-joss) | 1 | :heavy_check_mark: |  |  |
+| 7 | [datalad/datasets.datalad.org](https://github.com/datalad/datasets.datalad.org) | 4 | :heavy_check_mark: |  |  |
+| 8 | [datalad/datasets.datalad.org--labs](https://github.com/datalad/datasets.datalad.org--labs) | 0 | :heavy_check_mark: |  |  |
+| 9 | [datalad/example-dicom-functional](https://github.com/datalad/example-dicom-functional) | 1 | :heavy_check_mark: |  |  |
+| 10 | [datalad/example-dicom-structural](https://github.com/datalad/example-dicom-structural) | 2 | :heavy_check_mark: |  |  |
+| 11 | [datalad/git-annex](https://github.com/datalad/git-annex) | 1 |  | :heavy_check_mark: |  |
+| 12 | [datalad/hcp-100307-test](https://github.com/datalad/hcp-100307-test) | 1 | :heavy_check_mark: |  |  |
+| 13 | [datalad/packages](https://github.com/datalad/packages) | 0 | :heavy_check_mark: |  |  |
+| 14 | [datalad/ria-tools](https://github.com/datalad/ria-tools) | 1 | :heavy_check_mark: |  |  |
+| 15 | [datalad/talk-2019-mila](https://github.com/datalad/talk-2019-mila) | 4 | :heavy_check_mark: |  |  |
+| 16 | [datalad/talk-fosdem-2020](https://github.com/datalad/talk-fosdem-2020) | 0 | :heavy_check_mark: |  |  |
+| 17 | [datalad/talk-openneuro-2018](https://github.com/datalad/talk-openneuro-2018) | 1 | :heavy_check_mark: |  |  |
+| 18 | [datalad/talks](https://github.com/datalad/talks) | 0 | :heavy_check_mark: |  |  |
+| 19 | [datalad/testrepo--minimalds](https://github.com/datalad/testrepo--minimalds) | 0 | :heavy_check_mark: |  |  |
+| 20 | [datalad/testrepo--minimalds-osf](https://github.com/datalad/testrepo--minimalds-osf) | 0 | :heavy_check_mark: |  |  |
+| 21 | [datalad/videos-onlinebrainintensive-2017](https://github.com/datalad/videos-onlinebrainintensive-2017) | 2 | :heavy_check_mark: |  |  |
 
 # Gone
-| Repository (1) | Stars | Dataset (1) | `run` | `containers-run` |
-| --- | --- | --- | --- | --- |
-| [datalad/testrepo_gh-sub__1-d-sub_-_1](https://github.com/datalad/testrepo_gh-sub__1-d-sub_-_1) | 0 | :heavy_check_mark: |  |  |
+| # | Repository (1) | Stars | Dataset (1) | `run` | `containers-run` |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [datalad/testrepo_gh-sub__1-d-sub_-_1](https://github.com/datalad/testrepo_gh-sub__1-d-sub_-_1) | 0 | :heavy_check_mark: |  |  |
