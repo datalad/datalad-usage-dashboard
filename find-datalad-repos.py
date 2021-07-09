@@ -283,9 +283,13 @@ class CollectionUpdater(BaseModel):
         return collection
 
     def get_report(self) -> str:
+        news = (
+            "{self.new_repos} new datasets",
+            "{self.new_runs} new `datalad run` users",
+        )
         return (
-            f"Added {self.new_hits} new hits: {self.new_repos} new datasets"
-            f" and {self.new_runs} new `datalad run` users"
+            f"Added {self.new_hits} new hits: " +
+            " and ".join(n for n in news if not n.startswith('0 '))
         )
 
 
