@@ -284,13 +284,16 @@ class CollectionUpdater(BaseModel):
 
     def get_report(self) -> str:
         news = (
-            "{self.new_repos} new datasets",
-            "{self.new_runs} new `datalad run` users",
+            f"{self.new_repos} new datasets",
+            f"{self.new_runs} new `datalad run` users",
         )
-        return (
-            f"Added {self.new_hits} new hits: " +
-            " and ".join(n for n in news if not n.startswith('0 '))
-        )
+        if self.new_hits:
+            return (
+                f"Added {self.new_hits} new hits: " +
+                " and ".join(n for n in news if not n.startswith('0 '))
+            )
+        else:
+            return "Updated the state without any new hits added"
 
 
 class GHDataladSearcher:
