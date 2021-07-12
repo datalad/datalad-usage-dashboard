@@ -1,10 +1,10 @@
 # Active
-| # | Repository (24) | Stars (276) | Dataset (17) | `run` (8) | `containers-run` |
+| # | Repository (26) | Stars (276) | Dataset (18) | `run` (8) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 0 |  | :heavy_check_mark: |  |
 | 2 | [datalad/datalad](https://github.com/datalad/datalad) | 252 |  | :heavy_check_mark: |  |
 | 3 | [datalad/datalad-extension-template](https://github.com/datalad/datalad-extension-template) | 0 |  | :heavy_check_mark: |  |
-| 4 | [datalad/datalad-extensions](https://github.com/datalad/datalad-extensions) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 4 | [datalad/datalad-extensions](https://github.com/datalad/datalad-extensions) | 0 |  | :heavy_check_mark: |  |
 | 5 | [datalad/datalad-git-bug-dumps](https://github.com/datalad/datalad-git-bug-dumps) | 0 |  | :heavy_check_mark: |  |
 | 6 | [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 1 |  | :heavy_check_mark: |  |
 | 7 | [datalad/datalad-paper-joss](https://github.com/datalad/datalad-paper-joss) | 2 | :heavy_check_mark: |  |  |
@@ -23,8 +23,10 @@
 | 20 | [datalad/talks](https://github.com/datalad/talks) | 0 | :heavy_check_mark: |  |  |
 | 21 | [datalad/testrepo--minimalds](https://github.com/datalad/testrepo--minimalds) | 0 | :heavy_check_mark: |  |  |
 | 22 | [datalad/testrepo--minimalds-osf](https://github.com/datalad/testrepo--minimalds-osf) | 0 | :heavy_check_mark: |  |  |
-| 23 | [datalad/testrepo_gh-sub__1-d-sub_-_1](https://github.com/datalad/testrepo_gh-sub__1-d-sub_-_1) | 0 | :heavy_check_mark: |  |  |
-| 24 | [datalad/videos-onlinebrainintensive-2017](https://github.com/datalad/videos-onlinebrainintensive-2017) | 2 | :heavy_check_mark: |  |  |
+| 23 | [datalad/testrepo_gh](https://github.com/datalad/testrepo_gh) | 0 | :heavy_check_mark: |  |  |
+| 24 | [datalad/testrepo_gh-sub__1](https://github.com/datalad/testrepo_gh-sub__1) | 0 | :heavy_check_mark: |  |  |
+| 25 | [datalad/testrepo_gh-sub__1-d-sub_-_1](https://github.com/datalad/testrepo_gh-sub__1-d-sub_-_1) | 0 | :heavy_check_mark: |  |  |
+| 26 | [datalad/videos-onlinebrainintensive-2017](https://github.com/datalad/videos-onlinebrainintensive-2017) | 2 | :heavy_check_mark: |  |  |
 
 # Gone
 No repositories found!
