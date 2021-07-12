@@ -19,7 +19,7 @@ INTER_SEARCH_DELAY = 10
 POST_ABUSE_DELAY = 45
 
 
-class DataladRepo(TableRow):
+class GHDataladRepo(TableRow):
     name: str
     url: str
     stars: int
@@ -159,7 +159,7 @@ class GHDataladSearcher:
         r.raise_for_status()
         return cast(int, r.json()["stargazers_count"])
 
-    def get_datalad_repos(self) -> List[DataladRepo]:
+    def get_datalad_repos(self) -> List[GHDataladRepo]:
         datasets = set(self.search_dataset_repos())
         runcmds: Dict[GHRepo, bool] = {}
         for repo, container_run in self.search_runcmds():
@@ -167,7 +167,7 @@ class GHDataladSearcher:
         results = []
         for repo in datasets | runcmds.keys():
             results.append(
-                DataladRepo(
+                GHDataladRepo(
                     url=repo.url,
                     name=repo.name,
                     stars=self.get_repo_stars(repo),

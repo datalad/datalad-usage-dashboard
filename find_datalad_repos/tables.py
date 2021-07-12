@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
-from pathlib import Path
-from typing import ClassVar, Iterable, List
+from typing import IO, ClassVar, Iterable, List
 from pydantic import BaseModel, Field
 from .config import OURSELVES, README_FOLDER
 from .util import Statistics, Status, check
@@ -81,7 +80,7 @@ class RepoTable(BaseModel):
         return Statistics.sum(r.get_qtys() for r in self.rows)
 
     def render(self) -> str:
-        s = f"# {self.title}\n"
+        s = f"## {self.title}\n"
         if self.rows:
             qtys = self.get_total_qtys()
             headers = [self.HEADERS[0]]
@@ -104,7 +103,7 @@ class RepoTable(BaseModel):
 
 
 def make_table_file(
-    path: Path, name: str, rows: List[TableRow], show_ours: bool = True
+    fp: IO[str], name: str, rows: List[TableRow], show_ours: bool = True
 ) -> SubtableRow:
     wild: List[TableRow] = []
     ours: List[TableRow] = []
@@ -128,15 +127,14 @@ def make_table_file(
             RepoTable(title="Gone", rows=gone),
         ]
     stats: List[Statistics] = []
-    with path.open("w") as fp:
-        first = True
-        for tbl in tables:
-            if first:
-                first = False
-            else:
-                print(file=fp)
-            print(tbl.render(), end="", file=fp)
-            stats.append(tbl.get_total_qtys())
+    first = True
+    for tbl in tables:
+        if first:
+            first = False
+        else:
+            print(file=fp)
+        print(tbl.render(), end="", file=fp)
+        stats.append(tbl.get_total_qtys())
     if all(r.gone for tbl in tables for r in tbl.rows):
         status = Status.GONE
     else:
