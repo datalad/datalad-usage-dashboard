@@ -1,4 +1,5 @@
-# In the wild
+# GitHub
+## In the wild
 | # | Repository (635) | Stars (6663) | Dataset (568) | `run` (93) | `containers-run` (4) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [AllenInstitute/AllenSDK](https://github.com/AllenInstitute/AllenSDK) | 219 |  | :heavy_check_mark: |  |
@@ -116,7 +117,7 @@
 | 113 | [vandermeerlab/labs--mvdm](https://github.com/vandermeerlab/labs--mvdm) | 0 | :heavy_check_mark: |  |  |
 | 114 | [zxenia/mcgill-emc-rna-seq-experiment](https://github.com/zxenia/mcgill-emc-rna-seq-experiment) | 0 | :heavy_check_mark: |  |  |
 
-# Inner circle
+## Inner circle
 | # | Repository (203) | Stars (609) | Dataset (164) | `run` (62) | `containers-run` (2) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [con/*](https://github.com/con) [(3)](READMEs/con.md) | [38](READMEs/con.md) | [:heavy_check_mark: (2)](READMEs/con.md) | [:heavy_check_mark: (3)](READMEs/con.md) |  |
@@ -136,5 +137,82 @@
 | 15 | [psychoinformatics-de/*](https://github.com/psychoinformatics-de) [(25)](READMEs/psychoinformatics-de.md) | [36](READMEs/psychoinformatics-de.md) | [:heavy_check_mark: (22)](READMEs/psychoinformatics-de.md) | [:heavy_check_mark: (9)](READMEs/psychoinformatics-de.md) | [:heavy_check_mark: (1)](READMEs/psychoinformatics-de.md) |
 | 16 | [yarikoptic/*](https://github.com/yarikoptic) [(12)](READMEs/yarikoptic.md) | [2](READMEs/yarikoptic.md) | [:heavy_check_mark: (8)](READMEs/yarikoptic.md) | [:heavy_check_mark: (7)](READMEs/yarikoptic.md) |  |
 
-# Gone
+## Gone
+No repositories found!
+
+# OSF
+## Active
+1. [Connectome Mapping ToolKit LIBrary (CMTKLIB): Data resources](https://osf.io/5hy42/)
+2. [DataLad CI: Complete, self-contained dataset](https://osf.io/q8xnk/)
+3. [DataLad Procedures for the management of long-form recordings](https://osf.io/6vcxk/)
+4. [FiberFox dMRI phantoms for motion correction benchmarking](https://osf.io/hae2u/)
+5. [NiPreps testing - Derivatives of HCP/sub-101006](https://osf.io/fb3h6/)
+6. [NiPreps testing - Derivatives of ds000054](https://osf.io/bzecy/)
+7. [NiPreps testing - Derivatives of ds001600](https://osf.io/qwzm5/)
+8. [NiPreps testing - Derivatives of ds001771](https://osf.io/9axf5/)
+9. [NiPreps testing - HCP subject 101006](https://osf.io/teq5s/)
+10. [NiPreps testing - brain-extraction-tests](https://osf.io/p38nm/)
+11. [NiPreps testing - ds000003](https://osf.io/8mxkq/)
+12. [NiPreps testing - ds000003](https://osf.io/adxy9/)
+13. [NiPreps testing - ds000003 [derivatives]](https://osf.io/s4wuk/)
+14. [NiPreps testing - ds000005](https://osf.io/wrf9g/)
+15. [NiPreps testing - ds000005 [derivatives]](https://osf.io/w8npe/)
+16. [NiPreps testing - ds000030](https://osf.io/ch63a/)
+17. [NiPreps testing - ds000030 [derivatives]](https://osf.io/3mhpr/)
+18. [NiPreps testing - ds000054](https://osf.io/nu5zc/)
+19. [NiPreps testing - ds000206](https://osf.io/296zq/)
+20. [NiPreps testing - ds000206 [derivatives]](https://osf.io/j3gak/)
+21. [NiPreps testing - ds000210](https://osf.io/gsr3d/)
+22. [NiPreps testing - ds000210](https://osf.io/u54j8/)
+23. [NiPreps testing - ds000210](https://osf.io/7mvnz/)
+24. [NiPreps testing - ds000210](https://osf.io/x3avw/)
+25. [NiPreps testing - ds000210](https://osf.io/ezdkg/)
+26. [NiPreps testing - ds000210](https://osf.io/ah6x9/)
+27. [NiPreps testing - ds000210](https://osf.io/y4jht/)
+28. [NiPreps testing - ds000210 [derivatives]](https://osf.io/ar3sm/)
+29. [NiPreps testing - ds001600](https://osf.io/bvy3f/)
+30. [NiPreps testing - ds001771](https://osf.io/cqnxe/)
+31. [NiPreps testing - epi-references](https://osf.io/srw9k/)
+32. [NiPreps testing - epi-references [derivatives]](https://osf.io/58hyz/)
+33. [NiPreps testing - nirodents-bold-se](https://osf.io/ngv3c/)
+34. [NiPreps testing - nirodents-bold-se [derivatives]](https://osf.io/t9z4h/)
+35. [NiTransforms testing](https://osf.io/ucbpm/)
+36. [Raj-Lab-UCSF-AAL](https://osf.io/qbncd/)
+37. [Raj-Lab-UCSF-Atlases](https://osf.io/pvkbw/)
+38. [Raj-Lab-UCSF-Brainnectome](https://osf.io/xys4q/)
+39. [Raj-Lab-UCSF-DK86](https://osf.io/f7d6b/)
+40. [Raj-Lab-UCSF-MMP](https://osf.io/j3n9t/)
+41. [VanDam Demo](https://osf.io/96jpd/)
+42. [VanDam Demo](https://osf.io/6whqs/)
+43. [best-data-ever](https://osf.io/ypskr/)
+44. [best-data-ever](https://osf.io/pvfjz/)
+45. [best-data-ever](https://osf.io/7tprb/)
+46. [best-stdscudywdw-ever](https://osf.io/b6fwn/)
+47. [best-study-ever](https://osf.io/n6bgd/)
+48. [best-studywdw-ever](https://osf.io/qkmzr/)
+49. [best-studywdw-ever](https://osf.io/fz2dw/)
+50. [bonsai-examples](https://osf.io/wgrn3/)
+51. [bsd5](https://osf.io/vnerp/)
+52. [bsd6](https://osf.io/3bqrt/)
+53. [bsd7](https://osf.io/g4szy/)
+54. [datalad-test](https://osf.io/qabp9/)
+55. [eegelevation-freefield](https://osf.io/k4jdw/)
+56. [fitlins_tests](https://osf.io/2ynvg/)
+57. [fitlins_tests](https://osf.io/m6k2v/)
+58. [fmriprep-lts container images](https://osf.io/rbu92/)
+59. [fmriprep-lts container images](https://osf.io/d753w/)
+60. [fmriprep-lts container images](https://osf.io/9vg8e/)
+61. [fmriprep-lts container images-dev](https://osf.io/wvz3e/)
+62. [nobrainer-test1](https://osf.io/bqp76/)
+63. [nobrainer-trained-models](https://osf.io/qpxad/)
+64. [nuisance-QA-data](https://osf.io/dj2gf/)
+65. [our-study-data](https://osf.io/wv2zh/)
+66. [simulate-cbma](https://osf.io/9jbhg/)
+67. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
+68. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
+69. [studyforrest-speechannotation](https://osf.io/f5j3e/)
+70. [sub-219_bids_datalad](https://osf.io/86d3a/)
+71. [test-zarr](https://osf.io/84gbt/)
+72. [vandam-daylong](https://osf.io/6w3sq/)
+## Gone
 No repositories found!

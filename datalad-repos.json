@@ -7542,5 +7542,439 @@
             "container_run": false,
             "status": "active"
         }
+    ],
+    "osf": [
+        {
+            "url": "https://osf.io/5hy42/",
+            "id": "5hy42",
+            "name": "Connectome Mapping ToolKit LIBrary (CMTKLIB): Data resources",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/q8xnk/",
+            "id": "q8xnk",
+            "name": "DataLad CI: Complete, self-contained dataset",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/6vcxk/",
+            "id": "6vcxk",
+            "name": "DataLad Procedures for the management of long-form recordings",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/hae2u/",
+            "id": "hae2u",
+            "name": "FiberFox dMRI phantoms for motion correction benchmarking",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/fb3h6/",
+            "id": "fb3h6",
+            "name": "NiPreps testing - Derivatives of HCP/sub-101006",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/bzecy/",
+            "id": "bzecy",
+            "name": "NiPreps testing - Derivatives of ds000054",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/qwzm5/",
+            "id": "qwzm5",
+            "name": "NiPreps testing - Derivatives of ds001600",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/9axf5/",
+            "id": "9axf5",
+            "name": "NiPreps testing - Derivatives of ds001771",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/teq5s/",
+            "id": "teq5s",
+            "name": "NiPreps testing - HCP subject 101006",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/p38nm/",
+            "id": "p38nm",
+            "name": "NiPreps testing - brain-extraction-tests",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/8mxkq/",
+            "id": "8mxkq",
+            "name": "NiPreps testing - ds000003",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/adxy9/",
+            "id": "adxy9",
+            "name": "NiPreps testing - ds000003",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/s4wuk/",
+            "id": "s4wuk",
+            "name": "NiPreps testing - ds000003 [derivatives]",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/wrf9g/",
+            "id": "wrf9g",
+            "name": "NiPreps testing - ds000005",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/w8npe/",
+            "id": "w8npe",
+            "name": "NiPreps testing - ds000005 [derivatives]",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/ch63a/",
+            "id": "ch63a",
+            "name": "NiPreps testing - ds000030",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/3mhpr/",
+            "id": "3mhpr",
+            "name": "NiPreps testing - ds000030 [derivatives]",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/nu5zc/",
+            "id": "nu5zc",
+            "name": "NiPreps testing - ds000054",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/296zq/",
+            "id": "296zq",
+            "name": "NiPreps testing - ds000206",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/j3gak/",
+            "id": "j3gak",
+            "name": "NiPreps testing - ds000206 [derivatives]",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/gsr3d/",
+            "id": "gsr3d",
+            "name": "NiPreps testing - ds000210",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/u54j8/",
+            "id": "u54j8",
+            "name": "NiPreps testing - ds000210",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/7mvnz/",
+            "id": "7mvnz",
+            "name": "NiPreps testing - ds000210",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/x3avw/",
+            "id": "x3avw",
+            "name": "NiPreps testing - ds000210",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/ezdkg/",
+            "id": "ezdkg",
+            "name": "NiPreps testing - ds000210",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/ah6x9/",
+            "id": "ah6x9",
+            "name": "NiPreps testing - ds000210",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/y4jht/",
+            "id": "y4jht",
+            "name": "NiPreps testing - ds000210",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/ar3sm/",
+            "id": "ar3sm",
+            "name": "NiPreps testing - ds000210 [derivatives]",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/bvy3f/",
+            "id": "bvy3f",
+            "name": "NiPreps testing - ds001600",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/cqnxe/",
+            "id": "cqnxe",
+            "name": "NiPreps testing - ds001771",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/srw9k/",
+            "id": "srw9k",
+            "name": "NiPreps testing - epi-references",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/58hyz/",
+            "id": "58hyz",
+            "name": "NiPreps testing - epi-references [derivatives]",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/ngv3c/",
+            "id": "ngv3c",
+            "name": "NiPreps testing - nirodents-bold-se",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/t9z4h/",
+            "id": "t9z4h",
+            "name": "NiPreps testing - nirodents-bold-se [derivatives]",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/ucbpm/",
+            "id": "ucbpm",
+            "name": "NiTransforms testing",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/qbncd/",
+            "id": "qbncd",
+            "name": "Raj-Lab-UCSF-AAL",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/pvkbw/",
+            "id": "pvkbw",
+            "name": "Raj-Lab-UCSF-Atlases",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/xys4q/",
+            "id": "xys4q",
+            "name": "Raj-Lab-UCSF-Brainnectome",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/f7d6b/",
+            "id": "f7d6b",
+            "name": "Raj-Lab-UCSF-DK86",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/j3n9t/",
+            "id": "j3n9t",
+            "name": "Raj-Lab-UCSF-MMP",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/96jpd/",
+            "id": "96jpd",
+            "name": "VanDam Demo",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/6whqs/",
+            "id": "6whqs",
+            "name": "VanDam Demo",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/ypskr/",
+            "id": "ypskr",
+            "name": "best-data-ever",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/pvfjz/",
+            "id": "pvfjz",
+            "name": "best-data-ever",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/7tprb/",
+            "id": "7tprb",
+            "name": "best-data-ever",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/b6fwn/",
+            "id": "b6fwn",
+            "name": "best-stdscudywdw-ever",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/n6bgd/",
+            "id": "n6bgd",
+            "name": "best-study-ever",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/qkmzr/",
+            "id": "qkmzr",
+            "name": "best-studywdw-ever",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/fz2dw/",
+            "id": "fz2dw",
+            "name": "best-studywdw-ever",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/wgrn3/",
+            "id": "wgrn3",
+            "name": "bonsai-examples",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/vnerp/",
+            "id": "vnerp",
+            "name": "bsd5",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/3bqrt/",
+            "id": "3bqrt",
+            "name": "bsd6",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/g4szy/",
+            "id": "g4szy",
+            "name": "bsd7",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/qabp9/",
+            "id": "qabp9",
+            "name": "datalad-test",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/k4jdw/",
+            "id": "k4jdw",
+            "name": "eegelevation-freefield",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/2ynvg/",
+            "id": "2ynvg",
+            "name": "fitlins_tests",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/m6k2v/",
+            "id": "m6k2v",
+            "name": "fitlins_tests",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/rbu92/",
+            "id": "rbu92",
+            "name": "fmriprep-lts container images",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/d753w/",
+            "id": "d753w",
+            "name": "fmriprep-lts container images",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/9vg8e/",
+            "id": "9vg8e",
+            "name": "fmriprep-lts container images",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/wvz3e/",
+            "id": "wvz3e",
+            "name": "fmriprep-lts container images-dev",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/bqp76/",
+            "id": "bqp76",
+            "name": "nobrainer-test1",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/qpxad/",
+            "id": "qpxad",
+            "name": "nobrainer-trained-models",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/dj2gf/",
+            "id": "dj2gf",
+            "name": "nuisance-QA-data",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/wv2zh/",
+            "id": "wv2zh",
+            "name": "our-study-data",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/9jbhg/",
+            "id": "9jbhg",
+            "name": "simulate-cbma",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/ypjhn/",
+            "id": "ypjhn",
+            "name": "studyforrest-ppa-analysis",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/x3zpr/",
+            "id": "x3zpr",
+            "name": "studyforrest-speechanno-validation",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/f5j3e/",
+            "id": "f5j3e",
+            "name": "studyforrest-speechannotation",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/86d3a/",
+            "id": "86d3a",
+            "name": "sub-219_bids_datalad",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/84gbt/",
+            "id": "84gbt",
+            "name": "test-zarr",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/6w3sq/",
+            "id": "6w3sq",
+            "name": "vandam-daylong",
+            "status": "active"
+        }
     ]
 }
