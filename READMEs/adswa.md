@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (18) | Stars (29) | Dataset (10) | `run` (12) | `containers-run` (1) |
+| # | Repository (18) | Stars (29) | Dataset (11) | `run` (12) | `containers-run` (1) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [adswa/ABCD-week8](https://github.com/adswa/ABCD-week8) | 0 | :heavy_check_mark: |  |  |
-| 2 | [adswa/BIDSsacc](https://github.com/adswa/BIDSsacc) | 0 |  | :heavy_check_mark: |  |
+| 2 | [adswa/BIDSsacc](https://github.com/adswa/BIDSsacc) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 3 | [adswa/DataLad-101](https://github.com/adswa/DataLad-101) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 4 | [adswa/DataLad-101-tagged](https://github.com/adswa/DataLad-101-tagged) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 5 | [adswa/localizer](https://github.com/adswa/localizer) | 1 |  | :heavy_check_mark: |  |
