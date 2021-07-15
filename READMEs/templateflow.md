@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (8) | Stars (25) | Dataset (8) | `run` | `containers-run` |
+| # | Repository (8) | Stars (26) | Dataset (8) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 23 | :heavy_check_mark: |  |  |
+| 1 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 24 | :heavy_check_mark: |  |  |
 | 2 | [templateflow/tpl-MNI152NLin2009cAsym](https://github.com/templateflow/tpl-MNI152NLin2009cAsym) | 1 | :heavy_check_mark: |  |  |
 | 3 | [templateflow/tpl-MNI152NLin6Asym](https://github.com/templateflow/tpl-MNI152NLin6Asym) | 0 | :heavy_check_mark: |  |  |
 | 4 | [templateflow/tpl-MNIInfant](https://github.com/templateflow/tpl-MNIInfant) | 0 | :heavy_check_mark: |  |  |
