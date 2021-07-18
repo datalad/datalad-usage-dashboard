@@ -130,7 +130,7 @@
             "name": "DVS-Lab/srndna-public-test",
             "url": "https://github.com/DVS-Lab/srndna-public-test",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -139,7 +139,7 @@
             "name": "DVS-Lab/srndna-test",
             "url": "https://github.com/DVS-Lab/srndna-test",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -301,7 +301,7 @@
             "name": "LAAC-LSCP/solomon-analysis",
             "url": "https://github.com/LAAC-LSCP/solomon-analysis",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -319,7 +319,7 @@
             "name": "LAAC-LSCP/zoo-phon-data",
             "url": "https://github.com/LAAC-LSCP/zoo-phon-data",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -2818,6 +2818,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds003694",
+            "url": "https://github.com/OpenNeuroDatasets/ds003694",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDatasets/ds003701",
             "url": "https://github.com/OpenNeuroDatasets/ds003701",
             "stars": 0,
@@ -2910,6 +2919,15 @@
         {
             "name": "OpenNeuroDatasets/ds003716",
             "url": "https://github.com/OpenNeuroDatasets/ds003716",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "OpenNeuroDatasets/ds003722",
+            "url": "https://github.com/OpenNeuroDatasets/ds003722",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -3055,7 +3073,7 @@
             "name": "ReproNim/ReproTube",
             "url": "https://github.com/ReproNim/ReproTube",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3100,7 +3118,7 @@
             "name": "ReproNim/ds000003-qc",
             "url": "https://github.com/ReproNim/ds000003-qc",
             "stars": 1,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": true,
             "status": "active"
@@ -3136,7 +3154,7 @@
             "name": "ReproNim/openneurolab-metasearch-dataset",
             "url": "https://github.com/ReproNim/openneurolab-metasearch-dataset",
             "stars": 1,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3262,7 +3280,7 @@
             "name": "adswa/DataLad-101",
             "url": "https://github.com/adswa/DataLad-101",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3271,7 +3289,7 @@
             "name": "adswa/DataLad-101-tagged",
             "url": "https://github.com/adswa/DataLad-101-tagged",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3376,6 +3394,15 @@
             "status": "active"
         },
         {
+            "name": "adswa/ux-5123",
+            "url": "https://github.com/adswa/ux-5123",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "adswa/windowstesting",
             "url": "https://github.com/adswa/windowstesting",
             "stars": 0,
@@ -3424,7 +3451,7 @@
             "name": "afni/afni_ci_test_data",
             "url": "https://github.com/afni/afni_ci_test_data",
             "stars": 1,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3631,7 +3658,7 @@
             "name": "chrisvdt/midtermproject",
             "url": "https://github.com/chrisvdt/midtermproject",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3685,7 +3712,7 @@
             "name": "con/shub",
             "url": "https://github.com/con/shub",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -4162,7 +4189,7 @@
             "name": "dandi/dandi-api-datasets",
             "url": "https://github.com/dandi/dandi-api-datasets",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -4171,7 +4198,7 @@
             "name": "dandi/dandi-api-webshots",
             "url": "https://github.com/dandi/dandi-api-webshots",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -4198,7 +4225,7 @@
             "name": "dandi/dandisets",
             "url": "https://github.com/dandi/dandisets",
             "stars": 1,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5368,7 +5395,7 @@
             "name": "datalad-datasets/hcp-functional-connectivity",
             "url": "https://github.com/datalad-datasets/hcp-functional-connectivity",
             "stars": 1,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5395,7 +5422,7 @@
             "name": "datalad-datasets/hcp_MNI_T1w",
             "url": "https://github.com/datalad-datasets/hcp_MNI_T1w",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5422,7 +5449,7 @@
             "name": "datalad-datasets/hcp_smoothedmyelin",
             "url": "https://github.com/datalad-datasets/hcp_smoothedmyelin",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5467,7 +5494,7 @@
             "name": "datalad-datasets/longnow-podcasts",
             "url": "https://github.com/datalad-datasets/longnow-podcasts",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5485,7 +5512,7 @@
             "name": "datalad-datasets/ohbm2020-posters",
             "url": "https://github.com/datalad-datasets/ohbm2020-posters",
             "stars": 32,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5512,7 +5539,7 @@
             "name": "datalad-handbook/DataLad-101",
             "url": "https://github.com/datalad-handbook/DataLad-101",
             "stars": 1,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5529,7 +5556,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 72,
+            "stars": 73,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -5575,7 +5602,7 @@
             "name": "datalad-tester/dev-containers",
             "url": "https://github.com/datalad-tester/dev-containers",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5584,7 +5611,7 @@
             "name": "datalad-tester/docker-ssh-target",
             "url": "https://github.com/datalad-tester/docker-ssh-target",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5629,7 +5656,7 @@
             "name": "datalad/datalad-git-bug-dumps",
             "url": "https://github.com/datalad/datalad-git-bug-dumps",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5872,7 +5899,7 @@
             "name": "dhivakark/midterm_project",
             "url": "https://github.com/dhivakark/midterm_project",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6015,7 +6042,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4836,
+            "stars": 4838,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6493,7 +6520,7 @@
             "name": "maxadam2017/midtermproject",
             "url": "https://github.com/maxadam2017/midtermproject",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6628,7 +6655,7 @@
             "name": "myyoda/demo-dataset-glmanalysis",
             "url": "https://github.com/myyoda/demo-dataset-glmanalysis",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6637,7 +6664,7 @@
             "name": "myyoda/demo-dataset-localizerscans",
             "url": "https://github.com/myyoda/demo-dataset-localizerscans",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6736,7 +6763,7 @@
             "name": "neurostuff/simulate-cbma",
             "url": "https://github.com/neurostuff/simulate-cbma",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": true,
             "status": "active"
@@ -7132,7 +7159,7 @@
             "name": "psychoinformatics-de/hirni-toolbox",
             "url": "https://github.com/psychoinformatics-de/hirni-toolbox",
             "stars": 2,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -7186,7 +7213,7 @@
             "name": "psychoinformatics-de/studyforrest-data-annotations",
             "url": "https://github.com/psychoinformatics-de/studyforrest-data-annotations",
             "stars": 10,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -7195,7 +7222,7 @@
             "name": "psychoinformatics-de/studyforrest-data-confoundsannotation",
             "url": "https://github.com/psychoinformatics-de/studyforrest-data-confoundsannotation",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -7204,7 +7231,7 @@
             "name": "psychoinformatics-de/studyforrest-data-eyemovementlabels",
             "url": "https://github.com/psychoinformatics-de/studyforrest-data-eyemovementlabels",
             "stars": 1,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -7294,7 +7321,7 @@
             "name": "psychoinformatics-de/studyforrest-paper-speechannotation",
             "url": "https://github.com/psychoinformatics-de/studyforrest-paper-speechannotation",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -7491,7 +7518,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7632,
+            "stars": 7634,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7537,7 +7564,7 @@
             "name": "yarikoptic/demo1",
             "url": "https://github.com/yarikoptic/demo1",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -7591,7 +7618,7 @@
             "name": "yarikoptic/sparkle-container",
             "url": "https://github.com/yarikoptic/sparkle-container",
             "stars": 1,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
