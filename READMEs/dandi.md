@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (10) | Stars (8) | Dataset (2) | `run` (9) | `containers-run` |
+| # | Repository (10) | Stars (8) | Dataset (4) | `run` (9) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [dandi/dandi-api-datasets](https://github.com/dandi/dandi-api-datasets) | 0 |  | :heavy_check_mark: |  |
-| 2 | [dandi/dandi-api-webshots](https://github.com/dandi/dandi-api-webshots) | 0 |  | :heavy_check_mark: |  |
+| 1 | [dandi/dandi-api-datasets](https://github.com/dandi/dandi-api-datasets) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 2 | [dandi/dandi-api-webshots](https://github.com/dandi/dandi-api-webshots) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 3 | [dandi/dandi-cli](https://github.com/dandi/dandi-cli) | 5 |  | :heavy_check_mark: |  |
 | 4 | [dandi/dandischema](https://github.com/dandi/dandischema) | 0 |  | :heavy_check_mark: |  |
 | 5 | [dandi/dandisets](https://github.com/dandi/dandisets) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
