@@ -3,7 +3,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 221,
+            "stars": 222,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -319,7 +319,7 @@
             "name": "LAAC-LSCP/zoo-phon-data",
             "url": "https://github.com/LAAC-LSCP/zoo-phon-data",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -346,7 +346,7 @@
             "name": "NGenetzky/academic-oss-elc",
             "url": "https://github.com/NGenetzky/academic-oss-elc",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3100,7 +3100,7 @@
             "name": "Remi-Gau/rvm5HTsource",
             "url": "https://github.com/Remi-Gau/rvm5HTsource",
             "stars": 1,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3145,7 +3145,7 @@
             "name": "ReproNim/containers",
             "url": "https://github.com/ReproNim/containers",
             "stars": 14,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3307,7 +3307,7 @@
             "name": "TomasLenc/midtermproject",
             "url": "https://github.com/TomasLenc/midtermproject",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3370,7 +3370,7 @@
             "name": "adswa/multimatch_forrest",
             "url": "https://github.com/adswa/multimatch_forrest",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3505,7 +3505,7 @@
             "name": "afni/afni_ci_test_data",
             "url": "https://github.com/afni/afni_ci_test_data",
             "stars": 1,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -4270,7 +4270,7 @@
             "name": "dandi/dandi-api-datasets",
             "url": "https://github.com/dandi/dandi-api-datasets",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -4279,7 +4279,7 @@
             "name": "dandi/dandi-api-webshots",
             "url": "https://github.com/dandi/dandi-api-webshots",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -4306,7 +4306,7 @@
             "name": "dandi/dandisets",
             "url": "https://github.com/dandi/dandisets",
             "stars": 1,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5566,7 +5566,7 @@
             "name": "datalad-datasets/hcp_smoothedmyelin",
             "url": "https://github.com/datalad-datasets/hcp_smoothedmyelin",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5611,7 +5611,7 @@
             "name": "datalad-datasets/longnow-podcasts",
             "url": "https://github.com/datalad-datasets/longnow-podcasts",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -5682,7 +5682,7 @@
         {
             "name": "datalad-handbook/course",
             "url": "https://github.com/datalad-handbook/course",
-            "stars": 4,
+            "stars": 5,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -5745,7 +5745,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 252,
+            "stars": 253,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6610,7 +6610,7 @@
             "name": "lnnrtwttkhn/tools",
             "url": "https://github.com/lnnrtwttkhn/tools",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6718,7 +6718,7 @@
             "name": "mikapfl/read_di_unfccc",
             "url": "https://github.com/mikapfl/read_di_unfccc",
             "stars": 5,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6727,7 +6727,7 @@
             "name": "mikapfl/unfccc_di_data",
             "url": "https://github.com/mikapfl/unfccc_di_data",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6799,7 +6799,7 @@
             "name": "myyoda/demo-dataset-glmanalysis",
             "url": "https://github.com/myyoda/demo-dataset-glmanalysis",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6808,7 +6808,7 @@
             "name": "myyoda/demo-dataset-localizerscans",
             "url": "https://github.com/myyoda/demo-dataset-localizerscans",
             "stars": 0,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6943,7 +6943,7 @@
             "name": "nicolocin/test-dir2",
             "url": "https://github.com/nicolocin/test-dir2",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -7248,7 +7248,7 @@
         {
             "name": "protontypes/LibreSelery",
             "url": "https://github.com/protontypes/LibreSelery",
-            "stars": 98,
+            "stars": 99,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7357,7 +7357,7 @@
             "name": "psychoinformatics-de/studyforrest-data-annotations",
             "url": "https://github.com/psychoinformatics-de/studyforrest-data-annotations",
             "stars": 10,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -7375,7 +7375,7 @@
             "name": "psychoinformatics-de/studyforrest-data-eyemovementlabels",
             "url": "https://github.com/psychoinformatics-de/studyforrest-data-eyemovementlabels",
             "stars": 1,
-            "dataset": true,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -7482,7 +7482,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 830,
+            "stars": 831,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7671,7 +7671,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7720,
+            "stars": 7725,
             "dataset": false,
             "run": true,
             "container_run": false,
