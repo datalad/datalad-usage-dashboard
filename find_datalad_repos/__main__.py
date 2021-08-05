@@ -42,6 +42,13 @@ class GHCollectionUpdater(BaseModel):
             if not old_repo.run and repo.run:
                 self.new_hits += 1
                 self.new_runs += 1
+            repo = repo.copy(
+                update={
+                    "dataset": old_repo.dataset or repo.dataset,
+                    "run": old_repo.run or repo.run,
+                    "container_run": old_repo.container_run or repo.container_run,
+                }
+            )
         self.all_repos[repo.name] = repo
 
     def get_new_collection(self, searcher: "GHDataladSearcher") -> List[GHDataladRepo]:
