@@ -98,9 +98,7 @@ class GHDataladSearcher:
         while url is not None:
             r = self.session.get(url, params=params)
             data = r.json()
-            if r.status_code == 403 and "API rate limit exceeded" in data.get(
-                "message", ""
-            ):
+            if r.status_code == 403 and "rate limit" in data.get("message", ""):
                 reset_time = datetime.fromtimestamp(
                     int(r.headers["x-ratelimit-reset"]), tz=timezone.utc
                 )
