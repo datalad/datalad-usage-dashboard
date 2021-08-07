@@ -3118,7 +3118,7 @@
             "name": "PennSIVE/agespan7t",
             "url": "https://github.com/PennSIVE/agespan7t",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -3550,7 +3550,7 @@
             "name": "adswa/workflow-testing",
             "url": "https://github.com/adswa/workflow-testing",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": true,
             "status": "active"
@@ -3612,6 +3612,15 @@
         {
             "name": "alexlicohen/Cohen2019_Prosopagnosia",
             "url": "https://github.com/alexlicohen/Cohen2019_Prosopagnosia",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "anthfm/neuro-data-s3",
+            "url": "https://github.com/anthfm/neuro-data-s3",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -3756,7 +3765,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 297,
+            "stars": 298,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4260,6 +4269,15 @@
         {
             "name": "courtois-neuromod/movie_decoding_sa",
             "url": "https://github.com/courtois-neuromod/movie_decoding_sa",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "courtois-neuromod/shinobi.stimuli",
+            "url": "https://github.com/courtois-neuromod/shinobi.stimuli",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -6240,7 +6258,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4868,
+            "stars": 4870,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6754,7 +6772,7 @@
             "name": "lnnrtwttkhn/tools",
             "url": "https://github.com/lnnrtwttkhn/tools",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -7420,7 +7438,7 @@
             "name": "psychoinformatics-de/fairly-big-processing-workflow-tutorial",
             "url": "https://github.com/psychoinformatics-de/fairly-big-processing-workflow-tutorial",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": true,
             "status": "active"
@@ -7456,7 +7474,7 @@
             "name": "psychoinformatics-de/hirni-toolbox",
             "url": "https://github.com/psychoinformatics-de/hirni-toolbox",
             "stars": 2,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -7546,7 +7564,7 @@
             "name": "psychoinformatics-de/studyforrest-data-multires3t",
             "url": "https://github.com/psychoinformatics-de/studyforrest-data-multires3t",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -7824,7 +7842,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7764,
+            "stars": 7768,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7843,7 +7861,7 @@
             "name": "tsankeuodelfa/midtermproject",
             "url": "https://github.com/tsankeuodelfa/midtermproject",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
