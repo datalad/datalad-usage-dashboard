@@ -3655,6 +3655,15 @@
             "status": "active"
         },
         {
+            "name": "anthfm/anthony",
+            "url": "https://github.com/anthfm/anthony",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "anthfm/neuro-data-s3",
             "url": "https://github.com/anthfm/neuro-data-s3",
             "stars": 0,
@@ -3662,6 +3671,15 @@
             "run": false,
             "container_run": false,
             "status": "gone"
+        },
+        {
+            "name": "anthfm/test-github-lfs",
+            "url": "https://github.com/anthfm/test-github-lfs",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
         },
         {
             "name": "aragilar/PPDSolutions",
@@ -4416,6 +4434,15 @@
             "stars": 0,
             "dataset": true,
             "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandi/dandi-api-webshots-staging",
+            "url": "https://github.com/dandi/dandi-api-webshots-staging",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
             "container_run": false,
             "status": "active"
         },
@@ -7716,7 +7743,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 830,
+            "stars": 831,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7905,7 +7932,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7774,
+            "stars": 7785,
             "dataset": false,
             "run": true,
             "container_run": false,
