@@ -451,6 +451,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds000003",
+            "url": "https://github.com/OpenNeuroDatasets/ds000003",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDatasets/ds000006",
             "url": "https://github.com/OpenNeuroDatasets/ds000006",
             "stars": 0,
@@ -3106,6 +3115,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds003764",
+            "url": "https://github.com/OpenNeuroDatasets/ds003764",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDev/ds001010",
             "url": "https://github.com/OpenNeuroDev/ds001010",
             "stars": 0,
@@ -3664,6 +3682,15 @@
             "status": "active"
         },
         {
+            "name": "anthfm/empty_dataset",
+            "url": "https://github.com/anthfm/empty_dataset",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "anthfm/neuro-data-s3",
             "url": "https://github.com/anthfm/neuro-data-s3",
             "stars": 0,
@@ -3671,6 +3698,15 @@
             "run": false,
             "container_run": false,
             "status": "gone"
+        },
+        {
+            "name": "anthfm/pp",
+            "url": "https://github.com/anthfm/pp",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
         },
         {
             "name": "anthfm/test-github-lfs",
@@ -3819,7 +3855,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 298,
+            "stars": 300,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -5646,6 +5682,15 @@
         {
             "name": "dandisets/000123",
             "url": "https://github.com/dandisets/000123",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000124",
+            "url": "https://github.com/dandisets/000124",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -7932,7 +7977,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7785,
+            "stars": 7793,
             "dataset": false,
             "run": true,
             "container_run": false,
