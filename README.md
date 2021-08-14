@@ -1,6 +1,6 @@
 # GitHub
 ## In the wild
-| # | Repository (692) | Stars (15372) | Dataset (634) | `run` (97) | `containers-run` (4) |
+| # | Repository (692) | Stars (15373) | Dataset (634) | `run` (97) | `containers-run` (4) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [AllenInstitute/AllenSDK](https://github.com/AllenInstitute/AllenSDK) | 222 |  | :heavy_check_mark: |  |
 | 2 | [Arshitha/abcd-repronim-PW-parts-1-2](https://github.com/Arshitha/abcd-repronim-PW-parts-1-2) | 0 | :heavy_check_mark: |  |  |
@@ -105,7 +105,7 @@
 | 101 | [nipy/heudiconv](https://github.com/nipy/heudiconv) | 145 |  | :heavy_check_mark: |  |
 | 102 | [ntolley/*](https://github.com/ntolley) [(4)](READMEs/ntolley.md) | [1](READMEs/ntolley.md) | [:heavy_check_mark: (1)](READMEs/ntolley.md) | [:heavy_check_mark: (3)](READMEs/ntolley.md) |  |
 | 103 | [oesteban/*](https://github.com/oesteban) [(2)](READMEs/oesteban.md) | [0](READMEs/oesteban.md) | [:heavy_check_mark: (2)](READMEs/oesteban.md) | [:heavy_check_mark: (1)](READMEs/oesteban.md) |  |
-| 104 | [opening-hours/opening_hours.js](https://github.com/opening-hours/opening_hours.js) | 169 |  | :heavy_check_mark: |  |
+| 104 | [opening-hours/opening_hours.js](https://github.com/opening-hours/opening_hours.js) | 170 |  | :heavy_check_mark: |  |
 | 105 | [pecansdik/libary](https://github.com/pecansdik/libary) | 0 |  | :heavy_check_mark: |  |
 | 106 | [pithanakrit/nginx_1](https://github.com/pithanakrit/nginx_1) | 0 |  | :heavy_check_mark: |  |
 | 107 | [poldracklab/fitlins](https://github.com/poldracklab/fitlins) | 53 |  | :heavy_check_mark: |  |

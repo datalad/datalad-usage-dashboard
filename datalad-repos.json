@@ -7509,7 +7509,7 @@
         {
             "name": "opening-hours/opening_hours.js",
             "url": "https://github.com/opening-hours/opening_hours.js",
-            "stars": 169,
+            "stars": 170,
             "dataset": false,
             "run": true,
             "container_run": false,
