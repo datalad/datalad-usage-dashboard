@@ -2887,7 +2887,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds003661",
@@ -3700,8 +3700,35 @@
             "status": "active"
         },
         {
+            "name": "anthfm/afm",
+            "url": "https://github.com/anthfm/afm",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "anthfm/anthony",
             "url": "https://github.com/anthfm/anthony",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "anthfm/dd2",
+            "url": "https://github.com/anthfm/dd2",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "anthfm/dd_test",
+            "url": "https://github.com/anthfm/dd_test",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -3801,7 +3828,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 155,
+            "stars": 156,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6447,7 +6474,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4882,
+            "stars": 4886,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7498,6 +7525,15 @@
             "status": "active"
         },
         {
+            "name": "ntolley/nsgp_2021_retreat_github",
+            "url": "https://github.com/ntolley/nsgp_2021_retreat_github",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "ntolley/reeb_matching_github",
             "url": "https://github.com/ntolley/reeb_matching_github",
             "stars": 0,
@@ -7842,7 +7878,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 831,
+            "stars": 833,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8031,7 +8067,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7801,
+            "stars": 7802,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8058,6 +8094,15 @@
         {
             "name": "vandermeerlab/labs--mvdm",
             "url": "https://github.com/vandermeerlab/labs--mvdm",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "yarikoptic/amana-fan-bracket-3dprint",
+            "url": "https://github.com/yarikoptic/amana-fan-bracket-3dprint",
             "stars": 0,
             "dataset": true,
             "run": false,
