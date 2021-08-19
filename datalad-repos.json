@@ -5988,7 +5988,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 74,
+            "stars": 75,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6310,6 +6310,15 @@
             "status": "active"
         },
         {
+            "name": "debops/debops",
+            "url": "https://github.com/debops/debops",
+            "stars": 815,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dguibert/nur-packages",
             "url": "https://github.com/dguibert/nur-packages",
             "stars": 1,
@@ -6474,7 +6483,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4889,
+            "stars": 4893,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8067,7 +8076,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7804,
+            "stars": 7806,
             "dataset": false,
             "run": true,
             "container_run": false,
