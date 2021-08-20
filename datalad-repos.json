@@ -271,6 +271,15 @@
             "status": "active"
         },
         {
+            "name": "Hobbeist/varpp-project-datalad",
+            "url": "https://github.com/Hobbeist/varpp-project-datalad",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "KaiserTim/Name-not-found",
             "url": "https://github.com/KaiserTim/Name-not-found",
             "stars": 0,
@@ -3918,7 +3927,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 302,
+            "stars": 303,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6312,7 +6321,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 815,
+            "stars": 816,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6483,7 +6492,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4893,
+            "stars": 4894,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7518,7 +7527,7 @@
         {
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
-            "stars": 145,
+            "stars": 146,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8076,7 +8085,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7806,
+            "stars": 7809,
             "dataset": false,
             "run": true,
             "container_run": false,
