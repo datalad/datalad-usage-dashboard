@@ -3,7 +3,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 222,
+            "stars": 223,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -3079,6 +3079,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds003721",
+            "url": "https://github.com/OpenNeuroDatasets/ds003721",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDatasets/ds003722",
             "url": "https://github.com/OpenNeuroDatasets/ds003722",
             "stars": 0,
@@ -3133,6 +3142,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds003758",
+            "url": "https://github.com/OpenNeuroDatasets/ds003758",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDatasets/ds003763",
             "url": "https://github.com/OpenNeuroDatasets/ds003763",
             "stars": 0,
@@ -3144,6 +3162,15 @@
         {
             "name": "OpenNeuroDatasets/ds003764",
             "url": "https://github.com/OpenNeuroDatasets/ds003764",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "OpenNeuroDatasets/ds003768",
+            "url": "https://github.com/OpenNeuroDatasets/ds003768",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -3180,6 +3207,15 @@
         {
             "name": "OpenNeuroDev/ds001501",
             "url": "https://github.com/OpenNeuroDev/ds001501",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "PennLINC/HBN_BIDS",
+            "url": "https://github.com/PennLINC/HBN_BIDS",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -3769,7 +3805,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "anthfm/s3-test",
@@ -6321,7 +6357,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 816,
+            "stars": 817,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7140,7 +7176,7 @@
         {
             "name": "miykael/nipype_tutorial",
             "url": "https://github.com/miykael/nipype_tutorial",
-            "stars": 80,
+            "stars": 81,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7626,7 +7662,7 @@
         {
             "name": "poldracklab/fitlins",
             "url": "https://github.com/poldracklab/fitlins",
-            "stars": 53,
+            "stars": 54,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8085,7 +8121,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7809,
+            "stars": 7813,
             "dataset": false,
             "run": true,
             "container_run": false,
