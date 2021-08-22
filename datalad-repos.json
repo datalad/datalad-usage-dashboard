@@ -3963,7 +3963,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 303,
+            "stars": 304,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6528,7 +6528,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4894,
+            "stars": 4897,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7932,7 +7932,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 833,
+            "stars": 834,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8121,7 +8121,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7813,
+            "stars": 7821,
             "dataset": false,
             "run": true,
             "container_run": false,
