@@ -3223,6 +3223,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds003774",
+            "url": "https://github.com/OpenNeuroDatasets/ds003774",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDev/ds001010",
             "url": "https://github.com/OpenNeuroDev/ds001010",
             "stars": 0,
@@ -6976,6 +6985,15 @@
             "status": "active"
         },
         {
+            "name": "kinshukk/demo-dataset1",
+            "url": "https://github.com/kinshukk/demo-dataset1",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "kinshukk/my-demo-dataset",
             "url": "https://github.com/kinshukk/my-demo-dataset",
             "stars": 0,
@@ -7023,7 +7041,7 @@
         {
             "name": "lnnrtwttkhn/highspeed-analysis",
             "url": "https://github.com/lnnrtwttkhn/highspeed-analysis",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -7149,6 +7167,15 @@
         {
             "name": "maelleF/compute_canada_tuto",
             "url": "https://github.com/maelleF/compute_canada_tuto",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "manelis-lab/myelin-paper-NICL2021",
+            "url": "https://github.com/manelis-lab/myelin-paper-NICL2021",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -8022,7 +8049,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 835,
+            "stars": 837,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8211,7 +8238,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7829,
+            "stars": 7842,
             "dataset": false,
             "run": true,
             "container_run": false,
