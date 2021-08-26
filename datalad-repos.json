@@ -3,7 +3,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 222,
+            "stars": 224,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6447,7 +6447,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 817,
+            "stars": 818,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6618,7 +6618,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4900,
+            "stars": 4906,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7815,7 +7815,7 @@
         {
             "name": "protontypes/LibreSelery",
             "url": "https://github.com/protontypes/LibreSelery",
-            "stars": 98,
+            "stars": 99,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8238,7 +8238,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7842,
+            "stars": 7849,
             "dataset": false,
             "run": true,
             "container_run": false,
