@@ -3,7 +3,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 224,
+            "stars": 225,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -3529,6 +3529,24 @@
             "status": "active"
         },
         {
+            "name": "Rodent-Cognition-Core/MB-Cholinergic-deficient-mouse-model",
+            "url": "https://github.com/Rodent-Cognition-Core/MB-Cholinergic-deficient-mouse-model",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "Rodent-Cognition-Core/MB-Co-transmission-of-cholinergic-interneurons",
+            "url": "https://github.com/Rodent-Cognition-Core/MB-Co-transmission-of-cholinergic-interneurons",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "SIMEXP/borear_ibc_analysis",
             "url": "https://github.com/SIMEXP/borear_ibc_analysis",
             "stars": 0,
@@ -3810,6 +3828,15 @@
         {
             "name": "anthfm/anthony",
             "url": "https://github.com/anthfm/anthony",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "anthfm/apple",
+            "url": "https://github.com/anthfm/apple",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -6618,7 +6645,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4906,
+            "stars": 4910,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7311,7 +7338,7 @@
         {
             "name": "moloney/dcmstack",
             "url": "https://github.com/moloney/dcmstack",
-            "stars": 70,
+            "stars": 71,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8049,7 +8076,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 837,
+            "stars": 838,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8164,6 +8191,24 @@
             "status": "active"
         },
         {
+            "name": "templateflow/tpl-Fischer344",
+            "url": "https://github.com/templateflow/tpl-Fischer344",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "templateflow/tpl-MNI152Lin",
+            "url": "https://github.com/templateflow/tpl-MNI152Lin",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "templateflow/tpl-MNI152NLin2009cAsym",
             "url": "https://github.com/templateflow/tpl-MNI152NLin2009cAsym",
             "stars": 1,
@@ -8173,8 +8218,26 @@
             "status": "active"
         },
         {
+            "name": "templateflow/tpl-MNI152NLin2009cSym",
+            "url": "https://github.com/templateflow/tpl-MNI152NLin2009cSym",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "templateflow/tpl-MNI152NLin6Asym",
             "url": "https://github.com/templateflow/tpl-MNI152NLin6Asym",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "templateflow/tpl-MNI152NLin6Sym",
+            "url": "https://github.com/templateflow/tpl-MNI152NLin6Sym",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -8200,6 +8263,15 @@
             "status": "active"
         },
         {
+            "name": "templateflow/tpl-NKI",
+            "url": "https://github.com/templateflow/tpl-NKI",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "templateflow/tpl-OASIS30ANTs",
             "url": "https://github.com/templateflow/tpl-OASIS30ANTs",
             "stars": 0,
@@ -8209,8 +8281,26 @@
             "status": "active"
         },
         {
+            "name": "templateflow/tpl-PNC",
+            "url": "https://github.com/templateflow/tpl-PNC",
+            "stars": 1,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "templateflow/tpl-UNCInfant",
             "url": "https://github.com/templateflow/tpl-UNCInfant",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "templateflow/tpl-WHS",
+            "url": "https://github.com/templateflow/tpl-WHS",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -8238,7 +8328,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7849,
+            "stars": 7857,
             "dataset": false,
             "run": true,
             "container_run": false,
