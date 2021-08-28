@@ -352,6 +352,15 @@
             "status": "active"
         },
         {
+            "name": "NCCR-SYNAPSY/ds-NeuroDataPubOSFTest4",
+            "url": "https://github.com/NCCR-SYNAPSY/ds-NeuroDataPubOSFTest4",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "NGenetzky/academic-oss-elc",
             "url": "https://github.com/NGenetzky/academic-oss-elc",
             "stars": 0,
@@ -3907,6 +3916,15 @@
             "status": "active"
         },
         {
+            "name": "anthfm/vre1",
+            "url": "https://github.com/anthfm/vre1",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "aragilar/PPDSolutions",
             "url": "https://github.com/aragilar/PPDSolutions",
             "stars": 0,
@@ -3954,7 +3972,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 156,
+            "stars": 157,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7779,7 +7797,7 @@
         {
             "name": "opening-hours/opening_hours.js",
             "url": "https://github.com/opening-hours/opening_hours.js",
-            "stars": 170,
+            "stars": 171,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8328,7 +8346,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7857,
+            "stars": 7867,
             "dataset": false,
             "run": true,
             "container_run": false,
