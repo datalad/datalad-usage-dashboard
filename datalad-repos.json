@@ -3241,6 +3241,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds003775",
+            "url": "https://github.com/OpenNeuroDatasets/ds003775",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDev/ds001010",
             "url": "https://github.com/OpenNeuroDev/ds001010",
             "stars": 0,
@@ -3504,7 +3513,7 @@
         {
             "name": "ReproNim/repronim.github.io",
             "url": "https://github.com/ReproNim/repronim.github.io",
-            "stars": 2,
+            "stars": 3,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4062,7 +4071,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 307,
+            "stars": 316,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6663,7 +6672,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4910,
+            "stars": 4912,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8335,6 +8344,15 @@
             "status": "active"
         },
         {
+            "name": "templateflow/tpl-fsaverage",
+            "url": "https://github.com/templateflow/tpl-fsaverage",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "thomasbeaudry/conp-dataset-PERFORM",
             "url": "https://github.com/thomasbeaudry/conp-dataset-PERFORM",
             "stars": 0,
@@ -8346,7 +8364,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7867,
+            "stars": 7871,
             "dataset": false,
             "run": true,
             "container_run": false,
