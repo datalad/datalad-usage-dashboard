@@ -3,7 +3,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 225,
+            "stars": 226,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4071,7 +4071,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 316,
+            "stars": 321,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6501,7 +6501,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 818,
+            "stars": 819,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8364,7 +8364,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7871,
+            "stars": 7874,
             "dataset": false,
             "run": true,
             "container_run": false,
