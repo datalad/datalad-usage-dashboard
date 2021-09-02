@@ -3999,7 +3999,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 157,
+            "stars": 158,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6753,7 +6753,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4913,
+            "stars": 4915,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8184,7 +8184,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 839,
+            "stars": 840,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8398,6 +8398,15 @@
             "status": "active"
         },
         {
+            "name": "templateflow/tpl-RESILIENT",
+            "url": "https://github.com/templateflow/tpl-RESILIENT",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "templateflow/tpl-UNCInfant",
             "url": "https://github.com/templateflow/tpl-UNCInfant",
             "stars": 0,
@@ -8445,7 +8454,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7887,
+            "stars": 7896,
             "dataset": false,
             "run": true,
             "container_run": false,
