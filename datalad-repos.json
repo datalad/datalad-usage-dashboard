@@ -3,7 +3,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 226,
+            "stars": 227,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4089,7 +4089,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 322,
+            "stars": 323,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6753,7 +6753,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4915,
+            "stars": 4919,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8454,7 +8454,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7896,
+            "stars": 7907,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9012,6 +9012,12 @@
             "url": "https://osf.io/wv2zh/",
             "id": "wv2zh",
             "name": "our-study-data",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/38vce/",
+            "id": "38vce",
+            "name": "shoreline-fiberfox-dmri-phantoms",
             "status": "active"
         },
         {
