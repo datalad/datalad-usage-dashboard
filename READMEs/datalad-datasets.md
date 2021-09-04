@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (16) | Stars (160) | Dataset (9) | `run` (13) | `containers-run` |
+| # | Repository (16) | Stars (161) | Dataset (9) | `run` (13) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad-datasets/hcp-7T_Movies](https://github.com/datalad-datasets/hcp-7T_Movies) | 0 |  | :heavy_check_mark: |  |
 | 2 | [datalad-datasets/hcp-functional-connectivity](https://github.com/datalad-datasets/hcp-functional-connectivity) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -11,7 +11,7 @@
 | 8 | [datalad-datasets/hcp_smoothedmyelin](https://github.com/datalad-datasets/hcp_smoothedmyelin) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 9 | [datalad-datasets/hcp_social_preprocessed](https://github.com/datalad-datasets/hcp_social_preprocessed) | 1 |  | :heavy_check_mark: |  |
 | 10 | [datalad-datasets/hcp_wm_preprocessed](https://github.com/datalad-datasets/hcp_wm_preprocessed) | 1 |  | :heavy_check_mark: |  |
-| 11 | [datalad-datasets/human-connectome-project-openaccess](https://github.com/datalad-datasets/human-connectome-project-openaccess) | 16 | :heavy_check_mark: |  |  |
+| 11 | [datalad-datasets/human-connectome-project-openaccess](https://github.com/datalad-datasets/human-connectome-project-openaccess) | 17 | :heavy_check_mark: |  |  |
 | 12 | [datalad-datasets/kdenlive-what-is-datalad](https://github.com/datalad-datasets/kdenlive-what-is-datalad) | 0 | :heavy_check_mark: |  |  |
 | 13 | [datalad-datasets/longnow-podcasts](https://github.com/datalad-datasets/longnow-podcasts) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 14 | [datalad-datasets/machinelearning-books](https://github.com/datalad-datasets/machinelearning-books) | 106 | :heavy_check_mark: |  |  |

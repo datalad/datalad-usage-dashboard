@@ -4089,7 +4089,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 323,
+            "stars": 325,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6049,6 +6049,33 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000138",
+            "url": "https://github.com/dandisets/000138",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000139",
+            "url": "https://github.com/dandisets/000139",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000140",
+            "url": "https://github.com/dandisets/000140",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dartmouth-pbs/psyc161-wi19-srv",
             "url": "https://github.com/dartmouth-pbs/psyc161-wi19-srv",
             "stars": 0,
@@ -6177,7 +6204,7 @@
         {
             "name": "datalad-datasets/human-connectome-project-openaccess",
             "url": "https://github.com/datalad-datasets/human-connectome-project-openaccess",
-            "stars": 16,
+            "stars": 17,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -6582,7 +6609,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 819,
+            "stars": 820,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7298,6 +7325,15 @@
             "run": true,
             "container_run": false,
             "status": "gone"
+        },
+        {
+            "name": "lucasgautheron/diarization-error-analysis",
+            "url": "https://github.com/lucasgautheron/diarization-error-analysis",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
         },
         {
             "name": "maelleF/compute_canada_tuto",
@@ -8184,7 +8220,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 840,
+            "stars": 841,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8454,7 +8490,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7907,
+            "stars": 7914,
             "dataset": false,
             "run": true,
             "container_run": false,

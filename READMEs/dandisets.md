@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (102) | Stars (3) | Dataset (102) | `run` | `containers-run` |
+| # | Repository (105) | Stars (3) | Dataset (105) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [dandisets/000003](https://github.com/dandisets/000003) | 0 | :heavy_check_mark: |  |  |
 | 2 | [dandisets/000004](https://github.com/dandisets/000004) | 0 | :heavy_check_mark: |  |  |
@@ -103,6 +103,9 @@
 | 100 | [dandisets/000135](https://github.com/dandisets/000135) | 0 | :heavy_check_mark: |  |  |
 | 101 | [dandisets/000136](https://github.com/dandisets/000136) | 0 | :heavy_check_mark: |  |  |
 | 102 | [dandisets/000137](https://github.com/dandisets/000137) | 0 | :heavy_check_mark: |  |  |
+| 103 | [dandisets/000138](https://github.com/dandisets/000138) | 0 | :heavy_check_mark: |  |  |
+| 104 | [dandisets/000139](https://github.com/dandisets/000139) | 0 | :heavy_check_mark: |  |  |
+| 105 | [dandisets/000140](https://github.com/dandisets/000140) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
 No repositories found!
