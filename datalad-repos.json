@@ -4089,7 +4089,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 329,
+            "stars": 332,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6609,7 +6609,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 821,
+            "stars": 822,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6618,7 +6618,7 @@
         {
             "name": "dguibert/nur-packages",
             "url": "https://github.com/dguibert/nur-packages",
-            "stars": 1,
+            "stars": 2,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -6780,7 +6780,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4921,
+            "stars": 4923,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8355,7 +8355,7 @@
         {
             "name": "templateflow/tpl-MNI152NLin2009cAsym",
             "url": "https://github.com/templateflow/tpl-MNI152NLin2009cAsym",
-            "stars": 1,
+            "stars": 2,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -8490,7 +8490,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7918,
+            "stars": 7926,
             "dataset": false,
             "run": true,
             "container_run": false,
