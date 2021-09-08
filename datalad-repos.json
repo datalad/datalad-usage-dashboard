@@ -910,6 +910,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds001421",
+            "url": "https://github.com/OpenNeuroDatasets/ds001421",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDatasets/ds001439",
             "url": "https://github.com/OpenNeuroDatasets/ds001439",
             "stars": 1,
@@ -4089,7 +4098,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 332,
+            "stars": 333,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6285,7 +6294,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 75,
+            "stars": 76,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6357,7 +6366,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 252,
+            "stars": 253,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6609,7 +6618,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 822,
+            "stars": 823,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8220,7 +8229,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 841,
+            "stars": 840,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8490,7 +8499,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7926,
+            "stars": 7930,
             "dataset": false,
             "run": true,
             "container_run": false,
