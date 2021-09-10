@@ -1,6 +1,15 @@
 {
     "github": [
         {
+            "name": "AKSoo/StructFunc",
+            "url": "https://github.com/AKSoo/StructFunc",
+            "stars": 0,
+            "dataset": true,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
             "stars": 228,
@@ -4008,7 +4017,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 158,
+            "stars": 156,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4098,7 +4107,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 333,
+            "stars": 337,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6303,7 +6312,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 76,
+            "stars": 77,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6798,7 +6807,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4926,
+            "stars": 4930,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7350,6 +7359,24 @@
             "stars": 0,
             "dataset": true,
             "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "lukasvo76/DataLad-101",
+            "url": "https://github.com/lukasvo76/DataLad-101",
+            "stars": 0,
+            "dataset": true,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "lukasvo76/midtermproject",
+            "url": "https://github.com/lukasvo76/midtermproject",
+            "stars": 0,
+            "dataset": true,
+            "run": true,
             "container_run": false,
             "status": "active"
         },
@@ -8508,7 +8535,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7931,
+            "stars": 7935,
             "dataset": false,
             "run": true,
             "container_run": false,
