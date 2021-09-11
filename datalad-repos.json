@@ -6636,7 +6636,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 824,
+            "stars": 825,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6807,7 +6807,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4930,
+            "stars": 4931,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8535,7 +8535,7 @@
         {
             "name": "timberio/vector",
             "url": "https://github.com/timberio/vector",
-            "stars": 7935,
+            "stars": 7937,
             "dataset": false,
             "run": true,
             "container_run": false,
