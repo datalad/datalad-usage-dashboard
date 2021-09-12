@@ -579,7 +579,7 @@
         {
             "name": "OpenNeuroDatasets/ds000117",
             "url": "https://github.com/OpenNeuroDatasets/ds000117",
-            "stars": 2,
+            "stars": 3,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -4107,7 +4107,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 337,
+            "stars": 338,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4611,6 +4611,15 @@
         {
             "name": "courtois-neuromod/movie_decoding_sa",
             "url": "https://github.com/courtois-neuromod/movie_decoding_sa",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "courtois-neuromod/retino.stimuli",
+            "url": "https://github.com/courtois-neuromod/retino.stimuli",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -6807,7 +6816,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4931,
+            "stars": 4932,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7617,7 +7626,7 @@
         {
             "name": "neurodebian/neurodebian",
             "url": "https://github.com/neurodebian/neurodebian",
-            "stars": 48,
+            "stars": 49,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8265,7 +8274,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 840,
+            "stars": 841,
             "dataset": false,
             "run": true,
             "container_run": false,
