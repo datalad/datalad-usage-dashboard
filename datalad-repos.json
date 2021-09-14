@@ -3495,7 +3495,7 @@
         {
             "name": "ReproNim/neurodocker",
             "url": "https://github.com/ReproNim/neurodocker",
-            "stars": 228,
+            "stars": 229,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4107,7 +4107,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 339,
+            "stars": 340,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6645,7 +6645,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 826,
+            "stars": 827,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6816,7 +6816,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4935,
+            "stars": 4938,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7194,6 +7194,15 @@
         {
             "name": "kinshukk/my-demo-dataset",
             "url": "https://github.com/kinshukk/my-demo-dataset",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "labgas/proj_discoverie",
+            "url": "https://github.com/labgas/proj_discoverie",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -8574,6 +8583,15 @@
             "stars": 0,
             "dataset": true,
             "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "vectordotdev/vector",
+            "url": "https://github.com/vectordotdev/vector",
+            "stars": 7945,
+            "dataset": false,
+            "run": true,
             "container_run": false,
             "status": "active"
         },
