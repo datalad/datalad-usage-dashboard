@@ -2181,7 +2181,7 @@
         {
             "name": "OpenNeuroDatasets/ds003430",
             "url": "https://github.com/OpenNeuroDatasets/ds003430",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -4017,7 +4017,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 156,
+            "stars": 157,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4627,6 +4627,15 @@
             "status": "active"
         },
         {
+            "name": "courtois-neuromod/retino_analysis",
+            "url": "https://github.com/courtois-neuromod/retino_analysis",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "courtois-neuromod/shinobi.stimuli",
             "url": "https://github.com/courtois-neuromod/shinobi.stimuli",
             "stars": 0,
@@ -4764,7 +4773,7 @@
         {
             "name": "dandi/dandisets",
             "url": "https://github.com/dandi/dandisets",
-            "stars": 1,
+            "stars": 2,
             "dataset": true,
             "run": true,
             "container_run": false,
@@ -6393,7 +6402,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 253,
+            "stars": 254,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6816,7 +6825,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4938,
+            "stars": 4941,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7207,7 +7216,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "leej3/afni_ci_test_data",
@@ -8589,7 +8598,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 7945,
+            "stars": 7950,
             "dataset": false,
             "run": true,
             "container_run": false,
