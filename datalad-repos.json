@@ -172,6 +172,15 @@
             "status": "active"
         },
         {
+            "name": "Donders-Institute-Data/dccn.DSC_3011053.05_685_v1",
+            "url": "https://github.com/Donders-Institute-Data/dccn.DSC_3011053.05_685_v1",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "Donders-Institute-Data/dccn.DSC_3015000.00_677_v1",
             "url": "https://github.com/Donders-Institute-Data/dccn.DSC_3015000.00_677_v1",
             "stars": 0,
@@ -273,6 +282,15 @@
         {
             "name": "FrancoisPgm/visual_encoding_decoding",
             "url": "https://github.com/FrancoisPgm/visual_encoding_decoding",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "HealthBioscienceIDEAS/demon-imaging-data",
+            "url": "https://github.com/HealthBioscienceIDEAS/demon-imaging-data",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -3610,6 +3628,15 @@
             "status": "active"
         },
         {
+            "name": "SIMEXP/fmriprep-denoise-benchmark",
+            "url": "https://github.com/SIMEXP/fmriprep-denoise-benchmark",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "SIMEXP/fmriprep-reproducibility",
             "url": "https://github.com/SIMEXP/fmriprep-reproducibility",
             "stars": 1,
@@ -3775,6 +3802,15 @@
             "name": "adswa/talk-computational-reproducibility",
             "url": "https://github.com/adswa/talk-computational-reproducibility",
             "stars": 8,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "adswa/talk-reproducible-research-articles",
+            "url": "https://github.com/adswa/talk-reproducible-research-articles",
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -4017,7 +4053,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 157,
+            "stars": 158,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4107,7 +4143,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 340,
+            "stars": 343,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7216,7 +7252,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "name": "leej3/afni_ci_test_data",
@@ -8598,7 +8634,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 7950,
+            "stars": 7955,
             "dataset": false,
             "run": true,
             "container_run": false,
