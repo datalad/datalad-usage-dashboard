@@ -840,7 +840,7 @@
         {
             "name": "OpenNeuroDatasets/ds000247",
             "url": "https://github.com/OpenNeuroDatasets/ds000247",
-            "stars": 1,
+            "stars": 2,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -3763,6 +3763,15 @@
             "status": "active"
         },
         {
+            "name": "adswa/new-create-sibling-command-gh",
+            "url": "https://github.com/adswa/new-create-sibling-command-gh",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "adswa/nilearn-container",
             "url": "https://github.com/adswa/nilearn-container",
             "stars": 0,
@@ -4683,7 +4692,7 @@
         {
             "name": "courtois-neuromod/task_stimuli",
             "url": "https://github.com/courtois-neuromod/task_stimuli",
-            "stars": 2,
+            "stars": 3,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -6438,7 +6447,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 254,
+            "stars": 255,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6690,7 +6699,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 827,
+            "stars": 828,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6861,7 +6870,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4941,
+            "stars": 4943,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8634,7 +8643,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 7955,
+            "stars": 7963,
             "dataset": false,
             "run": true,
             "container_run": false,

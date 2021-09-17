@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (9) | Stars (5) | Dataset (9) | `run` | `containers-run` |
+| # | Repository (9) | Stars (6) | Dataset (9) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  |
 | 2 | [courtois-neuromod/cneuromod](https://github.com/courtois-neuromod/cneuromod) | 2 | :heavy_check_mark: |  |  |
@@ -8,7 +8,7 @@
 | 5 | [courtois-neuromod/retino.stimuli](https://github.com/courtois-neuromod/retino.stimuli) | 0 | :heavy_check_mark: |  |  |
 | 6 | [courtois-neuromod/retino_analysis](https://github.com/courtois-neuromod/retino_analysis) | 0 | :heavy_check_mark: |  |  |
 | 7 | [courtois-neuromod/shinobi.stimuli](https://github.com/courtois-neuromod/shinobi.stimuli) | 0 | :heavy_check_mark: |  |  |
-| 8 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 2 | :heavy_check_mark: |  |  |
+| 8 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 3 | :heavy_check_mark: |  |  |
 | 9 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
