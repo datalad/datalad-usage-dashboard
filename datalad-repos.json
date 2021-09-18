@@ -4152,7 +4152,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 343,
+            "stars": 344,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4629,6 +4629,15 @@
         {
             "name": "courtois-neuromod/IBC",
             "url": "https://github.com/courtois-neuromod/IBC",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "courtois-neuromod/cimaq_fmriprep",
+            "url": "https://github.com/courtois-neuromod/cimaq_fmriprep",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -6375,7 +6384,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 77,
+            "stars": 78,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6447,7 +6456,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 255,
+            "stars": 256,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6699,7 +6708,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 828,
+            "stars": 832,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7176,6 +7185,15 @@
         {
             "name": "jsheunis/neuro-data-s3-v2",
             "url": "https://github.com/jsheunis/neuro-data-s3-v2",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "juaml/datalad-bgen-example",
+            "url": "https://github.com/juaml/datalad-bgen-example",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -8643,7 +8661,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 7963,
+            "stars": 7965,
             "dataset": false,
             "run": true,
             "container_run": false,
