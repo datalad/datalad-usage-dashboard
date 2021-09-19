@@ -1,6 +1,6 @@
 # GitHub
 ## In the wild
-| # | Repository (746) | Stars (24462) | Dataset (687) | `run` (102) | `containers-run` (4) |
+| # | Repository (746) | Stars (24471) | Dataset (687) | `run` (102) | `containers-run` (4) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [AKSoo/StructFunc](https://github.com/AKSoo/StructFunc) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 2 | [AllenInstitute/AllenSDK](https://github.com/AllenInstitute/AllenSDK) | 228 |  | :heavy_check_mark: |  |
@@ -61,7 +61,7 @@
 | 57 | [dandisets-testing/*](https://github.com/dandisets-testing) [(38)](READMEs/dandisets-testing.md) | [0](READMEs/dandisets-testing.md) | [:heavy_check_mark: (38)](READMEs/dandisets-testing.md) |  |  |
 | 58 | [dartmouth-pbs/psyc161-wi19-srv](https://github.com/dartmouth-pbs/psyc161-wi19-srv) | 0 | :heavy_check_mark: |  |  |
 | 59 | [datasets-mila/mila](https://github.com/datasets-mila/mila) | 0 | :heavy_check_mark: |  |  |
-| 60 | [debops/debops](https://github.com/debops/debops) | 832 |  | :heavy_check_mark: |  |
+| 60 | [debops/debops](https://github.com/debops/debops) | 833 |  | :heavy_check_mark: |  |
 | 61 | [dguibert/nur-packages](https://github.com/dguibert/nur-packages) | 2 | :heavy_check_mark: |  |  |
 | 62 | [dhivakark/*](https://github.com/dhivakark) [(2)](READMEs/dhivakark.md) | [0](READMEs/dhivakark.md) | [:heavy_check_mark: (2)](READMEs/dhivakark.md) | [:heavy_check_mark: (1)](READMEs/dhivakark.md) |  |
 | 63 | [djarecka/*](https://github.com/djarecka) [(2)](READMEs/djarecka.md) | [0](READMEs/djarecka.md) |  | [:heavy_check_mark: (2)](READMEs/djarecka.md) |  |
@@ -136,18 +136,18 @@
 | 132 | [tkkuehn/dropbox-test-dataset](https://github.com/tkkuehn/dropbox-test-dataset) | 0 | :heavy_check_mark: |  |  |
 | 133 | [tsankeuodelfa/midtermproject](https://github.com/tsankeuodelfa/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 134 | [vandermeerlab/labs--mvdm](https://github.com/vandermeerlab/labs--mvdm) | 0 | :heavy_check_mark: |  |  |
-| 135 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 7965 |  | :heavy_check_mark: |  |
+| 135 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 7973 |  | :heavy_check_mark: |  |
 | 136 | [zxenia/mcgill-emc-rna-seq-experiment](https://github.com/zxenia/mcgill-emc-rna-seq-experiment) | 0 | :heavy_check_mark: |  |  |
 
 ## Inner circle
-| # | Repository (231) | Stars (629) | Dataset (201) | `run` (61) | `containers-run` (2) |
+| # | Repository (231) | Stars (630) | Dataset (201) | `run` (61) | `containers-run` (2) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [con/*](https://github.com/con) [(3)](READMEs/con.md) | [38](READMEs/con.md) | [:heavy_check_mark: (2)](READMEs/con.md) | [:heavy_check_mark: (3)](READMEs/con.md) |  |
 | 2 | [dandi/*](https://github.com/dandi) [(11)](READMEs/dandi.md) | [9](READMEs/dandi.md) | [:heavy_check_mark: (5)](READMEs/dandi.md) | [:heavy_check_mark: (9)](READMEs/dandi.md) |  |
 | 3 | [dandisets/*](https://github.com/dandisets) [(106)](READMEs/dandisets.md) | [3](READMEs/dandisets.md) | [:heavy_check_mark: (106)](READMEs/dandisets.md) |  |  |
 | 4 | [datalad-collection-1/*](https://github.com/datalad-collection-1) [(3)](READMEs/datalad-collection-1.md) | [0](READMEs/datalad-collection-1.md) | [:heavy_check_mark: (3)](READMEs/datalad-collection-1.md) |  |  |
 | 5 | [datalad-datasets/*](https://github.com/datalad-datasets) [(16)](READMEs/datalad-datasets.md) | [161](READMEs/datalad-datasets.md) | [:heavy_check_mark: (9)](READMEs/datalad-datasets.md) | [:heavy_check_mark: (13)](READMEs/datalad-datasets.md) |  |
-| 6 | [datalad-handbook/*](https://github.com/datalad-handbook) [(8)](READMEs/datalad-handbook.md) | [84](READMEs/datalad-handbook.md) | [:heavy_check_mark: (5)](READMEs/datalad-handbook.md) | [:heavy_check_mark: (5)](READMEs/datalad-handbook.md) | [:heavy_check_mark: (1)](READMEs/datalad-handbook.md) |
+| 6 | [datalad-handbook/*](https://github.com/datalad-handbook) [(8)](READMEs/datalad-handbook.md) | [85](READMEs/datalad-handbook.md) | [:heavy_check_mark: (5)](READMEs/datalad-handbook.md) | [:heavy_check_mark: (5)](READMEs/datalad-handbook.md) | [:heavy_check_mark: (1)](READMEs/datalad-handbook.md) |
 | 7 | [datalad-tester/*](https://github.com/datalad-tester) [(2)](READMEs/datalad-tester.md) | [0](READMEs/datalad-tester.md) | [:heavy_check_mark: (2)](READMEs/datalad-tester.md) | [:heavy_check_mark: (2)](READMEs/datalad-tester.md) |  |
 | 8 | [datalad/*](https://github.com/datalad) [(26)](READMEs/datalad.md) | [280](READMEs/datalad.md) | [:heavy_check_mark: (20)](READMEs/datalad.md) | [:heavy_check_mark: (8)](READMEs/datalad.md) |  |
 | 9 | [dbic/*](https://github.com/dbic) [(2)](READMEs/dbic.md) | [2](READMEs/dbic.md) | [:heavy_check_mark: (1)](READMEs/dbic.md) | [:heavy_check_mark: (1)](READMEs/dbic.md) |  |

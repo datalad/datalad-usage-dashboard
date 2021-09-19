@@ -6384,7 +6384,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 78,
+            "stars": 79,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6708,7 +6708,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 832,
+            "stars": 833,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8661,7 +8661,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 7965,
+            "stars": 7973,
             "dataset": false,
             "run": true,
             "container_run": false,
