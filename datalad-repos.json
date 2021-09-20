@@ -4152,7 +4152,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 344,
+            "stars": 345,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4818,7 +4818,7 @@
         {
             "name": "dandi/dandischema",
             "url": "https://github.com/dandi/dandischema",
-            "stars": 0,
+            "stars": 1,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6456,7 +6456,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 256,
+            "stars": 257,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6879,7 +6879,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4943,
+            "stars": 4944,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8661,7 +8661,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 7973,
+            "stars": 7990,
             "dataset": false,
             "run": true,
             "container_run": false,
