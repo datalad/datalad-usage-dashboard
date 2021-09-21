@@ -3940,7 +3940,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "anthfm/dd2",
@@ -4062,7 +4062,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 158,
+            "stars": 159,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6708,7 +6708,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 833,
+            "stars": 834,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6879,7 +6879,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4944,
+            "stars": 4947,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8661,7 +8661,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 7990,
+            "stars": 8005,
             "dataset": false,
             "run": true,
             "container_run": false,
