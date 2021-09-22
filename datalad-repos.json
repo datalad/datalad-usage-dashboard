@@ -6879,7 +6879,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4947,
+            "stars": 4948,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7279,7 +7279,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "leej3/afni_ci_test_data",
@@ -7774,6 +7774,15 @@
             "dataset": true,
             "run": true,
             "container_run": true,
+            "status": "active"
+        },
+        {
+            "name": "nhuneke/dataset-setup-procedures",
+            "url": "https://github.com/nhuneke/dataset-setup-procedures",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
             "status": "active"
         },
         {
@@ -8355,7 +8364,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 841,
+            "stars": 843,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8661,7 +8670,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8005,
+            "stars": 8029,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8804,6 +8813,12 @@
         }
     ],
     "osf": [
+        {
+            "url": "https://osf.io/qy84w/",
+            "id": "qy84w",
+            "name": "BigBrain histogram test",
+            "status": "active"
+        },
         {
             "url": "https://osf.io/5hy42/",
             "id": "5hy42",
