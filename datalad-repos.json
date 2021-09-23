@@ -30,7 +30,7 @@
         {
             "name": "CONP-PCNO/conp-dataset",
             "url": "https://github.com/CONP-PCNO/conp-dataset",
-            "stars": 15,
+            "stars": 16,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -3513,7 +3513,7 @@
         {
             "name": "ReproNim/neurodocker",
             "url": "https://github.com/ReproNim/neurodocker",
-            "stars": 229,
+            "stars": 230,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6456,7 +6456,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 257,
+            "stars": 258,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6511,6 +6511,15 @@
             "name": "datalad/datalad-revolution",
             "url": "https://github.com/datalad/datalad-revolution",
             "stars": 4,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "datalad/datalad-xnat",
+            "url": "https://github.com/datalad/datalad-xnat",
+            "stars": 1,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6708,7 +6717,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 834,
+            "stars": 835,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6969,7 +6978,7 @@
         {
             "name": "flatironinstitute/reactopya",
             "url": "https://github.com/flatironinstitute/reactopya",
-            "stars": 5,
+            "stars": 6,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7867,6 +7876,15 @@
             "status": "active"
         },
         {
+            "name": "nipreps-data/ds000005",
+            "url": "https://github.com/nipreps-data/ds000005",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "nipreps-data/ds000054",
             "url": "https://github.com/nipreps-data/ds000054",
             "stars": 0,
@@ -8670,7 +8688,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8029,
+            "stars": 8049,
             "dataset": false,
             "run": true,
             "container_run": false,
