@@ -12,7 +12,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 228,
+            "stars": 229,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6456,7 +6456,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 258,
+            "stars": 259,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7435,6 +7435,15 @@
             "status": "active"
         },
         {
+            "name": "lnnrtwttkhn/talk-rdm",
+            "url": "https://github.com/lnnrtwttkhn/talk-rdm",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "lnnrtwttkhn/tools",
             "url": "https://github.com/lnnrtwttkhn/tools",
             "stars": 0,
@@ -7880,7 +7889,16 @@
             "url": "https://github.com/nipreps-data/ds000005",
             "stars": 0,
             "dataset": true,
-            "run": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "nipreps-data/ds000005-derivatives",
+            "url": "https://github.com/nipreps-data/ds000005-derivatives",
+            "stars": 0,
+            "dataset": true,
+            "run": true,
             "container_run": false,
             "status": "active"
         },
@@ -8382,7 +8400,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 843,
+            "stars": 845,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8688,7 +8706,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8049,
+            "stars": 8059,
             "dataset": false,
             "run": true,
             "container_run": false,
