@@ -6897,7 +6897,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4947,
+            "stars": 4948,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7304,9 +7304,9 @@
             "url": "https://github.com/labgas/proj_discoverie",
             "stars": 0,
             "dataset": true,
-            "run": false,
-            "container_run": false,
-            "status": "gone"
+            "run": true,
+            "container_run": true,
+            "status": "active"
         },
         {
             "name": "leej3/afni_ci_test_data",
@@ -8443,6 +8443,15 @@
             "status": "active"
         },
         {
+            "name": "sangfrois/ds_prep",
+            "url": "https://github.com/sangfrois/ds_prep",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "satra/coco2019-datalad",
             "url": "https://github.com/satra/coco2019-datalad",
             "stars": 0,
@@ -8724,9 +8733,27 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8064,
+            "stars": 8068,
             "dataset": false,
             "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "xlecours/1000GenomesProject",
+            "url": "https://github.com/xlecours/1000GenomesProject",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "xlecours/conp-dataset-PopHR",
+            "url": "https://github.com/xlecours/conp-dataset-PopHR",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
             "container_run": false,
             "status": "active"
         },
