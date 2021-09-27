@@ -4152,7 +4152,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 346,
+            "stars": 347,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6897,7 +6897,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4948,
+            "stars": 4950,
             "dataset": false,
             "run": true,
             "container_run": false,
