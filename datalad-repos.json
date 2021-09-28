@@ -3513,7 +3513,7 @@
         {
             "name": "ReproNim/neurodocker",
             "url": "https://github.com/ReproNim/neurodocker",
-            "stars": 230,
+            "stars": 231,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -3769,7 +3769,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "adswa/nilearn-container",
@@ -3832,7 +3832,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "adswa/windowstesting",
@@ -4152,7 +4152,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 347,
+            "stars": 348,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6184,6 +6184,15 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000142",
+            "url": "https://github.com/dandisets/000142",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dartmouth-pbs/psyc161-wi19-srv",
             "url": "https://github.com/dartmouth-pbs/psyc161-wi19-srv",
             "stars": 0,
@@ -6465,7 +6474,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 259,
+            "stars": 260,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6528,7 +6537,7 @@
         {
             "name": "datalad/datalad-xnat",
             "url": "https://github.com/datalad/datalad-xnat",
-            "stars": 1,
+            "stars": 2,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6897,7 +6906,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4950,
+            "stars": 4954,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8733,7 +8742,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8068,
+            "stars": 8080,
             "dataset": false,
             "run": true,
             "container_run": false,
