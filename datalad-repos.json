@@ -165,7 +165,7 @@
         {
             "name": "DiedrichsenLab/cerebellar_atlases",
             "url": "https://github.com/DiedrichsenLab/cerebellar_atlases",
-            "stars": 4,
+            "stars": 5,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -6744,7 +6744,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 836,
+            "stars": 837,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6915,9 +6915,18 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4954,
+            "stars": 4956,
             "dataset": false,
             "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "effigies/datalad-docker",
+            "url": "https://github.com/effigies/datalad-docker",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
             "container_run": false,
             "status": "active"
         },
@@ -7584,6 +7593,15 @@
             "stars": 0,
             "dataset": true,
             "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "mih/datalad-mihextras",
+            "url": "https://github.com/mih/datalad-mihextras",
+            "stars": 1,
+            "dataset": false,
+            "run": true,
             "container_run": false,
             "status": "active"
         },
@@ -8751,7 +8769,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8096,
+            "stars": 8106,
             "dataset": false,
             "run": true,
             "container_run": false,
