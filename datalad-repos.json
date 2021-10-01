@@ -1522,6 +1522,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds002721",
+            "url": "https://github.com/OpenNeuroDatasets/ds002721",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDatasets/ds002725",
             "url": "https://github.com/OpenNeuroDatasets/ds002725",
             "stars": 0,
@@ -4152,7 +4161,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 349,
+            "stars": 350,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6915,7 +6924,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4956,
+            "stars": 4957,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8769,7 +8778,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8106,
+            "stars": 8117,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8913,6 +8922,15 @@
         {
             "name": "yarikoptic/tipp-reference-datalad",
             "url": "https://github.com/yarikoptic/tipp-reference-datalad",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "yenngolam/FauseyTrio-Public-Demo",
+            "url": "https://github.com/yenngolam/FauseyTrio-Public-Demo",
             "stars": 0,
             "dataset": true,
             "run": false,
