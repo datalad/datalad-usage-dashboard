@@ -6285,7 +6285,7 @@
         {
             "name": "datalad-datasets/hcp-structural-preprocessed",
             "url": "https://github.com/datalad-datasets/hcp-structural-preprocessed",
-            "stars": 1,
+            "stars": 2,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6429,7 +6429,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 79,
+            "stars": 80,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7369,7 +7369,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "leej3/afni_ci_test_data",
@@ -8220,7 +8220,7 @@
         {
             "name": "poldracklab/fitlins",
             "url": "https://github.com/poldracklab/fitlins",
-            "stars": 55,
+            "stars": 56,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8805,7 +8805,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8123,
+            "stars": 8133,
             "dataset": false,
             "run": true,
             "container_run": false,
