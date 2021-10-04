@@ -6933,7 +6933,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4958,
+            "stars": 4959,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8805,7 +8805,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8133,
+            "stars": 8140,
             "dataset": false,
             "run": true,
             "container_run": false,
