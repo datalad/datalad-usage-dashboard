@@ -6942,7 +6942,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4960,
+            "stars": 4961,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7404,6 +7404,15 @@
             "stars": 0,
             "dataset": false,
             "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "lnnrtwttkhn/bibliography",
+            "url": "https://github.com/lnnrtwttkhn/bibliography",
+            "stars": 2,
+            "dataset": true,
+            "run": false,
             "container_run": false,
             "status": "active"
         },
@@ -8130,7 +8139,7 @@
         {
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
-            "stars": 146,
+            "stars": 147,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8499,7 +8508,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 848,
+            "stars": 849,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8814,7 +8823,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8142,
+            "stars": 8145,
             "dataset": false,
             "run": true,
             "container_run": false,
