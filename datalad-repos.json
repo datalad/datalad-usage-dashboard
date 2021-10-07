@@ -4854,7 +4854,7 @@
         {
             "name": "dandi/dandi-cli",
             "url": "https://github.com/dandi/dandi-cli",
-            "stars": 5,
+            "stars": 6,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6510,7 +6510,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 260,
+            "stars": 261,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8823,7 +8823,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8145,
+            "stars": 8147,
             "dataset": false,
             "run": true,
             "container_run": false,

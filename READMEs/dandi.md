@@ -1,10 +1,10 @@
 ## Active
-| # | Repository (11) | Stars (10) | Dataset (5) | `run` (9) | `containers-run` |
+| # | Repository (11) | Stars (11) | Dataset (5) | `run` (9) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [dandi/dandi-api-datasets](https://github.com/dandi/dandi-api-datasets) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 2 | [dandi/dandi-api-webshots](https://github.com/dandi/dandi-api-webshots) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 3 | [dandi/dandi-api-webshots-staging](https://github.com/dandi/dandi-api-webshots-staging) | 0 | :heavy_check_mark: |  |  |
-| 4 | [dandi/dandi-cli](https://github.com/dandi/dandi-cli) | 5 |  | :heavy_check_mark: |  |
+| 4 | [dandi/dandi-cli](https://github.com/dandi/dandi-cli) | 6 |  | :heavy_check_mark: |  |
 | 5 | [dandi/dandischema](https://github.com/dandi/dandischema) | 1 |  | :heavy_check_mark: |  |
 | 6 | [dandi/dandisets](https://github.com/dandi/dandisets) | 2 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 7 | [dandi/metadata-dumps](https://github.com/dandi/metadata-dumps) | 0 |  | :heavy_check_mark: |  |
