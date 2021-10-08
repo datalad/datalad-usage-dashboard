@@ -6942,7 +6942,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4961,
+            "stars": 4962,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8625,7 +8625,7 @@
         {
             "name": "templateflow/templateflow",
             "url": "https://github.com/templateflow/templateflow",
-            "stars": 25,
+            "stars": 26,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -8823,7 +8823,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8147,
+            "stars": 8150,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8993,6 +8993,12 @@
         }
     ],
     "osf": [
+        {
+            "url": "https://osf.io/42shw/",
+            "id": "42shw",
+            "name": "BigBrain histogram",
+            "status": "active"
+        },
         {
             "url": "https://osf.io/qy84w/",
             "id": "qy84w",
@@ -9369,7 +9375,7 @@
             "url": "https://osf.io/bqp76/",
             "id": "bqp76",
             "name": "nobrainer-test1",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/qpxad/",
