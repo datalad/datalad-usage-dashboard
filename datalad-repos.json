@@ -3567,7 +3567,7 @@
         {
             "name": "ReproNim/reproin",
             "url": "https://github.com/ReproNim/reproin",
-            "stars": 38,
+            "stars": 39,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4080,7 +4080,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 161,
+            "stars": 162,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8832,7 +8832,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8187,
+            "stars": 8194,
             "dataset": false,
             "run": true,
             "container_run": false,
