@@ -1774,6 +1774,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds002873",
+            "url": "https://github.com/OpenNeuroDatasets/ds002873",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDatasets/ds002878",
             "url": "https://github.com/OpenNeuroDatasets/ds002878",
             "stars": 0,
@@ -6456,7 +6465,7 @@
         {
             "name": "datalad-handbook/course",
             "url": "https://github.com/datalad-handbook/course",
-            "stars": 5,
+            "stars": 6,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -6780,7 +6789,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 839,
+            "stars": 840,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6951,7 +6960,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4970,
+            "stars": 4972,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8832,7 +8841,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8194,
+            "stars": 8200,
             "dataset": false,
             "run": true,
             "container_run": false,
