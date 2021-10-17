@@ -6789,7 +6789,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 840,
+            "stars": 841,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6960,7 +6960,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4972,
+            "stars": 4974,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8310,7 +8310,7 @@
         {
             "name": "psychoinformatics-de/fairly-big-processing-workflow-tutorial",
             "url": "https://github.com/psychoinformatics-de/fairly-big-processing-workflow-tutorial",
-            "stars": 0,
+            "stars": 2,
             "dataset": true,
             "run": true,
             "container_run": true,
@@ -8841,7 +8841,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8200,
+            "stars": 8204,
             "dataset": false,
             "run": true,
             "container_run": false,

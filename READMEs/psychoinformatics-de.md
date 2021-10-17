@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (25) | Stars (36) | Dataset (24) | `run` (9) | `containers-run` (1) |
+| # | Repository (25) | Stars (38) | Dataset (24) | `run` (9) | `containers-run` (1) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [psychoinformatics-de/anima](https://github.com/psychoinformatics-de/anima) | 0 | :heavy_check_mark: |  |  |
-| 2 | [psychoinformatics-de/fairly-big-processing-workflow-tutorial](https://github.com/psychoinformatics-de/fairly-big-processing-workflow-tutorial) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| 2 | [psychoinformatics-de/fairly-big-processing-workflow-tutorial](https://github.com/psychoinformatics-de/fairly-big-processing-workflow-tutorial) | 2 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 3 | [psychoinformatics-de/hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) | 0 | :heavy_check_mark: |  |  |
 | 4 | [psychoinformatics-de/hirni-demo-acq1](https://github.com/psychoinformatics-de/hirni-demo-acq1) | 0 | :heavy_check_mark: |  |  |
 | 5 | [psychoinformatics-de/hirni-demo-acq2](https://github.com/psychoinformatics-de/hirni-demo-acq2) | 0 | :heavy_check_mark: |  |  |
