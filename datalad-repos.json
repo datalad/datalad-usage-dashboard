@@ -4179,7 +4179,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 356,
+            "stars": 357,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6528,7 +6528,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 262,
+            "stars": 263,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7554,7 +7554,7 @@
         {
             "name": "lnnrtwttkhn/talk-rdm",
             "url": "https://github.com/lnnrtwttkhn/talk-rdm",
-            "stars": 0,
+            "stars": 1,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8643,7 +8643,7 @@
         {
             "name": "templateflow/templateflow",
             "url": "https://github.com/templateflow/templateflow",
-            "stars": 26,
+            "stars": 27,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -8841,7 +8841,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8216,
+            "stars": 8236,
             "dataset": false,
             "run": true,
             "container_run": false,
