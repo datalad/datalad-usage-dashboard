@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (2) | Stars | Dataset (2) | `run` (1) | `containers-run` |
+| # | Repository (2) | Stars (2) | Dataset (2) | `run` (1) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [cryo-data/template](https://github.com/cryo-data/template) | 0 | :heavy_check_mark: |  |  |
-| 2 | [cryo-data/testing](https://github.com/cryo-data/testing) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 1 | [cryo-data/template](https://github.com/cryo-data/template) | 1 | :heavy_check_mark: |  |  |
+| 2 | [cryo-data/testing](https://github.com/cryo-data/testing) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
 
 ## Gone
 | # | Repository (4) | Stars (2) | Dataset (4) | `run` (1) | `containers-run` |

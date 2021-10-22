@@ -21,7 +21,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 230,
+            "stars": 231,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4809,7 +4809,7 @@
         {
             "name": "cryo-data/template",
             "url": "https://github.com/cryo-data/template",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -4818,7 +4818,7 @@
         {
             "name": "cryo-data/testing",
             "url": "https://github.com/cryo-data/testing",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": true,
             "container_run": false,
@@ -6960,7 +6960,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4983,
+            "stars": 4985,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8526,7 +8526,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 856,
+            "stars": 857,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8841,7 +8841,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8258,
+            "stars": 8279,
             "dataset": false,
             "run": true,
             "container_run": false,
