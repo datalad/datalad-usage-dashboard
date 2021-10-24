@@ -6960,7 +6960,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4987,
+            "stars": 4990,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8560,6 +8560,15 @@
             "status": "active"
         },
         {
+            "name": "sappelhoff/eeg_matchingpennies",
+            "url": "https://github.com/sappelhoff/eeg_matchingpennies",
+            "stars": 1,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "satra/coco2019-datalad",
             "url": "https://github.com/satra/coco2019-datalad",
             "stars": 0,
@@ -8841,7 +8850,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8287,
+            "stars": 8294,
             "dataset": false,
             "run": true,
             "container_run": false,
