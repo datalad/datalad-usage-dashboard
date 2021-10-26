@@ -4179,7 +4179,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 358,
+            "stars": 359,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6960,7 +6960,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4991,
+            "stars": 4992,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7563,7 +7563,7 @@
         {
             "name": "lnnrtwttkhn/talk-rdm",
             "url": "https://github.com/lnnrtwttkhn/talk-rdm",
-            "stars": 1,
+            "stars": 2,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8859,7 +8859,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8297,
+            "stars": 8302,
             "dataset": false,
             "run": true,
             "container_run": false,
