@@ -4089,7 +4089,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 162,
+            "stars": 163,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6247,6 +6247,78 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000145",
+            "url": "https://github.com/dandisets/000145",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000146",
+            "url": "https://github.com/dandisets/000146",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000147",
+            "url": "https://github.com/dandisets/000147",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000148",
+            "url": "https://github.com/dandisets/000148",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000149",
+            "url": "https://github.com/dandisets/000149",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000150",
+            "url": "https://github.com/dandisets/000150",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000151",
+            "url": "https://github.com/dandisets/000151",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000152",
+            "url": "https://github.com/dandisets/000152",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dartmouth-pbs/psyc161-wi19-srv",
             "url": "https://github.com/dartmouth-pbs/psyc161-wi19-srv",
             "stars": 0,
@@ -6960,7 +7032,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4993,
+            "stars": 4995,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8535,7 +8607,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 858,
+            "stars": 859,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8859,7 +8931,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8306,
+            "stars": 8311,
             "dataset": false,
             "run": true,
             "container_run": false,
