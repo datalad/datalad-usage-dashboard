@@ -39,7 +39,7 @@
         {
             "name": "CONP-PCNO/conp-dataset",
             "url": "https://github.com/CONP-PCNO/conp-dataset",
-            "stars": 16,
+            "stars": 17,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -4179,7 +4179,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 359,
+            "stars": 361,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6600,7 +6600,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 263,
+            "stars": 264,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6861,7 +6861,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 846,
+            "stars": 849,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7032,7 +7032,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 4995,
+            "stars": 5000,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8238,7 +8238,7 @@
         {
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
-            "stars": 149,
+            "stars": 150,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8607,7 +8607,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 859,
+            "stars": 860,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8931,7 +8931,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8311,
+            "stars": 8315,
             "dataset": false,
             "run": true,
             "container_run": false,
