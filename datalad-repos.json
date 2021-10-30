@@ -6247,6 +6247,15 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000144",
+            "url": "https://github.com/dandisets/000144",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dandisets/000145",
             "url": "https://github.com/dandisets/000145",
             "stars": 0,
@@ -6861,7 +6870,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 849,
+            "stars": 852,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7032,7 +7041,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5000,
+            "stars": 5003,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7658,6 +7667,15 @@
             "run": true,
             "container_run": false,
             "status": "gone"
+        },
+        {
+            "name": "lucasgautheron/STORING-AND-SHARING",
+            "url": "https://github.com/lucasgautheron/STORING-AND-SHARING",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
         },
         {
             "name": "lucasgautheron/diarization-error-analysis",
@@ -8607,7 +8625,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 860,
+            "stars": 861,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8931,7 +8949,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8315,
+            "stars": 8317,
             "dataset": false,
             "run": true,
             "container_run": false,
