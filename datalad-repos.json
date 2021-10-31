@@ -6870,7 +6870,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 852,
+            "stars": 853,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7041,7 +7041,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5003,
+            "stars": 5005,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7842,7 +7842,7 @@
         {
             "name": "miykael/nipype_tutorial",
             "url": "https://github.com/miykael/nipype_tutorial",
-            "stars": 84,
+            "stars": 85,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8949,7 +8949,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8317,
+            "stars": 8318,
             "dataset": false,
             "run": true,
             "container_run": false,
