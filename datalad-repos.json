@@ -6537,7 +6537,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 81,
+            "stars": 82,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6609,7 +6609,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 264,
+            "stars": 265,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6870,7 +6870,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 853,
+            "stars": 855,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7041,7 +7041,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5005,
+            "stars": 5006,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8949,7 +8949,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8318,
+            "stars": 8324,
             "dataset": false,
             "run": true,
             "container_run": false,
