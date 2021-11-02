@@ -6861,7 +6861,7 @@
         {
             "name": "dbic/handbook",
             "url": "https://github.com/dbic/handbook",
-            "stars": 2,
+            "stars": 3,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7041,7 +7041,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5006,
+            "stars": 5009,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8949,7 +8949,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8324,
+            "stars": 8329,
             "dataset": false,
             "run": true,
             "container_run": false,
