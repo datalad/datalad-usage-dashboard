@@ -7041,7 +7041,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5018,
+            "stars": 5019,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7222,6 +7222,15 @@
             "name": "inm7/vbc_fmri",
             "url": "https://github.com/inm7/vbc_fmri",
             "stars": 1,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "inm7/vbc_mri_pipeline",
+            "url": "https://github.com/inm7/vbc_mri_pipeline",
+            "stars": 0,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -7737,6 +7746,15 @@
             "stars": 0,
             "dataset": true,
             "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "maxthoursie/datalad-books",
+            "url": "https://github.com/maxthoursie/datalad-books",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
             "container_run": false,
             "status": "active"
         },
@@ -8634,7 +8652,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 863,
+            "stars": 864,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8958,7 +8976,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8366,
+            "stars": 8388,
             "dataset": false,
             "run": true,
             "container_run": false,
