@@ -21,7 +21,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 231,
+            "stars": 232,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4179,7 +4179,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 362,
+            "stars": 363,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7759,6 +7759,15 @@
             "status": "active"
         },
         {
+            "name": "maxthoursie/datalad-photos",
+            "url": "https://github.com/maxthoursie/datalad-photos",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "mdeea/midtermproject",
             "url": "https://github.com/mdeea/midtermproject",
             "stars": 0,
@@ -7986,7 +7995,7 @@
         {
             "name": "neuronets/trained-models",
             "url": "https://github.com/neuronets/trained-models",
-            "stars": 7,
+            "stars": 8,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -8436,7 +8445,7 @@
         {
             "name": "psychoinformatics-de/fairly-big-processing-workflow-tutorial",
             "url": "https://github.com/psychoinformatics-de/fairly-big-processing-workflow-tutorial",
-            "stars": 2,
+            "stars": 3,
             "dataset": true,
             "run": true,
             "container_run": true,
@@ -8976,7 +8985,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8388,
+            "stars": 8398,
             "dataset": false,
             "run": true,
             "container_run": false,
