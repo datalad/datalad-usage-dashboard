@@ -21,7 +21,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 232,
+            "stars": 233,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4179,7 +4179,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 363,
+            "stars": 364,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6870,7 +6870,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 856,
+            "stars": 859,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8661,7 +8661,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 864,
+            "stars": 865,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8985,7 +8985,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8405,
+            "stars": 8409,
             "dataset": false,
             "run": true,
             "container_run": false,
