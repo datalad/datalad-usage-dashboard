@@ -4089,7 +4089,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 163,
+            "stars": 164,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7041,7 +7041,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5021,
+            "stars": 5025,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8661,7 +8661,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 865,
+            "stars": 866,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8985,7 +8985,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8409,
+            "stars": 8416,
             "dataset": false,
             "run": true,
             "container_run": false,
