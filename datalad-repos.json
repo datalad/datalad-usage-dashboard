@@ -4384,6 +4384,15 @@
             "status": "active"
         },
         {
+            "name": "conp-bot/conp-dataset-MICA-MICs-a-dataset-for-Microstructure-Informed-Connectomics",
+            "url": "https://github.com/conp-bot/conp-dataset-MICA-MICs-a-dataset-for-Microstructure-Informed-Connectomics",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "conp-bot/conp-dataset-MRI_and_unbiased_averages_of_wild_muskrats__Ondatra_zibethicus__and_red_squirrels__Tami",
             "url": "https://github.com/conp-bot/conp-dataset-MRI_and_unbiased_averages_of_wild_muskrats__Ondatra_zibethicus__and_red_squirrels__Tami",
             "stars": 0,
@@ -4863,7 +4872,7 @@
         {
             "name": "dandi/dandi-cli",
             "url": "https://github.com/dandi/dandi-cli",
-            "stars": 6,
+            "stars": 7,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6609,7 +6618,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 265,
+            "stars": 266,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7041,7 +7050,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5025,
+            "stars": 5026,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8985,7 +8994,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8416,
+            "stars": 8421,
             "dataset": false,
             "run": true,
             "container_run": false,
