@@ -4089,7 +4089,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 164,
+            "stars": 165,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6879,7 +6879,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 859,
+            "stars": 860,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7050,7 +7050,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5026,
+            "stars": 5028,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8994,7 +8994,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8421,
+            "stars": 8427,
             "dataset": false,
             "run": true,
             "container_run": false,
