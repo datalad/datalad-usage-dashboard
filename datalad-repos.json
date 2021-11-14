@@ -21,7 +21,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 234,
+            "stars": 235,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6337,6 +6337,51 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000161",
+            "url": "https://github.com/dandisets/000161",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000165",
+            "url": "https://github.com/dandisets/000165",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000166",
+            "url": "https://github.com/dandisets/000166",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000167",
+            "url": "https://github.com/dandisets/000167",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000168",
+            "url": "https://github.com/dandisets/000168",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dartmouth-pbs/psyc161-wi19-srv",
             "url": "https://github.com/dartmouth-pbs/psyc161-wi19-srv",
             "stars": 0,
@@ -6465,7 +6510,7 @@
         {
             "name": "datalad-datasets/human-connectome-project-openaccess",
             "url": "https://github.com/datalad-datasets/human-connectome-project-openaccess",
-            "stars": 17,
+            "stars": 18,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -7050,7 +7095,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5030,
+            "stars": 5032,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8679,7 +8724,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 866,
+            "stars": 867,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9003,7 +9048,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8428,
+            "stars": 8427,
             "dataset": false,
             "run": true,
             "container_run": false,
