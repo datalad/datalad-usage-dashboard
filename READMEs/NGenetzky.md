@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (9) | Stars | Dataset (9) | `run` (3) | `containers-run` |
+| # | Repository (9) | Stars (1) | Dataset (9) | `run` (3) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [NGenetzky/academic-oss-elc](https://github.com/NGenetzky/academic-oss-elc) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 1 | [NGenetzky/academic-oss-elc](https://github.com/NGenetzky/academic-oss-elc) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 2 | [NGenetzky/balena-phusion](https://github.com/NGenetzky/balena-phusion) | 0 | :heavy_check_mark: |  |  |
 | 3 | [NGenetzky/bitbake.bblayer](https://github.com/NGenetzky/bitbake.bblayer) | 0 | :heavy_check_mark: |  |  |
 | 4 | [NGenetzky/meta-bb-fetch-dataset](https://github.com/NGenetzky/meta-bb-fetch-dataset) | 0 | :heavy_check_mark: |  |  |

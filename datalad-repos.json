@@ -408,7 +408,7 @@
         {
             "name": "NGenetzky/academic-oss-elc",
             "url": "https://github.com/NGenetzky/academic-oss-elc",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": true,
             "container_run": false,
@@ -1825,7 +1825,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "OpenNeuroDatasets/ds002995",
@@ -4780,6 +4780,15 @@
             "status": "active"
         },
         {
+            "name": "cpp-lln-lab/template_datalad_fMRI",
+            "url": "https://github.com/cpp-lln-lab/template_datalad_fMRI",
+            "stars": 1,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "cryo-data/Mankoff_2020",
             "url": "https://github.com/cryo-data/Mankoff_2020",
             "stars": 1,
@@ -4827,7 +4836,7 @@
         {
             "name": "cryo-data/testing",
             "url": "https://github.com/cryo-data/testing",
-            "stars": 1,
+            "stars": 2,
             "dataset": true,
             "run": true,
             "container_run": false,
@@ -6663,7 +6672,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 266,
+            "stars": 267,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6924,7 +6933,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 860,
+            "stars": 861,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7095,7 +7104,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5032,
+            "stars": 5034,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7975,6 +7984,15 @@
             "status": "active"
         },
         {
+            "name": "mslw/gin-mirror",
+            "url": "https://github.com/mslw/gin-mirror",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "msrlab/DataLad-101",
             "url": "https://github.com/msrlab/DataLad-101",
             "stars": 0,
@@ -8724,7 +8742,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 867,
+            "stars": 868,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8850,7 +8868,7 @@
         {
             "name": "templateflow/templateflow",
             "url": "https://github.com/templateflow/templateflow",
-            "stars": 28,
+            "stars": 30,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -9048,7 +9066,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8430,
+            "stars": 8434,
             "dataset": false,
             "run": true,
             "container_run": false,
