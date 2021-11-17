@@ -3646,6 +3646,15 @@
             "status": "active"
         },
         {
+            "name": "Rodent-Cognition-Core/MB-Heterogenous-task-representative-data",
+            "url": "https://github.com/Rodent-Cognition-Core/MB-Heterogenous-task-representative-data",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "SIMEXP/borear_ibc_analysis",
             "url": "https://github.com/SIMEXP/borear_ibc_analysis",
             "stars": 0,
@@ -4827,7 +4836,7 @@
         {
             "name": "cryo-data/template",
             "url": "https://github.com/cryo-data/template",
-            "stars": 1,
+            "stars": 2,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -4881,7 +4890,7 @@
         {
             "name": "dandi/dandi-cli",
             "url": "https://github.com/dandi/dandi-cli",
-            "stars": 7,
+            "stars": 8,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4926,7 +4935,7 @@
         {
             "name": "dandi/nwb-healthstatus",
             "url": "https://github.com/dandi/nwb-healthstatus",
-            "stars": 1,
+            "stars": 2,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -6346,8 +6355,35 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000158",
+            "url": "https://github.com/dandisets/000158",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000160",
+            "url": "https://github.com/dandisets/000160",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dandisets/000161",
             "url": "https://github.com/dandisets/000161",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000162",
+            "url": "https://github.com/dandisets/000162",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -6600,7 +6636,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 83,
+            "stars": 84,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6672,7 +6708,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 267,
+            "stars": 268,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7104,7 +7140,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5034,
+            "stars": 5037,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7212,7 +7248,7 @@
         {
             "name": "flatironinstitute/reactopya",
             "url": "https://github.com/flatironinstitute/reactopya",
-            "stars": 6,
+            "stars": 7,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7930,6 +7966,15 @@
             "status": "active"
         },
         {
+            "name": "mila-iqia/bcachefs",
+            "url": "https://github.com/mila-iqia/bcachefs",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "miykael/nipype_tutorial",
             "url": "https://github.com/miykael/nipype_tutorial",
             "stars": 85,
@@ -7975,6 +8020,15 @@
             "status": "active"
         },
         {
+            "name": "mslw/data-in-gin",
+            "url": "https://github.com/mslw/data-in-gin",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "mslw/datalad-dicom-demo",
             "url": "https://github.com/mslw/datalad-dicom-demo",
             "stars": 0,
@@ -7990,7 +8044,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "msrlab/DataLad-101",
@@ -8067,7 +8121,7 @@
         {
             "name": "neurodebian/neurodebian",
             "url": "https://github.com/neurodebian/neurodebian",
-            "stars": 49,
+            "stars": 50,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8769,7 +8823,7 @@
         {
             "name": "sangfrois/ds_prep",
             "url": "https://github.com/sangfrois/ds_prep",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -9066,7 +9120,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8434,
+            "stars": 8437,
             "dataset": false,
             "run": true,
             "container_run": false,
