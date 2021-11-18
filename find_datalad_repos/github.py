@@ -1,11 +1,12 @@
 from datetime import datetime, timezone
 from operator import attrgetter
 import os
+from pathlib import Path
 import subprocess
 import sys
 from time import sleep
 from types import TracebackType
-from typing import Any, Dict, Iterator, List, Optional, Tuple, Type, cast
+from typing import Any, Dict, Iterator, List, Optional, Tuple, Type, Union, cast
 from pydantic import BaseModel
 import requests
 from .config import OURSELVES
@@ -40,7 +41,7 @@ class GHDataladRepo(TableRow):
     def gone(self) -> bool:
         return self.status is Status.GONE
 
-    def get_cells(self) -> List[str]:
+    def get_cells(self, _directory: Union[str, Path]) -> List[str]:
         return [
             f"[{self.name}]({self.url})",
             str(self.stars),
