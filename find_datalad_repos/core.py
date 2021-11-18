@@ -15,10 +15,11 @@ class RepoRecord(BaseModel):
 
 def mkreadmes(
     record: RepoRecord,
-    filename: str = "README.md",
+    filename: Union[str, Path] = "README.md",
     directory: Union[str, Path] = README_FOLDER,
 ) -> None:
     Path(directory).mkdir(parents=True, exist_ok=True)
+    Path(filename).parent.mkdir(parents=True, exist_ok=True)
     repos_by_org: Mapping[str, List[GHDataladRepo]] = defaultdict(list)
     for repo in record.github:
         repos_by_org[repo.owner].append(repo)
