@@ -394,7 +394,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "NBCLab/conn-repo",
@@ -4197,7 +4197,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 365,
+            "stars": 364,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6373,6 +6373,15 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000157",
+            "url": "https://github.com/dandisets/000157",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dandisets/000158",
             "url": "https://github.com/dandisets/000158",
             "stars": 0,
@@ -7873,7 +7882,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "maxthoursie/datalad-photos",
@@ -7882,7 +7891,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "mdeea/midtermproject",
@@ -7995,7 +8004,7 @@
         {
             "name": "miykael/nipype_tutorial",
             "url": "https://github.com/miykael/nipype_tutorial",
-            "stars": 85,
+            "stars": 86,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8063,6 +8072,15 @@
             "run": false,
             "container_run": false,
             "status": "gone"
+        },
+        {
+            "name": "mslw/public-testrepo",
+            "url": "https://github.com/mslw/public-testrepo",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
         },
         {
             "name": "msrlab/DataLad-101",
@@ -9138,7 +9156,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8446,
+            "stars": 8456,
             "dataset": false,
             "run": true,
             "container_run": false,
