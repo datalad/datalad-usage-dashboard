@@ -2775,7 +2775,7 @@
         {
             "name": "OpenNeuroDatasets/ds003555",
             "url": "https://github.com/OpenNeuroDatasets/ds003555",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -6373,6 +6373,15 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000153",
+            "url": "https://github.com/dandisets/000153",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dandisets/000157",
             "url": "https://github.com/dandisets/000157",
             "stars": 0,
@@ -6411,6 +6420,15 @@
         {
             "name": "dandisets/000162",
             "url": "https://github.com/dandisets/000162",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000164",
+            "url": "https://github.com/dandisets/000164",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -7167,7 +7185,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5045,
+            "stars": 5047,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9156,7 +9174,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8471,
+            "stars": 8476,
             "dataset": false,
             "run": true,
             "container_run": false,
