@@ -4197,7 +4197,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 364,
+            "stars": 365,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8481,7 +8481,7 @@
         {
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
-            "stars": 150,
+            "stars": 151,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8553,7 +8553,7 @@
         {
             "name": "opening-hours/opening_hours.js",
             "url": "https://github.com/opening-hours/opening_hours.js",
-            "stars": 173,
+            "stars": 174,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9174,7 +9174,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8476,
+            "stars": 8480,
             "dataset": false,
             "run": true,
             "container_run": false,
