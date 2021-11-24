@@ -30,7 +30,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 236,
+            "stars": 237,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7023,7 +7023,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 860,
+            "stars": 861,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7194,7 +7194,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5046,
+            "stars": 5048,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7630,7 +7630,7 @@
             "dataset": true,
             "run": true,
             "container_run": true,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "labgas/proj_discoverie_code",
@@ -7639,7 +7639,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "labgas/proj_discoverie_code_git",
@@ -9192,7 +9192,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8486,
+            "stars": 8495,
             "dataset": false,
             "run": true,
             "container_run": false,
