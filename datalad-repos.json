@@ -7203,7 +7203,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5049,
+            "stars": 5050,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7666,6 +7666,15 @@
             "dataset": false,
             "run": true,
             "container_run": true,
+            "status": "active"
+        },
+        {
+            "name": "labgas/proj_erythritol_4a_code",
+            "url": "https://github.com/labgas/proj_erythritol_4a_code",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
             "status": "active"
         },
         {
@@ -9210,7 +9219,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8503,
+            "stars": 8532,
             "dataset": false,
             "run": true,
             "container_run": false,
