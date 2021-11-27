@@ -4107,7 +4107,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 167,
+            "stars": 168,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6673,7 +6673,7 @@
             "name": "datalad-handbook/DVC-DataLad",
             "url": "https://github.com/datalad-handbook/DVC-DataLad",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -6699,7 +6699,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 84,
+            "stars": 82,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6771,7 +6771,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 268,
+            "stars": 267,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7203,7 +7203,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5050,
+            "stars": 5051,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9012,7 +9012,7 @@
         {
             "name": "templateflow/templateflow",
             "url": "https://github.com/templateflow/templateflow",
-            "stars": 30,
+            "stars": 32,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -9219,7 +9219,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8532,
+            "stars": 8545,
             "dataset": false,
             "run": true,
             "container_run": false,
