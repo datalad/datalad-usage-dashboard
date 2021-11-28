@@ -8080,7 +8080,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "mohanadarafe/taowu-pd",
@@ -9219,7 +9219,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8545,
+            "stars": 8550,
             "dataset": false,
             "run": true,
             "container_run": false,
