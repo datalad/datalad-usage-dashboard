@@ -6526,6 +6526,15 @@
             "status": "active"
         },
         {
+            "name": "datalad-datasets/disneyanimation-cloud",
+            "url": "https://github.com/datalad-datasets/disneyanimation-cloud",
+            "stars": 5,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "datalad-datasets/hcp-7T_Movies",
             "url": "https://github.com/datalad-datasets/hcp-7T_Movies",
             "stars": 0,
@@ -7203,7 +7212,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5051,
+            "stars": 5053,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9219,7 +9228,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8550,
+            "stars": 8558,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9639,6 +9648,12 @@
             "url": "https://osf.io/j3n9t/",
             "id": "j3n9t",
             "name": "Raj-Lab-UCSF-MMP",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/qubep/",
+            "id": "qubep",
+            "name": "Taowu",
             "status": "active"
         },
         {
