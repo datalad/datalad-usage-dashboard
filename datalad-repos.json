@@ -30,7 +30,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 237,
+            "stars": 238,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7212,7 +7212,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5055,
+            "stars": 5056,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8116,7 +8116,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "moloney/dcmstack",
@@ -9273,7 +9273,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8586,
+            "stars": 8599,
             "dataset": false,
             "run": true,
             "container_run": false,
