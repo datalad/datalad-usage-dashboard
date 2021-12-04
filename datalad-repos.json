@@ -7212,7 +7212,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5056,
+            "stars": 5058,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8238,7 +8238,7 @@
         {
             "name": "neurodebian/neurodebian",
             "url": "https://github.com/neurodebian/neurodebian",
-            "stars": 50,
+            "stars": 49,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9039,7 +9039,7 @@
         {
             "name": "templateflow/templateflow",
             "url": "https://github.com/templateflow/templateflow",
-            "stars": 32,
+            "stars": 33,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -9273,7 +9273,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8599,
+            "stars": 8614,
             "dataset": false,
             "run": true,
             "container_run": false,
