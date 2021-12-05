@@ -6490,6 +6490,24 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000170",
+            "url": "https://github.com/dandisets/000170",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000172",
+            "url": "https://github.com/dandisets/000172",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dartmouth-pbs/psyc161-wi19-srv",
             "url": "https://github.com/dartmouth-pbs/psyc161-wi19-srv",
             "stars": 0,
@@ -7212,7 +7230,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5058,
+            "stars": 5059,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9039,7 +9057,7 @@
         {
             "name": "templateflow/templateflow",
             "url": "https://github.com/templateflow/templateflow",
-            "stars": 33,
+            "stars": 34,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -9273,7 +9291,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8614,
+            "stars": 8633,
             "dataset": false,
             "run": true,
             "container_run": false,
