@@ -1,6 +1,6 @@
 # GitHub
 ## In the wild
-| # | Repository (751) | Stars (25416) | Dataset (690) | `run` (111) | `containers-run` (6) |
+| # | Repository (751) | Stars (25428) | Dataset (690) | `run` (111) | `containers-run` (6) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [AKSoo/*](https://github.com/AKSoo) [(3)](READMEs/AKSoo.md) | [0](READMEs/AKSoo.md) | [:heavy_check_mark: (3)](READMEs/AKSoo.md) | [:heavy_check_mark: (1)](READMEs/AKSoo.md) |  |
 | 2 | [AllenInstitute/AllenSDK](https://github.com/AllenInstitute/AllenSDK) | 239 |  | :heavy_check_mark: |  |
@@ -27,7 +27,7 @@
 | 23 | [PennSIVE/*](https://github.com/PennSIVE) [(4)](READMEs/PennSIVE.md) | [0](READMEs/PennSIVE.md) | [:heavy_check_mark: (4)](READMEs/PennSIVE.md) | [:heavy_check_mark: (2)](READMEs/PennSIVE.md) |  |
 | 24 | [Raj-Lab-UCSF/*](https://github.com/Raj-Lab-UCSF) [(3)](READMEs/Raj-Lab-UCSF.md) | [0](READMEs/Raj-Lab-UCSF.md) | [:heavy_check_mark: (3)](READMEs/Raj-Lab-UCSF.md) |  |  |
 | 25 | [Remi-Gau/*](https://github.com/Remi-Gau) [(4)](READMEs/Remi-Gau.md) | [4](READMEs/Remi-Gau.md) | [:heavy_check_mark: (4)](READMEs/Remi-Gau.md) | [:heavy_check_mark: (1)](READMEs/Remi-Gau.md) |  |
-| 26 | [ReproNim/*](https://github.com/ReproNim) [(16)](READMEs/ReproNim.md) | [324](READMEs/ReproNim.md) | [:heavy_check_mark: (10)](READMEs/ReproNim.md) | [:heavy_check_mark: (11)](READMEs/ReproNim.md) | [:heavy_check_mark: (1)](READMEs/ReproNim.md) |
+| 26 | [ReproNim/*](https://github.com/ReproNim) [(16)](READMEs/ReproNim.md) | [325](READMEs/ReproNim.md) | [:heavy_check_mark: (10)](READMEs/ReproNim.md) | [:heavy_check_mark: (11)](READMEs/ReproNim.md) | [:heavy_check_mark: (1)](READMEs/ReproNim.md) |
 | 27 | [Rodent-Cognition-Core/*](https://github.com/Rodent-Cognition-Core) [(4)](READMEs/Rodent-Cognition-Core.md) | [0](READMEs/Rodent-Cognition-Core.md) | [:heavy_check_mark: (4)](READMEs/Rodent-Cognition-Core.md) |  |  |
 | 28 | [SIMEXP/*](https://github.com/SIMEXP) [(4)](READMEs/SIMEXP.md) | [1](READMEs/SIMEXP.md) | [:heavy_check_mark: (4)](READMEs/SIMEXP.md) |  |  |
 | 29 | [TobiasKadelka/123420](https://github.com/TobiasKadelka/123420) | 0 | :heavy_check_mark: |  |  |
@@ -67,7 +67,7 @@
 | 63 | [djarecka/*](https://github.com/djarecka) [(2)](READMEs/djarecka.md) | [0](READMEs/djarecka.md) |  | [:heavy_check_mark: (2)](READMEs/djarecka.md) |  |
 | 64 | [dl-throwaway/*](https://github.com/dl-throwaway) [(12)](READMEs/dl-throwaway.md) | [0](READMEs/dl-throwaway.md) | [:heavy_check_mark: (12)](READMEs/dl-throwaway.md) |  |  |
 | 65 | [dnkennedy/ReproNim-reprokwyk](https://github.com/dnkennedy/ReproNim-reprokwyk) | 0 |  | :heavy_check_mark: | :heavy_check_mark: |
-| 66 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5062 |  | :heavy_check_mark: |  |
+| 66 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5063 |  | :heavy_check_mark: |  |
 | 67 | [effigies/*](https://github.com/effigies) [(2)](READMEs/effigies.md) | [0](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) |  |
 | 68 | [emmetaobrien/*](https://github.com/emmetaobrien) [(8)](READMEs/emmetaobrien.md) | [1](READMEs/emmetaobrien.md) | [:heavy_check_mark: (8)](READMEs/emmetaobrien.md) |  |  |
 | 69 | [ffinazzi/odoo-docker-official](https://github.com/ffinazzi/odoo-docker-official) | 0 |  | :heavy_check_mark: |  |
@@ -109,7 +109,7 @@
 | 105 | [msrlab/*](https://github.com/msrlab) [(2)](READMEs/msrlab.md) | [0](READMEs/msrlab.md) | [:heavy_check_mark: (1)](READMEs/msrlab.md) | [:heavy_check_mark: (1)](READMEs/msrlab.md) |  |
 | 106 | [mvdoc/famface_data](https://github.com/mvdoc/famface_data) | 0 |  | :heavy_check_mark: |  |
 | 107 | [naturalistic-data-analysis/naturalistic-data](https://github.com/naturalistic-data-analysis/naturalistic-data) | 1 | :heavy_check_mark: |  |  |
-| 108 | [neurodebian/*](https://github.com/neurodebian) [(2)](READMEs/neurodebian.md) | [59](READMEs/neurodebian.md) |  | [:heavy_check_mark: (2)](READMEs/neurodebian.md) |  |
+| 108 | [neurodebian/*](https://github.com/neurodebian) [(2)](READMEs/neurodebian.md) | [60](READMEs/neurodebian.md) |  | [:heavy_check_mark: (2)](READMEs/neurodebian.md) |  |
 | 109 | [neuronets/trained-models](https://github.com/neuronets/trained-models) | 8 | :heavy_check_mark: |  |  |
 | 110 | [neuroscout-datasets/*](https://github.com/neuroscout-datasets) [(4)](READMEs/neuroscout-datasets.md) | [0](READMEs/neuroscout-datasets.md) | [:heavy_check_mark: (3)](READMEs/neuroscout-datasets.md) | [:heavy_check_mark: (1)](READMEs/neuroscout-datasets.md) |  |
 | 111 | [neuroscout/fmriprep-singularity](https://github.com/neuroscout/fmriprep-singularity) | 0 |  | :heavy_check_mark: |  |
@@ -117,7 +117,7 @@
 | 113 | [nhuneke/dataset-setup-procedures](https://github.com/nhuneke/dataset-setup-procedures) | 0 | :heavy_check_mark: |  |  |
 | 114 | [nicolocin/*](https://github.com/nicolocin) [(4)](READMEs/nicolocin.md) | [0](READMEs/nicolocin.md) | [:heavy_check_mark: (3)](READMEs/nicolocin.md) | [:heavy_check_mark: (3)](READMEs/nicolocin.md) |  |
 | 115 | [nipreps-data/*](https://github.com/nipreps-data) [(21)](READMEs/nipreps-data.md) | [1](READMEs/nipreps-data.md) | [:heavy_check_mark: (21)](READMEs/nipreps-data.md) | [:heavy_check_mark: (2)](READMEs/nipreps-data.md) |  |
-| 116 | [nipy/heudiconv](https://github.com/nipy/heudiconv) | 150 |  | :heavy_check_mark: |  |
+| 116 | [nipy/heudiconv](https://github.com/nipy/heudiconv) | 151 |  | :heavy_check_mark: |  |
 | 117 | [ntolley/*](https://github.com/ntolley) [(5)](READMEs/ntolley.md) | [1](READMEs/ntolley.md) | [:heavy_check_mark: (2)](READMEs/ntolley.md) | [:heavy_check_mark: (3)](READMEs/ntolley.md) |  |
 | 118 | [oesteban/*](https://github.com/oesteban) [(2)](READMEs/oesteban.md) | [0](READMEs/oesteban.md) | [:heavy_check_mark: (2)](READMEs/oesteban.md) | [:heavy_check_mark: (1)](READMEs/oesteban.md) |  |
 | 119 | [opening-hours/opening_hours.js](https://github.com/opening-hours/opening_hours.js) | 174 |  | :heavy_check_mark: |  |
@@ -125,7 +125,7 @@
 | 121 | [pithanakrit/nginx_1](https://github.com/pithanakrit/nginx_1) | 0 |  | :heavy_check_mark: |  |
 | 122 | [poldracklab/fitlins](https://github.com/poldracklab/fitlins) | 57 |  | :heavy_check_mark: |  |
 | 123 | [protontypes/LibreSelery](https://github.com/protontypes/LibreSelery) | 99 |  | :heavy_check_mark: |  |
-| 124 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 869 |  | :heavy_check_mark: |  |
+| 124 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 870 |  | :heavy_check_mark: |  |
 | 125 | [qlux/dataladrepo](https://github.com/qlux/dataladrepo) | 0 | :heavy_check_mark: |  |  |
 | 126 | [richford/hbn_url_csv](https://github.com/richford/hbn_url_csv) | 0 |  | :heavy_check_mark: |  |
 | 127 | [sangfrois/ds_prep](https://github.com/sangfrois/ds_prep) | 1 | :heavy_check_mark: |  |  |
@@ -142,7 +142,7 @@
 | 138 | [tkkuehn/*](https://github.com/tkkuehn) [(5)](READMEs/tkkuehn.md) | [0](READMEs/tkkuehn.md) | [:heavy_check_mark: (5)](READMEs/tkkuehn.md) | [:heavy_check_mark: (3)](READMEs/tkkuehn.md) |  |
 | 139 | [tsankeuodelfa/midtermproject](https://github.com/tsankeuodelfa/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 140 | [vandermeerlab/labs--mvdm](https://github.com/vandermeerlab/labs--mvdm) | 0 | :heavy_check_mark: |  |  |
-| 141 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 8640 |  | :heavy_check_mark: |  |
+| 141 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 8647 |  | :heavy_check_mark: |  |
 | 142 | [xlecours/*](https://github.com/xlecours) [(2)](READMEs/xlecours.md) | [0](READMEs/xlecours.md) | [:heavy_check_mark: (2)](READMEs/xlecours.md) |  |  |
 | 143 | [yenngolam/FauseyTrio-Public-Demo](https://github.com/yenngolam/FauseyTrio-Public-Demo) | 0 | :heavy_check_mark: |  |  |
 | 144 | [zxenia/mcgill-emc-rna-seq-experiment](https://github.com/zxenia/mcgill-emc-rna-seq-experiment) | 0 | :heavy_check_mark: |  |  |
@@ -178,80 +178,81 @@
 ## Active
 1. [BigBrain histogram](https://osf.io/42shw/)
 2. [BigBrain histogram test](https://osf.io/qy84w/)
-3. [Connectome Mapping ToolKit LIBrary (CMTKLIB): Data resources](https://osf.io/5hy42/)
-4. [DataLad CI: Complete, self-contained dataset](https://osf.io/q8xnk/)
-5. [DataLad Procedures for the management of long-form recordings](https://osf.io/6vcxk/)
-6. [FiberFox dMRI phantoms for motion correction benchmarking](https://osf.io/hae2u/)
-7. [NiPreps testing - Derivatives of HCP/sub-101006](https://osf.io/fb3h6/)
-8. [NiPreps testing - Derivatives of ds000054](https://osf.io/bzecy/)
-9. [NiPreps testing - Derivatives of ds001600](https://osf.io/qwzm5/)
-10. [NiPreps testing - Derivatives of ds001771](https://osf.io/9axf5/)
-11. [NiPreps testing - HCP subject 101006](https://osf.io/teq5s/)
-12. [NiPreps testing - brain-extraction-tests](https://osf.io/p38nm/)
-13. [NiPreps testing - ds000003](https://osf.io/8mxkq/)
-14. [NiPreps testing - ds000003](https://osf.io/adxy9/)
-15. [NiPreps testing - ds000003 [derivatives]](https://osf.io/s4wuk/)
-16. [NiPreps testing - ds000005](https://osf.io/wrf9g/)
-17. [NiPreps testing - ds000005 [derivatives]](https://osf.io/w8npe/)
-18. [NiPreps testing - ds000030](https://osf.io/ch63a/)
-19. [NiPreps testing - ds000030 [derivatives]](https://osf.io/3mhpr/)
-20. [NiPreps testing - ds000054](https://osf.io/nu5zc/)
-21. [NiPreps testing - ds000206](https://osf.io/296zq/)
-22. [NiPreps testing - ds000206 [derivatives]](https://osf.io/j3gak/)
-23. [NiPreps testing - ds000210](https://osf.io/gsr3d/)
-24. [NiPreps testing - ds000210](https://osf.io/u54j8/)
-25. [NiPreps testing - ds000210](https://osf.io/7mvnz/)
-26. [NiPreps testing - ds000210](https://osf.io/x3avw/)
-27. [NiPreps testing - ds000210](https://osf.io/ezdkg/)
-28. [NiPreps testing - ds000210](https://osf.io/ah6x9/)
-29. [NiPreps testing - ds000210](https://osf.io/y4jht/)
-30. [NiPreps testing - ds000210 [derivatives]](https://osf.io/ar3sm/)
-31. [NiPreps testing - ds001600](https://osf.io/bvy3f/)
-32. [NiPreps testing - ds001771](https://osf.io/cqnxe/)
-33. [NiPreps testing - epi-references](https://osf.io/srw9k/)
-34. [NiPreps testing - epi-references [derivatives]](https://osf.io/58hyz/)
-35. [NiPreps testing - nirodents-bold-se](https://osf.io/ngv3c/)
-36. [NiPreps testing - nirodents-bold-se [derivatives]](https://osf.io/t9z4h/)
-37. [NiTransforms testing](https://osf.io/ucbpm/)
-38. [Raj-Lab-UCSF-AAL](https://osf.io/qbncd/)
-39. [Raj-Lab-UCSF-Atlases](https://osf.io/pvkbw/)
-40. [Raj-Lab-UCSF-Brainnectome](https://osf.io/xys4q/)
-41. [Raj-Lab-UCSF-DK86](https://osf.io/f7d6b/)
-42. [Raj-Lab-UCSF-MMP](https://osf.io/j3n9t/)
-43. [Taowu](https://osf.io/qubep/)
-44. [VanDam Demo](https://osf.io/96jpd/)
-45. [VanDam Demo](https://osf.io/6whqs/)
-46. [best-data-ever](https://osf.io/ypskr/)
-47. [best-data-ever](https://osf.io/pvfjz/)
-48. [best-data-ever](https://osf.io/7tprb/)
-49. [best-stdscudywdw-ever](https://osf.io/b6fwn/)
-50. [best-study-ever](https://osf.io/n6bgd/)
-51. [best-studywdw-ever](https://osf.io/qkmzr/)
-52. [best-studywdw-ever](https://osf.io/fz2dw/)
-53. [bonsai-examples](https://osf.io/wgrn3/)
-54. [bsd5](https://osf.io/vnerp/)
-55. [bsd6](https://osf.io/3bqrt/)
-56. [bsd7](https://osf.io/g4szy/)
-57. [datalad-test](https://osf.io/qabp9/)
-58. [eegelevation-freefield](https://osf.io/k4jdw/)
-59. [fitlins_tests](https://osf.io/2ynvg/)
-60. [fitlins_tests](https://osf.io/m6k2v/)
-61. [fmriprep-lts container images](https://osf.io/rbu92/)
-62. [fmriprep-lts container images](https://osf.io/d753w/)
-63. [fmriprep-lts container images](https://osf.io/9vg8e/)
-64. [fmriprep-lts container images-dev](https://osf.io/wvz3e/)
-65. [nobrainer-trained-models](https://osf.io/qpxad/)
-66. [nuisance-QA-data](https://osf.io/dj2gf/)
-67. [our-study-data](https://osf.io/wv2zh/)
-68. [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/)
-69. [simulate-cbma](https://osf.io/9jbhg/)
-70. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
-71. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
-72. [studyforrest-speechannotation](https://osf.io/f5j3e/)
-73. [sub-219_bids_datalad](https://osf.io/86d3a/)
-74. [test-zarr](https://osf.io/84gbt/)
-75. [testexport](https://osf.io/d5b8c/)
-76. [testexport2](https://osf.io/kjpqa/)
-77. [vandam-daylong](https://osf.io/6w3sq/)
+3. [CONP-Neurocon](https://osf.io/6kbmt/)
+4. [Connectome Mapping ToolKit LIBrary (CMTKLIB): Data resources](https://osf.io/5hy42/)
+5. [DataLad CI: Complete, self-contained dataset](https://osf.io/q8xnk/)
+6. [DataLad Procedures for the management of long-form recordings](https://osf.io/6vcxk/)
+7. [FiberFox dMRI phantoms for motion correction benchmarking](https://osf.io/hae2u/)
+8. [NiPreps testing - Derivatives of HCP/sub-101006](https://osf.io/fb3h6/)
+9. [NiPreps testing - Derivatives of ds000054](https://osf.io/bzecy/)
+10. [NiPreps testing - Derivatives of ds001600](https://osf.io/qwzm5/)
+11. [NiPreps testing - Derivatives of ds001771](https://osf.io/9axf5/)
+12. [NiPreps testing - HCP subject 101006](https://osf.io/teq5s/)
+13. [NiPreps testing - brain-extraction-tests](https://osf.io/p38nm/)
+14. [NiPreps testing - ds000003](https://osf.io/8mxkq/)
+15. [NiPreps testing - ds000003](https://osf.io/adxy9/)
+16. [NiPreps testing - ds000003 [derivatives]](https://osf.io/s4wuk/)
+17. [NiPreps testing - ds000005](https://osf.io/wrf9g/)
+18. [NiPreps testing - ds000005 [derivatives]](https://osf.io/w8npe/)
+19. [NiPreps testing - ds000030](https://osf.io/ch63a/)
+20. [NiPreps testing - ds000030 [derivatives]](https://osf.io/3mhpr/)
+21. [NiPreps testing - ds000054](https://osf.io/nu5zc/)
+22. [NiPreps testing - ds000206](https://osf.io/296zq/)
+23. [NiPreps testing - ds000206 [derivatives]](https://osf.io/j3gak/)
+24. [NiPreps testing - ds000210](https://osf.io/gsr3d/)
+25. [NiPreps testing - ds000210](https://osf.io/u54j8/)
+26. [NiPreps testing - ds000210](https://osf.io/7mvnz/)
+27. [NiPreps testing - ds000210](https://osf.io/x3avw/)
+28. [NiPreps testing - ds000210](https://osf.io/ezdkg/)
+29. [NiPreps testing - ds000210](https://osf.io/ah6x9/)
+30. [NiPreps testing - ds000210](https://osf.io/y4jht/)
+31. [NiPreps testing - ds000210 [derivatives]](https://osf.io/ar3sm/)
+32. [NiPreps testing - ds001600](https://osf.io/bvy3f/)
+33. [NiPreps testing - ds001771](https://osf.io/cqnxe/)
+34. [NiPreps testing - epi-references](https://osf.io/srw9k/)
+35. [NiPreps testing - epi-references [derivatives]](https://osf.io/58hyz/)
+36. [NiPreps testing - nirodents-bold-se](https://osf.io/ngv3c/)
+37. [NiPreps testing - nirodents-bold-se [derivatives]](https://osf.io/t9z4h/)
+38. [NiTransforms testing](https://osf.io/ucbpm/)
+39. [Raj-Lab-UCSF-AAL](https://osf.io/qbncd/)
+40. [Raj-Lab-UCSF-Atlases](https://osf.io/pvkbw/)
+41. [Raj-Lab-UCSF-Brainnectome](https://osf.io/xys4q/)
+42. [Raj-Lab-UCSF-DK86](https://osf.io/f7d6b/)
+43. [Raj-Lab-UCSF-MMP](https://osf.io/j3n9t/)
+44. [Taowu](https://osf.io/qubep/)
+45. [VanDam Demo](https://osf.io/96jpd/)
+46. [VanDam Demo](https://osf.io/6whqs/)
+47. [best-data-ever](https://osf.io/ypskr/)
+48. [best-data-ever](https://osf.io/pvfjz/)
+49. [best-data-ever](https://osf.io/7tprb/)
+50. [best-stdscudywdw-ever](https://osf.io/b6fwn/)
+51. [best-study-ever](https://osf.io/n6bgd/)
+52. [best-studywdw-ever](https://osf.io/qkmzr/)
+53. [best-studywdw-ever](https://osf.io/fz2dw/)
+54. [bonsai-examples](https://osf.io/wgrn3/)
+55. [bsd5](https://osf.io/vnerp/)
+56. [bsd6](https://osf.io/3bqrt/)
+57. [bsd7](https://osf.io/g4szy/)
+58. [datalad-test](https://osf.io/qabp9/)
+59. [eegelevation-freefield](https://osf.io/k4jdw/)
+60. [fitlins_tests](https://osf.io/2ynvg/)
+61. [fitlins_tests](https://osf.io/m6k2v/)
+62. [fmriprep-lts container images](https://osf.io/rbu92/)
+63. [fmriprep-lts container images](https://osf.io/d753w/)
+64. [fmriprep-lts container images](https://osf.io/9vg8e/)
+65. [fmriprep-lts container images-dev](https://osf.io/wvz3e/)
+66. [nobrainer-trained-models](https://osf.io/qpxad/)
+67. [nuisance-QA-data](https://osf.io/dj2gf/)
+68. [our-study-data](https://osf.io/wv2zh/)
+69. [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/)
+70. [simulate-cbma](https://osf.io/9jbhg/)
+71. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
+72. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
+73. [studyforrest-speechannotation](https://osf.io/f5j3e/)
+74. [sub-219_bids_datalad](https://osf.io/86d3a/)
+75. [test-zarr](https://osf.io/84gbt/)
+76. [testexport](https://osf.io/d5b8c/)
+77. [testexport2](https://osf.io/kjpqa/)
+78. [vandam-daylong](https://osf.io/6w3sq/)
 ## Gone
 1. [nobrainer-test1](https://osf.io/bqp76/)

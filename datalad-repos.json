@@ -3549,7 +3549,7 @@
         {
             "name": "ReproNim/neurodocker",
             "url": "https://github.com/ReproNim/neurodocker",
-            "stars": 234,
+            "stars": 235,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7239,7 +7239,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5062,
+            "stars": 5063,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8265,7 +8265,7 @@
         {
             "name": "neurodebian/neurodebian",
             "url": "https://github.com/neurodebian/neurodebian",
-            "stars": 49,
+            "stars": 50,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8571,7 +8571,7 @@
         {
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
-            "stars": 150,
+            "stars": 151,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8940,7 +8940,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 869,
+            "stars": 870,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9300,7 +9300,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8640,
+            "stars": 8647,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9480,6 +9480,12 @@
             "url": "https://osf.io/qy84w/",
             "id": "qy84w",
             "name": "BigBrain histogram test",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/6kbmt/",
+            "id": "6kbmt",
+            "name": "CONP-Neurocon",
             "status": "active"
         },
         {
