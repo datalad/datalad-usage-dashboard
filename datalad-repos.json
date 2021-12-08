@@ -4197,7 +4197,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 368,
+            "stars": 370,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7239,7 +7239,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5063,
+            "stars": 5067,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9300,7 +9300,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8647,
+            "stars": 8659,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9470,6 +9470,12 @@
         }
     ],
     "osf": [
+        {
+            "url": "https://osf.io/4cdw3/",
+            "id": "4cdw3",
+            "name": "3am-complex-orientation-phantoms",
+            "status": "active"
+        },
         {
             "url": "https://osf.io/42shw/",
             "id": "42shw",
