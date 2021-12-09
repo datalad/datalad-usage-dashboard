@@ -3684,7 +3684,7 @@
         {
             "name": "SIMEXP/fmriprep-reproducibility",
             "url": "https://github.com/SIMEXP/fmriprep-reproducibility",
-            "stars": 1,
+            "stars": 2,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -3693,6 +3693,15 @@
         {
             "name": "SIMEXP/ltetrel_gpu_cc_tuto",
             "url": "https://github.com/SIMEXP/ltetrel_gpu_cc_tuto",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "SamDoucet/fauseytrio-public-test",
+            "url": "https://github.com/SamDoucet/fauseytrio-public-test",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -4197,7 +4206,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 370,
+            "stars": 371,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6418,6 +6427,15 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000159",
+            "url": "https://github.com/dandisets/000159",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dandisets/000160",
             "url": "https://github.com/dandisets/000160",
             "stars": 0,
@@ -7239,7 +7257,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5067,
+            "stars": 5069,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8161,7 +8179,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "mslw/datalad-dicom-demo",
@@ -8188,7 +8206,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "msrlab/DataLad-101",
@@ -9300,7 +9318,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8659,
+            "stars": 8666,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9492,7 +9510,7 @@
             "url": "https://osf.io/6kbmt/",
             "id": "6kbmt",
             "name": "CONP-Neurocon",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/5hy42/",
