@@ -298,6 +298,15 @@
             "status": "active"
         },
         {
+            "name": "ESiWACE-S1/fesom2-kernels",
+            "url": "https://github.com/ESiWACE-S1/fesom2-kernels",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "FrancoisPgm/visual_encoding_decoding",
             "url": "https://github.com/FrancoisPgm/visual_encoding_decoding",
             "stars": 0,
@@ -6517,6 +6526,15 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000169",
+            "url": "https://github.com/dandisets/000169",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dandisets/000170",
             "url": "https://github.com/dandisets/000170",
             "stars": 0,
@@ -6528,6 +6546,15 @@
         {
             "name": "dandisets/000172",
             "url": "https://github.com/dandisets/000172",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000173",
+            "url": "https://github.com/dandisets/000173",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -7257,7 +7284,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5069,
+            "stars": 5070,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9271,6 +9298,15 @@
             "status": "active"
         },
         {
+            "name": "tkkuehn/demo-datalad-brainhack-ds000105",
+            "url": "https://github.com/tkkuehn/demo-datalad-brainhack-ds000105",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "tkkuehn/demo-datalad-brainhack-outputs",
             "url": "https://github.com/tkkuehn/demo-datalad-brainhack-outputs",
             "stars": 0,
@@ -9318,7 +9354,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8666,
+            "stars": 8670,
             "dataset": false,
             "run": true,
             "container_run": false,
