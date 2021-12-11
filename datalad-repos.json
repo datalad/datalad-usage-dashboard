@@ -7113,7 +7113,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 864,
+            "stars": 863,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8688,7 +8688,7 @@
         {
             "name": "opening-hours/opening_hours.js",
             "url": "https://github.com/opening-hours/opening_hours.js",
-            "stars": 174,
+            "stars": 175,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9354,7 +9354,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8670,
+            "stars": 8672,
             "dataset": false,
             "run": true,
             "container_run": false,
