@@ -4843,6 +4843,15 @@
             "status": "active"
         },
         {
+            "name": "cpp-lln-lab/CPP_deepMReye",
+            "url": "https://github.com/cpp-lln-lab/CPP_deepMReye",
+            "stars": 1,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "cpp-lln-lab/template_datalad_fMRI",
             "url": "https://github.com/cpp-lln-lab/template_datalad_fMRI",
             "stars": 1,
@@ -7284,7 +7293,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5070,
+            "stars": 5071,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7590,6 +7599,15 @@
         {
             "name": "jooh/liu_gardner_2018_reanalysis",
             "url": "https://github.com/jooh/liu_gardner_2018_reanalysis",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "jreniel/ACE",
+            "url": "https://github.com/jreniel/ACE",
             "stars": 0,
             "dataset": false,
             "run": true,
@@ -9354,7 +9372,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8672,
+            "stars": 8671,
             "dataset": false,
             "run": true,
             "container_run": false,
