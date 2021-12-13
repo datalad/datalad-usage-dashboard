@@ -7609,7 +7609,7 @@
             "name": "jreniel/ACE",
             "url": "https://github.com/jreniel/ACE",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -9217,6 +9217,15 @@
             "status": "active"
         },
         {
+            "name": "templateflow/tpl-NMT31Sym",
+            "url": "https://github.com/templateflow/tpl-NMT31Sym",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "templateflow/tpl-OASIS30ANTs",
             "url": "https://github.com/templateflow/tpl-OASIS30ANTs",
             "stars": 0,
@@ -9372,7 +9381,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8671,
+            "stars": 8682,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9810,6 +9819,18 @@
             "url": "https://osf.io/qubep/",
             "id": "qubep",
             "name": "Taowu",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/k3h7b/",
+            "id": "k3h7b",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/frxuc/",
+            "id": "frxuc",
+            "name": "TemplateFlow resource: ",
             "status": "active"
         },
         {

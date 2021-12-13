@@ -1,6 +1,6 @@
 # GitHub
 ## In the wild
-| # | Repository (756) | Stars (25465) | Dataset (694) | `run` (112) | `containers-run` (6) |
+| # | Repository (757) | Stars (25476) | Dataset (696) | `run` (112) | `containers-run` (6) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [AKSoo/*](https://github.com/AKSoo) [(3)](READMEs/AKSoo.md) | [0](READMEs/AKSoo.md) | [:heavy_check_mark: (3)](READMEs/AKSoo.md) | [:heavy_check_mark: (1)](READMEs/AKSoo.md) |  |
 | 2 | [AllenInstitute/AllenSDK](https://github.com/AllenInstitute/AllenSDK) | 239 |  | :heavy_check_mark: |  |
@@ -85,7 +85,7 @@
 | 81 | [jbwexler/*](https://github.com/jbwexler) [(9)](READMEs/jbwexler.md) | [0](READMEs/jbwexler.md) | [:heavy_check_mark: (9)](READMEs/jbwexler.md) |  |  |
 | 82 | [joeyzhou98/osf-private-test](https://github.com/joeyzhou98/osf-private-test) | 0 | :heavy_check_mark: |  |  |
 | 83 | [jooh/liu_gardner_2018_reanalysis](https://github.com/jooh/liu_gardner_2018_reanalysis) | 0 |  | :heavy_check_mark: |  |
-| 84 | [jreniel/ACE](https://github.com/jreniel/ACE) | 0 |  | :heavy_check_mark: |  |
+| 84 | [jreniel/ACE](https://github.com/jreniel/ACE) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 85 | [juaml/datalad-bgen-example](https://github.com/juaml/datalad-bgen-example) | 0 | :heavy_check_mark: |  |  |
 | 86 | [khanlab-datasets/*](https://github.com/khanlab-datasets) [(3)](READMEs/khanlab-datasets.md) | [1](READMEs/khanlab-datasets.md) | [:heavy_check_mark: (3)](READMEs/khanlab-datasets.md) |  |  |
 | 87 | [khanlab/*](https://github.com/khanlab) [(2)](READMEs/khanlab.md) | [0](READMEs/khanlab.md) | [:heavy_check_mark: (2)](READMEs/khanlab.md) |  |  |
@@ -139,13 +139,13 @@
 | 135 | [shots47s/conp-dataset-test_dataset_do_not_merge](https://github.com/shots47s/conp-dataset-test_dataset_do_not_merge) | 0 | :heavy_check_mark: |  |  |
 | 136 | [soichih/datalad-o3d-test](https://github.com/soichih/datalad-o3d-test) | 0 | :heavy_check_mark: |  |  |
 | 137 | [srmemar/mousebytesdataset](https://github.com/srmemar/mousebytesdataset) | 0 | :heavy_check_mark: |  |  |
-| 138 | [templateflow/*](https://github.com/templateflow) [(17)](READMEs/templateflow.md) | [39](READMEs/templateflow.md) | [:heavy_check_mark: (17)](READMEs/templateflow.md) |  |  |
+| 138 | [templateflow/*](https://github.com/templateflow) [(18)](READMEs/templateflow.md) | [39](READMEs/templateflow.md) | [:heavy_check_mark: (18)](READMEs/templateflow.md) |  |  |
 | 139 | [thomasbeaudry/conp-dataset-PERFORM](https://github.com/thomasbeaudry/conp-dataset-PERFORM) | 0 | :heavy_check_mark: |  |  |
 | 140 | [timberio/vector](https://github.com/timberio/vector) | 7941 |  | :heavy_check_mark: |  |
 | 141 | [tkkuehn/*](https://github.com/tkkuehn) [(6)](READMEs/tkkuehn.md) | [0](READMEs/tkkuehn.md) | [:heavy_check_mark: (6)](READMEs/tkkuehn.md) | [:heavy_check_mark: (3)](READMEs/tkkuehn.md) |  |
 | 142 | [tsankeuodelfa/midtermproject](https://github.com/tsankeuodelfa/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 143 | [vandermeerlab/labs--mvdm](https://github.com/vandermeerlab/labs--mvdm) | 0 | :heavy_check_mark: |  |  |
-| 144 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 8671 |  | :heavy_check_mark: |  |
+| 144 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 8682 |  | :heavy_check_mark: |  |
 | 145 | [xlecours/*](https://github.com/xlecours) [(2)](READMEs/xlecours.md) | [0](READMEs/xlecours.md) | [:heavy_check_mark: (2)](READMEs/xlecours.md) |  |  |
 | 146 | [yenngolam/FauseyTrio-Public-Demo](https://github.com/yenngolam/FauseyTrio-Public-Demo) | 0 | :heavy_check_mark: |  |  |
 | 147 | [zxenia/mcgill-emc-rna-seq-experiment](https://github.com/zxenia/mcgill-emc-rna-seq-experiment) | 0 | :heavy_check_mark: |  |  |
@@ -223,40 +223,42 @@
 42. [Raj-Lab-UCSF-DK86](https://osf.io/f7d6b/)
 43. [Raj-Lab-UCSF-MMP](https://osf.io/j3n9t/)
 44. [Taowu](https://osf.io/qubep/)
-45. [VanDam Demo](https://osf.io/96jpd/)
-46. [VanDam Demo](https://osf.io/6whqs/)
-47. [best-data-ever](https://osf.io/ypskr/)
-48. [best-data-ever](https://osf.io/pvfjz/)
-49. [best-data-ever](https://osf.io/7tprb/)
-50. [best-stdscudywdw-ever](https://osf.io/b6fwn/)
-51. [best-study-ever](https://osf.io/n6bgd/)
-52. [best-studywdw-ever](https://osf.io/qkmzr/)
-53. [best-studywdw-ever](https://osf.io/fz2dw/)
-54. [bonsai-examples](https://osf.io/wgrn3/)
-55. [bsd5](https://osf.io/vnerp/)
-56. [bsd6](https://osf.io/3bqrt/)
-57. [bsd7](https://osf.io/g4szy/)
-58. [datalad-test](https://osf.io/qabp9/)
-59. [eegelevation-freefield](https://osf.io/k4jdw/)
-60. [fitlins_tests](https://osf.io/2ynvg/)
-61. [fitlins_tests](https://osf.io/m6k2v/)
-62. [fmriprep-lts container images](https://osf.io/rbu92/)
-63. [fmriprep-lts container images](https://osf.io/d753w/)
-64. [fmriprep-lts container images](https://osf.io/9vg8e/)
-65. [fmriprep-lts container images-dev](https://osf.io/wvz3e/)
-66. [nobrainer-trained-models](https://osf.io/qpxad/)
-67. [nuisance-QA-data](https://osf.io/dj2gf/)
-68. [our-study-data](https://osf.io/wv2zh/)
-69. [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/)
-70. [simulate-cbma](https://osf.io/9jbhg/)
-71. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
-72. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
-73. [studyforrest-speechannotation](https://osf.io/f5j3e/)
-74. [sub-219_bids_datalad](https://osf.io/86d3a/)
-75. [test-zarr](https://osf.io/84gbt/)
-76. [testexport](https://osf.io/d5b8c/)
-77. [testexport2](https://osf.io/kjpqa/)
-78. [vandam-daylong](https://osf.io/6w3sq/)
+45. [TemplateFlow resource: ](https://osf.io/k3h7b/)
+46. [TemplateFlow resource: ](https://osf.io/frxuc/)
+47. [VanDam Demo](https://osf.io/96jpd/)
+48. [VanDam Demo](https://osf.io/6whqs/)
+49. [best-data-ever](https://osf.io/ypskr/)
+50. [best-data-ever](https://osf.io/pvfjz/)
+51. [best-data-ever](https://osf.io/7tprb/)
+52. [best-stdscudywdw-ever](https://osf.io/b6fwn/)
+53. [best-study-ever](https://osf.io/n6bgd/)
+54. [best-studywdw-ever](https://osf.io/qkmzr/)
+55. [best-studywdw-ever](https://osf.io/fz2dw/)
+56. [bonsai-examples](https://osf.io/wgrn3/)
+57. [bsd5](https://osf.io/vnerp/)
+58. [bsd6](https://osf.io/3bqrt/)
+59. [bsd7](https://osf.io/g4szy/)
+60. [datalad-test](https://osf.io/qabp9/)
+61. [eegelevation-freefield](https://osf.io/k4jdw/)
+62. [fitlins_tests](https://osf.io/2ynvg/)
+63. [fitlins_tests](https://osf.io/m6k2v/)
+64. [fmriprep-lts container images](https://osf.io/rbu92/)
+65. [fmriprep-lts container images](https://osf.io/d753w/)
+66. [fmriprep-lts container images](https://osf.io/9vg8e/)
+67. [fmriprep-lts container images-dev](https://osf.io/wvz3e/)
+68. [nobrainer-trained-models](https://osf.io/qpxad/)
+69. [nuisance-QA-data](https://osf.io/dj2gf/)
+70. [our-study-data](https://osf.io/wv2zh/)
+71. [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/)
+72. [simulate-cbma](https://osf.io/9jbhg/)
+73. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
+74. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
+75. [studyforrest-speechannotation](https://osf.io/f5j3e/)
+76. [sub-219_bids_datalad](https://osf.io/86d3a/)
+77. [test-zarr](https://osf.io/84gbt/)
+78. [testexport](https://osf.io/d5b8c/)
+79. [testexport2](https://osf.io/kjpqa/)
+80. [vandam-daylong](https://osf.io/6w3sq/)
 ## Gone
 1. [CONP-Neurocon](https://osf.io/6kbmt/)
 2. [nobrainer-test1](https://osf.io/bqp76/)
