@@ -56,12 +56,8 @@ def main(
     """
     from_commit = dateish2commit(repo, from_point)
     to_commit = "HEAD" if to_point is None else dateish2commit(repo, to_point)
-    from_record = RepoRecord.parse_raw(
-        readgit("show", f"{from_commit}:{RECORD_FILE}", repo=repo)
-    )
-    to_record = RepoRecord.parse_raw(
-        readgit("show", f"{to_commit}:{RECORD_FILE}", repo=repo)
-    )
+    from_record = RepoRecord.parse_raw(read_record(from_commit, repo))
+    to_record = RepoRecord.parse_raw(read_record(to_commit, repo))
     old_github_repos = {r.name for r in from_record.github}
     old_osf_repos = {r.id for r in from_record.osf}
     new_record = RepoRecord()
@@ -95,6 +91,15 @@ def readgit(*args: str, repo: Path) -> str:
     )
     assert isinstance(r.stdout, str)
     return r.stdout.strip()
+
+
+def read_record(commit: str, repo: Path) -> str:
+    if commit == "":
+        # rev-list returned nothing, so date must be before repo was created;
+        # simulate by returning an empty JSON file
+        return "{}"
+    else:
+        return readgit("show", f"{commit}:{RECORD_FILE}", repo=repo)
 
 
 if __name__ == "__main__":
