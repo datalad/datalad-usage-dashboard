@@ -8695,6 +8695,15 @@
             "status": "active"
         },
         {
+            "name": "oesteban/tpl-NMT31Sym",
+            "url": "https://github.com/oesteban/tpl-NMT31Sym",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "oesteban/tpl-RESILIENT",
             "url": "https://github.com/oesteban/tpl-RESILIENT",
             "stars": 0,
@@ -9003,7 +9012,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 870,
+            "stars": 872,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9381,7 +9390,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8682,
+            "stars": 8689,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9534,6 +9543,15 @@
         {
             "name": "yenngolam/FauseyTrio-Public-Demo",
             "url": "https://github.com/yenngolam/FauseyTrio-Public-Demo",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "zacandcheese/research",
+            "url": "https://github.com/zacandcheese/research",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -9819,7 +9837,7 @@
             "url": "https://osf.io/qubep/",
             "id": "qubep",
             "name": "Taowu",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/k3h7b/",
