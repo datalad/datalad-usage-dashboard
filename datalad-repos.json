@@ -1974,7 +1974,7 @@
         {
             "name": "OpenNeuroDatasets/ds003097",
             "url": "https://github.com/OpenNeuroDatasets/ds003097",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -7122,7 +7122,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 863,
+            "stars": 864,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7293,7 +7293,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5071,
+            "stars": 5074,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9012,7 +9012,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 872,
+            "stars": 873,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9217,6 +9217,15 @@
             "status": "active"
         },
         {
+            "name": "templateflow/tpl-MouseIn",
+            "url": "https://github.com/templateflow/tpl-MouseIn",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "templateflow/tpl-NKI",
             "url": "https://github.com/templateflow/tpl-NKI",
             "stars": 0,
@@ -9390,7 +9399,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8689,
+            "stars": 8700,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9618,6 +9627,12 @@
             "status": "active"
         },
         {
+            "url": "https://osf.io/s5fu8/",
+            "id": "s5fu8",
+            "name": "Neurocon",
+            "status": "active"
+        },
+        {
             "url": "https://osf.io/fb3h6/",
             "id": "fb3h6",
             "name": "NiPreps testing - Derivatives of HCP/sub-101006",
@@ -9840,6 +9855,12 @@
             "status": "gone"
         },
         {
+            "url": "https://osf.io/dj8vu/",
+            "id": "dj8vu",
+            "name": "Taowu",
+            "status": "active"
+        },
+        {
             "url": "https://osf.io/k3h7b/",
             "id": "k3h7b",
             "name": "TemplateFlow resource: ",
@@ -9848,6 +9869,36 @@
         {
             "url": "https://osf.io/frxuc/",
             "id": "frxuc",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/sn6q9/",
+            "id": "sn6q9",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/vmg5a/",
+            "id": "vmg5a",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/uxvnw/",
+            "id": "uxvnw",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/s732w/",
+            "id": "s732w",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/v6xqs/",
+            "id": "v6xqs",
             "name": "TemplateFlow resource: ",
             "status": "active"
         },
