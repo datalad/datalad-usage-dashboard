@@ -1,6 +1,6 @@
 # GitHub
 ## In the wild
-| # | Repository (760) | Stars (25502) | Dataset (699) | `run` (112) | `containers-run` (6) |
+| # | Repository (761) | Stars (25514) | Dataset (700) | `run` (112) | `containers-run` (6) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [AKSoo/*](https://github.com/AKSoo) [(3)](READMEs/AKSoo.md) | [0](READMEs/AKSoo.md) | [:heavy_check_mark: (3)](READMEs/AKSoo.md) | [:heavy_check_mark: (1)](READMEs/AKSoo.md) |  |
 | 2 | [AllenInstitute/AllenSDK](https://github.com/AllenInstitute/AllenSDK) | 239 |  | :heavy_check_mark: |  |
@@ -63,13 +63,13 @@
 | 59 | [dandi-containers/pynwb-mpi](https://github.com/dandi-containers/pynwb-mpi) | 0 |  | :heavy_check_mark: |  |
 | 60 | [dartmouth-pbs/psyc161-wi19-srv](https://github.com/dartmouth-pbs/psyc161-wi19-srv) | 0 | :heavy_check_mark: |  |  |
 | 61 | [datasets-mila/mila](https://github.com/datasets-mila/mila) | 0 | :heavy_check_mark: |  |  |
-| 62 | [debops/debops](https://github.com/debops/debops) | 864 |  | :heavy_check_mark: |  |
+| 62 | [debops/debops](https://github.com/debops/debops) | 865 |  | :heavy_check_mark: |  |
 | 63 | [dguibert/nur-packages](https://github.com/dguibert/nur-packages) | 3 | :heavy_check_mark: |  |  |
 | 64 | [dhivakark/*](https://github.com/dhivakark) [(2)](READMEs/dhivakark.md) | [0](READMEs/dhivakark.md) | [:heavy_check_mark: (2)](READMEs/dhivakark.md) | [:heavy_check_mark: (1)](READMEs/dhivakark.md) |  |
 | 65 | [djarecka/*](https://github.com/djarecka) [(2)](READMEs/djarecka.md) | [0](READMEs/djarecka.md) |  | [:heavy_check_mark: (2)](READMEs/djarecka.md) |  |
 | 66 | [dl-throwaway/*](https://github.com/dl-throwaway) [(12)](READMEs/dl-throwaway.md) | [0](READMEs/dl-throwaway.md) | [:heavy_check_mark: (12)](READMEs/dl-throwaway.md) |  |  |
 | 67 | [dnkennedy/ReproNim-reprokwyk](https://github.com/dnkennedy/ReproNim-reprokwyk) | 0 |  | :heavy_check_mark: | :heavy_check_mark: |
-| 68 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5074 |  | :heavy_check_mark: |  |
+| 68 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5075 |  | :heavy_check_mark: |  |
 | 69 | [effigies/*](https://github.com/effigies) [(2)](READMEs/effigies.md) | [0](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) |  |
 | 70 | [emmetaobrien/*](https://github.com/emmetaobrien) [(8)](READMEs/emmetaobrien.md) | [1](READMEs/emmetaobrien.md) | [:heavy_check_mark: (8)](READMEs/emmetaobrien.md) |  |  |
 | 71 | [ffinazzi/odoo-docker-official](https://github.com/ffinazzi/odoo-docker-official) | 0 |  | :heavy_check_mark: |  |
@@ -128,7 +128,7 @@
 | 124 | [pithanakrit/nginx_1](https://github.com/pithanakrit/nginx_1) | 0 |  | :heavy_check_mark: |  |
 | 125 | [poldracklab/fitlins](https://github.com/poldracklab/fitlins) | 57 |  | :heavy_check_mark: |  |
 | 126 | [protontypes/LibreSelery](https://github.com/protontypes/LibreSelery) | 99 |  | :heavy_check_mark: |  |
-| 127 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 873 |  | :heavy_check_mark: |  |
+| 127 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 874 |  | :heavy_check_mark: |  |
 | 128 | [qlux/dataladrepo](https://github.com/qlux/dataladrepo) | 0 | :heavy_check_mark: |  |  |
 | 129 | [richford/hbn_url_csv](https://github.com/richford/hbn_url_csv) | 0 |  | :heavy_check_mark: |  |
 | 130 | [sangfrois/ds_prep](https://github.com/sangfrois/ds_prep) | 1 | :heavy_check_mark: |  |  |
@@ -139,27 +139,27 @@
 | 135 | [shots47s/conp-dataset-test_dataset_do_not_merge](https://github.com/shots47s/conp-dataset-test_dataset_do_not_merge) | 0 | :heavy_check_mark: |  |  |
 | 136 | [soichih/datalad-o3d-test](https://github.com/soichih/datalad-o3d-test) | 0 | :heavy_check_mark: |  |  |
 | 137 | [srmemar/mousebytesdataset](https://github.com/srmemar/mousebytesdataset) | 0 | :heavy_check_mark: |  |  |
-| 138 | [templateflow/*](https://github.com/templateflow) [(19)](READMEs/templateflow.md) | [39](READMEs/templateflow.md) | [:heavy_check_mark: (19)](READMEs/templateflow.md) |  |  |
+| 138 | [templateflow/*](https://github.com/templateflow) [(20)](READMEs/templateflow.md) | [39](READMEs/templateflow.md) | [:heavy_check_mark: (20)](READMEs/templateflow.md) |  |  |
 | 139 | [thomasbeaudry/conp-dataset-PERFORM](https://github.com/thomasbeaudry/conp-dataset-PERFORM) | 0 | :heavy_check_mark: |  |  |
 | 140 | [timberio/vector](https://github.com/timberio/vector) | 7941 |  | :heavy_check_mark: |  |
 | 141 | [tkkuehn/*](https://github.com/tkkuehn) [(6)](READMEs/tkkuehn.md) | [0](READMEs/tkkuehn.md) | [:heavy_check_mark: (6)](READMEs/tkkuehn.md) | [:heavy_check_mark: (3)](READMEs/tkkuehn.md) |  |
 | 142 | [tsankeuodelfa/midtermproject](https://github.com/tsankeuodelfa/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 143 | [vandermeerlab/labs--mvdm](https://github.com/vandermeerlab/labs--mvdm) | 0 | :heavy_check_mark: |  |  |
-| 144 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 8700 |  | :heavy_check_mark: |  |
+| 144 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 8709 |  | :heavy_check_mark: |  |
 | 145 | [xlecours/*](https://github.com/xlecours) [(2)](READMEs/xlecours.md) | [0](READMEs/xlecours.md) | [:heavy_check_mark: (2)](READMEs/xlecours.md) |  |  |
 | 146 | [yenngolam/FauseyTrio-Public-Demo](https://github.com/yenngolam/FauseyTrio-Public-Demo) | 0 | :heavy_check_mark: |  |  |
 | 147 | [zacandcheese/research](https://github.com/zacandcheese/research) | 0 | :heavy_check_mark: |  |  |
 | 148 | [zxenia/mcgill-emc-rna-seq-experiment](https://github.com/zxenia/mcgill-emc-rna-seq-experiment) | 0 | :heavy_check_mark: |  |  |
 
 ## Inner circle
-| # | Repository (262) | Stars (666) | Dataset (231) | `run` (63) | `containers-run` (2) |
+| # | Repository (263) | Stars (667) | Dataset (232) | `run` (63) | `containers-run` (2) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [con/*](https://github.com/con) [(3)](READMEs/con.md) | [38](READMEs/con.md) | [:heavy_check_mark: (2)](READMEs/con.md) | [:heavy_check_mark: (3)](READMEs/con.md) |  |
 | 2 | [dandi/*](https://github.com/dandi) [(11)](READMEs/dandi.md) | [14](READMEs/dandi.md) | [:heavy_check_mark: (5)](READMEs/dandi.md) | [:heavy_check_mark: (9)](READMEs/dandi.md) |  |
-| 3 | [dandisets/*](https://github.com/dandisets) [(134)](READMEs/dandisets.md) | [4](READMEs/dandisets.md) | [:heavy_check_mark: (134)](READMEs/dandisets.md) |  |  |
+| 3 | [dandisets/*](https://github.com/dandisets) [(135)](READMEs/dandisets.md) | [4](READMEs/dandisets.md) | [:heavy_check_mark: (135)](READMEs/dandisets.md) |  |  |
 | 4 | [datalad-collection-1/*](https://github.com/datalad-collection-1) [(3)](READMEs/datalad-collection-1.md) | [0](READMEs/datalad-collection-1.md) | [:heavy_check_mark: (3)](READMEs/datalad-collection-1.md) |  |  |
 | 5 | [datalad-datasets/*](https://github.com/datalad-datasets) [(17)](READMEs/datalad-datasets.md) | [168](READMEs/datalad-datasets.md) | [:heavy_check_mark: (10)](READMEs/datalad-datasets.md) | [:heavy_check_mark: (13)](READMEs/datalad-datasets.md) |  |
-| 6 | [datalad-handbook/*](https://github.com/datalad-handbook) [(8)](READMEs/datalad-handbook.md) | [89](READMEs/datalad-handbook.md) | [:heavy_check_mark: (6)](READMEs/datalad-handbook.md) | [:heavy_check_mark: (5)](READMEs/datalad-handbook.md) | [:heavy_check_mark: (1)](READMEs/datalad-handbook.md) |
+| 6 | [datalad-handbook/*](https://github.com/datalad-handbook) [(8)](READMEs/datalad-handbook.md) | [90](READMEs/datalad-handbook.md) | [:heavy_check_mark: (6)](READMEs/datalad-handbook.md) | [:heavy_check_mark: (5)](READMEs/datalad-handbook.md) | [:heavy_check_mark: (1)](READMEs/datalad-handbook.md) |
 | 7 | [datalad-tester/*](https://github.com/datalad-tester) [(2)](READMEs/datalad-tester.md) | [0](READMEs/datalad-tester.md) | [:heavy_check_mark: (2)](READMEs/datalad-tester.md) | [:heavy_check_mark: (2)](READMEs/datalad-tester.md) |  |
 | 8 | [datalad/*](https://github.com/datalad) [(27)](READMEs/datalad.md) | [294](READMEs/datalad.md) | [:heavy_check_mark: (20)](READMEs/datalad.md) | [:heavy_check_mark: (9)](READMEs/datalad.md) |  |
 | 9 | [dbic/*](https://github.com/dbic) [(2)](READMEs/dbic.md) | [3](READMEs/dbic.md) | [:heavy_check_mark: (1)](READMEs/dbic.md) | [:heavy_check_mark: (1)](READMEs/dbic.md) |  |
@@ -232,40 +232,45 @@
 50. [TemplateFlow resource: ](https://osf.io/uxvnw/)
 51. [TemplateFlow resource: ](https://osf.io/s732w/)
 52. [TemplateFlow resource: ](https://osf.io/v6xqs/)
-53. [VanDam Demo](https://osf.io/96jpd/)
-54. [VanDam Demo](https://osf.io/6whqs/)
-55. [best-data-ever](https://osf.io/ypskr/)
-56. [best-data-ever](https://osf.io/pvfjz/)
-57. [best-data-ever](https://osf.io/7tprb/)
-58. [best-stdscudywdw-ever](https://osf.io/b6fwn/)
-59. [best-study-ever](https://osf.io/n6bgd/)
-60. [best-studywdw-ever](https://osf.io/qkmzr/)
-61. [best-studywdw-ever](https://osf.io/fz2dw/)
-62. [bonsai-examples](https://osf.io/wgrn3/)
-63. [bsd5](https://osf.io/vnerp/)
-64. [bsd6](https://osf.io/3bqrt/)
-65. [bsd7](https://osf.io/g4szy/)
-66. [datalad-test](https://osf.io/qabp9/)
-67. [eegelevation-freefield](https://osf.io/k4jdw/)
-68. [fitlins_tests](https://osf.io/2ynvg/)
-69. [fitlins_tests](https://osf.io/m6k2v/)
-70. [fmriprep-lts container images](https://osf.io/rbu92/)
-71. [fmriprep-lts container images](https://osf.io/d753w/)
-72. [fmriprep-lts container images](https://osf.io/9vg8e/)
-73. [fmriprep-lts container images-dev](https://osf.io/wvz3e/)
-74. [nobrainer-trained-models](https://osf.io/qpxad/)
-75. [nuisance-QA-data](https://osf.io/dj2gf/)
-76. [our-study-data](https://osf.io/wv2zh/)
-77. [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/)
-78. [simulate-cbma](https://osf.io/9jbhg/)
-79. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
-80. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
-81. [studyforrest-speechannotation](https://osf.io/f5j3e/)
-82. [sub-219_bids_datalad](https://osf.io/86d3a/)
-83. [test-zarr](https://osf.io/84gbt/)
-84. [testexport](https://osf.io/d5b8c/)
-85. [testexport2](https://osf.io/kjpqa/)
-86. [vandam-daylong](https://osf.io/6w3sq/)
+53. [TemplateFlow resource: ](https://osf.io/uw3vp/)
+54. [TemplateFlow resource: ](https://osf.io/hbnu4/)
+55. [TemplateFlow resource: ](https://osf.io/58jwx/)
+56. [TemplateFlow resource:  (RRID: SCR_015542)](https://osf.io/zjufk/)
+57. [TemplateFlow resource:  (RRID: SCR_015542)](https://osf.io/3bjz8/)
+58. [VanDam Demo](https://osf.io/96jpd/)
+59. [VanDam Demo](https://osf.io/6whqs/)
+60. [best-data-ever](https://osf.io/ypskr/)
+61. [best-data-ever](https://osf.io/pvfjz/)
+62. [best-data-ever](https://osf.io/7tprb/)
+63. [best-stdscudywdw-ever](https://osf.io/b6fwn/)
+64. [best-study-ever](https://osf.io/n6bgd/)
+65. [best-studywdw-ever](https://osf.io/qkmzr/)
+66. [best-studywdw-ever](https://osf.io/fz2dw/)
+67. [bonsai-examples](https://osf.io/wgrn3/)
+68. [bsd5](https://osf.io/vnerp/)
+69. [bsd6](https://osf.io/3bqrt/)
+70. [bsd7](https://osf.io/g4szy/)
+71. [datalad-test](https://osf.io/qabp9/)
+72. [eegelevation-freefield](https://osf.io/k4jdw/)
+73. [fitlins_tests](https://osf.io/2ynvg/)
+74. [fitlins_tests](https://osf.io/m6k2v/)
+75. [fmriprep-lts container images](https://osf.io/rbu92/)
+76. [fmriprep-lts container images](https://osf.io/d753w/)
+77. [fmriprep-lts container images](https://osf.io/9vg8e/)
+78. [fmriprep-lts container images-dev](https://osf.io/wvz3e/)
+79. [nobrainer-trained-models](https://osf.io/qpxad/)
+80. [nuisance-QA-data](https://osf.io/dj2gf/)
+81. [our-study-data](https://osf.io/wv2zh/)
+82. [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/)
+83. [simulate-cbma](https://osf.io/9jbhg/)
+84. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
+85. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
+86. [studyforrest-speechannotation](https://osf.io/f5j3e/)
+87. [sub-219_bids_datalad](https://osf.io/86d3a/)
+88. [test-zarr](https://osf.io/84gbt/)
+89. [testexport](https://osf.io/d5b8c/)
+90. [testexport2](https://osf.io/kjpqa/)
+91. [vandam-daylong](https://osf.io/6w3sq/)
 ## Gone
 1. [CONP-Neurocon](https://osf.io/6kbmt/)
 2. [Taowu](https://osf.io/qubep/)

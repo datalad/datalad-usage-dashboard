@@ -6571,6 +6571,15 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000206",
+            "url": "https://github.com/dandisets/000206",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dartmouth-pbs/psyc161-wi19-srv",
             "url": "https://github.com/dartmouth-pbs/psyc161-wi19-srv",
             "stars": 0,
@@ -6789,7 +6798,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 82,
+            "stars": 83,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7122,7 +7131,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 864,
+            "stars": 865,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7293,7 +7302,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5074,
+            "stars": 5075,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9012,7 +9021,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 873,
+            "stars": 874,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9280,6 +9289,15 @@
             "status": "active"
         },
         {
+            "name": "templateflow/tpl-VALiDATe29",
+            "url": "https://github.com/templateflow/tpl-VALiDATe29",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "templateflow/tpl-WHS",
             "url": "https://github.com/templateflow/tpl-WHS",
             "stars": 0,
@@ -9399,7 +9417,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8700,
+            "stars": 8709,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9900,6 +9918,36 @@
             "url": "https://osf.io/v6xqs/",
             "id": "v6xqs",
             "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/uw3vp/",
+            "id": "uw3vp",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/hbnu4/",
+            "id": "hbnu4",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/58jwx/",
+            "id": "58jwx",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/zjufk/",
+            "id": "zjufk",
+            "name": "TemplateFlow resource:  (RRID: SCR_015542)",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/3bjz8/",
+            "id": "3bjz8",
+            "name": "TemplateFlow resource:  (RRID: SCR_015542)",
             "status": "active"
         },
         {
