@@ -343,6 +343,15 @@
             "status": "active"
         },
         {
+            "name": "JGuetschow/UNFCCC_non-AnnexI_data",
+            "url": "https://github.com/JGuetschow/UNFCCC_non-AnnexI_data",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "KaiserTim/Name-not-found",
             "url": "https://github.com/KaiserTim/Name-not-found",
             "stars": 0,
@@ -6427,6 +6436,15 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000154",
+            "url": "https://github.com/dandisets/000154",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dandisets/000157",
             "url": "https://github.com/dandisets/000157",
             "stars": 0,
@@ -9417,7 +9435,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8709,
+            "stars": 8716,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10101,6 +10119,12 @@
             "status": "active"
         },
         {
+            "url": "https://osf.io/9tp7k/",
+            "id": "9tp7k",
+            "name": "raw-file-test",
+            "status": "active"
+        },
+        {
             "url": "https://osf.io/38vce/",
             "id": "38vce",
             "name": "shoreline-fiberfox-dmri-phantoms",
@@ -10134,6 +10158,12 @@
             "url": "https://osf.io/86d3a/",
             "id": "86d3a",
             "name": "sub-219_bids_datalad",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/5z4km/",
+            "id": "5z4km",
+            "name": "test-sibling",
             "status": "active"
         },
         {
