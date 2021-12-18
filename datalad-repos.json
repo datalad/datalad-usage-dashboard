@@ -6888,7 +6888,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 268,
+            "stars": 269,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7149,7 +7149,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 865,
+            "stars": 866,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7320,7 +7320,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5075,
+            "stars": 5077,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8805,7 +8805,7 @@
         {
             "name": "protontypes/LibreSelery",
             "url": "https://github.com/protontypes/LibreSelery",
-            "stars": 99,
+            "stars": 100,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9435,7 +9435,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8716,
+            "stars": 8724,
             "dataset": false,
             "run": true,
             "container_run": false,
