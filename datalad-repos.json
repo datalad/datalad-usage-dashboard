@@ -6744,7 +6744,7 @@
         {
             "name": "datalad-datasets/human-connectome-project-openaccess",
             "url": "https://github.com/datalad-datasets/human-connectome-project-openaccess",
-            "stars": 18,
+            "stars": 19,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -6825,7 +6825,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 83,
+            "stars": 84,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7329,7 +7329,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5078,
+            "stars": 5082,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9462,7 +9462,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8731,
+            "stars": 8737,
             "dataset": false,
             "run": true,
             "container_run": false,
