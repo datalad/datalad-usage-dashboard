@@ -7347,7 +7347,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5083,
+            "stars": 5085,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8697,7 +8697,7 @@
         {
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
-            "stars": 151,
+            "stars": 152,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9489,7 +9489,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8743,
+            "stars": 8750,
             "dataset": false,
             "run": true,
             "container_run": false,
