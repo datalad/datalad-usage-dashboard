@@ -3612,7 +3612,7 @@
         {
             "name": "ReproNim/reproin",
             "url": "https://github.com/ReproNim/reproin",
-            "stars": 39,
+            "stars": 38,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7374,7 +7374,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5084,
+            "stars": 5087,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8724,7 +8724,7 @@
         {
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
-            "stars": 152,
+            "stars": 151,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8886,7 +8886,7 @@
         {
             "name": "protontypes/LibreSelery",
             "url": "https://github.com/protontypes/LibreSelery",
-            "stars": 100,
+            "stars": 101,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9516,7 +9516,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8756,
+            "stars": 8764,
             "dataset": false,
             "run": true,
             "container_run": false,
