@@ -6942,7 +6942,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 270,
+            "stars": 271,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7374,7 +7374,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5088,
+            "stars": 5089,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8823,7 +8823,7 @@
         {
             "name": "opening-hours/opening_hours.js",
             "url": "https://github.com/opening-hours/opening_hours.js",
-            "stars": 175,
+            "stars": 176,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9516,7 +9516,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8772,
+            "stars": 8773,
             "dataset": false,
             "run": true,
             "container_run": false,
