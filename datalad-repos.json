@@ -6942,7 +6942,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 271,
+            "stars": 272,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7374,7 +7374,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5088,
+            "stars": 5087,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9516,7 +9516,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8772,
+            "stars": 8779,
             "dataset": false,
             "run": true,
             "container_run": false,
