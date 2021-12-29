@@ -30,7 +30,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 239,
+            "stars": 240,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4233,7 +4233,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 373,
+            "stars": 374,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7374,7 +7374,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5087,
+            "stars": 5088,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8409,7 +8409,7 @@
         {
             "name": "neurodebian/dockerfiles",
             "url": "https://github.com/neurodebian/dockerfiles",
-            "stars": 10,
+            "stars": 11,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9516,7 +9516,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8779,
+            "stars": 8785,
             "dataset": false,
             "run": true,
             "container_run": false,
