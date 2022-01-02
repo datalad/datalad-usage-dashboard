@@ -3702,7 +3702,7 @@
         {
             "name": "SIMEXP/fmriprep-denoise-benchmark",
             "url": "https://github.com/SIMEXP/fmriprep-denoise-benchmark",
-            "stars": 0,
+            "stars": 2,
             "dataset": true,
             "run": false,
             "container_run": false,
