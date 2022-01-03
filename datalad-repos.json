@@ -3576,7 +3576,7 @@
         {
             "name": "ReproNim/neurodocker",
             "url": "https://github.com/ReproNim/neurodocker",
-            "stars": 236,
+            "stars": 237,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4233,7 +4233,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 377,
+            "stars": 378,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7203,7 +7203,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 866,
+            "stars": 867,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7374,7 +7374,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5091,
+            "stars": 5090,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9516,7 +9516,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8806,
+            "stars": 8816,
             "dataset": false,
             "run": true,
             "container_run": false,
