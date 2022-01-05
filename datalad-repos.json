@@ -3481,7 +3481,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "Remi-Gau/rvm5HTsource",
@@ -3508,7 +3508,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "ReproNim/ReproTube",
@@ -7374,7 +7374,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5090,
+            "stars": 5094,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8785,6 +8785,15 @@
             "status": "active"
         },
         {
+            "name": "oesteban/tpl-MNI305",
+            "url": "https://github.com/oesteban/tpl-MNI305",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "oesteban/tpl-MouseIn",
             "url": "https://github.com/oesteban/tpl-MouseIn",
             "stars": 0,
@@ -9516,7 +9525,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8816,
+            "stars": 8827,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10034,6 +10043,12 @@
         {
             "url": "https://osf.io/58jwx/",
             "id": "58jwx",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/nd5j2/",
+            "id": "nd5j2",
             "name": "TemplateFlow resource: ",
             "status": "active"
         },
