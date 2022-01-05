@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
-from typing import IO, ClassVar, Iterable, List
+from pathlib import Path
+from typing import IO, ClassVar, Iterable, List, Union
 from pydantic import BaseModel, Field
 from .config import OURSELVES, README_FOLDER
 from .util import Statistics, Status, check
@@ -7,7 +8,7 @@ from .util import Statistics, Status, check
 
 class TableRow(ABC, BaseModel):
     @abstractmethod
-    def get_cells(self) -> List[str]:
+    def get_cells(self, directory: Union[str, Path]) -> List[str]:
         ...
 
     @abstractmethod
@@ -42,8 +43,8 @@ class SubtableRow(TableRow):
     def url(self) -> str:
         return f"https://github.com/{self.name}"
 
-    def get_cells(self) -> List[str]:
-        file_link = f"{README_FOLDER}/{self.name}.md"
+    def get_cells(self, directory: Union[str, Path]) -> List[str]:
+        file_link = f"{directory}/{self.name}.md"
         cells = [
             f"[{self.name}/*]({self.url}) [({self.qtys.repo_qty})]({file_link})",
             f"[{self.qtys.star_qty}]({file_link})",
@@ -79,7 +80,7 @@ class RepoTable(BaseModel):
     def get_total_qtys(self) -> Statistics:
         return Statistics.sum(r.get_qtys() for r in self.rows)
 
-    def render(self) -> str:
+    def render(self, directory: Union[str, Path]) -> str:
         s = f"## {self.title}\n"
         if self.rows:
             qtys = self.get_total_qtys()
@@ -92,7 +93,7 @@ class RepoTable(BaseModel):
             s += self.render_row(headers)
             s += self.render_row(["---"] * len(self.HEADERS))
             for i, r in enumerate(self.rows, start=1):
-                s += self.render_row([str(i)] + r.get_cells())
+                s += self.render_row([str(i)] + r.get_cells(directory))
         else:
             s += "No repositories found!\n"
         return s
@@ -103,7 +104,11 @@ class RepoTable(BaseModel):
 
 
 def make_table_file(
-    fp: IO[str], name: str, rows: List[TableRow], show_ours: bool = True
+    fp: IO[str],
+    name: str,
+    rows: List[TableRow],
+    show_ours: bool = True,
+    directory: Union[str, Path] = README_FOLDER,
 ) -> SubtableRow:
     wild: List[TableRow] = []
     ours: List[TableRow] = []
@@ -133,7 +138,7 @@ def make_table_file(
             first = False
         else:
             print(file=fp)
-        print(tbl.render(), end="", file=fp)
+        print(tbl.render(directory=directory), end="", file=fp)
         stats.append(tbl.get_total_qtys())
     if all(r.gone for tbl in tables for r in tbl.rows):
         status = Status.GONE
