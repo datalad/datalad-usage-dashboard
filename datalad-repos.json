@@ -30,7 +30,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 241,
+            "stars": 242,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -3576,7 +3576,7 @@
         {
             "name": "ReproNim/neurodocker",
             "url": "https://github.com/ReproNim/neurodocker",
-            "stars": 237,
+            "stars": 239,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4233,7 +4233,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 378,
+            "stars": 379,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6789,7 +6789,7 @@
         {
             "name": "datalad-datasets/human-connectome-project-openaccess",
             "url": "https://github.com/datalad-datasets/human-connectome-project-openaccess",
-            "stars": 20,
+            "stars": 21,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -7374,7 +7374,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5094,
+            "stars": 5097,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9316,6 +9316,15 @@
             "status": "active"
         },
         {
+            "name": "templateflow/tpl-MNI305",
+            "url": "https://github.com/templateflow/tpl-MNI305",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "templateflow/tpl-MNIInfant",
             "url": "https://github.com/templateflow/tpl-MNIInfant",
             "stars": 0,
@@ -9525,7 +9534,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8827,
+            "stars": 8836,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10188,6 +10197,12 @@
             "url": "https://osf.io/wvz3e/",
             "id": "wvz3e",
             "name": "fmriprep-lts container images-dev",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/6ga9z/",
+            "id": "6ga9z",
+            "name": "fmriprep-reproducibility-results",
             "status": "active"
         },
         {
