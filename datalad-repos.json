@@ -4233,7 +4233,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 379,
+            "stars": 381,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8724,7 +8724,7 @@
         {
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
-            "stars": 151,
+            "stars": 152,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9534,7 +9534,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8836,
+            "stars": 8843,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10062,6 +10062,18 @@
             "status": "active"
         },
         {
+            "url": "https://osf.io/9czxv/",
+            "id": "9czxv",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/mfkwc/",
+            "id": "mfkwc",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
             "url": "https://osf.io/zjufk/",
             "id": "zjufk",
             "name": "TemplateFlow resource:  (RRID: SCR_015542)",
@@ -10202,6 +10214,12 @@
         {
             "url": "https://osf.io/6ga9z/",
             "id": "6ga9z",
+            "name": "fmriprep-reproducibility-results",
+            "status": "gone"
+        },
+        {
+            "url": "https://osf.io/qr26u/",
+            "id": "qr26u",
             "name": "fmriprep-reproducibility-results",
             "status": "active"
         },
