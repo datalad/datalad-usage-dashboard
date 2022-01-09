@@ -3585,7 +3585,7 @@
         {
             "name": "ReproNim/neurodocker",
             "url": "https://github.com/ReproNim/neurodocker",
-            "stars": 239,
+            "stars": 240,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7383,7 +7383,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5099,
+            "stars": 5101,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8794,6 +8794,15 @@
             "status": "active"
         },
         {
+            "name": "oesteban/tpl-MNI25Macaque",
+            "url": "https://github.com/oesteban/tpl-MNI25Macaque",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "oesteban/tpl-MNI305",
             "url": "https://github.com/oesteban/tpl-MNI305",
             "stars": 0,
@@ -9138,7 +9147,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 879,
+            "stars": 880,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9543,7 +9552,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8844,
+            "stars": 8851,
             "dataset": false,
             "run": true,
             "container_run": false,
