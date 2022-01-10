@@ -4242,7 +4242,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 381,
+            "stars": 382,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8812,6 +8812,15 @@
             "status": "active"
         },
         {
+            "name": "oesteban/tpl-MNIColin27",
+            "url": "https://github.com/oesteban/tpl-MNIColin27",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "oesteban/tpl-MouseIn",
             "url": "https://github.com/oesteban/tpl-MouseIn",
             "stars": 0,
@@ -9343,6 +9352,15 @@
             "status": "active"
         },
         {
+            "name": "templateflow/tpl-MNIColin27",
+            "url": "https://github.com/templateflow/tpl-MNIColin27",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "templateflow/tpl-MNIInfant",
             "url": "https://github.com/templateflow/tpl-MNIInfant",
             "stars": 0,
@@ -9552,7 +9570,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8851,
+            "stars": 8852,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10088,6 +10106,12 @@
         {
             "url": "https://osf.io/mfkwc/",
             "id": "mfkwc",
+            "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/r283d/",
+            "id": "r283d",
             "name": "TemplateFlow resource: ",
             "status": "active"
         },
