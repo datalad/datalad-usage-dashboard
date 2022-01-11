@@ -30,7 +30,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 242,
+            "stars": 243,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4152,7 +4152,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 170,
+            "stars": 171,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4242,7 +4242,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 382,
+            "stars": 383,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6879,7 +6879,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 84,
+            "stars": 85,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6951,7 +6951,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 272,
+            "stars": 273,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7383,7 +7383,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5101,
+            "stars": 5103,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8733,7 +8733,7 @@
         {
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
-            "stars": 152,
+            "stars": 153,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9570,7 +9570,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8852,
+            "stars": 8858,
             "dataset": false,
             "run": true,
             "container_run": false,
