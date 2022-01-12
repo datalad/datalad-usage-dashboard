@@ -7212,7 +7212,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 867,
+            "stars": 868,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7383,7 +7383,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5103,
+            "stars": 5108,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9156,7 +9156,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 880,
+            "stars": 881,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9570,7 +9570,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8858,
+            "stars": 8866,
             "dataset": false,
             "run": true,
             "container_run": false,
