@@ -6879,7 +6879,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 85,
+            "stars": 86,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7383,7 +7383,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5108,
+            "stars": 5109,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8886,7 +8886,7 @@
         {
             "name": "poldracklab/fitlins",
             "url": "https://github.com/poldracklab/fitlins",
-            "stars": 57,
+            "stars": 58,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9570,7 +9570,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8866,
+            "stars": 8875,
             "dataset": false,
             "run": true,
             "container_run": false,
