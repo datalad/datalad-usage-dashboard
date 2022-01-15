@@ -4980,7 +4980,7 @@
         {
             "name": "dandi/dandi-cli",
             "url": "https://github.com/dandi/dandi-cli",
-            "stars": 8,
+            "stars": 9,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6879,7 +6879,7 @@
         {
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 86,
+            "stars": 87,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7212,7 +7212,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 870,
+            "stars": 871,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9196,7 +9196,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "sangfrois/ds_prep",
@@ -9300,7 +9300,7 @@
         {
             "name": "templateflow/templateflow",
             "url": "https://github.com/templateflow/templateflow",
-            "stars": 35,
+            "stars": 36,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -9588,7 +9588,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8892,
+            "stars": 8901,
             "dataset": false,
             "run": true,
             "container_run": false,
