@@ -4233,7 +4233,7 @@
         {
             "name": "bioimagesuiteweb/bisweb",
             "url": "https://github.com/bioimagesuiteweb/bisweb",
-            "stars": 59,
+            "stars": 60,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7383,7 +7383,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5109,
+            "stars": 5111,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8445,7 +8445,7 @@
         {
             "name": "neuronets/trained-models",
             "url": "https://github.com/neuronets/trained-models",
-            "stars": 9,
+            "stars": 10,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -9588,7 +9588,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8901,
+            "stars": 8907,
             "dataset": false,
             "run": true,
             "container_run": false,
