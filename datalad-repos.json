@@ -3585,7 +3585,7 @@
         {
             "name": "ReproNim/neurodocker",
             "url": "https://github.com/ReproNim/neurodocker",
-            "stars": 240,
+            "stars": 241,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4242,7 +4242,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 383,
+            "stars": 384,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6951,7 +6951,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 274,
+            "stars": 275,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7383,7 +7383,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5111,
+            "stars": 5113,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9165,7 +9165,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 883,
+            "stars": 884,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9588,7 +9588,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8907,
+            "stars": 8908,
             "dataset": false,
             "run": true,
             "container_run": false,
