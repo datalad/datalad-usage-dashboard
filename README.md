@@ -1,6 +1,6 @@
 # GitHub
 ## In the wild
-| # | Repository (773) | Stars (25808) | Dataset (712) | `run` (112) | `containers-run` (6) |
+| # | Repository (772) | Stars (25812) | Dataset (711) | `run` (112) | `containers-run` (6) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [AKSoo/*](https://github.com/AKSoo) [(3)](READMEs/AKSoo.md) | [0](READMEs/AKSoo.md) | [:heavy_check_mark: (3)](READMEs/AKSoo.md) | [:heavy_check_mark: (1)](READMEs/AKSoo.md) |  |
 | 2 | [AllenInstitute/AllenSDK](https://github.com/AllenInstitute/AllenSDK) | 243 |  | :heavy_check_mark: |  |
@@ -64,7 +64,7 @@
 | 60 | [dandi-containers/pynwb-mpi](https://github.com/dandi-containers/pynwb-mpi) | 0 |  | :heavy_check_mark: |  |
 | 61 | [dartmouth-pbs/psyc161-wi19-srv](https://github.com/dartmouth-pbs/psyc161-wi19-srv) | 0 | :heavy_check_mark: |  |  |
 | 62 | [datasets-mila/mila](https://github.com/datasets-mila/mila) | 0 | :heavy_check_mark: |  |  |
-| 63 | [debops/debops](https://github.com/debops/debops) | 871 |  | :heavy_check_mark: |  |
+| 63 | [debops/debops](https://github.com/debops/debops) | 870 |  | :heavy_check_mark: |  |
 | 64 | [dguibert/nur-packages](https://github.com/dguibert/nur-packages) | 3 | :heavy_check_mark: |  |  |
 | 65 | [dhivakark/*](https://github.com/dhivakark) [(2)](READMEs/dhivakark.md) | [0](READMEs/dhivakark.md) | [:heavy_check_mark: (2)](READMEs/dhivakark.md) | [:heavy_check_mark: (1)](READMEs/dhivakark.md) |  |
 | 66 | [djarecka/*](https://github.com/djarecka) [(2)](READMEs/djarecka.md) | [0](READMEs/djarecka.md) |  | [:heavy_check_mark: (2)](READMEs/djarecka.md) |  |
@@ -131,37 +131,36 @@
 | 127 | [pithanakrit/nginx_1](https://github.com/pithanakrit/nginx_1) | 0 |  | :heavy_check_mark: |  |
 | 128 | [poldracklab/fitlins](https://github.com/poldracklab/fitlins) | 58 |  | :heavy_check_mark: |  |
 | 129 | [protontypes/LibreSelery](https://github.com/protontypes/LibreSelery) | 101 |  | :heavy_check_mark: |  |
-| 130 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 884 |  | :heavy_check_mark: |  |
+| 130 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 886 |  | :heavy_check_mark: |  |
 | 131 | [qlux/dataladrepo](https://github.com/qlux/dataladrepo) | 0 | :heavy_check_mark: |  |  |
 | 132 | [richford/hbn_url_csv](https://github.com/richford/hbn_url_csv) | 0 |  | :heavy_check_mark: |  |
 | 133 | [sangfrois/ds_prep](https://github.com/sangfrois/ds_prep) | 1 | :heavy_check_mark: |  |  |
-| 134 | [sappelhoff/eeg_matchingpennies](https://github.com/sappelhoff/eeg_matchingpennies) | 1 | :heavy_check_mark: |  |  |
-| 135 | [satra/*](https://github.com/satra) [(4)](READMEs/satra.md) | [1](READMEs/satra.md) | [:heavy_check_mark: (4)](READMEs/satra.md) | [:heavy_check_mark: (1)](READMEs/satra.md) |  |
-| 136 | [satyaog/pybenzinaconcat_test_datasets](https://github.com/satyaog/pybenzinaconcat_test_datasets) | 0 |  | :heavy_check_mark: |  |
-| 137 | [sensein/kwyk-data](https://github.com/sensein/kwyk-data) | 0 | :heavy_check_mark: |  |  |
-| 138 | [shots47s/conp-dataset-test_dataset_do_not_merge](https://github.com/shots47s/conp-dataset-test_dataset_do_not_merge) | 0 | :heavy_check_mark: |  |  |
-| 139 | [soichih/datalad-o3d-test](https://github.com/soichih/datalad-o3d-test) | 0 | :heavy_check_mark: |  |  |
-| 140 | [srmemar/mousebytesdataset](https://github.com/srmemar/mousebytesdataset) | 0 | :heavy_check_mark: |  |  |
-| 141 | [templateflow/*](https://github.com/templateflow) [(22)](READMEs/templateflow.md) | [40](READMEs/templateflow.md) | [:heavy_check_mark: (22)](READMEs/templateflow.md) |  |  |
-| 142 | [thomasbeaudry/conp-dataset-PERFORM](https://github.com/thomasbeaudry/conp-dataset-PERFORM) | 0 | :heavy_check_mark: |  |  |
-| 143 | [timberio/vector](https://github.com/timberio/vector) | 7941 |  | :heavy_check_mark: |  |
-| 144 | [tkkuehn/*](https://github.com/tkkuehn) [(6)](READMEs/tkkuehn.md) | [0](READMEs/tkkuehn.md) | [:heavy_check_mark: (6)](READMEs/tkkuehn.md) | [:heavy_check_mark: (3)](READMEs/tkkuehn.md) |  |
-| 145 | [tsankeuodelfa/midtermproject](https://github.com/tsankeuodelfa/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 146 | [vandermeerlab/labs--mvdm](https://github.com/vandermeerlab/labs--mvdm) | 0 | :heavy_check_mark: |  |  |
-| 147 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 8908 |  | :heavy_check_mark: |  |
-| 148 | [xlecours/*](https://github.com/xlecours) [(2)](READMEs/xlecours.md) | [0](READMEs/xlecours.md) | [:heavy_check_mark: (2)](READMEs/xlecours.md) |  |  |
-| 149 | [yenngolam/FauseyTrio-Public-Demo](https://github.com/yenngolam/FauseyTrio-Public-Demo) | 0 | :heavy_check_mark: |  |  |
-| 150 | [zacandcheese/research](https://github.com/zacandcheese/research) | 0 | :heavy_check_mark: |  |  |
-| 151 | [zxenia/mcgill-emc-rna-seq-experiment](https://github.com/zxenia/mcgill-emc-rna-seq-experiment) | 0 | :heavy_check_mark: |  |  |
+| 134 | [satra/*](https://github.com/satra) [(4)](READMEs/satra.md) | [1](READMEs/satra.md) | [:heavy_check_mark: (4)](READMEs/satra.md) | [:heavy_check_mark: (1)](READMEs/satra.md) |  |
+| 135 | [satyaog/pybenzinaconcat_test_datasets](https://github.com/satyaog/pybenzinaconcat_test_datasets) | 0 |  | :heavy_check_mark: |  |
+| 136 | [sensein/kwyk-data](https://github.com/sensein/kwyk-data) | 0 | :heavy_check_mark: |  |  |
+| 137 | [shots47s/conp-dataset-test_dataset_do_not_merge](https://github.com/shots47s/conp-dataset-test_dataset_do_not_merge) | 0 | :heavy_check_mark: |  |  |
+| 138 | [soichih/datalad-o3d-test](https://github.com/soichih/datalad-o3d-test) | 0 | :heavy_check_mark: |  |  |
+| 139 | [srmemar/mousebytesdataset](https://github.com/srmemar/mousebytesdataset) | 0 | :heavy_check_mark: |  |  |
+| 140 | [templateflow/*](https://github.com/templateflow) [(22)](READMEs/templateflow.md) | [40](READMEs/templateflow.md) | [:heavy_check_mark: (22)](READMEs/templateflow.md) |  |  |
+| 141 | [thomasbeaudry/conp-dataset-PERFORM](https://github.com/thomasbeaudry/conp-dataset-PERFORM) | 0 | :heavy_check_mark: |  |  |
+| 142 | [timberio/vector](https://github.com/timberio/vector) | 7941 |  | :heavy_check_mark: |  |
+| 143 | [tkkuehn/*](https://github.com/tkkuehn) [(6)](READMEs/tkkuehn.md) | [0](READMEs/tkkuehn.md) | [:heavy_check_mark: (6)](READMEs/tkkuehn.md) | [:heavy_check_mark: (3)](READMEs/tkkuehn.md) |  |
+| 144 | [tsankeuodelfa/midtermproject](https://github.com/tsankeuodelfa/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 145 | [vandermeerlab/labs--mvdm](https://github.com/vandermeerlab/labs--mvdm) | 0 | :heavy_check_mark: |  |  |
+| 146 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 8912 |  | :heavy_check_mark: |  |
+| 147 | [xlecours/*](https://github.com/xlecours) [(2)](READMEs/xlecours.md) | [0](READMEs/xlecours.md) | [:heavy_check_mark: (2)](READMEs/xlecours.md) |  |  |
+| 148 | [yenngolam/FauseyTrio-Public-Demo](https://github.com/yenngolam/FauseyTrio-Public-Demo) | 0 | :heavy_check_mark: |  |  |
+| 149 | [zacandcheese/research](https://github.com/zacandcheese/research) | 0 | :heavy_check_mark: |  |  |
+| 150 | [zxenia/mcgill-emc-rna-seq-experiment](https://github.com/zxenia/mcgill-emc-rna-seq-experiment) | 0 | :heavy_check_mark: |  |  |
 
 ## Inner circle
-| # | Repository (269) | Stars (683) | Dataset (238) | `run` (63) | `containers-run` (2) |
+| # | Repository (269) | Stars (684) | Dataset (238) | `run` (63) | `containers-run` (2) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [con/*](https://github.com/con) [(3)](READMEs/con.md) | [38](READMEs/con.md) | [:heavy_check_mark: (2)](READMEs/con.md) | [:heavy_check_mark: (3)](READMEs/con.md) |  |
 | 2 | [dandi/*](https://github.com/dandi) [(11)](READMEs/dandi.md) | [15](READMEs/dandi.md) | [:heavy_check_mark: (5)](READMEs/dandi.md) | [:heavy_check_mark: (9)](READMEs/dandi.md) |  |
 | 3 | [dandisets/*](https://github.com/dandisets) [(141)](READMEs/dandisets.md) | [5](READMEs/dandisets.md) | [:heavy_check_mark: (141)](READMEs/dandisets.md) |  |  |
 | 4 | [datalad-collection-1/*](https://github.com/datalad-collection-1) [(3)](READMEs/datalad-collection-1.md) | [0](READMEs/datalad-collection-1.md) | [:heavy_check_mark: (3)](READMEs/datalad-collection-1.md) |  |  |
-| 5 | [datalad-datasets/*](https://github.com/datalad-datasets) [(17)](READMEs/datalad-datasets.md) | [171](READMEs/datalad-datasets.md) | [:heavy_check_mark: (10)](READMEs/datalad-datasets.md) | [:heavy_check_mark: (13)](READMEs/datalad-datasets.md) |  |
+| 5 | [datalad-datasets/*](https://github.com/datalad-datasets) [(17)](READMEs/datalad-datasets.md) | [172](READMEs/datalad-datasets.md) | [:heavy_check_mark: (10)](READMEs/datalad-datasets.md) | [:heavy_check_mark: (13)](READMEs/datalad-datasets.md) |  |
 | 6 | [datalad-handbook/*](https://github.com/datalad-handbook) [(8)](READMEs/datalad-handbook.md) | [94](READMEs/datalad-handbook.md) | [:heavy_check_mark: (6)](READMEs/datalad-handbook.md) | [:heavy_check_mark: (5)](READMEs/datalad-handbook.md) | [:heavy_check_mark: (1)](READMEs/datalad-handbook.md) |
 | 7 | [datalad-tester/*](https://github.com/datalad-tester) [(2)](READMEs/datalad-tester.md) | [0](READMEs/datalad-tester.md) | [:heavy_check_mark: (2)](READMEs/datalad-tester.md) | [:heavy_check_mark: (2)](READMEs/datalad-tester.md) |  |
 | 8 | [datalad/*](https://github.com/datalad) [(27)](READMEs/datalad.md) | [301](READMEs/datalad.md) | [:heavy_check_mark: (20)](READMEs/datalad.md) | [:heavy_check_mark: (9)](READMEs/datalad.md) |  |
@@ -174,13 +173,14 @@
 | 15 | [yarikoptic/*](https://github.com/yarikoptic) [(14)](READMEs/yarikoptic.md) | [3](READMEs/yarikoptic.md) | [:heavy_check_mark: (10)](READMEs/yarikoptic.md) | [:heavy_check_mark: (7)](READMEs/yarikoptic.md) |  |
 
 ## Gone
-| # | Repository (43) | Stars | Dataset (41) | `run` (2) | `containers-run` |
+| # | Repository (44) | Stars (1) | Dataset (42) | `run` (2) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [Mkoopm/Voc-dataset](https://github.com/Mkoopm/Voc-dataset) | 0 | :heavy_check_mark: |  |  |
 | 2 | [dandisets-testing/*](https://github.com/dandisets-testing) [(38)](READMEs/dandisets-testing.md) | [0](READMEs/dandisets-testing.md) | [:heavy_check_mark: (38)](READMEs/dandisets-testing.md) |  |  |
 | 3 | [loj/test_dlrun](https://github.com/loj/test_dlrun) | 0 |  | :heavy_check_mark: |  |
 | 4 | [maxthoursie/*](https://github.com/maxthoursie) [(2)](READMEs/maxthoursie.md) | [0](READMEs/maxthoursie.md) | [:heavy_check_mark: (2)](READMEs/maxthoursie.md) |  |  |
 | 5 | [rwpeterson/timestamps](https://github.com/rwpeterson/timestamps) | 0 |  | :heavy_check_mark: |  |
+| 6 | [sappelhoff/eeg_matchingpennies](https://github.com/sappelhoff/eeg_matchingpennies) | 1 | :heavy_check_mark: |  |  |
 
 # OSF
 ## Active
@@ -262,26 +262,27 @@
 76. [eegelevation-freefield](https://osf.io/k4jdw/)
 77. [fitlins_tests](https://osf.io/2ynvg/)
 78. [fitlins_tests](https://osf.io/m6k2v/)
-79. [fmriprep-lts container images](https://osf.io/rbu92/)
-80. [fmriprep-lts container images](https://osf.io/d753w/)
-81. [fmriprep-lts container images](https://osf.io/9vg8e/)
-82. [fmriprep-lts container images-dev](https://osf.io/wvz3e/)
-83. [fmriprep-reproducibility-results](https://osf.io/qr26u/)
-84. [nobrainer-trained-models](https://osf.io/qpxad/)
-85. [nuisance-QA-data](https://osf.io/dj2gf/)
-86. [our-study-data](https://osf.io/wv2zh/)
-87. [raw-file-test](https://osf.io/9tp7k/)
-88. [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/)
-89. [simulate-cbma](https://osf.io/9jbhg/)
-90. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
-91. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
-92. [studyforrest-speechannotation](https://osf.io/f5j3e/)
-93. [sub-219_bids_datalad](https://osf.io/86d3a/)
-94. [test-sibling](https://osf.io/5z4km/)
-95. [test-zarr](https://osf.io/84gbt/)
-96. [testexport](https://osf.io/d5b8c/)
-97. [testexport2](https://osf.io/kjpqa/)
-98. [vandam-daylong](https://osf.io/6w3sq/)
+79. [fmriprep-fuzzy](https://osf.io/cj85p/)
+80. [fmriprep-lts container images](https://osf.io/rbu92/)
+81. [fmriprep-lts container images](https://osf.io/d753w/)
+82. [fmriprep-lts container images](https://osf.io/9vg8e/)
+83. [fmriprep-lts container images-dev](https://osf.io/wvz3e/)
+84. [fmriprep-reproducibility-results](https://osf.io/qr26u/)
+85. [nobrainer-trained-models](https://osf.io/qpxad/)
+86. [nuisance-QA-data](https://osf.io/dj2gf/)
+87. [our-study-data](https://osf.io/wv2zh/)
+88. [raw-file-test](https://osf.io/9tp7k/)
+89. [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/)
+90. [simulate-cbma](https://osf.io/9jbhg/)
+91. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
+92. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
+93. [studyforrest-speechannotation](https://osf.io/f5j3e/)
+94. [sub-219_bids_datalad](https://osf.io/86d3a/)
+95. [test-sibling](https://osf.io/5z4km/)
+96. [test-zarr](https://osf.io/84gbt/)
+97. [testexport](https://osf.io/d5b8c/)
+98. [testexport2](https://osf.io/kjpqa/)
+99. [vandam-daylong](https://osf.io/6w3sq/)
 ## Gone
 1. [CONP-Neurocon](https://osf.io/6kbmt/)
 2. [Taowu](https://osf.io/qubep/)

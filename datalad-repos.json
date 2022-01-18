@@ -6825,7 +6825,7 @@
         {
             "name": "datalad-datasets/machinelearning-books",
             "url": "https://github.com/datalad-datasets/machinelearning-books",
-            "stars": 106,
+            "stars": 107,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -7212,7 +7212,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 871,
+            "stars": 870,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9165,7 +9165,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 884,
+            "stars": 886,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9214,7 +9214,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "satra/coco2019-datalad",
@@ -9588,7 +9588,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8908,
+            "stars": 8912,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10245,6 +10245,12 @@
             "url": "https://osf.io/m6k2v/",
             "id": "m6k2v",
             "name": "fitlins_tests",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/cj85p/",
+            "id": "cj85p",
+            "name": "fmriprep-fuzzy",
             "status": "active"
         },
         {
