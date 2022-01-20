@@ -3585,7 +3585,7 @@
         {
             "name": "ReproNim/neurodocker",
             "url": "https://github.com/ReproNim/neurodocker",
-            "stars": 241,
+            "stars": 242,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4242,7 +4242,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 384,
+            "stars": 385,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4998,7 +4998,7 @@
         {
             "name": "dandi/dandisets",
             "url": "https://github.com/dandi/dandisets",
-            "stars": 2,
+            "stars": 4,
             "dataset": true,
             "run": true,
             "container_run": false,
@@ -7437,7 +7437,7 @@
         {
             "name": "emmetaobrien/1000GenomesProject",
             "url": "https://github.com/emmetaobrien/1000GenomesProject",
-            "stars": 1,
+            "stars": 2,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -9615,7 +9615,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8921,
+            "stars": 8927,
             "dataset": false,
             "run": true,
             "container_run": false,
