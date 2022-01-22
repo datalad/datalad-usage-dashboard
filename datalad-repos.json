@@ -2260,6 +2260,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds003425",
+            "url": "https://github.com/OpenNeuroDatasets/ds003425",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDatasets/ds003430",
             "url": "https://github.com/OpenNeuroDatasets/ds003430",
             "stars": 1,
@@ -6598,6 +6607,15 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000171",
+            "url": "https://github.com/dandisets/000171",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dandisets/000172",
             "url": "https://github.com/dandisets/000172",
             "stars": 0,
@@ -6670,6 +6688,15 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000212",
+            "url": "https://github.com/dandisets/000212",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dandisets/000213",
             "url": "https://github.com/dandisets/000213",
             "stars": 0,
@@ -6679,8 +6706,35 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000214",
+            "url": "https://github.com/dandisets/000214",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000215",
+            "url": "https://github.com/dandisets/000215",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dandisets/000216",
             "url": "https://github.com/dandisets/000216",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "dandisets/000217",
+            "url": "https://github.com/dandisets/000217",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -7239,7 +7293,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 871,
+            "stars": 872,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7410,7 +7464,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5121,
+            "stars": 5120,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8895,7 +8949,7 @@
         {
             "name": "opening-hours/opening_hours.js",
             "url": "https://github.com/opening-hours/opening_hours.js",
-            "stars": 176,
+            "stars": 177,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8958,7 +9012,7 @@
         {
             "name": "protontypes/LibreSelery",
             "url": "https://github.com/protontypes/LibreSelery",
-            "stars": 101,
+            "stars": 102,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9192,7 +9246,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 888,
+            "stars": 889,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9615,7 +9669,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8939,
+            "stars": 8943,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10281,6 +10335,12 @@
             "status": "active"
         },
         {
+            "url": "https://osf.io/k4y28/",
+            "id": "k4y28",
+            "name": "fmriprep-fuzzy-results",
+            "status": "active"
+        },
+        {
             "url": "https://osf.io/rbu92/",
             "id": "rbu92",
             "name": "fmriprep-lts container images",
@@ -10302,6 +10362,12 @@
             "url": "https://osf.io/wvz3e/",
             "id": "wvz3e",
             "name": "fmriprep-lts container images-dev",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/ur6tp/",
+            "id": "ur6tp",
+            "name": "fmriprep-reproducibility",
             "status": "active"
         },
         {
