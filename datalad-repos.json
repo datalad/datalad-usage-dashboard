@@ -7293,7 +7293,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 872,
+            "stars": 873,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7464,7 +7464,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5120,
+            "stars": 5123,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9669,7 +9669,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8943,
+            "stars": 8953,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10265,6 +10265,12 @@
         {
             "url": "https://osf.io/n6bgd/",
             "id": "n6bgd",
+            "name": "best-study-ever",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/yzura/",
+            "id": "yzura",
             "name": "best-study-ever",
             "status": "active"
         },
