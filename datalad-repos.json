@@ -30,7 +30,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 245,
+            "stars": 246,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -347,7 +347,7 @@
             "url": "https://github.com/JGuetschow/UNFCCC_non-AnnexI_data",
             "stars": 0,
             "dataset": true,
-            "run": false,
+            "run": true,
             "container_run": false,
             "status": "active"
         },
@@ -3837,7 +3837,7 @@
         {
             "name": "adswa/multimatch_gaze",
             "url": "https://github.com/adswa/multimatch_gaze",
-            "stars": 20,
+            "stars": 21,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4161,7 +4161,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 171,
+            "stars": 170,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4251,7 +4251,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 386,
+            "stars": 387,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7039,6 +7039,15 @@
             "status": "active"
         },
         {
+            "name": "datalad/datalad-cli",
+            "url": "https://github.com/datalad/datalad-cli",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "datalad/datalad-extension-template",
             "url": "https://github.com/datalad/datalad-extension-template",
             "stars": 0,
@@ -7464,7 +7473,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5123,
+            "stars": 5124,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9687,7 +9696,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8960,
+            "stars": 8972,
             "dataset": false,
             "run": true,
             "container_run": false,
