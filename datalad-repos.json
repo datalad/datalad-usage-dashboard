@@ -30,7 +30,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 246,
+            "stars": 247,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4251,7 +4251,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 387,
+            "stars": 388,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4989,7 +4989,7 @@
         {
             "name": "dandi/dandi-cli",
             "url": "https://github.com/dandi/dandi-cli",
-            "stars": 9,
+            "stars": 10,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -5007,7 +5007,7 @@
         {
             "name": "dandi/dandisets",
             "url": "https://github.com/dandi/dandisets",
-            "stars": 4,
+            "stars": 5,
             "dataset": true,
             "run": true,
             "container_run": false,
@@ -7302,7 +7302,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 874,
+            "stars": 875,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7473,7 +7473,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5124,
+            "stars": 5125,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7693,7 +7693,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "ivis-tsukioka/demo-dataset2",
@@ -7702,7 +7702,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "jasongallant/midtermproject",
@@ -8373,7 +8373,7 @@
         {
             "name": "miykael/nipype_tutorial",
             "url": "https://github.com/miykael/nipype_tutorial",
-            "stars": 86,
+            "stars": 87,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9273,7 +9273,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 888,
+            "stars": 889,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9696,7 +9696,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8972,
+            "stars": 8977,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10442,6 +10442,12 @@
         {
             "url": "https://osf.io/qr26u/",
             "id": "qr26u",
+            "name": "fmriprep-reproducibility-results",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/nydg6/",
+            "id": "nydg6",
             "name": "fmriprep-reproducibility-results",
             "status": "active"
         },
