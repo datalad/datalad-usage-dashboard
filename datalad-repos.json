@@ -30,7 +30,7 @@
         {
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 247,
+            "stars": 248,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4251,7 +4251,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 388,
+            "stars": 389,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7302,7 +7302,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 875,
+            "stars": 877,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7473,7 +7473,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5125,
+            "stars": 5129,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9039,7 +9039,7 @@
         {
             "name": "protontypes/LibreSelery",
             "url": "https://github.com/protontypes/LibreSelery",
-            "stars": 102,
+            "stars": 103,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9273,7 +9273,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 889,
+            "stars": 890,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9408,7 +9408,7 @@
         {
             "name": "templateflow/templateflow",
             "url": "https://github.com/templateflow/templateflow",
-            "stars": 36,
+            "stars": 37,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -9696,7 +9696,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8977,
+            "stars": 8998,
             "dataset": false,
             "run": true,
             "container_run": false,
