@@ -4161,7 +4161,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 170,
+            "stars": 169,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7032,7 +7032,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 276,
+            "stars": 277,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8544,7 +8544,7 @@
         {
             "name": "neurodebian/neurodebian",
             "url": "https://github.com/neurodebian/neurodebian",
-            "stars": 50,
+            "stars": 51,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8850,7 +8850,7 @@
         {
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
-            "stars": 154,
+            "stars": 153,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9003,7 +9003,7 @@
         {
             "name": "poldracklab/fitlins",
             "url": "https://github.com/poldracklab/fitlins",
-            "stars": 58,
+            "stars": 57,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9696,7 +9696,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 8998,
+            "stars": 9012,
             "dataset": false,
             "run": true,
             "container_run": false,
