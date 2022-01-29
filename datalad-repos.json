@@ -3576,7 +3576,7 @@
         {
             "name": "ReproNim/ds000003-qc",
             "url": "https://github.com/ReproNim/ds000003-qc",
-            "stars": 1,
+            "stars": 0,
             "dataset": true,
             "run": true,
             "container_run": true,
@@ -7302,7 +7302,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 877,
+            "stars": 879,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7473,7 +7473,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5129,
+            "stars": 5130,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7579,6 +7579,15 @@
             "status": "active"
         },
         {
+            "name": "fcerpe/VisualBraille_data",
+            "url": "https://github.com/fcerpe/VisualBraille_data",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "ffinazzi/odoo-docker-official",
             "url": "https://github.com/ffinazzi/odoo-docker-official",
             "stars": 0,
@@ -7617,6 +7626,15 @@
         {
             "name": "htwangtw/hrvtrt",
             "url": "https://github.com/htwangtw/hrvtrt",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "hurngchunlee/datalad-demo",
+            "url": "https://github.com/hurngchunlee/datalad-demo",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -9372,7 +9390,7 @@
         {
             "name": "sensein/kwyk-data",
             "url": "https://github.com/sensein/kwyk-data",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -9696,7 +9714,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9012,
+            "stars": 9026,
             "dataset": false,
             "run": true,
             "container_run": false,
