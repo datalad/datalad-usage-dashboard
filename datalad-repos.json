@@ -7302,7 +7302,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 879,
+            "stars": 880,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7626,6 +7626,15 @@
         {
             "name": "htwangtw/hrvtrt",
             "url": "https://github.com/htwangtw/hrvtrt",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "hurngchunlee/DataLad-101",
+            "url": "https://github.com/hurngchunlee/DataLad-101",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -9714,7 +9723,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9026,
+            "stars": 9038,
             "dataset": false,
             "run": true,
             "container_run": false,
