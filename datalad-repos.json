@@ -1315,6 +1315,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds002169",
+            "url": "https://github.com/OpenNeuroDatasets/ds002169",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDatasets/ds002185",
             "url": "https://github.com/OpenNeuroDatasets/ds002185",
             "stars": 0,
@@ -3594,7 +3603,7 @@
         {
             "name": "ReproNim/neurodocker",
             "url": "https://github.com/ReproNim/neurodocker",
-            "stars": 242,
+            "stars": 243,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4251,7 +4260,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 389,
+            "stars": 390,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7473,7 +7482,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5133,
+            "stars": 5134,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9723,7 +9732,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9052,
+            "stars": 9057,
             "dataset": false,
             "run": true,
             "container_run": false,
