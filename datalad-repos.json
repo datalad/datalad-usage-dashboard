@@ -955,6 +955,15 @@
             "status": "active"
         },
         {
+            "name": "OpenNeuroDatasets/ds001371",
+            "url": "https://github.com/OpenNeuroDatasets/ds001371",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "OpenNeuroDatasets/ds001399",
             "url": "https://github.com/OpenNeuroDatasets/ds001399",
             "stars": 0,
@@ -1533,6 +1542,15 @@
         {
             "name": "OpenNeuroDatasets/ds002674",
             "url": "https://github.com/OpenNeuroDatasets/ds002674",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "OpenNeuroDatasets/ds002684",
+            "url": "https://github.com/OpenNeuroDatasets/ds002684",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -2127,6 +2145,15 @@
         {
             "name": "OpenNeuroDatasets/ds003338",
             "url": "https://github.com/OpenNeuroDatasets/ds003338",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "OpenNeuroDatasets/ds003340",
+            "url": "https://github.com/OpenNeuroDatasets/ds003340",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -4170,7 +4197,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 169,
+            "stars": 170,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6751,6 +6778,15 @@
             "status": "active"
         },
         {
+            "name": "dandisets/000220",
+            "url": "https://github.com/dandisets/000220",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "dartmouth-pbs/psyc161-wi19-srv",
             "url": "https://github.com/dartmouth-pbs/psyc161-wi19-srv",
             "stars": 0,
@@ -7311,7 +7347,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 880,
+            "stars": 881,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8263,6 +8299,15 @@
             "status": "active"
         },
         {
+            "name": "marcobarilari/CPP_SPM-yoda-demos",
+            "url": "https://github.com/marcobarilari/CPP_SPM-yoda-demos",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "mathdugre/BigBrain_3DROIs",
             "url": "https://github.com/mathdugre/BigBrain_3DROIs",
             "stars": 0,
@@ -8464,6 +8509,15 @@
             "name": "moloney/dcmstack",
             "url": "https://github.com/moloney/dcmstack",
             "stars": 72,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "mschoettner/midtermproject",
+            "url": "https://github.com/mschoettner/midtermproject",
+            "stars": 0,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9732,7 +9786,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9057,
+            "stars": 9061,
             "dataset": false,
             "run": true,
             "container_run": false,
