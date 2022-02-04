@@ -4287,7 +4287,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 390,
+            "stars": 391,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7347,7 +7347,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 881,
+            "stars": 882,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8518,7 +8518,7 @@
             "name": "mschoettner/midtermproject",
             "url": "https://github.com/mschoettner/midtermproject",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -9786,7 +9786,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9061,
+            "stars": 9069,
             "dataset": false,
             "run": true,
             "container_run": false,
