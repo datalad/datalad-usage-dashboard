@@ -7554,7 +7554,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5138,
+            "stars": 5139,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9102,7 +9102,7 @@
         {
             "name": "opening-hours/opening_hours.js",
             "url": "https://github.com/opening-hours/opening_hours.js",
-            "stars": 177,
+            "stars": 178,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9165,7 +9165,7 @@
         {
             "name": "protontypes/LibreSelery",
             "url": "https://github.com/protontypes/LibreSelery",
-            "stars": 104,
+            "stars": 105,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9822,7 +9822,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9077,
+            "stars": 9085,
             "dataset": false,
             "run": true,
             "container_run": false,
