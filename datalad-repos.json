@@ -7383,7 +7383,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 882,
+            "stars": 884,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9822,7 +9822,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9085,
+            "stars": 9097,
             "dataset": false,
             "run": true,
             "container_run": false,
