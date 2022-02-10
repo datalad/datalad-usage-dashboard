@@ -7554,7 +7554,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5139,
+            "stars": 5140,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9399,7 +9399,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 891,
+            "stars": 892,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9822,7 +9822,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9097,
+            "stars": 9104,
             "dataset": false,
             "run": true,
             "container_run": false,
