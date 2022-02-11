@@ -4314,7 +4314,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 391,
+            "stars": 392,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7554,7 +7554,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5140,
+            "stars": 5142,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8490,7 +8490,7 @@
         {
             "name": "miykael/nipype_tutorial",
             "url": "https://github.com/miykael/nipype_tutorial",
-            "stars": 87,
+            "stars": 88,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9165,7 +9165,7 @@
         {
             "name": "protontypes/LibreSelery",
             "url": "https://github.com/protontypes/LibreSelery",
-            "stars": 105,
+            "stars": 106,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9534,7 +9534,7 @@
         {
             "name": "templateflow/templateflow",
             "url": "https://github.com/templateflow/templateflow",
-            "stars": 37,
+            "stars": 38,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -9822,7 +9822,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9104,
+            "stars": 9117,
             "dataset": false,
             "run": true,
             "container_run": false,
