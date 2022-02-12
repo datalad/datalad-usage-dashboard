@@ -4224,7 +4224,7 @@
         {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 171,
+            "stars": 170,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4503,6 +4503,15 @@
         {
             "name": "conp-bot/conp-dataset-Fork-of-Calgary-Preschool-MRI-Dataset",
             "url": "https://github.com/conp-bot/conp-dataset-Fork-of-Calgary-Preschool-MRI-Dataset",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "conp-bot/conp-dataset-Item-specific-overlap-between-hallucinatory-experiences-and-cognition-in-the-general-po",
+            "url": "https://github.com/conp-bot/conp-dataset-Item-specific-overlap-between-hallucinatory-experiences-and-cognition-in-the-general-po",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -7383,7 +7392,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 884,
+            "stars": 885,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9399,7 +9408,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 892,
+            "stars": 893,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9822,7 +9831,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9117,
+            "stars": 9131,
             "dataset": false,
             "run": true,
             "container_run": false,
