@@ -9831,7 +9831,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9131,
+            "stars": 9139,
             "dataset": false,
             "run": true,
             "container_run": false,
