@@ -4377,7 +4377,7 @@
         {
             "name": "bioimagesuiteweb/bisweb",
             "url": "https://github.com/bioimagesuiteweb/bisweb",
-            "stars": 60,
+            "stars": 61,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4405,6 +4405,15 @@
             "name": "brainhack-school2020/stephaniealley_bhs2020_project",
             "url": "https://github.com/brainhack-school2020/stephaniealley_bhs2020_project",
             "stars": 1,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "name": "chrhaeusler/studyforrest-speechannotation",
+            "url": "https://github.com/chrhaeusler/studyforrest-speechannotation",
+            "stars": 0,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7255,6 +7264,15 @@
             "status": "active"
         },
         {
+            "name": "datalad/datalad-neuroimaging",
+            "url": "https://github.com/datalad/datalad-neuroimaging",
+            "stars": 14,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "datalad/datalad-paper-joss",
             "url": "https://github.com/datalad/datalad-paper-joss",
             "stars": 2,
@@ -7644,7 +7662,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5142,
+            "stars": 5143,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9912,7 +9930,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9154,
+            "stars": 9165,
             "dataset": false,
             "run": true,
             "container_run": false,
