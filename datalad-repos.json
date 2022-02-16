@@ -7491,7 +7491,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 885,
+            "stars": 886,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7662,7 +7662,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5143,
+            "stars": 5145,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9084,7 +9084,7 @@
         {
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
-            "stars": 154,
+            "stars": 155,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9930,7 +9930,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9165,
+            "stars": 9169,
             "dataset": false,
             "run": true,
             "container_run": false,
