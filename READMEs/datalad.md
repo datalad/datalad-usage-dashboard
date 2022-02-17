@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (29) | Stars (318) | Dataset (20) | `run` (11) | `containers-run` |
+| # | Repository (29) | Stars (322) | Dataset (20) | `run` (11) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 0 |  | :heavy_check_mark: |  |
-| 2 | [datalad/datalad](https://github.com/datalad/datalad) | 278 |  | :heavy_check_mark: |  |
+| 2 | [datalad/datalad](https://github.com/datalad/datalad) | 281 |  | :heavy_check_mark: |  |
 | 3 | [datalad/datalad-cli](https://github.com/datalad/datalad-cli) | 0 |  | :heavy_check_mark: |  |
 | 4 | [datalad/datalad-extension-template](https://github.com/datalad/datalad-extension-template) | 0 |  | :heavy_check_mark: |  |
 | 5 | [datalad/datalad-extensions](https://github.com/datalad/datalad-extensions) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -16,7 +16,7 @@
 | 13 | [datalad/datasets.datalad.org--labs](https://github.com/datalad/datasets.datalad.org--labs) | 0 | :heavy_check_mark: |  |  |
 | 14 | [datalad/example-dicom-functional](https://github.com/datalad/example-dicom-functional) | 1 | :heavy_check_mark: |  |  |
 | 15 | [datalad/example-dicom-structural](https://github.com/datalad/example-dicom-structural) | 2 | :heavy_check_mark: |  |  |
-| 16 | [datalad/git-annex](https://github.com/datalad/git-annex) | 1 |  | :heavy_check_mark: |  |
+| 16 | [datalad/git-annex](https://github.com/datalad/git-annex) | 2 |  | :heavy_check_mark: |  |
 | 17 | [datalad/hcp-100307-test](https://github.com/datalad/hcp-100307-test) | 1 | :heavy_check_mark: |  |  |
 | 18 | [datalad/packages](https://github.com/datalad/packages) | 0 | :heavy_check_mark: |  |  |
 | 19 | [datalad/ria-tools](https://github.com/datalad/ria-tools) | 1 | :heavy_check_mark: |  |  |
