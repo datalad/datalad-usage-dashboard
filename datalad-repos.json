@@ -4294,6 +4294,15 @@
             "status": "active"
         },
         {
+            "name": "bids-standard/bids-schema",
+            "url": "https://github.com/bids-standard/bids-schema",
+            "stars": 2,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
             "stars": 170,
@@ -4386,7 +4395,7 @@
         {
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 393,
+            "stars": 394,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7212,7 +7221,7 @@
         {
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 281,
+            "stars": 282,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7491,7 +7500,7 @@
         {
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 887,
+            "stars": 888,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7662,7 +7671,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5144,
+            "stars": 5148,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9507,7 +9516,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 893,
+            "stars": 894,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9930,7 +9939,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9174,
+            "stars": 9179,
             "dataset": false,
             "run": true,
             "container_run": false,
