@@ -7671,7 +7671,7 @@
         {
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5148,
+            "stars": 5152,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8728,7 +8728,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "name": "mvdoc/famface_data",
@@ -9516,7 +9516,7 @@
         {
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 894,
+            "stars": 895,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9939,7 +9939,7 @@
         {
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9179,
+            "stars": 9184,
             "dataset": false,
             "run": true,
             "container_run": false,
