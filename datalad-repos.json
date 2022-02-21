@@ -12,16 +12,6 @@
         },
         {
             "id": 412343227,
-            "name": "AKSoo/abcd_utils",
-            "url": "https://github.com/AKSoo/abcd_utils",
-            "stars": 0,
-            "dataset": true,
-            "run": false,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 412343227,
             "name": "AKSoo/utils",
             "url": "https://github.com/AKSoo/utils",
             "stars": 0,
@@ -1674,6 +1664,16 @@
             "id": 318653071,
             "name": "OpenNeuroDatasets/ds002602",
             "url": "https://github.com/OpenNeuroDatasets/ds002602",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 353854254,
+            "name": "OpenNeuroDatasets/ds002606",
+            "url": "https://github.com/OpenNeuroDatasets/ds002606",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -4915,7 +4915,7 @@
             "name": "chrhaeusler/studyforrest-speechannotation",
             "url": "https://github.com/chrhaeusler/studyforrest-speechannotation",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -8034,7 +8034,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 282,
+            "stars": 283,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8534,7 +8534,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5154,
+            "stars": 5153,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10961,16 +10961,6 @@
             "status": "active"
         },
         {
-            "id": 146327667,
-            "name": "timberio/vector",
-            "url": "https://github.com/timberio/vector",
-            "stars": 7941,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 433567734,
             "name": "tkkuehn/demo-datalad-brainhack",
             "url": "https://github.com/tkkuehn/demo-datalad-brainhack",
@@ -11054,7 +11044,7 @@
             "id": 146327667,
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9188,
+            "stars": 9192,
             "dataset": false,
             "run": true,
             "container_run": false,
