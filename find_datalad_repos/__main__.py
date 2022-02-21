@@ -12,20 +12,31 @@ from .util import Status, commit, runcmd
 
 
 class GHCollectionUpdater(BaseModel):
-    all_repos: Dict[str, GHDataladRepo]
-    seen: Set[str] = Field(default_factory=set)
+    all_repos: Dict[int, GHDataladRepo]
+    #: Repos that disappeared before we started tracking IDs
+    noid_repos: List[GHDataladRepo]
+    seen: Set[int] = Field(default_factory=set)
     new_hits: int = 0
     new_repos: int = 0
     new_runs: int = 0
 
     @classmethod
     def from_collection(cls, collection: List[GHDataladRepo]) -> "GHCollectionUpdater":
-        return cls(all_repos={repo.name: repo for repo in collection})
+        all_repos: Dict[int, GHDataladRepo] = {}
+        noid_repos: List[GHDataladRepo] = []
+        for repo in collection:
+            if repo.id is not None:
+                all_repos[repo.id] = repo
+            else:
+                noid_repos.append(repo)
+        return cls(all_repos=all_repos, noid_repos=noid_repos)
 
     def register_repo(self, repo: GHDataladRepo) -> None:
-        self.seen.add(repo.name)
+        rid = repo.id
+        assert rid is not None
+        self.seen.add(rid)
         try:
-            old_repo = self.all_repos[repo.name]
+            old_repo = self.all_repos[rid]
         except KeyError:
             self.new_hits += 1
             self.new_repos += 1
@@ -42,12 +53,12 @@ class GHCollectionUpdater(BaseModel):
                     "container_run": old_repo.container_run or repo.container_run,
                 }
             )
-        self.all_repos[repo.name] = repo
+        self.all_repos[rid] = repo
 
     def get_new_collection(self, searcher: "GHDataladSearcher") -> List[GHDataladRepo]:
-        collection: List[GHDataladRepo] = []
+        collection: List[GHDataladRepo] = list(self.noid_repos)
         for repo in self.all_repos.values():
-            if repo.name in self.seen or searcher.repo_exists(repo.name):
+            if repo.id in self.seen or searcher.repo_exists(repo.name):
                 status = Status.ACTIVE
             else:
                 status = Status.GONE

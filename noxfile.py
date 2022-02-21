@@ -16,6 +16,12 @@ def diff(session):
 
 
 @nox.session
+def addids(session):
+    session.install("-r", "requirements.txt")
+    session.run("python", "-m", "find_datalad_repos.addids")
+
+
+@nox.session
 def typing(session):
     session.install("-r", "requirements.txt")
     session.install("mypy", "types-requests")
