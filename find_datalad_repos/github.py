@@ -21,6 +21,7 @@ POST_ABUSE_DELAY = 45
 
 
 class GHDataladRepo(TableRow):
+    id: Optional[int]
     name: str
     url: str
     stars: int
@@ -57,6 +58,7 @@ class GHDataladRepo(TableRow):
 
 
 class GHRepo(BaseModel):
+    id: int
     url: str
     name: str
 
@@ -65,7 +67,7 @@ class GHRepo(BaseModel):
 
     @classmethod
     def from_repository(cls, data: Dict[str, Any]) -> "GHRepo":
-        return cls(url=data["html_url"], name=data["full_name"])
+        return cls(id=data["id"], url=data["html_url"], name=data["full_name"])
 
 
 class GHDataladSearcher:
@@ -167,6 +169,7 @@ class GHDataladSearcher:
         for repo in datasets | runcmds.keys():
             results.append(
                 GHDataladRepo(
+                    id=repo.id,
                     url=repo.url,
                     name=repo.name,
                     stars=self.get_repo_stars(repo),
