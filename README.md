@@ -1,6 +1,6 @@
 # GitHub
 ## In the wild
-| # | Repository (803) | Stars (18581) | Dataset (742) | `run` (117) | `containers-run` (6) |
+| # | Repository (803) | Stars (18595) | Dataset (742) | `run` (117) | `containers-run` (6) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [AKSoo/*](https://github.com/AKSoo) [(2)](READMEs/AKSoo.md) | [0](READMEs/AKSoo.md) | [:heavy_check_mark: (2)](READMEs/AKSoo.md) | [:heavy_check_mark: (1)](READMEs/AKSoo.md) |  |
 | 2 | [AllenInstitute/AllenSDK](https://github.com/AllenInstitute/AllenSDK) | 251 |  | :heavy_check_mark: |  |
@@ -150,7 +150,7 @@
 | 146 | [tkkuehn/*](https://github.com/tkkuehn) [(6)](READMEs/tkkuehn.md) | [0](READMEs/tkkuehn.md) | [:heavy_check_mark: (6)](READMEs/tkkuehn.md) | [:heavy_check_mark: (3)](READMEs/tkkuehn.md) |  |
 | 147 | [tsankeuodelfa/midtermproject](https://github.com/tsankeuodelfa/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 148 | [vandermeerlab/labs--mvdm](https://github.com/vandermeerlab/labs--mvdm) | 0 | :heavy_check_mark: |  |  |
-| 149 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 9468 |  | :heavy_check_mark: |  |
+| 149 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 9482 |  | :heavy_check_mark: |  |
 | 150 | [xlecours/*](https://github.com/xlecours) [(2)](READMEs/xlecours.md) | [0](READMEs/xlecours.md) | [:heavy_check_mark: (2)](READMEs/xlecours.md) |  |  |
 | 151 | [yenngolam/FauseyTrio-Public-Demo](https://github.com/yenngolam/FauseyTrio-Public-Demo) | 0 | :heavy_check_mark: |  |  |
 | 152 | [zacandcheese/research](https://github.com/zacandcheese/research) | 0 | :heavy_check_mark: |  |  |
