@@ -1,10 +1,10 @@
 ## Active
-| # | Repository (17) | Stars (173) | Dataset (14) | `run` (13) | `containers-run` |
+| # | Repository (17) | Stars (173) | Dataset (15) | `run` (13) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad-datasets/disneyanimation-cloud](https://github.com/datalad-datasets/disneyanimation-cloud) | 5 | :heavy_check_mark: |  |  |
 | 2 | [datalad-datasets/hcp-7T_Movies](https://github.com/datalad-datasets/hcp-7T_Movies) | 0 |  | :heavy_check_mark: |  |
 | 3 | [datalad-datasets/hcp-functional-connectivity](https://github.com/datalad-datasets/hcp-functional-connectivity) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 4 | [datalad-datasets/hcp-structural-connectivity](https://github.com/datalad-datasets/hcp-structural-connectivity) | 0 |  | :heavy_check_mark: |  |
+| 4 | [datalad-datasets/hcp-structural-connectivity](https://github.com/datalad-datasets/hcp-structural-connectivity) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 5 | [datalad-datasets/hcp-structural-preprocessed](https://github.com/datalad-datasets/hcp-structural-preprocessed) | 2 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 6 | [datalad-datasets/hcp_MNI_T1w](https://github.com/datalad-datasets/hcp_MNI_T1w) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 7 | [datalad-datasets/hcp_emorec_preprocessed](https://github.com/datalad-datasets/hcp_emorec_preprocessed) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
