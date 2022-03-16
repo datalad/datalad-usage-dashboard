@@ -1901,6 +1901,16 @@
             "status": "active"
         },
         {
+            "id": 254235832,
+            "name": "OpenNeuroDatasets/ds002691",
+            "url": "https://github.com/OpenNeuroDatasets/ds002691",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 256591262,
             "name": "OpenNeuroDatasets/ds002712",
             "url": "https://github.com/OpenNeuroDatasets/ds002712",
@@ -2644,6 +2654,16 @@
             "id": 312058194,
             "name": "OpenNeuroDatasets/ds003374",
             "url": "https://github.com/OpenNeuroDatasets/ds003374",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 312480694,
+            "name": "OpenNeuroDatasets/ds003380",
+            "url": "https://github.com/OpenNeuroDatasets/ds003380",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -5004,7 +5024,7 @@
             "id": 73122949,
             "name": "boblemaire/IoTaWatt",
             "url": "https://github.com/boblemaire/IoTaWatt",
-            "stars": 407,
+            "stars": 408,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8371,6 +8391,16 @@
             "status": "active"
         },
         {
+            "id": 469735567,
+            "name": "datalad/talk-2022-abcd",
+            "url": "https://github.com/datalad/talk-2022-abcd",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 236928463,
             "name": "datalad/talk-fosdem-2020",
             "url": "https://github.com/datalad/talk-fosdem-2020",
@@ -8704,7 +8734,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5188,
+            "stars": 5189,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -11214,7 +11244,7 @@
             "id": 146327667,
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9563,
+            "stars": 9570,
             "dataset": false,
             "run": true,
             "container_run": false,

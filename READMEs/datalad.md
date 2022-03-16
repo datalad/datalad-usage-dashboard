@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (30) | Stars (335) | Dataset (20) | `run` (12) | `containers-run` |
+| # | Repository (31) | Stars (335) | Dataset (21) | `run` (12) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 0 |  | :heavy_check_mark: |  |
 | 2 | [datalad/datalad](https://github.com/datalad/datalad) | 292 |  | :heavy_check_mark: |  |
@@ -22,15 +22,16 @@
 | 19 | [datalad/ria-tools](https://github.com/datalad/ria-tools) | 1 | :heavy_check_mark: |  |  |
 | 20 | [datalad/screencaster](https://github.com/datalad/screencaster) | 0 |  | :heavy_check_mark: |  |
 | 21 | [datalad/talk-2019-mila](https://github.com/datalad/talk-2019-mila) | 4 | :heavy_check_mark: |  |  |
-| 22 | [datalad/talk-fosdem-2020](https://github.com/datalad/talk-fosdem-2020) | 0 | :heavy_check_mark: |  |  |
-| 23 | [datalad/talk-openneuro-2018](https://github.com/datalad/talk-openneuro-2018) | 1 | :heavy_check_mark: |  |  |
-| 24 | [datalad/talks](https://github.com/datalad/talks) | 0 | :heavy_check_mark: |  |  |
-| 25 | [datalad/testrepo--minimalds](https://github.com/datalad/testrepo--minimalds) | 0 | :heavy_check_mark: |  |  |
-| 26 | [datalad/testrepo--minimalds-osf](https://github.com/datalad/testrepo--minimalds-osf) | 0 | :heavy_check_mark: |  |  |
-| 27 | [datalad/testrepo_gh](https://github.com/datalad/testrepo_gh) | 0 | :heavy_check_mark: |  |  |
-| 28 | [datalad/testrepo_gh-sub__1](https://github.com/datalad/testrepo_gh-sub__1) | 0 | :heavy_check_mark: |  |  |
-| 29 | [datalad/testrepo_gh-sub__1-d-sub_-_1](https://github.com/datalad/testrepo_gh-sub__1-d-sub_-_1) | 0 | :heavy_check_mark: |  |  |
-| 30 | [datalad/videos-onlinebrainintensive-2017](https://github.com/datalad/videos-onlinebrainintensive-2017) | 2 | :heavy_check_mark: |  |  |
+| 22 | [datalad/talk-2022-abcd](https://github.com/datalad/talk-2022-abcd) | 0 | :heavy_check_mark: |  |  |
+| 23 | [datalad/talk-fosdem-2020](https://github.com/datalad/talk-fosdem-2020) | 0 | :heavy_check_mark: |  |  |
+| 24 | [datalad/talk-openneuro-2018](https://github.com/datalad/talk-openneuro-2018) | 1 | :heavy_check_mark: |  |  |
+| 25 | [datalad/talks](https://github.com/datalad/talks) | 0 | :heavy_check_mark: |  |  |
+| 26 | [datalad/testrepo--minimalds](https://github.com/datalad/testrepo--minimalds) | 0 | :heavy_check_mark: |  |  |
+| 27 | [datalad/testrepo--minimalds-osf](https://github.com/datalad/testrepo--minimalds-osf) | 0 | :heavy_check_mark: |  |  |
+| 28 | [datalad/testrepo_gh](https://github.com/datalad/testrepo_gh) | 0 | :heavy_check_mark: |  |  |
+| 29 | [datalad/testrepo_gh-sub__1](https://github.com/datalad/testrepo_gh-sub__1) | 0 | :heavy_check_mark: |  |  |
+| 30 | [datalad/testrepo_gh-sub__1-d-sub_-_1](https://github.com/datalad/testrepo_gh-sub__1-d-sub_-_1) | 0 | :heavy_check_mark: |  |  |
+| 31 | [datalad/videos-onlinebrainintensive-2017](https://github.com/datalad/videos-onlinebrainintensive-2017) | 2 | :heavy_check_mark: |  |  |
 
 ## Gone
 No repositories found!
