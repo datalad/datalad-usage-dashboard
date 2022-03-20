@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (21) | Stars (1) | Dataset (21) | `run` (2) | `containers-run` |
+| # | Repository (22) | Stars (1) | Dataset (22) | `run` (2) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [nipreps-data/HCP101006](https://github.com/nipreps-data/HCP101006) | 0 | :heavy_check_mark: |  |  |
 | 2 | [nipreps-data/HCP101006-derivatives](https://github.com/nipreps-data/HCP101006-derivatives) | 0 | :heavy_check_mark: |  |  |
@@ -22,6 +22,7 @@
 | 19 | [nipreps-data/nirodents-bold-se](https://github.com/nipreps-data/nirodents-bold-se) | 0 | :heavy_check_mark: |  |  |
 | 20 | [nipreps-data/nirodents-bold-se-derivatives](https://github.com/nipreps-data/nirodents-bold-se-derivatives) | 0 | :heavy_check_mark: |  |  |
 | 21 | [nipreps-data/nitransforms-tests](https://github.com/nipreps-data/nitransforms-tests) | 0 | :heavy_check_mark: |  |  |
+| 22 | [nipreps-data/niworkflows-data](https://github.com/nipreps-data/niworkflows-data) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
 No repositories found!

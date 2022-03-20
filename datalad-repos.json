@@ -24,7 +24,7 @@
             "id": 35236880,
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 254,
+            "stars": 255,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4151,6 +4151,16 @@
             "status": "active"
         },
         {
+            "id": 469047048,
+            "name": "Remi-Gau/analysis_high-res_pilot001_ses-002_retinotopy",
+            "url": "https://github.com/Remi-Gau/analysis_high-res_pilot001_ses-002_retinotopy",
+            "stars": 1,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 379151389,
             "name": "Remi-Gau/miss_hit-gallery",
             "url": "https://github.com/Remi-Gau/miss_hit-gallery",
@@ -8194,7 +8204,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 292,
+            "stars": 293,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8544,7 +8554,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 897,
+            "stars": 899,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10311,6 +10321,16 @@
             "status": "active"
         },
         {
+            "id": 471489832,
+            "name": "nipreps-data/niworkflows-data",
+            "url": "https://github.com/nipreps-data/niworkflows-data",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 42650211,
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
@@ -10524,7 +10544,7 @@
             "id": 230329400,
             "name": "protontypes/LibreSelery",
             "url": "https://github.com/protontypes/LibreSelery",
-            "stars": 108,
+            "stars": 109,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -11244,7 +11264,7 @@
             "id": 146327667,
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9589,
+            "stars": 9597,
             "dataset": false,
             "run": true,
             "container_run": false,
