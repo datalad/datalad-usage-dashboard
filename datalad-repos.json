@@ -24,7 +24,7 @@
             "id": 35236880,
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 255,
+            "stars": 257,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8744,7 +8744,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5199,
+            "stars": 5201,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10544,7 +10544,7 @@
             "id": 230329400,
             "name": "protontypes/LibreSelery",
             "url": "https://github.com/protontypes/LibreSelery",
-            "stars": 109,
+            "stars": 110,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -11264,7 +11264,7 @@
             "id": 146327667,
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9603,
+            "stars": 9610,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -11944,6 +11944,12 @@
             "url": "https://osf.io/k4jdw/",
             "id": "k4jdw",
             "name": "eegelevation-freefield",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/cgjzw/",
+            "id": "cgjzw",
+            "name": "fMRIPrep reproducibility reference",
             "status": "active"
         },
         {
