@@ -4181,6 +4181,16 @@
             "status": "active"
         },
         {
+            "id": 476034238,
+            "name": "Remi-Gau/analysis_high-res_pilot_nighres",
+            "url": "https://github.com/Remi-Gau/analysis_high-res_pilot_nighres",
+            "stars": 1,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 379151389,
             "name": "Remi-Gau/miss_hit-gallery",
             "url": "https://github.com/Remi-Gau/miss_hit-gallery",
@@ -4455,6 +4465,16 @@
             "name": "SIMEXP/fmriprep-reproducibility",
             "url": "https://github.com/SIMEXP/fmriprep-reproducibility",
             "stars": 2,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 473278934,
+            "name": "SIMEXP/fmriprep-reproducibility-reference",
+            "url": "https://github.com/SIMEXP/fmriprep-reproducibility-reference",
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -8321,6 +8341,16 @@
             "status": "active"
         },
         {
+            "id": 475800986,
+            "name": "datalad/datalad-next",
+            "url": "https://github.com/datalad/datalad-next",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 237608373,
             "name": "datalad/datalad-paper-joss",
             "url": "https://github.com/datalad/datalad-paper-joss",
@@ -8604,7 +8634,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 904,
+            "stars": 905,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8794,7 +8824,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5212,
+            "stars": 5211,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -11061,6 +11091,16 @@
             "status": "active"
         },
         {
+            "id": 476024628,
+            "name": "templateflow/tpl-MNI152NLin2009bAsym",
+            "url": "https://github.com/templateflow/tpl-MNI152NLin2009bAsym",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 153512504,
             "name": "templateflow/tpl-MNI152NLin2009cAsym",
             "url": "https://github.com/templateflow/tpl-MNI152NLin2009cAsym",
@@ -11344,7 +11384,7 @@
             "id": 146327667,
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9675,
+            "stars": 9676,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -11916,6 +11956,42 @@
             "url": "https://osf.io/r283d/",
             "id": "r283d",
             "name": "TemplateFlow resource: ",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/au48f/",
+            "id": "au48f",
+            "name": "TemplateFlow resource:  (RRID: SCR_008796)",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/52nvd/",
+            "id": "52nvd",
+            "name": "TemplateFlow resource:  (RRID: SCR_008796)",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/8hftb/",
+            "id": "8hftb",
+            "name": "TemplateFlow resource:  (RRID: SCR_008796)",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/dcjbe/",
+            "id": "dcjbe",
+            "name": "TemplateFlow resource:  (RRID: SCR_008796)",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/7zr49/",
+            "id": "7zr49",
+            "name": "TemplateFlow resource:  (RRID: SCR_008796)",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/u48nt/",
+            "id": "u48nt",
+            "name": "TemplateFlow resource:  (RRID: SCR_008796)",
             "status": "active"
         },
         {
