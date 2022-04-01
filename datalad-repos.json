@@ -7951,6 +7951,16 @@
             "status": "active"
         },
         {
+            "id": 476517822,
+            "name": "dandisets/000228",
+            "url": "https://github.com/dandisets/000228",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 164284374,
             "name": "dartmouth-pbs/psyc161-wi19-srv",
             "url": "https://github.com/dartmouth-pbs/psyc161-wi19-srv",
@@ -8264,7 +8274,7 @@
             "id": 26299473,
             "name": "datalad/artwork",
             "url": "https://github.com/datalad/artwork",
-            "stars": 0,
+            "stars": 1,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8386,7 +8396,7 @@
             "url": "https://github.com/datalad/datasets.datalad.org",
             "stars": 4,
             "dataset": true,
-            "run": false,
+            "run": true,
             "container_run": false,
             "status": "active"
         },
@@ -8634,7 +8644,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 905,
+            "stars": 904,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8824,7 +8834,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5211,
+            "stars": 5210,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10511,6 +10521,16 @@
             "status": "active"
         },
         {
+            "id": 476008866,
+            "name": "oesteban/tpl-MNI152NLin2009aSym",
+            "url": "https://github.com/oesteban/tpl-MNI152NLin2009aSym",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 445124783,
             "name": "oesteban/tpl-MNI25Macaque",
             "url": "https://github.com/oesteban/tpl-MNI25Macaque",
@@ -10914,7 +10934,7 @@
             "id": 2784866,
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 914,
+            "stars": 915,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -11384,7 +11404,7 @@
             "id": 146327667,
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9676,
+            "stars": 9688,
             "dataset": false,
             "run": true,
             "container_run": false,

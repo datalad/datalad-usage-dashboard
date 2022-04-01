@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (31) | Stars (336) | Dataset (21) | `run` (12) | `containers-run` |
+| # | Repository (31) | Stars (337) | Dataset (21) | `run` (13) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [datalad/artwork](https://github.com/datalad/artwork) | 0 |  | :heavy_check_mark: |  |
+| 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  |
 | 2 | [datalad/datalad](https://github.com/datalad/datalad) | 293 |  | :heavy_check_mark: |  |
 | 3 | [datalad/datalad-extension-template](https://github.com/datalad/datalad-extension-template) | 0 |  | :heavy_check_mark: |  |
 | 4 | [datalad/datalad-extensions](https://github.com/datalad/datalad-extensions) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -12,7 +12,7 @@
 | 9 | [datalad/datalad-paper-joss](https://github.com/datalad/datalad-paper-joss) | 3 | :heavy_check_mark: |  |  |
 | 10 | [datalad/datalad-revolution](https://github.com/datalad/datalad-revolution) | 4 |  | :heavy_check_mark: |  |
 | 11 | [datalad/datalad-xnat](https://github.com/datalad/datalad-xnat) | 2 |  | :heavy_check_mark: |  |
-| 12 | [datalad/datasets.datalad.org](https://github.com/datalad/datasets.datalad.org) | 4 | :heavy_check_mark: |  |  |
+| 12 | [datalad/datasets.datalad.org](https://github.com/datalad/datasets.datalad.org) | 4 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 13 | [datalad/datasets.datalad.org--labs](https://github.com/datalad/datasets.datalad.org--labs) | 0 | :heavy_check_mark: |  |  |
 | 14 | [datalad/example-dicom-functional](https://github.com/datalad/example-dicom-functional) | 1 | :heavy_check_mark: |  |  |
 | 15 | [datalad/example-dicom-structural](https://github.com/datalad/example-dicom-structural) | 2 | :heavy_check_mark: |  |  |
