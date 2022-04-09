@@ -5,7 +5,7 @@
 | 2 | [dandi/dandi-api-webshots](https://github.com/dandi/dandi-api-webshots) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 3 | [dandi/dandi-api-webshots-staging](https://github.com/dandi/dandi-api-webshots-staging) | 0 | :heavy_check_mark: |  |  |
 | 4 | [dandi/dandi-cli](https://github.com/dandi/dandi-cli) | 10 |  | :heavy_check_mark: |  |
-| 5 | [dandi/dandischema](https://github.com/dandi/dandischema) | 1 |  | :heavy_check_mark: |  |
+| 5 | [dandi/dandi-schema](https://github.com/dandi/dandi-schema) | 1 |  | :heavy_check_mark: |  |
 | 6 | [dandi/dandisets](https://github.com/dandi/dandisets) | 6 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 7 | [dandi/metadata-dumps](https://github.com/dandi/metadata-dumps) | 0 |  | :heavy_check_mark: |  |
 | 8 | [dandi/ndx-dandi](https://github.com/dandi/ndx-dandi) | 0 |  | :heavy_check_mark: |  |
