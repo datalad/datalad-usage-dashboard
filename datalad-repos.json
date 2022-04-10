@@ -3891,6 +3891,16 @@
             "status": "active"
         },
         {
+            "id": 478817794,
+            "name": "OpenNeuroDatasets/ds003717",
+            "url": "https://github.com/OpenNeuroDatasets/ds003717",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 395049550,
             "name": "OpenNeuroDatasets/ds003720",
             "url": "https://github.com/OpenNeuroDatasets/ds003720",
@@ -8001,6 +8011,16 @@
             "status": "active"
         },
         {
+            "id": 477685788,
+            "name": "dandisets/000230",
+            "url": "https://github.com/dandisets/000230",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 164284374,
             "name": "dartmouth-pbs/psyc161-wi19-srv",
             "url": "https://github.com/dartmouth-pbs/psyc161-wi19-srv",
@@ -9075,7 +9095,7 @@
             "name": "icubr/repro-paper-hippocampal-volumes",
             "url": "https://github.com/icubr/repro-paper-hippocampal-volumes",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": true,
             "status": "active"
@@ -10711,6 +10731,16 @@
             "status": "active"
         },
         {
+            "id": 479333457,
+            "name": "pni-data/hcp-connectivity",
+            "url": "https://github.com/pni-data/hcp-connectivity",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 108019675,
             "name": "poldracklab/fitlins",
             "url": "https://github.com/poldracklab/fitlins",
@@ -11014,7 +11044,7 @@
             "id": 2784866,
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 917,
+            "stars": 918,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -11504,7 +11534,7 @@
             "id": 146327667,
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9740,
+            "stars": 9744,
             "dataset": false,
             "run": true,
             "container_run": false,
