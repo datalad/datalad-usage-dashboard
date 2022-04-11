@@ -8344,7 +8344,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 300,
+            "stars": 301,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8894,7 +8894,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5223,
+            "stars": 5231,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -11251,6 +11251,16 @@
             "status": "active"
         },
         {
+            "id": 476021512,
+            "name": "templateflow/tpl-MNI152NLin2009bSym",
+            "url": "https://github.com/templateflow/tpl-MNI152NLin2009bSym",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 153512504,
             "name": "templateflow/tpl-MNI152NLin2009cAsym",
             "url": "https://github.com/templateflow/tpl-MNI152NLin2009cAsym",
@@ -11534,7 +11544,7 @@
             "id": 146327667,
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
-            "stars": 9744,
+            "stars": 9750,
             "dataset": false,
             "run": true,
             "container_run": false,
