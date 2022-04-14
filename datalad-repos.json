@@ -4121,6 +4121,16 @@
             "status": "active"
         },
         {
+            "id": 481250177,
+            "name": "PennLINC/dMRI_HMC_Benchmark",
+            "url": "https://github.com/PennLINC/dMRI_HMC_Benchmark",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 350755478,
             "name": "PennSIVE/UVMdata",
             "url": "https://github.com/PennSIVE/UVMdata",
@@ -8344,7 +8354,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 301,
+            "stars": 302,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8704,7 +8714,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 910,
+            "stars": 912,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8894,7 +8904,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5253,
+            "stars": 5257,
             "dataset": false,
             "run": true,
             "container_run": false,
