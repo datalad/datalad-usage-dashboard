@@ -794,7 +794,7 @@
             "id": 227712616,
             "name": "OpenNeuroDatasets/ds000113",
             "url": "https://github.com/OpenNeuroDatasets/ds000113",
-            "stars": 3,
+            "stars": 4,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -4344,7 +4344,7 @@
             "id": 88654995,
             "name": "ReproNim/neurodocker",
             "url": "https://github.com/ReproNim/neurodocker",
-            "stars": 252,
+            "stars": 253,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -11224,7 +11224,7 @@
             "id": 153740623,
             "name": "templateflow/tpl-MNI152Lin",
             "url": "https://github.com/templateflow/tpl-MNI152Lin",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -12258,6 +12258,12 @@
             "url": "https://osf.io/g4szy/",
             "id": "g4szy",
             "name": "bsd7",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/7twne/",
+            "id": "7twne",
+            "name": "dMRI-HMC-phantom-results",
             "status": "active"
         },
         {
