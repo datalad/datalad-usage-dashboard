@@ -8421,6 +8421,16 @@
             "status": "gone"
         },
         {
+            "id": 301498716,
+            "name": "datalad/datalad-ebrains",
+            "url": "https://github.com/datalad/datalad-ebrains",
+            "stars": 1,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 125898508,
             "name": "datalad/datalad-extension-template",
             "url": "https://github.com/datalad/datalad-extension-template",
@@ -8954,7 +8964,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5276,
+            "stars": 5279,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10224,7 +10234,7 @@
             "id": 22889758,
             "name": "neurodebian/dockerfiles",
             "url": "https://github.com/neurodebian/dockerfiles",
-            "stars": 11,
+            "stars": 12,
             "dataset": false,
             "run": true,
             "container_run": false,
