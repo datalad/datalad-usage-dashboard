@@ -9034,7 +9034,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5284,
+            "stars": 5285,
             "dataset": false,
             "run": true,
             "container_run": false,
