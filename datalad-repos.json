@@ -524,7 +524,7 @@
             "id": 349042590,
             "name": "LAAC-LSCP/datalad-procedures",
             "url": "https://github.com/LAAC-LSCP/datalad-procedures",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -8191,6 +8191,16 @@
             "status": "active"
         },
         {
+            "id": 490779796,
+            "name": "dandisets/000246",
+            "url": "https://github.com/dandisets/000246",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 164284374,
             "name": "dartmouth-pbs/psyc161-wi19-srv",
             "url": "https://github.com/dartmouth-pbs/psyc161-wi19-srv",
@@ -9084,7 +9094,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5300,
+            "stars": 5302,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -11244,7 +11254,7 @@
             "id": 2784866,
             "name": "python-versioneer/python-versioneer",
             "url": "https://github.com/python-versioneer/python-versioneer",
-            "stars": 928,
+            "stars": 927,
             "dataset": false,
             "run": true,
             "container_run": false,
