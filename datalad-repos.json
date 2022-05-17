@@ -8374,7 +8374,7 @@
             "id": 235965468,
             "name": "datalad-datasets/human-connectome-project-openaccess",
             "url": "https://github.com/datalad-datasets/human-connectome-project-openaccess",
-            "stars": 23,
+            "stars": 24,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -8554,7 +8554,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 315,
+            "stars": 316,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9114,7 +9114,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5303,
+            "stars": 5308,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -12675,9 +12675,57 @@
             "status": "active"
         },
         {
+            "url": "https://osf.io/hp6t7/",
+            "id": "hp6t7",
+            "name": "our-study-data",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/ncqk5/",
+            "id": "ncqk5",
+            "name": "our-study-data2",
+            "status": "active"
+        },
+        {
             "url": "https://osf.io/9tp7k/",
             "id": "9tp7k",
             "name": "raw-file-test",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/86ewk/",
+            "id": "86ewk",
+            "name": "sc-candida_paper",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/4gb6q/",
+            "id": "4gb6q",
+            "name": "sc-candida_paper",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/awjh9/",
+            "id": "awjh9",
+            "name": "sc-candida_paper",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/p528d/",
+            "id": "p528d",
+            "name": "sc-candida_paper",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/xhzkg/",
+            "id": "xhzkg",
+            "name": "sc-candida_paper",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/bqr4z/",
+            "id": "bqr4z",
+            "name": "sc-candida_paper",
             "status": "active"
         },
         {
