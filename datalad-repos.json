@@ -54,7 +54,7 @@
             "id": 133562591,
             "name": "CONP-PCNO/conp-dataset",
             "url": "https://github.com/CONP-PCNO/conp-dataset",
-            "stars": 16,
+            "stars": 17,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -4611,6 +4611,16 @@
             "status": "active"
         },
         {
+            "id": 493410132,
+            "name": "Titicia/handedness",
+            "url": "https://github.com/Titicia/handedness",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 197158927,
             "name": "TobiasKadelka/123420",
             "url": "https://github.com/TobiasKadelka/123420",
@@ -8211,6 +8221,16 @@
             "status": "active"
         },
         {
+            "id": 490779704,
+            "name": "dandisets/000245",
+            "url": "https://github.com/dandisets/000245",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 490779796,
             "name": "dandisets/000246",
             "url": "https://github.com/dandisets/000246",
@@ -8924,7 +8944,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 919,
+            "stars": 920,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9114,7 +9134,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5308,
+            "stars": 5309,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10944,7 +10964,7 @@
             "id": 12008088,
             "name": "opening-hours/opening_hours.js",
             "url": "https://github.com/opening-hours/opening_hours.js",
-            "stars": 183,
+            "stars": 184,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -12725,6 +12745,12 @@
         {
             "url": "https://osf.io/bqr4z/",
             "id": "bqr4z",
+            "name": "sc-candida_paper",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/d7ufz/",
+            "id": "d7ufz",
             "name": "sc-candida_paper",
             "status": "active"
         },
