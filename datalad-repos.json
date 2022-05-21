@@ -4161,6 +4161,16 @@
             "status": "active"
         },
         {
+            "id": 492994179,
+            "name": "OpenNeuroDerivatives/ds000102-mriqc",
+            "url": "https://github.com/OpenNeuroDerivatives/ds000102-mriqc",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 141178156,
             "name": "OpenNeuroDev/ds001010",
             "url": "https://github.com/OpenNeuroDev/ds001010",
@@ -5394,6 +5404,16 @@
             "id": 386664177,
             "name": "connectomicslab/ds-sample-test2",
             "url": "https://github.com/connectomicslab/ds-sample-test2",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 492968884,
+            "name": "conp-bot/conp-dataset-An-interactive-meta-analysis-of-MRI-biomarkers-of-myelin",
+            "url": "https://github.com/conp-bot/conp-dataset-An-interactive-meta-analysis-of-MRI-biomarkers-of-myelin",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -8954,7 +8974,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 923,
+            "stars": 924,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -11824,6 +11844,16 @@
             "id": 277647190,
             "name": "vandermeerlab/labs--mvdm",
             "url": "https://github.com/vandermeerlab/labs--mvdm",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 494105352,
+            "name": "vdumeaux/sc-candida_paper",
+            "url": "https://github.com/vdumeaux/sc-candida_paper",
             "stars": 0,
             "dataset": true,
             "run": false,
