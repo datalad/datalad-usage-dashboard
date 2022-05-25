@@ -5124,7 +5124,7 @@
             "id": 150465237,
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 172,
+            "stars": 173,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -6048,7 +6048,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": null,
@@ -8524,7 +8524,7 @@
             "id": 192547315,
             "name": "datalad-handbook/book",
             "url": "https://github.com/datalad-handbook/book",
-            "stars": 95,
+            "stars": 97,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -8941,6 +8941,86 @@
             "status": "active"
         },
         {
+            "id": 496094287,
+            "name": "datasets-mila/datasets--imagenet",
+            "url": "https://github.com/datasets-mila/datasets--imagenet",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 496093271,
+            "name": "datasets-mila/datasets--nwm",
+            "url": "https://github.com/datasets-mila/datasets--nwm",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 496093627,
+            "name": "datasets-mila/datasets--nwm--1.2--1993",
+            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1993",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 496104029,
+            "name": "datasets-mila/datasets--nwm--1.2--1994",
+            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1994",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 496104197,
+            "name": "datasets-mila/datasets--nwm--1.2--1995",
+            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1995",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 496104378,
+            "name": "datasets-mila/datasets--nwm--1.2--1996",
+            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1996",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 496104535,
+            "name": "datasets-mila/datasets--nwm--1.2--1997",
+            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1997",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 496104718,
+            "name": "datasets-mila/datasets--nwm--1.2--1998",
+            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1998",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 199922888,
             "name": "datasets-mila/mila",
             "url": "https://github.com/datasets-mila/mila",
@@ -9194,7 +9274,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5316,
+            "stars": 5319,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -12128,6 +12208,12 @@
             "url": "https://osf.io/qy84w/",
             "id": "qy84w",
             "name": "BigBrain histogram test",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/eyg8t/",
+            "id": "eyg8t",
+            "name": "CAT12.8_AOMIC-PIOP1",
             "status": "active"
         },
         {
