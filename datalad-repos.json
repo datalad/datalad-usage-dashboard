@@ -6061,6 +6061,16 @@
             "status": "gone"
         },
         {
+            "id": 496712601,
+            "name": "cryo-data/db",
+            "url": "https://github.com/cryo-data/db",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 477833196,
             "name": "cryo-data/mankoff_2020",
             "url": "https://github.com/cryo-data/mankoff_2020",
@@ -6069,6 +6079,26 @@
             "run": false,
             "container_run": false,
             "status": "gone"
+        },
+        {
+            "id": 496713428,
+            "name": "cryo-data/moon_2008_NSIDC_0642",
+            "url": "https://github.com/cryo-data/moon_2008_NSIDC_0642",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 496712767,
+            "name": "cryo-data/rennermalm_river_discharge_AK-05-001",
+            "url": "https://github.com/cryo-data/rennermalm_river_discharge_AK-05-001",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
         },
         {
             "id": 383586768,
@@ -8945,7 +8975,7 @@
             "name": "datasets-mila/datasets--imagenet",
             "url": "https://github.com/datasets-mila/datasets--imagenet",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -9025,7 +9055,7 @@
             "name": "datasets-mila/datasets--nwm--1.2--1999",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1999",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -9055,7 +9085,7 @@
             "name": "datasets-mila/datasets--nwm--1.2--2002",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2002",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -9075,7 +9105,7 @@
             "name": "datasets-mila/datasets--nwm--1.2--2004",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2004",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -9095,7 +9125,7 @@
             "name": "datasets-mila/datasets--nwm--1.2--2006",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2006",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -9135,7 +9165,7 @@
             "name": "datasets-mila/datasets--nwm--1.2--2010",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2010",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -9155,7 +9185,7 @@
             "name": "datasets-mila/datasets--nwm--1.2--2012",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2012",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -9165,7 +9195,7 @@
             "name": "datasets-mila/datasets--nwm--1.2--2013",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2013",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -9185,7 +9215,7 @@
             "name": "datasets-mila/datasets--nwm--1.2--2015",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2015",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -9202,6 +9232,16 @@
         },
         {
             "id": 496283551,
+            "name": "datasets-mila/datasets--nwm--1.2--2017",
+            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2017",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 496743097,
             "name": "datasets-mila/datasets--nwm--1.2--2017",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2017",
             "stars": 0,
@@ -9258,7 +9298,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 101479803,
@@ -9455,7 +9495,7 @@
             "name": "dnkennedy/test-github-lfs",
             "url": "https://github.com/dnkennedy/test-github-lfs",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": true,
             "status": "active"
@@ -9464,7 +9504,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5324,
+            "stars": 5327,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -12433,6 +12473,12 @@
         {
             "url": "https://osf.io/eyg8t/",
             "id": "eyg8t",
+            "name": "CAT12.8_AOMIC-PIOP1",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/b97wz/",
+            "id": "b97wz",
             "name": "CAT12.8_AOMIC-PIOP1",
             "status": "active"
         },
