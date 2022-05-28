@@ -22,7 +22,7 @@
 | 18 | [NCCR-SYNAPSY/ds-NeuroDataPubOSFTest4](https://github.com/NCCR-SYNAPSY/ds-NeuroDataPubOSFTest4) | 0 | :heavy_check_mark: |  |  |
 | 19 | [NGenetzky/*](https://github.com/NGenetzky) [(9)](READMEs/NGenetzky.md) | [1](READMEs/NGenetzky.md) | [:heavy_check_mark: (9)](READMEs/NGenetzky.md) | [:heavy_check_mark: (3)](READMEs/NGenetzky.md) |  |
 | 20 | [NilsonneData/*](https://github.com/NilsonneData) [(3)](READMEs/NilsonneData.md) | [0](READMEs/NilsonneData.md) | [:heavy_check_mark: (3)](READMEs/NilsonneData.md) |  |  |
-| 21 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(343)](READMEs/OpenNeuroDatasets.md) | [31](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (343)](READMEs/OpenNeuroDatasets.md) |  |  |
+| 21 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(343)](READMEs/OpenNeuroDatasets.md) | [30](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (343)](READMEs/OpenNeuroDatasets.md) |  |  |
 | 22 | [OpenNeuroDerivatives/*](https://github.com/OpenNeuroDerivatives) [(2)](READMEs/OpenNeuroDerivatives.md) | [0](READMEs/OpenNeuroDerivatives.md) | [:heavy_check_mark: (2)](READMEs/OpenNeuroDerivatives.md) |  |  |
 | 23 | [OpenNeuroDev/*](https://github.com/OpenNeuroDev) [(4)](READMEs/OpenNeuroDev.md) | [0](READMEs/OpenNeuroDev.md) | [:heavy_check_mark: (4)](READMEs/OpenNeuroDev.md) |  |  |
 | 24 | [PennLINC/*](https://github.com/PennLINC) [(2)](READMEs/PennLINC.md) | [1](READMEs/PennLINC.md) | [:heavy_check_mark: (2)](READMEs/PennLINC.md) | [:heavy_check_mark: (1)](READMEs/PennLINC.md) |  |
@@ -44,7 +44,7 @@
 | 40 | [axiezai/collab-git-tutorial](https://github.com/axiezai/collab-git-tutorial) | 0 |  | :heavy_check_mark: |  |
 | 41 | [beckolson/mytest](https://github.com/beckolson/mytest) | 0 | :heavy_check_mark: |  |  |
 | 42 | [bids-bep001/bep001-v1](https://github.com/bids-bep001/bep001-v1) | 0 |  | :heavy_check_mark: |  |
-| 43 | [bids-standard/*](https://github.com/bids-standard) [(5)](READMEs/bids-standard.md) | [181](READMEs/bids-standard.md) | [:heavy_check_mark: (1)](READMEs/bids-standard.md) | [:heavy_check_mark: (4)](READMEs/bids-standard.md) |  |
+| 43 | [bids-standard/*](https://github.com/bids-standard) [(5)](READMEs/bids-standard.md) | [180](READMEs/bids-standard.md) | [:heavy_check_mark: (1)](READMEs/bids-standard.md) | [:heavy_check_mark: (4)](READMEs/bids-standard.md) |  |
 | 44 | [big-data-lab-team/*](https://github.com/big-data-lab-team) [(7)](READMEs/big-data-lab-team.md) | [2](READMEs/big-data-lab-team.md) | [:heavy_check_mark: (7)](READMEs/big-data-lab-team.md) |  |  |
 | 45 | [bioimagesuiteweb/bisweb](https://github.com/bioimagesuiteweb/bisweb) | 64 |  | :heavy_check_mark: |  |
 | 46 | [boblemaire/IoTaWatt](https://github.com/boblemaire/IoTaWatt) | 415 |  | :heavy_check_mark: |  |
@@ -64,7 +64,7 @@
 | 60 | [dartmouth-pbs/psyc161-wi19-srv](https://github.com/dartmouth-pbs/psyc161-wi19-srv) | 0 | :heavy_check_mark: |  |  |
 | 61 | [datasets-mila/*](https://github.com/datasets-mila) [(30)](READMEs/datasets-mila.md) | [0](READMEs/datasets-mila.md) | [:heavy_check_mark: (13)](READMEs/datasets-mila.md) | [:heavy_check_mark: (29)](READMEs/datasets-mila.md) |  |
 | 62 | [dcasciotti/*](https://github.com/dcasciotti) [(2)](READMEs/dcasciotti.md) | [0](READMEs/dcasciotti.md) | [:heavy_check_mark: (2)](READMEs/dcasciotti.md) | [:heavy_check_mark: (2)](READMEs/dcasciotti.md) |  |
-| 63 | [debops/debops](https://github.com/debops/debops) | 925 |  | :heavy_check_mark: |  |
+| 63 | [debops/debops](https://github.com/debops/debops) | 926 |  | :heavy_check_mark: |  |
 | 64 | [dguibert/nur-packages](https://github.com/dguibert/nur-packages) | 3 | :heavy_check_mark: |  |  |
 | 65 | [dhivakark/*](https://github.com/dhivakark) [(2)](READMEs/dhivakark.md) | [0](READMEs/dhivakark.md) | [:heavy_check_mark: (2)](READMEs/dhivakark.md) | [:heavy_check_mark: (1)](READMEs/dhivakark.md) |  |
 | 66 | [djarecka/*](https://github.com/djarecka) [(2)](READMEs/djarecka.md) | [0](READMEs/djarecka.md) |  | [:heavy_check_mark: (2)](READMEs/djarecka.md) |  |
@@ -150,7 +150,7 @@
 | 146 | [tkkuehn/*](https://github.com/tkkuehn) [(7)](READMEs/tkkuehn.md) | [0](READMEs/tkkuehn.md) | [:heavy_check_mark: (7)](READMEs/tkkuehn.md) | [:heavy_check_mark: (3)](READMEs/tkkuehn.md) |  |
 | 147 | [tsankeuodelfa/midtermproject](https://github.com/tsankeuodelfa/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 148 | [vandermeerlab/labs--mvdm](https://github.com/vandermeerlab/labs--mvdm) | 0 | :heavy_check_mark: |  |  |
-| 149 | [vdumeaux/sc-candida_paper](https://github.com/vdumeaux/sc-candida_paper) | 0 | :heavy_check_mark: |  |  |
+| 149 | [vdumeaux/sc-candida_paper](https://github.com/vdumeaux/sc-candida_paper) | 1 | :heavy_check_mark: |  |  |
 | 150 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 9763 |  | :heavy_check_mark: |  |
 | 151 | [wg-gravity/general](https://github.com/wg-gravity/general) | 0 | :heavy_check_mark: |  |  |
 | 152 | [xlecours/*](https://github.com/xlecours) [(2)](READMEs/xlecours.md) | [0](READMEs/xlecours.md) | [:heavy_check_mark: (2)](READMEs/xlecours.md) |  |  |
