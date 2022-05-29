@@ -1,6 +1,6 @@
 # GitHub
 ## In the wild
-| # | Repository (839) | Stars (18760) | Dataset (775) | `run` (125) | `containers-run` (7) |
+| # | Repository (842) | Stars (18763) | Dataset (779) | `run` (125) | `containers-run` (7) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [AKSoo/*](https://github.com/AKSoo) [(3)](READMEs/AKSoo.md) | [0](READMEs/AKSoo.md) | [:heavy_check_mark: (3)](READMEs/AKSoo.md) | [:heavy_check_mark: (2)](READMEs/AKSoo.md) | [:heavy_check_mark: (1)](READMEs/AKSoo.md) |
 | 2 | [AllenInstitute/AllenSDK](https://github.com/AllenInstitute/AllenSDK) | 259 |  | :heavy_check_mark: |  |
@@ -22,7 +22,7 @@
 | 18 | [NCCR-SYNAPSY/ds-NeuroDataPubOSFTest4](https://github.com/NCCR-SYNAPSY/ds-NeuroDataPubOSFTest4) | 0 | :heavy_check_mark: |  |  |
 | 19 | [NGenetzky/*](https://github.com/NGenetzky) [(9)](READMEs/NGenetzky.md) | [1](READMEs/NGenetzky.md) | [:heavy_check_mark: (9)](READMEs/NGenetzky.md) | [:heavy_check_mark: (3)](READMEs/NGenetzky.md) |  |
 | 20 | [NilsonneData/*](https://github.com/NilsonneData) [(3)](READMEs/NilsonneData.md) | [0](READMEs/NilsonneData.md) | [:heavy_check_mark: (3)](READMEs/NilsonneData.md) |  |  |
-| 21 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(343)](READMEs/OpenNeuroDatasets.md) | [30](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (343)](READMEs/OpenNeuroDatasets.md) |  |  |
+| 21 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(344)](READMEs/OpenNeuroDatasets.md) | [30](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (344)](READMEs/OpenNeuroDatasets.md) |  |  |
 | 22 | [OpenNeuroDerivatives/*](https://github.com/OpenNeuroDerivatives) [(2)](READMEs/OpenNeuroDerivatives.md) | [0](READMEs/OpenNeuroDerivatives.md) | [:heavy_check_mark: (2)](READMEs/OpenNeuroDerivatives.md) |  |  |
 | 23 | [OpenNeuroDev/*](https://github.com/OpenNeuroDev) [(4)](READMEs/OpenNeuroDev.md) | [0](READMEs/OpenNeuroDev.md) | [:heavy_check_mark: (4)](READMEs/OpenNeuroDev.md) |  |  |
 | 24 | [PennLINC/*](https://github.com/PennLINC) [(2)](READMEs/PennLINC.md) | [1](READMEs/PennLINC.md) | [:heavy_check_mark: (2)](READMEs/PennLINC.md) | [:heavy_check_mark: (1)](READMEs/PennLINC.md) |  |
@@ -62,7 +62,7 @@
 | 58 | [cpp-lln-lab/*](https://github.com/cpp-lln-lab) [(3)](READMEs/cpp-lln-lab.md) | [3](READMEs/cpp-lln-lab.md) | [:heavy_check_mark: (3)](READMEs/cpp-lln-lab.md) |  |  |
 | 59 | [cryo-data/*](https://github.com/cryo-data) [(12)](READMEs/cryo-data.md) | [7](READMEs/cryo-data.md) | [:heavy_check_mark: (12)](READMEs/cryo-data.md) | [:heavy_check_mark: (2)](READMEs/cryo-data.md) |  |
 | 60 | [dartmouth-pbs/psyc161-wi19-srv](https://github.com/dartmouth-pbs/psyc161-wi19-srv) | 0 | :heavy_check_mark: |  |  |
-| 61 | [datasets-mila/*](https://github.com/datasets-mila) [(30)](READMEs/datasets-mila.md) | [0](READMEs/datasets-mila.md) | [:heavy_check_mark: (13)](READMEs/datasets-mila.md) | [:heavy_check_mark: (29)](READMEs/datasets-mila.md) |  |
+| 61 | [datasets-mila/*](https://github.com/datasets-mila) [(31)](READMEs/datasets-mila.md) | [0](READMEs/datasets-mila.md) | [:heavy_check_mark: (15)](READMEs/datasets-mila.md) | [:heavy_check_mark: (29)](READMEs/datasets-mila.md) |  |
 | 62 | [dcasciotti/*](https://github.com/dcasciotti) [(2)](READMEs/dcasciotti.md) | [0](READMEs/dcasciotti.md) | [:heavy_check_mark: (2)](READMEs/dcasciotti.md) | [:heavy_check_mark: (2)](READMEs/dcasciotti.md) |  |
 | 63 | [debops/debops](https://github.com/debops/debops) | 926 |  | :heavy_check_mark: |  |
 | 64 | [dguibert/nur-packages](https://github.com/dguibert/nur-packages) | 3 | :heavy_check_mark: |  |  |
@@ -70,7 +70,7 @@
 | 66 | [djarecka/*](https://github.com/djarecka) [(2)](READMEs/djarecka.md) | [0](READMEs/djarecka.md) |  | [:heavy_check_mark: (2)](READMEs/djarecka.md) |  |
 | 67 | [dl-throwaway/*](https://github.com/dl-throwaway) [(12)](READMEs/dl-throwaway.md) | [0](READMEs/dl-throwaway.md) | [:heavy_check_mark: (12)](READMEs/dl-throwaway.md) |  |  |
 | 68 | [dnkennedy/*](https://github.com/dnkennedy) [(2)](READMEs/dnkennedy.md) | [0](READMEs/dnkennedy.md) | [:heavy_check_mark: (1)](READMEs/dnkennedy.md) | [:heavy_check_mark: (2)](READMEs/dnkennedy.md) | [:heavy_check_mark: (2)](READMEs/dnkennedy.md) |
-| 69 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5327 |  | :heavy_check_mark: |  |
+| 69 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5330 |  | :heavy_check_mark: |  |
 | 70 | [effigies/*](https://github.com/effigies) [(2)](READMEs/effigies.md) | [0](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) |  |
 | 71 | [emmetaobrien/*](https://github.com/emmetaobrien) [(8)](READMEs/emmetaobrien.md) | [3](READMEs/emmetaobrien.md) | [:heavy_check_mark: (8)](READMEs/emmetaobrien.md) |  |  |
 | 72 | [fandofastest/my3dmodeling](https://github.com/fandofastest/my3dmodeling) | 0 | :heavy_check_mark: |  |  |
@@ -150,7 +150,7 @@
 | 146 | [tkkuehn/*](https://github.com/tkkuehn) [(7)](READMEs/tkkuehn.md) | [0](READMEs/tkkuehn.md) | [:heavy_check_mark: (7)](READMEs/tkkuehn.md) | [:heavy_check_mark: (3)](READMEs/tkkuehn.md) |  |
 | 147 | [tsankeuodelfa/midtermproject](https://github.com/tsankeuodelfa/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 148 | [vandermeerlab/labs--mvdm](https://github.com/vandermeerlab/labs--mvdm) | 0 | :heavy_check_mark: |  |  |
-| 149 | [vdumeaux/sc-candida_paper](https://github.com/vdumeaux/sc-candida_paper) | 1 | :heavy_check_mark: |  |  |
+| 149 | [vdumeaux/*](https://github.com/vdumeaux) [(2)](READMEs/vdumeaux.md) | [1](READMEs/vdumeaux.md) | [:heavy_check_mark: (2)](READMEs/vdumeaux.md) |  |  |
 | 150 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 9763 |  | :heavy_check_mark: |  |
 | 151 | [wg-gravity/general](https://github.com/wg-gravity/general) | 0 | :heavy_check_mark: |  |  |
 | 152 | [xlecours/*](https://github.com/xlecours) [(2)](READMEs/xlecours.md) | [0](READMEs/xlecours.md) | [:heavy_check_mark: (2)](READMEs/xlecours.md) |  |  |
@@ -160,7 +160,7 @@
 | 156 | [zxenia/mcgill-emc-rna-seq-experiment](https://github.com/zxenia/mcgill-emc-rna-seq-experiment) | 0 | :heavy_check_mark: |  |  |
 
 ## Inner circle
-| # | Repository (355) | Stars (1208) | Dataset (309) | `run` (96) | `containers-run` (4) |
+| # | Repository (356) | Stars (1208) | Dataset (310) | `run` (96) | `containers-run` (4) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproNim/*](https://github.com/ReproNim) [(16)](READMEs/ReproNim.md) | [349](READMEs/ReproNim.md) | [:heavy_check_mark: (10)](READMEs/ReproNim.md) | [:heavy_check_mark: (11)](READMEs/ReproNim.md) | [:heavy_check_mark: (1)](READMEs/ReproNim.md) |
 | 2 | [adswa/*](https://github.com/adswa) [(23)](READMEs/adswa.md) | [31](READMEs/adswa.md) | [:heavy_check_mark: (17)](READMEs/adswa.md) | [:heavy_check_mark: (12)](READMEs/adswa.md) | [:heavy_check_mark: (1)](READMEs/adswa.md) |
@@ -181,7 +181,7 @@
 | 17 | [neurodebian/*](https://github.com/neurodebian) [(2)](READMEs/neurodebian.md) | [62](READMEs/neurodebian.md) |  | [:heavy_check_mark: (2)](READMEs/neurodebian.md) |  |
 | 18 | [proj-nuisance/*](https://github.com/proj-nuisance) [(3)](READMEs/proj-nuisance.md) | [0](READMEs/proj-nuisance.md) | [:heavy_check_mark: (2)](READMEs/proj-nuisance.md) | [:heavy_check_mark: (2)](READMEs/proj-nuisance.md) |  |
 | 19 | [psychoinformatics-de/*](https://github.com/psychoinformatics-de) [(25)](READMEs/psychoinformatics-de.md) | [41](READMEs/psychoinformatics-de.md) | [:heavy_check_mark: (24)](READMEs/psychoinformatics-de.md) | [:heavy_check_mark: (9)](READMEs/psychoinformatics-de.md) | [:heavy_check_mark: (1)](READMEs/psychoinformatics-de.md) |
-| 20 | [yarikoptic/*](https://github.com/yarikoptic) [(14)](READMEs/yarikoptic.md) | [3](READMEs/yarikoptic.md) | [:heavy_check_mark: (10)](READMEs/yarikoptic.md) | [:heavy_check_mark: (7)](READMEs/yarikoptic.md) |  |
+| 20 | [yarikoptic/*](https://github.com/yarikoptic) [(15)](READMEs/yarikoptic.md) | [3](READMEs/yarikoptic.md) | [:heavy_check_mark: (11)](READMEs/yarikoptic.md) | [:heavy_check_mark: (7)](READMEs/yarikoptic.md) |  |
 
 ## Gone
 | # | Repository (51) | Stars (1) | Dataset (48) | `run` (3) | `containers-run` |
@@ -310,20 +310,18 @@
 109. [nuisance-QA-data](https://osf.io/dj2gf/)
 110. [our-study-data](https://osf.io/wv2zh/)
 111. [raw-file-test](https://osf.io/9tp7k/)
-112. [sc-candida_paper](https://osf.io/bqr4z/)
-113. [sc-candida_paper](https://osf.io/d7ufz/)
-114. [sc-candida_paper](https://osf.io/q2jvr/)
-115. [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/)
-116. [simulate-cbma](https://osf.io/9jbhg/)
-117. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
-118. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
-119. [studyforrest-speechannotation](https://osf.io/f5j3e/)
-120. [sub-219_bids_datalad](https://osf.io/86d3a/)
-121. [test-sibling](https://osf.io/5z4km/)
-122. [test-zarr](https://osf.io/84gbt/)
-123. [testexport](https://osf.io/d5b8c/)
-124. [testexport2](https://osf.io/kjpqa/)
-125. [vandam-daylong](https://osf.io/6w3sq/)
+112. [sc-candida_paper](https://osf.io/5tpk3/)
+113. [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/)
+114. [simulate-cbma](https://osf.io/9jbhg/)
+115. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
+116. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
+117. [studyforrest-speechannotation](https://osf.io/f5j3e/)
+118. [sub-219_bids_datalad](https://osf.io/86d3a/)
+119. [test-sibling](https://osf.io/5z4km/)
+120. [test-zarr](https://osf.io/84gbt/)
+121. [testexport](https://osf.io/d5b8c/)
+122. [testexport2](https://osf.io/kjpqa/)
+123. [vandam-daylong](https://osf.io/6w3sq/)
 ## Gone
 1. [CONP-Neurocon](https://osf.io/6kbmt/)
 2. [Taowu](https://osf.io/qubep/)
@@ -337,3 +335,6 @@
 10. [sc-candida_paper](https://osf.io/awjh9/)
 11. [sc-candida_paper](https://osf.io/p528d/)
 12. [sc-candida_paper](https://osf.io/xhzkg/)
+13. [sc-candida_paper](https://osf.io/bqr4z/)
+14. [sc-candida_paper](https://osf.io/d7ufz/)
+15. [sc-candida_paper](https://osf.io/q2jvr/)

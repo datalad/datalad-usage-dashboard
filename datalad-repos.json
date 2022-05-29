@@ -2821,6 +2821,16 @@
             "status": "active"
         },
         {
+            "id": 495482629,
+            "name": "OpenNeuroDatasets/ds003404",
+            "url": "https://github.com/OpenNeuroDatasets/ds003404",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 318312426,
             "name": "OpenNeuroDatasets/ds003416",
             "url": "https://github.com/OpenNeuroDatasets/ds003416",
@@ -8961,6 +8971,16 @@
             "status": "active"
         },
         {
+            "id": 495537557,
+            "name": "datasets-mila/datasets",
+            "url": "https://github.com/datasets-mila/datasets",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 495530505,
             "name": "datasets-mila/datasets--covid-19--cord-19",
             "url": "https://github.com/datasets-mila/datasets--covid-19--cord-19",
@@ -8995,7 +9015,7 @@
             "name": "datasets-mila/datasets--nwm--1.2--1993",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1993",
             "stars": 0,
-            "dataset": false,
+            "dataset": true,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -9504,7 +9524,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5327,
+            "stars": 5330,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -12231,6 +12251,16 @@
             "status": "active"
         },
         {
+            "id": 497357296,
+            "name": "vdumeaux/sc-candida_paper",
+            "url": "https://github.com/vdumeaux/sc-candida_paper",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 146327667,
             "name": "vectordotdev/vector",
             "url": "https://github.com/vectordotdev/vector",
@@ -12404,6 +12434,16 @@
             "id": 302367100,
             "name": "yarikoptic/tipp-reference-datalad",
             "url": "https://github.com/yarikoptic/tipp-reference-datalad",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 497152377,
+            "name": "yarikoptic/zvalysche",
+            "url": "https://github.com/yarikoptic/zvalysche",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -13194,17 +13234,23 @@
             "url": "https://osf.io/bqr4z/",
             "id": "bqr4z",
             "name": "sc-candida_paper",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/d7ufz/",
             "id": "d7ufz",
             "name": "sc-candida_paper",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/q2jvr/",
             "id": "q2jvr",
+            "name": "sc-candida_paper",
+            "status": "gone"
+        },
+        {
+            "url": "https://osf.io/5tpk3/",
+            "id": "5tpk3",
             "name": "sc-candida_paper",
             "status": "active"
         },
