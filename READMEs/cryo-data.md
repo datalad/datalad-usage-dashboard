@@ -4,7 +4,7 @@
 | 1 | [cryo-data/cryo-data](https://github.com/cryo-data/cryo-data) | 1 | :heavy_check_mark: |  |  |
 | 2 | [cryo-data/cryo-data](https://github.com/cryo-data/cryo-data) | 1 | :heavy_check_mark: |  |  |
 | 3 | [cryo-data/data_provider](https://github.com/cryo-data/data_provider) | 0 | :heavy_check_mark: |  |  |
-| 4 | [cryo-data/db](https://github.com/cryo-data/db) | 0 | :heavy_check_mark: |  |  |
+| 4 | [cryo-data/database](https://github.com/cryo-data/database) | 0 | :heavy_check_mark: |  |  |
 | 5 | [cryo-data/moon_2008_NSIDC_0642](https://github.com/cryo-data/moon_2008_NSIDC_0642) | 0 | :heavy_check_mark: |  |  |
 | 6 | [cryo-data/organization](https://github.com/cryo-data/organization) | 0 | :heavy_check_mark: |  |  |
 | 7 | [cryo-data/rennermalm_river_discharge_AK-05-001](https://github.com/cryo-data/rennermalm_river_discharge_AK-05-001) | 0 | :heavy_check_mark: |  |  |
