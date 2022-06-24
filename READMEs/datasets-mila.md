@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (311) | Stars | Dataset (121) | `run` (296) | `containers-run` |
+| # | Repository (311) | Stars | Dataset (129) | `run` (296) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datasets-mila/datasets](https://github.com/datasets-mila/datasets) | 0 | :heavy_check_mark: |  |  |
-| 2 | [datasets-mila/datasets--LDC--ontonotes](https://github.com/datasets-mila/datasets--LDC--ontonotes) | 0 |  | :heavy_check_mark: |  |
+| 2 | [datasets-mila/datasets--LDC--ontonotes](https://github.com/datasets-mila/datasets--LDC--ontonotes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 3 | [datasets-mila/datasets--ami](https://github.com/datasets-mila/datasets--ami) | 0 |  | :heavy_check_mark: |  |
 | 4 | [datasets-mila/datasets--ami--amicorpus--EN2001a](https://github.com/datasets-mila/datasets--ami--amicorpus--EN2001a) | 0 |  | :heavy_check_mark: |  |
 | 5 | [datasets-mila/datasets--ami--amicorpus--EN2001b](https://github.com/datasets-mila/datasets--ami--amicorpus--EN2001b) | 0 |  | :heavy_check_mark: |  |
@@ -104,7 +104,7 @@
 | 101 | [datasets-mila/datasets--ami--amicorpus--IS1003b](https://github.com/datasets-mila/datasets--ami--amicorpus--IS1003b) | 0 |  | :heavy_check_mark: |  |
 | 102 | [datasets-mila/datasets--ami--amicorpus--IS1003c](https://github.com/datasets-mila/datasets--ami--amicorpus--IS1003c) | 0 |  | :heavy_check_mark: |  |
 | 103 | [datasets-mila/datasets--ami--amicorpus--IS1003d](https://github.com/datasets-mila/datasets--ami--amicorpus--IS1003d) | 0 |  | :heavy_check_mark: |  |
-| 104 | [datasets-mila/datasets--ami--amicorpus--IS1004a](https://github.com/datasets-mila/datasets--ami--amicorpus--IS1004a) | 0 |  | :heavy_check_mark: |  |
+| 104 | [datasets-mila/datasets--ami--amicorpus--IS1004a](https://github.com/datasets-mila/datasets--ami--amicorpus--IS1004a) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 105 | [datasets-mila/datasets--ami--amicorpus--IS1004b](https://github.com/datasets-mila/datasets--ami--amicorpus--IS1004b) | 0 |  | :heavy_check_mark: |  |
 | 106 | [datasets-mila/datasets--ami--amicorpus--IS1004c](https://github.com/datasets-mila/datasets--ami--amicorpus--IS1004c) | 0 |  | :heavy_check_mark: |  |
 | 107 | [datasets-mila/datasets--ami--amicorpus--IS1004d](https://github.com/datasets-mila/datasets--ami--amicorpus--IS1004d) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -167,10 +167,10 @@
 | 164 | [datasets-mila/datasets--caltech101](https://github.com/datasets-mila/datasets--caltech101) | 0 |  | :heavy_check_mark: |  |
 | 165 | [datasets-mila/datasets--caltech256](https://github.com/datasets-mila/datasets--caltech256) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 166 | [datasets-mila/datasets--celeba](https://github.com/datasets-mila/datasets--celeba) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 167 | [datasets-mila/datasets--cifar10](https://github.com/datasets-mila/datasets--cifar10) | 0 |  | :heavy_check_mark: |  |
-| 168 | [datasets-mila/datasets--cifar100](https://github.com/datasets-mila/datasets--cifar100) | 0 |  | :heavy_check_mark: |  |
+| 167 | [datasets-mila/datasets--cifar10](https://github.com/datasets-mila/datasets--cifar10) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 168 | [datasets-mila/datasets--cifar100](https://github.com/datasets-mila/datasets--cifar100) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 169 | [datasets-mila/datasets--cityscapes](https://github.com/datasets-mila/datasets--cityscapes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 170 | [datasets-mila/datasets--climatenet](https://github.com/datasets-mila/datasets--climatenet) | 0 |  | :heavy_check_mark: |  |
+| 170 | [datasets-mila/datasets--climatenet](https://github.com/datasets-mila/datasets--climatenet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 171 | [datasets-mila/datasets--coco](https://github.com/datasets-mila/datasets--coco) | 0 |  | :heavy_check_mark: |  |
 | 172 | [datasets-mila/datasets--commonvoice](https://github.com/datasets-mila/datasets--commonvoice) | 0 |  | :heavy_check_mark: |  |
 | 173 | [datasets-mila/datasets--commonvoice--de](https://github.com/datasets-mila/datasets--commonvoice--de) | 0 |  | :heavy_check_mark: |  |
@@ -199,12 +199,12 @@
 | 196 | [datasets-mila/datasets--inat](https://github.com/datasets-mila/datasets--inat) | 0 |  | :heavy_check_mark: |  |
 | 197 | [datasets-mila/datasets--kitti](https://github.com/datasets-mila/datasets--kitti) | 0 | :heavy_check_mark: |  |  |
 | 198 | [datasets-mila/datasets--librispeech](https://github.com/datasets-mila/datasets--librispeech) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 199 | [datasets-mila/datasets--lincs_l1000--lincs_l1000_phase_i](https://github.com/datasets-mila/datasets--lincs_l1000--lincs_l1000_phase_i) | 0 |  | :heavy_check_mark: |  |
+| 199 | [datasets-mila/datasets--lincs_l1000--lincs_l1000_phase_i](https://github.com/datasets-mila/datasets--lincs_l1000--lincs_l1000_phase_i) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 200 | [datasets-mila/datasets--lincs_l1000--lincs_l1000_phase_ii](https://github.com/datasets-mila/datasets--lincs_l1000--lincs_l1000_phase_ii) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 201 | [datasets-mila/datasets--metadataset](https://github.com/datasets-mila/datasets--metadataset) | 0 |  | :heavy_check_mark: |  |
 | 202 | [datasets-mila/datasets--mimii](https://github.com/datasets-mila/datasets--mimii) | 0 |  | :heavy_check_mark: |  |
 | 203 | [datasets-mila/datasets--mnist](https://github.com/datasets-mila/datasets--mnist) | 0 |  | :heavy_check_mark: |  |
-| 204 | [datasets-mila/datasets--modelnet40](https://github.com/datasets-mila/datasets--modelnet40) | 0 |  | :heavy_check_mark: |  |
+| 204 | [datasets-mila/datasets--modelnet40](https://github.com/datasets-mila/datasets--modelnet40) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 205 | [datasets-mila/datasets--multiobjectdatasets](https://github.com/datasets-mila/datasets--multiobjectdatasets) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 206 | [datasets-mila/datasets--naturalquestions](https://github.com/datasets-mila/datasets--naturalquestions) | 0 |  | :heavy_check_mark: |  |
 | 207 | [datasets-mila/datasets--nlvr2](https://github.com/datasets-mila/datasets--nlvr2) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -277,7 +277,7 @@
 | 274 | [datasets-mila/datasets--nwm--2.0--2005](https://github.com/datasets-mila/datasets--nwm--2.0--2005) | 0 |  | :heavy_check_mark: |  |
 | 275 | [datasets-mila/datasets--nwm--2.0--2006](https://github.com/datasets-mila/datasets--nwm--2.0--2006) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 276 | [datasets-mila/datasets--nwm--2.0--2007](https://github.com/datasets-mila/datasets--nwm--2.0--2007) | 0 |  | :heavy_check_mark: |  |
-| 277 | [datasets-mila/datasets--nwm--2.0--2008](https://github.com/datasets-mila/datasets--nwm--2.0--2008) | 0 |  | :heavy_check_mark: |  |
+| 277 | [datasets-mila/datasets--nwm--2.0--2008](https://github.com/datasets-mila/datasets--nwm--2.0--2008) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 278 | [datasets-mila/datasets--nwm--2.0--2009](https://github.com/datasets-mila/datasets--nwm--2.0--2009) | 0 |  | :heavy_check_mark: |  |
 | 279 | [datasets-mila/datasets--nwm--2.0--2010](https://github.com/datasets-mila/datasets--nwm--2.0--2010) | 0 |  | :heavy_check_mark: |  |
 | 280 | [datasets-mila/datasets--nwm--2.0--2011](https://github.com/datasets-mila/datasets--nwm--2.0--2011) | 0 |  | :heavy_check_mark: |  |
