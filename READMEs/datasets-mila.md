@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (318) | Stars | Dataset (193) | `run` (296) | `containers-run` |
+| # | Repository (318) | Stars | Dataset (194) | `run` (296) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datasets-mila/datasets](https://github.com/datasets-mila/datasets) | 0 | :heavy_check_mark: |  |  |
 | 2 | [datasets-mila/datasets--LDC--ontonotes](https://github.com/datasets-mila/datasets--LDC--ontonotes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -202,7 +202,7 @@
 | 199 | [datasets-mila/datasets--hotels50K](https://github.com/datasets-mila/datasets--hotels50K) | 0 |  | :heavy_check_mark: |  |
 | 200 | [datasets-mila/datasets--imagenet](https://github.com/datasets-mila/datasets--imagenet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 201 | [datasets-mila/datasets--imagenet](https://github.com/datasets-mila/datasets--imagenet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 202 | [datasets-mila/datasets--inat](https://github.com/datasets-mila/datasets--inat) | 0 |  | :heavy_check_mark: |  |
+| 202 | [datasets-mila/datasets--inat](https://github.com/datasets-mila/datasets--inat) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 203 | [datasets-mila/datasets--kitti](https://github.com/datasets-mila/datasets--kitti) | 0 | :heavy_check_mark: |  |  |
 | 204 | [datasets-mila/datasets--kmnist](https://github.com/datasets-mila/datasets--kmnist) | 0 | :heavy_check_mark: |  |  |
 | 205 | [datasets-mila/datasets--librispeech](https://github.com/datasets-mila/datasets--librispeech) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
