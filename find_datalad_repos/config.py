@@ -9,6 +9,7 @@ OURSELVES = {
     "dandi",
     "dandi-containers",
     "dandisets",
+    "dandizarrs",
     "datalad",
     "datalad-collection-1",
     "datalad-datasets",
