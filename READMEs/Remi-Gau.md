@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (5) | Stars (5) | Dataset (5) | `run` (1) | `containers-run` |
+| # | Repository (5) | Stars (6) | Dataset (5) | `run` (1) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [Remi-Gau/analysis_high-res_pilot001_ses-002_retinotopy](https://github.com/Remi-Gau/analysis_high-res_pilot001_ses-002_retinotopy) | 1 | :heavy_check_mark: |  |  |
-| 2 | [Remi-Gau/analysis_high-res_pilot_nighres](https://github.com/Remi-Gau/analysis_high-res_pilot_nighres) | 1 | :heavy_check_mark: |  |  |
+| 2 | [Remi-Gau/analysis_high-res_pilot_nighres](https://github.com/Remi-Gau/analysis_high-res_pilot_nighres) | 2 | :heavy_check_mark: |  |  |
 | 3 | [Remi-Gau/miss_hit-gallery](https://github.com/Remi-Gau/miss_hit-gallery) | 1 | :heavy_check_mark: |  |  |
 | 4 | [Remi-Gau/rvm5HTsource](https://github.com/Remi-Gau/rvm5HTsource) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 5 | [Remi-Gau/template_datalad_fMRI](https://github.com/Remi-Gau/template_datalad_fMRI) | 1 | :heavy_check_mark: |  |  |
