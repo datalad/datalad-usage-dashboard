@@ -4461,6 +4461,16 @@
             "status": "active"
         },
         {
+            "id": 509851749,
+            "name": "OpenNeuroDerivatives/ds000105-mriqc",
+            "url": "https://github.com/OpenNeuroDerivatives/ds000105-mriqc",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 510255214,
             "name": "OpenNeuroDerivatives/ds000108-fmriprep",
             "url": "https://github.com/OpenNeuroDerivatives/ds000108-fmriprep",
@@ -5634,7 +5644,7 @@
             "id": 150465237,
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 184,
+            "stars": 185,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10301,6 +10311,16 @@
             "status": "active"
         },
         {
+            "id": 523129801,
+            "name": "dandizarrs/19c3a9b0-6679-4a26-9182-7ace4d39fd0a",
+            "url": "https://github.com/dandizarrs/19c3a9b0-6679-4a26-9182-7ace4d39fd0a",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 520064024,
             "name": "dandizarrs/19d5934b-1c53-4f18-a15c-1d109ef51c67",
             "url": "https://github.com/dandizarrs/19d5934b-1c53-4f18-a15c-1d109ef51c67",
@@ -10934,6 +10954,16 @@
             "id": 518438806,
             "name": "dandizarrs/244a1d70-f9ab-4b52-a25c-9b68c7bbb7ed",
             "url": "https://github.com/dandizarrs/244a1d70-f9ab-4b52-a25c-9b68c7bbb7ed",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 522649385,
+            "name": "dandizarrs/2464a663-4643-46d6-b8da-fbd593262432",
+            "url": "https://github.com/dandizarrs/2464a663-4643-46d6-b8da-fbd593262432",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -13651,6 +13681,16 @@
             "status": "active"
         },
         {
+            "id": 525103566,
+            "name": "dandizarrs/5c34cdf3-92f9-49fa-8b58-95b78c42c847",
+            "url": "https://github.com/dandizarrs/5c34cdf3-92f9-49fa-8b58-95b78c42c847",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 523743283,
             "name": "dandizarrs/5c984d01-22e2-4cdb-8858-881c7f8ef1a6",
             "url": "https://github.com/dandizarrs/5c984d01-22e2-4cdb-8858-881c7f8ef1a6",
@@ -13841,6 +13881,16 @@
             "status": "active"
         },
         {
+            "id": 522510276,
+            "name": "dandizarrs/5fdfde8c-7979-4af7-9b4e-850528ab5ce4",
+            "url": "https://github.com/dandizarrs/5fdfde8c-7979-4af7-9b4e-850528ab5ce4",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 503612064,
             "name": "dandizarrs/5ffc6b85-fe49-4a82-82ca-20b26bdb09cd",
             "url": "https://github.com/dandizarrs/5ffc6b85-fe49-4a82-82ca-20b26bdb09cd",
@@ -13994,6 +14044,16 @@
             "id": 518865553,
             "name": "dandizarrs/627a6a80-e763-4689-a09e-f570f24b5799",
             "url": "https://github.com/dandizarrs/627a6a80-e763-4689-a09e-f570f24b5799",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 521888682,
+            "name": "dandizarrs/627fe5fa-e599-4a5f-9189-356bd288ec38",
+            "url": "https://github.com/dandizarrs/627fe5fa-e599-4a5f-9189-356bd288ec38",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -14691,6 +14751,16 @@
             "status": "active"
         },
         {
+            "id": 521879646,
+            "name": "dandizarrs/6e60131d-2871-4791-8f56-958b125dacbd",
+            "url": "https://github.com/dandizarrs/6e60131d-2871-4791-8f56-958b125dacbd",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 522079104,
             "name": "dandizarrs/6eabb6d1-3111-44c5-96ed-ed27d79dcf77",
             "url": "https://github.com/dandizarrs/6eabb6d1-3111-44c5-96ed-ed27d79dcf77",
@@ -14854,6 +14924,16 @@
             "id": 517252424,
             "name": "dandizarrs/70ad65e9-6b73-46d0-bda9-9a90b63113a6",
             "url": "https://github.com/dandizarrs/70ad65e9-6b73-46d0-bda9-9a90b63113a6",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 522597690,
+            "name": "dandizarrs/718f1830-ca7e-4322-bcd4-6338453b1345",
+            "url": "https://github.com/dandizarrs/718f1830-ca7e-4322-bcd4-6338453b1345",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -16771,6 +16851,16 @@
             "status": "active"
         },
         {
+            "id": 521106562,
+            "name": "dandizarrs/9548479d-8108-4a1c-93df-da9a6afebab7",
+            "url": "https://github.com/dandizarrs/9548479d-8108-4a1c-93df-da9a6afebab7",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 516586950,
             "name": "dandizarrs/95c48e8f-bcaa-4994-bdf9-a2df62e3bae1",
             "url": "https://github.com/dandizarrs/95c48e8f-bcaa-4994-bdf9-a2df62e3bae1",
@@ -16804,6 +16894,16 @@
             "id": 503531066,
             "name": "dandizarrs/9636a4ec-6549-465c-b9c4-38f13916b906",
             "url": "https://github.com/dandizarrs/9636a4ec-6549-465c-b9c4-38f13916b906",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 522596318,
+            "name": "dandizarrs/96601de4-2c14-4721-bd01-52342850f519",
+            "url": "https://github.com/dandizarrs/96601de4-2c14-4721-bd01-52342850f519",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -27291,6 +27391,16 @@
             "status": "active"
         },
         {
+            "id": 523783860,
+            "name": "lucasgautheron/scenarios-rte-simulation",
+            "url": "https://github.com/lucasgautheron/scenarios-rte-simulation",
+            "stars": 4,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 404683988,
             "name": "lukasvo76/DataLad-101",
             "url": "https://github.com/lukasvo76/DataLad-101",
@@ -29954,6 +30064,18 @@
             "url": "https://osf.io/7twne/",
             "id": "7twne",
             "name": "dMRI-HMC-phantom-results",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/j854e/",
+            "id": "j854e",
+            "name": "data4babs_rawBIDS_multiSes",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/zd9a6/",
+            "id": "zd9a6",
+            "name": "data4babs_rawBIDS_singleSes",
             "status": "active"
         },
         {
