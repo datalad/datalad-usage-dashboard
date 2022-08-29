@@ -34,7 +34,7 @@
             "id": 35236880,
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 266,
+            "stars": 267,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4641,6 +4641,16 @@
             "status": "active"
         },
         {
+            "id": 509907801,
+            "name": "OpenNeuroDerivatives/ds002424-mriqc",
+            "url": "https://github.com/OpenNeuroDerivatives/ds002424-mriqc",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 514695163,
             "name": "OpenNeuroDerivatives/ds002748-fmriprep",
             "url": "https://github.com/OpenNeuroDerivatives/ds002748-fmriprep",
@@ -4934,7 +4944,7 @@
             "id": 182005926,
             "name": "ReproNim/containers",
             "url": "https://github.com/ReproNim/containers",
-            "stars": 16,
+            "stars": 17,
             "dataset": true,
             "run": true,
             "container_run": false,
@@ -5944,7 +5954,7 @@
             "id": 358055642,
             "name": "con/shub",
             "url": "https://github.com/con/shub",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": true,
             "container_run": false,
@@ -18331,6 +18341,16 @@
             "status": "active"
         },
         {
+            "id": 523707611,
+            "name": "dandizarrs/ab08e355-ebc6-4661-b0ca-176e9d4383d4",
+            "url": "https://github.com/dandizarrs/ab08e355-ebc6-4661-b0ca-176e9d4383d4",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 522935655,
             "name": "dandizarrs/ab4118c6-fa3c-40d9-b635-8b3d0e6bc99f",
             "url": "https://github.com/dandizarrs/ab4118c6-fa3c-40d9-b635-8b3d0e6bc99f",
@@ -26794,7 +26814,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 947,
+            "stars": 948,
             "dataset": false,
             "run": true,
             "container_run": false,
