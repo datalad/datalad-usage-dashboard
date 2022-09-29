@@ -4541,6 +4541,16 @@
             "status": "active"
         },
         {
+            "id": 541677040,
+            "name": "OpenNeuroDatasets/ds004278",
+            "url": "https://github.com/OpenNeuroDatasets/ds004278",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 509591214,
             "name": "OpenNeuroDerivatives/ds000001-fmriprep",
             "url": "https://github.com/OpenNeuroDerivatives/ds000001-fmriprep",
@@ -7628,7 +7638,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 477829889,
@@ -7668,7 +7678,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 496712601,
@@ -7678,7 +7688,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 477833196,
@@ -7698,7 +7708,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 498516486,
@@ -7708,7 +7718,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 496712767,
@@ -7718,7 +7728,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 383586768,
