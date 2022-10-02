@@ -4391,6 +4391,16 @@
             "status": "active"
         },
         {
+            "id": 544042853,
+            "name": "OpenNeuroDatasets/ds004173",
+            "url": "https://github.com/OpenNeuroDatasets/ds004173",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 526124956,
             "name": "OpenNeuroDatasets/ds004197",
             "url": "https://github.com/OpenNeuroDatasets/ds004197",
@@ -4544,6 +4554,26 @@
             "id": 541677040,
             "name": "OpenNeuroDatasets/ds004278",
             "url": "https://github.com/OpenNeuroDatasets/ds004278",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 542191024,
+            "name": "OpenNeuroDatasets/ds004280",
+            "url": "https://github.com/OpenNeuroDatasets/ds004280",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 543678093,
+            "name": "OpenNeuroDatasets/ds004283",
+            "url": "https://github.com/OpenNeuroDatasets/ds004283",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -10104,6 +10134,36 @@
             "id": 540815321,
             "name": "dandisets/000338",
             "url": "https://github.com/dandisets/000338",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 541782904,
+            "name": "dandisets/000339",
+            "url": "https://github.com/dandisets/000339",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 541830916,
+            "name": "dandisets/000340",
+            "url": "https://github.com/dandisets/000340",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 543020521,
+            "name": "dandisets/000341",
+            "url": "https://github.com/dandisets/000341",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -20491,6 +20551,16 @@
             "status": "active"
         },
         {
+            "id": 522079583,
+            "name": "dandizarrs/8a7c61f1-737a-4e8e-9646-f5b124b3ba5a",
+            "url": "https://github.com/dandizarrs/8a7c61f1-737a-4e8e-9646-f5b124b3ba5a",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 500988454,
             "name": "dandizarrs/8aa95fb1-b2ee-410a-85e8-3ffd51c2fa85",
             "url": "https://github.com/dandizarrs/8aa95fb1-b2ee-410a-85e8-3ffd51c2fa85",
@@ -29374,7 +29444,7 @@
             "id": 235965468,
             "name": "datalad-datasets/human-connectome-project-openaccess",
             "url": "https://github.com/datalad-datasets/human-connectome-project-openaccess",
-            "stars": 26,
+            "stars": 27,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -29571,6 +29641,16 @@
             "status": "gone"
         },
         {
+            "id": 356276372,
+            "name": "datalad/datalad-deprecated",
+            "url": "https://github.com/datalad/datalad-deprecated",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 301498716,
             "name": "datalad/datalad-ebrains",
             "url": "https://github.com/datalad/datalad-ebrains",
@@ -29614,7 +29694,7 @@
             "id": 528940329,
             "name": "datalad/datalad-gooey",
             "url": "https://github.com/datalad/datalad-gooey",
-            "stars": 1,
+            "stars": 2,
             "dataset": false,
             "run": true,
             "container_run": false,
