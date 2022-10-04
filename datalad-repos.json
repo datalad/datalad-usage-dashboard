@@ -2441,6 +2441,16 @@
             "status": "active"
         },
         {
+            "id": 273078158,
+            "name": "OpenNeuroDatasets/ds002898",
+            "url": "https://github.com/OpenNeuroDatasets/ds002898",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": null,
             "name": "OpenNeuroDatasets/ds002900",
             "url": "https://github.com/OpenNeuroDatasets/ds002900",
@@ -3778,7 +3788,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 358523389,
@@ -3828,7 +3838,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 363253764,
@@ -4448,7 +4458,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 525730321,
@@ -29654,7 +29664,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 349,
+            "stars": 350,
             "dataset": false,
             "run": true,
             "container_run": false,
