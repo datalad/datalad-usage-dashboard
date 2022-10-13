@@ -4,7 +4,7 @@
             "id": 35236880,
             "name": "AllenInstitute/AllenSDK",
             "url": "https://github.com/AllenInstitute/AllenSDK",
-            "stars": 273,
+            "stars": 274,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -29854,7 +29854,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 352,
+            "stars": 353,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -33844,7 +33844,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5524,
+            "stars": 5527,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -35994,7 +35994,7 @@
             "id": 12008088,
             "name": "opening-hours/opening_hours.js",
             "url": "https://github.com/opening-hours/opening_hours.js",
-            "stars": 190,
+            "stars": 189,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -36124,7 +36124,7 @@
             "id": 230329400,
             "name": "protontypes/LibreSelery",
             "url": "https://github.com/protontypes/LibreSelery",
-            "stars": 115,
+            "stars": 114,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -38022,6 +38022,18 @@
             "url": "https://osf.io/9jbhg/",
             "id": "9jbhg",
             "name": "simulate-cbma",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/uaem3/",
+            "id": "uaem3",
+            "name": "sp-data-archive-towyo",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/j47pk/",
+            "id": "j47pk",
+            "name": "sp-data-archive-towyo-ds",
             "status": "active"
         },
         {
