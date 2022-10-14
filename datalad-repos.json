@@ -771,6 +771,16 @@
             "status": "active"
         },
         {
+            "id": 551014181,
+            "name": "OleBialas/hivemind",
+            "url": "https://github.com/OleBialas/hivemind",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 140906188,
             "name": "OpenNeuroDatasets/ds000003",
             "url": "https://github.com/OpenNeuroDatasets/ds000003",
@@ -3931,6 +3941,16 @@
             "status": "gone"
         },
         {
+            "id": 550891605,
+            "name": "OpenNeuroDatasets/ds003659",
+            "url": "https://github.com/OpenNeuroDatasets/ds003659",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 391921543,
             "name": "OpenNeuroDatasets/ds003661",
             "url": "https://github.com/OpenNeuroDatasets/ds003661",
@@ -4431,6 +4451,16 @@
             "status": "active"
         },
         {
+            "id": 549135297,
+            "name": "OpenNeuroDatasets/ds004213",
+            "url": "https://github.com/OpenNeuroDatasets/ds004213",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 521761013,
             "name": "OpenNeuroDatasets/ds004215",
             "url": "https://github.com/OpenNeuroDatasets/ds004215",
@@ -4604,6 +4634,16 @@
             "id": 543678093,
             "name": "OpenNeuroDatasets/ds004283",
             "url": "https://github.com/OpenNeuroDatasets/ds004283",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 549921025,
+            "name": "OpenNeuroDatasets/ds004288",
+            "url": "https://github.com/OpenNeuroDatasets/ds004288",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -6754,7 +6794,7 @@
             "id": 150465237,
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 189,
+            "stars": 190,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10324,6 +10364,26 @@
             "id": 543020521,
             "name": "dandisets/000341",
             "url": "https://github.com/dandisets/000341",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 549155667,
+            "name": "dandisets/000343",
+            "url": "https://github.com/dandisets/000343",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 550482608,
+            "name": "dandisets/000346",
+            "url": "https://github.com/dandisets/000346",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -33631,6 +33691,16 @@
             "status": "active"
         },
         {
+            "id": 548916181,
+            "name": "dguibert/nixpack-pkgs",
+            "url": "https://github.com/dguibert/nixpack-pkgs",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 162294559,
             "name": "dguibert/nur-packages",
             "url": "https://github.com/dguibert/nur-packages",
@@ -33844,7 +33914,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5527,
+            "stars": 5529,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -34064,6 +34134,26 @@
             "id": 366838252,
             "name": "glatard/fmriprep-lts-images",
             "url": "https://github.com/glatard/fmriprep-lts-images",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 545141744,
+            "name": "gunnarvoet/sp-data-archive",
+            "url": "https://github.com/gunnarvoet/sp-data-archive",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 550504299,
+            "name": "gunnarvoet/sp-data-archive-towyo",
+            "url": "https://github.com/gunnarvoet/sp-data-archive-towyo",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -36124,7 +36214,7 @@
             "id": 230329400,
             "name": "protontypes/LibreSelery",
             "url": "https://github.com/protontypes/LibreSelery",
-            "stars": 114,
+            "stars": 115,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -37891,6 +37981,12 @@
             "id": "4fr7n",
             "name": "hereismyresearch",
             "status": "gone"
+        },
+        {
+            "url": "https://osf.io/vhnk8/",
+            "id": "vhnk8",
+            "name": "hivemind",
+            "status": "active"
         },
         {
             "url": "https://osf.io/bqp76/",
