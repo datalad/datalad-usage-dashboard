@@ -1,6 +1,6 @@
 # GitHub
 ## In the wild
-| # | Repository (1375) | Stars (19140) | Dataset (1187) | `run` (424) | `containers-run` (13) |
+| # | Repository (1375) | Stars (19143) | Dataset (1187) | `run` (424) | `containers-run` (13) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [AllenInstitute/AllenSDK](https://github.com/AllenInstitute/AllenSDK) | 274 |  | :heavy_check_mark: |  |
 | 2 | [Arnav-Purushotam/datasetOpenNeuro](https://github.com/Arnav-Purushotam/datasetOpenNeuro) | 0 | :heavy_check_mark: |  |  |
@@ -77,7 +77,7 @@
 | 73 | [djarecka/*](https://github.com/djarecka) [(2)](READMEs/djarecka.md) | [0](READMEs/djarecka.md) |  | [:heavy_check_mark: (2)](READMEs/djarecka.md) |  |
 | 74 | [dl-throwaway/*](https://github.com/dl-throwaway) [(12)](READMEs/dl-throwaway.md) | [0](READMEs/dl-throwaway.md) | [:heavy_check_mark: (12)](READMEs/dl-throwaway.md) |  |  |
 | 75 | [dnkennedy/*](https://github.com/dnkennedy) [(4)](READMEs/dnkennedy.md) | [0](READMEs/dnkennedy.md) | [:heavy_check_mark: (2)](READMEs/dnkennedy.md) | [:heavy_check_mark: (3)](READMEs/dnkennedy.md) | [:heavy_check_mark: (3)](READMEs/dnkennedy.md) |
-| 76 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5529 |  | :heavy_check_mark: |  |
+| 76 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5532 |  | :heavy_check_mark: |  |
 | 77 | [effigies/*](https://github.com/effigies) [(2)](READMEs/effigies.md) | [0](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) |  |
 | 78 | [emmetaobrien/*](https://github.com/emmetaobrien) [(14)](READMEs/emmetaobrien.md) | [3](READMEs/emmetaobrien.md) | [:heavy_check_mark: (14)](READMEs/emmetaobrien.md) |  |  |
 | 79 | [fandofastest/my3dmodeling](https://github.com/fandofastest/my3dmodeling) | 0 | :heavy_check_mark: |  |  |
@@ -339,15 +339,17 @@
 115. [sc-candida_paper](https://osf.io/5tpk3/)
 116. [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/)
 117. [simulate-cbma](https://osf.io/9jbhg/)
-118. [sp-data-archive-towyo](https://osf.io/uaem3/)
-119. [sp-data-archive-towyo-ds](https://osf.io/j47pk/)
-120. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
-121. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
-122. [studyforrest-speechannotation](https://osf.io/f5j3e/)
-123. [sub-219_bids_datalad](https://osf.io/86d3a/)
-124. [test-sibling](https://osf.io/5z4km/)
-125. [test-zarr](https://osf.io/84gbt/)
-126. [vandam-daylong](https://osf.io/6w3sq/)
+118. [sp-data-archive-bathy](https://osf.io/7anhw/)
+119. [sp-data-archive-bathy-ds](https://osf.io/jmkd6/)
+120. [sp-data-archive-towyo](https://osf.io/uaem3/)
+121. [sp-data-archive-towyo-ds](https://osf.io/j47pk/)
+122. [studyforrest-ppa-analysis](https://osf.io/ypjhn/)
+123. [studyforrest-speechanno-validation](https://osf.io/x3zpr/)
+124. [studyforrest-speechannotation](https://osf.io/f5j3e/)
+125. [sub-219_bids_datalad](https://osf.io/86d3a/)
+126. [test-sibling](https://osf.io/5z4km/)
+127. [test-zarr](https://osf.io/84gbt/)
+128. [vandam-daylong](https://osf.io/6w3sq/)
 ## Gone
 1. [CAT12.8_AOMIC-PIOP1](https://osf.io/b97wz/)
 2. [CONP-Neurocon](https://osf.io/6kbmt/)
