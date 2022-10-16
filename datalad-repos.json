@@ -33914,7 +33914,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5532,
+            "stars": 5534,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -34555,6 +34555,16 @@
             "name": "jsheunis/datalad-s3-test2",
             "url": "https://github.com/jsheunis/datalad-s3-test2",
             "stars": 1,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 542056609,
+            "name": "jsheunis/eheheh",
+            "url": "https://github.com/jsheunis/eheheh",
+            "stars": 0,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -38130,6 +38140,18 @@
             "url": "https://osf.io/jmkd6/",
             "id": "jmkd6",
             "name": "sp-data-archive-bathy-ds",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/up5j4/",
+            "id": "up5j4",
+            "name": "sp-data-archive-ctd",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/un9pb/",
+            "id": "un9pb",
+            "name": "sp-data-archive-ctd-ds",
             "status": "active"
         },
         {
