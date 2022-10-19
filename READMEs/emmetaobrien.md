@@ -1,8 +1,5 @@
 ## Active
-No repositories found!
-
-## Gone
-| # | Repository (14) | Stars (3) | Dataset (14) | `run` | `containers-run` |
+| # | Repository (13) | Stars (3) | Dataset (13) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [emmetaobrien/1000GenomesProject](https://github.com/emmetaobrien/1000GenomesProject) | 2 | :heavy_check_mark: |  |  |
 | 2 | [emmetaobrien/1KGP-02Aug2019](https://github.com/emmetaobrien/1KGP-02Aug2019) | 0 | :heavy_check_mark: |  |  |
@@ -17,4 +14,8 @@ No repositories found!
 | 11 | [emmetaobrien/calgary-campinas](https://github.com/emmetaobrien/calgary-campinas) | 0 | :heavy_check_mark: |  |  |
 | 12 | [emmetaobrien/conp-dataset-1KGP](https://github.com/emmetaobrien/conp-dataset-1KGP) | 0 | :heavy_check_mark: |  |  |
 | 13 | [emmetaobrien/microstructure_informed_connectomics](https://github.com/emmetaobrien/microstructure_informed_connectomics) | 0 | :heavy_check_mark: |  |  |
-| 14 | [emmetaobrien/mousebytes-temp](https://github.com/emmetaobrien/mousebytes-temp) | 0 | :heavy_check_mark: |  |  |
+
+## Gone
+| # | Repository (1) | Stars | Dataset (1) | `run` | `containers-run` |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [emmetaobrien/mousebytes-temp](https://github.com/emmetaobrien/mousebytes-temp) | 0 | :heavy_check_mark: |  |  |
