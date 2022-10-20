@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (26) | Stars (14) | Dataset (25) | `run` (4) | `containers-run` (3) |
+| # | Repository (25) | Stars (14) | Dataset (24) | `run` (4) | `containers-run` (3) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  |
 | 2 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 1 | :heavy_check_mark: |  |  |
@@ -26,9 +26,9 @@
 | 23 | [courtois-neuromod/shinobi.stimuli](https://github.com/courtois-neuromod/shinobi.stimuli) | 0 | :heavy_check_mark: |  |  |
 | 24 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 4 | :heavy_check_mark: |  |  |
 | 25 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  |
-| 26 | [courtois-neuromod/triplets](https://github.com/courtois-neuromod/triplets) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
-| # | Repository (1) | Stars | Dataset (1) | `run` | `containers-run` |
+| # | Repository (2) | Stars | Dataset (2) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/cimaq2021](https://github.com/courtois-neuromod/cimaq2021) | 0 | :heavy_check_mark: |  |  |
+| 2 | [courtois-neuromod/triplets](https://github.com/courtois-neuromod/triplets) | 0 | :heavy_check_mark: |  |  |
