@@ -5451,9 +5451,29 @@
             "status": "active"
         },
         {
+            "id": 542815010,
+            "name": "OpenNeuroDerivatives/ds002006-mriqc",
+            "url": "https://github.com/OpenNeuroDerivatives/ds002006-mriqc",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 536022547,
             "name": "OpenNeuroDerivatives/ds002013-fmriprep",
             "url": "https://github.com/OpenNeuroDerivatives/ds002013-fmriprep",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 542824842,
+            "name": "OpenNeuroDerivatives/ds002014-mriqc",
+            "url": "https://github.com/OpenNeuroDerivatives/ds002014-mriqc",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -5474,6 +5494,16 @@
             "id": 509900386,
             "name": "OpenNeuroDerivatives/ds002105-mriqc",
             "url": "https://github.com/OpenNeuroDerivatives/ds002105-mriqc",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 542824713,
+            "name": "OpenNeuroDerivatives/ds002156-mriqc",
+            "url": "https://github.com/OpenNeuroDerivatives/ds002156-mriqc",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -5554,6 +5584,16 @@
             "id": 509907801,
             "name": "OpenNeuroDerivatives/ds002424-mriqc",
             "url": "https://github.com/OpenNeuroDerivatives/ds002424-mriqc",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 542822415,
+            "name": "OpenNeuroDerivatives/ds002596-mriqc",
+            "url": "https://github.com/OpenNeuroDerivatives/ds002596-mriqc",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -5724,6 +5764,16 @@
             "id": 509943012,
             "name": "OpenNeuroDerivatives/ds003507-mriqc",
             "url": "https://github.com/OpenNeuroDerivatives/ds003507-mriqc",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 542819649,
+            "name": "OpenNeuroDerivatives/ds003606-mriqc",
+            "url": "https://github.com/OpenNeuroDerivatives/ds003606-mriqc",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -34218,7 +34268,7 @@
             "dataset": true,
             "run": true,
             "container_run": true,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 409570336,
