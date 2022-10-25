@@ -6844,7 +6844,7 @@
             "id": 150465237,
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 190,
+            "stars": 191,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -10434,6 +10434,16 @@
             "id": 550482608,
             "name": "dandisets/000346",
             "url": "https://github.com/dandisets/000346",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 555567870,
+            "name": "dandisets/000347",
+            "url": "https://github.com/dandisets/000347",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -22381,6 +22391,16 @@
             "status": "active"
         },
         {
+            "id": 525148615,
+            "name": "dandizarrs/9e4dc837-d245-44d9-8ed6-855d2b2c16f2",
+            "url": "https://github.com/dandizarrs/9e4dc837-d245-44d9-8ed6-855d2b2c16f2",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 514936634,
             "name": "dandizarrs/9e5a4f66-87f5-4eb6-9785-0bf225d6b676",
             "url": "https://github.com/dandizarrs/9e5a4f66-87f5-4eb6-9785-0bf225d6b676",
@@ -33754,7 +33774,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 967,
+            "stars": 968,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -33984,7 +34004,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5540,
+            "stars": 5542,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -37461,6 +37481,12 @@
             "status": "active"
         },
         {
+            "url": "https://osf.io/pwk7z/",
+            "id": "pwk7z",
+            "name": "HIBALL BigBrain histogram",
+            "status": "active"
+        },
+        {
             "url": "https://osf.io/s5fu8/",
             "id": "s5fu8",
             "name": "Neurocon",
@@ -37914,6 +37940,30 @@
             "url": "https://osf.io/7twne/",
             "id": "7twne",
             "name": "dMRI-HMC-phantom-results",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/k9zw2/",
+            "id": "k9zw2",
+            "name": "data4babs_fmriprepOutputs_multiSes",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/2jvub/",
+            "id": "2jvub",
+            "name": "data4babs_fmriprepOutputs_singleSes",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/d3js6/",
+            "id": "d3js6",
+            "name": "data4babs_qsiprepOutputs_multiSes",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/8t9sf/",
+            "id": "8t9sf",
+            "name": "data4babs_qsiprepOutputs_singleSes",
             "status": "active"
         },
         {
