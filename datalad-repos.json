@@ -4088,7 +4088,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 380120415,
@@ -4464,7 +4464,7 @@
             "id": 544042853,
             "name": "OpenNeuroDatasets/ds004173",
             "url": "https://github.com/OpenNeuroDatasets/ds004173",
-            "stars": 1,
+            "stars": 2,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -6134,7 +6134,7 @@
             "id": 182005926,
             "name": "ReproNim/containers",
             "url": "https://github.com/ReproNim/containers",
-            "stars": 20,
+            "stars": 21,
             "dataset": true,
             "run": true,
             "container_run": false,
@@ -6934,7 +6934,7 @@
             "id": 150465237,
             "name": "bids-standard/bids-specification",
             "url": "https://github.com/bids-standard/bids-specification",
-            "stars": 191,
+            "stars": 192,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -34124,7 +34124,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5568,
+            "stars": 5570,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -37832,6 +37832,12 @@
             "url": "https://osf.io/ucbpm/",
             "id": "ucbpm",
             "name": "NiTransforms testing",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/5z6ht/",
+            "id": "5z6ht",
+            "name": "PISTON Data Archive Moored ADCP (git annex storage)",
             "status": "active"
         },
         {
