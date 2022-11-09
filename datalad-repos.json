@@ -461,6 +461,16 @@
             "status": "active"
         },
         {
+            "id": 562690130,
+            "name": "InsightSoftwareConsortium/ITKSphinxExamplesData",
+            "url": "https://github.com/InsightSoftwareConsortium/ITKSphinxExamplesData",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 523544270,
             "name": "InsightSoftwareConsortium/itk-viewer-baseline-testing-data",
             "url": "https://github.com/InsightSoftwareConsortium/itk-viewer-baseline-testing-data",
@@ -3861,6 +3871,16 @@
             "status": "gone"
         },
         {
+            "id": 555572140,
+            "name": "OpenNeuroDatasets/ds003638",
+            "url": "https://github.com/OpenNeuroDatasets/ds003638",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 363253764,
             "name": "OpenNeuroDatasets/ds003639",
             "url": "https://github.com/OpenNeuroDatasets/ds003639",
@@ -4684,6 +4704,16 @@
             "id": 549921025,
             "name": "OpenNeuroDatasets/ds004288",
             "url": "https://github.com/OpenNeuroDatasets/ds004288",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 552026394,
+            "name": "OpenNeuroDatasets/ds004295",
+            "url": "https://github.com/OpenNeuroDatasets/ds004295",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -8384,7 +8414,7 @@
             "id": 281237041,
             "name": "dandi/schema",
             "url": "https://github.com/dandi/schema",
-            "stars": 2,
+            "stars": 3,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -30234,7 +30264,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 367,
+            "stars": 368,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -34004,7 +34034,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 978,
+            "stars": 979,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -34234,7 +34264,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5576,
+            "stars": 5579,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -34494,6 +34524,16 @@
             "id": 550504299,
             "name": "gunnarvoet/sp-data-archive-towyo",
             "url": "https://github.com/gunnarvoet/sp-data-archive-towyo",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 552038817,
+            "name": "gunnarvoet/sp-overflow-energetics",
+            "url": "https://github.com/gunnarvoet/sp-overflow-energetics",
             "stars": 0,
             "dataset": true,
             "run": false,
