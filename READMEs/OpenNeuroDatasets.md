@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (386) | Stars (34) | Dataset (386) | `run` | `containers-run` |
+| # | Repository (387) | Stars (34) | Dataset (387) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [OpenNeuroDatasets/ds000003](https://github.com/OpenNeuroDatasets/ds000003) | 0 | :heavy_check_mark: |  |  |
 | 2 | [OpenNeuroDatasets/ds000006](https://github.com/OpenNeuroDatasets/ds000006) | 0 | :heavy_check_mark: |  |  |
@@ -387,6 +387,7 @@
 | 384 | [OpenNeuroDatasets/ds004313](https://github.com/OpenNeuroDatasets/ds004313) | 0 | :heavy_check_mark: |  |  |
 | 385 | [OpenNeuroDatasets/ds004315](https://github.com/OpenNeuroDatasets/ds004315) | 0 | :heavy_check_mark: |  |  |
 | 386 | [OpenNeuroDatasets/ds004317](https://github.com/OpenNeuroDatasets/ds004317) | 0 | :heavy_check_mark: |  |  |
+| 387 | [OpenNeuroDatasets/ds004331](https://github.com/OpenNeuroDatasets/ds004331) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
 | # | Repository (13) | Stars (1) | Dataset (13) | `run` | `containers-run` |
