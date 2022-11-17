@@ -30424,7 +30424,7 @@
             "id": 320622858,
             "name": "datalad/datalad-installer",
             "url": "https://github.com/datalad/datalad-installer",
-            "stars": 3,
+            "stars": 4,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -34104,7 +34104,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 981,
+            "stars": 983,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -34334,7 +34334,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5594,
+            "stars": 5601,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -38372,13 +38372,13 @@
             "url": "https://osf.io/j854e/",
             "id": "j854e",
             "name": "data4babs_rawBIDS_multiSes",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/vbk6s/",
             "id": "vbk6s",
             "name": "data4babs_rawBIDS_multiSes",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/w2nu3/",
@@ -38390,7 +38390,7 @@
             "url": "https://osf.io/zd9a6/",
             "id": "zd9a6",
             "name": "data4babs_rawBIDS_singleSes",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/t8urc/",
