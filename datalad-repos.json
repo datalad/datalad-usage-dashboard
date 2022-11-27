@@ -4861,6 +4861,16 @@
             "status": "active"
         },
         {
+            "id": 542834156,
+            "name": "OpenNeuroDerivatives/ds000001-mriqc",
+            "url": "https://github.com/OpenNeuroDerivatives/ds000001-mriqc",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 510127266,
             "name": "OpenNeuroDerivatives/ds000002-fmriprep",
             "url": "https://github.com/OpenNeuroDerivatives/ds000002-fmriprep",
@@ -4944,6 +4954,16 @@
             "id": 509837661,
             "name": "OpenNeuroDerivatives/ds000009-mriqc",
             "url": "https://github.com/OpenNeuroDerivatives/ds000009-mriqc",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 542838886,
+            "name": "OpenNeuroDerivatives/ds000017-mriqc",
+            "url": "https://github.com/OpenNeuroDerivatives/ds000017-mriqc",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -6234,6 +6254,16 @@
             "id": 509921408,
             "name": "OpenNeuroDerivatives/ds003007-mriqc",
             "url": "https://github.com/OpenNeuroDerivatives/ds003007-mriqc",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 542823978,
+            "name": "OpenNeuroDerivatives/ds003017-mriqc",
+            "url": "https://github.com/OpenNeuroDerivatives/ds003017-mriqc",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -30714,7 +30744,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 369,
+            "stars": 370,
             "dataset": false,
             "run": true,
             "container_run": false,
