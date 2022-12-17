@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (30) | Stars (14) | Dataset (28) | `run` (6) | `containers-run` (3) |
+| # | Repository (30) | Stars (14) | Dataset (30) | `run` (6) | `containers-run` (3) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  |
 | 2 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 1 | :heavy_check_mark: |  |  |
@@ -18,7 +18,7 @@
 | 15 | [courtois-neuromod/friends_annotations](https://github.com/courtois-neuromod/friends_annotations) | 0 | :heavy_check_mark: |  |  |
 | 16 | [courtois-neuromod/friends_nlp_reproducibility](https://github.com/courtois-neuromod/friends_nlp_reproducibility) | 0 | :heavy_check_mark: |  |  |
 | 17 | [courtois-neuromod/harrypotter](https://github.com/courtois-neuromod/harrypotter) | 0 | :heavy_check_mark: |  |  |
-| 18 | [courtois-neuromod/harrypotter.fmriprep](https://github.com/courtois-neuromod/harrypotter.fmriprep) | 0 |  | :heavy_check_mark: |  |
+| 18 | [courtois-neuromod/harrypotter.fmriprep](https://github.com/courtois-neuromod/harrypotter.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 19 | [courtois-neuromod/hcptrt](https://github.com/courtois-neuromod/hcptrt) | 0 | :heavy_check_mark: |  |  |
 | 20 | [courtois-neuromod/hcptrt.fmriprep](https://github.com/courtois-neuromod/hcptrt.fmriprep) | 0 | :heavy_check_mark: |  |  |
 | 21 | [courtois-neuromod/movie10](https://github.com/courtois-neuromod/movie10) | 0 | :heavy_check_mark: |  |  |
@@ -27,7 +27,7 @@
 | 24 | [courtois-neuromod/movie_decoding_sa](https://github.com/courtois-neuromod/movie_decoding_sa) | 0 | :heavy_check_mark: |  |  |
 | 25 | [courtois-neuromod/retino.stimuli](https://github.com/courtois-neuromod/retino.stimuli) | 0 | :heavy_check_mark: |  |  |
 | 26 | [courtois-neuromod/retino_analysis](https://github.com/courtois-neuromod/retino_analysis) | 0 | :heavy_check_mark: |  |  |
-| 27 | [courtois-neuromod/shinobi.fmriprep](https://github.com/courtois-neuromod/shinobi.fmriprep) | 0 |  | :heavy_check_mark: |  |
+| 27 | [courtois-neuromod/shinobi.fmriprep](https://github.com/courtois-neuromod/shinobi.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 28 | [courtois-neuromod/shinobi.stimuli](https://github.com/courtois-neuromod/shinobi.stimuli) | 0 | :heavy_check_mark: |  |  |
 | 29 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 4 | :heavy_check_mark: |  |  |
 | 30 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  |
