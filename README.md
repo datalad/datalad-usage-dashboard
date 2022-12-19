@@ -1,6 +1,6 @@
 # GitHub
 ## In the wild
-| # | Repository (1482) | Stars (19403) | Dataset (1292) | `run` (429) | `containers-run` (12) |
+| # | Repository (1482) | Stars (19406) | Dataset (1292) | `run` (429) | `containers-run` (12) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [AllenInstitute/AllenSDK](https://github.com/AllenInstitute/AllenSDK) | 278 |  | :heavy_check_mark: |  |
 | 2 | [Arnav-Purushotam/datasetOpenNeuro](https://github.com/Arnav-Purushotam/datasetOpenNeuro) | 0 | :heavy_check_mark: |  |  |
@@ -81,7 +81,7 @@
 | 77 | [djarecka/*](https://github.com/djarecka) [(2)](READMEs/djarecka.md) | [0](READMEs/djarecka.md) |  | [:heavy_check_mark: (2)](READMEs/djarecka.md) |  |
 | 78 | [dl-throwaway/*](https://github.com/dl-throwaway) [(12)](READMEs/dl-throwaway.md) | [0](READMEs/dl-throwaway.md) | [:heavy_check_mark: (12)](READMEs/dl-throwaway.md) |  |  |
 | 79 | [dnkennedy/*](https://github.com/dnkennedy) [(4)](READMEs/dnkennedy.md) | [0](READMEs/dnkennedy.md) | [:heavy_check_mark: (2)](READMEs/dnkennedy.md) | [:heavy_check_mark: (3)](READMEs/dnkennedy.md) | [:heavy_check_mark: (3)](READMEs/dnkennedy.md) |
-| 80 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5639 |  | :heavy_check_mark: |  |
+| 80 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5641 |  | :heavy_check_mark: |  |
 | 81 | [ebudget-community/docsify-site-deprecated](https://github.com/ebudget-community/docsify-site-deprecated) | 1 | :heavy_check_mark: |  |  |
 | 82 | [effigies/*](https://github.com/effigies) [(2)](READMEs/effigies.md) | [0](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) |  |
 | 83 | [egzakharovich/*](https://github.com/egzakharovich) [(2)](READMEs/egzakharovich.md) | [0](READMEs/egzakharovich.md) | [:heavy_check_mark: (2)](READMEs/egzakharovich.md) |  |  |
@@ -152,7 +152,7 @@
 | 148 | [nrdg/*](https://github.com/nrdg) [(4)](READMEs/nrdg.md) | [0](READMEs/nrdg.md) | [:heavy_check_mark: (4)](READMEs/nrdg.md) |  |  |
 | 149 | [ntolley/*](https://github.com/ntolley) [(5)](READMEs/ntolley.md) | [1](READMEs/ntolley.md) | [:heavy_check_mark: (2)](READMEs/ntolley.md) | [:heavy_check_mark: (3)](READMEs/ntolley.md) |  |
 | 150 | [oesteban/*](https://github.com/oesteban) [(12)](READMEs/oesteban.md) | [0](READMEs/oesteban.md) | [:heavy_check_mark: (12)](READMEs/oesteban.md) | [:heavy_check_mark: (1)](READMEs/oesteban.md) |  |
-| 151 | [opening-hours/opening_hours.js](https://github.com/opening-hours/opening_hours.js) | 191 |  | :heavy_check_mark: |  |
+| 151 | [opening-hours/opening_hours.js](https://github.com/opening-hours/opening_hours.js) | 192 |  | :heavy_check_mark: |  |
 | 152 | [pecansdik/libary](https://github.com/pecansdik/libary) | 0 |  | :heavy_check_mark: |  |
 | 153 | [pithanakrit/nginx_1](https://github.com/pithanakrit/nginx_1) | 0 |  | :heavy_check_mark: |  |
 | 154 | [pni-data/*](https://github.com/pni-data) [(6)](READMEs/pni-data.md) | [0](READMEs/pni-data.md) | [:heavy_check_mark: (6)](READMEs/pni-data.md) |  |  |
@@ -190,7 +190,7 @@
 | 186 | [zxenia/mcgill-emc-rna-seq-experiment](https://github.com/zxenia/mcgill-emc-rna-seq-experiment) | 0 | :heavy_check_mark: |  |  |
 
 ## Inner circle
-| # | Repository (2344) | Stars (1346) | Dataset (2293) | `run` (102) | `containers-run` (6) |
+| # | Repository (2345) | Stars (1347) | Dataset (2294) | `run` (102) | `containers-run` (6) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproNim/*](https://github.com/ReproNim) [(17)](READMEs/ReproNim.md) | [366](READMEs/ReproNim.md) | [:heavy_check_mark: (11)](READMEs/ReproNim.md) | [:heavy_check_mark: (11)](READMEs/ReproNim.md) | [:heavy_check_mark: (1)](READMEs/ReproNim.md) |
 | 2 | [adswa/*](https://github.com/adswa) [(28)](READMEs/adswa.md) | [31](READMEs/adswa.md) | [:heavy_check_mark: (21)](READMEs/adswa.md) | [:heavy_check_mark: (13)](READMEs/adswa.md) | [:heavy_check_mark: (2)](READMEs/adswa.md) |
@@ -199,12 +199,12 @@
 | 5 | [dandi-containers/pynwb-mpi](https://github.com/dandi-containers/pynwb-mpi) | 0 |  | :heavy_check_mark: |  |
 | 6 | [dandi/*](https://github.com/dandi) [(11)](READMEs/dandi.md) | [26](READMEs/dandi.md) | [:heavy_check_mark: (5)](READMEs/dandi.md) | [:heavy_check_mark: (9)](READMEs/dandi.md) |  |
 | 7 | [dandisets/*](https://github.com/dandisets) [(198)](READMEs/dandisets.md) | [5](READMEs/dandisets.md) | [:heavy_check_mark: (198)](READMEs/dandisets.md) |  |  |
-| 8 | [dandizarrs/*](https://github.com/dandizarrs) [(1942)](READMEs/dandizarrs.md) | [1](READMEs/dandizarrs.md) | [:heavy_check_mark: (1942)](READMEs/dandizarrs.md) |  |  |
+| 8 | [dandizarrs/*](https://github.com/dandizarrs) [(1943)](READMEs/dandizarrs.md) | [1](READMEs/dandizarrs.md) | [:heavy_check_mark: (1943)](READMEs/dandizarrs.md) |  |  |
 | 9 | [datalad-collection-1/*](https://github.com/datalad-collection-1) [(3)](READMEs/datalad-collection-1.md) | [0](READMEs/datalad-collection-1.md) | [:heavy_check_mark: (3)](READMEs/datalad-collection-1.md) |  |  |
 | 10 | [datalad-datasets/*](https://github.com/datalad-datasets) [(17)](READMEs/datalad-datasets.md) | [183](READMEs/datalad-datasets.md) | [:heavy_check_mark: (15)](READMEs/datalad-datasets.md) | [:heavy_check_mark: (13)](READMEs/datalad-datasets.md) |  |
 | 11 | [datalad-handbook/*](https://github.com/datalad-handbook) [(9)](READMEs/datalad-handbook.md) | [117](READMEs/datalad-handbook.md) | [:heavy_check_mark: (7)](READMEs/datalad-handbook.md) | [:heavy_check_mark: (5)](READMEs/datalad-handbook.md) | [:heavy_check_mark: (1)](READMEs/datalad-handbook.md) |
 | 12 | [datalad-tester/*](https://github.com/datalad-tester) [(2)](READMEs/datalad-tester.md) | [0](READMEs/datalad-tester.md) | [:heavy_check_mark: (2)](READMEs/datalad-tester.md) | [:heavy_check_mark: (2)](READMEs/datalad-tester.md) |  |
-| 13 | [datalad/*](https://github.com/datalad) [(38)](READMEs/datalad.md) | [441](READMEs/datalad.md) | [:heavy_check_mark: (22)](READMEs/datalad.md) | [:heavy_check_mark: (19)](READMEs/datalad.md) |  |
+| 13 | [datalad/*](https://github.com/datalad) [(38)](READMEs/datalad.md) | [442](READMEs/datalad.md) | [:heavy_check_mark: (22)](READMEs/datalad.md) | [:heavy_check_mark: (19)](READMEs/datalad.md) |  |
 | 14 | [dbic/*](https://github.com/dbic) [(2)](READMEs/dbic.md) | [3](READMEs/dbic.md) | [:heavy_check_mark: (1)](READMEs/dbic.md) | [:heavy_check_mark: (1)](READMEs/dbic.md) |  |
 | 15 | [jsheunis/*](https://github.com/jsheunis) [(15)](READMEs/jsheunis.md) | [1](READMEs/jsheunis.md) | [:heavy_check_mark: (15)](READMEs/jsheunis.md) |  |  |
 | 16 | [mih/*](https://github.com/mih) [(6)](READMEs/mih.md) | [11](READMEs/mih.md) | [:heavy_check_mark: (5)](READMEs/mih.md) | [:heavy_check_mark: (1)](READMEs/mih.md) |  |
