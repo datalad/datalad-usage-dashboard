@@ -9,8 +9,8 @@
 | 5 | [Community-Maintenance/*](https://github.com/Community-Maintenance) [(5)](READMEs/Community-Maintenance.md) | [0](READMEs/Community-Maintenance.md) | [:heavy_check_mark: (5)](READMEs/Community-Maintenance.md) |  |  |
 | 6 | [DGarnica7/ds000102](https://github.com/DGarnica7/ds000102) | 0 | :heavy_check_mark: |  |  |
 | 7 | [DVS-Lab/*](https://github.com/DVS-Lab) [(7)](READMEs/DVS-Lab.md) | [1](READMEs/DVS-Lab.md) | [:heavy_check_mark: (7)](READMEs/DVS-Lab.md) | [:heavy_check_mark: (2)](READMEs/DVS-Lab.md) |  |
-| 8 | [DeepMReye/DeepMReye](https://github.com/DeepMReye/DeepMReye) | 72 |  | :heavy_check_mark: |  |
-| 9 | [DiedrichsenLab/cerebellar_atlases](https://github.com/DiedrichsenLab/cerebellar_atlases) | 8 | :heavy_check_mark: |  |  |
+| 8 | [DeepMReye/DeepMReye](https://github.com/DeepMReye/DeepMReye) | 73 |  | :heavy_check_mark: |  |
+| 9 | [DiedrichsenLab/cerebellar_atlases](https://github.com/DiedrichsenLab/cerebellar_atlases) | 7 | :heavy_check_mark: |  |  |
 | 10 | [Donders-Institute-Data/*](https://github.com/Donders-Institute-Data) [(20)](READMEs/Donders-Institute-Data.md) | [1](READMEs/Donders-Institute-Data.md) | [:heavy_check_mark: (20)](READMEs/Donders-Institute-Data.md) |  |  |
 | 11 | [ESiWACE-S1/*](https://github.com/ESiWACE-S1) [(2)](READMEs/ESiWACE-S1.md) | [1](READMEs/ESiWACE-S1.md) | [:heavy_check_mark: (2)](READMEs/ESiWACE-S1.md) |  |  |
 | 12 | [FrancoisPgm/visual_encoding_decoding](https://github.com/FrancoisPgm/visual_encoding_decoding) | 0 | :heavy_check_mark: |  |  |
@@ -75,13 +75,13 @@
 | 71 | [dartmouth-pbs/psyc161-wi19-srv](https://github.com/dartmouth-pbs/psyc161-wi19-srv) | 0 | :heavy_check_mark: |  |  |
 | 72 | [datasets-mila/*](https://github.com/datasets-mila) [(332)](READMEs/datasets-mila.md) | [1](READMEs/datasets-mila.md) | [:heavy_check_mark: (200)](READMEs/datasets-mila.md) | [:heavy_check_mark: (310)](READMEs/datasets-mila.md) |  |
 | 73 | [dcasciotti/*](https://github.com/dcasciotti) [(7)](READMEs/dcasciotti.md) | [0](READMEs/dcasciotti.md) | [:heavy_check_mark: (5)](READMEs/dcasciotti.md) | [:heavy_check_mark: (7)](READMEs/dcasciotti.md) |  |
-| 74 | [debops/debops](https://github.com/debops/debops) | 999 |  | :heavy_check_mark: |  |
+| 74 | [debops/debops](https://github.com/debops/debops) | 1000 |  | :heavy_check_mark: |  |
 | 75 | [dguibert/*](https://github.com/dguibert) [(2)](READMEs/dguibert.md) | [3](READMEs/dguibert.md) | [:heavy_check_mark: (2)](READMEs/dguibert.md) |  |  |
 | 76 | [dhivakark/*](https://github.com/dhivakark) [(2)](READMEs/dhivakark.md) | [0](READMEs/dhivakark.md) | [:heavy_check_mark: (2)](READMEs/dhivakark.md) | [:heavy_check_mark: (1)](READMEs/dhivakark.md) |  |
 | 77 | [djarecka/*](https://github.com/djarecka) [(2)](READMEs/djarecka.md) | [0](READMEs/djarecka.md) |  | [:heavy_check_mark: (2)](READMEs/djarecka.md) |  |
 | 78 | [dl-throwaway/*](https://github.com/dl-throwaway) [(12)](READMEs/dl-throwaway.md) | [0](READMEs/dl-throwaway.md) | [:heavy_check_mark: (12)](READMEs/dl-throwaway.md) |  |  |
 | 79 | [dnkennedy/*](https://github.com/dnkennedy) [(4)](READMEs/dnkennedy.md) | [0](READMEs/dnkennedy.md) | [:heavy_check_mark: (2)](READMEs/dnkennedy.md) | [:heavy_check_mark: (3)](READMEs/dnkennedy.md) | [:heavy_check_mark: (3)](READMEs/dnkennedy.md) |
-| 80 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5642 |  | :heavy_check_mark: |  |
+| 80 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5641 |  | :heavy_check_mark: |  |
 | 81 | [ebudget-community/docsify-site-deprecated](https://github.com/ebudget-community/docsify-site-deprecated) | 1 | :heavy_check_mark: |  |  |
 | 82 | [effigies/*](https://github.com/effigies) [(2)](READMEs/effigies.md) | [0](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) |  |
 | 83 | [egzakharovich/*](https://github.com/egzakharovich) [(2)](READMEs/egzakharovich.md) | [0](READMEs/egzakharovich.md) | [:heavy_check_mark: (2)](READMEs/egzakharovich.md) |  |  |
