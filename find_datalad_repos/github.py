@@ -1,4 +1,5 @@
 from datetime import datetime, timezone
+import json
 from operator import attrgetter
 import os
 from pathlib import Path
@@ -157,7 +158,16 @@ class GHDataladSearcher:
 
     def get_repo_stars(self, repo: GHRepo) -> int:
         r = self.session.get(f"{self.API_URL}/repos/{repo.name}")
-        r.raise_for_status()
+        try:
+            r.raise_for_status()
+        except requests.HTTPError as e:
+            try:
+                resp = r.json()
+            except ValueError:
+                resp = r.text
+            else:
+                resp = json.dumps(resp, indent=4)
+            raise RuntimeError(f"{type(e).__name__}: {e}:\n{resp}")
         return cast(int, r.json()["stargazers_count"])
 
     def get_datalad_repos(self) -> List[GHDataladRepo]:
