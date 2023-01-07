@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (17) | Stars (366) | Dataset (11) | `run` (11) | `containers-run` (1) |
+| # | Repository (18) | Stars (366) | Dataset (12) | `run` (11) | `containers-run` (1) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproNim/ReproTube](https://github.com/ReproNim/ReproTube) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 2 | [ReproNim/coco2019-training](https://github.com/ReproNim/coco2019-training) | 3 | :heavy_check_mark: |  |  |
@@ -16,8 +16,9 @@
 | 13 | [ReproNim/reproin](https://github.com/ReproNim/reproin) | 43 |  | :heavy_check_mark: |  |
 | 14 | [ReproNim/reproman](https://github.com/ReproNim/reproman) | 23 |  | :heavy_check_mark: |  |
 | 15 | [ReproNim/repronim.github.io](https://github.com/ReproNim/repronim.github.io) | 3 |  | :heavy_check_mark: |  |
-| 16 | [ReproNim/sfn2018-training](https://github.com/ReproNim/sfn2018-training) | 2 | :heavy_check_mark: |  |  |
-| 17 | [ReproNim/webinar-2020-reprocomp](https://github.com/ReproNim/webinar-2020-reprocomp) | 0 | :heavy_check_mark: |  |  |
+| 16 | [ReproNim/reprostim-session-20230105](https://github.com/ReproNim/reprostim-session-20230105) | 0 | :heavy_check_mark: |  |  |
+| 17 | [ReproNim/sfn2018-training](https://github.com/ReproNim/sfn2018-training) | 2 | :heavy_check_mark: |  |  |
+| 18 | [ReproNim/webinar-2020-reprocomp](https://github.com/ReproNim/webinar-2020-reprocomp) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
 No repositories found!
