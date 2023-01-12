@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (38) | Stars (453) | Dataset (22) | `run` (19) | `containers-run` |
+| # | Repository (38) | Stars (454) | Dataset (22) | `run` (19) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  |
 | 2 | [datalad/datalad](https://github.com/datalad/datalad) | 379 |  | :heavy_check_mark: |  |
@@ -22,7 +22,7 @@
 | 19 | [datalad/datasets.datalad.org--labs](https://github.com/datalad/datasets.datalad.org--labs) | 0 | :heavy_check_mark: |  |  |
 | 20 | [datalad/example-dicom-functional](https://github.com/datalad/example-dicom-functional) | 1 | :heavy_check_mark: |  |  |
 | 21 | [datalad/example-dicom-structural](https://github.com/datalad/example-dicom-structural) | 2 | :heavy_check_mark: |  |  |
-| 22 | [datalad/git-annex](https://github.com/datalad/git-annex) | 3 |  | :heavy_check_mark: |  |
+| 22 | [datalad/git-annex](https://github.com/datalad/git-annex) | 4 |  | :heavy_check_mark: |  |
 | 23 | [datalad/hcp-100307-test](https://github.com/datalad/hcp-100307-test) | 1 | :heavy_check_mark: |  |  |
 | 24 | [datalad/packages](https://github.com/datalad/packages) | 0 | :heavy_check_mark: |  |  |
 | 25 | [datalad/ria-tools](https://github.com/datalad/ria-tools) | 1 | :heavy_check_mark: |  |  |
