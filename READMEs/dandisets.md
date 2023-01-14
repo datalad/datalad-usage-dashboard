@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (199) | Stars (5) | Dataset (199) | `run` | `containers-run` |
+| # | Repository (202) | Stars (5) | Dataset (202) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [dandisets/000003](https://github.com/dandisets/000003) | 0 | :heavy_check_mark: |  |  |
 | 2 | [dandisets/000004](https://github.com/dandisets/000004) | 0 | :heavy_check_mark: |  |  |
@@ -200,6 +200,9 @@
 | 197 | [dandisets/000399](https://github.com/dandisets/000399) | 0 | :heavy_check_mark: |  |  |
 | 198 | [dandisets/000400](https://github.com/dandisets/000400) | 0 | :heavy_check_mark: |  |  |
 | 199 | [dandisets/000402](https://github.com/dandisets/000402) | 0 | :heavy_check_mark: |  |  |
+| 200 | [dandisets/000404](https://github.com/dandisets/000404) | 0 | :heavy_check_mark: |  |  |
+| 201 | [dandisets/000405](https://github.com/dandisets/000405) | 0 | :heavy_check_mark: |  |  |
+| 202 | [dandisets/000406](https://github.com/dandisets/000406) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
 | # | Repository (1) | Stars | Dataset (1) | `run` | `containers-run` |

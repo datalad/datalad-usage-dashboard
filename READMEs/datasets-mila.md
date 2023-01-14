@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (327) | Stars (1) | Dataset (199) | `run` (307) | `containers-run` |
+| # | Repository (327) | Stars (1) | Dataset (202) | `run` (307) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datasets-mila/datasets](https://github.com/datasets-mila/datasets) | 0 | :heavy_check_mark: |  |  |
 | 2 | [datasets-mila/datasets--LDC--ontonotes](https://github.com/datasets-mila/datasets--LDC--ontonotes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -319,14 +319,14 @@
 | 316 | [datasets-mila/datasets--songlyrics--songlyrics](https://github.com/datasets-mila/datasets--songlyrics--songlyrics) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 317 | [datasets-mila/datasets--songlyrics--songlyrics_mousehead](https://github.com/datasets-mila/datasets--songlyrics--songlyrics_mousehead) | 0 | :heavy_check_mark: |  |  |
 | 318 | [datasets-mila/datasets--stl10](https://github.com/datasets-mila/datasets--stl10) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 319 | [datasets-mila/datasets--svhn](https://github.com/datasets-mila/datasets--svhn) | 0 |  | :heavy_check_mark: |  |
+| 319 | [datasets-mila/datasets--svhn](https://github.com/datasets-mila/datasets--svhn) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 320 | [datasets-mila/datasets--timit](https://github.com/datasets-mila/datasets--timit) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 321 | [datasets-mila/datasets--tinyimagenet](https://github.com/datasets-mila/datasets--tinyimagenet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 322 | [datasets-mila/datasets--toyadmos](https://github.com/datasets-mila/datasets--toyadmos) | 0 |  | :heavy_check_mark: |  |
 | 323 | [datasets-mila/datasets--twitter](https://github.com/datasets-mila/datasets--twitter) | 0 | :heavy_check_mark: |  |  |
 | 324 | [datasets-mila/datasets--ubuntu](https://github.com/datasets-mila/datasets--ubuntu) | 0 |  | :heavy_check_mark: |  |
-| 325 | [datasets-mila/datasets--voc2012](https://github.com/datasets-mila/datasets--voc2012) | 0 |  | :heavy_check_mark: |  |
-| 326 | [datasets-mila/datasets--waymoperception](https://github.com/datasets-mila/datasets--waymoperception) | 0 |  | :heavy_check_mark: |  |
+| 325 | [datasets-mila/datasets--voc2012](https://github.com/datasets-mila/datasets--voc2012) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 326 | [datasets-mila/datasets--waymoperception](https://github.com/datasets-mila/datasets--waymoperception) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 327 | [datasets-mila/datasets--wikitext](https://github.com/datasets-mila/datasets--wikitext) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
