@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (327) | Stars (1) | Dataset (202) | `run` (307) | `containers-run` |
+| # | Repository (327) | Stars (1) | Dataset (203) | `run` (307) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datasets-mila/datasets](https://github.com/datasets-mila/datasets) | 0 | :heavy_check_mark: |  |  |
 | 2 | [datasets-mila/datasets--LDC--ontonotes](https://github.com/datasets-mila/datasets--LDC--ontonotes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -312,7 +312,7 @@
 | 309 | [datasets-mila/datasets--places365](https://github.com/datasets-mila/datasets--places365) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 310 | [datasets-mila/datasets--playing_for_data](https://github.com/datasets-mila/datasets--playing_for_data) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 311 | [datasets-mila/datasets--qm7x](https://github.com/datasets-mila/datasets--qm7x) | 0 |  | :heavy_check_mark: |  |
-| 312 | [datasets-mila/datasets--qmnist](https://github.com/datasets-mila/datasets--qmnist) | 0 |  | :heavy_check_mark: |  |
+| 312 | [datasets-mila/datasets--qmnist](https://github.com/datasets-mila/datasets--qmnist) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 313 | [datasets-mila/datasets--quickdraw](https://github.com/datasets-mila/datasets--quickdraw) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 314 | [datasets-mila/datasets--robotcar](https://github.com/datasets-mila/datasets--robotcar) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 315 | [datasets-mila/datasets--shapenet](https://github.com/datasets-mila/datasets--shapenet) | 0 |  | :heavy_check_mark: |  |
