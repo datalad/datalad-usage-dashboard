@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (38) | Stars (459) | Dataset (22) | `run` (19) | `containers-run` |
+| # | Repository (38) | Stars (461) | Dataset (22) | `run` (19) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  |
 | 2 | [datalad/datalad](https://github.com/datalad/datalad) | 383 |  | :heavy_check_mark: |  |
@@ -9,7 +9,7 @@
 | 6 | [datalad/datalad-extension-template](https://github.com/datalad/datalad-extension-template) | 1 |  | :heavy_check_mark: |  |
 | 7 | [datalad/datalad-extensions](https://github.com/datalad/datalad-extensions) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 8 | [datalad/datalad-git-bug-dumps](https://github.com/datalad/datalad-git-bug-dumps) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 9 | [datalad/datalad-gooey](https://github.com/datalad/datalad-gooey) | 3 |  | :heavy_check_mark: |  |
+| 9 | [datalad/datalad-gooey](https://github.com/datalad/datalad-gooey) | 4 |  | :heavy_check_mark: |  |
 | 10 | [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 4 |  | :heavy_check_mark: |  |
 | 11 | [datalad/datalad-neuroimaging](https://github.com/datalad/datalad-neuroimaging) | 14 |  | :heavy_check_mark: |  |
 | 12 | [datalad/datalad-next](https://github.com/datalad/datalad-next) | 5 |  | :heavy_check_mark: |  |
@@ -37,7 +37,7 @@
 | 34 | [datalad/testrepo_gh](https://github.com/datalad/testrepo_gh) | 0 | :heavy_check_mark: |  |  |
 | 35 | [datalad/testrepo_gh-sub__1](https://github.com/datalad/testrepo_gh-sub__1) | 0 | :heavy_check_mark: |  |  |
 | 36 | [datalad/testrepo_gh-sub__1-d-sub_-_1](https://github.com/datalad/testrepo_gh-sub__1-d-sub_-_1) | 0 | :heavy_check_mark: |  |  |
-| 37 | [datalad/tutorials](https://github.com/datalad/tutorials) | 5 |  | :heavy_check_mark: |  |
+| 37 | [datalad/tutorials](https://github.com/datalad/tutorials) | 6 |  | :heavy_check_mark: |  |
 | 38 | [datalad/videos-onlinebrainintensive-2017](https://github.com/datalad/videos-onlinebrainintensive-2017) | 2 | :heavy_check_mark: |  |  |
 
 ## Gone
