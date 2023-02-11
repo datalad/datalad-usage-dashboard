@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (32) | Stars (14) | Dataset (32) | `run` (6) | `containers-run` (3) |
+| # | Repository (33) | Stars (14) | Dataset (33) | `run` (6) | `containers-run` (3) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  |
 | 2 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 1 | :heavy_check_mark: |  |  |
@@ -21,18 +21,19 @@
 | 18 | [courtois-neuromod/harrypotter.fmriprep](https://github.com/courtois-neuromod/harrypotter.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 19 | [courtois-neuromod/hcptrt](https://github.com/courtois-neuromod/hcptrt) | 0 | :heavy_check_mark: |  |  |
 | 20 | [courtois-neuromod/hcptrt.fmriprep](https://github.com/courtois-neuromod/hcptrt.fmriprep) | 0 | :heavy_check_mark: |  |  |
-| 21 | [courtois-neuromod/mario.stimuli](https://github.com/courtois-neuromod/mario.stimuli) | 0 | :heavy_check_mark: |  |  |
-| 22 | [courtois-neuromod/movie10](https://github.com/courtois-neuromod/movie10) | 0 | :heavy_check_mark: |  |  |
-| 23 | [courtois-neuromod/movie10.fmriprep](https://github.com/courtois-neuromod/movie10.fmriprep) | 0 | :heavy_check_mark: |  |  |
-| 24 | [courtois-neuromod/movie10.mriqc](https://github.com/courtois-neuromod/movie10.mriqc) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 25 | [courtois-neuromod/movie10.stimuli](https://github.com/courtois-neuromod/movie10.stimuli) | 0 | :heavy_check_mark: |  |  |
-| 26 | [courtois-neuromod/movie_decoding_sa](https://github.com/courtois-neuromod/movie_decoding_sa) | 0 | :heavy_check_mark: |  |  |
-| 27 | [courtois-neuromod/retino.stimuli](https://github.com/courtois-neuromod/retino.stimuli) | 0 | :heavy_check_mark: |  |  |
-| 28 | [courtois-neuromod/retino_analysis](https://github.com/courtois-neuromod/retino_analysis) | 0 | :heavy_check_mark: |  |  |
-| 29 | [courtois-neuromod/shinobi.fmriprep](https://github.com/courtois-neuromod/shinobi.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 30 | [courtois-neuromod/shinobi.stimuli](https://github.com/courtois-neuromod/shinobi.stimuli) | 0 | :heavy_check_mark: |  |  |
-| 31 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 4 | :heavy_check_mark: |  |  |
-| 32 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  |
+| 21 | [courtois-neuromod/hcptrt.stimuli](https://github.com/courtois-neuromod/hcptrt.stimuli) | 0 | :heavy_check_mark: |  |  |
+| 22 | [courtois-neuromod/mario.stimuli](https://github.com/courtois-neuromod/mario.stimuli) | 0 | :heavy_check_mark: |  |  |
+| 23 | [courtois-neuromod/movie10](https://github.com/courtois-neuromod/movie10) | 0 | :heavy_check_mark: |  |  |
+| 24 | [courtois-neuromod/movie10.fmriprep](https://github.com/courtois-neuromod/movie10.fmriprep) | 0 | :heavy_check_mark: |  |  |
+| 25 | [courtois-neuromod/movie10.mriqc](https://github.com/courtois-neuromod/movie10.mriqc) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| 26 | [courtois-neuromod/movie10.stimuli](https://github.com/courtois-neuromod/movie10.stimuli) | 0 | :heavy_check_mark: |  |  |
+| 27 | [courtois-neuromod/movie_decoding_sa](https://github.com/courtois-neuromod/movie_decoding_sa) | 0 | :heavy_check_mark: |  |  |
+| 28 | [courtois-neuromod/retino.stimuli](https://github.com/courtois-neuromod/retino.stimuli) | 0 | :heavy_check_mark: |  |  |
+| 29 | [courtois-neuromod/retino_analysis](https://github.com/courtois-neuromod/retino_analysis) | 0 | :heavy_check_mark: |  |  |
+| 30 | [courtois-neuromod/shinobi.fmriprep](https://github.com/courtois-neuromod/shinobi.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 31 | [courtois-neuromod/shinobi.stimuli](https://github.com/courtois-neuromod/shinobi.stimuli) | 0 | :heavy_check_mark: |  |  |
+| 32 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 4 | :heavy_check_mark: |  |  |
+| 33 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
 | # | Repository (2) | Stars | Dataset (2) | `run` | `containers-run` |
