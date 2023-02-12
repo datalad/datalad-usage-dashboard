@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (328) | Stars (1) | Dataset (208) | `run` (309) | `containers-run` |
+| # | Repository (328) | Stars (1) | Dataset (210) | `run` (309) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datasets-mila/datasets](https://github.com/datasets-mila/datasets) | 0 | :heavy_check_mark: |  |  |
 | 2 | [datasets-mila/datasets--LDC--ontonotes](https://github.com/datasets-mila/datasets--LDC--ontonotes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -169,7 +169,7 @@
 | 166 | [datasets-mila/datasets--ami--amicorpus--TS3012c](https://github.com/datasets-mila/datasets--ami--amicorpus--TS3012c) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 167 | [datasets-mila/datasets--ami--amicorpus--TS3012d](https://github.com/datasets-mila/datasets--ami--amicorpus--TS3012d) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 168 | [datasets-mila/datasets--c4](https://github.com/datasets-mila/datasets--c4) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 169 | [datasets-mila/datasets--caltech101](https://github.com/datasets-mila/datasets--caltech101) | 0 |  | :heavy_check_mark: |  |
+| 169 | [datasets-mila/datasets--caltech101](https://github.com/datasets-mila/datasets--caltech101) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 170 | [datasets-mila/datasets--caltech256](https://github.com/datasets-mila/datasets--caltech256) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 171 | [datasets-mila/datasets--celeba](https://github.com/datasets-mila/datasets--celeba) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 172 | [datasets-mila/datasets--cifar10](https://github.com/datasets-mila/datasets--cifar10) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -323,7 +323,7 @@
 | 320 | [datasets-mila/datasets--svhn](https://github.com/datasets-mila/datasets--svhn) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 321 | [datasets-mila/datasets--timit](https://github.com/datasets-mila/datasets--timit) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 322 | [datasets-mila/datasets--tinyimagenet](https://github.com/datasets-mila/datasets--tinyimagenet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 323 | [datasets-mila/datasets--toyadmos](https://github.com/datasets-mila/datasets--toyadmos) | 0 |  | :heavy_check_mark: |  |
+| 323 | [datasets-mila/datasets--toyadmos](https://github.com/datasets-mila/datasets--toyadmos) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 324 | [datasets-mila/datasets--twitter](https://github.com/datasets-mila/datasets--twitter) | 0 | :heavy_check_mark: |  |  |
 | 325 | [datasets-mila/datasets--ubuntu](https://github.com/datasets-mila/datasets--ubuntu) | 0 |  | :heavy_check_mark: |  |
 | 326 | [datasets-mila/datasets--voc2012](https://github.com/datasets-mila/datasets--voc2012) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
