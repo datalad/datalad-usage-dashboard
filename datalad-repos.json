@@ -744,7 +744,7 @@
             "id": 140680839,
             "name": "MichaelMure/git-bug",
             "url": "https://github.com/MichaelMure/git-bug",
-            "stars": 7576,
+            "stars": 7575,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -4641,6 +4641,16 @@
             "status": "active"
         },
         {
+            "id": 605732470,
+            "name": "OpenNeuroDatasets/ds004080",
+            "url": "https://github.com/OpenNeuroDatasets/ds004080",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 478022793,
             "name": "OpenNeuroDatasets/ds004091",
             "url": "https://github.com/OpenNeuroDatasets/ds004091",
@@ -5404,6 +5414,16 @@
             "id": 605323933,
             "name": "OpenNeuroDatasets/ds004510",
             "url": "https://github.com/OpenNeuroDatasets/ds004510",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 605970977,
+            "name": "OpenNeuroDatasets/ds004511",
+            "url": "https://github.com/OpenNeuroDatasets/ds004511",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -8151,6 +8171,16 @@
             "status": "active"
         },
         {
+            "id": 588205981,
+            "name": "afids/AFIDs-HCP",
+            "url": "https://github.com/afids/AFIDs-HCP",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 599174375,
             "name": "afids/tpl-MNIColin27",
             "url": "https://github.com/afids/tpl-MNIColin27",
@@ -8654,7 +8684,7 @@
             "id": 184460,
             "name": "celery/celery",
             "url": "https://github.com/celery/celery",
-            "stars": 20986,
+            "stars": 20991,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -9154,7 +9184,7 @@
             "id": 278474516,
             "name": "conpdatasets/CHBMP",
             "url": "https://github.com/conpdatasets/CHBMP",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -9816,6 +9846,16 @@
             "url": "https://github.com/cryo-data/testing",
             "stars": 2,
             "dataset": true,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 3784908,
+            "name": "cvmfs/cvmfs",
+            "url": "https://github.com/cvmfs/cvmfs",
+            "stars": 240,
+            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -16461,6 +16501,16 @@
             "status": "active"
         },
         {
+            "id": 578383076,
+            "name": "dandizarrs/2fa7b70d-bba6-4857-bdaf-e56e088d1ed2",
+            "url": "https://github.com/dandizarrs/2fa7b70d-bba6-4857-bdaf-e56e088d1ed2",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 522031433,
             "name": "dandizarrs/2fbc01ed-630a-49b8-bcf5-289d34d295bc",
             "url": "https://github.com/dandizarrs/2fbc01ed-630a-49b8-bcf5-289d34d295bc",
@@ -21181,6 +21231,16 @@
             "status": "active"
         },
         {
+            "id": 577769440,
+            "name": "dandizarrs/6991e993-2a27-40c2-a7a6-3b2f276531d5",
+            "url": "https://github.com/dandizarrs/6991e993-2a27-40c2-a7a6-3b2f276531d5",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 523765299,
             "name": "dandizarrs/69961134-6498-4199-8fde-8439338c84d5",
             "url": "https://github.com/dandizarrs/69961134-6498-4199-8fde-8439338c84d5",
@@ -21434,6 +21494,16 @@
             "id": 522687033,
             "name": "dandizarrs/6d22aa78-1383-43f4-b16b-fd64f06738d0",
             "url": "https://github.com/dandizarrs/6d22aa78-1383-43f4-b16b-fd64f06738d0",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 597196106,
+            "name": "dandizarrs/6d4eb4d5-d104-49d6-8efc-18d9302dc479",
+            "url": "https://github.com/dandizarrs/6d4eb4d5-d104-49d6-8efc-18d9302dc479",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -38794,7 +38864,7 @@
             "id": 192640529,
             "name": "heartexlabs/label-studio",
             "url": "https://github.com/heartexlabs/label-studio",
-            "stars": 12065,
+            "stars": 12076,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -39954,7 +40024,7 @@
             "id": 83697780,
             "name": "miykael/nipype_tutorial",
             "url": "https://github.com/miykael/nipype_tutorial",
-            "stars": 100,
+            "stars": 101,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -40174,7 +40244,7 @@
             "id": 52796596,
             "name": "netbox-community/netbox",
             "url": "https://github.com/netbox-community/netbox",
-            "stars": 12071,
+            "stars": 12076,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -40564,7 +40634,7 @@
             "id": 49015296,
             "name": "nipreps/mriqc",
             "url": "https://github.com/nipreps/mriqc",
-            "stars": 222,
+            "stars": 223,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -40575,6 +40645,16 @@
             "name": "nipy/heudiconv",
             "url": "https://github.com/nipy/heudiconv",
             "stars": 188,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 595769691,
+            "name": "nipy/heudiconv-joss-paper",
+            "url": "https://github.com/nipy/heudiconv-joss-paper",
+            "stars": 2,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -41244,7 +41324,7 @@
             "id": 61595715,
             "name": "radiant-rstats/radiant",
             "url": "https://github.com/radiant-rstats/radiant",
-            "stars": 397,
+            "stars": 398,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -41691,9 +41771,9 @@
             "status": "active"
         },
         {
-            "id": 591394448,
-            "name": "tkkuehn/afids-groundtruth-snsx",
-            "url": "https://github.com/tkkuehn/afids-groundtruth-snsx",
+            "id": 591364238,
+            "name": "tkkuehn/afids-groundtruth-hcp",
+            "url": "https://github.com/tkkuehn/afids-groundtruth-hcp",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -41701,9 +41781,9 @@
             "status": "active"
         },
         {
-            "id": 588205981,
-            "name": "tkkuehn/afids-hcp",
-            "url": "https://github.com/tkkuehn/afids-hcp",
+            "id": 591394448,
+            "name": "tkkuehn/afids-groundtruth-snsx",
+            "url": "https://github.com/tkkuehn/afids-groundtruth-snsx",
             "stars": 0,
             "dataset": true,
             "run": false,

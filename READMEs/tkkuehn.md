@@ -2,8 +2,8 @@
 | # | Repository (14) | Stars | Dataset (14) | `run` (2) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [tkkuehn/afids-data-datalad](https://github.com/tkkuehn/afids-data-datalad) | 0 | :heavy_check_mark: |  |  |
-| 2 | [tkkuehn/afids-groundtruth-snsx](https://github.com/tkkuehn/afids-groundtruth-snsx) | 0 | :heavy_check_mark: |  |  |
-| 3 | [tkkuehn/afids-hcp](https://github.com/tkkuehn/afids-hcp) | 0 | :heavy_check_mark: |  |  |
+| 2 | [tkkuehn/afids-groundtruth-hcp](https://github.com/tkkuehn/afids-groundtruth-hcp) | 0 | :heavy_check_mark: |  |  |
+| 3 | [tkkuehn/afids-groundtruth-snsx](https://github.com/tkkuehn/afids-groundtruth-snsx) | 0 | :heavy_check_mark: |  |  |
 | 4 | [tkkuehn/afids-hcp-separate](https://github.com/tkkuehn/afids-hcp-separate) | 0 | :heavy_check_mark: |  |  |
 | 5 | [tkkuehn/afids-snsx](https://github.com/tkkuehn/afids-snsx) | 0 | :heavy_check_mark: |  |  |
 | 6 | [tkkuehn/afids-snsx-separate](https://github.com/tkkuehn/afids-snsx-separate) | 0 | :heavy_check_mark: |  |  |
