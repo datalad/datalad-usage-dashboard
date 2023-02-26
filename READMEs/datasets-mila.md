@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (328) | Stars (3) | Dataset (211) | `run` (309) | `containers-run` |
+| # | Repository (328) | Stars (3) | Dataset (215) | `run` (309) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datasets-mila/datasets](https://github.com/datasets-mila/datasets) | 0 | :heavy_check_mark: |  |  |
 | 2 | [datasets-mila/datasets--LDC--ontonotes](https://github.com/datasets-mila/datasets--LDC--ontonotes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -194,13 +194,13 @@
 | 191 | [datasets-mila/datasets--dns-challenge](https://github.com/datasets-mila/datasets--dns-challenge) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 192 | [datasets-mila/datasets--domainnet](https://github.com/datasets-mila/datasets--domainnet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 193 | [datasets-mila/datasets--dtd](https://github.com/datasets-mila/datasets--dtd) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 194 | [datasets-mila/datasets--fashionmnist](https://github.com/datasets-mila/datasets--fashionmnist) | 0 |  | :heavy_check_mark: |  |
+| 194 | [datasets-mila/datasets--fashionmnist](https://github.com/datasets-mila/datasets--fashionmnist) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 195 | [datasets-mila/datasets--ffhq](https://github.com/datasets-mila/datasets--ffhq) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 196 | [datasets-mila/datasets--fgvcaircraft](https://github.com/datasets-mila/datasets--fgvcaircraft) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 197 | [datasets-mila/datasets--fgvcxfungi](https://github.com/datasets-mila/datasets--fgvcxfungi) | 0 |  | :heavy_check_mark: |  |
 | 198 | [datasets-mila/datasets--flowers102](https://github.com/datasets-mila/datasets--flowers102) | 0 |  | :heavy_check_mark: |  |
 | 199 | [datasets-mila/datasets--gaia](https://github.com/datasets-mila/datasets--gaia) | 0 |  | :heavy_check_mark: |  |
-| 200 | [datasets-mila/datasets--geolifeclef](https://github.com/datasets-mila/datasets--geolifeclef) | 0 |  | :heavy_check_mark: |  |
+| 200 | [datasets-mila/datasets--geolifeclef](https://github.com/datasets-mila/datasets--geolifeclef) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 201 | [datasets-mila/datasets--gtsrb](https://github.com/datasets-mila/datasets--gtsrb) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 202 | [datasets-mila/datasets--hotels50K](https://github.com/datasets-mila/datasets--hotels50K) | 0 |  | :heavy_check_mark: |  |
 | 203 | [datasets-mila/datasets--icentia11k](https://github.com/datasets-mila/datasets--icentia11k) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -221,7 +221,7 @@
 | 218 | [datasets-mila/datasets--multiobjectdatasets](https://github.com/datasets-mila/datasets--multiobjectdatasets) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 219 | [datasets-mila/datasets--naturalquestions](https://github.com/datasets-mila/datasets--naturalquestions) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 220 | [datasets-mila/datasets--nlvr2](https://github.com/datasets-mila/datasets--nlvr2) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 221 | [datasets-mila/datasets--nuscenes](https://github.com/datasets-mila/datasets--nuscenes) | 0 |  | :heavy_check_mark: |  |
+| 221 | [datasets-mila/datasets--nuscenes](https://github.com/datasets-mila/datasets--nuscenes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 222 | [datasets-mila/datasets--nwm](https://github.com/datasets-mila/datasets--nwm) | 0 |  | :heavy_check_mark: |  |
 | 223 | [datasets-mila/datasets--nwm](https://github.com/datasets-mila/datasets--nwm) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 224 | [datasets-mila/datasets--nwm--1.2--1993](https://github.com/datasets-mila/datasets--nwm--1.2--1993) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -303,7 +303,7 @@
 | 300 | [datasets-mila/datasets--nwm--2.0--2018](https://github.com/datasets-mila/datasets--nwm--2.0--2018) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 301 | [datasets-mila/datasets--oc20](https://github.com/datasets-mila/datasets--oc20) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 302 | [datasets-mila/datasets--omniglot](https://github.com/datasets-mila/datasets--omniglot) | 0 | :heavy_check_mark: |  |  |
-| 303 | [datasets-mila/datasets--open_images](https://github.com/datasets-mila/datasets--open_images) | 0 |  | :heavy_check_mark: |  |
+| 303 | [datasets-mila/datasets--open_images](https://github.com/datasets-mila/datasets--open_images) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 304 | [datasets-mila/datasets--open_images--images](https://github.com/datasets-mila/datasets--open_images--images) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 305 | [datasets-mila/datasets--parallelmeaningbank](https://github.com/datasets-mila/datasets--parallelmeaningbank) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 306 | [datasets-mila/datasets--partnet](https://github.com/datasets-mila/datasets--partnet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
