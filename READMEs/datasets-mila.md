@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (328) | Stars (3) | Dataset (215) | `run` (309) | `containers-run` |
+| # | Repository (328) | Stars (3) | Dataset (216) | `run` (309) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datasets-mila/datasets](https://github.com/datasets-mila/datasets) | 0 | :heavy_check_mark: |  |  |
 | 2 | [datasets-mila/datasets--LDC--ontonotes](https://github.com/datasets-mila/datasets--LDC--ontonotes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -202,7 +202,7 @@
 | 199 | [datasets-mila/datasets--gaia](https://github.com/datasets-mila/datasets--gaia) | 0 |  | :heavy_check_mark: |  |
 | 200 | [datasets-mila/datasets--geolifeclef](https://github.com/datasets-mila/datasets--geolifeclef) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 201 | [datasets-mila/datasets--gtsrb](https://github.com/datasets-mila/datasets--gtsrb) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 202 | [datasets-mila/datasets--hotels50K](https://github.com/datasets-mila/datasets--hotels50K) | 0 |  | :heavy_check_mark: |  |
+| 202 | [datasets-mila/datasets--hotels50K](https://github.com/datasets-mila/datasets--hotels50K) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 203 | [datasets-mila/datasets--icentia11k](https://github.com/datasets-mila/datasets--icentia11k) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 204 | [datasets-mila/datasets--imagenet](https://github.com/datasets-mila/datasets--imagenet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 205 | [datasets-mila/datasets--imagenet](https://github.com/datasets-mila/datasets--imagenet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
