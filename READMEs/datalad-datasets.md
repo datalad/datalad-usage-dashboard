@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (17) | Stars (185) | Dataset (15) | `run` (13) | `containers-run` |
+| # | Repository (17) | Stars (184) | Dataset (15) | `run` (13) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad-datasets/disneyanimation-cloud](https://github.com/datalad-datasets/disneyanimation-cloud) | 5 | :heavy_check_mark: |  |  |
 | 2 | [datalad-datasets/hcp-7T_Movies](https://github.com/datalad-datasets/hcp-7T_Movies) | 0 |  | :heavy_check_mark: |  |
@@ -16,7 +16,7 @@
 | 13 | [datalad-datasets/kdenlive-what-is-datalad](https://github.com/datalad-datasets/kdenlive-what-is-datalad) | 0 | :heavy_check_mark: |  |  |
 | 14 | [datalad-datasets/longnow-podcasts](https://github.com/datalad-datasets/longnow-podcasts) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 15 | [datalad-datasets/machinelearning-books](https://github.com/datalad-datasets/machinelearning-books) | 110 | :heavy_check_mark: |  |  |
-| 16 | [datalad-datasets/ohbm2020-posters](https://github.com/datalad-datasets/ohbm2020-posters) | 33 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 16 | [datalad-datasets/ohbm2020-posters](https://github.com/datalad-datasets/ohbm2020-posters) | 32 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 17 | [datalad-datasets/ohbm2020-posters-pdfs](https://github.com/datalad-datasets/ohbm2020-posters-pdfs) | 0 |  | :heavy_check_mark: |  |
 
 ## Gone
