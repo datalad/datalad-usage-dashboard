@@ -17,7 +17,7 @@
 | 14 | [ReproNim/reproin](https://github.com/ReproNim/reproin) | 43 |  | :heavy_check_mark: |  |
 | 15 | [ReproNim/reproman](https://github.com/ReproNim/reproman) | 23 |  | :heavy_check_mark: |  |
 | 16 | [ReproNim/repronim.github.io](https://github.com/ReproNim/repronim.github.io) | 3 |  | :heavy_check_mark: |  |
-| 17 | [ReproNim/reprostim-session-20230105](https://github.com/ReproNim/reprostim-session-20230105) | 0 | :heavy_check_mark: |  |  |
+| 17 | [ReproNim/reprostim-sessions](https://github.com/ReproNim/reprostim-sessions) | 0 | :heavy_check_mark: |  |  |
 | 18 | [ReproNim/sfn2018-training](https://github.com/ReproNim/sfn2018-training) | 2 | :heavy_check_mark: |  |  |
 | 19 | [ReproNim/webinar-2020-reprocomp](https://github.com/ReproNim/webinar-2020-reprocomp) | 0 | :heavy_check_mark: |  |  |
 
