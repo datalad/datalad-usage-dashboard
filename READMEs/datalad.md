@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (41) | Stars (492) | Dataset (23) | `run` (22) | `containers-run` |
+| # | Repository (41) | Stars (494) | Dataset (23) | `run` (22) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  |
-| 2 | [datalad/datalad](https://github.com/datalad/datalad) | 395 |  | :heavy_check_mark: |  |
+| 2 | [datalad/datalad](https://github.com/datalad/datalad) | 396 |  | :heavy_check_mark: |  |
 | 3 | [datalad/datalad-action-test](https://github.com/datalad/datalad-action-test) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 4 | [datalad/datalad-container](https://github.com/datalad/datalad-container) | 9 |  | :heavy_check_mark: |  |
 | 5 | [datalad/datalad-dataverse](https://github.com/datalad/datalad-dataverse) | 9 |  | :heavy_check_mark: |  |
@@ -15,7 +15,7 @@
 | 12 | [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 4 |  | :heavy_check_mark: |  |
 | 13 | [datalad/datalad-metalad](https://github.com/datalad/datalad-metalad) | 9 |  | :heavy_check_mark: |  |
 | 14 | [datalad/datalad-neuroimaging](https://github.com/datalad/datalad-neuroimaging) | 14 |  | :heavy_check_mark: |  |
-| 15 | [datalad/datalad-next](https://github.com/datalad/datalad-next) | 4 |  | :heavy_check_mark: |  |
+| 15 | [datalad/datalad-next](https://github.com/datalad/datalad-next) | 5 |  | :heavy_check_mark: |  |
 | 16 | [datalad/datalad-nuitka](https://github.com/datalad/datalad-nuitka) | 0 | :heavy_check_mark: |  |  |
 | 17 | [datalad/datalad-openneuropet](https://github.com/datalad/datalad-openneuropet) | 0 |  | :heavy_check_mark: |  |
 | 18 | [datalad/datalad-paper-joss](https://github.com/datalad/datalad-paper-joss) | 3 | :heavy_check_mark: |  |  |
