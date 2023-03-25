@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (328) | Stars (3) | Dataset (216) | `run` (309) | `containers-run` |
+| # | Repository (329) | Stars (3) | Dataset (218) | `run` (309) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datasets-mila/datasets](https://github.com/datasets-mila/datasets) | 0 | :heavy_check_mark: |  |  |
 | 2 | [datasets-mila/datasets--LDC--ontonotes](https://github.com/datasets-mila/datasets--LDC--ontonotes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -197,7 +197,7 @@
 | 194 | [datasets-mila/datasets--fashionmnist](https://github.com/datasets-mila/datasets--fashionmnist) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 195 | [datasets-mila/datasets--ffhq](https://github.com/datasets-mila/datasets--ffhq) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 196 | [datasets-mila/datasets--fgvcaircraft](https://github.com/datasets-mila/datasets--fgvcaircraft) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 197 | [datasets-mila/datasets--fgvcxfungi](https://github.com/datasets-mila/datasets--fgvcxfungi) | 0 |  | :heavy_check_mark: |  |
+| 197 | [datasets-mila/datasets--fgvcxfungi](https://github.com/datasets-mila/datasets--fgvcxfungi) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 198 | [datasets-mila/datasets--flowers102](https://github.com/datasets-mila/datasets--flowers102) | 0 |  | :heavy_check_mark: |  |
 | 199 | [datasets-mila/datasets--gaia](https://github.com/datasets-mila/datasets--gaia) | 0 |  | :heavy_check_mark: |  |
 | 200 | [datasets-mila/datasets--geolifeclef](https://github.com/datasets-mila/datasets--geolifeclef) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -324,11 +324,12 @@
 | 321 | [datasets-mila/datasets--timit](https://github.com/datasets-mila/datasets--timit) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 322 | [datasets-mila/datasets--tinyimagenet](https://github.com/datasets-mila/datasets--tinyimagenet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 323 | [datasets-mila/datasets--toyadmos](https://github.com/datasets-mila/datasets--toyadmos) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 324 | [datasets-mila/datasets--twitter](https://github.com/datasets-mila/datasets--twitter) | 0 | :heavy_check_mark: |  |  |
-| 325 | [datasets-mila/datasets--ubuntu](https://github.com/datasets-mila/datasets--ubuntu) | 0 |  | :heavy_check_mark: |  |
-| 326 | [datasets-mila/datasets--voc2012](https://github.com/datasets-mila/datasets--voc2012) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 327 | [datasets-mila/datasets--waymoperception](https://github.com/datasets-mila/datasets--waymoperception) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 328 | [datasets-mila/datasets--wikitext](https://github.com/datasets-mila/datasets--wikitext) | 0 | :heavy_check_mark: |  |  |
+| 324 | [datasets-mila/datasets--treemonitoring](https://github.com/datasets-mila/datasets--treemonitoring) | 0 | :heavy_check_mark: |  |  |
+| 325 | [datasets-mila/datasets--twitter](https://github.com/datasets-mila/datasets--twitter) | 0 | :heavy_check_mark: |  |  |
+| 326 | [datasets-mila/datasets--ubuntu](https://github.com/datasets-mila/datasets--ubuntu) | 0 |  | :heavy_check_mark: |  |
+| 327 | [datasets-mila/datasets--voc2012](https://github.com/datasets-mila/datasets--voc2012) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 328 | [datasets-mila/datasets--waymoperception](https://github.com/datasets-mila/datasets--waymoperception) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 329 | [datasets-mila/datasets--wikitext](https://github.com/datasets-mila/datasets--wikitext) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
 | # | Repository (8) | Stars | Dataset (1) | `run` (7) | `containers-run` |
