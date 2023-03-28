@@ -1,9 +1,10 @@
 ## Active
-| # | Repository (3) | Stars | Dataset (3) | `run` | `containers-run` |
+| # | Repository (4) | Stars | Dataset (4) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [mslw/AIDAqc-dataset](https://github.com/mslw/AIDAqc-dataset) | 0 | :heavy_check_mark: |  |  |
-| 2 | [mslw/datalad-dicom-demo](https://github.com/mslw/datalad-dicom-demo) | 0 | :heavy_check_mark: |  |  |
-| 3 | [mslw/super-duper-octo-engine](https://github.com/mslw/super-duper-octo-engine) | 0 | :heavy_check_mark: |  |  |
+| 2 | [mslw/DVC-DataLad](https://github.com/mslw/DVC-DataLad) | 0 | :heavy_check_mark: |  |  |
+| 3 | [mslw/datalad-dicom-demo](https://github.com/mslw/datalad-dicom-demo) | 0 | :heavy_check_mark: |  |  |
+| 4 | [mslw/super-duper-octo-engine](https://github.com/mslw/super-duper-octo-engine) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
 | # | Repository (3) | Stars | Dataset (3) | `run` | `containers-run` |
