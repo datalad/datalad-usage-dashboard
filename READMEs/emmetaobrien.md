@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (15) | Stars (3) | Dataset (15) | `run` | `containers-run` |
+| # | Repository (16) | Stars (3) | Dataset (16) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [emmetaobrien/1000GenomesProject](https://github.com/emmetaobrien/1000GenomesProject) | 2 | :heavy_check_mark: |  |  |
 | 2 | [emmetaobrien/1KGP-02Aug2019](https://github.com/emmetaobrien/1KGP-02Aug2019) | 0 | :heavy_check_mark: |  |  |
@@ -16,6 +16,7 @@
 | 13 | [emmetaobrien/conp-dataset-1KGP](https://github.com/emmetaobrien/conp-dataset-1KGP) | 0 | :heavy_check_mark: |  |  |
 | 14 | [emmetaobrien/microstructure_informed_connectomics](https://github.com/emmetaobrien/microstructure_informed_connectomics) | 0 | :heavy_check_mark: |  |  |
 | 15 | [emmetaobrien/refseq_Homo_sapiens](https://github.com/emmetaobrien/refseq_Homo_sapiens) | 0 | :heavy_check_mark: |  |  |
+| 16 | [emmetaobrien/refseq_Mus_musculus](https://github.com/emmetaobrien/refseq_Mus_musculus) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
 | # | Repository (1) | Stars | Dataset (1) | `run` | `containers-run` |
