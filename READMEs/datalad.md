@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (43) | Stars (521) | Dataset (24) | `run` (23) | `containers-run` |
+| # | Repository (43) | Stars (522) | Dataset (24) | `run` (23) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  |
-| 2 | [datalad/datalad](https://github.com/datalad/datalad) | 412 |  | :heavy_check_mark: |  |
+| 2 | [datalad/datalad](https://github.com/datalad/datalad) | 413 |  | :heavy_check_mark: |  |
 | 3 | [datalad/datalad-action-test](https://github.com/datalad/datalad-action-test) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 4 | [datalad/datalad-catalog](https://github.com/datalad/datalad-catalog) | 11 |  | :heavy_check_mark: |  |
 | 5 | [datalad/datalad-container](https://github.com/datalad/datalad-container) | 8 |  | :heavy_check_mark: |  |
