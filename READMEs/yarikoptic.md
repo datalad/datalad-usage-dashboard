@@ -1,10 +1,10 @@
 ## Active
-| # | Repository (18) | Stars (4) | Dataset (14) | `run` (9) | `containers-run` (1) |
+| # | Repository (18) | Stars (4) | Dataset (15) | `run` (9) | `containers-run` (1) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [yarikoptic/HBN_BIDS-fmriprep_try](https://github.com/yarikoptic/HBN_BIDS-fmriprep_try) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 2 | [yarikoptic/amana-fan-bracket-3dprint](https://github.com/yarikoptic/amana-fan-bracket-3dprint) | 0 | :heavy_check_mark: |  |  |
 | 3 | [yarikoptic/coop](https://github.com/yarikoptic/coop) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 4 | [yarikoptic/demo-cifar-preproc](https://github.com/yarikoptic/demo-cifar-preproc) | 0 |  | :heavy_check_mark: |  |
+| 4 | [yarikoptic/demo-cifar-preproc](https://github.com/yarikoptic/demo-cifar-preproc) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 5 | [yarikoptic/demo-vgg-voxconverse](https://github.com/yarikoptic/demo-vgg-voxconverse) | 1 | :heavy_check_mark: |  |  |
 | 6 | [yarikoptic/demo1](https://github.com/yarikoptic/demo1) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 7 | [yarikoptic/ds000114--demo-bet](https://github.com/yarikoptic/ds000114--demo-bet) | 0 |  | :heavy_check_mark: |  |
