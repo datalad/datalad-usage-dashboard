@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (43) | Stars (524) | Dataset (24) | `run` (23) | `containers-run` |
+| # | Repository (44) | Stars (525) | Dataset (25) | `run` (23) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  |
 | 2 | [datalad/datalad](https://github.com/datalad/datalad) | 414 |  | :heavy_check_mark: |  |
@@ -25,25 +25,26 @@
 | 22 | [datalad/datasets.datalad.org](https://github.com/datalad/datasets.datalad.org) | 7 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 23 | [datalad/datasets.datalad.org--labs](https://github.com/datalad/datasets.datalad.org--labs) | 0 | :heavy_check_mark: |  |  |
 | 24 | [datalad/example-dicom-functional](https://github.com/datalad/example-dicom-functional) | 1 | :heavy_check_mark: |  |  |
-| 25 | [datalad/example-dicom-structural](https://github.com/datalad/example-dicom-structural) | 2 | :heavy_check_mark: |  |  |
+| 25 | [datalad/example-dicom-structural](https://github.com/datalad/example-dicom-structural) | 3 | :heavy_check_mark: |  |  |
 | 26 | [datalad/git-annex](https://github.com/datalad/git-annex) | 4 |  | :heavy_check_mark: |  |
 | 27 | [datalad/hcp-100307-test](https://github.com/datalad/hcp-100307-test) | 1 | :heavy_check_mark: |  |  |
 | 28 | [datalad/metalad-demo](https://github.com/datalad/metalad-demo) | 0 | :heavy_check_mark: |  |  |
-| 29 | [datalad/packages](https://github.com/datalad/packages) | 0 | :heavy_check_mark: |  |  |
-| 30 | [datalad/ria-tools](https://github.com/datalad/ria-tools) | 1 | :heavy_check_mark: |  |  |
-| 31 | [datalad/screencaster](https://github.com/datalad/screencaster) | 0 |  | :heavy_check_mark: |  |
-| 32 | [datalad/talk-2019-mila](https://github.com/datalad/talk-2019-mila) | 4 | :heavy_check_mark: |  |  |
-| 33 | [datalad/talk-2022-abcd](https://github.com/datalad/talk-2022-abcd) | 0 | :heavy_check_mark: |  |  |
-| 34 | [datalad/talk-fosdem-2020](https://github.com/datalad/talk-fosdem-2020) | 0 | :heavy_check_mark: |  |  |
-| 35 | [datalad/talk-openneuro-2018](https://github.com/datalad/talk-openneuro-2018) | 1 | :heavy_check_mark: |  |  |
-| 36 | [datalad/talks](https://github.com/datalad/talks) | 0 | :heavy_check_mark: |  |  |
-| 37 | [datalad/testrepo--minimalds](https://github.com/datalad/testrepo--minimalds) | 0 | :heavy_check_mark: |  |  |
-| 38 | [datalad/testrepo--minimalds-osf](https://github.com/datalad/testrepo--minimalds-osf) | 0 | :heavy_check_mark: |  |  |
-| 39 | [datalad/testrepo_gh](https://github.com/datalad/testrepo_gh) | 0 | :heavy_check_mark: |  |  |
-| 40 | [datalad/testrepo_gh-sub__1](https://github.com/datalad/testrepo_gh-sub__1) | 0 | :heavy_check_mark: |  |  |
-| 41 | [datalad/testrepo_gh-sub__1-d-sub_-_1](https://github.com/datalad/testrepo_gh-sub__1-d-sub_-_1) | 0 | :heavy_check_mark: |  |  |
-| 42 | [datalad/tutorials](https://github.com/datalad/tutorials) | 7 |  | :heavy_check_mark: |  |
-| 43 | [datalad/videos-onlinebrainintensive-2017](https://github.com/datalad/videos-onlinebrainintensive-2017) | 2 | :heavy_check_mark: |  |  |
+| 29 | [datalad/ohbm-booth](https://github.com/datalad/ohbm-booth) | 0 | :heavy_check_mark: |  |  |
+| 30 | [datalad/packages](https://github.com/datalad/packages) | 0 | :heavy_check_mark: |  |  |
+| 31 | [datalad/ria-tools](https://github.com/datalad/ria-tools) | 1 | :heavy_check_mark: |  |  |
+| 32 | [datalad/screencaster](https://github.com/datalad/screencaster) | 0 |  | :heavy_check_mark: |  |
+| 33 | [datalad/talk-2019-mila](https://github.com/datalad/talk-2019-mila) | 4 | :heavy_check_mark: |  |  |
+| 34 | [datalad/talk-2022-abcd](https://github.com/datalad/talk-2022-abcd) | 0 | :heavy_check_mark: |  |  |
+| 35 | [datalad/talk-fosdem-2020](https://github.com/datalad/talk-fosdem-2020) | 0 | :heavy_check_mark: |  |  |
+| 36 | [datalad/talk-openneuro-2018](https://github.com/datalad/talk-openneuro-2018) | 1 | :heavy_check_mark: |  |  |
+| 37 | [datalad/talks](https://github.com/datalad/talks) | 0 | :heavy_check_mark: |  |  |
+| 38 | [datalad/testrepo--minimalds](https://github.com/datalad/testrepo--minimalds) | 0 | :heavy_check_mark: |  |  |
+| 39 | [datalad/testrepo--minimalds-osf](https://github.com/datalad/testrepo--minimalds-osf) | 0 | :heavy_check_mark: |  |  |
+| 40 | [datalad/testrepo_gh](https://github.com/datalad/testrepo_gh) | 0 | :heavy_check_mark: |  |  |
+| 41 | [datalad/testrepo_gh-sub__1](https://github.com/datalad/testrepo_gh-sub__1) | 0 | :heavy_check_mark: |  |  |
+| 42 | [datalad/testrepo_gh-sub__1-d-sub_-_1](https://github.com/datalad/testrepo_gh-sub__1-d-sub_-_1) | 0 | :heavy_check_mark: |  |  |
+| 43 | [datalad/tutorials](https://github.com/datalad/tutorials) | 7 |  | :heavy_check_mark: |  |
+| 44 | [datalad/videos-onlinebrainintensive-2017](https://github.com/datalad/videos-onlinebrainintensive-2017) | 2 | :heavy_check_mark: |  |  |
 
 ## Gone
 | # | Repository (1) | Stars | Dataset | `run` (1) | `containers-run` |

@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (18) | Stars (13) | Dataset (16) | `run` (4) | `containers-run` |
+| # | Repository (11) | Stars (10) | Dataset (9) | `run` (3) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [lnnrtwttkhn/DataLad-101](https://github.com/lnnrtwttkhn/DataLad-101) | 0 |  | :heavy_check_mark: |  |
 | 2 | [lnnrtwttkhn/bibliography](https://github.com/lnnrtwttkhn/bibliography) | 3 | :heavy_check_mark: |  |  |
@@ -11,14 +11,15 @@
 | 8 | [lnnrtwttkhn/highspeed-decoding](https://github.com/lnnrtwttkhn/highspeed-decoding) | 0 | :heavy_check_mark: |  |  |
 | 9 | [lnnrtwttkhn/highspeed-fmriprep](https://github.com/lnnrtwttkhn/highspeed-fmriprep) | 0 | :heavy_check_mark: |  |  |
 | 10 | [lnnrtwttkhn/highspeed-glm](https://github.com/lnnrtwttkhn/highspeed-glm) | 0 | :heavy_check_mark: |  |  |
-| 11 | [lnnrtwttkhn/highspeed-masks](https://github.com/lnnrtwttkhn/highspeed-masks) | 0 | :heavy_check_mark: |  |  |
-| 12 | [lnnrtwttkhn/highspeed-mriqc](https://github.com/lnnrtwttkhn/highspeed-mriqc) | 0 | :heavy_check_mark: |  |  |
-| 13 | [lnnrtwttkhn/keeper-test](https://github.com/lnnrtwttkhn/keeper-test) | 0 | :heavy_check_mark: |  |  |
-| 14 | [lnnrtwttkhn/keeper-test2](https://github.com/lnnrtwttkhn/keeper-test2) | 0 | :heavy_check_mark: |  |  |
-| 15 | [lnnrtwttkhn/replay-illustrations](https://github.com/lnnrtwttkhn/replay-illustrations) | 0 | :heavy_check_mark: |  |  |
-| 16 | [lnnrtwttkhn/resources](https://github.com/lnnrtwttkhn/resources) | 2 | :heavy_check_mark: |  |  |
-| 17 | [lnnrtwttkhn/talk-rdm](https://github.com/lnnrtwttkhn/talk-rdm) | 6 |  | :heavy_check_mark: |  |
-| 18 | [lnnrtwttkhn/tools](https://github.com/lnnrtwttkhn/tools) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 11 | [lnnrtwttkhn/talk-rdm](https://github.com/lnnrtwttkhn/talk-rdm) | 6 |  | :heavy_check_mark: |  |
 
 ## Gone
-No repositories found!
+| # | Repository (7) | Stars (3) | Dataset (7) | `run` (1) | `containers-run` |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [lnnrtwttkhn/highspeed-masks](https://github.com/lnnrtwttkhn/highspeed-masks) | 0 | :heavy_check_mark: |  |  |
+| 2 | [lnnrtwttkhn/highspeed-mriqc](https://github.com/lnnrtwttkhn/highspeed-mriqc) | 0 | :heavy_check_mark: |  |  |
+| 3 | [lnnrtwttkhn/keeper-test](https://github.com/lnnrtwttkhn/keeper-test) | 0 | :heavy_check_mark: |  |  |
+| 4 | [lnnrtwttkhn/keeper-test2](https://github.com/lnnrtwttkhn/keeper-test2) | 0 | :heavy_check_mark: |  |  |
+| 5 | [lnnrtwttkhn/replay-illustrations](https://github.com/lnnrtwttkhn/replay-illustrations) | 0 | :heavy_check_mark: |  |  |
+| 6 | [lnnrtwttkhn/resources](https://github.com/lnnrtwttkhn/resources) | 2 | :heavy_check_mark: |  |  |
+| 7 | [lnnrtwttkhn/tools](https://github.com/lnnrtwttkhn/tools) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
