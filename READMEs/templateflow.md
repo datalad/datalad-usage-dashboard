@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (25) | Stars (61) | Dataset (25) | `run` | `containers-run` |
+| # | Repository (27) | Stars (61) | Dataset (27) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 52 | :heavy_check_mark: |  |  |
 | 2 | [templateflow/tpl-Fischer344](https://github.com/templateflow/tpl-Fischer344) | 0 | :heavy_check_mark: |  |  |
@@ -26,9 +26,8 @@
 | 23 | [templateflow/tpl-UNCInfant](https://github.com/templateflow/tpl-UNCInfant) | 0 | :heavy_check_mark: |  |  |
 | 24 | [templateflow/tpl-VALiDATe29](https://github.com/templateflow/tpl-VALiDATe29) | 0 | :heavy_check_mark: |  |  |
 | 25 | [templateflow/tpl-WHS](https://github.com/templateflow/tpl-WHS) | 0 | :heavy_check_mark: |  |  |
+| 26 | [templateflow/tpl-fsLR](https://github.com/templateflow/tpl-fsLR) | 0 | :heavy_check_mark: |  |  |
+| 27 | [templateflow/tpl-fsaverage](https://github.com/templateflow/tpl-fsaverage) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
-| # | Repository (2) | Stars | Dataset (2) | `run` | `containers-run` |
-| --- | --- | --- | --- | --- | --- |
-| 1 | [templateflow/tpl-fsLR](https://github.com/templateflow/tpl-fsLR) | 0 | :heavy_check_mark: |  |  |
-| 2 | [templateflow/tpl-fsaverage](https://github.com/templateflow/tpl-fsaverage) | 0 | :heavy_check_mark: |  |  |
+No repositories found!
