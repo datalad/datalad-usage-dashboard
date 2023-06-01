@@ -1,12 +1,12 @@
 ## Active
-| # | Repository (38) | Stars (14) | Dataset (38) | `run` (6) | `containers-run` (3) |
+| # | Repository (38) | Stars (16) | Dataset (38) | `run` (6) | `containers-run` (3) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  |
 | 2 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 1 | :heavy_check_mark: |  |  |
 | 3 | [courtois-neuromod/anat.freesurfer](https://github.com/courtois-neuromod/anat.freesurfer) | 0 | :heavy_check_mark: |  |  |
 | 4 | [courtois-neuromod/anat.smriprep](https://github.com/courtois-neuromod/anat.smriprep) | 0 | :heavy_check_mark: |  |  |
 | 5 | [courtois-neuromod/cimaq_fmriprep](https://github.com/courtois-neuromod/cimaq_fmriprep) | 0 | :heavy_check_mark: |  |  |
-| 6 | [courtois-neuromod/cneuromod](https://github.com/courtois-neuromod/cneuromod) | 7 | :heavy_check_mark: |  |  |
+| 6 | [courtois-neuromod/cneuromod](https://github.com/courtois-neuromod/cneuromod) | 9 | :heavy_check_mark: |  |  |
 | 7 | [courtois-neuromod/cneuromod.fmriprep](https://github.com/courtois-neuromod/cneuromod.fmriprep) | 0 | :heavy_check_mark: |  |  |
 | 8 | [courtois-neuromod/cneuromod.processed](https://github.com/courtois-neuromod/cneuromod.processed) | 0 | :heavy_check_mark: |  |  |
 | 9 | [courtois-neuromod/containers](https://github.com/courtois-neuromod/containers) | 0 | :heavy_check_mark: |  |  |
