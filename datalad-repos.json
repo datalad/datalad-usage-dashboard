@@ -284,7 +284,7 @@
             "id": 126897385,
             "name": "DeepLabCut/DeepLabCut",
             "url": "https://github.com/DeepLabCut/DeepLabCut",
-            "stars": 3709,
+            "stars": 3712,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -694,7 +694,7 @@
             "id": 140680839,
             "name": "MichaelMure/git-bug",
             "url": "https://github.com/MichaelMure/git-bug",
-            "stars": 7741,
+            "stars": 7742,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -7368,7 +7368,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 601584401,
@@ -11584,7 +11584,7 @@
             "id": 2358713,
             "name": "PintaProject/Pinta",
             "url": "https://github.com/PintaProject/Pinta",
-            "stars": 1464,
+            "stars": 1467,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -13024,7 +13024,7 @@
             "id": 112995625,
             "name": "biolink/biolink-model",
             "url": "https://github.com/biolink/biolink-model",
-            "stars": 130,
+            "stars": 131,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -13204,7 +13204,7 @@
             "id": 184460,
             "name": "celery/celery",
             "url": "https://github.com/celery/celery",
-            "stars": 21644,
+            "stars": 21650,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -13904,7 +13904,7 @@
             "id": 275035933,
             "name": "container-orchestrated-devices/container-device-interface",
             "url": "https://github.com/container-orchestrated-devices/container-device-interface",
-            "stars": 97,
+            "stars": 98,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -41184,7 +41184,7 @@
             "id": 36072588,
             "name": "datalad-datasets/machinelearning-books",
             "url": "https://github.com/datalad-datasets/machinelearning-books",
-            "stars": 110,
+            "stars": 111,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -41384,7 +41384,7 @@
             "id": 132459727,
             "name": "datalad/datalad-container",
             "url": "https://github.com/datalad/datalad-container",
-            "stars": 8,
+            "stars": 9,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -45314,7 +45314,7 @@
             "id": 505209,
             "name": "dipy/dipy",
             "url": "https://github.com/dipy/dipy",
-            "stars": 597,
+            "stars": 598,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -45594,7 +45594,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 5882,
+            "stars": 5883,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -46084,7 +46084,7 @@
             "id": 192640529,
             "name": "heartexlabs/label-studio",
             "url": "https://github.com/heartexlabs/label-studio",
-            "stars": 13181,
+            "stars": 13211,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -47714,7 +47714,7 @@
             "id": 52796596,
             "name": "netbox-community/netbox",
             "url": "https://github.com/netbox-community/netbox",
-            "stars": 12599,
+            "stars": 12601,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -47724,7 +47724,7 @@
             "id": 890377,
             "name": "networkx/networkx",
             "url": "https://github.com/networkx/networkx",
-            "stars": 12721,
+            "stars": 12723,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -48041,6 +48041,16 @@
             "status": "active"
         },
         {
+            "id": 458515870,
+            "name": "nipraxis/textbook",
+            "url": "https://github.com/nipraxis/textbook",
+            "stars": 10,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 317062427,
             "name": "nipreps-data/HCP101006",
             "url": "https://github.com/nipreps-data/HCP101006",
@@ -48294,7 +48304,7 @@
             "id": 53175327,
             "name": "nipreps/fmriprep",
             "url": "https://github.com/nipreps/fmriprep",
-            "stars": 528,
+            "stars": 529,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -48344,7 +48354,7 @@
             "id": 791477,
             "name": "nipy/nipype",
             "url": "https://github.com/nipy/nipype",
-            "stars": 682,
+            "stars": 683,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -48354,7 +48364,7 @@
             "id": 619959033,
             "name": "nomic-ai/gpt4all",
             "url": "https://github.com/nomic-ai/gpt4all",
-            "stars": 44840,
+            "stars": 45149,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49344,7 +49354,7 @@
             "id": 25434012,
             "name": "rordenlab/dcm2niix",
             "url": "https://github.com/rordenlab/dcm2niix",
-            "stars": 640,
+            "stars": 643,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49678,7 +49688,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 412578750,
@@ -49688,7 +49698,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 406130080,
@@ -49698,7 +49708,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 153389176,
@@ -49728,7 +49738,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 153740623,
@@ -49768,7 +49778,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 476021512,
@@ -49828,7 +49838,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 446173372,
@@ -49848,7 +49858,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 190072160,
@@ -49878,7 +49888,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 437486364,
@@ -49948,7 +49958,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 165954367,
@@ -49958,7 +49968,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 165949054,
@@ -49968,7 +49978,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 525598411,
@@ -49978,7 +49988,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 181082161,
@@ -49988,7 +49998,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591383105,
@@ -49998,7 +50008,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591364238,
@@ -50008,7 +50018,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591394448,
@@ -50018,7 +50028,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591367324,
@@ -50028,7 +50038,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591392972,
@@ -50038,7 +50048,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591398419,
@@ -50048,7 +50058,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591363345,
@@ -50058,7 +50068,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591395997,
@@ -50068,7 +50078,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 433567734,
@@ -50078,7 +50088,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 433567786,
@@ -50088,7 +50098,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 433567804,
@@ -50098,7 +50108,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 433567821,
@@ -50108,7 +50118,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 364964764,
@@ -50118,7 +50128,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 486295037,
@@ -50128,7 +50138,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": null,
@@ -50148,7 +50158,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 612403913,
@@ -50168,7 +50178,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 375641941,
@@ -50178,7 +50188,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 277647190,
@@ -50198,7 +50208,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 494105352,
@@ -50208,7 +50218,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 497357296,
@@ -50218,7 +50228,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 146327667,
@@ -50228,7 +50238,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 505136388,
@@ -50238,7 +50248,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 468420443,
@@ -50248,7 +50258,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 213953066,
@@ -50258,7 +50268,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 194879336,
@@ -50268,7 +50278,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 165122035,
@@ -50308,7 +50318,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 520228172,
@@ -50348,7 +50358,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 193558957,
@@ -50358,7 +50368,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 218443270,
@@ -50378,7 +50388,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 227971703,
@@ -50388,7 +50398,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 153562786,
@@ -50398,7 +50408,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 177492722,
@@ -50438,7 +50448,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 201115146,
@@ -50448,7 +50458,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 365275510,
@@ -50458,7 +50468,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 102654814,
@@ -50508,7 +50518,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 281549435,
@@ -50538,7 +50548,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 367177461,
@@ -50598,7 +50608,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 263808022,
@@ -50678,7 +50688,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 497152377,
@@ -50698,7 +50708,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 5472602,
@@ -50718,7 +50728,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 553654041,
@@ -50728,7 +50738,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 424825221,
@@ -50738,7 +50748,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 540628033,
@@ -50758,7 +50768,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         }
     ],
     "osf": [
