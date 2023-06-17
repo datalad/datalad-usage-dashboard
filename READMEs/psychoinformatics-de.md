@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (17) | Stars (51) | Dataset (17) | `run` (7) | `containers-run` (1) |
+| # | Repository (16) | Stars (51) | Dataset (16) | `run` (6) | `containers-run` (1) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [psychoinformatics-de/anima](https://github.com/psychoinformatics-de/anima) | 0 | :heavy_check_mark: |  |  |
 | 2 | [psychoinformatics-de/fairly-big-processing-workflow-tutorial](https://github.com/psychoinformatics-de/fairly-big-processing-workflow-tutorial) | 7 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
@@ -17,10 +17,9 @@
 | 14 | [psychoinformatics-de/studyforrest-data-retinotopy](https://github.com/psychoinformatics-de/studyforrest-data-retinotopy) | 2 | :heavy_check_mark: |  |  |
 | 15 | [psychoinformatics-de/studyforrest-data-structural](https://github.com/psychoinformatics-de/studyforrest-data-structural) | 3 | :heavy_check_mark: |  |  |
 | 16 | [psychoinformatics-de/studyforrest-data-visualrois](https://github.com/psychoinformatics-de/studyforrest-data-visualrois) | 2 | :heavy_check_mark: |  |  |
-| 17 | [psychoinformatics-de/studyforrest-paper-speechannotation](https://github.com/psychoinformatics-de/studyforrest-paper-speechannotation) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 
 ## Gone
-| # | Repository (8) | Stars (4) | Dataset (7) | `run` (2) | `containers-run` |
+| # | Repository (9) | Stars (4) | Dataset (8) | `run` (3) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [psychoinformatics-de/hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) | 0 | :heavy_check_mark: |  |  |
 | 2 | [psychoinformatics-de/hirni-demo-acq1](https://github.com/psychoinformatics-de/hirni-demo-acq1) | 0 | :heavy_check_mark: |  |  |
@@ -29,4 +28,5 @@
 | 5 | [psychoinformatics-de/studyforrest-data-aligned](https://github.com/psychoinformatics-de/studyforrest-data-aligned) | 1 | :heavy_check_mark: |  |  |
 | 6 | [psychoinformatics-de/studyforrest-data-confoundsannotation](https://github.com/psychoinformatics-de/studyforrest-data-confoundsannotation) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 7 | [psychoinformatics-de/studyforrest-data-templatetransforms](https://github.com/psychoinformatics-de/studyforrest-data-templatetransforms) | 0 | :heavy_check_mark: |  |  |
-| 8 | [psychoinformatics-de/talk-datalad-gofair](https://github.com/psychoinformatics-de/talk-datalad-gofair) | 0 | :heavy_check_mark: |  |  |
+| 8 | [psychoinformatics-de/studyforrest-paper-speechannotation](https://github.com/psychoinformatics-de/studyforrest-paper-speechannotation) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 9 | [psychoinformatics-de/talk-datalad-gofair](https://github.com/psychoinformatics-de/talk-datalad-gofair) | 0 | :heavy_check_mark: |  |  |
