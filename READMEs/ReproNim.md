@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (22) | Stars (373) | Dataset (15) | `run` (12) | `containers-run` (1) |
+| # | Repository (22) | Stars (375) | Dataset (15) | `run` (12) | `containers-run` (1) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproNim/ReproTube](https://github.com/ReproNim/ReproTube) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 2 | [ReproNim/abcd-apps](https://github.com/ReproNim/abcd-apps) | 0 | :heavy_check_mark: |  |  |
@@ -12,8 +12,8 @@
 | 9 | [ReproNim/ds001907-EDU](https://github.com/ReproNim/ds001907-EDU) | 0 | :heavy_check_mark: |  |  |
 | 10 | [ReproNim/module-reproducible-basics](https://github.com/ReproNim/module-reproducible-basics) | 6 |  | :heavy_check_mark: |  |
 | 11 | [ReproNim/neurodocker](https://github.com/ReproNim/neurodocker) | 264 |  | :heavy_check_mark: |  |
-| 12 | [ReproNim/nobrainer-benchmarkit](https://github.com/ReproNim/nobrainer-benchmarkit) | 0 | :heavy_check_mark: |  |  |
-| 13 | [ReproNim/openneuro-tools](https://github.com/ReproNim/openneuro-tools) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 12 | [ReproNim/nobrainer-benchmarkit](https://github.com/ReproNim/nobrainer-benchmarkit) | 1 | :heavy_check_mark: |  |  |
+| 13 | [ReproNim/openneuro-tools](https://github.com/ReproNim/openneuro-tools) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 14 | [ReproNim/openneurolab-metasearch-dataset](https://github.com/ReproNim/openneurolab-metasearch-dataset) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 15 | [ReproNim/publications](https://github.com/ReproNim/publications) | 0 | :heavy_check_mark: |  |  |
 | 16 | [ReproNim/reproin](https://github.com/ReproNim/reproin) | 46 |  | :heavy_check_mark: |  |
