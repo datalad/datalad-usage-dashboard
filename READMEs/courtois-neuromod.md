@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (39) | Stars (16) | Dataset (39) | `run` (6) | `containers-run` (3) |
+| # | Repository (40) | Stars (16) | Dataset (40) | `run` (6) | `containers-run` (3) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  |
 | 2 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 1 | :heavy_check_mark: |  |  |
@@ -37,9 +37,10 @@
 | 34 | [courtois-neuromod/retino_analysis](https://github.com/courtois-neuromod/retino_analysis) | 0 | :heavy_check_mark: |  |  |
 | 35 | [courtois-neuromod/shinobi.fmriprep](https://github.com/courtois-neuromod/shinobi.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 36 | [courtois-neuromod/shinobi.stimuli](https://github.com/courtois-neuromod/shinobi.stimuli) | 0 | :heavy_check_mark: |  |  |
-| 37 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 5 | :heavy_check_mark: |  |  |
-| 38 | [courtois-neuromod/templateflow](https://github.com/courtois-neuromod/templateflow) | 0 | :heavy_check_mark: |  |  |
-| 39 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  |
+| 37 | [courtois-neuromod/shinobi_training](https://github.com/courtois-neuromod/shinobi_training) | 0 | :heavy_check_mark: |  |  |
+| 38 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 5 | :heavy_check_mark: |  |  |
+| 39 | [courtois-neuromod/templateflow](https://github.com/courtois-neuromod/templateflow) | 0 | :heavy_check_mark: |  |  |
+| 40 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
 | # | Repository (2) | Stars | Dataset (2) | `run` | `containers-run` |
