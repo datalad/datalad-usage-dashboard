@@ -304,7 +304,7 @@
             "id": 126897385,
             "name": "DeepLabCut/DeepLabCut",
             "url": "https://github.com/DeepLabCut/DeepLabCut",
-            "stars": 3815,
+            "stars": 3816,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -654,7 +654,7 @@
             "id": 147674802,
             "name": "JuliaIO/Zarr.jl",
             "url": "https://github.com/JuliaIO/Zarr.jl",
-            "stars": 98,
+            "stars": 99,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -13024,7 +13024,7 @@
             "id": 104130720,
             "name": "bats-core/bats-core",
             "url": "https://github.com/bats-core/bats-core",
-            "stars": 4121,
+            "stars": 4122,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -13424,7 +13424,7 @@
             "id": 184460,
             "name": "celery/celery",
             "url": "https://github.com/celery/celery",
-            "stars": 21932,
+            "stars": 21940,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -14154,7 +14154,7 @@
             "id": 39528049,
             "name": "coreinfrastructure/best-practices-badge",
             "url": "https://github.com/coreinfrastructure/best-practices-badge",
-            "stars": 1115,
+            "stars": 1116,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -41644,7 +41644,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 439,
+            "stars": 440,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -45574,7 +45574,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 1086,
+            "stars": 1087,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -45634,7 +45634,7 @@
             "id": 505209,
             "name": "dipy/dipy",
             "url": "https://github.com/dipy/dipy",
-            "stars": 605,
+            "stars": 606,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -47608,7 +47608,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 300519987,
@@ -47638,7 +47638,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": null,
@@ -47688,7 +47688,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 404656895,
@@ -47698,7 +47698,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 616531591,
@@ -47708,7 +47708,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 611940901,
@@ -47718,7 +47718,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 301711508,
@@ -47728,7 +47728,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 399587362,
@@ -47738,7 +47738,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 454815206,
@@ -47748,7 +47748,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 486178219,
@@ -47758,7 +47758,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 533361937,
@@ -47768,7 +47768,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 488988847,
@@ -47778,7 +47778,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 363016957,
@@ -47788,7 +47788,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 590460278,
@@ -47808,7 +47808,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": null,
@@ -47838,7 +47838,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 376924396,
@@ -47848,7 +47848,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 101283450,
@@ -47918,7 +47918,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 305307831,
@@ -47928,7 +47928,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 381308880,
@@ -47958,7 +47958,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 273237173,
@@ -47968,7 +47968,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 513897501,
@@ -47978,7 +47978,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 438413449,
@@ -47988,7 +47988,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 438417029,
@@ -47998,7 +47998,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": null,
@@ -48028,7 +48028,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 454763509,
@@ -48038,7 +48038,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 496998623,
@@ -48048,7 +48048,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 604629545,
@@ -48058,7 +48058,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": null,
@@ -48078,7 +48078,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 670684278,
@@ -48118,7 +48118,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 281446693,
@@ -48128,7 +48128,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": null,
@@ -48148,7 +48148,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 112484243,
@@ -48198,7 +48198,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 664047791,
@@ -48234,7 +48234,7 @@
             "id": 52796596,
             "name": "netbox-community/netbox",
             "url": "https://github.com/netbox-community/netbox",
-            "stars": 12871,
+            "stars": 12880,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -48244,7 +48244,7 @@
             "id": 890377,
             "name": "networkx/networkx",
             "url": "https://github.com/networkx/networkx",
-            "stars": 12954,
+            "stars": 12965,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -48308,7 +48308,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 245202603,
@@ -48358,7 +48358,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 162322399,
@@ -48468,7 +48468,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 321523617,
@@ -48614,7 +48614,7 @@
             "id": 458515870,
             "name": "nipraxis/textbook",
             "url": "https://github.com/nipraxis/textbook",
-            "stars": 11,
+            "stars": 12,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -48934,7 +48934,7 @@
             "id": 619959033,
             "name": "nomic-ai/gpt4all",
             "url": "https://github.com/nomic-ai/gpt4all",
-            "stars": 50017,
+            "stars": 50073,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49704,7 +49704,7 @@
             "id": 303161792,
             "name": "py-why/causal-learn",
             "url": "https://github.com/py-why/causal-learn",
-            "stars": 742,
+            "stars": 743,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49729,6 +49729,16 @@
             "run": true,
             "container_run": false,
             "status": "gone"
+        },
+        {
+            "id": 268163609,
+            "name": "qdrant/qdrant",
+            "url": "https://github.com/qdrant/qdrant",
+            "stars": 11955,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
         },
         {
             "id": 188236270,
