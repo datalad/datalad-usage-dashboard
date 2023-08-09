@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (329) | Stars (3) | Dataset (219) | `run` (309) | `containers-run` |
+| # | Repository (329) | Stars (3) | Dataset (219) | `run` (310) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datasets-mila/datasets](https://github.com/datasets-mila/datasets) | 0 | :heavy_check_mark: |  |  |
 | 2 | [datasets-mila/datasets--LDC--ontonotes](https://github.com/datasets-mila/datasets--LDC--ontonotes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -302,7 +302,7 @@
 | 299 | [datasets-mila/datasets--nwm--2.0--2017](https://github.com/datasets-mila/datasets--nwm--2.0--2017) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 300 | [datasets-mila/datasets--nwm--2.0--2018](https://github.com/datasets-mila/datasets--nwm--2.0--2018) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 301 | [datasets-mila/datasets--oc20](https://github.com/datasets-mila/datasets--oc20) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 302 | [datasets-mila/datasets--omniglot](https://github.com/datasets-mila/datasets--omniglot) | 0 | :heavy_check_mark: |  |  |
+| 302 | [datasets-mila/datasets--omniglot](https://github.com/datasets-mila/datasets--omniglot) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 303 | [datasets-mila/datasets--open_images](https://github.com/datasets-mila/datasets--open_images) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 304 | [datasets-mila/datasets--open_images--images](https://github.com/datasets-mila/datasets--open_images--images) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 305 | [datasets-mila/datasets--parallelmeaningbank](https://github.com/datasets-mila/datasets--parallelmeaningbank) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
