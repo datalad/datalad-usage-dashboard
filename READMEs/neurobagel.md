@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (2) | Stars (4) | Dataset | `run` (2) | `containers-run` |
+| # | Repository (2) | Stars (5) | Dataset | `run` (2) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [neurobagel/annotation_tool](https://github.com/neurobagel/annotation_tool) | 2 |  | :heavy_check_mark: |  |
-| 2 | [neurobagel/documentation](https://github.com/neurobagel/documentation) | 2 |  | :heavy_check_mark: |  |
+| 2 | [neurobagel/documentation](https://github.com/neurobagel/documentation) | 3 |  | :heavy_check_mark: |  |
 
 ## Gone
 No repositories found!
