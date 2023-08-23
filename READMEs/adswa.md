@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (33) | Stars (31) | Dataset (32) | `run` (13) | `containers-run` (2) |
+| # | Repository (33) | Stars (30) | Dataset (32) | `run` (13) | `containers-run` (2) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [adswa/ABCD-week8](https://github.com/adswa/ABCD-week8) | 0 | :heavy_check_mark: |  |  |
 | 2 | [adswa/BIDSsacc](https://github.com/adswa/BIDSsacc) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -27,7 +27,7 @@
 | 24 | [adswa/studyforrest-data-annotations](https://github.com/adswa/studyforrest-data-annotations) | 0 | :heavy_check_mark: |  |  |
 | 25 | [adswa/studyforrest-data-phase2](https://github.com/adswa/studyforrest-data-phase2) | 0 | :heavy_check_mark: |  |  |
 | 26 | [adswa/studyforrest-data-phase2-denoised](https://github.com/adswa/studyforrest-data-phase2-denoised) | 0 | :heavy_check_mark: |  |  |
-| 27 | [adswa/talk-computational-reproducibility](https://github.com/adswa/talk-computational-reproducibility) | 8 | :heavy_check_mark: |  |  |
+| 27 | [adswa/talk-computational-reproducibility](https://github.com/adswa/talk-computational-reproducibility) | 7 | :heavy_check_mark: |  |  |
 | 28 | [adswa/talk-fosdem-2020](https://github.com/adswa/talk-fosdem-2020) | 0 | :heavy_check_mark: |  |  |
 | 29 | [adswa/talk-reproducible-research-articles](https://github.com/adswa/talk-reproducible-research-articles) | 1 | :heavy_check_mark: |  |  |
 | 30 | [adswa/test](https://github.com/adswa/test) | 0 | :heavy_check_mark: |  |  |
