@@ -1,6 +1,6 @@
 # GitHub
 ## In the wild
-| # | Repository (2250) | Stars (195671) | Dataset (1966) | `run` (569) | `containers-run` (13) |
+| # | Repository (2250) | Stars (195734) | Dataset (1966) | `run` (569) | `containers-run` (13) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [1000teslas/nur-packages](https://github.com/1000teslas/nur-packages) | 0 | :heavy_check_mark: |  |  |
 | 2 | [62442katieb/*](https://github.com/62442katieb) [(2)](READMEs/62442katieb.md) | [0](READMEs/62442katieb.md) | [:heavy_check_mark: (2)](READMEs/62442katieb.md) |  |  |
@@ -74,7 +74,7 @@
 | 70 | [TobiasKadelka/123420](https://github.com/TobiasKadelka/123420) | 0 | :heavy_check_mark: |  |  |
 | 71 | [TomasLenc/midtermproject](https://github.com/TomasLenc/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 72 | [TrueTube/Andriy_Popyk](https://github.com/TrueTube/Andriy_Popyk) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 73 | [UNFmontreal/Dcm2Bids](https://github.com/UNFmontreal/Dcm2Bids) | 124 |  | :heavy_check_mark: |  |
+| 73 | [UNFmontreal/Dcm2Bids](https://github.com/UNFmontreal/Dcm2Bids) | 125 |  | :heavy_check_mark: |  |
 | 74 | [Vincent-wq/templateflow](https://github.com/Vincent-wq/templateflow) | 0 | :heavy_check_mark: |  |  |
 | 75 | [Yarski/studyforrest-data-phase2](https://github.com/Yarski/studyforrest-data-phase2) | 0 | :heavy_check_mark: |  |  |
 | 76 | [ZiadHosny/label-studio](https://github.com/ZiadHosny/label-studio) | 0 |  | :heavy_check_mark: |  |
@@ -93,9 +93,9 @@
 | 89 | [avanaudenhaege/fmri_test_analyses](https://github.com/avanaudenhaege/fmri_test_analyses) | 0 | :heavy_check_mark: |  |  |
 | 90 | [axiezai/collab-git-tutorial](https://github.com/axiezai/collab-git-tutorial) | 0 |  | :heavy_check_mark: |  |
 | 91 | [bacalhau-project/docs.bacalhau.org](https://github.com/bacalhau-project/docs.bacalhau.org) | 4 |  | :heavy_check_mark: |  |
-| 92 | [bats-core/bats-core](https://github.com/bats-core/bats-core) | 4153 |  | :heavy_check_mark: |  |
+| 92 | [bats-core/bats-core](https://github.com/bats-core/bats-core) | 4154 |  | :heavy_check_mark: |  |
 | 93 | [beckolson/mytest](https://github.com/beckolson/mytest) | 0 | :heavy_check_mark: |  |  |
-| 94 | [beeware/briefcase](https://github.com/beeware/briefcase) | 2024 |  | :heavy_check_mark: |  |
+| 94 | [beeware/briefcase](https://github.com/beeware/briefcase) | 2026 |  | :heavy_check_mark: |  |
 | 95 | [bendhouseart/yaml_fix](https://github.com/bendhouseart/yaml_fix) | 0 |  | :heavy_check_mark: |  |
 | 96 | [bids-bep001/bep001-v1](https://github.com/bids-bep001/bep001-v1) | 0 |  | :heavy_check_mark: |  |
 | 97 | [bids-standard/*](https://github.com/bids-standard) [(7)](READMEs/bids-standard.md) | [480](READMEs/bids-standard.md) | [:heavy_check_mark: (1)](READMEs/bids-standard.md) | [:heavy_check_mark: (6)](READMEs/bids-standard.md) |  |
@@ -114,7 +114,7 @@
 | 110 | [catalystneuro/neuroconv](https://github.com/catalystneuro/neuroconv) | 29 |  | :heavy_check_mark: |  |
 | 111 | [cbogart/*](https://github.com/cbogart) [(2)](READMEs/cbogart.md) | [0](READMEs/cbogart.md) | [:heavy_check_mark: (2)](READMEs/cbogart.md) | [:heavy_check_mark: (2)](READMEs/cbogart.md) |  |
 | 112 | [ccna-biomarkers/ccna-timeseries](https://github.com/ccna-biomarkers/ccna-timeseries) | 0 | :heavy_check_mark: |  |  |
-| 113 | [celery/celery](https://github.com/celery/celery) | 22063 |  | :heavy_check_mark: |  |
+| 113 | [celery/celery](https://github.com/celery/celery) | 22067 |  | :heavy_check_mark: |  |
 | 114 | [chfc-cmi/cmr-seg-tl-sscrofa](https://github.com/chfc-cmi/cmr-seg-tl-sscrofa) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 115 | [chrhaeusler/*](https://github.com/chrhaeusler) [(2)](READMEs/chrhaeusler.md) | [0](READMEs/chrhaeusler.md) | [:heavy_check_mark: (2)](READMEs/chrhaeusler.md) | [:heavy_check_mark: (1)](READMEs/chrhaeusler.md) |  |
 | 116 | [chrispycheng/qa](https://github.com/chrispycheng/qa) | 0 | :heavy_check_mark: |  |  |
@@ -130,7 +130,7 @@
 | 126 | [cpp-lln-lab/*](https://github.com/cpp-lln-lab) [(4)](READMEs/cpp-lln-lab.md) | [4](READMEs/cpp-lln-lab.md) | [:heavy_check_mark: (4)](READMEs/cpp-lln-lab.md) |  |  |
 | 127 | [cryo-data/*](https://github.com/cryo-data) [(17)](READMEs/cryo-data.md) | [8](READMEs/cryo-data.md) | [:heavy_check_mark: (17)](READMEs/cryo-data.md) | [:heavy_check_mark: (2)](READMEs/cryo-data.md) |  |
 | 128 | [cvmfs/cvmfs](https://github.com/cvmfs/cvmfs) | 255 |  | :heavy_check_mark: |  |
-| 129 | [cython/cython](https://github.com/cython/cython) | 8303 |  | :heavy_check_mark: |  |
+| 129 | [cython/cython](https://github.com/cython/cython) | 8308 |  | :heavy_check_mark: |  |
 | 130 | [damienfrancois/dataladset](https://github.com/damienfrancois/dataladset) | 0 | :heavy_check_mark: |  |  |
 | 131 | [dartmouth-pbs/psyc161-wi19-srv](https://github.com/dartmouth-pbs/psyc161-wi19-srv) | 0 | :heavy_check_mark: |  |  |
 | 132 | [datajoint/datajoint-python](https://github.com/datajoint/datajoint-python) | 154 |  | :heavy_check_mark: |  |
@@ -145,7 +145,7 @@
 | 141 | [djarecka/*](https://github.com/djarecka) [(11)](READMEs/djarecka.md) | [0](READMEs/djarecka.md) | [:heavy_check_mark: (11)](READMEs/djarecka.md) | [:heavy_check_mark: (2)](READMEs/djarecka.md) |  |
 | 142 | [dl-throwaway/*](https://github.com/dl-throwaway) [(12)](READMEs/dl-throwaway.md) | [0](READMEs/dl-throwaway.md) | [:heavy_check_mark: (12)](READMEs/dl-throwaway.md) |  |  |
 | 143 | [dnkennedy/*](https://github.com/dnkennedy) [(4)](READMEs/dnkennedy.md) | [0](READMEs/dnkennedy.md) | [:heavy_check_mark: (2)](READMEs/dnkennedy.md) | [:heavy_check_mark: (3)](READMEs/dnkennedy.md) | [:heavy_check_mark: (3)](READMEs/dnkennedy.md) |
-| 144 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5971 |  | :heavy_check_mark: |  |
+| 144 | [docker-library/official-images](https://github.com/docker-library/official-images) | 5970 |  | :heavy_check_mark: |  |
 | 145 | [ebudget-community/*](https://github.com/ebudget-community) [(2)](READMEs/ebudget-community.md) | [1](READMEs/ebudget-community.md) | [:heavy_check_mark: (2)](READMEs/ebudget-community.md) |  |  |
 | 146 | [effigies/*](https://github.com/effigies) [(6)](READMEs/effigies.md) | [0](READMEs/effigies.md) | [:heavy_check_mark: (6)](READMEs/effigies.md) | [:heavy_check_mark: (1)](READMEs/effigies.md) |  |
 | 147 | [egzakharovich/ebudget-wks-tlsclient-configuration](https://github.com/egzakharovich/ebudget-wks-tlsclient-configuration) | 0 | :heavy_check_mark: |  |  |
@@ -246,7 +246,7 @@
 | 242 | [nipreps-data/*](https://github.com/nipreps-data) [(25)](READMEs/nipreps-data.md) | [1](READMEs/nipreps-data.md) | [:heavy_check_mark: (25)](READMEs/nipreps-data.md) | [:heavy_check_mark: (2)](READMEs/nipreps-data.md) |  |
 | 243 | [nipreps/*](https://github.com/nipreps) [(3)](READMEs/nipreps.md) | [867](READMEs/nipreps.md) |  | [:heavy_check_mark: (3)](READMEs/nipreps.md) |  |
 | 244 | [nipy/*](https://github.com/nipy) [(3)](READMEs/nipy.md) | [901](READMEs/nipy.md) | [:heavy_check_mark: (1)](READMEs/nipy.md) | [:heavy_check_mark: (3)](READMEs/nipy.md) |  |
-| 245 | [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) | 51236 |  | :heavy_check_mark: |  |
+| 245 | [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) | 51275 |  | :heavy_check_mark: |  |
 | 246 | [notasecret/gpt4all](https://github.com/notasecret/gpt4all) | 0 |  | :heavy_check_mark: |  |
 | 247 | [notestaff/datalad-paper-joss](https://github.com/notestaff/datalad-paper-joss) | 0 | :heavy_check_mark: |  |  |
 | 248 | [nrdg/*](https://github.com/nrdg) [(4)](READMEs/nrdg.md) | [1](READMEs/nrdg.md) | [:heavy_check_mark: (4)](READMEs/nrdg.md) |  |  |
@@ -256,7 +256,7 @@
 | 252 | [open-ephys-plugins/nwb-zarr-format](https://github.com/open-ephys-plugins/nwb-zarr-format) | 0 |  | :heavy_check_mark: |  |
 | 253 | [openMetadataInitiative/openMINDS_instances](https://github.com/openMetadataInitiative/openMINDS_instances) | 0 |  | :heavy_check_mark: |  |
 | 254 | [opening-hours/opening_hours.js](https://github.com/opening-hours/opening_hours.js) | 206 |  | :heavy_check_mark: |  |
-| 255 | [paramiko/paramiko](https://github.com/paramiko/paramiko) | 8468 |  | :heavy_check_mark: |  |
+| 255 | [paramiko/paramiko](https://github.com/paramiko/paramiko) | 8469 |  | :heavy_check_mark: |  |
 | 256 | [pecansdik/libary](https://github.com/pecansdik/libary) | 0 |  | :heavy_check_mark: |  |
 | 257 | [physiopy/phys2bids](https://github.com/physiopy/phys2bids) | 55 |  | :heavy_check_mark: |  |
 | 258 | [pithanakrit/nginx_1](https://github.com/pithanakrit/nginx_1) | 0 |  | :heavy_check_mark: |  |
@@ -270,7 +270,7 @@
 | 266 | [pynapple-org/pynapple](https://github.com/pynapple-org/pynapple) | 178 |  | :heavy_check_mark: |  |
 | 267 | [pyout/pyout](https://github.com/pyout/pyout) | 3 |  | :heavy_check_mark: |  |
 | 268 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 959 |  | :heavy_check_mark: |  |
-| 269 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | 12461 |  | :heavy_check_mark: |  |
+| 269 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | 12471 |  | :heavy_check_mark: |  |
 | 270 | [qlux/dataladrepo](https://github.com/qlux/dataladrepo) | 0 | :heavy_check_mark: |  |  |
 | 271 | [raamana/ohbm2020-posters](https://github.com/raamana/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  |
 | 272 | [radiant-rstats/*](https://github.com/radiant-rstats) [(2)](READMEs/radiant-rstats.md) | [476](READMEs/radiant-rstats.md) |  | [:heavy_check_mark: (2)](READMEs/radiant-rstats.md) |  |
@@ -295,7 +295,7 @@
 | 291 | [sshah99/biolink](https://github.com/sshah99/biolink) | 0 |  | :heavy_check_mark: |  |
 | 292 | [standardgalactic/*](https://github.com/standardgalactic) [(2)](READMEs/standardgalactic.md) | [0](READMEs/standardgalactic.md) | [:heavy_check_mark: (2)](READMEs/standardgalactic.md) |  |  |
 | 293 | [stjordanis/ds003430](https://github.com/stjordanis/ds003430) | 0 | :heavy_check_mark: |  |  |
-| 294 | [templateflow/*](https://github.com/templateflow) [(28)](READMEs/templateflow.md) | [70](READMEs/templateflow.md) | [:heavy_check_mark: (28)](READMEs/templateflow.md) |  |  |
+| 294 | [templateflow/*](https://github.com/templateflow) [(28)](READMEs/templateflow.md) | [71](READMEs/templateflow.md) | [:heavy_check_mark: (28)](READMEs/templateflow.md) |  |  |
 | 295 | [thewtex/itk-viewer-baseline-testing-data](https://github.com/thewtex/itk-viewer-baseline-testing-data) | 0 | :heavy_check_mark: |  |  |
 | 296 | [thomasbeaudry/conp-dataset-PERFORM](https://github.com/thomasbeaudry/conp-dataset-PERFORM) | 0 | :heavy_check_mark: |  |  |
 | 297 | [tkkuehn/*](https://github.com/tkkuehn) [(15)](READMEs/tkkuehn.md) | [0](READMEs/tkkuehn.md) | [:heavy_check_mark: (15)](READMEs/tkkuehn.md) | [:heavy_check_mark: (3)](READMEs/tkkuehn.md) |  |
