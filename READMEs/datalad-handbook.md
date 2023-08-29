@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (10) | Stars (133) | Dataset (9) | `run` (5) | `containers-run` (1) |
+| # | Repository (10) | Stars (134) | Dataset (9) | `run` (5) | `containers-run` (1) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad-handbook/DVC-DataLad](https://github.com/datalad-handbook/DVC-DataLad) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 2 | [datalad-handbook/DataLad-101](https://github.com/datalad-handbook/DataLad-101) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 2 | [datalad-handbook/DataLad-101](https://github.com/datalad-handbook/DataLad-101) | 2 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 3 | [datalad-handbook/artwork](https://github.com/datalad-handbook/artwork) | 1 | :heavy_check_mark: |  |  |
 | 4 | [datalad-handbook/book](https://github.com/datalad-handbook/book) | 119 |  | :heavy_check_mark: |  |
 | 5 | [datalad-handbook/course](https://github.com/datalad-handbook/course) | 10 | :heavy_check_mark: |  |  |
