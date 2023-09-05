@@ -1,12 +1,12 @@
 ## Active
-| # | Repository (41) | Stars (18) | Dataset (41) | `run` (6) | `containers-run` (3) |
+| # | Repository (41) | Stars (22) | Dataset (41) | `run` (6) | `containers-run` (3) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  |
 | 2 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 1 | :heavy_check_mark: |  |  |
 | 3 | [courtois-neuromod/anat.freesurfer](https://github.com/courtois-neuromod/anat.freesurfer) | 0 | :heavy_check_mark: |  |  |
 | 4 | [courtois-neuromod/anat.smriprep](https://github.com/courtois-neuromod/anat.smriprep) | 0 | :heavy_check_mark: |  |  |
 | 5 | [courtois-neuromod/cimaq_fmriprep](https://github.com/courtois-neuromod/cimaq_fmriprep) | 0 | :heavy_check_mark: |  |  |
-| 6 | [courtois-neuromod/cneuromod](https://github.com/courtois-neuromod/cneuromod) | 10 | :heavy_check_mark: |  |  |
+| 6 | [courtois-neuromod/cneuromod](https://github.com/courtois-neuromod/cneuromod) | 11 | :heavy_check_mark: |  |  |
 | 7 | [courtois-neuromod/cneuromod.fmriprep](https://github.com/courtois-neuromod/cneuromod.fmriprep) | 0 | :heavy_check_mark: |  |  |
 | 8 | [courtois-neuromod/cneuromod.processed](https://github.com/courtois-neuromod/cneuromod.processed) | 1 | :heavy_check_mark: |  |  |
 | 9 | [courtois-neuromod/containers](https://github.com/courtois-neuromod/containers) | 0 | :heavy_check_mark: |  |  |
@@ -14,11 +14,11 @@
 | 11 | [courtois-neuromod/ds_prep](https://github.com/courtois-neuromod/ds_prep) | 0 | :heavy_check_mark: |  |  |
 | 12 | [courtois-neuromod/flesp_friends-isc](https://github.com/courtois-neuromod/flesp_friends-isc) | 0 | :heavy_check_mark: |  |  |
 | 13 | [courtois-neuromod/fnadeau_cimaq_preproc](https://github.com/courtois-neuromod/fnadeau_cimaq_preproc) | 0 | :heavy_check_mark: |  |  |
-| 14 | [courtois-neuromod/friends](https://github.com/courtois-neuromod/friends) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 14 | [courtois-neuromod/friends](https://github.com/courtois-neuromod/friends) | 2 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 15 | [courtois-neuromod/friends-fix](https://github.com/courtois-neuromod/friends-fix) | 0 | :heavy_check_mark: |  |  |
-| 16 | [courtois-neuromod/friends.fmriprep](https://github.com/courtois-neuromod/friends.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| 16 | [courtois-neuromod/friends.fmriprep](https://github.com/courtois-neuromod/friends.fmriprep) | 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | 17 | [courtois-neuromod/friends.mriqc](https://github.com/courtois-neuromod/friends.mriqc) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| 18 | [courtois-neuromod/friends.stimuli](https://github.com/courtois-neuromod/friends.stimuli) | 0 | :heavy_check_mark: |  |  |
+| 18 | [courtois-neuromod/friends.stimuli](https://github.com/courtois-neuromod/friends.stimuli) | 1 | :heavy_check_mark: |  |  |
 | 19 | [courtois-neuromod/friends_annotations](https://github.com/courtois-neuromod/friends_annotations) | 0 | :heavy_check_mark: |  |  |
 | 20 | [courtois-neuromod/friends_nlp_reproducibility](https://github.com/courtois-neuromod/friends_nlp_reproducibility) | 0 | :heavy_check_mark: |  |  |
 | 21 | [courtois-neuromod/harrypotter](https://github.com/courtois-neuromod/harrypotter) | 0 | :heavy_check_mark: |  |  |
