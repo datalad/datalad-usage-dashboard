@@ -1,7 +1,8 @@
 ## Active
-| # | Repository (1) | Stars (2) | Dataset (1) | `run` | `containers-run` |
+| # | Repository (2) | Stars (3) | Dataset (1) | `run` (1) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [lnnrtwttkhn/resources](https://github.com/lnnrtwttkhn/resources) | 2 | :heavy_check_mark: |  |  |
+| 2 | [lnnrtwttkhn/version-control-book](https://github.com/lnnrtwttkhn/version-control-book) | 1 |  | :heavy_check_mark: |  |
 
 ## Gone
 | # | Repository (17) | Stars (11) | Dataset (15) | `run` (4) | `containers-run` |
