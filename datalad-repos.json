@@ -12874,7 +12874,7 @@
             "id": 35209231,
             "name": "afni/afni",
             "url": "https://github.com/afni/afni",
-            "stars": 132,
+            "stars": 133,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -13164,7 +13164,7 @@
             "id": 104130720,
             "name": "bats-core/bats-core",
             "url": "https://github.com/bats-core/bats-core",
-            "stars": 4181,
+            "stars": 4182,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -13184,7 +13184,7 @@
             "id": 39841700,
             "name": "beeware/briefcase",
             "url": "https://github.com/beeware/briefcase",
-            "stars": 2042,
+            "stars": 2046,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -13384,7 +13384,7 @@
             "id": 112995625,
             "name": "biolink/biolink-model",
             "url": "https://github.com/biolink/biolink-model",
-            "stars": 143,
+            "stars": 142,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -13584,7 +13584,7 @@
             "id": 184460,
             "name": "celery/celery",
             "url": "https://github.com/celery/celery",
-            "stars": 22139,
+            "stars": 22142,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -14974,7 +14974,7 @@
             "id": 1099265,
             "name": "cython/cython",
             "url": "https://github.com/cython/cython",
-            "stars": 8339,
+            "stars": 8338,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -46414,7 +46414,7 @@
             "id": 43615582,
             "name": "expfactory/expfactory-experiments",
             "url": "https://github.com/expfactory/expfactory-experiments",
-            "stars": 37,
+            "stars": 36,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -46514,7 +46514,7 @@
             "id": 56935846,
             "name": "git-annex-remote-rclone/git-annex-remote-rclone",
             "url": "https://github.com/git-annex-remote-rclone/git-annex-remote-rclone",
-            "stars": 175,
+            "stars": 174,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -47478,7 +47478,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 114409540,
@@ -47498,7 +47498,7 @@
             "dataset": true,
             "run": true,
             "container_run": true,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": null,
@@ -47518,7 +47518,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": null,
@@ -47548,7 +47548,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 182142508,
@@ -47568,7 +47568,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 188244426,
@@ -47578,7 +47578,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 188244430,
@@ -47654,7 +47654,7 @@
             "id": 533393085,
             "name": "linkml/linkml-project-cookiecutter",
             "url": "https://github.com/linkml/linkml-project-cookiecutter",
-            "stars": 8,
+            "stars": 9,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -47698,7 +47698,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 206799688,
@@ -47708,7 +47708,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 300577441,
@@ -47718,7 +47718,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 310235916,
@@ -47728,7 +47728,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 296038105,
@@ -47738,7 +47738,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 296583377,
@@ -47748,7 +47748,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 296576256,
@@ -47758,7 +47758,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 314257746,
@@ -47768,7 +47768,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 296602798,
@@ -47778,7 +47778,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 313072211,
@@ -47788,7 +47788,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 313003772,
@@ -47798,7 +47798,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 296326635,
@@ -47808,7 +47808,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 304325624,
@@ -47818,7 +47818,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 304332864,
@@ -47828,7 +47828,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 550794372,
@@ -47838,7 +47838,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 300519987,
@@ -47858,7 +47858,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 296053843,
@@ -47868,7 +47868,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 648830079,
@@ -47928,7 +47928,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 404656895,
@@ -47938,7 +47938,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 616531591,
@@ -47948,7 +47948,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 611940901,
@@ -47958,7 +47958,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 301711508,
@@ -47968,7 +47968,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 399587362,
@@ -47978,7 +47978,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 454815206,
@@ -47988,7 +47988,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 486178219,
@@ -47998,7 +47998,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 533361937,
@@ -48474,6 +48474,16 @@
             "id": 688647536,
             "name": "narclab/more-test2",
             "url": "https://github.com/narclab/more-test2",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 689124693,
+            "name": "narclab/sxdf",
+            "url": "https://github.com/narclab/sxdf",
             "stars": 0,
             "dataset": false,
             "run": true,
@@ -49204,7 +49214,7 @@
             "id": 619959033,
             "name": "nomic-ai/gpt4all",
             "url": "https://github.com/nomic-ai/gpt4all",
-            "stars": 51870,
+            "stars": 51897,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49464,7 +49474,7 @@
             "id": 1316444,
             "name": "open-cogsci/OpenSesame",
             "url": "https://github.com/open-cogsci/OpenSesame",
-            "stars": 220,
+            "stars": 219,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49504,7 +49514,7 @@
             "id": 119609,
             "name": "paramiko/paramiko",
             "url": "https://github.com/paramiko/paramiko",
-            "stars": 8492,
+            "stars": 8493,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49994,7 +50004,7 @@
             "id": 303161792,
             "name": "py-why/causal-learn",
             "url": "https://github.com/py-why/causal-learn",
-            "stars": 785,
+            "stars": 786,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50034,7 +50044,7 @@
             "id": 268163609,
             "name": "qdrant/qdrant",
             "url": "https://github.com/qdrant/qdrant",
-            "stars": 12705,
+            "stars": 12719,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50078,7 +50088,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 497090392,
