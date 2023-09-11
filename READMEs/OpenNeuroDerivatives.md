@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (288) | Stars (5) | Dataset (288) | `run` | `containers-run` |
+| # | Repository (289) | Stars (6) | Dataset (289) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [OpenNeuroDerivatives/OpenNeuroDerivatives](https://github.com/OpenNeuroDerivatives/OpenNeuroDerivatives) | 3 | :heavy_check_mark: |  |  |
 | 2 | [OpenNeuroDerivatives/ds000001-fmriprep](https://github.com/OpenNeuroDerivatives/ds000001-fmriprep) | 0 | :heavy_check_mark: |  |  |
@@ -289,6 +289,7 @@
 | 286 | [OpenNeuroDerivatives/ds004007-mriqc](https://github.com/OpenNeuroDerivatives/ds004007-mriqc) | 0 | :heavy_check_mark: |  |  |
 | 287 | [OpenNeuroDerivatives/ds004128-mriqc](https://github.com/OpenNeuroDerivatives/ds004128-mriqc) | 0 | :heavy_check_mark: |  |  |
 | 288 | [OpenNeuroDerivatives/ds004144-mriqc](https://github.com/OpenNeuroDerivatives/ds004144-mriqc) | 0 | :heavy_check_mark: |  |  |
+| 289 | [OpenNeuroDerivatives/ds004215-mriqc](https://github.com/OpenNeuroDerivatives/ds004215-mriqc) | 1 | :heavy_check_mark: |  |  |
 
 ## Gone
 No repositories found!
