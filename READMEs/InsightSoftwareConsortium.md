@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (6) | Stars (1) | Dataset (6) | `run` | `containers-run` |
+| # | Repository (6) | Stars (2) | Dataset (6) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [InsightSoftwareConsortium/ITKData](https://github.com/InsightSoftwareConsortium/ITKData) | 0 | :heavy_check_mark: |  |  |
+| 1 | [InsightSoftwareConsortium/ITKData](https://github.com/InsightSoftwareConsortium/ITKData) | 1 | :heavy_check_mark: |  |  |
 | 2 | [InsightSoftwareConsortium/ITKSphinxExamplesData](https://github.com/InsightSoftwareConsortium/ITKSphinxExamplesData) | 0 | :heavy_check_mark: |  |  |
 | 3 | [InsightSoftwareConsortium/itk-viewer-baseline-testing-data](https://github.com/InsightSoftwareConsortium/itk-viewer-baseline-testing-data) | 0 | :heavy_check_mark: |  |  |
 | 4 | [InsightSoftwareConsortium/itk-viewer-input-testing-data](https://github.com/InsightSoftwareConsortium/itk-viewer-input-testing-data) | 0 | :heavy_check_mark: |  |  |
