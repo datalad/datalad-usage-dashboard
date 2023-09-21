@@ -1,10 +1,10 @@
 ## Active
-| # | Repository (10) | Stars (136) | Dataset (9) | `run` (5) | `containers-run` (1) |
+| # | Repository (10) | Stars (137) | Dataset (9) | `run` (5) | `containers-run` (1) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad-handbook/DVC-DataLad](https://github.com/datalad-handbook/DVC-DataLad) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 2 | [datalad-handbook/DataLad-101](https://github.com/datalad-handbook/DataLad-101) | 2 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 3 | [datalad-handbook/artwork](https://github.com/datalad-handbook/artwork) | 1 | :heavy_check_mark: |  |  |
-| 4 | [datalad-handbook/book](https://github.com/datalad-handbook/book) | 120 |  | :heavy_check_mark: |  |
+| 4 | [datalad-handbook/book](https://github.com/datalad-handbook/book) | 121 |  | :heavy_check_mark: |  |
 | 5 | [datalad-handbook/course](https://github.com/datalad-handbook/course) | 11 | :heavy_check_mark: |  |  |
 | 6 | [datalad-handbook/cozy-screensavers](https://github.com/datalad-handbook/cozy-screensavers) | 0 | :heavy_check_mark: |  |  |
 | 7 | [datalad-handbook/datalad-course](https://github.com/datalad-handbook/datalad-course) | 2 | :heavy_check_mark: |  |  |
