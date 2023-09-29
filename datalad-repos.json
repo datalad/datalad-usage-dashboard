@@ -774,7 +774,7 @@
             "id": 147674802,
             "name": "JuliaIO/Zarr.jl",
             "url": "https://github.com/JuliaIO/Zarr.jl",
-            "stars": 100,
+            "stars": 101,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -1354,7 +1354,7 @@
             "id": 140907674,
             "name": "OpenNeuroDatasets/ds000102",
             "url": "https://github.com/OpenNeuroDatasets/ds000102",
-            "stars": 1,
+            "stars": 2,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -13174,7 +13174,7 @@
             "id": 539595162,
             "name": "aplbrain/BENCHMARK-Metadata",
             "url": "https://github.com/aplbrain/BENCHMARK-Metadata",
-            "stars": 1,
+            "stars": 2,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -13187,6 +13187,16 @@
             "stars": 0,
             "dataset": true,
             "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 697643363,
+            "name": "aranyics/datalad-test-aranyics",
+            "url": "https://github.com/aranyics/datalad-test-aranyics",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
             "container_run": false,
             "status": "active"
         },
@@ -13234,7 +13244,7 @@
             "id": 104130720,
             "name": "bats-core/bats-core",
             "url": "https://github.com/bats-core/bats-core",
-            "stars": 4222,
+            "stars": 4223,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -13254,7 +13264,7 @@
             "id": 39841700,
             "name": "beeware/briefcase",
             "url": "https://github.com/beeware/briefcase",
-            "stars": 2085,
+            "stars": 2087,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -13554,7 +13564,7 @@
             "id": 515263552,
             "name": "brainhack-school2022/brotherwood_project",
             "url": "https://github.com/brainhack-school2022/brotherwood_project",
-            "stars": 0,
+            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -13604,7 +13614,7 @@
             "id": 515668556,
             "name": "catalystneuro/neuroconv",
             "url": "https://github.com/catalystneuro/neuroconv",
-            "stars": 31,
+            "stars": 32,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -15054,7 +15064,7 @@
             "id": 1099265,
             "name": "cython/cython",
             "url": "https://github.com/cython/cython",
-            "stars": 8397,
+            "stars": 8401,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -41724,7 +41734,7 @@
             "id": 235965468,
             "name": "datalad-datasets/human-connectome-project-openaccess",
             "url": "https://github.com/datalad-datasets/human-connectome-project-openaccess",
-            "stars": 31,
+            "stars": 32,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -41914,7 +41924,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 453,
+            "stars": 454,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -42354,7 +42364,7 @@
             "id": 428186054,
             "name": "datalad/tutorials",
             "url": "https://github.com/datalad/tutorials",
-            "stars": 12,
+            "stars": 13,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -45844,7 +45854,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 1104,
+            "stars": 1105,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -46194,7 +46204,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 6013,
+            "stars": 6015,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49314,7 +49324,7 @@
             "id": 49015296,
             "name": "nipreps/mriqc",
             "url": "https://github.com/nipreps/mriqc",
-            "stars": 245,
+            "stars": 246,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49364,7 +49374,7 @@
             "id": 619959033,
             "name": "nomic-ai/gpt4all",
             "url": "https://github.com/nomic-ai/gpt4all",
-            "stars": 52570,
+            "stars": 52604,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49664,7 +49674,7 @@
             "id": 119609,
             "name": "paramiko/paramiko",
             "url": "https://github.com/paramiko/paramiko",
-            "stars": 8524,
+            "stars": 8527,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50204,7 +50214,7 @@
             "id": 268163609,
             "name": "qdrant/qdrant",
             "url": "https://github.com/qdrant/qdrant",
-            "stars": 13017,
+            "stars": 13032,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50244,7 +50254,7 @@
             "id": 58091719,
             "name": "radiant-rstats/radiant.data",
             "url": "https://github.com/radiant-rstats/radiant.data",
-            "stars": 53,
+            "stars": 54,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50605,6 +50615,16 @@
             "name": "satyaog/pybenzinaconcat_test_datasets",
             "url": "https://github.com/satyaog/pybenzinaconcat_test_datasets",
             "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 72070681,
+            "name": "saulpw/visidata",
+            "url": "https://github.com/saulpw/visidata",
+            "stars": 6822,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -51168,7 +51188,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 181082161,
@@ -51178,7 +51198,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591383105,
@@ -51188,7 +51208,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591364238,
@@ -51198,7 +51218,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591394448,
@@ -51208,7 +51228,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591367324,
@@ -51218,7 +51238,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591392972,
@@ -51228,7 +51248,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591398419,
@@ -51238,7 +51258,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591363345,
@@ -51248,7 +51268,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 591395997,
@@ -51258,7 +51278,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 433567734,
@@ -51268,7 +51288,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 433567786,
@@ -51278,7 +51298,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 433567804,
@@ -51288,7 +51308,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 433567821,
@@ -51298,7 +51318,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 364964764,
@@ -51308,7 +51328,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 486295037,
@@ -51318,7 +51338,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": null,
@@ -51334,7 +51354,7 @@
             "id": 145733,
             "name": "tomerfiliba-org/rpyc",
             "url": "https://github.com/tomerfiliba-org/rpyc",
-            "stars": 1442,
+            "stars": 1443,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -51348,7 +51368,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 612403913,
@@ -51368,7 +51388,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 656167348,
@@ -51388,7 +51408,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 277647190,
@@ -51408,7 +51428,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 494105352,
@@ -51418,7 +51438,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 497357296,
@@ -51428,7 +51448,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 146327667,
@@ -51438,7 +51458,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 505136388,
@@ -51448,7 +51468,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 468420443,
@@ -51458,7 +51478,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 675214207,
@@ -51478,7 +51498,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 194879336,
@@ -51488,7 +51508,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 165122035,
@@ -51528,7 +51548,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 520228172,
@@ -51568,7 +51588,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 193558957,
@@ -51578,7 +51598,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 218443270,
@@ -51598,7 +51618,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 227971703,
@@ -51608,7 +51628,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 153562786,
@@ -51618,7 +51638,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 177492722,
@@ -51658,7 +51678,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 201115146,
@@ -51668,7 +51688,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 365275510,
@@ -51678,7 +51698,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 102654814,
@@ -51728,7 +51748,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 281549435,
@@ -51758,7 +51778,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 367177461,
@@ -51768,7 +51788,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 98572569,
@@ -51818,7 +51838,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 263808022,
@@ -51898,7 +51918,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 497152377,
@@ -51918,7 +51938,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 5472602,
@@ -51938,7 +51958,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 553654041,
@@ -51958,7 +51978,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 691272380,
@@ -51988,7 +52008,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         }
     ],
     "osf": [
@@ -52092,6 +52112,18 @@
             "url": "https://osf.io/sy5q2/",
             "id": "sy5q2",
             "name": "IBC_3mm_datalad",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/xajge/",
+            "id": "xajge",
+            "name": "My first datalad osf project",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/qygf7/",
+            "id": "qygf7",
+            "name": "My first datalad osf project",
             "status": "active"
         },
         {
