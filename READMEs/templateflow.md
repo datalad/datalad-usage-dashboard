@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (19) | Stars (73) | Dataset (19) | `run` | `containers-run` |
+| # | Repository (19) | Stars (72) | Dataset (19) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 63 | :heavy_check_mark: |  |  |
+| 1 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 62 | :heavy_check_mark: |  |  |
 | 2 | [templateflow/tpl-Fischer344](https://github.com/templateflow/tpl-Fischer344) | 0 | :heavy_check_mark: |  |  |
 | 3 | [templateflow/tpl-MNI152Lin](https://github.com/templateflow/tpl-MNI152Lin) | 1 | :heavy_check_mark: |  |  |
 | 4 | [templateflow/tpl-MNI152NLin2009aAsym](https://github.com/templateflow/tpl-MNI152NLin2009aAsym) | 0 | :heavy_check_mark: |  |  |
