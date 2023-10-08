@@ -1,8 +1,5 @@
 ## Active
-No repositories found!
-
-## Gone
-| # | Repository (16) | Stars (1) | Dataset (16) | `run` | `containers-run` |
+| # | Repository (12) | Stars (1) | Dataset (12) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [jsheunis/Externally-Cued-Movements](https://github.com/jsheunis/Externally-Cued-Movements) | 0 | :heavy_check_mark: |  |  |
 | 2 | [jsheunis/Simulating-SNN-cost-with-GeNN-NEST](https://github.com/jsheunis/Simulating-SNN-cost-with-GeNN-NEST) | 0 | :heavy_check_mark: |  |  |
@@ -16,7 +13,11 @@ No repositories found!
 | 10 | [jsheunis/eheheh](https://github.com/jsheunis/eheheh) | 0 | :heavy_check_mark: |  |  |
 | 11 | [jsheunis/masking-test-fmriprep](https://github.com/jsheunis/masking-test-fmriprep) | 0 | :heavy_check_mark: |  |  |
 | 12 | [jsheunis/multi-echo-cambridge-fmriprep](https://github.com/jsheunis/multi-echo-cambridge-fmriprep) | 0 | :heavy_check_mark: |  |  |
-| 13 | [jsheunis/multi-echo-super](https://github.com/jsheunis/multi-echo-super) | 0 | :heavy_check_mark: |  |  |
-| 14 | [jsheunis/neuro-data-s3](https://github.com/jsheunis/neuro-data-s3) | 0 | :heavy_check_mark: |  |  |
-| 15 | [jsheunis/neuro-data-s3-v2](https://github.com/jsheunis/neuro-data-s3-v2) | 0 | :heavy_check_mark: |  |  |
-| 16 | [jsheunis/sfb1451-data-catalog](https://github.com/jsheunis/sfb1451-data-catalog) | 0 | :heavy_check_mark: |  |  |
+
+## Gone
+| # | Repository (4) | Stars | Dataset (4) | `run` | `containers-run` |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [jsheunis/multi-echo-super](https://github.com/jsheunis/multi-echo-super) | 0 | :heavy_check_mark: |  |  |
+| 2 | [jsheunis/neuro-data-s3](https://github.com/jsheunis/neuro-data-s3) | 0 | :heavy_check_mark: |  |  |
+| 3 | [jsheunis/neuro-data-s3-v2](https://github.com/jsheunis/neuro-data-s3-v2) | 0 | :heavy_check_mark: |  |  |
+| 4 | [jsheunis/sfb1451-data-catalog](https://github.com/jsheunis/sfb1451-data-catalog) | 0 | :heavy_check_mark: |  |  |
