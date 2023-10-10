@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (16) | Stars (8) | Dataset (14) | `run` (3) | `containers-run` |
+| # | Repository (19) | Stars (15) | Dataset (16) | `run` (5) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [lnnrtwttkhn/DataLad-101](https://github.com/lnnrtwttkhn/DataLad-101) | 0 |  | :heavy_check_mark: |  |
 | 2 | [lnnrtwttkhn/bibliography](https://github.com/lnnrtwttkhn/bibliography) | 3 | :heavy_check_mark: |  |  |
@@ -15,12 +15,11 @@
 | 12 | [lnnrtwttkhn/highspeed-mriqc](https://github.com/lnnrtwttkhn/highspeed-mriqc) | 0 | :heavy_check_mark: |  |  |
 | 13 | [lnnrtwttkhn/keeper-test](https://github.com/lnnrtwttkhn/keeper-test) | 0 | :heavy_check_mark: |  |  |
 | 14 | [lnnrtwttkhn/keeper-test2](https://github.com/lnnrtwttkhn/keeper-test2) | 0 | :heavy_check_mark: |  |  |
-| 15 | [lnnrtwttkhn/resources](https://github.com/lnnrtwttkhn/resources) | 2 | :heavy_check_mark: |  |  |
-| 16 | [lnnrtwttkhn/version-control-book](https://github.com/lnnrtwttkhn/version-control-book) | 2 |  | :heavy_check_mark: |  |
+| 15 | [lnnrtwttkhn/replay-illustrations](https://github.com/lnnrtwttkhn/replay-illustrations) | 0 | :heavy_check_mark: |  |  |
+| 16 | [lnnrtwttkhn/resources](https://github.com/lnnrtwttkhn/resources) | 2 | :heavy_check_mark: |  |  |
+| 17 | [lnnrtwttkhn/talk-rdm](https://github.com/lnnrtwttkhn/talk-rdm) | 6 |  | :heavy_check_mark: |  |
+| 18 | [lnnrtwttkhn/tools](https://github.com/lnnrtwttkhn/tools) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 19 | [lnnrtwttkhn/version-control-book](https://github.com/lnnrtwttkhn/version-control-book) | 2 |  | :heavy_check_mark: |  |
 
 ## Gone
-| # | Repository (3) | Stars (7) | Dataset (2) | `run` (2) | `containers-run` |
-| --- | --- | --- | --- | --- | --- |
-| 1 | [lnnrtwttkhn/replay-illustrations](https://github.com/lnnrtwttkhn/replay-illustrations) | 0 | :heavy_check_mark: |  |  |
-| 2 | [lnnrtwttkhn/talk-rdm](https://github.com/lnnrtwttkhn/talk-rdm) | 6 |  | :heavy_check_mark: |  |
-| 3 | [lnnrtwttkhn/tools](https://github.com/lnnrtwttkhn/tools) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
+No repositories found!
