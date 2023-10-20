@@ -1,11 +1,11 @@
 ## Active
-| # | Repository (46) | Stars (595) | Dataset (25) | `run` (25) | `containers-run` |
+| # | Repository (46) | Stars (596) | Dataset (25) | `run` (25) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  |
 | 2 | [datalad/datalad](https://github.com/datalad/datalad) | 459 |  | :heavy_check_mark: |  |
 | 3 | [datalad/datalad-action-test](https://github.com/datalad/datalad-action-test) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 4 | [datalad/datalad-catalog](https://github.com/datalad/datalad-catalog) | 12 |  | :heavy_check_mark: |  |
-| 5 | [datalad/datalad-container](https://github.com/datalad/datalad-container) | 10 |  | :heavy_check_mark: |  |
+| 5 | [datalad/datalad-container](https://github.com/datalad/datalad-container) | 11 |  | :heavy_check_mark: |  |
 | 6 | [datalad/datalad-crawler](https://github.com/datalad/datalad-crawler) | 5 |  | :heavy_check_mark: |  |
 | 7 | [datalad/datalad-dataverse](https://github.com/datalad/datalad-dataverse) | 9 |  | :heavy_check_mark: |  |
 | 8 | [datalad/datalad-deprecated](https://github.com/datalad/datalad-deprecated) | 0 |  | :heavy_check_mark: |  |
