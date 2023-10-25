@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (27) | Stars (59) | Dataset (25) | `run` (11) | `containers-run` (1) |
+| # | Repository (26) | Stars (59) | Dataset (24) | `run` (11) | `containers-run` (1) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [psychoinformatics-de/anima](https://github.com/psychoinformatics-de/anima) | 0 | :heavy_check_mark: |  |  |
 | 2 | [psychoinformatics-de/datalad-tabby](https://github.com/psychoinformatics-de/datalad-tabby) | 1 |  | :heavy_check_mark: |  |
@@ -24,10 +24,11 @@
 | 21 | [psychoinformatics-de/studyforrest-data-phase2](https://github.com/psychoinformatics-de/studyforrest-data-phase2) | 10 | :heavy_check_mark: |  |  |
 | 22 | [psychoinformatics-de/studyforrest-data-retinotopy](https://github.com/psychoinformatics-de/studyforrest-data-retinotopy) | 2 | :heavy_check_mark: |  |  |
 | 23 | [psychoinformatics-de/studyforrest-data-structural](https://github.com/psychoinformatics-de/studyforrest-data-structural) | 3 | :heavy_check_mark: |  |  |
-| 24 | [psychoinformatics-de/studyforrest-data-templatetransforms](https://github.com/psychoinformatics-de/studyforrest-data-templatetransforms) | 0 | :heavy_check_mark: |  |  |
-| 25 | [psychoinformatics-de/studyforrest-data-visualrois](https://github.com/psychoinformatics-de/studyforrest-data-visualrois) | 2 | :heavy_check_mark: |  |  |
-| 26 | [psychoinformatics-de/studyforrest-paper-speechannotation](https://github.com/psychoinformatics-de/studyforrest-paper-speechannotation) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
-| 27 | [psychoinformatics-de/talk-datalad-gofair](https://github.com/psychoinformatics-de/talk-datalad-gofair) | 0 | :heavy_check_mark: |  |  |
+| 24 | [psychoinformatics-de/studyforrest-data-visualrois](https://github.com/psychoinformatics-de/studyforrest-data-visualrois) | 2 | :heavy_check_mark: |  |  |
+| 25 | [psychoinformatics-de/studyforrest-paper-speechannotation](https://github.com/psychoinformatics-de/studyforrest-paper-speechannotation) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 26 | [psychoinformatics-de/talk-datalad-gofair](https://github.com/psychoinformatics-de/talk-datalad-gofair) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
-No repositories found!
+| # | Repository (1) | Stars | Dataset (1) | `run` | `containers-run` |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [psychoinformatics-de/studyforrest-data-templatetransforms](https://github.com/psychoinformatics-de/studyforrest-data-templatetransforms) | 0 | :heavy_check_mark: |  |  |
