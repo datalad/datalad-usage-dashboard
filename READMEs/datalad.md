@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (46) | Stars (594) | Dataset (25) | `run` (25) | `containers-run` |
+| # | Repository (46) | Stars (595) | Dataset (25) | `run` (25) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  |
 | 2 | [datalad/datalad](https://github.com/datalad/datalad) | 458 |  | :heavy_check_mark: |  |
@@ -17,7 +17,7 @@
 | 14 | [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 5 |  | :heavy_check_mark: |  |
 | 15 | [datalad/datalad-metalad](https://github.com/datalad/datalad-metalad) | 10 |  | :heavy_check_mark: |  |
 | 16 | [datalad/datalad-neuroimaging](https://github.com/datalad/datalad-neuroimaging) | 14 |  | :heavy_check_mark: |  |
-| 17 | [datalad/datalad-next](https://github.com/datalad/datalad-next) | 6 |  | :heavy_check_mark: |  |
+| 17 | [datalad/datalad-next](https://github.com/datalad/datalad-next) | 7 |  | :heavy_check_mark: |  |
 | 18 | [datalad/datalad-nuitka](https://github.com/datalad/datalad-nuitka) | 0 | :heavy_check_mark: |  |  |
 | 19 | [datalad/datalad-openneuropet](https://github.com/datalad/datalad-openneuropet) | 0 |  | :heavy_check_mark: |  |
 | 20 | [datalad/datalad-paper-joss](https://github.com/datalad/datalad-paper-joss) | 3 | :heavy_check_mark: |  |  |
