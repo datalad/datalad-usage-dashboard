@@ -4,7 +4,7 @@
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  |
 | 2 | [con/centerforopenneuroscience.org](https://github.com/con/centerforopenneuroscience.org) | 4 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 3 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 40 |  | :heavy_check_mark: |  |
-| 4 | [con/opfvta-replication-2023](https://github.com/con/opfvta-replication-2023) | 1 |  | :heavy_check_mark: |  |
+| 4 | [con/opfvta-reexecution](https://github.com/con/opfvta-reexecution) | 1 |  | :heavy_check_mark: |  |
 | 5 | [con/shub](https://github.com/con/shub) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 6 | [con/solidation](https://github.com/con/solidation) | 0 |  | :heavy_check_mark: |  |
 | 7 | [con/tinuous](https://github.com/con/tinuous) | 7 |  | :heavy_check_mark: |  |
