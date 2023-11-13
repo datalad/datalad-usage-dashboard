@@ -3,10 +3,11 @@ from operator import attrgetter
 from typing import Dict, List, Optional, Set
 import click
 from click_loglevel import LogLevel
+from ghtoken import get_ghtoken
 from pydantic import BaseModel, Field
 from .config import README_FOLDER, RECORD_FILE
 from .core import RepoRecord, mkreadmes
-from .github import GHDataladRepo, GHDataladSearcher, get_github_token
+from .github import GHDataladRepo, GHDataladSearcher
 from .osf import OSFDataladRepo, OSFDataladSearcher
 from .util import Status, commit, runcmd
 
@@ -148,7 +149,7 @@ def main(log_level: int, mode: Optional[str]) -> None:
     if mode != "readme":
         if mode is None or mode == "github":
             gh_updater = GHCollectionUpdater.from_collection(record.github)
-            with GHDataladSearcher(get_github_token()) as gh_searcher:
+            with GHDataladSearcher(get_ghtoken()) as gh_searcher:
                 for ghrepo in gh_searcher.get_datalad_repos():
                     gh_updater.register_repo(ghrepo)
                 record.github = gh_updater.get_new_collection(gh_searcher)

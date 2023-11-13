@@ -1,9 +1,9 @@
 import logging
 import click
-import requests
+from ghreq import Client, PrettyHTTPError
+from ghtoken import get_ghtoken
 from .config import RECORD_FILE
 from .core import RepoRecord
-from .github import get_github_token
 from .util import USER_AGENT, log
 
 
@@ -16,18 +16,19 @@ def main() -> None:
         level=logging.INFO,
     )
     record = RepoRecord.parse_file(RECORD_FILE)
-    token = get_github_token()
-    with requests.Session() as s:
-        s.headers["Authorization"] = f"token {token}"
-        s.headers["User-Agent"] = USER_AGENT
+    with Client(token=get_ghtoken(), user_agent=USER_AGENT) as client:
         for repo in record.github:
             if repo.id is None:
-                r = s.get(f"https://api.github.com/repos/{repo.name}")
-                if r.status_code == 404:
-                    log.info("Repository %s 404'd; ignoring", repo.name)
+                try:
+                    data = client.get(f"/repos/{repo.name}")
+                except PrettyHTTPError as e:
+                    if e.response is not None and e.response.status_code == 404:
+                        log.info("Repository %s 404'd; ignoring", repo.name)
+                        continue
+                    else:
+                        raise
                 else:
-                    r.raise_for_status()
-                    repo.id = r.json()["id"]
+                    repo.id = data["id"]
                     log.info("Set ID of %s to %d", repo.name, repo.id)
     with open(RECORD_FILE, "w") as fp:
         print(record.json(indent=4), file=fp)
