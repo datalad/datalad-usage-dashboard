@@ -1,4 +1,6 @@
 click >= 8.0.1
 click-loglevel ~= 0.2
+ghtoken ~= 0.1
+ghreq ~= 0.2
 pydantic ~= 1.8
 requests ~= 2.20
