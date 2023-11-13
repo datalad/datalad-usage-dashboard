@@ -1,3 +1,5 @@
+from __future__ import annotations
+from collections.abc import Iterable
 from enum import Enum
 from functools import reduce
 import json
@@ -9,7 +11,7 @@ import re
 import shlex
 import subprocess
 import sys
-from typing import Any, Iterable, NamedTuple, Union
+from typing import Any, NamedTuple
 import requests
 
 USER_AGENT = "find_datalad_repos ({}) requests/{} {}/{}".format(
@@ -68,7 +70,7 @@ def check(yesno: bool) -> str:
     return ":heavy_check_mark:" if yesno else ""
 
 
-def runcmd(*args: Union[str, Path], **kwargs: Any) -> None:
+def runcmd(*args: str | Path, **kwargs: Any) -> None:
     log.debug("Running: %s", " ".join(shlex.quote(str(a)) for a in args))
     r = subprocess.run(args, **kwargs)
     if r.returncode != 0:

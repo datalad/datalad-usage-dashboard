@@ -1,8 +1,9 @@
 from __future__ import annotations
+from collections.abc import Iterator
 from operator import attrgetter
 from pathlib import Path
 from time import sleep
-from typing import Any, Dict, Iterator, List, Optional, Tuple, Union
+from typing import Any, Optional
 from ghreq import Client, PrettyHTTPError
 from pydantic import BaseModel
 from .config import OURSELVES
@@ -38,7 +39,7 @@ class GHDataladRepo(TableRow):
     def gone(self) -> bool:
         return self.status is Status.GONE
 
-    def get_cells(self, _directory: Union[str, Path]) -> List[str]:
+    def get_cells(self, _directory: str | Path) -> list[str]:
         return [
             f"[{self.name}]({self.url})",
             str(self.stars),
@@ -53,16 +54,13 @@ class GHDataladRepo(TableRow):
         )
 
 
-class GHRepo(BaseModel):
+class GHRepo(BaseModel, frozen=True):
     id: int
     url: str
     name: str
 
-    class Config:
-        frozen = True
-
     @classmethod
-    def from_repository(cls, data: Dict[str, Any]) -> "GHRepo":
+    def from_repository(cls, data: dict[str, Any]) -> GHRepo:
         return cls(id=data["id"], url=data["html_url"], name=data["full_name"])
 
 
@@ -72,7 +70,7 @@ class GHDataladSearcher(Client):
 
     def search(self, resource_type: str, query: str) -> Iterator[Any]:
         url: str | None = f"/search/{resource_type}"
-        params: Optional[Dict[str, str]] = {"q": query}
+        params: Optional[dict[str, str]] = {"q": query}
         while url is not None:
             try:
                 r = self.get(url, params=params, raw=True)
@@ -106,7 +104,7 @@ class GHDataladSearcher(Client):
             log.info("Found %s", repo.name)
             yield repo
 
-    def search_runcmds(self) -> Iterator[Tuple[GHRepo, bool]]:
+    def search_runcmds(self) -> Iterator[tuple[GHRepo, bool]]:
         """Returns a generator of (ghrepo, is_container_run) pairs"""
         log.info('Searching for "DATALAD RUNCMD" commits')
         for hit in self.search("commits", '"DATALAD RUNCMD" merge:false is:public'):
@@ -125,9 +123,9 @@ class GHDataladSearcher(Client):
         assert isinstance(stars, int)
         return stars
 
-    def get_datalad_repos(self) -> List[GHDataladRepo]:
+    def get_datalad_repos(self) -> list[GHDataladRepo]:
         datasets = set(self.search_dataset_repos())
-        runcmds: Dict[GHRepo, bool] = {}
+        runcmds: dict[GHRepo, bool] = {}
         for repo, container_run in self.search_runcmds():
             runcmds[repo] = container_run or runcmds.get(repo, False)
         results = []

@@ -1,3 +1,4 @@
+from __future__ import annotations
 from datetime import date
 import os
 from pathlib import Path
@@ -56,8 +57,8 @@ def main(
     """
     from_commit = dateish2commit(repo, from_point)
     to_commit = "HEAD" if to_point is None else dateish2commit(repo, to_point)
-    from_record = RepoRecord.parse_raw(read_record(from_commit, repo))
-    to_record = RepoRecord.parse_raw(read_record(to_commit, repo))
+    from_record = RepoRecord.model_validate_json(read_record(from_commit, repo))
+    to_record = RepoRecord.model_validate_json(read_record(to_commit, repo))
     old_github_repos = {r.name for r in from_record.github}
     old_osf_repos = {r.id for r in from_record.osf}
     new_record = RepoRecord()

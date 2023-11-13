@@ -1,6 +1,7 @@
+from __future__ import annotations
 from collections import defaultdict
 from pathlib import Path
-from typing import List, Mapping, Union
+from typing import List
 from pydantic import BaseModel, Field
 from .config import README_FOLDER
 from .github import GHDataladRepo
@@ -15,15 +16,15 @@ class RepoRecord(BaseModel):
 
 def mkreadmes(
     record: RepoRecord,
-    filename: Union[str, Path] = "README.md",
-    directory: Union[str, Path] = README_FOLDER,
+    filename: str | Path = "README.md",
+    directory: str | Path = README_FOLDER,
 ) -> None:
     Path(directory).mkdir(parents=True, exist_ok=True)
     Path(filename).parent.mkdir(parents=True, exist_ok=True)
-    repos_by_org: Mapping[str, List[GHDataladRepo]] = defaultdict(list)
+    repos_by_org: dict[str, list[GHDataladRepo]] = defaultdict(list)
     for repo in record.github:
         repos_by_org[repo.owner].append(repo)
-    main_rows: List[TableRow] = []
+    main_rows: list[TableRow] = []
     for owner, repos in repos_by_org.items():
         if len(repos) > 1:
             with Path(directory, f"{owner}.md").open("w") as fp:
@@ -42,8 +43,8 @@ def mkreadmes(
         make_table_file(fp, "", main_rows, show_ours=True, directory=directory)
         print(file=fp)
         print("# OSF", file=fp)
-        active: List[OSFDataladRepo] = []
-        gone: List[OSFDataladRepo] = []
+        active: list[OSFDataladRepo] = []
+        gone: list[OSFDataladRepo] = []
         for osfrepo in record.osf:
             if osfrepo.gone:
                 gone.append(osfrepo)
