@@ -101,7 +101,7 @@ class GHDataladSearcher(Client):
 
     def search_dataset_repos(self) -> Iterator[GHRepo]:
         log.info("Searching for repositories with .datalad/config files")
-        for hit in self.search("code", "path:.datalad filename:config"):
+        for hit in self.search("code", "path:.datalad filename:config fork:true"):
             repo = GHRepo.from_repository(hit["repository"])
             log.info("Found %s", repo.name)
             yield repo
