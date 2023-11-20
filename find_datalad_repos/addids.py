@@ -1,3 +1,5 @@
+from __future__ import annotations
+import json
 import logging
 import click
 from ghreq import Client, PrettyHTTPError
@@ -15,7 +17,8 @@ def main() -> None:
         datefmt="%Y-%m-%dT%H:%M:%S%z",
         level=logging.INFO,
     )
-    record = RepoRecord.parse_file(RECORD_FILE)
+    with open(RECORD_FILE, encoding="utf-8") as fp:
+        record = RepoRecord.model_validate(json.load(fp))
     with Client(token=get_ghtoken(), user_agent=USER_AGENT) as client:
         for repo in record.github:
             if repo.id is None:

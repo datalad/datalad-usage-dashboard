@@ -1,3 +1,5 @@
+from __future__ import annotations
+import json
 import logging
 from operator import attrgetter
 from typing import Dict, List, Optional, Set
@@ -22,9 +24,9 @@ class GHCollectionUpdater(BaseModel):
     new_runs: int = 0
 
     @classmethod
-    def from_collection(cls, collection: List[GHDataladRepo]) -> "GHCollectionUpdater":
-        all_repos: Dict[int, GHDataladRepo] = {}
-        noid_repos: List[GHDataladRepo] = []
+    def from_collection(cls, collection: list[GHDataladRepo]) -> GHCollectionUpdater:
+        all_repos: dict[int, GHDataladRepo] = {}
+        noid_repos: list[GHDataladRepo] = []
         for repo in collection:
             if repo.id is not None:
                 all_repos[repo.id] = repo
@@ -56,8 +58,8 @@ class GHCollectionUpdater(BaseModel):
             )
         self.all_repos[rid] = repo
 
-    def get_new_collection(self, searcher: "GHDataladSearcher") -> List[GHDataladRepo]:
-        collection: List[GHDataladRepo] = list(self.noid_repos)
+    def get_new_collection(self, searcher: GHDataladSearcher) -> list[GHDataladRepo]:
+        collection: list[GHDataladRepo] = list(self.noid_repos)
         for repo in self.all_repos.values():
             if repo.id in self.seen or searcher.repo_exists(repo.name):
                 status = Status.ACTIVE
@@ -67,7 +69,7 @@ class GHCollectionUpdater(BaseModel):
         collection.sort(key=attrgetter("name"))
         return collection
 
-    def get_reports(self) -> List[str]:
+    def get_reports(self) -> list[str]:
         news = (
             f"{self.new_repos} new datasets",
             f"{self.new_runs} new `datalad run` users",
@@ -87,9 +89,7 @@ class OSFCollectionUpdater(BaseModel):
     new_repos: int = 0
 
     @classmethod
-    def from_collection(
-        cls, collection: List[OSFDataladRepo]
-    ) -> "OSFCollectionUpdater":
+    def from_collection(cls, collection: list[OSFDataladRepo]) -> OSFCollectionUpdater:
         return cls(all_repos={repo.id: repo for repo in collection})
 
     def register_repo(self, repo: OSFDataladRepo) -> None:
@@ -98,8 +98,8 @@ class OSFCollectionUpdater(BaseModel):
             self.new_repos += 1
         self.all_repos[repo.id] = repo
 
-    def get_new_collection(self) -> List[OSFDataladRepo]:
-        collection: List[OSFDataladRepo] = []
+    def get_new_collection(self) -> list[OSFDataladRepo]:
+        collection: list[OSFDataladRepo] = []
         for repo in self.all_repos.values():
             if repo.id in self.seen:
                 status = Status.ACTIVE
@@ -109,7 +109,7 @@ class OSFCollectionUpdater(BaseModel):
         collection.sort(key=attrgetter("name"))
         return collection
 
-    def get_reports(self) -> List[str]:
+    def get_reports(self) -> list[str]:
         if self.new_repos:
             return [f"OSF: {self.new_repos} new datasets"]
         else:
@@ -141,11 +141,12 @@ def main(log_level: int, mode: Optional[str]) -> None:
     )
 
     try:
-        record = RepoRecord.parse_file(RECORD_FILE)
+        with open(RECORD_FILE, encoding="utf-8") as fp:
+            record = RepoRecord.model_validate(json.load(fp))
     except FileNotFoundError:
         record = RepoRecord()
 
-    reports: List[str] = []
+    reports: list[str] = []
     if mode != "readme":
         if mode is None or mode == "github":
             gh_updater = GHCollectionUpdater.from_collection(record.github)
@@ -164,7 +165,7 @@ def main(log_level: int, mode: Optional[str]) -> None:
             reports.extend(osf_updater.get_reports())
 
         with open(RECORD_FILE, "w") as fp:
-            print(record.json(indent=4), file=fp)
+            print(record.model_dump_json(indent=4), file=fp)
 
     mkreadmes(record)
 

@@ -1,6 +1,8 @@
+from __future__ import annotations
+from collections.abc import Iterator
 import sys
 from types import TracebackType
-from typing import Any, Dict, Iterator, Optional, Type
+from typing import Any, Optional
 from pydantic import BaseModel
 import requests
 from .util import USER_AGENT, Status, log
@@ -13,7 +15,7 @@ class OSFDataladRepo(BaseModel):
     status: Status
 
     @classmethod
-    def from_data(cls, data: Dict[str, Any]) -> "OSFDataladRepo":
+    def from_data(cls, data: dict[str, Any]) -> "OSFDataladRepo":
         return cls(
             url=data["links"]["html"],
             id=data["id"],
@@ -39,13 +41,13 @@ class OSFDataladSearcher:
 
     def __exit__(
         self,
-        _exc_type: Optional[Type[BaseException]],
+        _exc_type: Optional[type[BaseException]],
         _exc_val: Optional[BaseException],
         _exc_tb: Optional[TracebackType],
     ) -> None:
         self.session.close()
 
-    def paginate(self, url: str, params: Optional[Dict[str, str]] = None) -> Iterator:
+    def paginate(self, url: str, params: Optional[dict[str, str]] = None) -> Iterator:
         while url is not None:
             r = self.session.get(url, params=params)
             if not r.ok:
