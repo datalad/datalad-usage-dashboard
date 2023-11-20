@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (17) | Stars (1) | Dataset (16) | `run` (1) | `containers-run` |
+| # | Repository (16) | Stars (1) | Dataset (15) | `run` (1) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [jsheunis/Externally-Cued-Movements](https://github.com/jsheunis/Externally-Cued-Movements) | 0 | :heavy_check_mark: |  |  |
 | 2 | [jsheunis/Simulating-SNN-cost-with-GeNN-NEST](https://github.com/jsheunis/Simulating-SNN-cost-with-GeNN-NEST) | 0 | :heavy_check_mark: |  |  |
@@ -17,7 +17,8 @@
 | 14 | [jsheunis/multi-echo-super](https://github.com/jsheunis/multi-echo-super) | 0 | :heavy_check_mark: |  |  |
 | 15 | [jsheunis/neuro-data-s3](https://github.com/jsheunis/neuro-data-s3) | 0 | :heavy_check_mark: |  |  |
 | 16 | [jsheunis/neuro-data-s3-v2](https://github.com/jsheunis/neuro-data-s3-v2) | 0 | :heavy_check_mark: |  |  |
-| 17 | [jsheunis/sfb1451-data-catalog](https://github.com/jsheunis/sfb1451-data-catalog) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
-No repositories found!
+| # | Repository (1) | Stars | Dataset (1) | `run` | `containers-run` |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [jsheunis/sfb1451-data-catalog](https://github.com/jsheunis/sfb1451-data-catalog) | 0 | :heavy_check_mark: |  |  |
