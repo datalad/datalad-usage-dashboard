@@ -3,7 +3,7 @@ import json
 import logging
 from operator import attrgetter
 import os
-from typing import Dict, List, Optional, Set
+from typing import Dict, List, Set
 import click
 from click_loglevel import LogLevel
 from ghtoken import get_ghtoken
@@ -151,6 +151,14 @@ class GINCollectionUpdater(BaseModel):
             return []
 
 
+def set_mode(
+    ctx: click.Context, _param: click.Parameter, value: str | None
+) -> str | None:
+    if value is not None:
+        ctx.params.setdefault("mode", set()).add(value)
+    return value
+
+
 @click.command()
 @click.option(
     "-l",
@@ -159,17 +167,37 @@ class GINCollectionUpdater(BaseModel):
     default=logging.INFO,
     help="Set logging level  [default: INFO]",
 )
-@click.option("--gin", "mode", flag_value="gin", help="Only update GIN data")
-@click.option("--github", "mode", flag_value="github", help="Only update GitHub data")
-@click.option("--osf", "mode", flag_value="osf", help="Only update OSF data")
+@click.option(
+    "--gin",
+    flag_value="gin",
+    callback=set_mode,
+    expose_value=False,
+    help="Update GIN data",
+)
+@click.option(
+    "--github",
+    flag_value="github",
+    callback=set_mode,
+    expose_value=False,
+    help="Update GitHub data",
+)
+@click.option(
+    "--osf",
+    flag_value="osf",
+    callback=set_mode,
+    expose_value=False,
+    help="Update OSF data",
+)
 @click.option(
     "-R",
     "--regen-readme",
-    "mode",
-    flag_value="readme",
+    is_flag=True,
     help="Regenerate the README from the JSON file without querying",
 )
-def main(log_level: int, mode: Optional[str]) -> None:
+def main(log_level: int, mode: set[str] | None, regen_readme: bool) -> None:
+    if regen_readme and mode:
+        raise click.UsageError("--regen-readme is mutually exclusive with mode options")
+
     logging.basicConfig(
         format="%(asctime)s [%(levelname)-8s] %(name)s %(message)s",
         datefmt="%Y-%m-%dT%H:%M:%S%z",
@@ -183,8 +211,8 @@ def main(log_level: int, mode: Optional[str]) -> None:
         record = RepoRecord()
 
     reports: list[str] = []
-    if mode != "readme":
-        if mode is None or mode == "github":
+    if not regen_readme:
+        if mode is None or "github" in mode:
             gh_updater = GHCollectionUpdater.from_collection(record.github)
             with GHDataladSearcher(get_ghtoken()) as gh_searcher:
                 for ghrepo in gh_searcher.get_datalad_repos():
@@ -192,7 +220,7 @@ def main(log_level: int, mode: Optional[str]) -> None:
                 record.github = gh_updater.get_new_collection(gh_searcher)
             reports.extend(gh_updater.get_reports())
 
-        if mode is None or mode == "osf":
+        if mode is None or "osf" in mode:
             osf_updater = OSFCollectionUpdater.from_collection(record.osf)
             with OSFDataladSearcher() as osf_searcher:
                 for osfrepo in osf_searcher.get_datalad_repos():
@@ -200,7 +228,7 @@ def main(log_level: int, mode: Optional[str]) -> None:
                 record.osf = osf_updater.get_new_collection()
             reports.extend(osf_updater.get_reports())
 
-        if mode is None or mode == "gin":
+        if mode is None or "gin" in mode:
             gin_updater = GINCollectionUpdater.from_collection(record.gin)
             with GINDataladSearcher(token=os.environ["GIN_TOKEN"]) as gin_searcher:
                 for ginrepo in gin_searcher.get_datalad_repos():
@@ -213,7 +241,7 @@ def main(log_level: int, mode: Optional[str]) -> None:
 
     mkreadmes(record)
 
-    if mode != "readme":
+    if not regen_readme:
         runcmd("git", "add", RECORD_FILE, "README.md", README_FOLDER)
         if reports:
             msg = "; ".join(reports)
