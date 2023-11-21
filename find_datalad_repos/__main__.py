@@ -2,6 +2,7 @@ from __future__ import annotations
 import json
 import logging
 from operator import attrgetter
+import os
 from typing import Dict, List, Optional, Set
 import click
 from click_loglevel import LogLevel
@@ -9,6 +10,7 @@ from ghtoken import get_ghtoken
 from pydantic import BaseModel, Field
 from .config import README_FOLDER, RECORD_FILE
 from .core import RepoRecord, mkreadmes
+from .gin import GINDataladRepo, GINDataladSearcher
 from .github import GHDataladRepo, GHDataladSearcher
 from .osf import OSFDataladRepo, OSFDataladSearcher
 from .util import Status, commit, runcmd
@@ -49,7 +51,7 @@ class GHCollectionUpdater(BaseModel):
             if not old_repo.run and repo.run:
                 self.new_hits += 1
                 self.new_runs += 1
-            repo = repo.copy(
+            repo = repo.model_copy(
                 update={
                     "dataset": old_repo.dataset or repo.dataset,
                     "run": old_repo.run or repo.run,
@@ -65,7 +67,7 @@ class GHCollectionUpdater(BaseModel):
                 status = Status.ACTIVE
             else:
                 status = Status.GONE
-            collection.append(repo.copy(update={"status": status}))
+            collection.append(repo.model_copy(update={"status": status}))
         collection.sort(key=attrgetter("name"))
         return collection
 
@@ -105,13 +107,46 @@ class OSFCollectionUpdater(BaseModel):
                 status = Status.ACTIVE
             else:
                 status = Status.GONE
-            collection.append(repo.copy(update={"status": status}))
+            collection.append(repo.model_copy(update={"status": status}))
         collection.sort(key=attrgetter("name"))
         return collection
 
     def get_reports(self) -> list[str]:
         if self.new_repos:
             return [f"OSF: {self.new_repos} new datasets"]
+        else:
+            return []
+
+
+class GINCollectionUpdater(BaseModel):
+    all_repos: Dict[int, GINDataladRepo]
+    seen: Set[int] = Field(default_factory=set)
+    new_repos: int = 0
+
+    @classmethod
+    def from_collection(cls, collection: list[GINDataladRepo]) -> GINCollectionUpdater:
+        return cls(all_repos={repo.id: repo for repo in collection})
+
+    def register_repo(self, repo: GINDataladRepo) -> None:
+        self.seen.add(repo.id)
+        if repo.id not in self.all_repos:
+            self.new_repos += 1
+        self.all_repos[repo.id] = repo
+
+    def get_new_collection(self) -> list[GINDataladRepo]:
+        collection: list[GINDataladRepo] = []
+        for repo in self.all_repos.values():
+            if repo.id in self.seen:
+                status = Status.ACTIVE
+            else:
+                status = Status.GONE
+            collection.append(repo.model_copy(update={"status": status}))
+        collection.sort(key=attrgetter("name"))
+        return collection
+
+    def get_reports(self) -> list[str]:
+        if self.new_repos:
+            return [f"GIN: {self.new_repos} new datasets"]
         else:
             return []
 
@@ -124,6 +159,7 @@ class OSFCollectionUpdater(BaseModel):
     default=logging.INFO,
     help="Set logging level  [default: INFO]",
 )
+@click.option("--gin", "mode", flag_value="gin", help="Only update GIN data")
 @click.option("--github", "mode", flag_value="github", help="Only update GitHub data")
 @click.option("--osf", "mode", flag_value="osf", help="Only update OSF data")
 @click.option(
@@ -163,6 +199,14 @@ def main(log_level: int, mode: Optional[str]) -> None:
                     osf_updater.register_repo(osfrepo)
                 record.osf = osf_updater.get_new_collection()
             reports.extend(osf_updater.get_reports())
+
+        if mode is None or mode == "gin":
+            gin_updater = GINCollectionUpdater.from_collection(record.gin)
+            with GINDataladSearcher(token=os.environ["GIN_TOKEN"]) as gin_searcher:
+                for ginrepo in gin_searcher.get_datalad_repos():
+                    gin_updater.register_repo(ginrepo)
+                record.gin = gin_updater.get_new_collection()
+            reports.extend(gin_updater.get_reports())
 
         with open(RECORD_FILE, "w") as fp:
             print(record.model_dump_json(indent=4), file=fp)
