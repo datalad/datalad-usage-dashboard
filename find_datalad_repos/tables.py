@@ -42,6 +42,7 @@ class SubtableRow(TableRow):
     name: str
     qtys: Statistics
     status: Status
+    base_url: str
 
     @property
     def ours(self) -> bool:
@@ -53,7 +54,7 @@ class SubtableRow(TableRow):
 
     @property
     def url(self) -> str:
-        return f"https://github.com/{self.name}"
+        return self.base_url + self.name
 
     def get_cells(self, directory: str | Path) -> list[str]:
         file_link = f"{directory}/{self.name}.md"
@@ -112,6 +113,7 @@ def make_table_file(
     name: str,
     headers: list[str],
     rows: list[TableRow],
+    base_url: str,
     show_ours: bool = True,
     directory: str | Path = README_FOLDER,
 ) -> SubtableRow:
@@ -149,4 +151,6 @@ def make_table_file(
         status = Status.GONE
     else:
         status = Status.ACTIVE
-    return SubtableRow(name=name, qtys=Statistics.sum(stats), status=status)
+    return SubtableRow(
+        name=name, qtys=Statistics.sum(stats), status=status, base_url=base_url
+    )

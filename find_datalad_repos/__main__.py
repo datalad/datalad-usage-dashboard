@@ -194,7 +194,7 @@ def set_mode(
     is_flag=True,
     help="Regenerate the README from the JSON file without querying",
 )
-def main(log_level: int, mode: set[str] | None, regen_readme: bool) -> None:
+def main(log_level: int, regen_readme: bool, mode: set[str] | None = None) -> None:
     if regen_readme and mode:
         raise click.UsageError("--regen-readme is mutually exclusive with mode options")
 

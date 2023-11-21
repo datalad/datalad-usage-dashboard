@@ -26,9 +26,9 @@ def mkreadmes(
     Path(filename).parent.mkdir(parents=True, exist_ok=True)
     main_rows: dict[str, list[TableRow]] = {}
     repolist: list[TableRow]
-    for key, subdir, repolist, headers in [  # type: ignore[assignment]
-        ("github", (), record.github, GITHUB_HEADERS),
-        ("gin", ("gin",), record.gin, GIN_HEADERS),
+    for key, subdir, repolist, headers, base_url in [  # type: ignore[assignment]
+        ("github", (), record.github, GITHUB_HEADERS, "https://github.com/"),
+        ("gin", ("gin",), record.gin, GIN_HEADERS, "https://gin.g-node.org/"),
     ]:
         repos_by_org: dict[str, list[TableRow]] = defaultdict(list)
         for repo in repolist:
@@ -38,7 +38,9 @@ def mkreadmes(
             if len(repos) > 1:
                 with Path(directory, *subdir, f"{owner}.md").open("w") as fp:
                     one_offs.append(
-                        make_table_file(fp, owner, headers, repos, show_ours=False)
+                        make_table_file(
+                            fp, owner, headers, repos, base_url, show_ours=False
+                        )
                     )
             else:
                 one_offs.extend(repos)
@@ -50,6 +52,7 @@ def mkreadmes(
             "",
             GITHUB_HEADERS,
             main_rows["github"],
+            "https://github.com/",
             show_ours=True,
             directory=directory,
         )
@@ -76,6 +79,7 @@ def mkreadmes(
             "",
             GIN_HEADERS,
             main_rows["gin"],
+            "https://gin.g-node.org/",
             show_ours=False,
             directory=Path(directory, "gin"),
         )
