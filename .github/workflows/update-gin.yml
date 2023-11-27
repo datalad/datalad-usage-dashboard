@@ -1,8 +1,8 @@
-name: Update repository
+name: Update repository for GIN datasets
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 12 * * 6'  # Only run on Saturday
 
 jobs:
   update:
@@ -27,9 +27,9 @@ jobs:
           python -m pip install -r requirements.txt
 
       - name: Run script
-        run: python -m find_datalad_repos --github --osf
+        run: python -m find_datalad_repos --gin
         env:
-          GITHUB_TOKEN: ${{ secrets.SEARCH_GITHUB_TOKEN }}
+          GIN_TOKEN: ${{ secrets.GIN_TOKEN }}
 
       - name: Push changes
         run: |

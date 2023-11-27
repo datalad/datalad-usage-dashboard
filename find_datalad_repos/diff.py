@@ -61,6 +61,7 @@ def main(
     to_record = RepoRecord.model_validate_json(read_record(to_commit, repo))
     old_github_repos = {r.name for r in from_record.github}
     old_osf_repos = {r.id for r in from_record.osf}
+    old_gin_repos = {r.id for r in from_record.gin}
     new_record = RepoRecord()
     for ghr in to_record.github:
         if ghr.name not in old_github_repos:
@@ -68,6 +69,9 @@ def main(
     for osfr in to_record.osf:
         if osfr.id not in old_osf_repos:
             new_record.osf.append(osfr)
+    for ginr in to_record.gin:
+        if ginr.id not in old_gin_repos:
+            new_record.gin.append(ginr)
     mkreadmes(new_record, filename=readme_file, directory=readme_dir)
 
 

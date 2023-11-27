@@ -2,10 +2,20 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from collections.abc import Iterable
 from pathlib import Path
-from typing import IO, ClassVar, List
+from typing import IO, List
 from pydantic import BaseModel, Field
 from .config import OURSELVES, README_FOLDER
 from .util import Statistics, Status, check
+
+GITHUB_HEADERS = [
+    "Repository",
+    "Stars",
+    "Dataset",
+    "`run`",
+    "`containers-run`",
+]
+
+GIN_HEADERS = ["Repository", "Stars"]
 
 
 class TableRow(ABC, BaseModel):
@@ -32,6 +42,7 @@ class SubtableRow(TableRow):
     name: str
     qtys: Statistics
     status: Status
+    base_url: str
 
     @property
     def ours(self) -> bool:
@@ -43,7 +54,7 @@ class SubtableRow(TableRow):
 
     @property
     def url(self) -> str:
-        return f"https://github.com/{self.name}"
+        return self.base_url + self.name
 
     def get_cells(self, directory: str | Path) -> list[str]:
         file_link = f"{directory}/{self.name}.md"
@@ -67,16 +78,8 @@ class SubtableRow(TableRow):
 
 
 class RepoTable(BaseModel):
-    HEADERS: ClassVar[List[str]] = [
-        "#",
-        "Repository",
-        "Stars",
-        "Dataset",
-        "`run`",
-        "`containers-run`",
-    ]
-
     title: str
+    headers: List[str]
     rows: List[TableRow] = Field(default_factory=list)
 
     def get_total_qtys(self) -> Statistics:
@@ -86,14 +89,14 @@ class RepoTable(BaseModel):
         s = f"## {self.title}\n"
         if self.rows:
             qtys = self.get_total_qtys()
-            headers = [self.HEADERS[0]]
-            for h, q in zip(self.HEADERS[1:], qtys):
+            headers = ["#"]
+            for h, q in zip(self.headers, qtys):
                 if q > 0:
                     headers.append(f"{h} ({q})")
                 else:
                     headers.append(h)
             s += self.render_row(headers)
-            s += self.render_row(["---"] * len(self.HEADERS))
+            s += self.render_row(["---"] * (len(self.headers) + 1))
             for i, r in enumerate(self.rows, start=1):
                 s += self.render_row([str(i)] + r.get_cells(directory))
         else:
@@ -108,7 +111,9 @@ class RepoTable(BaseModel):
 def make_table_file(
     fp: IO[str],
     name: str,
+    headers: list[str],
     rows: list[TableRow],
+    base_url: str,
     show_ours: bool = True,
     directory: str | Path = README_FOLDER,
 ) -> SubtableRow:
@@ -124,14 +129,14 @@ def make_table_file(
             wild.append(r)
     if show_ours:
         tables = [
-            RepoTable(title="In the wild", rows=wild),
-            RepoTable(title="Inner circle", rows=ours),
-            RepoTable(title="Gone", rows=gone),
+            RepoTable(title="In the wild", headers=headers, rows=wild),
+            RepoTable(title="Inner circle", headers=headers, rows=ours),
+            RepoTable(title="Gone", headers=headers, rows=gone),
         ]
     else:
         tables = [
-            RepoTable(title="Active", rows=wild),
-            RepoTable(title="Gone", rows=gone),
+            RepoTable(title="Active", headers=headers, rows=wild),
+            RepoTable(title="Gone", headers=headers, rows=gone),
         ]
     stats: list[Statistics] = []
     first = True
@@ -146,4 +151,6 @@ def make_table_file(
         status = Status.GONE
     else:
         status = Status.ACTIVE
-    return SubtableRow(name=name, qtys=Statistics.sum(stats), status=status)
+    return SubtableRow(
+        name=name, qtys=Statistics.sum(stats), status=status, base_url=base_url
+    )
