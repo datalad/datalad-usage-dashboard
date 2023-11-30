@@ -1,3 +1,7 @@
+# Summary
+- [GitHub](#github): [2740](#in-the-wild) in the wild + [2865](#inner-circle) inner-circle + [71](#gone) gone
+- [OSF](#osf): [167](#active) active + [41](#gone-1) gone
+- [GIN](#gin): [492](#active-1) active + [0](#gone-2) gone
 # GitHub
 ## In the wild
 | # | Repository (2740) | Stars (233883) | Dataset (2405) | `run` (621) | `containers-run` (13) |

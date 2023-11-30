@@ -45,7 +45,32 @@ def mkreadmes(
             else:
                 one_offs.extend(repos)
         main_rows[key] = one_offs
+    osfactive: list[OSFDataladRepo] = []
+    osfgone: list[OSFDataladRepo] = []
+    for osfrepo in record.osf:
+        if osfrepo.gone:
+            osfgone.append(osfrepo)
+        else:
+            osfactive.append(osfrepo)
     with open(filename, "w") as fp:
+        print("# Summary", file=fp)
+        wild, ours, gone = count_wild_ours_gone(main_rows["github"])
+        print(
+            f"- [GitHub](#github): [{wild}](#in-the-wild) in the wild +"
+            f" [{ours}](#inner-circle) inner-circle + [{gone}](#gone) gone",
+            file=fp,
+        )
+        active = len(osfactive)
+        gone = len(osfgone)
+        print(
+            f"- [OSF](#osf): [{active}](#active) active + [{gone}](#gone-1) gone",
+            file=fp,
+        )
+        active, gone = count_active_gone(main_rows["gin"])
+        print(
+            f"- [GIN](#gin): [{active}](#active-1) active + [{gone}](#gone-2) gone",
+            file=fp,
+        )
         print("# GitHub", file=fp)
         make_table_file(
             fp,
@@ -58,17 +83,10 @@ def mkreadmes(
         )
         print(file=fp)
         print("# OSF", file=fp)
-        active: list[OSFDataladRepo] = []
-        gone: list[OSFDataladRepo] = []
-        for osfrepo in record.osf:
-            if osfrepo.gone:
-                gone.append(osfrepo)
-            else:
-                active.append(osfrepo)
-        for title, ginrepolist in [("Active", active), ("Gone", gone)]:
+        for title, osfrepolist in [("Active", osfactive), ("Gone", osfgone)]:
             print(f"## {title}", file=fp)
-            if ginrepolist:
-                for i, osfrepo in enumerate(ginrepolist, start=1):
+            if osfrepolist:
+                for i, osfrepo in enumerate(osfrepolist, start=1):
                     print(f"{i}. [{osfrepo.name}]({osfrepo.url})", file=fp)
             else:
                 print("No repositories found!", file=fp)
@@ -83,3 +101,30 @@ def mkreadmes(
             show_ours=False,
             directory=Path(directory, "gin"),
         )
+
+
+def count_wild_ours_gone(rows: list[TableRow]) -> tuple[int, int, int]:
+    wild = 0
+    ours = 0
+    gone = 0
+    for r in rows:
+        qty = r.get_qtys().repo_qty
+        if r.gone:
+            gone += qty
+        elif r.ours:
+            ours += qty
+        else:
+            wild += qty
+    return (wild, ours, gone)
+
+
+def count_active_gone(rows: list[TableRow]) -> tuple[int, int]:
+    active = 0
+    gone = 0
+    for r in rows:
+        qty = r.get_qtys().repo_qty
+        if r.gone:
+            gone += qty
+        else:
+            active += qty
+    return (active, gone)
