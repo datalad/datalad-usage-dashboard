@@ -1,5 +1,6 @@
 from __future__ import annotations
 from collections.abc import Iterator
+from enum import Enum
 from operator import attrgetter
 from pathlib import Path
 from time import sleep
@@ -15,6 +16,13 @@ INTER_SEARCH_DELAY = 10
 
 # How long to wait after triggering abuse detection
 POST_ABUSE_DELAY = 45
+
+
+class RepoState(Enum):
+    PRESENT = 1
+    ABSENT = 2
+    # A repository with the given name exists, but the IDs don't match
+    REPLACED = 3
 
 
 class GHDataladRepo(TableRow):
@@ -145,13 +153,16 @@ class GHDataladSearcher(Client):
         results.sort(key=attrgetter("name"))
         return results
 
-    def repo_exists(self, repo_fullname: str) -> bool:
+    def get_repo_state(self, repo: GHDataladRepo) -> RepoState:
         try:
-            self.get(f"/repos/{repo_fullname}")
+            r = self.get(f"/repos/{repo.name}")
         except PrettyHTTPError as e:
             if e.response is not None and e.response.status_code in (403, 404):
-                return False
+                return RepoState.ABSENT
             else:
                 raise
         else:
-            return True
+            if repo.id is not None and repo.id != r["id"]:
+                return RepoState.REPLACED
+            else:
+                return RepoState.PRESENT
