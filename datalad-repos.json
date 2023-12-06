@@ -384,7 +384,7 @@
             "id": 394349143,
             "name": "DeepMReye/DeepMReye",
             "url": "https://github.com/DeepMReye/DeepMReye",
-            "stars": 82,
+            "stars": 83,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -474,16 +474,6 @@
             "id": 713588256,
             "name": "FNNDSC/civet_example_datalad",
             "url": "https://github.com/FNNDSC/civet_example_datalad",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 581614753,
-            "name": "FNNDSC/example_shapes",
-            "url": "https://github.com/FNNDSC/example_shapes",
             "stars": 0,
             "dataset": false,
             "run": true,
@@ -771,16 +761,6 @@
             "status": "active"
         },
         {
-            "id": 702509641,
-            "name": "JacMatu/analyses_T1w_T2w_Blind_Sighted",
-            "url": "https://github.com/JacMatu/analyses_T1w_T2w_Blind_Sighted",
-            "stars": 0,
-            "dataset": true,
-            "run": false,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 704480439,
             "name": "JacMatu/analyses_T1w_T2w_Blind_Sighted",
             "url": "https://github.com/JacMatu/analyses_T1w_T2w_Blind_Sighted",
@@ -914,7 +894,7 @@
             "id": 181846371,
             "name": "MIC-DKFZ/nnUNet",
             "url": "https://github.com/MIC-DKFZ/nnUNet",
-            "stars": 4398,
+            "stars": 4405,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -974,7 +954,7 @@
             "id": 140680839,
             "name": "MichaelMure/git-bug",
             "url": "https://github.com/MichaelMure/git-bug",
-            "stars": 7906,
+            "stars": 7908,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -15974,7 +15954,7 @@
             "id": 2358713,
             "name": "PintaProject/Pinta",
             "url": "https://github.com/PintaProject/Pinta",
-            "stars": 1542,
+            "stars": 1543,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -16097,16 +16077,6 @@
             "stars": 1,
             "dataset": true,
             "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 380474547,
-            "name": "Remi-Gau/template_datalad_fMRI",
-            "url": "https://github.com/Remi-Gau/template_datalad_fMRI",
-            "stars": 1,
-            "dataset": true,
-            "run": false,
             "container_run": false,
             "status": "active"
         },
@@ -17364,7 +17334,7 @@
             "id": 104130720,
             "name": "bats-core/bats-core",
             "url": "https://github.com/bats-core/bats-core",
-            "stars": 4363,
+            "stars": 4368,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17384,7 +17354,7 @@
             "id": 39841700,
             "name": "beeware/briefcase",
             "url": "https://github.com/beeware/briefcase",
-            "stars": 2159,
+            "stars": 2161,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17474,7 +17444,7 @@
             "id": 102141901,
             "name": "bids-standard/bids-starter-kit",
             "url": "https://github.com/bids-standard/bids-starter-kit",
-            "stars": 243,
+            "stars": 244,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -19099,16 +19069,6 @@
             "run": false,
             "container_run": false,
             "status": "gone"
-        },
-        {
-            "id": 477829889,
-            "name": "cryo-data/cryo-data",
-            "url": "https://github.com/cryo-data/cryo-data",
-            "stars": 1,
-            "dataset": true,
-            "run": false,
-            "container_run": false,
-            "status": "active"
         },
         {
             "id": 496727424,
@@ -46581,16 +46541,6 @@
             "status": "active"
         },
         {
-            "id": 495537557,
-            "name": "datasets-mila/datasets",
-            "url": "https://github.com/datasets-mila/datasets",
-            "stars": 0,
-            "dataset": true,
-            "run": false,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 500612424,
             "name": "datasets-mila/datasets--LDC--ontonotes",
             "url": "https://github.com/datasets-mila/datasets--LDC--ontonotes",
@@ -47658,7 +47608,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 500617310,
@@ -48421,16 +48371,6 @@
             "status": "active"
         },
         {
-            "id": 495530505,
-            "name": "datasets-mila/datasets--covid-19--cord-19",
-            "url": "https://github.com/datasets-mila/datasets--covid-19--cord-19",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501009718,
             "name": "datasets-mila/datasets--covid-19--cord-19",
             "url": "https://github.com/datasets-mila/datasets--covid-19--cord-19",
@@ -48611,16 +48551,6 @@
             "status": "active"
         },
         {
-            "id": 496094287,
-            "name": "datasets-mila/datasets--imagenet",
-            "url": "https://github.com/datasets-mila/datasets--imagenet",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501010609,
             "name": "datasets-mila/datasets--imagenet",
             "url": "https://github.com/datasets-mila/datasets--imagenet",
@@ -48791,29 +48721,9 @@
             "status": "active"
         },
         {
-            "id": 496093271,
-            "name": "datasets-mila/datasets--nwm",
-            "url": "https://github.com/datasets-mila/datasets--nwm",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501011546,
             "name": "datasets-mila/datasets--nwm",
             "url": "https://github.com/datasets-mila/datasets--nwm",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 496093627,
-            "name": "datasets-mila/datasets--nwm--1.2--1993",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1993",
             "stars": 0,
             "dataset": true,
             "run": true,
@@ -48831,29 +48741,9 @@
             "status": "active"
         },
         {
-            "id": 496104029,
-            "name": "datasets-mila/datasets--nwm--1.2--1994",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1994",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501011786,
             "name": "datasets-mila/datasets--nwm--1.2--1994",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1994",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 496104197,
-            "name": "datasets-mila/datasets--nwm--1.2--1995",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1995",
             "stars": 0,
             "dataset": false,
             "run": true,
@@ -48871,16 +48761,6 @@
             "status": "active"
         },
         {
-            "id": 496104378,
-            "name": "datasets-mila/datasets--nwm--1.2--1996",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1996",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501012174,
             "name": "datasets-mila/datasets--nwm--1.2--1996",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1996",
@@ -48891,29 +48771,9 @@
             "status": "active"
         },
         {
-            "id": 496104535,
-            "name": "datasets-mila/datasets--nwm--1.2--1997",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1997",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501012342,
             "name": "datasets-mila/datasets--nwm--1.2--1997",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1997",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 496104718,
-            "name": "datasets-mila/datasets--nwm--1.2--1998",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1998",
             "stars": 0,
             "dataset": false,
             "run": true,
@@ -48931,16 +48791,6 @@
             "status": "active"
         },
         {
-            "id": 496104924,
-            "name": "datasets-mila/datasets--nwm--1.2--1999",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1999",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501012720,
             "name": "datasets-mila/datasets--nwm--1.2--1999",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--1999",
@@ -48951,29 +48801,9 @@
             "status": "active"
         },
         {
-            "id": 496279279,
-            "name": "datasets-mila/datasets--nwm--1.2--2000",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2000",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501012899,
             "name": "datasets-mila/datasets--nwm--1.2--2000",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2000",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 496473653,
-            "name": "datasets-mila/datasets--nwm--1.2--2001",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2001",
             "stars": 0,
             "dataset": false,
             "run": true,
@@ -48991,16 +48821,6 @@
             "status": "active"
         },
         {
-            "id": 496279811,
-            "name": "datasets-mila/datasets--nwm--1.2--2002",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2002",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501013270,
             "name": "datasets-mila/datasets--nwm--1.2--2002",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2002",
@@ -49011,29 +48831,9 @@
             "status": "active"
         },
         {
-            "id": 496280043,
-            "name": "datasets-mila/datasets--nwm--1.2--2003",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2003",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501013455,
             "name": "datasets-mila/datasets--nwm--1.2--2003",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2003",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 496280289,
-            "name": "datasets-mila/datasets--nwm--1.2--2004",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2004",
             "stars": 0,
             "dataset": true,
             "run": true,
@@ -49051,16 +48851,6 @@
             "status": "active"
         },
         {
-            "id": 496280531,
-            "name": "datasets-mila/datasets--nwm--1.2--2005",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2005",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501013890,
             "name": "datasets-mila/datasets--nwm--1.2--2005",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2005",
@@ -49071,29 +48861,9 @@
             "status": "active"
         },
         {
-            "id": 496280761,
-            "name": "datasets-mila/datasets--nwm--1.2--2006",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2006",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501014102,
             "name": "datasets-mila/datasets--nwm--1.2--2006",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2006",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 496281014,
-            "name": "datasets-mila/datasets--nwm--1.2--2007",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2007",
             "stars": 0,
             "dataset": false,
             "run": true,
@@ -49111,29 +48881,9 @@
             "status": "active"
         },
         {
-            "id": 496281247,
-            "name": "datasets-mila/datasets--nwm--1.2--2008",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2008",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501014489,
             "name": "datasets-mila/datasets--nwm--1.2--2008",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2008",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 496281516,
-            "name": "datasets-mila/datasets--nwm--1.2--2009",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2009",
             "stars": 0,
             "dataset": true,
             "run": true,
@@ -49151,29 +48901,9 @@
             "status": "active"
         },
         {
-            "id": 496281776,
-            "name": "datasets-mila/datasets--nwm--1.2--2010",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2010",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501014857,
             "name": "datasets-mila/datasets--nwm--1.2--2010",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2010",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 496282047,
-            "name": "datasets-mila/datasets--nwm--1.2--2011",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2011",
             "stars": 0,
             "dataset": false,
             "run": true,
@@ -49191,29 +48921,9 @@
             "status": "active"
         },
         {
-            "id": 496282309,
-            "name": "datasets-mila/datasets--nwm--1.2--2012",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2012",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501015249,
             "name": "datasets-mila/datasets--nwm--1.2--2012",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2012",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 496282520,
-            "name": "datasets-mila/datasets--nwm--1.2--2013",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2013",
             "stars": 0,
             "dataset": true,
             "run": true,
@@ -49231,29 +48941,9 @@
             "status": "active"
         },
         {
-            "id": 496282775,
-            "name": "datasets-mila/datasets--nwm--1.2--2014",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2014",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501015652,
             "name": "datasets-mila/datasets--nwm--1.2--2014",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2014",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 496283032,
-            "name": "datasets-mila/datasets--nwm--1.2--2015",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2015",
             "stars": 0,
             "dataset": true,
             "run": true,
@@ -49271,41 +48961,11 @@
             "status": "active"
         },
         {
-            "id": 496480989,
-            "name": "datasets-mila/datasets--nwm--1.2--2016",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2016",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 501016045,
             "name": "datasets-mila/datasets--nwm--1.2--2016",
             "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2016",
             "stars": 0,
             "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 496283551,
-            "name": "datasets-mila/datasets--nwm--1.2--2017",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2017",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 496743097,
-            "name": "datasets-mila/datasets--nwm--1.2--2017",
-            "url": "https://github.com/datasets-mila/datasets--nwm--1.2--2017",
-            "stars": 0,
-            "dataset": false,
             "run": true,
             "container_run": false,
             "status": "active"
@@ -49981,46 +49641,6 @@
             "status": "gone"
         },
         {
-            "id": 500520329,
-            "name": "dcasciotti/midterm_project",
-            "url": "https://github.com/dcasciotti/midterm_project",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 500914460,
-            "name": "dcasciotti/midterm_project",
-            "url": "https://github.com/dcasciotti/midterm_project",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 501275648,
-            "name": "dcasciotti/midterm_project",
-            "url": "https://github.com/dcasciotti/midterm_project",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 501700346,
-            "name": "dcasciotti/midterm_project",
-            "url": "https://github.com/dcasciotti/midterm_project",
-            "stars": 0,
-            "dataset": true,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 503764825,
             "name": "dcasciotti/midterm_project",
             "url": "https://github.com/dcasciotti/midterm_project",
@@ -50414,7 +50034,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 6091,
+            "stars": 6093,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50804,7 +50424,7 @@
             "id": 2476162,
             "name": "fail2ban/fail2ban",
             "url": "https://github.com/fail2ban/fail2ban",
-            "stars": 9262,
+            "stars": 9269,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50874,7 +50494,7 @@
             "id": 706455703,
             "name": "flatironinstitute/dendro",
             "url": "https://github.com/flatironinstitute/dendro",
-            "stars": 5,
+            "stars": 6,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -51481,26 +51101,6 @@
             "status": "gone"
         },
         {
-            "id": 671747965,
-            "name": "jennydaman/bigbrain-arterial-registration-datalad",
-            "url": "https://github.com/jennydaman/bigbrain-arterial-registration-datalad",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 671894777,
-            "name": "jennydaman/bigbrain-arterial-registration-datalad",
-            "url": "https://github.com/jennydaman/bigbrain-arterial-registration-datalad",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": 672206512,
             "name": "jennydaman/bigbrain-arterial-registration-datalad",
             "url": "https://github.com/jennydaman/bigbrain-arterial-registration-datalad",
@@ -51529,16 +51129,6 @@
             "run": true,
             "container_run": false,
             "status": "gone"
-        },
-        {
-            "id": 672041853,
-            "name": "jennydaman/bigbrain-arterial-registration-datalad-3_fsl_registration",
-            "url": "https://github.com/jennydaman/bigbrain-arterial-registration-datalad-3_fsl_registration",
-            "stars": 0,
-            "dataset": false,
-            "run": true,
-            "container_run": false,
-            "status": "active"
         },
         {
             "id": 671747969,
@@ -52244,7 +51834,7 @@
             "id": 348419208,
             "name": "linkml/linkml",
             "url": "https://github.com/linkml/linkml",
-            "stars": 234,
+            "stars": 235,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53174,7 +52764,7 @@
             "id": 375755159,
             "name": "netneurolab/neuromaps",
             "url": "https://github.com/netneurolab/neuromaps",
-            "stars": 187,
+            "stars": 188,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53254,7 +52844,7 @@
             "id": 531897428,
             "name": "neuroinformatics-unit/datashuttle",
             "url": "https://github.com/neuroinformatics-unit/datashuttle",
-            "stars": 7,
+            "stars": 8,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53924,7 +53514,7 @@
             "id": 619959033,
             "name": "nomic-ai/gpt4all",
             "url": "https://github.com/nomic-ai/gpt4all",
-            "stars": 55586,
+            "stars": 55638,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53944,16 +53534,6 @@
             "id": 358488815,
             "name": "notestaff/datalad-paper-joss",
             "url": "https://github.com/notestaff/datalad-paper-joss",
-            "stars": 0,
-            "dataset": true,
-            "run": false,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 523026759,
-            "name": "nrdg/HBN-POD2",
-            "url": "https://github.com/nrdg/HBN-POD2",
             "stars": 0,
             "dataset": true,
             "run": false,
@@ -54814,7 +54394,7 @@
             "id": 303161792,
             "name": "py-why/causal-learn",
             "url": "https://github.com/py-why/causal-learn",
-            "stars": 850,
+            "stars": 852,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -54854,7 +54434,7 @@
             "id": 268163609,
             "name": "qdrant/qdrant",
             "url": "https://github.com/qdrant/qdrant",
-            "stars": 14771,
+            "stars": 14788,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55154,7 +54734,7 @@
             "id": 25434012,
             "name": "rordenlab/dcm2niix",
             "url": "https://github.com/rordenlab/dcm2niix",
-            "stars": 726,
+            "stars": 727,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55174,7 +54754,7 @@
             "id": 1857825,
             "name": "s3tools/s3cmd",
             "url": "https://github.com/s3tools/s3cmd",
-            "stars": 4320,
+            "stars": 4322,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55294,7 +54874,7 @@
             "id": 72070681,
             "name": "saulpw/visidata",
             "url": "https://github.com/saulpw/visidata",
-            "stars": 6974,
+            "stars": 6977,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -56031,16 +55611,6 @@
             "status": "active"
         },
         {
-            "id": 486295037,
-            "name": "tkkuehn/test-ds",
-            "url": "https://github.com/tkkuehn/test-ds",
-            "stars": 0,
-            "dataset": true,
-            "run": false,
-            "container_run": false,
-            "status": "active"
-        },
-        {
             "id": null,
             "name": "tkkuehn/tutorial-datalad",
             "url": "https://github.com/tkkuehn/tutorial-datalad",
@@ -56135,16 +55705,6 @@
             "name": "vborghe/task_stimuli",
             "url": "https://github.com/vborghe/task_stimuli",
             "stars": 0,
-            "dataset": true,
-            "run": false,
-            "container_run": false,
-            "status": "active"
-        },
-        {
-            "id": 494105352,
-            "name": "vdumeaux/sc-candida_paper",
-            "url": "https://github.com/vdumeaux/sc-candida_paper",
-            "stars": 1,
             "dataset": true,
             "run": false,
             "container_run": false,
@@ -57532,6 +57092,12 @@
             "url": "https://osf.io/g4u6k/",
             "id": "g4u6k",
             "name": "ds000003-subsampled-exportonly",
+            "status": "active"
+        },
+        {
+            "url": "https://osf.io/s6d8b/",
+            "id": "s6d8b",
+            "name": "ds000005 FreeSurfer derivatives",
             "status": "active"
         },
         {
