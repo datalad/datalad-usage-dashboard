@@ -1,10 +1,5 @@
 ## Active
-| # | Repository (1) | Stars (2) | Dataset | `run` (1) | `containers-run` |
-| --- | --- | --- | --- | --- | --- |
-| 1 | [lnnrtwttkhn/version-control-book](https://github.com/lnnrtwttkhn/version-control-book) | 2 |  | :heavy_check_mark: |  |
-
-## Gone
-| # | Repository (18) | Stars (13) | Dataset (16) | `run` (4) | `containers-run` |
+| # | Repository (19) | Stars (15) | Dataset (16) | `run` (5) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [lnnrtwttkhn/DataLad-101](https://github.com/lnnrtwttkhn/DataLad-101) | 0 |  | :heavy_check_mark: |  |
 | 2 | [lnnrtwttkhn/bibliography](https://github.com/lnnrtwttkhn/bibliography) | 3 | :heavy_check_mark: |  |  |
@@ -24,3 +19,7 @@
 | 16 | [lnnrtwttkhn/resources](https://github.com/lnnrtwttkhn/resources) | 2 | :heavy_check_mark: |  |  |
 | 17 | [lnnrtwttkhn/talk-rdm](https://github.com/lnnrtwttkhn/talk-rdm) | 6 |  | :heavy_check_mark: |  |
 | 18 | [lnnrtwttkhn/tools](https://github.com/lnnrtwttkhn/tools) | 1 | :heavy_check_mark: | :heavy_check_mark: |  |
+| 19 | [lnnrtwttkhn/version-control-book](https://github.com/lnnrtwttkhn/version-control-book) | 2 |  | :heavy_check_mark: |  |
+
+## Gone
+No repositories found!

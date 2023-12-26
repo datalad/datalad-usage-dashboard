@@ -1,7 +1,4 @@
 ## Active
-No repositories found!
-
-## Gone
 | # | Repository (17) | Stars | Dataset (17) | `run` (1) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [neuroscout-datasets/HealthyBrainNetwork](https://github.com/neuroscout-datasets/HealthyBrainNetwork) | 0 | :heavy_check_mark: |  |  |
@@ -21,3 +18,6 @@ No repositories found!
 | 15 | [neuroscout-datasets/life-local](https://github.com/neuroscout-datasets/life-local) | 0 | :heavy_check_mark: |  |  |
 | 16 | [neuroscout-datasets/raiders](https://github.com/neuroscout-datasets/raiders) | 0 | :heavy_check_mark: |  |  |
 | 17 | [neuroscout-datasets/studyforrest](https://github.com/neuroscout-datasets/studyforrest) | 0 | :heavy_check_mark: |  |  |
+
+## Gone
+No repositories found!
