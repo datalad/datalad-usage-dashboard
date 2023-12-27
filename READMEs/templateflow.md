@@ -1,4 +1,7 @@
 ## Active
+No repositories found!
+
+## Gone
 | # | Repository (28) | Stars (77) | Dataset (28) | `run` | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 66 | :heavy_check_mark: |  |  |
@@ -29,6 +32,3 @@
 | 26 | [templateflow/tpl-fsLR](https://github.com/templateflow/tpl-fsLR) | 0 | :heavy_check_mark: |  |  |
 | 27 | [templateflow/tpl-fsaverage](https://github.com/templateflow/tpl-fsaverage) | 0 | :heavy_check_mark: |  |  |
 | 28 | [templateflow/tpl-onavg](https://github.com/templateflow/tpl-onavg) | 0 | :heavy_check_mark: |  |  |
-
-## Gone
-No repositories found!
