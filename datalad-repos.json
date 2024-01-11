@@ -154,7 +154,7 @@
             "id": 460914281,
             "name": "Avaiga/taipy",
             "url": "https://github.com/Avaiga/taipy",
-            "stars": 2896,
+            "stars": 2928,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -654,7 +654,7 @@
             "id": 200103563,
             "name": "ImagingDataCommons/highdicom",
             "url": "https://github.com/ImagingDataCommons/highdicom",
-            "stars": 145,
+            "stars": 146,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -944,7 +944,7 @@
             "id": 181846371,
             "name": "MIC-DKFZ/nnUNet",
             "url": "https://github.com/MIC-DKFZ/nnUNet",
-            "stars": 4539,
+            "stars": 4544,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -1014,7 +1014,7 @@
             "id": 74223162,
             "name": "MisterTea/EternalTerminal",
             "url": "https://github.com/MisterTea/EternalTerminal",
-            "stars": 2807,
+            "stars": 2810,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -16024,7 +16024,7 @@
             "id": 2358713,
             "name": "PintaProject/Pinta",
             "url": "https://github.com/PintaProject/Pinta",
-            "stars": 1571,
+            "stars": 1572,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -16044,7 +16044,7 @@
             "id": 2813757,
             "name": "PySlurm/pyslurm",
             "url": "https://github.com/PySlurm/pyslurm",
-            "stars": 422,
+            "stars": 423,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -16214,7 +16214,7 @@
             "id": 182005926,
             "name": "ReproNim/containers",
             "url": "https://github.com/ReproNim/containers",
-            "stars": 24,
+            "stars": 25,
             "dataset": true,
             "run": true,
             "container_run": false,
@@ -17404,7 +17404,7 @@
             "id": 541169728,
             "name": "awslabs/data-on-eks",
             "url": "https://github.com/awslabs/data-on-eks",
-            "stars": 427,
+            "stars": 429,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17974,7 +17974,7 @@
             "id": 103366370,
             "name": "citation-file-format/citation-file-format",
             "url": "https://github.com/citation-file-format/citation-file-format",
-            "stars": 407,
+            "stars": 409,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -19314,7 +19314,7 @@
             "id": 3784908,
             "name": "cvmfs/cvmfs",
             "url": "https://github.com/cvmfs/cvmfs",
-            "stars": 263,
+            "stars": 264,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49008,7 +49008,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 501014489,
@@ -49018,7 +49018,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 501014685,
@@ -49028,7 +49028,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 501014857,
@@ -49038,7 +49038,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 501015038,
@@ -49498,7 +49498,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 501022465,
@@ -50164,7 +50164,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 6117,
+            "stars": 6119,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50544,7 +50544,7 @@
             "id": 54153294,
             "name": "estesp/manifest-tool",
             "url": "https://github.com/estesp/manifest-tool",
-            "stars": 653,
+            "stars": 654,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50564,7 +50564,7 @@
             "id": 2476162,
             "name": "fail2ban/fail2ban",
             "url": "https://github.com/fail2ban/fail2ban",
-            "stars": 9579,
+            "stars": 9589,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50624,7 +50624,7 @@
             "id": 7785050,
             "name": "fieldtrip/fieldtrip",
             "url": "https://github.com/fieldtrip/fieldtrip",
-            "stars": 778,
+            "stars": 779,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50878,7 +50878,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 325864772,
@@ -50895,6 +50895,16 @@
             "name": "hed-standard/hed-specification",
             "url": "https://github.com/hed-standard/hed-specification",
             "stars": 8,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 344809,
+            "name": "hluk/CopyQ",
+            "url": "https://github.com/hluk/CopyQ",
+            "stars": 7372,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -51029,6 +51039,16 @@
             "run": false,
             "container_run": false,
             "status": "gone"
+        },
+        {
+            "id": 388046853,
+            "name": "iterate-ch/docs",
+            "url": "https://github.com/iterate-ch/docs",
+            "stars": 17,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
         },
         {
             "id": 491461949,
@@ -52324,7 +52344,7 @@
             "id": 15376784,
             "name": "mar10/wsgidav",
             "url": "https://github.com/mar10/wsgidav",
-            "stars": 766,
+            "stars": 767,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -52914,7 +52934,7 @@
             "id": 375755159,
             "name": "netneurolab/neuromaps",
             "url": "https://github.com/netneurolab/neuromaps",
-            "stars": 192,
+            "stars": 193,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53008,7 +53028,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 582298627,
@@ -53614,7 +53634,7 @@
             "id": 53175327,
             "name": "nipreps/fmriprep",
             "url": "https://github.com/nipreps/fmriprep",
-            "stars": 577,
+            "stars": 578,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53624,7 +53644,7 @@
             "id": 49015296,
             "name": "nipreps/mriqc",
             "url": "https://github.com/nipreps/mriqc",
-            "stars": 254,
+            "stars": 255,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53684,11 +53704,11 @@
             "id": 619959033,
             "name": "nomic-ai/gpt4all",
             "url": "https://github.com/nomic-ai/gpt4all",
-            "stars": 59436,
+            "stars": 59575,
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 675957119,
@@ -54004,7 +54024,7 @@
             "id": 119609,
             "name": "paramiko/paramiko",
             "url": "https://github.com/paramiko/paramiko",
-            "stars": 8657,
+            "stars": 8658,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -54388,7 +54408,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 374549492,
@@ -54934,7 +54954,7 @@
             "id": 25434012,
             "name": "rordenlab/dcm2niix",
             "url": "https://github.com/rordenlab/dcm2niix",
-            "stars": 743,
+            "stars": 744,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -54954,7 +54974,7 @@
             "id": 1857825,
             "name": "s3tools/s3cmd",
             "url": "https://github.com/s3tools/s3cmd",
-            "stars": 4358,
+            "stars": 4359,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55834,7 +55854,7 @@
             "id": 145733,
             "name": "tomerfiliba-org/rpyc",
             "url": "https://github.com/tomerfiliba-org/rpyc",
-            "stars": 1477,
+            "stars": 1479,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55858,7 +55878,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 522694269,
