@@ -154,7 +154,7 @@
             "id": 460914281,
             "name": "Avaiga/taipy",
             "url": "https://github.com/Avaiga/taipy",
-            "stars": 2928,
+            "stars": 2936,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -437,6 +437,16 @@
             "stars": 14,
             "dataset": true,
             "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 130202708,
+            "name": "Donders-Institute/bidscoin",
+            "url": "https://github.com/Donders-Institute/bidscoin",
+            "stars": 109,
+            "dataset": false,
+            "run": true,
             "container_run": false,
             "status": "active"
         },
@@ -944,7 +954,7 @@
             "id": 181846371,
             "name": "MIC-DKFZ/nnUNet",
             "url": "https://github.com/MIC-DKFZ/nnUNet",
-            "stars": 4544,
+            "stars": 4547,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -1014,7 +1024,7 @@
             "id": 74223162,
             "name": "MisterTea/EternalTerminal",
             "url": "https://github.com/MisterTea/EternalTerminal",
-            "stars": 2810,
+            "stars": 2811,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -1224,7 +1234,7 @@
             "id": 379435602,
             "name": "NeuroDesk/neurodesktop",
             "url": "https://github.com/NeuroDesk/neurodesktop",
-            "stars": 29,
+            "stars": 30,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -16024,7 +16034,7 @@
             "id": 2358713,
             "name": "PintaProject/Pinta",
             "url": "https://github.com/PintaProject/Pinta",
-            "stars": 1572,
+            "stars": 1574,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17404,7 +17414,7 @@
             "id": 541169728,
             "name": "awslabs/data-on-eks",
             "url": "https://github.com/awslabs/data-on-eks",
-            "stars": 429,
+            "stars": 431,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17444,7 +17454,7 @@
             "id": 104130720,
             "name": "bats-core/bats-core",
             "url": "https://github.com/bats-core/bats-core",
-            "stars": 4442,
+            "stars": 4445,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17464,7 +17474,7 @@
             "id": 39841700,
             "name": "beeware/briefcase",
             "url": "https://github.com/beeware/briefcase",
-            "stars": 2202,
+            "stars": 2203,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17554,7 +17564,7 @@
             "id": 102141901,
             "name": "bids-standard/bids-starter-kit",
             "url": "https://github.com/bids-standard/bids-starter-kit",
-            "stars": 245,
+            "stars": 244,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17664,7 +17674,7 @@
             "id": 112995625,
             "name": "biolink/biolink-model",
             "url": "https://github.com/biolink/biolink-model",
-            "stars": 148,
+            "stars": 149,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -18024,7 +18034,7 @@
             "id": 275035933,
             "name": "cncf-tags/container-device-interface",
             "url": "https://github.com/cncf-tags/container-device-interface",
-            "stars": 149,
+            "stars": 150,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -46214,7 +46224,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 474,
+            "stars": 475,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -46484,7 +46494,7 @@
             "id": 309722515,
             "name": "datalad/git-annex",
             "url": "https://github.com/datalad/git-annex",
-            "stars": 9,
+            "stars": 10,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50164,7 +50174,7 @@
             "id": 13655949,
             "name": "docker-library/official-images",
             "url": "https://github.com/docker-library/official-images",
-            "stars": 6119,
+            "stars": 6120,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50528,7 +50538,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 699893981,
@@ -50564,7 +50574,7 @@
             "id": 2476162,
             "name": "fail2ban/fail2ban",
             "url": "https://github.com/fail2ban/fail2ban",
-            "stars": 9589,
+            "stars": 9603,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50904,7 +50914,7 @@
             "id": 344809,
             "name": "hluk/CopyQ",
             "url": "https://github.com/hluk/CopyQ",
-            "stars": 7372,
+            "stars": 7376,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -51344,7 +51354,7 @@
             "id": 168215891,
             "name": "jonescompneurolab/hnn-core",
             "url": "https://github.com/jonescompneurolab/hnn-core",
-            "stars": 39,
+            "stars": 40,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -52004,7 +52014,7 @@
             "id": 347721773,
             "name": "linkml/linkml-model",
             "url": "https://github.com/linkml/linkml-model",
-            "stars": 23,
+            "stars": 24,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -52934,7 +52944,7 @@
             "id": 375755159,
             "name": "netneurolab/neuromaps",
             "url": "https://github.com/netneurolab/neuromaps",
-            "stars": 193,
+            "stars": 194,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53704,7 +53714,7 @@
             "id": 619959033,
             "name": "nomic-ai/gpt4all",
             "url": "https://github.com/nomic-ai/gpt4all",
-            "stars": 59575,
+            "stars": 59640,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -54024,7 +54034,7 @@
             "id": 119609,
             "name": "paramiko/paramiko",
             "url": "https://github.com/paramiko/paramiko",
-            "stars": 8658,
+            "stars": 8660,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -54408,7 +54418,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 374549492,
@@ -54974,7 +54984,7 @@
             "id": 1857825,
             "name": "s3tools/s3cmd",
             "url": "https://github.com/s3tools/s3cmd",
-            "stars": 4359,
+            "stars": 4360,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55094,7 +55104,7 @@
             "id": 72070681,
             "name": "saulpw/visidata",
             "url": "https://github.com/saulpw/visidata",
-            "stars": 7150,
+            "stars": 7154,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55878,7 +55888,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 522694269,
@@ -57179,6 +57189,12 @@
             "status": "gone"
         },
         {
+            "url": "https://osf.io/qxzky/",
+            "id": "qxzky",
+            "name": "best-data-ever",
+            "status": "active"
+        },
+        {
             "url": "https://osf.io/b6fwn/",
             "id": "b6fwn",
             "name": "best-stdscudywdw-ever",
@@ -57194,7 +57210,7 @@
             "url": "https://osf.io/yzura/",
             "id": "yzura",
             "name": "best-study-ever",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/ehnwz/",
@@ -57356,13 +57372,13 @@
             "url": "https://osf.io/wezq7/",
             "id": "wezq7",
             "name": "fMRIPrep reproducibility reference",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/r3a6s/",
             "id": "r3a6s",
             "name": "fMRIPrep reproducibility reference",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/2ynvg/",
@@ -57380,43 +57396,49 @@
             "url": "https://osf.io/cj85p/",
             "id": "cj85p",
             "name": "fmriprep-fuzzy",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/bhzf2/",
             "id": "bhzf2",
             "name": "fmriprep-fuzzy",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/ej5dt/",
             "id": "ej5dt",
             "name": "fmriprep-fuzzy",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/fqw8n/",
             "id": "fqw8n",
             "name": "fmriprep-fuzzy",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/6pm3e/",
             "id": "6pm3e",
             "name": "fmriprep-fuzzy",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/y8752/",
             "id": "y8752",
             "name": "fmriprep-fuzzy",
+            "status": "gone"
+        },
+        {
+            "url": "https://osf.io/gvjbn/",
+            "id": "gvjbn",
+            "name": "fmriprep-fuzzy-analysis",
             "status": "active"
         },
         {
             "url": "https://osf.io/k4y28/",
             "id": "k4y28",
             "name": "fmriprep-fuzzy-results",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/rbu92/",
@@ -57446,7 +57468,7 @@
             "url": "https://osf.io/ur6tp/",
             "id": "ur6tp",
             "name": "fmriprep-reproducibility",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/6ga9z/",
@@ -57458,19 +57480,19 @@
             "url": "https://osf.io/qr26u/",
             "id": "qr26u",
             "name": "fmriprep-reproducibility-results",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/nydg6/",
             "id": "nydg6",
             "name": "fmriprep-reproducibility-results",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/cjxbv/",
             "id": "cjxbv",
             "name": "fuzzy-fmriprpe",
-            "status": "active"
+            "status": "gone"
         },
         {
             "url": "https://osf.io/4fr7n/",
