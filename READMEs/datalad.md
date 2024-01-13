@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (46) | Stars (616) | Dataset (25) | `run` (25) | `containers-run` |
+| # | Repository (46) | Stars (613) | Dataset (25) | `run` (25) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  |
-| 2 | [datalad/datalad](https://github.com/datalad/datalad) | 475 |  | :heavy_check_mark: |  |
+| 2 | [datalad/datalad](https://github.com/datalad/datalad) | 474 |  | :heavy_check_mark: |  |
 | 3 | [datalad/datalad-action-test](https://github.com/datalad/datalad-action-test) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 4 | [datalad/datalad-catalog](https://github.com/datalad/datalad-catalog) | 12 |  | :heavy_check_mark: |  |
 | 5 | [datalad/datalad-container](https://github.com/datalad/datalad-container) | 11 |  | :heavy_check_mark: |  |
@@ -17,7 +17,7 @@
 | 14 | [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 5 |  | :heavy_check_mark: |  |
 | 15 | [datalad/datalad-metalad](https://github.com/datalad/datalad-metalad) | 10 |  | :heavy_check_mark: |  |
 | 16 | [datalad/datalad-neuroimaging](https://github.com/datalad/datalad-neuroimaging) | 14 |  | :heavy_check_mark: |  |
-| 17 | [datalad/datalad-next](https://github.com/datalad/datalad-next) | 7 |  | :heavy_check_mark: |  |
+| 17 | [datalad/datalad-next](https://github.com/datalad/datalad-next) | 6 |  | :heavy_check_mark: |  |
 | 18 | [datalad/datalad-nuitka](https://github.com/datalad/datalad-nuitka) | 0 | :heavy_check_mark: |  |  |
 | 19 | [datalad/datalad-openneuropet](https://github.com/datalad/datalad-openneuropet) | 0 |  | :heavy_check_mark: |  |
 | 20 | [datalad/datalad-paper-joss](https://github.com/datalad/datalad-paper-joss) | 3 | :heavy_check_mark: |  |  |
@@ -45,7 +45,7 @@
 | 42 | [datalad/testrepo_gh](https://github.com/datalad/testrepo_gh) | 0 | :heavy_check_mark: |  |  |
 | 43 | [datalad/testrepo_gh-sub__1](https://github.com/datalad/testrepo_gh-sub__1) | 0 | :heavy_check_mark: |  |  |
 | 44 | [datalad/testrepo_gh-sub__1-d-sub_-_1](https://github.com/datalad/testrepo_gh-sub__1-d-sub_-_1) | 0 | :heavy_check_mark: |  |  |
-| 45 | [datalad/tutorials](https://github.com/datalad/tutorials) | 14 |  | :heavy_check_mark: |  |
+| 45 | [datalad/tutorials](https://github.com/datalad/tutorials) | 13 |  | :heavy_check_mark: |  |
 | 46 | [datalad/videos-onlinebrainintensive-2017](https://github.com/datalad/videos-onlinebrainintensive-2017) | 2 | :heavy_check_mark: |  |  |
 
 ## Gone
