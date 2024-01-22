@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (1) | Stars (7) | Dataset | `run` (1) | `containers-run` |
+| # | Repository (1) | Stars (8) | Dataset | `run` (1) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [flatironinstitute/dendro](https://github.com/flatironinstitute/dendro) | 7 |  | :heavy_check_mark: |  |
+| 1 | [flatironinstitute/dendro](https://github.com/flatironinstitute/dendro) | 8 |  | :heavy_check_mark: |  |
 
 ## Gone
 | # | Repository (1) | Stars (7) | Dataset | `run` (1) | `containers-run` |
