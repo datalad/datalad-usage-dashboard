@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (2) | Stars (336) | Dataset | `run` (2) | `containers-run` |
+| # | Repository (2) | Stars (337) | Dataset | `run` (2) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [nipreps/mriqc](https://github.com/nipreps/mriqc) | 255 |  | :heavy_check_mark: |  |
+| 1 | [nipreps/mriqc](https://github.com/nipreps/mriqc) | 256 |  | :heavy_check_mark: |  |
 | 2 | [nipreps/niworkflows](https://github.com/nipreps/niworkflows) | 81 |  | :heavy_check_mark: |  |
 
 ## Gone
