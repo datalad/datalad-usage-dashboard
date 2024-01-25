@@ -154,7 +154,7 @@
             "id": 460914281,
             "name": "Avaiga/taipy",
             "url": "https://github.com/Avaiga/taipy",
-            "stars": 4199,
+            "stars": 4290,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -444,7 +444,7 @@
             "id": 130202708,
             "name": "Donders-Institute/bidscoin",
             "url": "https://github.com/Donders-Institute/bidscoin",
-            "stars": 109,
+            "stars": 110,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -694,7 +694,7 @@
             "id": 383951991,
             "name": "ImagingDataCommons/libdicom",
             "url": "https://github.com/ImagingDataCommons/libdicom",
-            "stars": 9,
+            "stars": 10,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -984,7 +984,7 @@
             "id": 181846371,
             "name": "MIC-DKFZ/nnUNet",
             "url": "https://github.com/MIC-DKFZ/nnUNet",
-            "stars": 4601,
+            "stars": 4606,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -1054,7 +1054,7 @@
             "id": 74223162,
             "name": "MisterTea/EternalTerminal",
             "url": "https://github.com/MisterTea/EternalTerminal",
-            "stars": 2820,
+            "stars": 2819,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -16074,7 +16074,7 @@
             "id": 2358713,
             "name": "PintaProject/Pinta",
             "url": "https://github.com/PintaProject/Pinta",
-            "stars": 1576,
+            "stars": 1578,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17494,7 +17494,7 @@
             "id": 104130720,
             "name": "bats-core/bats-core",
             "url": "https://github.com/bats-core/bats-core",
-            "stars": 4468,
+            "stars": 4467,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17514,7 +17514,7 @@
             "id": 39841700,
             "name": "beeware/briefcase",
             "url": "https://github.com/beeware/briefcase",
-            "stars": 2222,
+            "stars": 2221,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17944,7 +17944,7 @@
             "id": 184460,
             "name": "celery/celery",
             "url": "https://github.com/celery/celery",
-            "stars": 22924,
+            "stars": 22928,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -18074,7 +18074,7 @@
             "id": 275035933,
             "name": "cncf-tags/container-device-interface",
             "url": "https://github.com/cncf-tags/container-device-interface",
-            "stars": 152,
+            "stars": 153,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -18724,7 +18724,7 @@
             "id": 39528049,
             "name": "coreinfrastructure/best-practices-badge",
             "url": "https://github.com/coreinfrastructure/best-practices-badge",
-            "stars": 1150,
+            "stars": 1149,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -46264,7 +46264,7 @@
             "id": 14052034,
             "name": "datalad/datalad",
             "url": "https://github.com/datalad/datalad",
-            "stars": 475,
+            "stars": 476,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49854,7 +49854,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 1143,
+            "stars": 1142,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49968,7 +49968,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 104786127,
@@ -50268,7 +50268,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 167233164,
@@ -50614,7 +50614,7 @@
             "id": 2476162,
             "name": "fail2ban/fail2ban",
             "url": "https://github.com/fail2ban/fail2ban",
-            "stars": 9697,
+            "stars": 9705,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50684,7 +50684,7 @@
             "id": 706455703,
             "name": "flatironinstitute/dendro",
             "url": "https://github.com/flatironinstitute/dendro",
-            "stars": 8,
+            "stars": 9,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50764,7 +50764,7 @@
             "id": 56935846,
             "name": "git-annex-remote-rclone/git-annex-remote-rclone",
             "url": "https://github.com/git-annex-remote-rclone/git-annex-remote-rclone",
-            "stars": 177,
+            "stars": 178,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50954,7 +50954,7 @@
             "id": 344809,
             "name": "hluk/CopyQ",
             "url": "https://github.com/hluk/CopyQ",
-            "stars": 7420,
+            "stars": 7424,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -51858,7 +51858,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 114409540,
@@ -51948,7 +51948,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 188244420,
@@ -52478,7 +52478,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 275942534,
@@ -53694,7 +53694,7 @@
             "id": 53175327,
             "name": "nipreps/fmriprep",
             "url": "https://github.com/nipreps/fmriprep",
-            "stars": 580,
+            "stars": 581,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53764,7 +53764,7 @@
             "id": 619959033,
             "name": "nomic-ai/gpt4all",
             "url": "https://github.com/nomic-ai/gpt4all",
-            "stars": 60278,
+            "stars": 60320,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53788,7 +53788,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 275757464,
@@ -54064,7 +54064,7 @@
             "id": 4086360,
             "name": "openSUSE/snapper",
             "url": "https://github.com/openSUSE/snapper",
-            "stars": 774,
+            "stars": 777,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -54084,7 +54084,7 @@
             "id": 119609,
             "name": "paramiko/paramiko",
             "url": "https://github.com/paramiko/paramiko",
-            "stars": 8678,
+            "stars": 8680,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -54684,7 +54684,7 @@
             "id": 303161792,
             "name": "py-why/causal-learn",
             "url": "https://github.com/py-why/causal-learn",
-            "stars": 899,
+            "stars": 900,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -54808,7 +54808,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 284147113,
@@ -55044,7 +55044,7 @@
             "id": 1857825,
             "name": "s3tools/s3cmd",
             "url": "https://github.com/s3tools/s3cmd",
-            "stars": 4362,
+            "stars": 4363,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55088,7 +55088,7 @@
             "dataset": false,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 268870861,
@@ -55164,7 +55164,7 @@
             "id": 72070681,
             "name": "saulpw/visidata",
             "url": "https://github.com/saulpw/visidata",
-            "stars": 7188,
+            "stars": 7192,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55408,7 +55408,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 367527434,
@@ -55934,7 +55934,7 @@
             "id": 145733,
             "name": "tomerfiliba-org/rpyc",
             "url": "https://github.com/tomerfiliba-org/rpyc",
-            "stars": 1483,
+            "stars": 1482,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -56588,7 +56588,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 5472602,

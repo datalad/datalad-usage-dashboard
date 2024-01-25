@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (3) | Stars (917) | Dataset | `run` (3) | `containers-run` |
+| # | Repository (3) | Stars (918) | Dataset | `run` (3) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [nipreps/fmriprep](https://github.com/nipreps/fmriprep) | 580 |  | :heavy_check_mark: |  |
+| 1 | [nipreps/fmriprep](https://github.com/nipreps/fmriprep) | 581 |  | :heavy_check_mark: |  |
 | 2 | [nipreps/mriqc](https://github.com/nipreps/mriqc) | 256 |  | :heavy_check_mark: |  |
 | 3 | [nipreps/niworkflows](https://github.com/nipreps/niworkflows) | 81 |  | :heavy_check_mark: |  |
 
