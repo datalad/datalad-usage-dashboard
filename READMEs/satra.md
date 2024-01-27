@@ -1,5 +1,7 @@
 ## Active
-No repositories found!
+| # | Repository (1) | Stars | Dataset (1) | `run` | `containers-run` |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [satra/datalad-paper-joss](https://github.com/satra/datalad-paper-joss) | 0 | :heavy_check_mark: |  |  |
 
 ## Gone
 | # | Repository (4) | Stars (1) | Dataset (4) | `run` (1) | `containers-run` |

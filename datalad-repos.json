@@ -154,7 +154,7 @@
             "id": 460914281,
             "name": "Avaiga/taipy",
             "url": "https://github.com/Avaiga/taipy",
-            "stars": 4321,
+            "stars": 4347,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -584,7 +584,7 @@
             "id": 414313597,
             "name": "GoogleCloudPlatform/hpc-toolkit",
             "url": "https://github.com/GoogleCloudPlatform/hpc-toolkit",
-            "stars": 140,
+            "stars": 142,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -984,7 +984,7 @@
             "id": 181846371,
             "name": "MIC-DKFZ/nnUNet",
             "url": "https://github.com/MIC-DKFZ/nnUNet",
-            "stars": 4610,
+            "stars": 4615,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -1044,7 +1044,7 @@
             "id": 140680839,
             "name": "MichaelMure/git-bug",
             "url": "https://github.com/MichaelMure/git-bug",
-            "stars": 7955,
+            "stars": 7956,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -1054,7 +1054,7 @@
             "id": 74223162,
             "name": "MisterTea/EternalTerminal",
             "url": "https://github.com/MisterTea/EternalTerminal",
-            "stars": 2820,
+            "stars": 2819,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -16074,7 +16074,7 @@
             "id": 2358713,
             "name": "PintaProject/Pinta",
             "url": "https://github.com/PintaProject/Pinta",
-            "stars": 1579,
+            "stars": 1578,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17164,7 +17164,7 @@
             "id": 35209231,
             "name": "afni/afni",
             "url": "https://github.com/afni/afni",
-            "stars": 140,
+            "stars": 141,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17454,7 +17454,7 @@
             "id": 541169728,
             "name": "awslabs/data-on-eks",
             "url": "https://github.com/awslabs/data-on-eks",
-            "stars": 439,
+            "stars": 441,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17494,7 +17494,7 @@
             "id": 104130720,
             "name": "bats-core/bats-core",
             "url": "https://github.com/bats-core/bats-core",
-            "stars": 4470,
+            "stars": 4471,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17514,7 +17514,7 @@
             "id": 39841700,
             "name": "beeware/briefcase",
             "url": "https://github.com/beeware/briefcase",
-            "stars": 2221,
+            "stars": 2224,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17874,7 +17874,7 @@
             "id": 224302063,
             "name": "brainlife/ezbids",
             "url": "https://github.com/brainlife/ezbids",
-            "stars": 16,
+            "stars": 17,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17944,7 +17944,7 @@
             "id": 184460,
             "name": "celery/celery",
             "url": "https://github.com/celery/celery",
-            "stars": 22934,
+            "stars": 22941,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -18724,7 +18724,7 @@
             "id": 39528049,
             "name": "coreinfrastructure/best-practices-badge",
             "url": "https://github.com/coreinfrastructure/best-practices-badge",
-            "stars": 1150,
+            "stars": 1148,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -48948,7 +48948,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 501012342,
@@ -49854,7 +49854,7 @@
             "id": 101479803,
             "name": "debops/debops",
             "url": "https://github.com/debops/debops",
-            "stars": 1144,
+            "stars": 1143,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -49968,7 +49968,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 104786127,
@@ -50268,7 +50268,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 167233164,
@@ -50614,7 +50614,7 @@
             "id": 2476162,
             "name": "fail2ban/fail2ban",
             "url": "https://github.com/fail2ban/fail2ban",
-            "stars": 9708,
+            "stars": 9712,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50954,7 +50954,7 @@
             "id": 344809,
             "name": "hluk/CopyQ",
             "url": "https://github.com/hluk/CopyQ",
-            "stars": 7428,
+            "stars": 7432,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -51858,7 +51858,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 114409540,
@@ -51948,7 +51948,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 188244420,
@@ -52478,7 +52478,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 275942534,
@@ -53764,7 +53764,7 @@
             "id": 619959033,
             "name": "nomic-ai/gpt4all",
             "url": "https://github.com/nomic-ai/gpt4all",
-            "stars": 60364,
+            "stars": 60396,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53788,7 +53788,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "gone"
+            "status": "active"
         },
         {
             "id": 275757464,
@@ -54084,7 +54084,7 @@
             "id": 119609,
             "name": "paramiko/paramiko",
             "url": "https://github.com/paramiko/paramiko",
-            "stars": 8682,
+            "stars": 8685,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -54684,7 +54684,7 @@
             "id": 303161792,
             "name": "py-why/causal-learn",
             "url": "https://github.com/py-why/causal-learn",
-            "stars": 900,
+            "stars": 902,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -54808,7 +54808,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 284147113,
@@ -55024,7 +55024,7 @@
             "id": 25434012,
             "name": "rordenlab/dcm2niix",
             "url": "https://github.com/rordenlab/dcm2niix",
-            "stars": 749,
+            "stars": 750,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55121,6 +55121,16 @@
             "status": "gone"
         },
         {
+            "id": 357370736,
+            "name": "satra/datalad-paper-joss",
+            "url": "https://github.com/satra/datalad-paper-joss",
+            "stars": 0,
+            "dataset": true,
+            "run": false,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 98765911,
             "name": "satra/ds000114-fmriprep",
             "url": "https://github.com/satra/ds000114-fmriprep",
@@ -55164,7 +55174,7 @@
             "id": 72070681,
             "name": "saulpw/visidata",
             "url": "https://github.com/saulpw/visidata",
-            "stars": 7193,
+            "stars": 7194,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55934,7 +55944,7 @@
             "id": 145733,
             "name": "tomerfiliba-org/rpyc",
             "url": "https://github.com/tomerfiliba-org/rpyc",
-            "stars": 1484,
+            "stars": 1483,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -56588,7 +56598,7 @@
             "dataset": true,
             "run": false,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 5472602,
