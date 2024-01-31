@@ -1,5 +1,6 @@
 from __future__ import annotations
 from collections.abc import Iterator
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 from ghreq import Client, PrettyHTTPError, RetryConfig
@@ -13,6 +14,7 @@ class GINDataladRepo(TableRow):
     url: str
     stars: int
     status: Status
+    updated: datetime | None = None
 
     @classmethod
     def from_data(cls, data: dict[str, Any]) -> GINDataladRepo:
@@ -22,6 +24,7 @@ class GINDataladRepo(TableRow):
             url=data["html_url"],
             stars=data["stars_count"],
             status=Status.ACTIVE,
+            updated=data["updated_at"],
         )
 
     @property
