@@ -1,5 +1,6 @@
 from __future__ import annotations
 from collections.abc import Iterator
+from datetime import datetime
 import sys
 from types import TracebackType
 from typing import Any, Optional
@@ -13,6 +14,7 @@ class OSFDataladRepo(BaseModel):
     id: str
     name: str
     status: Status
+    updated: datetime | None = None
 
     @classmethod
     def from_data(cls, data: dict[str, Any]) -> "OSFDataladRepo":
@@ -21,6 +23,7 @@ class OSFDataladRepo(BaseModel):
             id=data["id"],
             name=data["attributes"]["title"],
             status=Status.ACTIVE,
+            updated=data["attributes"]["date_modified"],
         )
 
     @property
