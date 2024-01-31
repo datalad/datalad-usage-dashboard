@@ -13,9 +13,10 @@ GITHUB_HEADERS = [
     "Dataset",
     "`run`",
     "`containers-run`",
+    "Last Modified",
 ]
 
-GIN_HEADERS = ["Repository", "Stars"]
+GIN_HEADERS = ["Repository", "Stars", "Last Modified"]
 
 
 class TableRow(ABC, BaseModel):
@@ -95,17 +96,13 @@ class RepoTable(BaseModel):
                     headers.append(f"{h} ({q})")
                 else:
                     headers.append(h)
-            s += self.render_row(headers)
-            s += self.render_row(["---"] * (len(self.headers) + 1))
+            s += render_row(headers)
+            s += render_row(["---"] * (len(self.headers) + 1))
             for i, r in enumerate(self.rows, start=1):
-                s += self.render_row([str(i)] + r.get_cells(directory))
+                s += render_row([str(i)] + r.get_cells(directory))
         else:
             s += "No repositories found!\n"
         return s
-
-    @staticmethod
-    def render_row(cells: Iterable[str]) -> str:
-        return "| " + " | ".join(cells) + " |\n"
 
 
 def make_table_file(
@@ -154,3 +151,7 @@ def make_table_file(
     return SubtableRow(
         name=name, qtys=Statistics.sum(stats), status=status, base_url=base_url
     )
+
+
+def render_row(cells: Iterable[str]) -> str:
+    return "| " + " | ".join(cells) + " |\n"

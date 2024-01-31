@@ -43,6 +43,7 @@ class GINDataladRepo(TableRow):
         return [
             f"[{self.name}]({self.url})",
             str(self.stars),
+            str(self.updated) if self.updated is not None else "\u2014",
         ]
 
     def get_qtys(self) -> Statistics:

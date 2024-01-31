@@ -48,6 +48,7 @@ class GHDataladRepo(TableRow):
             check(self.dataset),
             check(self.run),
             check(self.container_run),
+            str(self.updated) if self.updated is not None else "\u2014",
         ]
 
     def get_qtys(self) -> Statistics:

@@ -7,7 +7,7 @@ from .config import README_FOLDER
 from .gin import GINDataladRepo
 from .github import GHDataladRepo
 from .osf import OSFDataladRepo
-from .tables import GIN_HEADERS, GITHUB_HEADERS, TableRow, make_table_file
+from .tables import GIN_HEADERS, GITHUB_HEADERS, TableRow, make_table_file, render_row
 
 
 class RepoRecord(BaseModel):
@@ -86,8 +86,21 @@ def mkreadmes(
         for title, osfrepolist in [("Active", osfactive), ("Gone", osfgone)]:
             print(f"## {title}", file=fp)
             if osfrepolist:
-                for i, osfrepo in enumerate(osfrepolist, start=1):
-                    print(f"{i}. [{osfrepo.name}]({osfrepo.url})", file=fp)
+                headers = ["#", f"Repository ({len(osfrepolist)})", "Last Modified"]
+                print(render_row(headers), end="", file=fp)
+                print(render_row(["---"] * (len(headers) + 1)), end="", file=fp)
+                for i, r in enumerate(osfrepolist, start=1):
+                    print(
+                        render_row(
+                            [
+                                str(i),
+                                f"[{r.name}]({r.url})",
+                                str(r.updated) if r.updated is not None else "\u2014",
+                            ]
+                        ),
+                        end="",
+                        file=fp,
+                    )
             else:
                 print("No repositories found!", file=fp)
         print(file=fp)
