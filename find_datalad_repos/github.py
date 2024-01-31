@@ -1,12 +1,12 @@
 from __future__ import annotations
 from collections.abc import Iterator
-from enum import Enum
+from datetime import datetime
 from operator import attrgetter
 from pathlib import Path
 from time import sleep
 from typing import Any, Optional
 from ghreq import Client, PrettyHTTPError
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from .config import OURSELVES
 from .tables import TableRow
 from .util import USER_AGENT, Statistics, Status, check, is_container_run, log
@@ -18,13 +18,6 @@ INTER_SEARCH_DELAY = 10
 POST_ABUSE_DELAY = 45
 
 
-class RepoState(Enum):
-    PRESENT = 1
-    ABSENT = 2
-    # A repository with the given name exists, but the IDs don't match
-    REPLACED = 3
-
-
 class GHDataladRepo(TableRow):
     id: Optional[int]
     name: str
@@ -34,6 +27,7 @@ class GHDataladRepo(TableRow):
     run: bool
     container_run: bool
     status: Status
+    updated: datetime | None = None
 
     @property
     def owner(self) -> str:
@@ -70,6 +64,12 @@ class GHRepo(BaseModel, frozen=True):
     @classmethod
     def from_repository(cls, data: dict[str, Any]) -> GHRepo:
         return cls(id=data["id"], url=data["html_url"], name=data["full_name"])
+
+
+class ExtraDetails(BaseModel):
+    id: int
+    pushed_at: datetime
+    stars: int = Field(alias="stargazers_count")
 
 
 class GHDataladSearcher(Client):
@@ -126,10 +126,16 @@ class GHDataladSearcher(Client):
             )
             yield (repo, container_run)
 
-    def get_repo_stars(self, repo: GHRepo) -> int:
-        stars = self.get(f"/repos/{repo.name}")["stargazers_count"]
-        assert isinstance(stars, int)
-        return stars
+    def get_extra_repo_details(self, repo_fullname: str) -> ExtraDetails | None:
+        try:
+            r = self.get(f"/repos/{repo_fullname}")
+        except PrettyHTTPError as e:
+            if e.response is not None and e.response.status_code in (403, 404):
+                return None
+            else:
+                raise
+        else:
+            return ExtraDetails.parse_obj(r)
 
     def get_datalad_repos(self) -> list[GHDataladRepo]:
         datasets = set(self.search_dataset_repos())
@@ -138,12 +144,19 @@ class GHDataladSearcher(Client):
             runcmds[repo] = container_run or runcmds.get(repo, False)
         results = []
         for repo in datasets | runcmds.keys():
+            extra = self.get_extra_repo_details(repo.name)
+            if extra is None:
+                raise RuntimeError(
+                    f"GitHub repository {repo.name} suddenly disappeared after"
+                    " being returned in a search!"
+                )
             results.append(
                 GHDataladRepo(
                     id=repo.id,
                     url=repo.url,
                     name=repo.name,
-                    stars=self.get_repo_stars(repo),
+                    stars=extra.stars,
+                    updated=extra.pushed_at,
                     dataset=repo in datasets,
                     run=repo in runcmds,
                     container_run=runcmds.get(repo, False),
@@ -152,17 +165,3 @@ class GHDataladSearcher(Client):
             )
         results.sort(key=attrgetter("name"))
         return results
-
-    def get_repo_state(self, repo: GHDataladRepo) -> RepoState:
-        try:
-            r = self.get(f"/repos/{repo.name}")
-        except PrettyHTTPError as e:
-            if e.response is not None and e.response.status_code in (403, 404):
-                return RepoState.ABSENT
-            else:
-                raise
-        else:
-            if repo.id is not None and repo.id != r["id"]:
-                return RepoState.REPLACED
-            else:
-                return RepoState.PRESENT

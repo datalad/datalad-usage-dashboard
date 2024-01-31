@@ -11,7 +11,7 @@ from pydantic import BaseModel, Field
 from .config import README_FOLDER, RECORD_FILE
 from .core import RepoRecord, mkreadmes
 from .gin import GINDataladRepo, GINDataladSearcher
-from .github import GHDataladRepo, GHDataladSearcher, RepoState
+from .github import GHDataladRepo, GHDataladSearcher
 from .osf import OSFDataladRepo, OSFDataladSearcher
 from .util import Status, commit, log, runcmd
 
@@ -66,20 +66,21 @@ class GHCollectionUpdater(BaseModel):
             if repo.id in self.seen:
                 status = Status.ACTIVE
             else:
-                state = searcher.get_repo_state(repo)
-                if state is RepoState.PRESENT:
-                    status = Status.ACTIVE
-                elif state is RepoState.REPLACED:
+                extra = searcher.get_extra_repo_details(repo.name)
+                if extra is None:
+                    status = Status.GONE
+                elif repo.id is not None and extra.id != repo.id:
                     log.info(
                         "Repository %s with ID %d has been replaced; deleting",
                         repo.name,
                         repo.id,
                     )
                     continue
-                elif state is RepoState.ABSENT:
-                    status = Status.GONE
                 else:
-                    raise AssertionError(f"Unhandled RepoState member: {state!r}")
+                    status = Status.ACTIVE
+                    repo = repo.model_copy(
+                        update={"stars": extra.stars, "updated": extra.pushed_at}
+                    )
             collection.append(repo.model_copy(update={"status": status}))
         collection.sort(key=attrgetter("name"))
         return collection
