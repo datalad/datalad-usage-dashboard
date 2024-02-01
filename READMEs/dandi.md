@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (16) | Stars (55) | Dataset (5) | `run` (14) | `containers-run` |
+| # | Repository (17) | Stars (55) | Dataset (5) | `run` (15) | `containers-run` |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [dandi/dandi-api-datasets](https://github.com/dandi/dandi-api-datasets) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
 | 2 | [dandi/dandi-api-webshots](https://github.com/dandi/dandi-api-webshots) | 0 | :heavy_check_mark: | :heavy_check_mark: |  |
@@ -16,7 +16,8 @@
 | 13 | [dandi/nwb-healthstatus](https://github.com/dandi/nwb-healthstatus) | 1 | :heavy_check_mark: |  |  |
 | 14 | [dandi/redirector](https://github.com/dandi/redirector) | 0 |  | :heavy_check_mark: |  |
 | 15 | [dandi/schema](https://github.com/dandi/schema) | 3 |  | :heavy_check_mark: |  |
-| 16 | [dandi/zarr_checksum](https://github.com/dandi/zarr_checksum) | 5 |  | :heavy_check_mark: |  |
+| 16 | [dandi/zarr-manifests](https://github.com/dandi/zarr-manifests) | 0 |  | :heavy_check_mark: |  |
+| 17 | [dandi/zarr_checksum](https://github.com/dandi/zarr_checksum) | 5 |  | :heavy_check_mark: |  |
 
 ## Gone
 No repositories found!

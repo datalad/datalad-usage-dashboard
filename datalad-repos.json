@@ -21,6 +21,16 @@
             "status": "active"
         },
         {
+            "id": 291960479,
+            "name": "2i2c-org/infrastructure",
+            "url": "https://github.com/2i2c-org/infrastructure",
+            "stars": 76,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 271283042,
             "name": "314eter/recoll",
             "url": "https://github.com/314eter/recoll",
@@ -94,7 +104,7 @@
             "id": 659324423,
             "name": "AdaptiveMotorControlLab/AmadeusGPT",
             "url": "https://github.com/AdaptiveMotorControlLab/AmadeusGPT",
-            "stars": 166,
+            "stars": 167,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -164,7 +174,7 @@
             "id": 460914281,
             "name": "Avaiga/taipy",
             "url": "https://github.com/Avaiga/taipy",
-            "stars": 4463,
+            "stars": 4488,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -591,6 +601,16 @@
             "status": "active"
         },
         {
+            "id": 287583514,
+            "name": "G-Node/tonic",
+            "url": "https://github.com/G-Node/tonic",
+            "stars": 5,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 414313597,
             "name": "GoogleCloudPlatform/hpc-toolkit",
             "url": "https://github.com/GoogleCloudPlatform/hpc-toolkit",
@@ -654,7 +674,7 @@
             "id": 34637798,
             "name": "IBT-FMI/SAMRI",
             "url": "https://github.com/IBT-FMI/SAMRI",
-            "stars": 41,
+            "stars": 42,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -694,7 +714,7 @@
             "id": 200103563,
             "name": "ImagingDataCommons/highdicom",
             "url": "https://github.com/ImagingDataCommons/highdicom",
-            "stars": 148,
+            "stars": 149,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -994,7 +1014,7 @@
             "id": 181846371,
             "name": "MIC-DKFZ/nnUNet",
             "url": "https://github.com/MIC-DKFZ/nnUNet",
-            "stars": 4630,
+            "stars": 4633,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17504,7 +17524,7 @@
             "id": 104130720,
             "name": "bats-core/bats-core",
             "url": "https://github.com/bats-core/bats-core",
-            "stars": 4476,
+            "stars": 4478,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17524,7 +17544,7 @@
             "id": 39841700,
             "name": "beeware/briefcase",
             "url": "https://github.com/beeware/briefcase",
-            "stars": 2222,
+            "stars": 2223,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -17954,7 +17974,7 @@
             "id": 184460,
             "name": "celery/celery",
             "url": "https://github.com/celery/celery",
-            "stars": 22963,
+            "stars": 22960,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -19555,6 +19575,16 @@
             "name": "dandi/schema",
             "url": "https://github.com/dandi/schema",
             "stars": 3,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
+            "id": 750947611,
+            "name": "dandi/zarr-manifests",
+            "url": "https://github.com/dandi/zarr-manifests",
+            "stars": 0,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -48888,7 +48918,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 501011412,
@@ -48898,7 +48928,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 501011478,
@@ -48908,7 +48938,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 501011546,
@@ -48918,7 +48948,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 501011597,
@@ -49871,6 +49901,16 @@
             "status": "active"
         },
         {
+            "id": 93163073,
+            "name": "dependabot/dependabot-core",
+            "url": "https://github.com/dependabot/dependabot-core",
+            "stars": 3734,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 657255387,
             "name": "devlancer-lucas/gpt4all",
             "url": "https://github.com/devlancer-lucas/gpt4all",
@@ -50604,7 +50644,7 @@
             "id": 54153294,
             "name": "estesp/manifest-tool",
             "url": "https://github.com/estesp/manifest-tool",
-            "stars": 661,
+            "stars": 662,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50634,7 +50674,7 @@
             "id": 2476162,
             "name": "fail2ban/fail2ban",
             "url": "https://github.com/fail2ban/fail2ban",
-            "stars": 9739,
+            "stars": 9749,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -50984,7 +51024,7 @@
             "id": 344809,
             "name": "hluk/CopyQ",
             "url": "https://github.com/hluk/CopyQ",
-            "stars": 7440,
+            "stars": 7449,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53774,7 +53814,7 @@
             "id": 791477,
             "name": "nipy/nipype",
             "url": "https://github.com/nipy/nipype",
-            "stars": 709,
+            "stars": 710,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -53794,7 +53834,7 @@
             "id": 619959033,
             "name": "nomic-ai/gpt4all",
             "url": "https://github.com/nomic-ai/gpt4all",
-            "stars": 60549,
+            "stars": 60592,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -54051,6 +54091,16 @@
             "status": "gone"
         },
         {
+            "id": 495796935,
+            "name": "ome/ome-ngff-validator",
+            "url": "https://github.com/ome/ome-ngff-validator",
+            "stars": 3,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active"
+        },
+        {
             "id": 1316444,
             "name": "open-cogsci/OpenSesame",
             "url": "https://github.com/open-cogsci/OpenSesame",
@@ -54114,7 +54164,7 @@
             "id": 119609,
             "name": "paramiko/paramiko",
             "url": "https://github.com/paramiko/paramiko",
-            "stars": 8690,
+            "stars": 8694,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -54714,7 +54764,7 @@
             "id": 303161792,
             "name": "py-why/causal-learn",
             "url": "https://github.com/py-why/causal-learn",
-            "stars": 905,
+            "stars": 906,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55054,7 +55104,7 @@
             "id": 25434012,
             "name": "rordenlab/dcm2niix",
             "url": "https://github.com/rordenlab/dcm2niix",
-            "stars": 749,
+            "stars": 750,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55074,7 +55124,7 @@
             "id": 1857825,
             "name": "s3tools/s3cmd",
             "url": "https://github.com/s3tools/s3cmd",
-            "stars": 4369,
+            "stars": 4370,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -55204,7 +55254,7 @@
             "id": 72070681,
             "name": "saulpw/visidata",
             "url": "https://github.com/saulpw/visidata",
-            "stars": 7198,
+            "stars": 7202,
             "dataset": false,
             "run": true,
             "container_run": false,
@@ -56268,7 +56318,7 @@
             "dataset": true,
             "run": true,
             "container_run": false,
-            "status": "active"
+            "status": "gone"
         },
         {
             "id": 216072008,
