@@ -2,14 +2,12 @@ from __future__ import annotations
 from collections.abc import Iterator
 from datetime import datetime
 from operator import attrgetter
-from pathlib import Path
 from time import sleep
 from typing import Any, Optional
 from ghreq import Client, PrettyHTTPError
 from pydantic import BaseModel, Field
-from .config import OURSELVES
-from .tables import TableRow
-from .util import USER_AGENT, Statistics, Status, check, is_container_run, log
+from .tables import GITHUB_COLUMNS, Column, TableRow
+from .util import USER_AGENT, Status, check, is_container_run, log
 
 # Searching too fast can trigger abuse detection
 INTER_SEARCH_DELAY = 10
@@ -18,7 +16,7 @@ INTER_SEARCH_DELAY = 10
 POST_ABUSE_DELAY = 45
 
 
-class GHDataladRepo(TableRow):
+class GHDataladRepo(BaseModel):
     id: Optional[int]
     name: str
     url: str
@@ -34,27 +32,30 @@ class GHDataladRepo(TableRow):
         return self.name.partition("/")[0]
 
     @property
-    def ours(self) -> bool:
-        return self.owner in OURSELVES
-
-    @property
     def gone(self) -> bool:
         return self.status is Status.GONE
 
-    def get_cells(self, _directory: str | Path) -> list[str]:
-        return [
-            f"[{self.name}]({self.url})",
-            str(self.stars),
-            check(self.dataset),
-            check(self.run),
-            check(self.container_run),
-            str(self.updated) if self.updated is not None else "\u2014",
-        ]
-
-    def get_qtys(self) -> Statistics:
-        return Statistics(
-            1, self.stars, int(self.dataset), int(self.run), int(self.container_run)
-        )
+    def as_table_row(self) -> TableRow:
+        cells = {
+            Column.REPOSITORY: f"[{self.name}]({self.url})",
+            Column.STARS: str(self.stars),
+            Column.IS_DATASET: check(self.dataset),
+            Column.IS_RUN: check(self.run),
+            Column.IS_CONTAINERS_RUN: check(self.container_run),
+            Column.LAST_MODIFIED: (
+                str(self.updated) if self.updated is not None else "\u2014"
+            ),
+        }
+        assert set(cells.keys()) == set(GITHUB_COLUMNS)
+        qtys = {
+            Column.REPOSITORY: 1,
+            Column.STARS: self.stars,
+            Column.IS_DATASET: int(self.dataset),
+            Column.IS_RUN: int(self.run),
+            Column.IS_CONTAINERS_RUN: int(self.container_run),
+        }
+        assert set(qtys.keys()) == {col for col in GITHUB_COLUMNS if col.countable}
+        return TableRow(cells=cells, qtys=qtys)
 
 
 class GHRepo(BaseModel, frozen=True):
