@@ -1,17 +1,14 @@
 from __future__ import annotations
-from collections.abc import Iterable
 from enum import Enum
-from functools import reduce
 import json
 import logging
-from operator import add
 from pathlib import Path
 import platform
 import re
 import shlex
 import subprocess
 import sys
-from typing import Any, NamedTuple
+from typing import Any
 import requests
 
 USER_AGENT = "find_datalad_repos ({}) requests/{} {}/{}".format(
@@ -27,21 +24,6 @@ log = logging.getLogger(__package__)
 class Status(Enum):
     ACTIVE = "active"
     GONE = "gone"
-
-
-class Statistics(NamedTuple):
-    repo_qty: int
-    star_qty: int
-    dataset_qty: int
-    run_qty: int
-    container_run_qty: int
-
-    @classmethod
-    def sum(cls, stats: Iterable["Statistics"]) -> "Statistics":
-        def plus(x: Statistics, y: Statistics) -> Statistics:
-            return Statistics(*map(add, x, y))
-
-        return reduce(plus, stats, Statistics(0, 0, 0, 0, 0))
 
 
 def is_container_run(commit_msg: str) -> bool:

@@ -1,18 +1,20 @@
 from __future__ import annotations
 from collections.abc import Iterator
-from pathlib import Path
+from datetime import datetime
 from typing import Any
 from ghreq import Client, PrettyHTTPError, RetryConfig
-from .tables import TableRow
-from .util import USER_AGENT, Statistics, Status, log
+from pydantic import BaseModel
+from .tables import GIN_COLUMNS, Column, TableRow
+from .util import USER_AGENT, Status, log
 
 
-class GINDataladRepo(TableRow):
+class GINDataladRepo(BaseModel):
     id: int
     name: str
     url: str
     stars: int
     status: Status
+    updated: datetime | None = None
 
     @classmethod
     def from_data(cls, data: dict[str, Any]) -> GINDataladRepo:
@@ -22,6 +24,7 @@ class GINDataladRepo(TableRow):
             url=data["html_url"],
             stars=data["stars_count"],
             status=Status.ACTIVE,
+            updated=data["updated_at"],
         )
 
     @property
@@ -29,21 +32,24 @@ class GINDataladRepo(TableRow):
         return self.name.partition("/")[0]
 
     @property
-    def ours(self) -> bool:
-        return False
-
-    @property
     def gone(self) -> bool:
         return self.status is Status.GONE
 
-    def get_cells(self, _directory: str | Path) -> list[str]:
-        return [
-            f"[{self.name}]({self.url})",
-            str(self.stars),
-        ]
-
-    def get_qtys(self) -> Statistics:
-        return Statistics(1, self.stars, 1, 0, 0)
+    def as_table_row(self) -> TableRow:
+        cells = {
+            Column.REPOSITORY: f"[{self.name}]({self.url})",
+            Column.STARS: str(self.stars),
+            Column.LAST_MODIFIED: (
+                str(self.updated) if self.updated is not None else "\u2014"
+            ),
+        }
+        assert set(cells.keys()) == set(GIN_COLUMNS)
+        qtys = {
+            Column.REPOSITORY: 1,
+            Column.STARS: self.stars,
+        }
+        assert set(qtys.keys()) == {col for col in GIN_COLUMNS if col.countable}
+        return TableRow(cells=cells, qtys=qtys)
 
 
 class GINDataladSearcher(Client):

@@ -1,10 +1,12 @@
 from __future__ import annotations
 from collections.abc import Iterator
+from datetime import datetime
 import sys
 from types import TracebackType
 from typing import Any, Optional
 from pydantic import BaseModel
 import requests
+from .tables import OSF_COLUMNS, Column, TableRow
 from .util import USER_AGENT, Status, log
 
 
@@ -13,6 +15,7 @@ class OSFDataladRepo(BaseModel):
     id: str
     name: str
     status: Status
+    updated: datetime | None = None
 
     @classmethod
     def from_data(cls, data: dict[str, Any]) -> "OSFDataladRepo":
@@ -21,11 +24,24 @@ class OSFDataladRepo(BaseModel):
             id=data["id"],
             name=data["attributes"]["title"],
             status=Status.ACTIVE,
+            updated=data["attributes"]["date_modified"],
         )
 
     @property
     def gone(self) -> bool:
         return self.status is Status.GONE
+
+    def as_table_row(self) -> TableRow:
+        cells = {
+            Column.REPOSITORY: f"[{self.name}]({self.url})",
+            Column.LAST_MODIFIED: (
+                str(self.updated) if self.updated is not None else "\u2014"
+            ),
+        }
+        assert set(cells.keys()) == set(OSF_COLUMNS)
+        qtys = {Column.REPOSITORY: 1}
+        assert set(qtys.keys()) == {col for col in OSF_COLUMNS if col.countable}
+        return TableRow(cells=cells, qtys=qtys)
 
 
 class OSFDataladSearcher:
