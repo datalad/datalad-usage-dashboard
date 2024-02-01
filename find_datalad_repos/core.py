@@ -1,5 +1,6 @@
 from __future__ import annotations
 from collections import Counter, defaultdict
+from datetime import datetime
 from pathlib import Path
 from typing import List
 from pydantic import BaseModel, Field
@@ -107,12 +108,18 @@ def make_github_tables(
             file_link = f"{directory}/{owner}.md"
             repo_qty = stats[Column.REPOSITORY]
             star_qty = stats[Column.STARS]
+            last_modified: datetime | None = max(
+                [lm for r in repos if (lm := r.updated) is not None],
+                default=None,
+            )
             cells = {
                 Column.REPOSITORY: (
                     f"[{owner}/*]({base_url}/{owner})" f" [({repo_qty})]({file_link})"
                 ),
                 Column.STARS: f"[{star_qty}]({file_link})",
-                Column.LAST_MODIFIED: "\u2014",
+                Column.LAST_MODIFIED: (
+                    str(last_modified) if last_modified is not None else "\u2014"
+                ),
             }
             for col in [
                 Column.IS_DATASET,
@@ -190,12 +197,18 @@ def make_gin_tables(
             file_link = f"{directory}/{owner}.md"
             repo_qty = stats[Column.REPOSITORY]
             star_qty = stats[Column.STARS]
+            last_modified: datetime | None = max(
+                [lm for r in repos if (lm := r.updated) is not None],
+                default=None,
+            )
             cells = {
                 Column.REPOSITORY: (
                     f"[{owner}/*]({base_url}/{owner}) [({repo_qty})]({file_link})"
                 ),
                 Column.STARS: f"[{star_qty}]({file_link})",
-                Column.LAST_MODIFIED: "\u2014",
+                Column.LAST_MODIFIED: (
+                    str(last_modified) if last_modified is not None else "\u2014"
+                ),
             }
             section.append(TableRow(cells=cells, qtys=stats))
         else:
