@@ -88,7 +88,7 @@ def mkreadmes(
             if osfrepolist:
                 headers = ["#", f"Repository ({len(osfrepolist)})", "Last Modified"]
                 print(render_row(headers), end="", file=fp)
-                print(render_row(["---"] * (len(headers) + 1)), end="", file=fp)
+                print(render_row(["---"] * len(headers)), end="", file=fp)
                 for i, r in enumerate(osfrepolist, start=1):
                     print(
                         render_row(

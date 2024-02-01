@@ -89,17 +89,21 @@ class RepoTable(BaseModel):
     def render(self, directory: str | Path) -> str:
         s = f"## {self.title}\n"
         if self.rows:
-            qtys = self.get_total_qtys()
+            qtyiter = iter(self.get_total_qtys())
             headers = ["#"]
-            for h, q in zip(self.headers, qtys):
+            for h in self.headers:
+                q = next(qtyiter, 0)
                 if q > 0:
                     headers.append(f"{h} ({q})")
                 else:
                     headers.append(h)
             s += render_row(headers)
-            s += render_row(["---"] * (len(self.headers) + 1))
+            s += render_row(["---"] * len(headers))
             for i, r in enumerate(self.rows, start=1):
-                s += render_row([str(i)] + r.get_cells(directory))
+                row = [str(i)] + r.get_cells(directory)
+                if len(row) < len(headers):
+                    row += ["\u2014"] * (len(headers) - len(row))
+                s += render_row(row)
         else:
             s += "No repositories found!\n"
         return s
