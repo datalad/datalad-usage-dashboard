@@ -27,7 +27,7 @@ jobs:
           python -m pip install -r requirements.txt
 
       - name: Run script
-        run: python -m find_datalad_repos --github --osf
+        run: python -m find_datalad_repos -l DEBUG --github --osf
         env:
           GITHUB_TOKEN: ${{ secrets.SEARCH_GITHUB_TOKEN }}
 

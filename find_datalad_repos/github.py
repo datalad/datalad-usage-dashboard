@@ -16,8 +16,17 @@ INTER_SEARCH_DELAY = 10
 POST_ABUSE_DELAY = 45
 
 
+class GHSearchResult(BaseModel):
+    id: int
+    name: str
+    url: str
+    dataset: bool
+    run: bool
+    container_run: bool
+
+
 class GHDataladRepo(BaseModel):
-    id: Optional[int]
+    id: int | None
     name: str
     url: str
     stars: int
@@ -26,6 +35,7 @@ class GHDataladRepo(BaseModel):
     container_run: bool
     status: Status
     updated: datetime | None = None
+    last_checked: datetime | None = None
 
     @property
     def owner(self) -> str:
@@ -132,37 +142,28 @@ class GHDataladSearcher(Client):
         try:
             r = self.get(f"/repos/{repo_fullname}")
         except PrettyHTTPError as e:
-            if e.response is not None and e.response.status_code in (403, 404):
+            if e.response.status_code == 404:
                 return None
             else:
                 raise
         else:
             return ExtraDetails.parse_obj(r)
 
-    def get_datalad_repos(self) -> list[GHDataladRepo]:
+    def get_datalad_repos(self) -> list[GHSearchResult]:
         datasets = set(self.search_dataset_repos())
         runcmds: dict[GHRepo, bool] = {}
         for repo, container_run in self.search_runcmds():
             runcmds[repo] = container_run or runcmds.get(repo, False)
         results = []
         for repo in datasets | runcmds.keys():
-            extra = self.get_extra_repo_details(repo.name)
-            if extra is None:
-                raise RuntimeError(
-                    f"GitHub repository {repo.name} suddenly disappeared after"
-                    " being returned in a search!"
-                )
             results.append(
-                GHDataladRepo(
+                GHSearchResult(
                     id=repo.id,
                     url=repo.url,
                     name=repo.name,
-                    stars=extra.stars,
-                    updated=extra.pushed_at,
                     dataset=repo in datasets,
                     run=repo in runcmds,
                     container_run=runcmds.get(repo, False),
-                    status=Status.ACTIVE,
                 )
             )
         results.sort(key=attrgetter("name"))
