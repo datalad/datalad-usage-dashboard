@@ -27,7 +27,7 @@ jobs:
           python -m pip install -r requirements.txt
 
       - name: Run script
-        run: python -m find_datalad_repos --gin
+        run: python -m find_datalad_repos -l DEBUG --gin
         env:
           GIN_TOKEN: ${{ secrets.GIN_TOKEN }}
 
