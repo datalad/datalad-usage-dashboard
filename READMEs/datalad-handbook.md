@@ -1,18 +1,17 @@
 ## Active
-| # | Repository (3) | Stars (131) | Dataset (1) | `run` (3) | `containers-run` | Last Modified |
+| # | Repository (11) | Stars (148) | Dataset (9) | `run` (6) | `containers-run` (1) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [datalad-handbook/book](https://github.com/datalad-handbook/book) | 131 |  | :heavy_check_mark: |  | 2024-01-30 14:08:09+00:00 |
-| 2 | [datalad-handbook/book-datalad-intro](https://github.com/datalad-handbook/book-datalad-intro) | 0 |  | :heavy_check_mark: |  | 2023-12-04 08:59:26+00:00 |
-| 3 | [datalad-handbook/resources](https://github.com/datalad-handbook/resources) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-10-12 10:35:57+00:00 |
+| 1 | [datalad-handbook/DVC-DataLad](https://github.com/datalad-handbook/DVC-DataLad) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-11-26 13:07:27+00:00 |
+| 2 | [datalad-handbook/DataLad-101](https://github.com/datalad-handbook/DataLad-101) | 2 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-06-06 12:48:49+00:00 |
+| 3 | [datalad-handbook/artwork](https://github.com/datalad-handbook/artwork) | 1 | :heavy_check_mark: |  |  | 2024-01-18 06:47:29+00:00 |
+| 4 | [datalad-handbook/book](https://github.com/datalad-handbook/book) | 131 |  | :heavy_check_mark: |  | 2024-01-30 14:08:09+00:00 |
+| 5 | [datalad-handbook/book-datalad-intro](https://github.com/datalad-handbook/book-datalad-intro) | 0 |  | :heavy_check_mark: |  | 2023-12-04 08:59:26+00:00 |
+| 6 | [datalad-handbook/course](https://github.com/datalad-handbook/course) | 11 | :heavy_check_mark: |  |  | 2022-04-25 15:53:44+00:00 |
+| 7 | [datalad-handbook/cozy-screensavers](https://github.com/datalad-handbook/cozy-screensavers) | 0 | :heavy_check_mark: |  |  | 2024-01-30 13:40:13+00:00 |
+| 8 | [datalad-handbook/datalad-course](https://github.com/datalad-handbook/datalad-course) | 3 | :heavy_check_mark: |  |  | 2024-01-26 09:03:54+00:00 |
+| 9 | [datalad-handbook/iris_data](https://github.com/datalad-handbook/iris_data) | 0 | :heavy_check_mark: |  |  | 2019-11-18 13:09:44+00:00 |
+| 10 | [datalad-handbook/midterm_project](https://github.com/datalad-handbook/midterm_project) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2023-06-05 08:50:08+00:00 |
+| 11 | [datalad-handbook/resources](https://github.com/datalad-handbook/resources) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-10-12 10:35:57+00:00 |
 
 ## Gone
-| # | Repository (8) | Stars (17) | Dataset (8) | `run` (3) | `containers-run` (1) | Last Modified |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | [datalad-handbook/DVC-DataLad](https://github.com/datalad-handbook/DVC-DataLad) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | — |
-| 2 | [datalad-handbook/DataLad-101](https://github.com/datalad-handbook/DataLad-101) | 2 | :heavy_check_mark: | :heavy_check_mark: |  | — |
-| 3 | [datalad-handbook/artwork](https://github.com/datalad-handbook/artwork) | 1 | :heavy_check_mark: |  |  | — |
-| 4 | [datalad-handbook/course](https://github.com/datalad-handbook/course) | 11 | :heavy_check_mark: |  |  | — |
-| 5 | [datalad-handbook/cozy-screensavers](https://github.com/datalad-handbook/cozy-screensavers) | 0 | :heavy_check_mark: |  |  | — |
-| 6 | [datalad-handbook/datalad-course](https://github.com/datalad-handbook/datalad-course) | 3 | :heavy_check_mark: |  |  | — |
-| 7 | [datalad-handbook/iris_data](https://github.com/datalad-handbook/iris_data) | 0 | :heavy_check_mark: |  |  | — |
-| 8 | [datalad-handbook/midterm_project](https://github.com/datalad-handbook/midterm_project) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | — |
+No repositories found!
