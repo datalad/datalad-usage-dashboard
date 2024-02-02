@@ -1,4 +1,5 @@
 from __future__ import annotations
+from datetime import datetime, timezone
 from enum import Enum
 import json
 import logging
@@ -64,3 +65,7 @@ def commit(msg: str) -> None:
         runcmd("git", "commit", "-m", msg)
     else:
         log.info("Nothing to commit")
+
+
+def nowutc() -> datetime:
+    return datetime.now(timezone.utc)

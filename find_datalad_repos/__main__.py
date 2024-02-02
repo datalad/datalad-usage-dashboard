@@ -1,4 +1,6 @@
 from __future__ import annotations
+from datetime import timedelta
+import heapq
 import json
 import logging
 from operator import attrgetter
@@ -6,14 +8,15 @@ import os
 from typing import Dict, List, Set
 import click
 from click_loglevel import LogLevel
+from ghreq import PrettyHTTPError
 from ghtoken import get_ghtoken
 from pydantic import BaseModel, Field
 from .config import README_FOLDER, RECORD_FILE
 from .core import RepoRecord, mkreadmes
 from .gin import GINDataladRepo, GINDataladSearcher
-from .github import GHDataladRepo, GHDataladSearcher
+from .github import GHDataladRepo, GHDataladSearcher, GHSearchResult
 from .osf import OSFDataladRepo, OSFDataladSearcher
-from .util import Status, commit, log, runcmd
+from .util import Status, commit, log, nowutc, runcmd
 
 
 class GHCollectionUpdater(BaseModel):
@@ -36,8 +39,8 @@ class GHCollectionUpdater(BaseModel):
                 noid_repos.append(repo)
         return cls(all_repos=all_repos, noid_repos=noid_repos)
 
-    def register_repo(self, repo: GHDataladRepo) -> None:
-        rid = repo.id
+    def register_repo(self, sr: GHSearchResult, searcher: GHDataladSearcher) -> None:
+        rid = sr.id
         assert rid is not None
         self.seen.add(rid)
         try:
@@ -45,43 +48,95 @@ class GHCollectionUpdater(BaseModel):
         except KeyError:
             self.new_hits += 1
             self.new_repos += 1
-            if repo.run:
+            if sr.run:
                 self.new_runs += 1
+            extra = searcher.get_extra_repo_details(sr.name)
+            if extra is None or extra.id != sr.id:
+                raise RuntimeError(
+                    f"GitHub repository {sr.name} suddenly disappeared after"
+                    " being returned in a search!"
+                )
+            else:
+                repo = GHDataladRepo(
+                    id=sr.id,
+                    name=sr.name,
+                    url=sr.url,
+                    stars=extra.stars,
+                    dataset=sr.dataset,
+                    run=sr.run,
+                    container_run=sr.container_run,
+                    status=Status.ACTIVE,
+                    updated=extra.pushed_at,
+                    last_checked=nowutc(),
+                )
         else:
-            if not old_repo.run and repo.run:
+            if not old_repo.run and sr.run:
                 self.new_hits += 1
                 self.new_runs += 1
-            repo = repo.model_copy(
-                update={
-                    "dataset": old_repo.dataset or repo.dataset,
-                    "run": old_repo.run or repo.run,
-                    "container_run": old_repo.container_run or repo.container_run,
-                }
+            repo = GHDataladRepo(
+                id=sr.id,
+                name=sr.name,
+                url=sr.url,
+                stars=old_repo.stars,
+                dataset=old_repo.dataset or sr.dataset,
+                run=old_repo.run or sr.run,
+                container_run=old_repo.container_run or sr.container_run,
+                status=Status.ACTIVE,
+                updated=old_repo.updated,
+                last_checked=old_repo.last_checked,
             )
         self.all_repos[rid] = repo
 
     def get_new_collection(self, searcher: GHDataladSearcher) -> list[GHDataladRepo]:
         collection: list[GHDataladRepo] = list(self.noid_repos)
-        for repo in self.all_repos.values():
-            if repo.id in self.seen:
-                status = Status.ACTIVE
-            else:
+        replaced: set[int] = set()
+        check_cutoff = nowutc() - timedelta(days=7)
+        needs_check = heapq.nsmallest(
+            1000,
+            (
+                r
+                for r in self.all_repos.values()
+                if r.last_checked is None or r.last_checked < check_cutoff
+            ),
+            key=lambda r: (r.last_checked is not None, r.last_checked),
+        )
+        for repo in needs_check:
+            log.info(
+                "Getting latest details for repository %s (last checked: %s)",
+                repo.name,
+                repo.last_checked,
+            )
+            try:
                 extra = searcher.get_extra_repo_details(repo.name)
+            except PrettyHTTPError as e:
+                if e.response.status_code == 404 and "rate limit" in e.response.text:
+                    log.info(
+                        "Hit a GitHub rate limit; not checking any more repositories"
+                    )
+                    break
+                else:
+                    raise
+            else:
                 if extra is None:
-                    status = Status.GONE
+                    log.info("Repository %s no longer exists", repo.name)
+                    repo.status = Status.GONE
                 elif repo.id is not None and extra.id != repo.id:
                     log.info(
                         "Repository %s with ID %d has been replaced; deleting",
                         repo.name,
                         repo.id,
                     )
-                    continue
+                    replaced.add(repo.id)
                 else:
-                    status = Status.ACTIVE
-                    repo = repo.model_copy(
-                        update={"stars": extra.stars, "updated": extra.pushed_at}
-                    )
-            collection.append(repo.model_copy(update={"status": status}))
+                    repo.status = Status.ACTIVE
+                    repo.stars = extra.stars
+                    repo.updated = extra.pushed_at
+                repo.last_checked = nowutc()
+        collection.extend(
+            repo
+            for repo in self.all_repos.values()
+            if not (repo.id is not None and repo.id in replaced)
+        )
         collection.sort(key=attrgetter("name"))
         return collection
 
@@ -230,7 +285,7 @@ def main(log_level: int, regen_readme: bool, mode: set[str] | None = None) -> No
             gh_updater = GHCollectionUpdater.from_collection(record.github)
             with GHDataladSearcher(get_ghtoken()) as gh_searcher:
                 for ghrepo in gh_searcher.get_datalad_repos():
-                    gh_updater.register_repo(ghrepo)
+                    gh_updater.register_repo(ghrepo, gh_searcher)
                 record.github = gh_updater.get_new_collection(gh_searcher)
             reports.extend(gh_updater.get_reports())
 
