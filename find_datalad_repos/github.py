@@ -132,7 +132,7 @@ class GHDataladSearcher(Client):
         try:
             r = self.get(f"/repos/{repo_fullname}")
         except PrettyHTTPError as e:
-            if e.response is not None and e.response.status_code in (403, 404):
+            if e.response.status_code == 404:
                 return None
             else:
                 raise
