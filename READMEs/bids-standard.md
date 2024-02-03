@@ -1,7 +1,7 @@
 ## Active
 | # | Repository (8) | Stars (648) | Dataset (1) | `run` (7) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [bids-standard/awesome-bids](https://github.com/bids-standard/awesome-bids) | 7 |  | :heavy_check_mark: |  | 2024-02-01 18:23:52+00:00 |
+| 1 | [bids-standard/awesome-bids](https://github.com/bids-standard/awesome-bids) | 7 |  | :heavy_check_mark: |  | 2024-02-02 07:34:43+00:00 |
 | 2 | [bids-standard/bids-bep016](https://github.com/bids-standard/bids-bep016) | 6 |  | :heavy_check_mark: |  | 2023-10-30 07:44:30+00:00 |
 | 3 | [bids-standard/bids-examples](https://github.com/bids-standard/bids-examples) | 147 |  | :heavy_check_mark: |  | 2024-01-24 13:08:39+00:00 |
 | 4 | [bids-standard/bids-schema](https://github.com/bids-standard/bids-schema) | 3 |  | :heavy_check_mark: |  | 2023-02-16 03:26:49+00:00 |
