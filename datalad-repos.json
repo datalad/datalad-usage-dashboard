@@ -69574,13 +69574,13 @@
             "id": "n6tma",
             "name": "test-aws",
             "status": "active",
-            "updated": "2024-02-06T21:00:15.242000"
+            "updated": "2024-02-08T00:45:04.331363"
         },
         {
             "url": "https://osf.io/dhnw6/",
             "id": "dhnw6",
             "name": "test-datalad-osf",
-            "status": "active",
+            "status": "gone",
             "updated": "2023-11-05T14:08:06.288843"
         },
         {

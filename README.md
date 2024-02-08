@@ -1,6 +1,6 @@
 # Summary
 - [GitHub](#github): [2739](#in-the-wild) in the wild + [2870](#inner-circle) inner-circle + [71](#gone) gone
-- [OSF](#osf): [156](#active) active + [58](#gone-1) gone
+- [OSF](#osf): [155](#active) active + [59](#gone-1) gone
 - [GIN](#gin): [666](#active-1) active + [16](#gone-2) gone
 
 # GitHub
@@ -464,7 +464,7 @@
 
 # OSF
 ## Active
-| # | Repository (156) | Last Modified |
+| # | Repository (155) | Last Modified |
 | --- | --- | --- |
 | 1 | [3am-complex-orientation-phantoms](https://osf.io/4cdw3/) | 2021-12-09 14:45:19.675932 |
 | 2 | [AOMICPIOP2DemoDataset](https://osf.io/u5w4j/) | 2023-07-07 14:21:22.437157 |
@@ -614,17 +614,16 @@
 | 146 | [studyforrest-speechanno-validation](https://osf.io/x3zpr/) | 2023-07-11 07:47:27.819362 |
 | 147 | [studyforrest-speechannotation](https://osf.io/f5j3e/) | 2023-07-11 07:43:25.124750 |
 | 148 | [sub-219_bids_datalad](https://osf.io/86d3a/) | 2020-07-20 00:01:33.309435 |
-| 149 | [test-aws](https://osf.io/n6tma/) | 2024-02-06 21:00:15.242000 |
-| 150 | [test-datalad-osf](https://osf.io/dhnw6/) | 2023-11-05 14:08:06.288843 |
-| 151 | [test-sibling](https://osf.io/5z4km/) | 2021-12-16 16:32:38.578992 |
-| 152 | [test-zarr](https://osf.io/84gbt/) | 2021-06-28 14:45:29.860434 |
-| 153 | [testing_TMGit](https://osf.io/vj87f/) | 2023-10-04 15:14:05.142491 |
-| 154 | [testing_workflow](https://osf.io/26j7z/) | 2023-11-16 21:02:25 |
-| 155 | [testing_workflows](https://osf.io/jdhkc/) | 2023-09-28 05:17:54.617407 |
-| 156 | [vandam-daylong](https://osf.io/6w3sq/) | 2021-04-15 18:01:07.759600 |
+| 149 | [test-aws](https://osf.io/n6tma/) | 2024-02-08 00:45:04.331363 |
+| 150 | [test-sibling](https://osf.io/5z4km/) | 2021-12-16 16:32:38.578992 |
+| 151 | [test-zarr](https://osf.io/84gbt/) | 2021-06-28 14:45:29.860434 |
+| 152 | [testing_TMGit](https://osf.io/vj87f/) | 2023-10-04 15:14:05.142491 |
+| 153 | [testing_workflow](https://osf.io/26j7z/) | 2023-11-16 21:02:25 |
+| 154 | [testing_workflows](https://osf.io/jdhkc/) | 2023-09-28 05:17:54.617407 |
+| 155 | [vandam-daylong](https://osf.io/6w3sq/) | 2021-04-15 18:01:07.759600 |
 
 ## Gone
-| # | Repository (58) | Last Modified |
+| # | Repository (59) | Last Modified |
 | --- | --- | --- |
 | 1 | [CAT12.8_AOMIC-PIOP1](https://osf.io/eyg8t/) | — |
 | 2 | [CAT12.8_AOMIC-PIOP1](https://osf.io/b97wz/) | — |
@@ -679,11 +678,12 @@
 | 51 | [sc-candida_paper](https://osf.io/bqr4z/) | — |
 | 52 | [sc-candida_paper](https://osf.io/d7ufz/) | — |
 | 53 | [sc-candida_paper](https://osf.io/q2jvr/) | — |
-| 54 | [test_datalad](https://osf.io/uhndf/) | — |
-| 55 | [testexport](https://osf.io/d5b8c/) | — |
-| 56 | [testexport2](https://osf.io/kjpqa/) | — |
-| 57 | [tm-fork](https://osf.io/hzmb2/) | — |
-| 58 | [yodeling](https://osf.io/m3ck5/) | — |
+| 54 | [test-datalad-osf](https://osf.io/dhnw6/) | 2023-11-05 14:08:06.288843 |
+| 55 | [test_datalad](https://osf.io/uhndf/) | — |
+| 56 | [testexport](https://osf.io/d5b8c/) | — |
+| 57 | [testexport2](https://osf.io/kjpqa/) | — |
+| 58 | [tm-fork](https://osf.io/hzmb2/) | — |
+| 59 | [yodeling](https://osf.io/m3ck5/) | — |
 
 # GIN
 ## Active
