@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (26) | Stars | Last Modified |
+| # | Repository (25) | Stars | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [templateflow/tpl-Fischer344](https://gin.g-node.org/templateflow/tpl-Fischer344) | 0 | 2022-03-28 22:25:10+00:00 |
 | 2 | [templateflow/tpl-MNI152Lin](https://gin.g-node.org/templateflow/tpl-MNI152Lin) | 0 | 2022-03-25 13:10:05+00:00 |
@@ -26,7 +26,8 @@
 | 23 | [templateflow/tpl-WHS](https://gin.g-node.org/templateflow/tpl-WHS) | 0 | 2021-08-27 13:29:07+00:00 |
 | 24 | [templateflow/tpl-fsLR](https://gin.g-node.org/templateflow/tpl-fsLR) | 0 | 2022-04-15 08:23:11+00:00 |
 | 25 | [templateflow/tpl-fsaverage](https://gin.g-node.org/templateflow/tpl-fsaverage) | 0 | 2023-02-01 13:40:20+00:00 |
-| 26 | [templateflow/tpl-onavg](https://gin.g-node.org/templateflow/tpl-onavg) | 0 | 2023-08-02 12:45:47+00:00 |
 
 ## Gone
-No repositories found!
+| # | Repository (1) | Stars | Last Modified |
+| --- | --- | --- | --- |
+| 1 | [templateflow/tpl-onavg](https://gin.g-node.org/templateflow/tpl-onavg) | 0 | 2023-08-02 12:45:47+00:00 |
