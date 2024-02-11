@@ -6,12 +6,12 @@
 | 3 | [courtois-neuromod/anat.freesurfer](https://github.com/courtois-neuromod/anat.freesurfer) | 0 | :heavy_check_mark: |  |  | 2024-01-16 20:47:00+00:00 |
 | 4 | [courtois-neuromod/anat.smriprep](https://github.com/courtois-neuromod/anat.smriprep) | 0 | :heavy_check_mark: |  |  | 2023-09-06 19:29:36+00:00 |
 | 5 | [courtois-neuromod/cimaq_fmriprep](https://github.com/courtois-neuromod/cimaq_fmriprep) | 0 | :heavy_check_mark: |  |  | 2021-09-25 19:52:39+00:00 |
-| 6 | [courtois-neuromod/cneuromod](https://github.com/courtois-neuromod/cneuromod) | 11 | :heavy_check_mark: |  |  | 2024-01-23 01:13:38+00:00 |
+| 6 | [courtois-neuromod/cneuromod](https://github.com/courtois-neuromod/cneuromod) | 11 | :heavy_check_mark: |  |  | 2024-02-07 14:51:01+00:00 |
 | 7 | [courtois-neuromod/cneuromod.fmriprep](https://github.com/courtois-neuromod/cneuromod.fmriprep) | 0 | :heavy_check_mark: |  |  | 2024-01-08 20:52:15+00:00 |
 | 8 | [courtois-neuromod/cneuromod.processed](https://github.com/courtois-neuromod/cneuromod.processed) | 1 | :heavy_check_mark: |  |  | 2024-01-08 20:31:21+00:00 |
 | 9 | [courtois-neuromod/containers](https://github.com/courtois-neuromod/containers) | 0 | :heavy_check_mark: |  |  | 2023-08-14 16:00:39+00:00 |
 | 10 | [courtois-neuromod/dataset_test](https://github.com/courtois-neuromod/dataset_test) | 0 | :heavy_check_mark: |  |  | 2022-12-02 19:39:54+00:00 |
-| 11 | [courtois-neuromod/ds_prep](https://github.com/courtois-neuromod/ds_prep) | 1 | :heavy_check_mark: |  |  | 2024-01-26 18:26:34+00:00 |
+| 11 | [courtois-neuromod/ds_prep](https://github.com/courtois-neuromod/ds_prep) | 1 | :heavy_check_mark: |  |  | 2024-02-08 23:22:54+00:00 |
 | 12 | [courtois-neuromod/flesp_friends-isc](https://github.com/courtois-neuromod/flesp_friends-isc) | 0 | :heavy_check_mark: |  |  | 2023-06-21 17:55:19+00:00 |
 | 13 | [courtois-neuromod/fnadeau_cimaq_preproc](https://github.com/courtois-neuromod/fnadeau_cimaq_preproc) | 0 | :heavy_check_mark: |  |  | 2021-10-15 16:55:18+00:00 |
 | 14 | [courtois-neuromod/friends](https://github.com/courtois-neuromod/friends) | 2 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-01-25 21:03:13+00:00 |
@@ -23,7 +23,7 @@
 | 20 | [courtois-neuromod/friends_nlp_reproducibility](https://github.com/courtois-neuromod/friends_nlp_reproducibility) | 0 | :heavy_check_mark: |  |  | 2022-07-20 19:47:18+00:00 |
 | 21 | [courtois-neuromod/harrypotter](https://github.com/courtois-neuromod/harrypotter) | 0 | :heavy_check_mark: |  |  | 2024-01-18 16:43:20+00:00 |
 | 22 | [courtois-neuromod/harrypotter.fmriprep](https://github.com/courtois-neuromod/harrypotter.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-01-08 20:26:42+00:00 |
-| 23 | [courtois-neuromod/hcptrt](https://github.com/courtois-neuromod/hcptrt) | 0 | :heavy_check_mark: |  |  | 2023-09-05 18:31:13+00:00 |
+| 23 | [courtois-neuromod/hcptrt](https://github.com/courtois-neuromod/hcptrt) | 0 | :heavy_check_mark: |  |  | 2024-02-07 20:42:01+00:00 |
 | 24 | [courtois-neuromod/hcptrt.fmriprep](https://github.com/courtois-neuromod/hcptrt.fmriprep) | 0 | :heavy_check_mark: |  |  | 2024-01-08 20:29:31+00:00 |
 | 25 | [courtois-neuromod/hcptrt.stimuli](https://github.com/courtois-neuromod/hcptrt.stimuli) | 0 | :heavy_check_mark: |  |  | 2023-07-24 02:52:39+00:00 |
 | 26 | [courtois-neuromod/mario.stimuli](https://github.com/courtois-neuromod/mario.stimuli) | 0 | :heavy_check_mark: |  |  | 2024-01-25 20:35:24+00:00 |

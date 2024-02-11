@@ -20,7 +20,7 @@
 | 17 | [ReproNim/reproman](https://github.com/ReproNim/reproman) | 24 |  | :heavy_check_mark: |  | 2023-06-16 15:45:37+00:00 |
 | 18 | [ReproNim/repromon](https://github.com/ReproNim/repromon) | 0 |  | :heavy_check_mark: |  | 2023-10-19 00:01:48+00:00 |
 | 19 | [ReproNim/repronim.github.io](https://github.com/ReproNim/repronim.github.io) | 3 |  | :heavy_check_mark: |  | 2024-01-31 21:32:01+00:00 |
-| 20 | [ReproNim/reprostim](https://github.com/ReproNim/reprostim) | 5 |  | :heavy_check_mark: |  | 2024-02-02 15:34:10+00:00 |
+| 20 | [ReproNim/reprostim](https://github.com/ReproNim/reprostim) | 5 |  | :heavy_check_mark: |  | 2024-02-09 17:02:49+00:00 |
 | 21 | [ReproNim/reprostim-sessions](https://github.com/ReproNim/reprostim-sessions) | 0 | :heavy_check_mark: |  |  | 2023-03-09 15:02:51+00:00 |
 | 22 | [ReproNim/sfn2018-training](https://github.com/ReproNim/sfn2018-training) | 2 | :heavy_check_mark: |  |  | 2022-07-06 20:14:08+00:00 |
 | 23 | [ReproNim/test-babs](https://github.com/ReproNim/test-babs) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-12-08 20:39:43+00:00 |
