@@ -5,7 +5,7 @@
 | 2 | [pni-data/CAP_MRI](https://github.com/pni-data/CAP_MRI) | 0 | :heavy_check_mark: |  |  | 2023-04-07 20:03:12+00:00 |
 | 3 | [pni-data/IXI](https://github.com/pni-data/IXI) | 0 | :heavy_check_mark: |  |  | 2022-08-26 14:01:51+00:00 |
 | 4 | [pni-data/TRR289_A01](https://github.com/pni-data/TRR289_A01) | 0 | :heavy_check_mark: |  |  | 2023-12-06 09:50:50+00:00 |
-| 5 | [pni-data/TRR289_A02](https://github.com/pni-data/TRR289_A02) | 0 | :heavy_check_mark: |  |  | 2023-11-17 16:18:12+00:00 |
+| 5 | [pni-data/TRR289_A02](https://github.com/pni-data/TRR289_A02) | 0 | :heavy_check_mark: |  |  | 2024-02-22 09:34:40+00:00 |
 | 6 | [pni-data/TRR289_A04](https://github.com/pni-data/TRR289_A04) | 1 | :heavy_check_mark: |  |  | 2023-11-17 16:46:05+00:00 |
 | 7 | [pni-data/TRR289_A06](https://github.com/pni-data/TRR289_A06) | 1 | :heavy_check_mark: |  |  | 2023-12-08 08:45:17+00:00 |
 | 8 | [pni-data/datalad_test2](https://github.com/pni-data/datalad_test2) | 0 | :heavy_check_mark: |  |  | 2023-11-10 15:35:46+00:00 |

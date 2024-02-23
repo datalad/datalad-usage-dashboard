@@ -2,7 +2,7 @@
 | # | Repository (3) | Stars (162) | Dataset (2) | `run` (1) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [neuronets/nobrainer](https://github.com/neuronets/nobrainer) | 143 |  | :heavy_check_mark: |  | 2024-02-12 21:46:30+00:00 |
-| 2 | [neuronets/test-aws](https://github.com/neuronets/test-aws) | 0 | :heavy_check_mark: |  |  | 2024-02-14 20:55:58+00:00 |
+| 2 | [neuronets/test-aws](https://github.com/neuronets/test-aws) | 0 | :heavy_check_mark: |  |  | 2024-02-16 19:49:13+00:00 |
 | 3 | [neuronets/trained-models](https://github.com/neuronets/trained-models) | 19 | :heavy_check_mark: |  |  | 2024-01-31 12:22:31+00:00 |
 
 ## Gone
