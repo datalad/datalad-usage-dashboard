@@ -26,7 +26,7 @@
 | 23 | [templateflow/tpl-WHS](https://gin.g-node.org/templateflow/tpl-WHS) | 0 | 2021-08-27 13:29:07+00:00 |
 | 24 | [templateflow/tpl-dhcpAsym](https://gin.g-node.org/templateflow/tpl-dhcpAsym) | 0 | 2024-02-16 18:28:10+00:00 |
 | 25 | [templateflow/tpl-fsLR](https://gin.g-node.org/templateflow/tpl-fsLR) | 0 | 2022-04-15 08:23:11+00:00 |
-| 26 | [templateflow/tpl-fsaverage](https://gin.g-node.org/templateflow/tpl-fsaverage) | 0 | 2023-02-01 13:40:20+00:00 |
+| 26 | [templateflow/tpl-fsaverage](https://gin.g-node.org/templateflow/tpl-fsaverage) | 0 | 2024-03-15 10:22:24+00:00 |
 
 ## Gone
 | # | Repository (1) | Stars | Last Modified |
