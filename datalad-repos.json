@@ -64537,6 +64537,18 @@
             "last_checked": "2024-03-18T06:26:31.844610Z"
         },
         {
+            "id": 1235740,
+            "name": "nilearn/nilearn",
+            "url": "https://github.com/nilearn/nilearn",
+            "stars": 1095,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active",
+            "updated": "2024-03-19T01:04:47Z",
+            "last_checked": "2024-03-19T06:25:01.275526Z"
+        },
+        {
             "id": 458515870,
             "name": "nipraxis/textbook",
             "url": "https://github.com/nipraxis/textbook",
