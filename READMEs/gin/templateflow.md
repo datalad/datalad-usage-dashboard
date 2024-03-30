@@ -7,7 +7,7 @@
 | 4 | [templateflow/tpl-MNI152NLin2009aSym](https://gin.g-node.org/templateflow/tpl-MNI152NLin2009aSym) | 0 | 2022-03-31 05:54:13+00:00 |
 | 5 | [templateflow/tpl-MNI152NLin2009bAsym](https://gin.g-node.org/templateflow/tpl-MNI152NLin2009bAsym) | 0 | 2022-03-30 21:29:19+00:00 |
 | 6 | [templateflow/tpl-MNI152NLin2009bSym](https://gin.g-node.org/templateflow/tpl-MNI152NLin2009bSym) | 0 | 2022-03-30 21:29:15+00:00 |
-| 7 | [templateflow/tpl-MNI152NLin2009cAsym](https://gin.g-node.org/templateflow/tpl-MNI152NLin2009cAsym) | 0 | 2021-08-27 14:39:23+00:00 |
+| 7 | [templateflow/tpl-MNI152NLin2009cAsym](https://gin.g-node.org/templateflow/tpl-MNI152NLin2009cAsym) | 0 | 2024-03-26 14:06:04+00:00 |
 | 8 | [templateflow/tpl-MNI152NLin2009cSym](https://gin.g-node.org/templateflow/tpl-MNI152NLin2009cSym) | 0 | 2021-08-27 13:26:33+00:00 |
 | 9 | [templateflow/tpl-MNI152NLin6Asym](https://gin.g-node.org/templateflow/tpl-MNI152NLin6Asym) | 0 | 2022-01-06 22:12:06+00:00 |
 | 10 | [templateflow/tpl-MNI152NLin6Sym](https://gin.g-node.org/templateflow/tpl-MNI152NLin6Sym) | 0 | 2021-08-27 13:34:11+00:00 |
@@ -26,7 +26,7 @@
 | 23 | [templateflow/tpl-WHS](https://gin.g-node.org/templateflow/tpl-WHS) | 0 | 2021-08-27 13:29:07+00:00 |
 | 24 | [templateflow/tpl-dhcpAsym](https://gin.g-node.org/templateflow/tpl-dhcpAsym) | 0 | 2024-02-16 18:28:10+00:00 |
 | 25 | [templateflow/tpl-fsLR](https://gin.g-node.org/templateflow/tpl-fsLR) | 0 | 2022-04-15 08:23:11+00:00 |
-| 26 | [templateflow/tpl-fsaverage](https://gin.g-node.org/templateflow/tpl-fsaverage) | 0 | 2024-03-15 10:22:24+00:00 |
+| 26 | [templateflow/tpl-fsaverage](https://gin.g-node.org/templateflow/tpl-fsaverage) | 0 | 2024-03-26 12:40:39+00:00 |
 
 ## Gone
 | # | Repository (1) | Stars | Last Modified |
