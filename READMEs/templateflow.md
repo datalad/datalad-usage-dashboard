@@ -2,7 +2,7 @@
 | # | Repository (30) | Stars (94) | Dataset (28) | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [templateflow/python-client](https://github.com/templateflow/python-client) | 8 |  | :heavy_check_mark: |  | 2024-04-15 10:00:46+00:00 |
-| 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 70 | :heavy_check_mark: |  |  | 2024-04-05 19:52:34+00:00 |
+| 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 70 | :heavy_check_mark: |  |  | 2024-04-15 09:57:26+00:00 |
 | 3 | [templateflow/tpl-Fischer344](https://github.com/templateflow/tpl-Fischer344) | 0 | :heavy_check_mark: |  |  | 2022-03-28 22:25:11+00:00 |
 | 4 | [templateflow/tpl-ILABSInfant](https://github.com/templateflow/tpl-ILABSInfant) | 0 | :heavy_check_mark: |  |  | 2019-02-22 10:52:37+00:00 |
 | 5 | [templateflow/tpl-MNI152Lin](https://github.com/templateflow/tpl-MNI152Lin) | 1 | :heavy_check_mark: |  |  | 2022-03-25 13:10:17+00:00 |
@@ -29,7 +29,7 @@
 | 26 | [templateflow/tpl-WHS](https://github.com/templateflow/tpl-WHS) | 0 | :heavy_check_mark: |  |  | 2022-03-04 09:17:14+00:00 |
 | 27 | [templateflow/tpl-dhcpVol](https://github.com/templateflow/tpl-dhcpVol) | 0 |  | :heavy_check_mark: |  | 2024-02-14 21:24:45+00:00 |
 | 28 | [templateflow/tpl-fsLR](https://github.com/templateflow/tpl-fsLR) | 0 | :heavy_check_mark: |  |  | 2022-04-15 08:23:13+00:00 |
-| 29 | [templateflow/tpl-fsaverage](https://github.com/templateflow/tpl-fsaverage) | 0 | :heavy_check_mark: |  |  | 2024-03-26 12:45:45+00:00 |
+| 29 | [templateflow/tpl-fsaverage](https://github.com/templateflow/tpl-fsaverage) | 0 | :heavy_check_mark: |  |  | 2024-04-15 09:10:29+00:00 |
 | 30 | [templateflow/tpl-onavg](https://github.com/templateflow/tpl-onavg) | 0 | :heavy_check_mark: |  |  | 2024-02-09 21:12:19+00:00 |
 
 ## Gone
