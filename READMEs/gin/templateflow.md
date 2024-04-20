@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (27) | Stars | Last Modified |
+| # | Repository (26) | Stars | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [templateflow/tpl-Fischer344](https://gin.g-node.org/templateflow/tpl-Fischer344) | 0 | 2022-03-28 22:25:10+00:00 |
 | 2 | [templateflow/tpl-MNI152Lin](https://gin.g-node.org/templateflow/tpl-MNI152Lin) | 0 | 2022-03-25 13:10:05+00:00 |
@@ -21,15 +21,15 @@
 | 18 | [templateflow/tpl-OASIS30ANTs](https://gin.g-node.org/templateflow/tpl-OASIS30ANTs) | 0 | 2022-03-31 06:46:20+00:00 |
 | 19 | [templateflow/tpl-PNC](https://gin.g-node.org/templateflow/tpl-PNC) | 0 | 2021-08-27 13:30:08+00:00 |
 | 20 | [templateflow/tpl-RESILIENT](https://gin.g-node.org/templateflow/tpl-RESILIENT) | 0 | 2021-11-13 20:26:16+00:00 |
-| 21 | [templateflow/tpl-SUIT](https://gin.g-node.org/templateflow/tpl-SUIT) | 0 | 2024-04-13 06:10:38+00:00 |
-| 22 | [templateflow/tpl-UNCInfant](https://gin.g-node.org/templateflow/tpl-UNCInfant) | 0 | 2022-01-05 11:05:27+00:00 |
-| 23 | [templateflow/tpl-VALiDATe29](https://gin.g-node.org/templateflow/tpl-VALiDATe29) | 0 | 2022-01-05 10:45:38+00:00 |
-| 24 | [templateflow/tpl-WHS](https://gin.g-node.org/templateflow/tpl-WHS) | 0 | 2021-08-27 13:29:07+00:00 |
-| 25 | [templateflow/tpl-dhcpAsym](https://gin.g-node.org/templateflow/tpl-dhcpAsym) | 0 | 2024-02-16 18:28:10+00:00 |
-| 26 | [templateflow/tpl-fsLR](https://gin.g-node.org/templateflow/tpl-fsLR) | 0 | 2022-04-15 08:23:11+00:00 |
-| 27 | [templateflow/tpl-fsaverage](https://gin.g-node.org/templateflow/tpl-fsaverage) | 0 | 2024-03-26 12:40:39+00:00 |
+| 21 | [templateflow/tpl-UNCInfant](https://gin.g-node.org/templateflow/tpl-UNCInfant) | 0 | 2022-01-05 11:05:27+00:00 |
+| 22 | [templateflow/tpl-VALiDATe29](https://gin.g-node.org/templateflow/tpl-VALiDATe29) | 0 | 2022-01-05 10:45:38+00:00 |
+| 23 | [templateflow/tpl-WHS](https://gin.g-node.org/templateflow/tpl-WHS) | 0 | 2021-08-27 13:29:07+00:00 |
+| 24 | [templateflow/tpl-dhcpAsym](https://gin.g-node.org/templateflow/tpl-dhcpAsym) | 0 | 2024-02-16 18:28:10+00:00 |
+| 25 | [templateflow/tpl-fsLR](https://gin.g-node.org/templateflow/tpl-fsLR) | 0 | 2022-04-15 08:23:11+00:00 |
+| 26 | [templateflow/tpl-fsaverage](https://gin.g-node.org/templateflow/tpl-fsaverage) | 0 | 2024-03-26 12:40:39+00:00 |
 
 ## Gone
-| # | Repository (1) | Stars | Last Modified |
+| # | Repository (2) | Stars | Last Modified |
 | --- | --- | --- | --- |
-| 1 | [templateflow/tpl-onavg](https://gin.g-node.org/templateflow/tpl-onavg) | 0 | 2023-08-02 12:45:47+00:00 |
+| 1 | [templateflow/tpl-SUIT](https://gin.g-node.org/templateflow/tpl-SUIT) | 0 | 2024-04-13 06:10:38+00:00 |
+| 2 | [templateflow/tpl-onavg](https://gin.g-node.org/templateflow/tpl-onavg) | 0 | 2023-08-02 12:45:47+00:00 |
