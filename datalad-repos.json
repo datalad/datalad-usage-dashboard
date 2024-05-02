@@ -9942,7 +9942,7 @@
             "url": "https://github.com/OpenNeuroDatasets/ds002278",
             "stars": 0,
             "dataset": true,
-            "run": false,
+            "run": true,
             "container_run": false,
             "status": "active",
             "updated": "2024-01-19T21:56:12Z",
@@ -67463,6 +67463,18 @@
             "status": "active",
             "updated": "2023-06-29T03:55:08Z",
             "last_checked": "2024-04-27T06:30:29.454500Z"
+        },
+        {
+            "id": 794519662,
+            "name": "stable0man/gpt4all",
+            "url": "https://github.com/stable0man/gpt4all",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active",
+            "updated": "2024-05-01T11:26:54Z",
+            "last_checked": "2024-05-02T06:30:23.075065Z"
         },
         {
             "id": 412580751,
