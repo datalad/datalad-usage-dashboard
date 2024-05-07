@@ -6,7 +6,7 @@
 | 3 | [con/centerforopenneuroscience.org](https://github.com/con/centerforopenneuroscience.org) | 3 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-02-14 18:08:34+00:00 |
 | 4 | [con/duct](https://github.com/con/duct) | 0 |  | :heavy_check_mark: |  | 2024-04-30 03:56:51+00:00 |
 | 5 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
-| 6 | [con/nwb2bids](https://github.com/con/nwb2bids) | 1 |  | :heavy_check_mark: |  | 2024-04-25 23:29:49+00:00 |
+| 6 | [con/nwb2bids](https://github.com/con/nwb2bids) | 1 |  | :heavy_check_mark: |  | 2024-05-06 12:54:34+00:00 |
 | 7 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 43 |  | :heavy_check_mark: |  | 2023-03-14 01:51:26+00:00 |
 | 8 | [con/opfvta-reexecution](https://github.com/con/opfvta-reexecution) | 1 |  | :heavy_check_mark: |  | 2024-02-28 21:46:07+00:00 |
 | 9 | [con/shub](https://github.com/con/shub) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-10-19 16:30:00+00:00 |
