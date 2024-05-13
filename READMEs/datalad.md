@@ -12,7 +12,7 @@
 | 9 | [datalad/datalad-ebrains](https://github.com/datalad/datalad-ebrains) | 3 |  | :heavy_check_mark: |  | 2023-07-14 11:33:10+00:00 |
 | 10 | [datalad/datalad-extension-template](https://github.com/datalad/datalad-extension-template) | 2 |  | :heavy_check_mark: |  | 2024-03-31 14:10:07+00:00 |
 | 11 | [datalad/datalad-extensions](https://github.com/datalad/datalad-extensions) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-04-09 16:17:39+00:00 |
-| 12 | [datalad/datalad-fuse](https://github.com/datalad/datalad-fuse) | 1 |  | :heavy_check_mark: |  | 2024-03-20 14:27:59+00:00 |
+| 12 | [datalad/datalad-fuse](https://github.com/datalad/datalad-fuse) | 1 |  | :heavy_check_mark: |  | 2024-05-10 16:38:45+00:00 |
 | 13 | [datalad/datalad-git-bug-dumps](https://github.com/datalad/datalad-git-bug-dumps) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-04-08 18:04:01+00:00 |
 | 14 | [datalad/datalad-gooey](https://github.com/datalad/datalad-gooey) | 4 |  | :heavy_check_mark: |  | 2024-02-20 12:08:16+00:00 |
 | 15 | [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 5 |  | :heavy_check_mark: |  | 2024-05-02 22:36:01+00:00 |
