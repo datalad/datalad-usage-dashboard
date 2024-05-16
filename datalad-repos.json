@@ -21217,6 +21217,18 @@
             "last_checked": "2024-05-15T06:30:51.399890Z"
         },
         {
+            "id": 800889261,
+            "name": "arisan17/Airflow-EKS",
+            "url": "https://github.com/arisan17/Airflow-EKS",
+            "stars": 0,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active",
+            "updated": "2024-05-15T07:39:41Z",
+            "last_checked": "2024-05-16T06:28:04.584313Z"
+        },
+        {
             "id": 722317708,
             "name": "aspirerabbit/MICCAI-PSFHS-challenge",
             "url": "https://github.com/aspirerabbit/MICCAI-PSFHS-challenge",
@@ -69320,6 +69332,13 @@
             "name": "NiPreps testing - HCP subject 101006",
             "status": "active",
             "updated": "2023-08-07T22:28:08.389102"
+        },
+        {
+            "url": "https://osf.io/4w8n5/",
+            "id": "4w8n5",
+            "name": "NiPreps testing - HCPh example of two sessions",
+            "status": "active",
+            "updated": "2024-05-15T19:22:04.027713"
         },
         {
             "url": "https://osf.io/p38nm/",
