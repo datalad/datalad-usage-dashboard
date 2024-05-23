@@ -26,7 +26,7 @@
 | 23 | [courtois-neuromod/hcptrt](https://github.com/courtois-neuromod/hcptrt) | 0 | :heavy_check_mark: |  |  | 2024-02-07 20:42:01+00:00 |
 | 24 | [courtois-neuromod/hcptrt.fmriprep](https://github.com/courtois-neuromod/hcptrt.fmriprep) | 0 | :heavy_check_mark: |  |  | 2024-01-08 20:29:31+00:00 |
 | 25 | [courtois-neuromod/hcptrt.stimuli](https://github.com/courtois-neuromod/hcptrt.stimuli) | 0 | :heavy_check_mark: |  |  | 2023-07-24 02:52:39+00:00 |
-| 26 | [courtois-neuromod/mario.stimuli](https://github.com/courtois-neuromod/mario.stimuli) | 0 | :heavy_check_mark: |  |  | 2024-03-26 22:03:41+00:00 |
+| 26 | [courtois-neuromod/mario.stimuli](https://github.com/courtois-neuromod/mario.stimuli) | 0 | :heavy_check_mark: |  |  | 2024-05-21 19:11:31+00:00 |
 | 27 | [courtois-neuromod/mario3.stimuli](https://github.com/courtois-neuromod/mario3.stimuli) | 0 | :heavy_check_mark: |  |  | 2024-01-18 18:48:57+00:00 |
 | 28 | [courtois-neuromod/movie10](https://github.com/courtois-neuromod/movie10) | 0 | :heavy_check_mark: |  |  | 2024-01-18 20:54:10+00:00 |
 | 29 | [courtois-neuromod/movie10.fmriprep](https://github.com/courtois-neuromod/movie10.fmriprep) | 0 | :heavy_check_mark: |  |  | 2024-01-08 20:27:12+00:00 |
