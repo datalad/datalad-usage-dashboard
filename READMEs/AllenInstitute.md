@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (2) | Stars (379) | Dataset | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (2) | Stars (380) | Dataset | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [AllenInstitute/AllenSDK](https://github.com/AllenInstitute/AllenSDK) | 327 |  | :heavy_check_mark: |  | 2024-01-07 03:11:50+00:00 |
-| 2 | [AllenInstitute/openscope_databook](https://github.com/AllenInstitute/openscope_databook) | 52 |  | :heavy_check_mark: |  | 2024-05-17 23:24:18+00:00 |
+| 2 | [AllenInstitute/openscope_databook](https://github.com/AllenInstitute/openscope_databook) | 53 |  | :heavy_check_mark: |  | 2024-05-25 07:45:41+00:00 |
 
 ## Gone
 No repositories found!
