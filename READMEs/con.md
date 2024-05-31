@@ -12,7 +12,7 @@
 | 9 | [con/shub](https://github.com/con/shub) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-10-19 16:30:00+00:00 |
 | 10 | [con/solidation](https://github.com/con/solidation) | 0 |  | :heavy_check_mark: |  | 2024-02-26 16:29:36+00:00 |
 | 11 | [con/tinuous](https://github.com/con/tinuous) | 8 |  | :heavy_check_mark: |  | 2024-02-17 00:32:16+00:00 |
-| 12 | [con/tributors](https://github.com/con/tributors) | 11 |  | :heavy_check_mark: |  | 2024-05-16 02:03:22+00:00 |
+| 12 | [con/tributors](https://github.com/con/tributors) | 11 |  | :heavy_check_mark: |  | 2024-05-24 12:35:37+00:00 |
 
 ## Gone
 No repositories found!

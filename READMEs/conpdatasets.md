@@ -20,8 +20,8 @@
 | 17 | [conpdatasets/mica-mics](https://github.com/conpdatasets/mica-mics) | 0 | :heavy_check_mark: |  |  | 2022-04-26 17:41:06+00:00 |
 | 18 | [conpdatasets/multicenter-phantom](https://github.com/conpdatasets/multicenter-phantom) | 0 | :heavy_check_mark: |  |  | 2021-11-11 18:35:58+00:00 |
 | 19 | [conpdatasets/preventad-open](https://github.com/conpdatasets/preventad-open) | 0 | :heavy_check_mark: |  |  | 2024-02-21 19:08:53+00:00 |
-| 20 | [conpdatasets/preventad-open-bids](https://github.com/conpdatasets/preventad-open-bids) | 1 | :heavy_check_mark: |  |  | 2024-02-21 18:45:29+00:00 |
-| 21 | [conpdatasets/preventad-registered](https://github.com/conpdatasets/preventad-registered) | 1 | :heavy_check_mark: |  |  | 2021-11-11 19:09:06+00:00 |
+| 20 | [conpdatasets/preventad-open-bids](https://github.com/conpdatasets/preventad-open-bids) | 1 | :heavy_check_mark: |  |  | 2024-05-29 18:36:51+00:00 |
+| 21 | [conpdatasets/preventad-registered](https://github.com/conpdatasets/preventad-registered) | 1 | :heavy_check_mark: |  |  | 2024-05-29 18:40:24+00:00 |
 | 22 | [conpdatasets/preventad-registered-clinical-data](https://github.com/conpdatasets/preventad-registered-clinical-data) | 0 | :heavy_check_mark: |  |  | 2021-02-24 16:51:24+00:00 |
 | 23 | [conpdatasets/preventad-registered-images-in-BIDS](https://github.com/conpdatasets/preventad-registered-images-in-BIDS) | 0 | :heavy_check_mark: |  |  | 2021-02-25 18:54:47+00:00 |
 | 24 | [conpdatasets/preventad-registered-images-in-MINC](https://github.com/conpdatasets/preventad-registered-images-in-MINC) | 0 | :heavy_check_mark: |  |  | 2021-02-24 16:55:30+00:00 |
