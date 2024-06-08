@@ -6,7 +6,7 @@
 | 3 | [courtois-neuromod/anat.freesurfer](https://github.com/courtois-neuromod/anat.freesurfer) | 0 | :heavy_check_mark: |  |  | 2024-04-12 14:55:05+00:00 |
 | 4 | [courtois-neuromod/anat.smriprep](https://github.com/courtois-neuromod/anat.smriprep) | 0 | :heavy_check_mark: |  |  | 2023-09-06 19:29:36+00:00 |
 | 5 | [courtois-neuromod/cimaq_fmriprep](https://github.com/courtois-neuromod/cimaq_fmriprep) | 0 | :heavy_check_mark: |  |  | 2021-09-25 19:52:39+00:00 |
-| 6 | [courtois-neuromod/cneuromod](https://github.com/courtois-neuromod/cneuromod) | 11 | :heavy_check_mark: |  |  | 2024-05-29 17:56:38+00:00 |
+| 6 | [courtois-neuromod/cneuromod](https://github.com/courtois-neuromod/cneuromod) | 11 | :heavy_check_mark: |  |  | 2024-05-31 19:54:36+00:00 |
 | 7 | [courtois-neuromod/cneuromod.fmriprep](https://github.com/courtois-neuromod/cneuromod.fmriprep) | 0 | :heavy_check_mark: |  |  | 2024-05-28 17:14:51+00:00 |
 | 8 | [courtois-neuromod/cneuromod.processed](https://github.com/courtois-neuromod/cneuromod.processed) | 1 | :heavy_check_mark: |  |  | 2024-05-28 17:22:17+00:00 |
 | 9 | [courtois-neuromod/containers](https://github.com/courtois-neuromod/containers) | 0 | :heavy_check_mark: |  |  | 2023-08-14 16:00:39+00:00 |
@@ -39,7 +39,7 @@
 | 36 | [courtois-neuromod/shinobi.fmriprep](https://github.com/courtois-neuromod/shinobi.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-01-08 20:29:40+00:00 |
 | 37 | [courtois-neuromod/shinobi.stimuli](https://github.com/courtois-neuromod/shinobi.stimuli) | 1 | :heavy_check_mark: |  |  | 2023-07-24 02:52:58+00:00 |
 | 38 | [courtois-neuromod/shinobi_training](https://github.com/courtois-neuromod/shinobi_training) | 1 | :heavy_check_mark: |  |  | 2024-05-28 19:43:18+00:00 |
-| 39 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 6 | :heavy_check_mark: |  |  | 2024-05-31 01:43:39+00:00 |
+| 39 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 6 | :heavy_check_mark: |  |  | 2024-05-31 14:00:39+00:00 |
 | 40 | [courtois-neuromod/templateflow](https://github.com/courtois-neuromod/templateflow) | 0 | :heavy_check_mark: |  |  | 2021-09-29 00:01:12+00:00 |
 | 41 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  | 2021-01-28 20:29:36+00:00 |
 
