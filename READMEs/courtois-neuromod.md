@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (41) | Stars (28) | Dataset (41) | `run` (6) | `containers-run` (3) | Last Modified |
+| # | Repository (41) | Stars (29) | Dataset (41) | `run` (6) | `containers-run` (3) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  | 2020-05-27 13:39:11+00:00 |
 | 2 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 1 | :heavy_check_mark: |  |  | 2024-05-28 19:43:00+00:00 |
@@ -39,7 +39,7 @@
 | 36 | [courtois-neuromod/shinobi.fmriprep](https://github.com/courtois-neuromod/shinobi.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-01-08 20:29:40+00:00 |
 | 37 | [courtois-neuromod/shinobi.stimuli](https://github.com/courtois-neuromod/shinobi.stimuli) | 1 | :heavy_check_mark: |  |  | 2023-07-24 02:52:58+00:00 |
 | 38 | [courtois-neuromod/shinobi_training](https://github.com/courtois-neuromod/shinobi_training) | 1 | :heavy_check_mark: |  |  | 2024-05-28 19:43:18+00:00 |
-| 39 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 6 | :heavy_check_mark: |  |  | 2024-05-31 14:00:39+00:00 |
+| 39 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 7 | :heavy_check_mark: |  |  | 2024-05-31 14:00:39+00:00 |
 | 40 | [courtois-neuromod/templateflow](https://github.com/courtois-neuromod/templateflow) | 0 | :heavy_check_mark: |  |  | 2021-09-29 00:01:12+00:00 |
 | 41 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  | 2021-01-28 20:29:36+00:00 |
 
