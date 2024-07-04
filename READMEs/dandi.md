@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (17) | Stars (67) | Dataset (5) | `run` (15) | `containers-run` | Last Modified |
+| # | Repository (18) | Stars (69) | Dataset (5) | `run` (16) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [dandi/dandi-api-datasets](https://github.com/dandi/dandi-api-datasets) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-05-10 18:39:55+00:00 |
 | 2 | [dandi/dandi-api-webshots](https://github.com/dandi/dandi-api-webshots) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-09-27 12:53:14+00:00 |
@@ -16,8 +16,9 @@
 | 13 | [dandi/nwb-healthstatus](https://github.com/dandi/nwb-healthstatus) | 1 | :heavy_check_mark: |  |  | 2023-11-09 22:05:52+00:00 |
 | 14 | [dandi/redirector](https://github.com/dandi/redirector) | 0 |  | :heavy_check_mark: |  | 2023-05-22 15:33:18+00:00 |
 | 15 | [dandi/schema](https://github.com/dandi/schema) | 3 |  | :heavy_check_mark: |  | 2024-03-18 20:47:16+00:00 |
-| 16 | [dandi/zarr-manifests](https://github.com/dandi/zarr-manifests) | 0 |  | :heavy_check_mark: |  | 2024-06-22 06:31:54+00:00 |
-| 17 | [dandi/zarr_checksum](https://github.com/dandi/zarr_checksum) | 10 |  | :heavy_check_mark: |  | 2024-02-12 15:28:04+00:00 |
+| 16 | [dandi/upptime](https://github.com/dandi/upptime) | 2 |  | :heavy_check_mark: |  | 2024-07-04 00:16:58+00:00 |
+| 17 | [dandi/zarr-manifests](https://github.com/dandi/zarr-manifests) | 0 |  | :heavy_check_mark: |  | 2024-06-22 06:31:54+00:00 |
+| 18 | [dandi/zarr_checksum](https://github.com/dandi/zarr_checksum) | 10 |  | :heavy_check_mark: |  | 2024-02-12 15:28:04+00:00 |
 
 ## Gone
 No repositories found!
