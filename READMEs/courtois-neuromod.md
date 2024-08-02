@@ -16,7 +16,7 @@
 | 13 | [courtois-neuromod/fnadeau_cimaq_preproc](https://github.com/courtois-neuromod/fnadeau_cimaq_preproc) | 0 | :heavy_check_mark: |  |  | 2021-10-15 16:55:18+00:00 |
 | 14 | [courtois-neuromod/friends](https://github.com/courtois-neuromod/friends) | 3 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-07-24 14:30:45+00:00 |
 | 15 | [courtois-neuromod/friends-fix](https://github.com/courtois-neuromod/friends-fix) | 0 | :heavy_check_mark: |  |  | 2022-08-04 14:00:46+00:00 |
-| 16 | [courtois-neuromod/friends.fmriprep](https://github.com/courtois-neuromod/friends.fmriprep) | 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2023-11-07 16:25:24+00:00 |
+| 16 | [courtois-neuromod/friends.fmriprep](https://github.com/courtois-neuromod/friends.fmriprep) | 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2024-07-31 17:45:06+00:00 |
 | 17 | [courtois-neuromod/friends.mriqc](https://github.com/courtois-neuromod/friends.mriqc) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2022-08-04 14:19:03+00:00 |
 | 18 | [courtois-neuromod/friends.stimuli](https://github.com/courtois-neuromod/friends.stimuli) | 1 | :heavy_check_mark: |  |  | 2024-04-30 21:32:01+00:00 |
 | 19 | [courtois-neuromod/friends_annotations](https://github.com/courtois-neuromod/friends_annotations) | 0 | :heavy_check_mark: |  |  | 2023-01-20 21:09:25+00:00 |
