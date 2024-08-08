@@ -2,7 +2,7 @@
 | # | Repository (48) | Stars (680) | Dataset (25) | `run` (27) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  | 2024-02-02 16:34:40+00:00 |
-| 2 | [datalad/blog](https://github.com/datalad/blog) | 1 |  | :heavy_check_mark: |  | 2024-07-31 10:25:20+00:00 |
+| 2 | [datalad/blog](https://github.com/datalad/blog) | 1 |  | :heavy_check_mark: |  | 2024-08-05 15:13:05+00:00 |
 | 3 | [datalad/datalad](https://github.com/datalad/datalad) | 519 |  | :heavy_check_mark: |  | 2024-07-25 21:23:29+00:00 |
 | 4 | [datalad/datalad-action-test](https://github.com/datalad/datalad-action-test) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-02-10 01:42:57+00:00 |
 | 5 | [datalad/datalad-catalog](https://github.com/datalad/datalad-catalog) | 14 |  | :heavy_check_mark: |  | 2024-07-23 10:29:31+00:00 |
