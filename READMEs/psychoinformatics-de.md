@@ -9,7 +9,7 @@
 | 6 | [psychoinformatics-de/hirni-demo-acq1](https://github.com/psychoinformatics-de/hirni-demo-acq1) | 0 | :heavy_check_mark: |  |  | 2020-09-22 12:04:41+00:00 |
 | 7 | [psychoinformatics-de/hirni-demo-acq2](https://github.com/psychoinformatics-de/hirni-demo-acq2) | 0 | :heavy_check_mark: |  |  | 2020-09-22 12:04:10+00:00 |
 | 8 | [psychoinformatics-de/hirni-toolbox](https://github.com/psychoinformatics-de/hirni-toolbox) | 2 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-05-03 07:18:57+00:00 |
-| 9 | [psychoinformatics-de/inm-icf-utilities](https://github.com/psychoinformatics-de/inm-icf-utilities) | 0 |  | :heavy_check_mark: |  | 2024-07-18 17:31:36+00:00 |
+| 9 | [psychoinformatics-de/inm-icf-utilities](https://github.com/psychoinformatics-de/inm-icf-utilities) | 0 |  | :heavy_check_mark: |  | 2024-08-12 15:39:34+00:00 |
 | 10 | [psychoinformatics-de/joe_and_lili](https://github.com/psychoinformatics-de/joe_and_lili) | 0 |  | :heavy_check_mark: |  | 2024-05-22 16:21:10+00:00 |
 | 11 | [psychoinformatics-de/joe_and_lili_pickle](https://github.com/psychoinformatics-de/joe_and_lili_pickle) | 0 |  | :heavy_check_mark: |  | 2024-03-06 07:24:44+00:00 |
 | 12 | [psychoinformatics-de/kdenlive-gource-ukbiobank](https://github.com/psychoinformatics-de/kdenlive-gource-ukbiobank) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-06-07 05:57:21+00:00 |
