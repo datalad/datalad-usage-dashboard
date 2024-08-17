@@ -1,7 +1,7 @@
 # Summary
 - [GitHub](#github): [2844](#in-the-wild) in the wild + [2882](#inner-circle) inner-circle + [76](#gone) gone
 - [OSF](#osf): [181](#active) active + [61](#gone-1) gone
-- [GIN](#gin): [700](#active-1) active + [15](#gone-2) gone
+- [GIN](#gin): [701](#active-1) active + [15](#gone-2) gone
 
 # GitHub
 ## In the wild
@@ -792,7 +792,7 @@
 
 # GIN
 ## Active
-| # | Repository (700) | Stars (10) | Last Modified |
+| # | Repository (701) | Stars (10) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [AIDAqc_datasets/*](https://gin.g-node.org/AIDAqc_datasets) [(12)](READMEs/gin/AIDAqc_datasets.md) | [0](READMEs/gin/AIDAqc_datasets.md) | 2023-11-24 08:48:18+00:00 |
 | 2 | [Aswendt_Lab/*](https://gin.g-node.org/Aswendt_Lab) [(7)](READMEs/gin/Aswendt_Lab.md) | [0](READMEs/gin/Aswendt_Lab.md) | 2024-05-09 10:45:02+00:00 |
@@ -888,8 +888,9 @@
 | 92 | [templateflow/*](https://gin.g-node.org/templateflow) [(28)](READMEs/gin/templateflow.md) | [0](READMEs/gin/templateflow.md) | 2024-05-29 08:29:44+00:00 |
 | 93 | [ts_brain/Localizer](https://gin.g-node.org/ts_brain/Localizer) | 0 | 2021-11-10 17:18:48+00:00 |
 | 94 | [tsalo/ds005115-fmriprep-test](https://gin.g-node.org/tsalo/ds005115-fmriprep-test) | 0 | 2024-05-15 14:04:57+00:00 |
-| 95 | [wiri/my-dataset](https://gin.g-node.org/wiri/my-dataset) | 0 | 2022-05-24 09:23:14+00:00 |
-| 96 | [xgui3783/difumo](https://gin.g-node.org/xgui3783/difumo) | 0 | 2022-11-09 12:22:22+00:00 |
+| 95 | [wentaosi/Localizer](https://gin.g-node.org/wentaosi/Localizer) | 0 | 2024-08-11 12:55:00+00:00 |
+| 96 | [wiri/my-dataset](https://gin.g-node.org/wiri/my-dataset) | 0 | 2022-05-24 09:23:14+00:00 |
+| 97 | [xgui3783/difumo](https://gin.g-node.org/xgui3783/difumo) | 0 | 2022-11-09 12:22:22+00:00 |
 
 ## Gone
 | # | Repository (15) | Stars | Last Modified |
