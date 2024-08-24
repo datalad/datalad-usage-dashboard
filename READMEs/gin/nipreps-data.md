@@ -3,7 +3,7 @@
 | --- | --- | --- | --- |
 | 1 | [nipreps-data/HCP101006](https://gin.g-node.org/nipreps-data/HCP101006) | 0 | 2023-08-07 18:58:47+00:00 |
 | 2 | [nipreps-data/bcp](https://gin.g-node.org/nipreps-data/bcp) | 1 | 2022-03-17 19:38:42+00:00 |
-| 3 | [nipreps-data/bcp-derivatives](https://gin.g-node.org/nipreps-data/bcp-derivatives) | 1 | 2023-08-30 17:54:10+00:00 |
+| 3 | [nipreps-data/bcp-derivatives](https://gin.g-node.org/nipreps-data/bcp-derivatives) | 1 | 2024-08-20 16:13:20+00:00 |
 | 4 | [nipreps-data/hbn-mriqc](https://gin.g-node.org/nipreps-data/hbn-mriqc) | 0 | 2024-05-02 09:36:09+00:00 |
 
 ## Gone

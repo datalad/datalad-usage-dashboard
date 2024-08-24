@@ -873,7 +873,7 @@
 | 76 | [nathanhuneke/MRI_Resources](https://gin.g-node.org/nathanhuneke/MRI_Resources) | 0 | 2022-11-20 15:19:49+00:00 |
 | 77 | [nawrotlab/delayed_center-out_uncertainty_Riehle](https://gin.g-node.org/nawrotlab/delayed_center-out_uncertainty_Riehle) | 0 | 2024-05-28 18:02:32+00:00 |
 | 78 | [neuroboros/*](https://gin.g-node.org/neuroboros) [(4)](READMEs/gin/neuroboros.md) | [0](READMEs/gin/neuroboros.md) | 2023-12-09 20:37:16+00:00 |
-| 79 | [nipreps-data/*](https://gin.g-node.org/nipreps-data) [(6)](READMEs/gin/nipreps-data.md) | [2](READMEs/gin/nipreps-data.md) | 2024-05-02 09:36:09+00:00 |
+| 79 | [nipreps-data/*](https://gin.g-node.org/nipreps-data) [(6)](READMEs/gin/nipreps-data.md) | [2](READMEs/gin/nipreps-data.md) | 2024-08-20 16:13:20+00:00 |
 | 80 | [olivercontier/*](https://gin.g-node.org/olivercontier) [(3)](READMEs/gin/olivercontier.md) | [0](READMEs/gin/olivercontier.md) | 2022-07-21 12:41:09+00:00 |
 | 81 | [pjdavis/eos-hydro-outputs](https://gin.g-node.org/pjdavis/eos-hydro-outputs) | 0 | 2023-12-11 14:06:27+00:00 |
 | 82 | [positive_dragon/DataLad-101](https://gin.g-node.org/positive_dragon/DataLad-101) | 0 | 2023-07-06 05:55:28+00:00 |
