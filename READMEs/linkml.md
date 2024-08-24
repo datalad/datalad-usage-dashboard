@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (8) | Stars (464) | Dataset | `run` (8) | `containers-run` | Last Modified |
+| # | Repository (8) | Stars (466) | Dataset | `run` (8) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [linkml/linkml](https://github.com/linkml/linkml) | 308 |  | :heavy_check_mark: |  | 2024-08-22 21:16:05+00:00 |
 | 2 | [linkml/linkml-map](https://github.com/linkml/linkml-map) | 13 |  | :heavy_check_mark: |  | 2024-08-07 00:32:35+00:00 |
@@ -7,7 +7,7 @@
 | 4 | [linkml/linkml-project-cookiecutter](https://github.com/linkml/linkml-project-cookiecutter) | 15 |  | :heavy_check_mark: |  | 2024-08-19 16:49:29+00:00 |
 | 5 | [linkml/linkml-registry](https://github.com/linkml/linkml-registry) | 11 |  | :heavy_check_mark: |  | 2024-02-27 00:23:18+00:00 |
 | 6 | [linkml/linkml-runtime.js](https://github.com/linkml/linkml-runtime.js) | 7 |  | :heavy_check_mark: |  | 2023-06-12 18:56:08+00:00 |
-| 7 | [linkml/schema-automator](https://github.com/linkml/schema-automator) | 34 |  | :heavy_check_mark: |  | 2024-08-16 22:44:13+00:00 |
+| 7 | [linkml/schema-automator](https://github.com/linkml/schema-automator) | 36 |  | :heavy_check_mark: |  | 2024-08-19 22:42:22+00:00 |
 | 8 | [linkml/schemasheets](https://github.com/linkml/schemasheets) | 42 |  | :heavy_check_mark: |  | 2024-08-03 01:10:26+00:00 |
 
 ## Gone
