@@ -180,7 +180,7 @@
 | 171 | [chfc-cmi/cmr-seg-tl-sscrofa](https://github.com/chfc-cmi/cmr-seg-tl-sscrofa) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-09-13 12:48:27+00:00 |
 | 172 | [chrhaeusler/*](https://github.com/chrhaeusler) [(2)](READMEs/chrhaeusler.md) | [0](READMEs/chrhaeusler.md) | [:heavy_check_mark: (2)](READMEs/chrhaeusler.md) | [:heavy_check_mark: (1)](READMEs/chrhaeusler.md) |  | 2023-04-04 17:04:45+00:00 |
 | 173 | [chrispycheng/qa](https://github.com/chrispycheng/qa) | 0 | :heavy_check_mark: |  |  | 2018-05-27 18:28:42+00:00 |
-| 174 | [christen-tung-trinh-partior/dependabot-core](https://github.com/christen-tung-trinh-partior/dependabot-core) | 0 |  | :heavy_check_mark: |  | 2024-08-11 16:52:44+00:00 |
+| 174 | [christen-tung-trinh-partior/dependabot-core](https://github.com/christen-tung-trinh-partior/dependabot-core) | 0 |  | :heavy_check_mark: |  | 2024-08-18 17:02:59+00:00 |
 | 175 | [citation-file-format/citation-file-format](https://github.com/citation-file-format/citation-file-format) | 439 |  | :heavy_check_mark: |  | 2024-04-01 22:20:55+00:00 |
 | 176 | [cmadjar/*](https://github.com/cmadjar) [(3)](READMEs/cmadjar.md) | [0](READMEs/cmadjar.md) | [:heavy_check_mark: (3)](READMEs/cmadjar.md) |  |  | 2021-04-26 19:22:23+00:00 |
 | 177 | [cmaumet/ds001907-EDU](https://github.com/cmaumet/ds001907-EDU) | 0 | :heavy_check_mark: |  |  | 2022-06-19 14:52:41+00:00 |
@@ -246,7 +246,7 @@
 | 237 | [garrettmflynn/webnwb](https://github.com/garrettmflynn/webnwb) | 5 |  | :heavy_check_mark: |  | 2024-06-06 15:32:40+00:00 |
 | 238 | [gdcc/*](https://github.com/gdcc) [(2)](READMEs/gdcc.md) | [78](READMEs/gdcc.md) |  | [:heavy_check_mark: (2)](READMEs/gdcc.md) |  | 2024-08-22 10:37:51+00:00 |
 | 239 | [gilesknap/gphotos-sync](https://github.com/gilesknap/gphotos-sync) | 1994 |  | :heavy_check_mark: |  | 2024-07-14 09:31:22+00:00 |
-| 240 | [girder/girder](https://github.com/girder/girder) | 422 |  | :heavy_check_mark: |  | 2024-08-11 01:32:54+00:00 |
+| 240 | [girder/girder](https://github.com/girder/girder) | 422 |  | :heavy_check_mark: |  | 2024-08-21 19:57:23+00:00 |
 | 241 | [git-annex-remote-rclone/git-annex-remote-rclone](https://github.com/git-annex-remote-rclone/git-annex-remote-rclone) | 189 |  | :heavy_check_mark: |  | 2024-01-16 17:05:06+00:00 |
 | 242 | [glatard/fmriprep-lts-images](https://github.com/glatard/fmriprep-lts-images) | 0 | :heavy_check_mark: |  |  | 2021-05-31 21:42:32+00:00 |
 | 243 | [grandjeanlab/INCF_preclinical](https://github.com/grandjeanlab/INCF_preclinical) | 1 |  | :heavy_check_mark: |  | 2023-10-11 14:27:03+00:00 |
