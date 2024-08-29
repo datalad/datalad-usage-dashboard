@@ -198,7 +198,7 @@
 | 189 | [cvmfs/cvmfs](https://github.com/cvmfs/cvmfs) | 282 |  | :heavy_check_mark: |  | 2024-08-21 16:12:03+00:00 |
 | 190 | [cython/cython](https://github.com/cython/cython) | 9279 |  | :heavy_check_mark: |  | 2024-08-25 16:19:54+00:00 |
 | 191 | [dPys/ohbm2020-posters](https://github.com/dPys/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-29 03:20:47+00:00 |
-| 192 | [daguflow/dagu](https://github.com/daguflow/dagu) | 1388 |  | :heavy_check_mark: |  | 2024-08-22 05:14:46+00:00 |
+| 192 | [dagu-org/dagu](https://github.com/dagu-org/dagu) | 1388 |  | :heavy_check_mark: |  | 2024-08-22 05:14:46+00:00 |
 | 193 | [damienfrancois/dataladset](https://github.com/damienfrancois/dataladset) | 0 | :heavy_check_mark: |  |  | 2023-01-12 15:04:52+00:00 |
 | 194 | [dartmouth-pbs/psyc161-wi19-srv](https://github.com/dartmouth-pbs/psyc161-wi19-srv) | 0 | :heavy_check_mark: |  |  | 2019-02-07 02:55:14+00:00 |
 | 195 | [datajoint/*](https://github.com/datajoint) [(3)](READMEs/datajoint.md) | [178](READMEs/datajoint.md) |  | [:heavy_check_mark: (3)](READMEs/datajoint.md) |  | 2024-08-21 21:55:29+00:00 |
@@ -408,7 +408,7 @@
 | 399 | [qlux/dataladrepo](https://github.com/qlux/dataladrepo) | 0 | :heavy_check_mark: |  |  | 2019-05-23 15:54:40+00:00 |
 | 400 | [raamana/ohbm2020-posters](https://github.com/raamana/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-29 00:55:09+00:00 |
 | 401 | [radiant-rstats/*](https://github.com/radiant-rstats) [(2)](READMEs/radiant-rstats.md) | [508](READMEs/radiant-rstats.md) |  | [:heavy_check_mark: (2)](READMEs/radiant-rstats.md) |  | 2024-07-25 20:43:08+00:00 |
-| 402 | [raghu1211/act](https://github.com/raghu1211/act) | 0 |  | :heavy_check_mark: |  | 2024-08-22 06:17:33+00:00 |
+| 402 | [raghu1211/act](https://github.com/raghu1211/act) | 0 |  | :heavy_check_mark: |  | 2024-08-28 07:34:37+00:00 |
 | 403 | [ramkpari/ds000102](https://github.com/ramkpari/ds000102) | 0 | :heavy_check_mark: |  |  | 2020-08-17 19:59:25+00:00 |
 | 404 | [razoumov/*](https://github.com/razoumov) [(2)](READMEs/razoumov.md) | [1](READMEs/razoumov.md) | [:heavy_check_mark: (2)](READMEs/razoumov.md) |  |  | 2023-03-28 02:01:37+00:00 |
 | 405 | [researchapps/datalad-paper-joss](https://github.com/researchapps/datalad-paper-joss) | 0 | :heavy_check_mark: |  |  | 2021-04-07 17:32:30+00:00 |
