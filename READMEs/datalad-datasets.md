@@ -5,7 +5,7 @@
 | 2 | [datalad-datasets/disneyanimation-cloud](https://github.com/datalad-datasets/disneyanimation-cloud) | 6 | :heavy_check_mark: |  |  | 2018-07-08 17:42:09+00:00 |
 | 3 | [datalad-datasets/disneyanimation-moana-island-scence](https://github.com/datalad-datasets/disneyanimation-moana-island-scence) | 1 | :heavy_check_mark: |  |  | 2018-07-09 04:46:56+00:00 |
 | 4 | [datalad-datasets/hcp-7T_Movies](https://github.com/datalad-datasets/hcp-7T_Movies) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-01-22 19:10:20+00:00 |
-| 5 | [datalad-datasets/hcp-functional-connectivity](https://github.com/datalad-datasets/hcp-functional-connectivity) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2020-07-28 16:32:50+00:00 |
+| 5 | [datalad-datasets/hcp-functional-connectivity](https://github.com/datalad-datasets/hcp-functional-connectivity) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-08-27 11:28:54+00:00 |
 | 6 | [datalad-datasets/hcp-structural-connectivity](https://github.com/datalad-datasets/hcp-structural-connectivity) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2022-02-25 08:49:17+00:00 |
 | 7 | [datalad-datasets/hcp-structural-preprocessed](https://github.com/datalad-datasets/hcp-structural-preprocessed) | 2 | :heavy_check_mark: | :heavy_check_mark: |  | 2022-02-24 20:06:11+00:00 |
 | 8 | [datalad-datasets/hcp_MNI_T1w](https://github.com/datalad-datasets/hcp_MNI_T1w) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2022-02-24 20:07:07+00:00 |
