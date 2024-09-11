@@ -16,7 +16,7 @@
 | 13 | [dandi/nwb-healthstatus](https://github.com/dandi/nwb-healthstatus) | 1 | :heavy_check_mark: |  |  | 2023-11-09 22:05:52+00:00 |
 | 14 | [dandi/redirector](https://github.com/dandi/redirector) | 0 |  | :heavy_check_mark: |  | 2023-05-22 15:33:18+00:00 |
 | 15 | [dandi/schema](https://github.com/dandi/schema) | 3 |  | :heavy_check_mark: |  | 2024-07-10 21:11:02+00:00 |
-| 16 | [dandi/upptime](https://github.com/dandi/upptime) | 2 |  | :heavy_check_mark: |  | 2024-09-04 00:18:42+00:00 |
+| 16 | [dandi/upptime](https://github.com/dandi/upptime) | 2 |  | :heavy_check_mark: |  | 2024-09-11 00:18:39+00:00 |
 | 17 | [dandi/zarr-manifests](https://github.com/dandi/zarr-manifests) | 0 |  | :heavy_check_mark: |  | 2024-08-28 06:24:55+00:00 |
 | 18 | [dandi/zarr_checksum](https://github.com/dandi/zarr_checksum) | 10 |  | :heavy_check_mark: |  | 2024-08-26 15:41:44+00:00 |
 
