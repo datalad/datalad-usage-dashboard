@@ -4,7 +4,7 @@
 | 1 | [datalad-handbook/DVC-DataLad](https://github.com/datalad-handbook/DVC-DataLad) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-11-26 13:07:27+00:00 |
 | 2 | [datalad-handbook/DataLad-101](https://github.com/datalad-handbook/DataLad-101) | 2 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-06-06 12:48:49+00:00 |
 | 3 | [datalad-handbook/artwork](https://github.com/datalad-handbook/artwork) | 1 | :heavy_check_mark: |  |  | 2024-07-04 13:55:29+00:00 |
-| 4 | [datalad-handbook/book](https://github.com/datalad-handbook/book) | 143 |  | :heavy_check_mark: |  | 2024-07-30 10:51:26+00:00 |
+| 4 | [datalad-handbook/book](https://github.com/datalad-handbook/book) | 143 |  | :heavy_check_mark: |  | 2024-09-11 09:03:55+00:00 |
 | 5 | [datalad-handbook/book-datalad-intro](https://github.com/datalad-handbook/book-datalad-intro) | 0 |  | :heavy_check_mark: |  | 2023-12-04 08:59:26+00:00 |
 | 6 | [datalad-handbook/course](https://github.com/datalad-handbook/course) | 12 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-02-24 01:16:21+00:00 |
 | 7 | [datalad-handbook/cozy-screensavers](https://github.com/datalad-handbook/cozy-screensavers) | 0 | :heavy_check_mark: |  |  | 2024-01-30 13:40:13+00:00 |
