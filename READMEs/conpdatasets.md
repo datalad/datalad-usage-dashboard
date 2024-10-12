@@ -13,7 +13,7 @@
 | 10 | [conpdatasets/BigBrain_Surface_Parcellations](https://github.com/conpdatasets/BigBrain_Surface_Parcellations) | 0 | :heavy_check_mark: |  |  | 2022-05-02 15:41:33+00:00 |
 | 11 | [conpdatasets/CHBMP](https://github.com/conpdatasets/CHBMP) | 3 | :heavy_check_mark: |  |  | 2024-02-21 17:35:06+00:00 |
 | 12 | [conpdatasets/Multi-model_functionalization_of_disease-associated_PTEN_missense_mutations](https://github.com/conpdatasets/Multi-model_functionalization_of_disease-associated_PTEN_missense_mutations) | 1 | :heavy_check_mark: |  |  | 2021-11-11 19:18:17+00:00 |
-| 13 | [conpdatasets/SIMON-dataset](https://github.com/conpdatasets/SIMON-dataset) | 1 | :heavy_check_mark: |  |  | 2021-11-12 20:29:59+00:00 |
+| 13 | [conpdatasets/SIMON-dataset](https://github.com/conpdatasets/SIMON-dataset) | 1 | :heavy_check_mark: |  |  | 2024-10-09 14:02:56+00:00 |
 | 14 | [conpdatasets/Taowu](https://github.com/conpdatasets/Taowu) | 0 | :heavy_check_mark: |  |  | 2023-04-25 18:11:21+00:00 |
 | 15 | [conpdatasets/braincode_Mouse_Image](https://github.com/conpdatasets/braincode_Mouse_Image) | 0 | :heavy_check_mark: |  |  | 2024-06-12 16:34:42+00:00 |
 | 16 | [conpdatasets/braincode_NDD_Priority_Setting_Partnership](https://github.com/conpdatasets/braincode_NDD_Priority_Setting_Partnership) | 0 | :heavy_check_mark: |  |  | 2024-06-12 16:36:22+00:00 |
