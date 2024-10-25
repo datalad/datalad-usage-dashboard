@@ -22,7 +22,7 @@
 | 19 | [templateflow/tpl-NKI](https://github.com/templateflow/tpl-NKI) | 0 | :heavy_check_mark: |  |  | 2022-01-06 22:32:03+00:00 |
 | 20 | [templateflow/tpl-NMT31Sym](https://github.com/templateflow/tpl-NMT31Sym) | 0 | :heavy_check_mark: |  |  | 2022-03-31 18:24:49+00:00 |
 | 21 | [templateflow/tpl-OASIS30ANTs](https://github.com/templateflow/tpl-OASIS30ANTs) | 1 | :heavy_check_mark: |  |  | 2022-03-31 06:46:22+00:00 |
-| 22 | [templateflow/tpl-PNC](https://github.com/templateflow/tpl-PNC) | 1 | :heavy_check_mark: |  |  | 2024-02-13 14:47:58+00:00 |
+| 22 | [templateflow/tpl-PNC](https://github.com/templateflow/tpl-PNC) | 1 | :heavy_check_mark: |  |  | 2024-10-23 21:19:56+00:00 |
 | 23 | [templateflow/tpl-RESILIENT](https://github.com/templateflow/tpl-RESILIENT) | 0 | :heavy_check_mark: |  |  | 2022-01-11 09:59:40+00:00 |
 | 24 | [templateflow/tpl-UNCInfant](https://github.com/templateflow/tpl-UNCInfant) | 0 | :heavy_check_mark: |  |  | 2022-01-06 22:33:35+00:00 |
 | 25 | [templateflow/tpl-VALiDATe29](https://github.com/templateflow/tpl-VALiDATe29) | 0 | :heavy_check_mark: |  |  | 2022-01-06 22:32:20+00:00 |
