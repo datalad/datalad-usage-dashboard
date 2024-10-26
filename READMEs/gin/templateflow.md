@@ -19,7 +19,7 @@
 | 16 | [templateflow/tpl-NKI](https://gin.g-node.org/templateflow/tpl-NKI) | 0 | 2021-08-27 13:33:46+00:00 |
 | 17 | [templateflow/tpl-NMT31Sym](https://gin.g-node.org/templateflow/tpl-NMT31Sym) | 0 | 2022-03-31 17:30:53+00:00 |
 | 18 | [templateflow/tpl-OASIS30ANTs](https://gin.g-node.org/templateflow/tpl-OASIS30ANTs) | 0 | 2022-03-31 06:46:20+00:00 |
-| 19 | [templateflow/tpl-PNC](https://gin.g-node.org/templateflow/tpl-PNC) | 0 | 2021-08-27 13:30:08+00:00 |
+| 19 | [templateflow/tpl-PNC](https://gin.g-node.org/templateflow/tpl-PNC) | 0 | 2024-10-23 21:19:52+00:00 |
 | 20 | [templateflow/tpl-RESILIENT](https://gin.g-node.org/templateflow/tpl-RESILIENT) | 0 | 2021-11-13 20:26:16+00:00 |
 | 21 | [templateflow/tpl-UNCInfant](https://gin.g-node.org/templateflow/tpl-UNCInfant) | 0 | 2022-01-05 11:05:27+00:00 |
 | 22 | [templateflow/tpl-VALiDATe29](https://gin.g-node.org/templateflow/tpl-VALiDATe29) | 0 | 2022-01-05 10:45:38+00:00 |
