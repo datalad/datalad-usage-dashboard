@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (19) | Stars (76) | Dataset (5) | `run` (17) | `containers-run` | Last Modified |
+| # | Repository (20) | Stars (76) | Dataset (5) | `run` (18) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [dandi/dandi-api-datasets](https://github.com/dandi/dandi-api-datasets) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-05-10 18:39:55+00:00 |
 | 2 | [dandi/dandi-api-webshots](https://github.com/dandi/dandi-api-webshots) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-09-27 12:53:14+00:00 |
@@ -16,10 +16,11 @@
 | 13 | [dandi/ndx-dandi](https://github.com/dandi/ndx-dandi) | 0 |  | :heavy_check_mark: |  | 2020-02-06 17:21:35+00:00 |
 | 14 | [dandi/nwb-healthstatus](https://github.com/dandi/nwb-healthstatus) | 1 | :heavy_check_mark: |  |  | 2023-11-09 22:05:52+00:00 |
 | 15 | [dandi/redirector](https://github.com/dandi/redirector) | 0 |  | :heavy_check_mark: |  | 2023-05-22 15:33:18+00:00 |
-| 16 | [dandi/schema](https://github.com/dandi/schema) | 3 |  | :heavy_check_mark: |  | 2024-07-10 21:11:02+00:00 |
-| 17 | [dandi/upptime](https://github.com/dandi/upptime) | 3 |  | :heavy_check_mark: |  | 2024-10-29 00:20:43+00:00 |
-| 18 | [dandi/zarr-manifests](https://github.com/dandi/zarr-manifests) | 0 |  | :heavy_check_mark: |  | 2024-10-27 06:25:18+00:00 |
-| 19 | [dandi/zarr_checksum](https://github.com/dandi/zarr_checksum) | 11 |  | :heavy_check_mark: |  | 2024-08-26 15:41:44+00:00 |
+| 16 | [dandi/s5cmd-dandi](https://github.com/dandi/s5cmd-dandi) | 0 |  | :heavy_check_mark: |  | 2024-10-29 16:08:09+00:00 |
+| 17 | [dandi/schema](https://github.com/dandi/schema) | 3 |  | :heavy_check_mark: |  | 2024-07-10 21:11:02+00:00 |
+| 18 | [dandi/upptime](https://github.com/dandi/upptime) | 3 |  | :heavy_check_mark: |  | 2024-10-29 00:20:43+00:00 |
+| 19 | [dandi/zarr-manifests](https://github.com/dandi/zarr-manifests) | 0 |  | :heavy_check_mark: |  | 2024-10-27 06:25:18+00:00 |
+| 20 | [dandi/zarr_checksum](https://github.com/dandi/zarr_checksum) | 11 |  | :heavy_check_mark: |  | 2024-08-26 15:41:44+00:00 |
 
 ## Gone
 No repositories found!
