@@ -62593,6 +62593,18 @@
             "last_checked": "2024-10-24T06:37:25.017451Z"
         },
         {
+            "id": 276426199,
+            "name": "jannisborn/paperscraper",
+            "url": "https://github.com/jannisborn/paperscraper",
+            "stars": 235,
+            "dataset": false,
+            "run": true,
+            "container_run": false,
+            "status": "active",
+            "updated": "2024-10-30T09:22:31Z",
+            "last_checked": "2024-10-31T06:31:40.211591Z"
+        },
+        {
             "id": 381888996,
             "name": "jasongallant/midtermproject",
             "url": "https://github.com/jasongallant/midtermproject",
@@ -68251,7 +68263,7 @@
             "stars": 1,
             "dataset": false,
             "run": true,
-            "container_run": false,
+            "container_run": true,
             "status": "active",
             "updated": "2024-10-25T17:20:54Z",
             "last_checked": "2024-10-26T06:33:48.287031Z"
