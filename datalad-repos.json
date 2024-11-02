@@ -72464,7 +72464,7 @@
             "name": "StateSwitch/stsw_BIDS-sub-STSWD2248",
             "url": "https://gin.g-node.org/StateSwitch/stsw_BIDS-sub-STSWD2248",
             "stars": 0,
-            "status": "gone",
+            "status": "active",
             "updated": "2024-10-16T15:19:22Z"
         },
         {
@@ -72912,7 +72912,7 @@
             "name": "cmo/GCAMP7_AP-2KO_Mice_Imaging",
             "url": "https://gin.g-node.org/cmo/GCAMP7_AP-2KO_Mice_Imaging",
             "stars": 0,
-            "status": "active",
+            "status": "gone",
             "updated": "2023-07-24T10:56:10Z"
         },
         {
@@ -76008,7 +76008,7 @@
             "name": "felixh/mcgill",
             "url": "https://gin.g-node.org/felixh/mcgill",
             "stars": 0,
-            "status": "active",
+            "status": "gone",
             "updated": "2023-07-28T18:59:49Z"
         },
         {
