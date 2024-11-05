@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (2) | Stars (80) | Dataset | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (2) | Stars (81) | Dataset | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [gdcc/easyDataverse](https://github.com/gdcc/easyDataverse) | 15 |  | :heavy_check_mark: |  | 2024-10-24 07:46:40+00:00 |
+| 1 | [gdcc/easyDataverse](https://github.com/gdcc/easyDataverse) | 16 |  | :heavy_check_mark: |  | 2024-10-24 07:46:40+00:00 |
 | 2 | [gdcc/pyDataverse](https://github.com/gdcc/pyDataverse) | 65 |  | :heavy_check_mark: |  | 2024-09-18 17:34:02+00:00 |
 
 ## Gone
