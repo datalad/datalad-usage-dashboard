@@ -19,7 +19,7 @@
 | 16 | [lnnrtwttkhn/resources](https://github.com/lnnrtwttkhn/resources) | 2 | :heavy_check_mark: |  |  | 2023-06-16 18:29:00+00:00 |
 | 17 | [lnnrtwttkhn/talk-rdm](https://github.com/lnnrtwttkhn/talk-rdm) | 7 |  | :heavy_check_mark: |  | 2023-11-14 20:12:56+00:00 |
 | 18 | [lnnrtwttkhn/tools](https://github.com/lnnrtwttkhn/tools) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-02-01 13:38:02+00:00 |
-| 19 | [lnnrtwttkhn/version-control-book](https://github.com/lnnrtwttkhn/version-control-book) | 7 |  | :heavy_check_mark: |  | 2024-10-31 20:15:18+00:00 |
+| 19 | [lnnrtwttkhn/version-control-book](https://github.com/lnnrtwttkhn/version-control-book) | 7 |  | :heavy_check_mark: |  | 2024-11-08 09:07:10+00:00 |
 
 ## Gone
 No repositories found!
