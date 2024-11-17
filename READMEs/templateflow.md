@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (30) | Stars (103) | Dataset (28) | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (30) | Stars (104) | Dataset (28) | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [templateflow/python-client](https://github.com/templateflow/python-client) | 8 |  | :heavy_check_mark: |  | 2024-09-14 22:45:31+00:00 |
 | 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 72 | :heavy_check_mark: |  |  | 2024-04-15 09:57:26+00:00 |
@@ -30,7 +30,7 @@
 | 27 | [templateflow/tpl-dhcpVol](https://github.com/templateflow/tpl-dhcpVol) | 0 |  | :heavy_check_mark: |  | 2024-02-14 21:24:45+00:00 |
 | 28 | [templateflow/tpl-fsLR](https://github.com/templateflow/tpl-fsLR) | 0 | :heavy_check_mark: |  |  | 2022-04-15 08:23:13+00:00 |
 | 29 | [templateflow/tpl-fsaverage](https://github.com/templateflow/tpl-fsaverage) | 0 | :heavy_check_mark: |  |  | 2024-04-15 09:10:29+00:00 |
-| 30 | [templateflow/tpl-onavg](https://github.com/templateflow/tpl-onavg) | 5 | :heavy_check_mark: |  |  | 2024-02-09 21:12:19+00:00 |
+| 30 | [templateflow/tpl-onavg](https://github.com/templateflow/tpl-onavg) | 6 | :heavy_check_mark: |  |  | 2024-02-09 21:12:19+00:00 |
 
 ## Gone
 No repositories found!
