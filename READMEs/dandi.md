@@ -18,7 +18,7 @@
 | 15 | [dandi/redirector](https://github.com/dandi/redirector) | 0 |  | :heavy_check_mark: |  | 2023-05-22 15:33:18+00:00 |
 | 16 | [dandi/s5cmd-dandi](https://github.com/dandi/s5cmd-dandi) | 0 |  | :heavy_check_mark: |  | 2024-10-29 16:08:09+00:00 |
 | 17 | [dandi/schema](https://github.com/dandi/schema) | 3 |  | :heavy_check_mark: |  | 2024-07-10 21:11:02+00:00 |
-| 18 | [dandi/upptime](https://github.com/dandi/upptime) | 3 |  | :heavy_check_mark: |  | 2024-11-14 00:20:01+00:00 |
+| 18 | [dandi/upptime](https://github.com/dandi/upptime) | 3 |  | :heavy_check_mark: |  | 2024-11-22 00:21:48+00:00 |
 | 19 | [dandi/zarr-manifests](https://github.com/dandi/zarr-manifests) | 0 |  | :heavy_check_mark: |  | 2024-11-14 07:23:38+00:00 |
 | 20 | [dandi/zarr_checksum](https://github.com/dandi/zarr_checksum) | 11 |  | :heavy_check_mark: |  | 2024-11-11 22:46:18+00:00 |
 

@@ -5,7 +5,7 @@
 
 # GitHub
 ## In the wild
-| # | Repository (2874) | Stars (534180) | Dataset (2399) | `run` (749) | `containers-run` (17) | Last Modified |
+| # | Repository (2874) | Stars (534539) | Dataset (2399) | `run` (749) | `containers-run` (17) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [1104HARI/*](https://github.com/1104HARI) [(2)](READMEs/1104HARI.md) | [0](READMEs/1104HARI.md) |  | [:heavy_check_mark: (2)](READMEs/1104HARI.md) |  | 2023-12-06 09:12:59+00:00 |
 | 2 | [2i2c-org/infrastructure](https://github.com/2i2c-org/infrastructure) | 105 |  | :heavy_check_mark: |  | 2024-11-15 18:03:36+00:00 |
@@ -80,7 +80,7 @@
 | 71 | [NBCLab/conn-repo](https://github.com/NBCLab/conn-repo) | 0 | :heavy_check_mark: |  |  | 2020-06-17 02:48:24+00:00 |
 | 72 | [NCCR-SYNAPSY/ds-NeuroDataPubOSFTest4](https://github.com/NCCR-SYNAPSY/ds-NeuroDataPubOSFTest4) | 0 | :heavy_check_mark: |  |  | 2021-08-26 07:45:45+00:00 |
 | 73 | [NGenetzky/*](https://github.com/NGenetzky) [(11)](READMEs/NGenetzky.md) | [1](READMEs/NGenetzky.md) | [:heavy_check_mark: (10)](READMEs/NGenetzky.md) | [:heavy_check_mark: (4)](READMEs/NGenetzky.md) |  | 2024-02-10 19:41:54+00:00 |
-| 74 | [NPACore/*](https://github.com/NPACore) [(2)](READMEs/NPACore.md) | [6](READMEs/NPACore.md) |  | [:heavy_check_mark: (2)](READMEs/NPACore.md) |  | 2024-10-29 23:30:57+00:00 |
+| 74 | [NPACore/*](https://github.com/NPACore) [(2)](READMEs/NPACore.md) | [7](READMEs/NPACore.md) |  | [:heavy_check_mark: (2)](READMEs/NPACore.md) |  | 2024-10-29 23:30:57+00:00 |
 | 75 | [Neuro-iX/FS741](https://github.com/Neuro-iX/FS741) | 1 |  | :heavy_check_mark: |  | 2023-08-25 23:32:12+00:00 |
 | 76 | [NeuroDesk/*](https://github.com/NeuroDesk) [(5)](READMEs/NeuroDesk.md) | [112](READMEs/NeuroDesk.md) |  | [:heavy_check_mark: (5)](READMEs/NeuroDesk.md) |  | 2024-11-15 17:20:59+00:00 |
 | 77 | [NeuroVault/NeuroVault](https://github.com/NeuroVault/NeuroVault) | 99 |  | :heavy_check_mark: |  | 2023-12-06 20:45:44+00:00 |
@@ -231,7 +231,7 @@
 | 222 | [elloras1/*](https://github.com/elloras1) [(3)](READMEs/elloras1.md) | [0](READMEs/elloras1.md) | [:heavy_check_mark: (3)](READMEs/elloras1.md) |  |  | 2023-10-12 15:50:52+00:00 |
 | 223 | [emmetaobrien/*](https://github.com/emmetaobrien) [(18)](READMEs/emmetaobrien.md) | [4](READMEs/emmetaobrien.md) | [:heavy_check_mark: (18)](READMEs/emmetaobrien.md) |  |  | 2024-06-12 18:01:40+00:00 |
 | 224 | [emtee40/EternalTerminal](https://github.com/emtee40/EternalTerminal) | 0 |  | :heavy_check_mark: |  | 2024-03-18 06:02:47+00:00 |
-| 225 | [encode/django-rest-framework](https://github.com/encode/django-rest-framework) | 28423 |  | :heavy_check_mark: |  | 2024-11-12 05:58:56+00:00 |
+| 225 | [encode/django-rest-framework](https://github.com/encode/django-rest-framework) | 28464 |  | :heavy_check_mark: |  | 2024-11-18 11:43:54+00:00 |
 | 226 | [erikjseidel/netbox](https://github.com/erikjseidel/netbox) | 0 |  | :heavy_check_mark: |  | 2023-05-31 16:03:44+00:00 |
 | 227 | [esavary/phys2bids-modified](https://github.com/esavary/phys2bids-modified) | 0 |  | :heavy_check_mark: |  | 2023-10-03 14:56:03+00:00 |
 | 228 | [estesp/manifest-tool](https://github.com/estesp/manifest-tool) | 751 |  | :heavy_check_mark: |  | 2024-11-06 17:19:38+00:00 |
@@ -258,7 +258,7 @@
 | 249 | [glatard/fmriprep-lts-images](https://github.com/glatard/fmriprep-lts-images) | 0 | :heavy_check_mark: |  |  | 2021-05-31 21:42:32+00:00 |
 | 250 | [grandjeanlab/INCF_preclinical](https://github.com/grandjeanlab/INCF_preclinical) | 1 |  | :heavy_check_mark: |  | 2023-10-11 14:27:03+00:00 |
 | 251 | [gridgentoo/qdrant](https://github.com/gridgentoo/qdrant) | 0 |  | :heavy_check_mark: |  | 2024-03-19 06:25:29+00:00 |
-| 252 | [griffithlab/civic-v2](https://github.com/griffithlab/civic-v2) | 20 |  | :heavy_check_mark: |  | 2024-11-07 16:40:23+00:00 |
+| 252 | [griffithlab/civic-v2](https://github.com/griffithlab/civic-v2) | 21 |  | :heavy_check_mark: |  | 2024-11-19 04:22:13+00:00 |
 | 253 | [gunnarvoet/*](https://github.com/gunnarvoet) [(7)](READMEs/gunnarvoet.md) | [1](READMEs/gunnarvoet.md) | [:heavy_check_mark: (7)](READMEs/gunnarvoet.md) |  |  | 2024-02-13 13:02:47+00:00 |
 | 254 | [guocuixia/gpt4888](https://github.com/guocuixia/gpt4888) | 0 |  | :heavy_check_mark: |  | 2024-03-04 23:10:42+00:00 |
 | 255 | [hawkrobe/tangrams-fmri-data](https://github.com/hawkrobe/tangrams-fmri-data) | 2 | :heavy_check_mark: |  |  | 2023-08-30 20:15:17+00:00 |
@@ -287,7 +287,7 @@
 | 278 | [jbpoline/datasets.datalad.org](https://github.com/jbpoline/datasets.datalad.org) | 0 | :heavy_check_mark: |  |  | 2018-08-27 01:23:42+00:00 |
 | 279 | [jbwexler/*](https://github.com/jbwexler) [(9)](READMEs/jbwexler.md) | [0](READMEs/jbwexler.md) | [:heavy_check_mark: (9)](READMEs/jbwexler.md) |  |  | 2021-08-01 16:39:00+00:00 |
 | 280 | [jennydaman/*](https://github.com/jennydaman) [(5)](READMEs/jennydaman.md) | [0](READMEs/jennydaman.md) |  | [:heavy_check_mark: (5)](READMEs/jennydaman.md) |  | 2023-07-29 11:32:22+00:00 |
-| 281 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | 53059 |  | :heavy_check_mark: |  | 2024-11-12 06:00:58+00:00 |
+| 281 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | 53373 |  | :heavy_check_mark: |  | 2024-11-18 21:27:38+00:00 |
 | 282 | [jhg842/NG_tube](https://github.com/jhg842/NG_tube) | 0 |  | :heavy_check_mark: |  | 2024-10-21 07:58:38+00:00 |
 | 283 | [jkosciessa/eegmp](https://github.com/jkosciessa/eegmp) | 0 | :heavy_check_mark: |  |  | 2022-11-18 11:13:51+00:00 |
 | 284 | [jkuhl-uni/test-data](https://github.com/jkuhl-uni/test-data) | 0 |  | :heavy_check_mark: |  | 2024-06-05 14:54:07+00:00 |
@@ -378,7 +378,7 @@
 | 369 | [nilearn/nilearn](https://github.com/nilearn/nilearn) | 1188 |  | :heavy_check_mark: |  | 2024-11-16 08:16:26+00:00 |
 | 370 | [nipraxis/textbook](https://github.com/nipraxis/textbook) | 13 |  | :heavy_check_mark: |  | 2023-09-17 23:11:14+00:00 |
 | 371 | [nipreps-data/*](https://github.com/nipreps-data) [(26)](READMEs/nipreps-data.md) | [1](READMEs/nipreps-data.md) | [:heavy_check_mark: (25)](READMEs/nipreps-data.md) | [:heavy_check_mark: (3)](READMEs/nipreps-data.md) |  | 2023-12-09 00:29:27+00:00 |
-| 372 | [nipreps/*](https://github.com/nipreps) [(4)](READMEs/nipreps.md) | [1157](READMEs/nipreps.md) |  | [:heavy_check_mark: (4)](READMEs/nipreps.md) |  | 2024-11-15 20:52:00+00:00 |
+| 372 | [nipreps/*](https://github.com/nipreps) [(4)](READMEs/nipreps.md) | [1158](READMEs/nipreps.md) |  | [:heavy_check_mark: (4)](READMEs/nipreps.md) |  | 2024-11-18 20:48:04+00:00 |
 | 373 | [nipy/*](https://github.com/nipy) [(4)](READMEs/nipy.md) | [1232](READMEs/nipy.md) | [:heavy_check_mark: (1)](READMEs/nipy.md) | [:heavy_check_mark: (4)](READMEs/nipy.md) |  | 2024-11-11 19:36:44+00:00 |
 | 374 | [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) | 70687 |  | :heavy_check_mark: |  | 2024-11-16 01:05:48+00:00 |
 | 375 | [notasecret/gpt4all](https://github.com/notasecret/gpt4all) | 0 |  | :heavy_check_mark: |  | 2023-08-27 01:11:26+00:00 |
@@ -389,7 +389,7 @@
 | 380 | [odin-mit/odin-mit.github.io](https://github.com/odin-mit/odin-mit.github.io) | 0 |  | :heavy_check_mark: |  | 2024-05-31 20:03:07+00:00 |
 | 381 | [odsti/*](https://github.com/odsti) [(2)](READMEs/odsti.md) | [0](READMEs/odsti.md) |  | [:heavy_check_mark: (2)](READMEs/odsti.md) |  | 2024-10-17 22:58:33+00:00 |
 | 382 | [oesteban/*](https://github.com/oesteban) [(13)](READMEs/oesteban.md) | [1](READMEs/oesteban.md) | [:heavy_check_mark: (13)](READMEs/oesteban.md) | [:heavy_check_mark: (1)](READMEs/oesteban.md) |  | 2023-08-02 12:38:01+00:00 |
-| 383 | [ome/*](https://github.com/ome) [(2)](READMEs/ome.md) | [122](READMEs/ome.md) |  | [:heavy_check_mark: (2)](READMEs/ome.md) |  | 2024-10-28 14:43:03+00:00 |
+| 383 | [ome/*](https://github.com/ome) [(2)](READMEs/ome.md) | [123](READMEs/ome.md) |  | [:heavy_check_mark: (2)](READMEs/ome.md) |  | 2024-11-22 00:29:39+00:00 |
 | 384 | [open-cogsci/OpenSesame](https://github.com/open-cogsci/OpenSesame) | 240 |  | :heavy_check_mark: |  | 2024-11-11 10:08:51+00:00 |
 | 385 | [open-ephys-plugins/nwb-zarr-format](https://github.com/open-ephys-plugins/nwb-zarr-format) | 0 |  | :heavy_check_mark: |  | 2023-07-17 22:27:02+00:00 |
 | 386 | [openMetadataInitiative/*](https://github.com/openMetadataInitiative) [(2)](READMEs/openMetadataInitiative.md) | [0](READMEs/openMetadataInitiative.md) |  | [:heavy_check_mark: (2)](READMEs/openMetadataInitiative.md) |  | 2024-11-13 08:58:25+00:00 |
@@ -507,7 +507,7 @@
 | 3 | [christian-monch/*](https://github.com/christian-monch) [(3)](READMEs/christian-monch.md) | [0](READMEs/christian-monch.md) | [:heavy_check_mark: (3)](READMEs/christian-monch.md) | [:heavy_check_mark: (1)](READMEs/christian-monch.md) |  | 2024-10-25 12:06:59+00:00 |
 | 4 | [con/*](https://github.com/con) [(12)](READMEs/con.md) | [76](READMEs/con.md) | [:heavy_check_mark: (2)](READMEs/con.md) | [:heavy_check_mark: (12)](READMEs/con.md) |  | 2024-11-18 16:22:06+00:00 |
 | 5 | [dandi-containers/pynwb-mpi](https://github.com/dandi-containers/pynwb-mpi) | 0 |  | :heavy_check_mark: |  | 2019-10-20 21:58:30+00:00 |
-| 6 | [dandi/*](https://github.com/dandi) [(20)](READMEs/dandi.md) | [76](READMEs/dandi.md) | [:heavy_check_mark: (5)](READMEs/dandi.md) | [:heavy_check_mark: (18)](READMEs/dandi.md) |  | 2024-11-20 06:04:19+00:00 |
+| 6 | [dandi/*](https://github.com/dandi) [(20)](READMEs/dandi.md) | [76](READMEs/dandi.md) | [:heavy_check_mark: (5)](READMEs/dandi.md) | [:heavy_check_mark: (18)](READMEs/dandi.md) |  | 2024-11-22 00:21:48+00:00 |
 | 7 | [dandisets/*](https://github.com/dandisets) [(225)](READMEs/dandisets.md) | [9](READMEs/dandisets.md) | [:heavy_check_mark: (225)](READMEs/dandisets.md) |  |  | 2024-11-14 20:02:57+00:00 |
 | 8 | [dandizarrs/*](https://github.com/dandizarrs) [(2364)](READMEs/dandizarrs.md) | [1](READMEs/dandizarrs.md) | [:heavy_check_mark: (2364)](READMEs/dandizarrs.md) |  |  | 2024-03-26 08:05:25+00:00 |
 | 9 | [datalad-collection-1/*](https://github.com/datalad-collection-1) [(6)](READMEs/datalad-collection-1.md) | [1](READMEs/datalad-collection-1.md) | [:heavy_check_mark: (6)](READMEs/datalad-collection-1.md) |  |  | 2018-12-04 19:09:16+00:00 |
