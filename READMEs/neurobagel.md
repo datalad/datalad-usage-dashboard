@@ -3,7 +3,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [neurobagel/annotation_tool](https://github.com/neurobagel/annotation_tool) | 3 |  | :heavy_check_mark: |  | 2024-11-21 18:20:55+00:00 |
 | 2 | [neurobagel/documentation](https://github.com/neurobagel/documentation) | 10 |  | :heavy_check_mark: |  | 2024-11-23 23:54:41+00:00 |
-| 3 | [neurobagel/query-tool](https://github.com/neurobagel/query-tool) | 2 |  | :heavy_check_mark: |  | 2024-11-18 04:35:06+00:00 |
+| 3 | [neurobagel/query-tool](https://github.com/neurobagel/query-tool) | 2 |  | :heavy_check_mark: |  | 2024-11-25 19:04:36+00:00 |
 
 ## Gone
 No repositories found!
