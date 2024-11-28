@@ -26,7 +26,7 @@
 | 23 | [dandisets/000026](https://github.com/dandisets/000026) | 1 | :heavy_check_mark: |  |  | 2024-10-10 06:38:13+00:00 |
 | 24 | [dandisets/000027](https://github.com/dandisets/000027) | 0 | :heavy_check_mark: |  |  | 2024-05-21 20:32:04+00:00 |
 | 25 | [dandisets/000028](https://github.com/dandisets/000028) | 0 | :heavy_check_mark: |  |  | 2024-05-21 20:32:08+00:00 |
-| 26 | [dandisets/000029](https://github.com/dandisets/000029) | 0 | :heavy_check_mark: |  |  | 2024-09-20 18:02:17+00:00 |
+| 26 | [dandisets/000029](https://github.com/dandisets/000029) | 0 | :heavy_check_mark: |  |  | 2024-11-27 19:02:18+00:00 |
 | 27 | [dandisets/000030](https://github.com/dandisets/000030) | 0 | :heavy_check_mark: |  |  | 2024-03-02 07:23:52+00:00 |
 | 28 | [dandisets/000031](https://github.com/dandisets/000031) | 0 | :heavy_check_mark: |  |  | 2024-03-02 07:23:52+00:00 |
 | 29 | [dandisets/000032](https://github.com/dandisets/000032) | 0 | :heavy_check_mark: |  |  | 2024-03-02 07:23:52+00:00 |
