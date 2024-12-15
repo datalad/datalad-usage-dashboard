@@ -15,7 +15,7 @@
 | 12 | [psychoinformatics-de/kdenlive-gource-ukbiobank](https://github.com/psychoinformatics-de/kdenlive-gource-ukbiobank) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-06-07 05:57:21+00:00 |
 | 13 | [psychoinformatics-de/knowledge-base](https://github.com/psychoinformatics-de/knowledge-base) | 0 |  | :heavy_check_mark: |  | 2024-09-09 11:32:36+00:00 |
 | 14 | [psychoinformatics-de/paper-remodnav](https://github.com/psychoinformatics-de/paper-remodnav) | 4 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-10-21 12:15:10+00:00 |
-| 15 | [psychoinformatics-de/rdm-course](https://github.com/psychoinformatics-de/rdm-course) | 9 |  | :heavy_check_mark: |  | 2024-12-06 22:35:01+00:00 |
+| 15 | [psychoinformatics-de/rdm-course](https://github.com/psychoinformatics-de/rdm-course) | 9 |  | :heavy_check_mark: |  | 2024-12-07 20:17:44+00:00 |
 | 16 | [psychoinformatics-de/rostami_etal_2024-reproducer](https://github.com/psychoinformatics-de/rostami_etal_2024-reproducer) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2024-05-29 09:16:35+00:00 |
 | 17 | [psychoinformatics-de/studyforrest-data](https://github.com/psychoinformatics-de/studyforrest-data) | 9 | :heavy_check_mark: |  |  | 2022-04-15 09:51:26+00:00 |
 | 18 | [psychoinformatics-de/studyforrest-data-aggregate](https://github.com/psychoinformatics-de/studyforrest-data-aggregate) | 1 | :heavy_check_mark: |  |  | 2024-09-20 04:34:16+00:00 |
