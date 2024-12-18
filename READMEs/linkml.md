@@ -1,9 +1,9 @@
 ## Active
-| # | Repository (8) | Stars (506) | Dataset | `run` (8) | `containers-run` | Last Modified |
+| # | Repository (8) | Stars (511) | Dataset | `run` (8) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [linkml/linkml](https://github.com/linkml/linkml) | 329 |  | :heavy_check_mark: |  | 2024-12-10 00:57:10+00:00 |
-| 2 | [linkml/linkml-map](https://github.com/linkml/linkml-map) | 19 |  | :heavy_check_mark: |  | 2024-11-26 18:43:00+00:00 |
-| 3 | [linkml/linkml-model](https://github.com/linkml/linkml-model) | 37 |  | :heavy_check_mark: |  | 2024-11-22 19:00:49+00:00 |
+| 1 | [linkml/linkml](https://github.com/linkml/linkml) | 332 |  | :heavy_check_mark: |  | 2024-12-17 19:29:58+00:00 |
+| 2 | [linkml/linkml-map](https://github.com/linkml/linkml-map) | 19 |  | :heavy_check_mark: |  | 2024-12-17 20:54:50+00:00 |
+| 3 | [linkml/linkml-model](https://github.com/linkml/linkml-model) | 39 |  | :heavy_check_mark: |  | 2024-11-22 19:00:49+00:00 |
 | 4 | [linkml/linkml-project-cookiecutter](https://github.com/linkml/linkml-project-cookiecutter) | 19 |  | :heavy_check_mark: |  | 2024-10-25 15:02:38+00:00 |
 | 5 | [linkml/linkml-registry](https://github.com/linkml/linkml-registry) | 12 |  | :heavy_check_mark: |  | 2024-02-27 00:23:18+00:00 |
 | 6 | [linkml/linkml-runtime.js](https://github.com/linkml/linkml-runtime.js) | 7 |  | :heavy_check_mark: |  | 2023-06-12 18:56:08+00:00 |
