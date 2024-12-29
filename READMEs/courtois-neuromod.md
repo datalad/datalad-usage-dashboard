@@ -18,7 +18,7 @@
 | 15 | [courtois-neuromod/friends-fix](https://github.com/courtois-neuromod/friends-fix) | 0 | :heavy_check_mark: |  |  | 2022-08-04 14:00:46+00:00 |
 | 16 | [courtois-neuromod/friends.fmriprep](https://github.com/courtois-neuromod/friends.fmriprep) | 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2024-07-31 17:45:06+00:00 |
 | 17 | [courtois-neuromod/friends.mriqc](https://github.com/courtois-neuromod/friends.mriqc) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2022-08-04 14:19:03+00:00 |
-| 18 | [courtois-neuromod/friends.stimuli](https://github.com/courtois-neuromod/friends.stimuli) | 1 | :heavy_check_mark: |  |  | 2024-11-15 19:06:07+00:00 |
+| 18 | [courtois-neuromod/friends.stimuli](https://github.com/courtois-neuromod/friends.stimuli) | 1 | :heavy_check_mark: |  |  | 2024-12-28 19:18:11+00:00 |
 | 19 | [courtois-neuromod/friends_annotations](https://github.com/courtois-neuromod/friends_annotations) | 0 | :heavy_check_mark: |  |  | 2024-11-22 20:38:44+00:00 |
 | 20 | [courtois-neuromod/friends_nlp_reproducibility](https://github.com/courtois-neuromod/friends_nlp_reproducibility) | 0 | :heavy_check_mark: |  |  | 2022-07-20 19:47:18+00:00 |
 | 21 | [courtois-neuromod/harrypotter](https://github.com/courtois-neuromod/harrypotter) | 0 | :heavy_check_mark: |  |  | 2024-11-18 22:23:57+00:00 |
@@ -31,7 +31,7 @@
 | 28 | [courtois-neuromod/movie10](https://github.com/courtois-neuromod/movie10) | 0 | :heavy_check_mark: |  |  | 2024-11-18 22:23:59+00:00 |
 | 29 | [courtois-neuromod/movie10.fmriprep](https://github.com/courtois-neuromod/movie10.fmriprep) | 0 | :heavy_check_mark: |  |  | 2024-01-08 20:27:12+00:00 |
 | 30 | [courtois-neuromod/movie10.mriqc](https://github.com/courtois-neuromod/movie10.mriqc) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2022-08-04 14:19:48+00:00 |
-| 31 | [courtois-neuromod/movie10.stimuli](https://github.com/courtois-neuromod/movie10.stimuli) | 0 | :heavy_check_mark: |  |  | 2024-02-22 20:33:37+00:00 |
+| 31 | [courtois-neuromod/movie10.stimuli](https://github.com/courtois-neuromod/movie10.stimuli) | 0 | :heavy_check_mark: |  |  | 2024-12-28 19:17:37+00:00 |
 | 32 | [courtois-neuromod/movie_decoding_sa](https://github.com/courtois-neuromod/movie_decoding_sa) | 0 | :heavy_check_mark: |  |  | 2023-05-09 20:05:28+00:00 |
 | 33 | [courtois-neuromod/retino.stimuli](https://github.com/courtois-neuromod/retino.stimuli) | 0 | :heavy_check_mark: |  |  | 2024-01-23 01:13:06+00:00 |
 | 34 | [courtois-neuromod/retino_analysis](https://github.com/courtois-neuromod/retino_analysis) | 0 | :heavy_check_mark: |  |  | 2023-10-20 14:11:57+00:00 |
