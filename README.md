@@ -1,7 +1,7 @@
 # Summary
 - [GitHub](#github): [2898](#in-the-wild) in the wild + [2887](#inner-circle) inner-circle + [82](#gone) gone
 - [OSF](#osf): [185](#active) active + [63](#gone-1) gone
-- [GIN](#gin): [771](#active-1) active + [14](#gone-2) gone
+- [GIN](#gin): [772](#active-1) active + [14](#gone-2) gone
 
 # GitHub
 ## In the wild
@@ -841,10 +841,10 @@
 
 # GIN
 ## Active
-| # | Repository (771) | Stars (10) | Last Modified |
+| # | Repository (772) | Stars (10) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [AIDAqc_datasets/*](https://gin.g-node.org/AIDAqc_datasets) [(14)](READMEs/gin/AIDAqc_datasets.md) | [0](READMEs/gin/AIDAqc_datasets.md) | 2023-11-24 08:48:18+00:00 |
-| 2 | [Aswendt_Lab/*](https://gin.g-node.org/Aswendt_Lab) [(10)](READMEs/gin/Aswendt_Lab.md) | [0](READMEs/gin/Aswendt_Lab.md) | 2024-12-28 08:51:56+00:00 |
+| 2 | [Aswendt_Lab/*](https://gin.g-node.org/Aswendt_Lab) [(10)](READMEs/gin/Aswendt_Lab.md) | [0](READMEs/gin/Aswendt_Lab.md) | 2025-01-06 13:01:22+00:00 |
 | 3 | [CatalystNeuro/behavior_testing_data](https://gin.g-node.org/CatalystNeuro/behavior_testing_data) | 0 | 2024-12-10 22:40:51+00:00 |
 | 4 | [EdoardoBettazzi/*](https://gin.g-node.org/EdoardoBettazzi) [(2)](READMEs/gin/EdoardoBettazzi.md) | [0](READMEs/gin/EdoardoBettazzi.md) | 2024-08-27 08:53:28+00:00 |
 | 5 | [HashimSatti/*](https://gin.g-node.org/HashimSatti) [(2)](READMEs/gin/HashimSatti.md) | [0](READMEs/gin/HashimSatti.md) | 2022-07-21 11:59:53+00:00 |
@@ -878,7 +878,7 @@
 | 33 | [cprovins/mriqc-horror-galery-derivatives](https://gin.g-node.org/cprovins/mriqc-horror-galery-derivatives) | 0 | 2022-02-23 12:39:15+00:00 |
 | 34 | [dandi/nwb-healthstatus-samples](https://gin.g-node.org/dandi/nwb-healthstatus-samples) | 0 | 2021-03-30 18:02:58+00:00 |
 | 35 | [darosio/dl-irene](https://gin.g-node.org/darosio/dl-irene) | 0 | 2023-09-18 10:24:09+00:00 |
-| 36 | [delgrosso.nick/steinmetz_demo](https://gin.g-node.org/delgrosso.nick/steinmetz_demo) | 0 | 2024-11-15 13:35:57+00:00 |
+| 36 | [delgrosso.nick/*](https://gin.g-node.org/delgrosso.nick) [(2)](READMEs/gin/delgrosso.nick.md) | [0](READMEs/gin/delgrosso.nick.md) | 2025-01-09 12:16:24+00:00 |
 | 37 | [dg2103/Localizer](https://gin.g-node.org/dg2103/Localizer) | 0 | 2022-11-07 17:13:42+00:00 |
 | 38 | [dkp/sub-219_bids_datalad](https://gin.g-node.org/dkp/sub-219_bids_datalad) | 0 | 2020-07-25 03:02:31+00:00 |
 | 39 | [doi/*](https://gin.g-node.org/doi) [(25)](READMEs/gin/doi.md) | [0](READMEs/gin/doi.md) | 2024-06-03 14:11:41+00:00 |
