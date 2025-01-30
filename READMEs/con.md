@@ -7,7 +7,7 @@
 | 4 | [con/duct](https://github.com/con/duct) | 4 |  | :heavy_check_mark: |  | 2025-01-22 18:35:01+00:00 |
 | 5 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
 | 6 | [con/nwb2bids](https://github.com/con/nwb2bids) | 1 |  | :heavy_check_mark: |  | 2024-07-29 00:35:45+00:00 |
-| 7 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 44 |  | :heavy_check_mark: |  | 2025-01-09 14:58:09+00:00 |
+| 7 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 44 |  | :heavy_check_mark: |  | 2025-01-27 12:35:42+00:00 |
 | 8 | [con/opfvta-reexecution](https://github.com/con/opfvta-reexecution) | 1 |  | :heavy_check_mark: |  | 2024-08-02 08:06:56+00:00 |
 | 9 | [con/shub](https://github.com/con/shub) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-10-19 16:30:00+00:00 |
 | 10 | [con/solidation](https://github.com/con/solidation) | 0 |  | :heavy_check_mark: |  | 2024-08-23 18:03:02+00:00 |

@@ -2,7 +2,7 @@
 | # | Repository (7) | Stars (46) | Dataset (5) | `run` (4) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [PennLINC/AtlasPack](https://github.com/PennLINC/AtlasPack) | 12 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-08-28 14:37:49+00:00 |
-| 2 | [PennLINC/CuBIDS](https://github.com/PennLINC/CuBIDS) | 24 |  | :heavy_check_mark: |  | 2025-01-21 17:30:17+00:00 |
+| 2 | [PennLINC/CuBIDS](https://github.com/PennLINC/CuBIDS) | 24 |  | :heavy_check_mark: |  | 2025-01-29 20:29:07+00:00 |
 | 3 | [PennLINC/HBN_BIDS](https://github.com/PennLINC/HBN_BIDS) | 1 | :heavy_check_mark: |  |  | 2021-08-24 21:06:26+00:00 |
 | 4 | [PennLINC/babs](https://github.com/PennLINC/babs) | 7 |  | :heavy_check_mark: |  | 2024-12-05 14:03:01+00:00 |
 | 5 | [PennLINC/containers](https://github.com/PennLINC/containers) | 0 | :heavy_check_mark: |  |  | 2021-08-12 14:54:21+00:00 |
