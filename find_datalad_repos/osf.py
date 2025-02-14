@@ -1,11 +1,13 @@
 from __future__ import annotations
 from collections.abc import Iterator
 from datetime import datetime
+from operator import attrgetter
 import sys
 from types import TracebackType
-from typing import Any, Optional
-from pydantic import BaseModel
+from typing import Any, Dict, Optional, Set
+from pydantic import BaseModel, Field
 import requests
+from .core import Searcher, Updater
 from .tables import OSF_COLUMNS, Column, TableRow
 from .util import USER_AGENT, Status, log
 
@@ -44,7 +46,7 @@ class OSFDataladRepo(BaseModel):
         return TableRow(cells=cells, qtys=qtys)
 
 
-class OSFDataladSearcher:
+class OSFDataladSearcher(Searcher[OSFDataladRepo]):
     API_URL = "https://api.osf.io/v2"
 
     def __init__(self) -> None:
@@ -82,3 +84,43 @@ class OSFDataladSearcher:
             repo = OSFDataladRepo.from_data(hit)
             log.info("Found OSF repo %r (ID: %s)", repo.name, repo.id)
             yield repo
+
+
+class OSFCollectionUpdater(BaseModel, Updater[OSFDataladRepo, OSFDataladRepo]):
+    all_repos: Dict[str, OSFDataladRepo]
+    seen: Set[str] = Field(default_factory=set)
+    new_repos: int = 0
+
+    @classmethod
+    def from_collection(cls, collection: list[OSFDataladRepo]) -> OSFCollectionUpdater:
+        return cls(all_repos={repo.id: repo for repo in collection})
+
+    def get_searcher(self, _token: str | None = None) -> OSFDataladSearcher:
+        return OSFDataladSearcher()
+
+    def register_repo(
+        self, repo: OSFDataladRepo, _searcher: Searcher[OSFDataladRepo]
+    ) -> None:
+        self.seen.add(repo.id)
+        if repo.id not in self.all_repos:
+            self.new_repos += 1
+        self.all_repos[repo.id] = repo
+
+    def get_new_collection(
+        self, _searcher: Searcher[OSFDataladRepo]
+    ) -> list[OSFDataladRepo]:
+        collection: list[OSFDataladRepo] = []
+        for repo in self.all_repos.values():
+            if repo.id in self.seen:
+                status = Status.ACTIVE
+            else:
+                status = Status.GONE
+            collection.append(repo.model_copy(update={"status": status}))
+        collection.sort(key=attrgetter("name"))
+        return collection
+
+    def get_reports(self) -> list[str]:
+        if self.new_repos:
+            return [f"OSF: {self.new_repos} new datasets"]
+        else:
+            return []

@@ -1,13 +1,15 @@
 from __future__ import annotations
 from collections.abc import Iterator
-from datetime import datetime
+from datetime import datetime, timedelta
+import heapq
 from operator import attrgetter
 from time import sleep
-from typing import Any, Optional
+from typing import Any, Dict, List, Optional, Set
 from ghreq import Client, PrettyHTTPError
 from pydantic import BaseModel, Field
+from .core import Searcher, Updater
 from .tables import GITHUB_COLUMNS, Column, TableRow
-from .util import USER_AGENT, Status, check, is_container_run, log
+from .util import USER_AGENT, Status, check, is_container_run, log, nowutc
 
 # Searching too fast can trigger abuse detection
 INTER_SEARCH_DELAY = 10
@@ -84,7 +86,7 @@ class ExtraDetails(BaseModel):
     stars: int = Field(alias="stargazers_count")
 
 
-class GHDataladSearcher(Client):
+class GHDataladSearcher(Client, Searcher[GHSearchResult]):
     def __init__(self, token: str) -> None:
         super().__init__(token=token, user_agent=USER_AGENT)
 
@@ -168,3 +170,147 @@ class GHDataladSearcher(Client):
             )
         results.sort(key=attrgetter("name"))
         return results
+
+
+class GHCollectionUpdater(BaseModel, Updater[GHDataladRepo, GHSearchResult]):
+    all_repos: Dict[int, GHDataladRepo]
+    #: Repos that disappeared before we started tracking IDs
+    noid_repos: List[GHDataladRepo]
+    seen: Set[int] = Field(default_factory=set)
+    new_hits: int = 0
+    new_repos: int = 0
+    new_runs: int = 0
+
+    @classmethod
+    def from_collection(cls, collection: list[GHDataladRepo]) -> GHCollectionUpdater:
+        all_repos: dict[int, GHDataladRepo] = {}
+        noid_repos: list[GHDataladRepo] = []
+        for repo in collection:
+            if repo.id is not None:
+                all_repos[repo.id] = repo
+            else:
+                noid_repos.append(repo)
+        return cls(all_repos=all_repos, noid_repos=noid_repos)
+
+    def get_searcher(self, token: str | None) -> GHDataladSearcher:
+        if token is None:
+            raise TypeError("token required for GHNDataladSearcher")
+        return GHDataladSearcher(token)
+
+    def register_repo(
+        self, sr: GHSearchResult, searcher: Searcher[GHSearchResult]
+    ) -> None:
+        rid = sr.id
+        assert rid is not None
+        self.seen.add(rid)
+        try:
+            old_repo = self.all_repos[rid]
+        except KeyError:
+            self.new_hits += 1
+            self.new_repos += 1
+            if sr.run:
+                self.new_runs += 1
+            extra = searcher.get_extra_repo_details(sr.name)  # type: ignore[attr-defined]
+            if extra is None or extra.id != sr.id:
+                raise RuntimeError(
+                    f"GitHub repository {sr.name} suddenly disappeared after"
+                    " being returned in a search!"
+                )
+            else:
+                repo = GHDataladRepo(
+                    id=sr.id,
+                    name=sr.name,
+                    url=sr.url,
+                    stars=extra.stars,
+                    dataset=sr.dataset,
+                    run=sr.run,
+                    container_run=sr.container_run,
+                    status=Status.ACTIVE,
+                    updated=extra.pushed_at,
+                    last_checked=nowutc(),
+                )
+        else:
+            if not old_repo.run and sr.run:
+                self.new_hits += 1
+                self.new_runs += 1
+            repo = GHDataladRepo(
+                id=sr.id,
+                name=sr.name,
+                url=sr.url,
+                stars=old_repo.stars,
+                dataset=old_repo.dataset or sr.dataset,
+                run=old_repo.run or sr.run,
+                container_run=old_repo.container_run or sr.container_run,
+                status=Status.ACTIVE,
+                updated=old_repo.updated,
+                last_checked=old_repo.last_checked,
+            )
+        self.all_repos[rid] = repo
+
+    def get_new_collection(
+        self, searcher: Searcher[GHSearchResult]
+    ) -> list[GHDataladRepo]:
+        collection: list[GHDataladRepo] = list(self.noid_repos)
+        replaced: set[int] = set()
+        check_cutoff = nowutc() - timedelta(days=7)
+        needs_check = heapq.nsmallest(
+            1000,
+            (
+                r
+                for r in self.all_repos.values()
+                if r.last_checked is None or r.last_checked < check_cutoff
+            ),
+            key=lambda r: (r.last_checked is not None, r.last_checked),
+        )
+        for repo in needs_check:
+            log.info(
+                "Getting latest details for repository %s (last checked: %s)",
+                repo.name,
+                repo.last_checked,
+            )
+            try:
+                extra = searcher.get_extra_repo_details(repo.name)  # type: ignore[attr-defined]
+            except PrettyHTTPError as e:
+                if e.response.status_code == 404 and "rate limit" in e.response.text:
+                    log.info(
+                        "Hit a GitHub rate limit; not checking any more repositories"
+                    )
+                    break
+                else:
+                    raise
+            else:
+                if extra is None:
+                    log.info("Repository %s no longer exists", repo.name)
+                    repo.status = Status.GONE
+                elif repo.id is not None and extra.id != repo.id:
+                    log.info(
+                        "Repository %s with ID %d has been replaced; deleting",
+                        repo.name,
+                        repo.id,
+                    )
+                    replaced.add(repo.id)
+                else:
+                    repo.status = Status.ACTIVE
+                    repo.stars = extra.stars
+                    repo.updated = extra.pushed_at
+                repo.last_checked = nowutc()
+        collection.extend(
+            repo
+            for repo in self.all_repos.values()
+            if not (repo.id is not None and repo.id in replaced)
+        )
+        collection.sort(key=attrgetter("name"))
+        return collection
+
+    def get_reports(self) -> list[str]:
+        news = (
+            f"{self.new_repos} new datasets",
+            f"{self.new_runs} new `datalad run` users",
+        )
+        if self.new_hits:
+            return [
+                f"GitHub: {self.new_hits} new hits: "
+                + " and ".join(n for n in news if not n.startswith("0 "))
+            ]
+        else:
+            return []

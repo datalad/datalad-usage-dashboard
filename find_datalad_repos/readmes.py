@@ -3,10 +3,10 @@ from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 from .config import OURSELVES, README_FOLDER
-from .core import RepoRecord
 from .gin import GINDataladRepo
 from .github import GHDataladRepo
 from .osf import OSFDataladRepo
+from .record import RepoRecord
 from .tables import (
     GIN_COLUMNS,
     GITHUB_COLUMNS,
