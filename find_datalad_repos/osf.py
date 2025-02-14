@@ -86,7 +86,9 @@ class OSFDataladSearcher(Searcher[OSFDataladRepo]):
             yield repo
 
 
-class OSFCollectionUpdater(BaseModel, Updater[OSFDataladRepo, OSFDataladRepo]):
+class OSFCollectionUpdater(
+    BaseModel, Updater[OSFDataladRepo, OSFDataladRepo, OSFDataladSearcher]
+):
     all_repos: Dict[str, OSFDataladRepo]
     seen: Set[str] = Field(default_factory=set)
     new_repos: int = 0
@@ -99,16 +101,14 @@ class OSFCollectionUpdater(BaseModel, Updater[OSFDataladRepo, OSFDataladRepo]):
         return OSFDataladSearcher()
 
     def register_repo(
-        self, repo: OSFDataladRepo, _searcher: Searcher[OSFDataladRepo]
+        self, repo: OSFDataladRepo, _searcher: OSFDataladSearcher
     ) -> None:
         self.seen.add(repo.id)
         if repo.id not in self.all_repos:
             self.new_repos += 1
         self.all_repos[repo.id] = repo
 
-    def get_new_collection(
-        self, _searcher: Searcher[OSFDataladRepo]
-    ) -> list[OSFDataladRepo]:
+    def get_new_collection(self, _searcher: OSFDataladSearcher) -> list[OSFDataladRepo]:
         collection: list[OSFDataladRepo] = []
         for repo in self.all_repos.values():
             if repo.id in self.seen:

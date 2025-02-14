@@ -1,7 +1,7 @@
 from __future__ import annotations
 from typing import List
 from pydantic import BaseModel, Field
-from .core import T, U, Updater
+from .core import S, T, U, Updater
 from .gin import GINCollectionUpdater, GINDataladRepo
 from .github import GHCollectionUpdater, GHDataladRepo
 from .osf import OSFCollectionUpdater, OSFDataladRepo
@@ -23,7 +23,7 @@ class RepoRecord(BaseModel):
 
 
 def update_collection(
-    collection: list[T], updater_cls: type[Updater[T, U]], token: str | None
+    collection: list[T], updater_cls: type[Updater[T, U, S]], token: str | None
 ) -> list[str]:
     updater = updater_cls.from_collection(collection)
     with updater.get_searcher(token) as searcher:

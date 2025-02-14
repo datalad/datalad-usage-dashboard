@@ -122,7 +122,9 @@ class GINDataladSearcher(Client, Searcher[GINDataladRepo]):
             return True
 
 
-class GINCollectionUpdater(BaseModel, Updater[GINDataladRepo, GINDataladRepo]):
+class GINCollectionUpdater(
+    BaseModel, Updater[GINDataladRepo, GINDataladRepo, GINDataladSearcher]
+):
     all_repos: Dict[int, GINDataladRepo]
     seen: Set[int] = Field(default_factory=set)
     new_repos: int = 0
@@ -137,16 +139,14 @@ class GINCollectionUpdater(BaseModel, Updater[GINDataladRepo, GINDataladRepo]):
         return GINDataladSearcher(token)
 
     def register_repo(
-        self, repo: GINDataladRepo, _searcher: Searcher[GINDataladRepo]
+        self, repo: GINDataladRepo, _searcher: GINDataladSearcher
     ) -> None:
         self.seen.add(repo.id)
         if repo.id not in self.all_repos:
             self.new_repos += 1
         self.all_repos[repo.id] = repo
 
-    def get_new_collection(
-        self, _searcher: Searcher[GINDataladRepo]
-    ) -> list[GINDataladRepo]:
+    def get_new_collection(self, _searcher: GINDataladSearcher) -> list[GINDataladRepo]:
         collection: list[GINDataladRepo] = []
         for repo in self.all_repos.values():
             if repo.id in self.seen:

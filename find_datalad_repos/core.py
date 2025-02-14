@@ -7,23 +7,27 @@ from typing import Generic, Self, TypeVar
 T = TypeVar("T")
 U = TypeVar("U")
 
+# cf. <https://github.com/python/typing/issues/548>
+# S = TypeVar("S", bound="Searcher[U]")
+S = TypeVar("S", bound="Searcher")
 
-class Updater(ABC, Generic[T, U]):
+
+class Updater(ABC, Generic[T, U, S]):
     @classmethod
     @abstractmethod
     def from_collection(cls, collection: list[T]) -> Self:
         ...
 
     @abstractmethod
-    def get_searcher(self, token: str | None) -> Searcher[U]:
+    def get_searcher(self, token: str | None) -> S:
         ...
 
     @abstractmethod
-    def register_repo(self, search_result: U, searcher: Searcher[U]) -> None:
+    def register_repo(self, search_result: U, searcher: S) -> None:
         ...
 
     @abstractmethod
-    def get_new_collection(self, searcher: Searcher[U]) -> list[T]:
+    def get_new_collection(self, searcher: S) -> list[T]:
         ...
 
     @abstractmethod

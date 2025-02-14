@@ -172,7 +172,9 @@ class GHDataladSearcher(Client, Searcher[GHSearchResult]):
         return results
 
 
-class GHCollectionUpdater(BaseModel, Updater[GHDataladRepo, GHSearchResult]):
+class GHCollectionUpdater(
+    BaseModel, Updater[GHDataladRepo, GHSearchResult, GHDataladSearcher]
+):
     all_repos: Dict[int, GHDataladRepo]
     #: Repos that disappeared before we started tracking IDs
     noid_repos: List[GHDataladRepo]
@@ -197,9 +199,7 @@ class GHCollectionUpdater(BaseModel, Updater[GHDataladRepo, GHSearchResult]):
             raise TypeError("token required for GHNDataladSearcher")
         return GHDataladSearcher(token)
 
-    def register_repo(
-        self, sr: GHSearchResult, searcher: Searcher[GHSearchResult]
-    ) -> None:
+    def register_repo(self, sr: GHSearchResult, searcher: GHDataladSearcher) -> None:
         rid = sr.id
         assert rid is not None
         self.seen.add(rid)
@@ -210,7 +210,7 @@ class GHCollectionUpdater(BaseModel, Updater[GHDataladRepo, GHSearchResult]):
             self.new_repos += 1
             if sr.run:
                 self.new_runs += 1
-            extra = searcher.get_extra_repo_details(sr.name)  # type: ignore[attr-defined]
+            extra = searcher.get_extra_repo_details(sr.name)
             if extra is None or extra.id != sr.id:
                 raise RuntimeError(
                     f"GitHub repository {sr.name} suddenly disappeared after"
@@ -247,9 +247,7 @@ class GHCollectionUpdater(BaseModel, Updater[GHDataladRepo, GHSearchResult]):
             )
         self.all_repos[rid] = repo
 
-    def get_new_collection(
-        self, searcher: Searcher[GHSearchResult]
-    ) -> list[GHDataladRepo]:
+    def get_new_collection(self, searcher: GHDataladSearcher) -> list[GHDataladRepo]:
         collection: list[GHDataladRepo] = list(self.noid_repos)
         replaced: set[int] = set()
         check_cutoff = nowutc() - timedelta(days=7)
@@ -269,7 +267,7 @@ class GHCollectionUpdater(BaseModel, Updater[GHDataladRepo, GHSearchResult]):
                 repo.last_checked,
             )
             try:
-                extra = searcher.get_extra_repo_details(repo.name)  # type: ignore[attr-defined]
+                extra = searcher.get_extra_repo_details(repo.name)
             except PrettyHTTPError as e:
                 if e.response.status_code == 404 and "rate limit" in e.response.text:
                     log.info(
