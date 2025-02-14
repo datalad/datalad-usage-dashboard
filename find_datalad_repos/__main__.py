@@ -12,10 +12,11 @@ from ghreq import PrettyHTTPError
 from ghtoken import get_ghtoken
 from pydantic import BaseModel, Field
 from .config import README_FOLDER, RECORD_FILE
-from .core import RepoRecord, mkreadmes
+from .core import RepoRecord
 from .gin import GINDataladRepo, GINDataladSearcher
 from .github import GHDataladRepo, GHDataladSearcher, GHSearchResult
 from .osf import OSFDataladRepo, OSFDataladSearcher
+from .readmes import mkreadmes
 from .util import Status, commit, log, nowutc, runcmd
 
 

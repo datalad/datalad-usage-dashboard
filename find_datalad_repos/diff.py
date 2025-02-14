@@ -6,7 +6,8 @@ import subprocess
 from typing import Optional
 import click
 from .config import RECORD_FILE
-from .core import RepoRecord, mkreadmes
+from .core import RepoRecord
+from .readmes import mkreadmes
 
 
 @click.command()
