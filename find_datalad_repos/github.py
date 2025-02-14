@@ -18,7 +18,7 @@ INTER_SEARCH_DELAY = 10
 POST_ABUSE_DELAY = 45
 
 
-class GHSearchResult(BaseModel):
+class SearchResult(BaseModel):
     id: int
     name: str
     url: str
@@ -27,7 +27,23 @@ class GHSearchResult(BaseModel):
     container_run: bool
 
 
-class GHDataladRepo(BaseModel):
+class SearchHit(BaseModel, frozen=True):
+    id: int
+    url: str
+    name: str
+
+    @classmethod
+    def from_repository(cls, data: dict[str, Any]) -> SearchHit:
+        return cls(id=data["id"], url=data["html_url"], name=data["full_name"])
+
+
+class ExtraDetails(BaseModel):
+    id: int
+    pushed_at: datetime
+    stars: int = Field(alias="stargazers_count")
+
+
+class GitHubRepo(BaseModel):
     id: int | None
     name: str
     url: str
@@ -70,23 +86,7 @@ class GHDataladRepo(BaseModel):
         return TableRow(cells=cells, qtys=qtys)
 
 
-class GHRepo(BaseModel, frozen=True):
-    id: int
-    url: str
-    name: str
-
-    @classmethod
-    def from_repository(cls, data: dict[str, Any]) -> GHRepo:
-        return cls(id=data["id"], url=data["html_url"], name=data["full_name"])
-
-
-class ExtraDetails(BaseModel):
-    id: int
-    pushed_at: datetime
-    stars: int = Field(alias="stargazers_count")
-
-
-class GHDataladSearcher(Client, Searcher[GHSearchResult]):
+class GitHubSearcher(Client, Searcher[SearchResult]):
     def __init__(self, token: str) -> None:
         super().__init__(token=token, user_agent=USER_AGENT)
 
@@ -119,19 +119,19 @@ class GHDataladSearcher(Client, Searcher[GHSearchResult]):
             if url is not None:
                 sleep(INTER_SEARCH_DELAY)
 
-    def search_dataset_repos(self) -> Iterator[GHRepo]:
+    def search_dataset_repos(self) -> Iterator[SearchHit]:
         log.info("Searching for repositories with .datalad/config files")
         for hit in self.search("code", "path:.datalad filename:config fork:true"):
-            repo = GHRepo.from_repository(hit["repository"])
+            repo = SearchHit.from_repository(hit["repository"])
             log.info("Found %s", repo.name)
             yield repo
 
-    def search_runcmds(self) -> Iterator[tuple[GHRepo, bool]]:
+    def search_runcmds(self) -> Iterator[tuple[SearchHit, bool]]:
         """Returns a generator of (ghrepo, is_container_run) pairs"""
         log.info('Searching for "DATALAD RUNCMD" commits')
         for hit in self.search("commits", '"DATALAD RUNCMD" merge:false is:public'):
             container_run = is_container_run(hit["commit"]["message"])
-            repo = GHRepo.from_repository(hit["repository"])
+            repo = SearchHit.from_repository(hit["repository"])
             log.info(
                 "Found commit %s in %s (container run: %s)",
                 hit["sha"][:7],
@@ -151,15 +151,15 @@ class GHDataladSearcher(Client, Searcher[GHSearchResult]):
         else:
             return ExtraDetails.parse_obj(r)
 
-    def get_datalad_repos(self) -> list[GHSearchResult]:
+    def get_datalad_repos(self) -> list[SearchResult]:
         datasets = set(self.search_dataset_repos())
-        runcmds: dict[GHRepo, bool] = {}
+        runcmds: dict[SearchHit, bool] = {}
         for repo, container_run in self.search_runcmds():
             runcmds[repo] = container_run or runcmds.get(repo, False)
         results = []
         for repo in datasets | runcmds.keys():
             results.append(
-                GHSearchResult(
+                SearchResult(
                     id=repo.id,
                     url=repo.url,
                     name=repo.name,
@@ -172,21 +172,19 @@ class GHDataladSearcher(Client, Searcher[GHSearchResult]):
         return results
 
 
-class GHCollectionUpdater(
-    BaseModel, Updater[GHDataladRepo, GHSearchResult, GHDataladSearcher]
-):
-    all_repos: Dict[int, GHDataladRepo]
+class GitHubUpdater(BaseModel, Updater[GitHubRepo, SearchResult, GitHubSearcher]):
+    all_repos: Dict[int, GitHubRepo]
     #: Repos that disappeared before we started tracking IDs
-    noid_repos: List[GHDataladRepo]
+    noid_repos: List[GitHubRepo]
     seen: Set[int] = Field(default_factory=set)
     new_hits: int = 0
     new_repos: int = 0
     new_runs: int = 0
 
     @classmethod
-    def from_collection(cls, collection: list[GHDataladRepo]) -> GHCollectionUpdater:
-        all_repos: dict[int, GHDataladRepo] = {}
-        noid_repos: list[GHDataladRepo] = []
+    def from_collection(cls, collection: list[GitHubRepo]) -> GitHubUpdater:
+        all_repos: dict[int, GitHubRepo] = {}
+        noid_repos: list[GitHubRepo] = []
         for repo in collection:
             if repo.id is not None:
                 all_repos[repo.id] = repo
@@ -194,12 +192,12 @@ class GHCollectionUpdater(
                 noid_repos.append(repo)
         return cls(all_repos=all_repos, noid_repos=noid_repos)
 
-    def get_searcher(self, token: str | None) -> GHDataladSearcher:
+    def get_searcher(self, token: str | None) -> GitHubSearcher:
         if token is None:
             raise TypeError("token required for GHNDataladSearcher")
-        return GHDataladSearcher(token)
+        return GitHubSearcher(token)
 
-    def register_repo(self, sr: GHSearchResult, searcher: GHDataladSearcher) -> None:
+    def register_repo(self, sr: SearchResult, searcher: GitHubSearcher) -> None:
         rid = sr.id
         assert rid is not None
         self.seen.add(rid)
@@ -217,7 +215,7 @@ class GHCollectionUpdater(
                     " being returned in a search!"
                 )
             else:
-                repo = GHDataladRepo(
+                repo = GitHubRepo(
                     id=sr.id,
                     name=sr.name,
                     url=sr.url,
@@ -233,7 +231,7 @@ class GHCollectionUpdater(
             if not old_repo.run and sr.run:
                 self.new_hits += 1
                 self.new_runs += 1
-            repo = GHDataladRepo(
+            repo = GitHubRepo(
                 id=sr.id,
                 name=sr.name,
                 url=sr.url,
@@ -247,8 +245,8 @@ class GHCollectionUpdater(
             )
         self.all_repos[rid] = repo
 
-    def get_new_collection(self, searcher: GHDataladSearcher) -> list[GHDataladRepo]:
-        collection: list[GHDataladRepo] = list(self.noid_repos)
+    def get_new_collection(self, searcher: GitHubSearcher) -> list[GitHubRepo]:
+        collection: list[GitHubRepo] = list(self.noid_repos)
         replaced: set[int] = set()
         check_cutoff = nowutc() - timedelta(days=7)
         needs_check = heapq.nsmallest(

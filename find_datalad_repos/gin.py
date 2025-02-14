@@ -10,7 +10,7 @@ from .tables import GIN_COLUMNS, Column, TableRow
 from .util import USER_AGENT, Status, log
 
 
-class GINDataladRepo(BaseModel):
+class GINRepo(BaseModel):
     id: int
     name: str
     url: str
@@ -19,7 +19,7 @@ class GINDataladRepo(BaseModel):
     updated: datetime | None = None
 
     @classmethod
-    def from_data(cls, data: dict[str, Any]) -> GINDataladRepo:
+    def from_data(cls, data: dict[str, Any]) -> GINRepo:
         return cls(
             id=data["id"],
             name=data["full_name"],
@@ -54,7 +54,7 @@ class GINDataladRepo(BaseModel):
         return TableRow(cells=cells, qtys=qtys)
 
 
-class GINDataladSearcher(Client, Searcher[GINDataladRepo]):
+class GINSearcher(Client, Searcher[GINRepo]):
     def __init__(self, token: str) -> None:
         super().__init__(
             api_url="https://gin.g-node.org/api/v1",
@@ -69,13 +69,13 @@ class GINDataladSearcher(Client, Searcher[GINDataladRepo]):
             retry_config=RetryConfig(retry_statuses=range(501, 600)),
         )
 
-    def search_repositories(self) -> Iterator[GINDataladRepo]:
+    def search_repositories(self) -> Iterator[GINRepo]:
         # TODO: Switch back to this simpler implementation (and remove the
         # custom RetryConfig above) once
         # <https://github.com/G-Node/gogs/issues/148> is resolved:
         ###
         # for datum in self.paginate("/repos/search"):
-        #     yield GINDataladRepo.from_data(datum)
+        #     yield GINRepo.from_data(datum)
         ###
         page = 1
         while True:
@@ -92,13 +92,13 @@ class GINDataladSearcher(Client, Searcher[GINDataladRepo]):
                 else:
                     raise
             else:
-                repos = [GINDataladRepo.from_data(datum) for datum in r.json()["data"]]
+                repos = [GINRepo.from_data(datum) for datum in r.json()["data"]]
                 if not repos:
                     break
                 yield from repos
             page += 1
 
-    def get_datalad_repos(self) -> Iterator[GINDataladRepo]:
+    def get_datalad_repos(self) -> Iterator[GINRepo]:
         for repo in self.search_repositories():
             if self.has_datalad_config(repo.name):
                 log.info("Found DataLad repo on GIN: %r (ID: %d)", repo.name, repo.id)
@@ -122,32 +122,28 @@ class GINDataladSearcher(Client, Searcher[GINDataladRepo]):
             return True
 
 
-class GINCollectionUpdater(
-    BaseModel, Updater[GINDataladRepo, GINDataladRepo, GINDataladSearcher]
-):
-    all_repos: Dict[int, GINDataladRepo]
+class GINUpdater(BaseModel, Updater[GINRepo, GINRepo, GINSearcher]):
+    all_repos: Dict[int, GINRepo]
     seen: Set[int] = Field(default_factory=set)
     new_repos: int = 0
 
     @classmethod
-    def from_collection(cls, collection: list[GINDataladRepo]) -> GINCollectionUpdater:
+    def from_collection(cls, collection: list[GINRepo]) -> GINUpdater:
         return cls(all_repos={repo.id: repo for repo in collection})
 
-    def get_searcher(self, token: str | None) -> GINDataladSearcher:
+    def get_searcher(self, token: str | None) -> GINSearcher:
         if token is None:
-            raise TypeError("token required for GINDataladSearcher")
-        return GINDataladSearcher(token)
+            raise TypeError("token required for GINSearcher")
+        return GINSearcher(token)
 
-    def register_repo(
-        self, repo: GINDataladRepo, _searcher: GINDataladSearcher
-    ) -> None:
+    def register_repo(self, repo: GINRepo, _searcher: GINSearcher) -> None:
         self.seen.add(repo.id)
         if repo.id not in self.all_repos:
             self.new_repos += 1
         self.all_repos[repo.id] = repo
 
-    def get_new_collection(self, _searcher: GINDataladSearcher) -> list[GINDataladRepo]:
-        collection: list[GINDataladRepo] = []
+    def get_new_collection(self, _searcher: GINSearcher) -> list[GINRepo]:
+        collection: list[GINRepo] = []
         for repo in self.all_repos.values():
             if repo.id in self.seen:
                 status = Status.ACTIVE

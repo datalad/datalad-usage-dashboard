@@ -3,9 +3,9 @@ from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
 from .config import OURSELVES, README_FOLDER
-from .gin import GINDataladRepo
-from .github import GHDataladRepo
-from .osf import OSFDataladRepo
+from .gin import GINRepo
+from .github import GitHubRepo
+from .osf import OSFRepo
 from .record import RepoRecord
 from .tables import (
     GIN_COLUMNS,
@@ -58,10 +58,10 @@ def mkreadmes(
 
 
 def make_github_tables(
-    repolist: list[GHDataladRepo], directory: str | Path
+    repolist: list[GitHubRepo], directory: str | Path
 ) -> tuple[str, int, int, int]:
     base_url = "https://github.com"
-    repos_by_org: dict[str, list[GHDataladRepo]] = defaultdict(list)
+    repos_by_org: dict[str, list[GitHubRepo]] = defaultdict(list)
     for repo in repolist:
         repos_by_org[repo.owner].append(repo)
     main_wild: list[TableRow] = []
@@ -154,10 +154,10 @@ def make_github_tables(
 
 
 def make_gin_tables(
-    repolist: list[GINDataladRepo], directory: str | Path
+    repolist: list[GINRepo], directory: str | Path
 ) -> tuple[str, int, int]:
     base_url = "https://gin.g-node.org"
-    repos_by_org: dict[str, list[GINDataladRepo]] = defaultdict(list)
+    repos_by_org: dict[str, list[GINRepo]] = defaultdict(list)
     for repo in repolist:
         repos_by_org[repo.owner].append(repo)
     main_active: list[TableRow] = []
@@ -223,7 +223,7 @@ def make_gin_tables(
     return (outer_tables, *final_qtys)  # type: ignore[return-value]
 
 
-def make_osf_tables(repolist: list[OSFDataladRepo]) -> tuple[str, int, int]:
+def make_osf_tables(repolist: list[OSFRepo]) -> tuple[str, int, int]:
     active: list[TableRow] = []
     gone: list[TableRow] = []
     for r in repolist:
