@@ -1,16 +1,18 @@
 from __future__ import annotations
 from collections.abc import Iterator
 from datetime import datetime
+from operator import attrgetter
 import sys
 from types import TracebackType
-from typing import Any, Optional
-from pydantic import BaseModel
+from typing import Any, Dict, Optional, Set
+from pydantic import BaseModel, Field
 import requests
+from .core import Searcher, Updater
 from .tables import OSF_COLUMNS, Column, TableRow
 from .util import USER_AGENT, Status, log
 
 
-class OSFDataladRepo(BaseModel):
+class OSFRepo(BaseModel):
     url: str
     id: str
     name: str
@@ -18,7 +20,7 @@ class OSFDataladRepo(BaseModel):
     updated: datetime | None = None
 
     @classmethod
-    def from_data(cls, data: dict[str, Any]) -> "OSFDataladRepo":
+    def from_data(cls, data: dict[str, Any]) -> "OSFRepo":
         return cls(
             url=data["links"]["html"],
             id=data["id"],
@@ -44,7 +46,7 @@ class OSFDataladRepo(BaseModel):
         return TableRow(cells=cells, qtys=qtys)
 
 
-class OSFDataladSearcher:
+class OSFSearcher(Searcher[OSFRepo]):
     API_URL = "https://api.osf.io/v2"
 
     def __init__(self) -> None:
@@ -52,7 +54,7 @@ class OSFDataladSearcher:
         # self.session.headers["Authorization"] = f"token {token}"
         self.session.headers["User-Agent"] = USER_AGENT
 
-    def __enter__(self) -> "OSFDataladSearcher":
+    def __enter__(self) -> "OSFSearcher":
         return self
 
     def __exit__(
@@ -74,11 +76,47 @@ class OSFDataladSearcher:
             url = data.get("links", {}).get("next")
             params = None
 
-    def get_datalad_repos(self) -> Iterator[OSFDataladRepo]:
+    def get_datalad_repos(self) -> Iterator[OSFRepo]:
         for hit in self.paginate(
             f"{self.API_URL}/nodes/",
             params={"filter[tags]": "DataLad Dataset", "filter[public]": "true"},
         ):
-            repo = OSFDataladRepo.from_data(hit)
+            repo = OSFRepo.from_data(hit)
             log.info("Found OSF repo %r (ID: %s)", repo.name, repo.id)
             yield repo
+
+
+class OSFUpdater(BaseModel, Updater[OSFRepo, OSFRepo, OSFSearcher]):
+    all_repos: Dict[str, OSFRepo]
+    seen: Set[str] = Field(default_factory=set)
+    new_repos: int = 0
+
+    @classmethod
+    def from_collection(cls, collection: list[OSFRepo]) -> OSFUpdater:
+        return cls(all_repos={repo.id: repo for repo in collection})
+
+    def get_searcher(self, _token: str | None = None) -> OSFSearcher:
+        return OSFSearcher()
+
+    def register_repo(self, repo: OSFRepo, _searcher: OSFSearcher) -> None:
+        self.seen.add(repo.id)
+        if repo.id not in self.all_repos:
+            self.new_repos += 1
+        self.all_repos[repo.id] = repo
+
+    def get_new_collection(self, _searcher: OSFSearcher) -> list[OSFRepo]:
+        collection: list[OSFRepo] = []
+        for repo in self.all_repos.values():
+            if repo.id in self.seen:
+                status = Status.ACTIVE
+            else:
+                status = Status.GONE
+            collection.append(repo.model_copy(update={"status": status}))
+        collection.sort(key=attrgetter("name"))
+        return collection
+
+    def get_reports(self) -> list[str]:
+        if self.new_repos:
+            return [f"OSF: {self.new_repos} new datasets"]
+        else:
+            return []
