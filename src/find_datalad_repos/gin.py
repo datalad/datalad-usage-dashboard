@@ -61,9 +61,7 @@ class GINSearcher(Client, Searcher[GINRepo]):
             user_agent=USER_AGENT,
             accept=None,
             api_version=None,
-            # Passing `token` directly to ghreq results in an Authorization
-            # header of "Bearer {token}", which GIN doesn't seem to support.
-            headers={"Authorization": f"token {token}"},
+            token=token,
             # Don't retry on 500's until
             # <https://github.com/G-Node/gogs/issues/148> is resolved
             retry_config=RetryConfig(retry_statuses=range(501, 600)),
