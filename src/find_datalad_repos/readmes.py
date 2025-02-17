@@ -41,9 +41,10 @@ def mkreadmes(
             "Git repositories discovered on GitHub and other portals, and "
             "which potentially either are DataLad datasets or had "
             "`datalad run` command used. "
-            "Furthermore, the [datalad-repos.json](./datalad-repos.json) file in this repository " 
-            "is used by https://registry.datalad.org/ to provide up-to-date metadata "
-            "for these repositories and support metadata-based searches."
+            "Furthermore, the [`datalad-repos.json`](./datalad-repos.json) file in "
+            "this repository is used by https://registry.datalad.org/ to provide "
+            "up-to-date metadata for these repositories and support metadata-based "
+            "searches.",
             file=fp,
         )
         print(file=fp)
