@@ -5,7 +5,7 @@ import click
 from ghreq import Client, PrettyHTTPError
 from ghtoken import get_ghtoken
 from .config import RECORD_FILE
-from .core import RepoRecord
+from .record import RepoRecord
 from .util import USER_AGENT, log
 
 
