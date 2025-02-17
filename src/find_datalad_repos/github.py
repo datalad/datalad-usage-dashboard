@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import heapq
 from operator import attrgetter
 from time import sleep
-from typing import Any, Dict, List, Optional, Set
+from typing import Any
 from ghreq import Client, PrettyHTTPError
 from pydantic import BaseModel, Field
 from .core import Searcher, Updater
@@ -92,7 +92,7 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
 
     def search(self, resource_type: str, query: str) -> Iterator[Any]:
         url: str | None = f"/search/{resource_type}"
-        params: Optional[dict[str, str]] = {"q": query}
+        params: dict[str, str] | None = {"q": query}
         while url is not None:
             try:
                 r = self.get(url, params=params, raw=True)
@@ -173,10 +173,10 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
 
 
 class GitHubUpdater(BaseModel, Updater[GitHubRepo, SearchResult, GitHubSearcher]):
-    all_repos: Dict[int, GitHubRepo]
+    all_repos: dict[int, GitHubRepo]
     #: Repos that disappeared before we started tracking IDs
-    noid_repos: List[GitHubRepo]
-    seen: Set[int] = Field(default_factory=set)
+    noid_repos: list[GitHubRepo]
+    seen: set[int] = Field(default_factory=set)
     new_hits: int = 0
     new_repos: int = 0
     new_runs: int = 0

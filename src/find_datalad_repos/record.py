@@ -1,5 +1,4 @@
 from __future__ import annotations
-from typing import List
 from pydantic import BaseModel, Field
 from .core import S, T, U, Updater
 from .gin import GINRepo, GINUpdater
@@ -8,9 +7,9 @@ from .osf import OSFRepo, OSFUpdater
 
 
 class RepoRecord(BaseModel):
-    github: List[GitHubRepo] = Field(default_factory=list)
-    osf: List[OSFRepo] = Field(default_factory=list)
-    gin: List[GINRepo] = Field(default_factory=list)
+    github: list[GitHubRepo] = Field(default_factory=list)
+    osf: list[OSFRepo] = Field(default_factory=list)
+    gin: list[GINRepo] = Field(default_factory=list)
 
     def update_github(self, token: str) -> list[str]:
         return update_collection(self.github, GitHubUpdater, token)
