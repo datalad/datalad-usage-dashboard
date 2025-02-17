@@ -37,10 +37,10 @@ def mkreadmes(
         print("# Introduction", file=fp)
         print(file=fp)
         print(
-            "This file is automatically updated using GitHub CI workflow with "
-            "Git repositories discovered on GitHub and other portals, and "
-            "which potentially either are DataLad datasets or had "
-            "`datalad run` command used. "
+            "This file is automatically updated using GitHub Actions workflows.  It lists "
+            "Git repositories discovered on GitHub and other hosts that "
+            "either are [DataLad](https://www.datalad.org) datasets or else had "
+            "`datalad run` used on them. "
             "Furthermore, the [`datalad-repos.json`](./datalad-repos.json) file in "
             "this repository is used by https://registry.datalad.org/ to provide "
             "up-to-date metadata for these repositories and support metadata-based "
