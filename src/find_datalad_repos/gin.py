@@ -2,7 +2,7 @@ from __future__ import annotations
 from collections.abc import Iterator
 from datetime import datetime
 from operator import attrgetter
-from typing import Any, Dict, Set
+from typing import Any
 from ghreq import Client, PrettyHTTPError, RetryConfig
 from pydantic import BaseModel, Field
 from .core import Searcher, Updater
@@ -61,9 +61,7 @@ class GINSearcher(Client, Searcher[GINRepo]):
             user_agent=USER_AGENT,
             accept=None,
             api_version=None,
-            # Passing `token` directly to ghreq results in an Authorization
-            # header of "Bearer {token}", which GIN doesn't seem to support.
-            headers={"Authorization": f"token {token}"},
+            token=token,
             # Don't retry on 500's until
             # <https://github.com/G-Node/gogs/issues/148> is resolved
             retry_config=RetryConfig(retry_statuses=range(501, 600)),
@@ -123,8 +121,8 @@ class GINSearcher(Client, Searcher[GINRepo]):
 
 
 class GINUpdater(BaseModel, Updater[GINRepo, GINRepo, GINSearcher]):
-    all_repos: Dict[int, GINRepo]
-    seen: Set[int] = Field(default_factory=set)
+    all_repos: dict[int, GINRepo]
+    seen: set[int] = Field(default_factory=set)
     new_repos: int = 0
 
     @classmethod

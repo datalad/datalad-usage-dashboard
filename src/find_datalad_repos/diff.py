@@ -3,7 +3,6 @@ from datetime import date
 import os
 from pathlib import Path
 import subprocess
-from typing import Optional
 import click
 from .config import RECORD_FILE
 from .readmes import mkreadmes
@@ -39,7 +38,7 @@ from .record import RepoRecord
 @click.argument("to_point", metavar="TO", required=False)
 def main(
     from_point: str,
-    to_point: Optional[str],
+    to_point: str | None,
     repo: Path,
     readme_file: Path,
     readme_dir: Path,

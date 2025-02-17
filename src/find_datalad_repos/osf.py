@@ -4,7 +4,7 @@ from datetime import datetime
 from operator import attrgetter
 import sys
 from types import TracebackType
-from typing import Any, Dict, Optional, Set
+from typing import Any
 from pydantic import BaseModel, Field
 import requests
 from .core import Searcher, Updater
@@ -20,7 +20,7 @@ class OSFRepo(BaseModel):
     updated: datetime | None = None
 
     @classmethod
-    def from_data(cls, data: dict[str, Any]) -> "OSFRepo":
+    def from_data(cls, data: dict[str, Any]) -> OSFRepo:
         return cls(
             url=data["links"]["html"],
             id=data["id"],
@@ -54,18 +54,18 @@ class OSFSearcher(Searcher[OSFRepo]):
         # self.session.headers["Authorization"] = f"token {token}"
         self.session.headers["User-Agent"] = USER_AGENT
 
-    def __enter__(self) -> "OSFSearcher":
+    def __enter__(self) -> OSFSearcher:
         return self
 
     def __exit__(
         self,
-        _exc_type: Optional[type[BaseException]],
-        _exc_val: Optional[BaseException],
-        _exc_tb: Optional[TracebackType],
+        _exc_type: type[BaseException] | None,
+        _exc_val: BaseException | None,
+        _exc_tb: TracebackType | None,
     ) -> None:
         self.session.close()
 
-    def paginate(self, url: str, params: Optional[dict[str, str]] = None) -> Iterator:
+    def paginate(self, url: str, params: dict[str, str] | None = None) -> Iterator:
         while url is not None:
             r = self.session.get(url, params=params)
             if not r.ok:
@@ -87,8 +87,8 @@ class OSFSearcher(Searcher[OSFRepo]):
 
 
 class OSFUpdater(BaseModel, Updater[OSFRepo, OSFRepo, OSFSearcher]):
-    all_repos: Dict[str, OSFRepo]
-    seen: Set[str] = Field(default_factory=set)
+    all_repos: dict[str, OSFRepo]
+    seen: set[str] = Field(default_factory=set)
     new_repos: int = 0
 
     @classmethod
