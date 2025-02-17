@@ -23,11 +23,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip wheel
-          python -m pip install -r requirements.txt
+          python -m pip install --upgrade tox
 
       - name: Run script
-        run: python -m find_datalad_repos -l DEBUG --github --osf
+        run: tox -e run -- -l DEBUG --github --osf
         env:
           GITHUB_TOKEN: ${{ secrets.SEARCH_GITHUB_TOKEN }}
 
