@@ -26,7 +26,8 @@ jobs:
           python -m pip install --upgrade tox
 
       - name: Run script
-        run: tox -e run -- -l DEBUG --github --osf
+        # No space between `-e` and `run` or tox gets confused
+        run: tox -erun -- -l DEBUG --github --osf
         env:
           GITHUB_TOKEN: ${{ secrets.SEARCH_GITHUB_TOKEN }}
 
