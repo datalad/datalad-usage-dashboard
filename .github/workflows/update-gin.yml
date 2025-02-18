@@ -27,9 +27,10 @@ jobs:
 
       - name: Run script
         # No space between `-e` and `run` or tox gets confused
-        run: tox -erun -- -l DEBUG --gin
+        run: tox -erun -- -l DEBUG --gin --hub-datalad-org
         env:
           GIN_TOKEN: ${{ secrets.GIN_TOKEN }}
+          HUB_DATALAD_ORG_TOKEN: ${{ secrets.HUB_DATALAD_ORG_TOKEN }}
 
       - name: Push changes
         run: |

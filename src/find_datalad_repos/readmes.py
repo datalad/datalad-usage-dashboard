@@ -32,6 +32,12 @@ def mkreadmes(
     (gin_block, gin_active, gin_gone) = make_gin_tables(
         record.gin, Path(directory, "gin")
     )
+    (hub_block, hub_active, hub_gone) = make_gin_tables(
+        record.hub_datalad_org,
+        Path(directory, "hub-datalad-org"),
+        base_url="https://hub.datalad.org",
+        header="hub.datalad.org",
+    )
     (osf_block, osf_active, osf_gone) = make_osf_tables(record.osf)
     with open(filename, "w") as fp:
         print("# Summary", file=fp)
@@ -46,15 +52,22 @@ def mkreadmes(
             f" [{osf_gone}](#gone-1) gone",
             file=fp,
         )
+
         print(
             f"- [GIN](#gin): [{gin_active}](#active-1) active +"
             f" [{gin_gone}](#gone-2) gone",
             file=fp,
         )
+        print(
+            f"- [hub.datalad.org](#hub-datalad-org): [{hub_active}](#active-2) active +"
+            f" [{hub_gone}](#gone-3) gone",
+            file=fp,
+        )
         print(file=fp)
         print(github_block, file=fp)
         print(osf_block, file=fp)
-        print(gin_block, end="", file=fp)
+        print(gin_block, file=fp)
+        print(hub_block, end="", file=fp)
 
 
 def make_github_tables(
@@ -154,9 +167,11 @@ def make_github_tables(
 
 
 def make_gin_tables(
-    repolist: list[GINRepo], directory: str | Path
+    repolist: list[GINRepo],
+    directory: str | Path,
+    base_url: str = "https://gin.g-node.org",
+    header: str = "GIN",
 ) -> tuple[str, int, int]:
-    base_url = "https://gin.g-node.org"
     repos_by_org: dict[str, list[GINRepo]] = defaultdict(list)
     for repo in repolist:
         repos_by_org[repo.owner].append(repo)
@@ -208,7 +223,7 @@ def make_gin_tables(
             r = repos[0]
             section = main_gone if r.gone else main_active
             section.append(r.as_table_row())
-    outer_tables = "# GIN\n"
+    outer_tables = f"# {header}\n"
     final_qtys = []
     first = True
     for title, rows in [("Active", main_active), ("Gone", main_gone)]:

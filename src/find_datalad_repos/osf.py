@@ -95,7 +95,7 @@ class OSFUpdater(BaseModel, Updater[OSFRepo, OSFRepo, OSFSearcher]):
     def from_collection(cls, collection: list[OSFRepo]) -> OSFUpdater:
         return cls(all_repos={repo.id: repo for repo in collection})
 
-    def get_searcher(self, _token: str | None = None) -> OSFSearcher:
+    def get_searcher(self, **_kwargs: Any) -> OSFSearcher:
         return OSFSearcher()
 
     def register_repo(self, repo: OSFRepo, _searcher: OSFSearcher) -> None:

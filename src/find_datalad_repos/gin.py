@@ -55,9 +55,11 @@ class GINRepo(BaseModel):
 
 
 class GINSearcher(Client, Searcher[GINRepo]):
-    def __init__(self, token: str) -> None:
+    def __init__(self, token: str, url: str | None = None) -> None:
+        if url is None:
+            url = "https://gin.g-node.org"
         super().__init__(
-            api_url="https://gin.g-node.org/api/v1",
+            api_url=f"{url}/api/v1",
             user_agent=USER_AGENT,
             accept=None,
             api_version=None,
@@ -134,10 +136,8 @@ class GINUpdater(BaseModel, Updater[GINRepo, GINRepo, GINSearcher]):
     def from_collection(cls, collection: list[GINRepo]) -> GINUpdater:
         return cls(all_repos={repo.id: repo for repo in collection})
 
-    def get_searcher(self, token: str | None) -> GINSearcher:
-        if token is None:
-            raise TypeError("token required for GINSearcher")
-        return GINSearcher(token)
+    def get_searcher(self, **kwargs: Any) -> GINSearcher:
+        return GINSearcher(**kwargs)
 
     def register_repo(self, repo: GINRepo, _searcher: GINSearcher) -> None:
         self.seen.add(repo.id)
