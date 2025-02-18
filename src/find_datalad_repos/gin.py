@@ -67,7 +67,7 @@ class GINSearcher(Client, Searcher[GINRepo]):
             retry_config=RetryConfig(retry_statuses=range(501, 600)),
         )
 
-    def search_repositories(self) -> Iterator[GINRepo]:
+    def search_repositories(self) -> Iterator[dict[str, Any]]:
         # TODO: Switch back to this simpler implementation (and remove the
         # custom RetryConfig above) once
         # <https://github.com/G-Node/gogs/issues/148> is resolved:
@@ -90,15 +90,16 @@ class GINSearcher(Client, Searcher[GINRepo]):
                 else:
                     raise
             else:
-                repos = [GINRepo.from_data(datum) for datum in r.json()["data"]]
+                repos = r.json()["data"]
                 if not repos:
                     break
                 yield from repos
             page += 1
 
     def get_datalad_repos(self) -> Iterator[GINRepo]:
-        for repo in self.search_repositories():
-            if self.has_datalad_config(repo.name):
+        for datum in self.search_repositories():
+            repo = GINRepo.from_data(datum)
+            if self.has_datalad_config(repo.name, datum["default_branch"]):
                 log.info("Found DataLad repo on GIN: %r (ID: %d)", repo.name, repo.id)
                 yield repo
             else:
@@ -108,9 +109,11 @@ class GINSearcher(Client, Searcher[GINRepo]):
                     repo.id,
                 )
 
-    def has_datalad_config(self, repo: str) -> bool:
+    def has_datalad_config(self, repo: str, defbranch: str) -> bool:
         try:
-            self.request("HEAD", f"/repos/{repo}/raw/master/.datalad/config", raw=True)
+            self.request(
+                "HEAD", f"/repos/{repo}/raw/{defbranch}/.datalad/config", raw=True
+            )
         except PrettyHTTPError as e:
             if e.response.status_code == 404:
                 return False
