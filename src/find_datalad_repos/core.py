@@ -1,6 +1,7 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from collections.abc import Iterable
+from enum import Enum
 from types import TracebackType
 from typing import Any, Generic, Self, TypeVar
 
@@ -10,6 +11,13 @@ U = TypeVar("U")
 # cf. <https://github.com/python/typing/issues/548>
 # S = TypeVar("S", bound="Searcher[U]")
 S = TypeVar("S", bound="Searcher")
+
+
+class RepoHost(Enum):
+    GITHUB = 1
+    GIN = 2
+    OSF = 3
+    HUB_DATALAD_ORG = 4
 
 
 class Updater(ABC, Generic[T, U, S]):
