@@ -115,8 +115,12 @@ class GINSearcher(Client, Searcher[GINRepo]):
 
     def has_datalad_config(self, repo: str, defbranch: str) -> bool:
         try:
-            self.request(
-                "HEAD", f"/repos/{repo}/raw/{defbranch}/.datalad/config", raw=True
+            # forgejo instances like hub.datalad.org don't support HEAD
+            # requests to this endpoint, so do a GET with a small range.
+            self.get(
+                f"/repos/{repo}/raw/{defbranch}/.datalad/config",
+                raw=True,
+                headers={"Range": "0-1"},
             )
         except PrettyHTTPError as e:
             if e.response.status_code == 404:
