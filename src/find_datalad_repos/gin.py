@@ -55,17 +55,20 @@ class GINRepo(BaseModel):
 
 
 class GINSearcher(Client, Searcher[GINRepo]):
-    def __init__(self, token: str, url: str | None = None) -> None:
+    def __init__(self, token: str | None = None, url: str | None = None) -> None:
         if url is None:
             url = "https://gin.g-node.org"
+        headers = {}
+        if token is not None:
+            # Passing `token` directly to ghreq results in an Authorization
+            # header of "Bearer {token}", which GIN doesn't seem to support.
+            headers["Authorization"] = f"token {token}"
         super().__init__(
             api_url=f"{url}/api/v1",
             user_agent=USER_AGENT,
             accept=None,
             api_version=None,
-            # Passing `token` directly to ghreq results in an Authorization
-            # header of "Bearer {token}", which GIN doesn't seem to support.
-            headers={"Authorization": f"token {token}"},
+            headers=headers,
             # Don't retry on 500's until
             # <https://github.com/G-Node/gogs/issues/148> is resolved
             retry_config=RetryConfig(retry_statuses=range(501, 600)),

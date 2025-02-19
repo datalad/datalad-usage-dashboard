@@ -18,6 +18,7 @@ class RepoHost(Enum):
     GIN = 2
     OSF = 3
     HUB_DATALAD_ORG = 4
+    ATRIS = 5
 
 
 class Updater(ABC, Generic[T, U, S]):

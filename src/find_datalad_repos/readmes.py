@@ -37,6 +37,12 @@ def mkreadmes(
         base_url="https://hub.datalad.org",
         header="hub.datalad.org",
     )
+    (atris_block, atris_active, atris_gone) = make_gin_tables(
+        record.atris,
+        Path(directory, "atris"),
+        base_url="https://atris.fz-juelich.de",
+        header="ATRIS",
+    )
     (osf_block, osf_active, osf_gone) = make_osf_tables(record.osf)
     with open(filename, "w") as fp:
         print("# Summary", file=fp)
@@ -62,11 +68,17 @@ def mkreadmes(
             f" [{hub_gone}](#gone-3) gone",
             file=fp,
         )
+        print(
+            f"- [ATRIS](#atris): [{atris_active}](#active-3) active +"
+            f" [{atris_gone}](#gone-4) gone",
+            file=fp,
+        )
         print(file=fp)
         print(github_block, file=fp)
         print(osf_block, file=fp)
         print(gin_block, file=fp)
-        print(hub_block, end="", file=fp)
+        print(hub_block, file=fp)
+        print(atris_block, end="", file=fp)
 
 
 def make_github_tables(
