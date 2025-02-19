@@ -6,14 +6,15 @@ import click
 from click_loglevel import LogLevel
 from ghtoken import get_ghtoken
 from .config import README_FOLDER, RECORD_FILE
+from .core import RepoHost
 from .readmes import mkreadmes
 from .record import RepoRecord
 from .util import commit, runcmd
 
 
 def set_mode(
-    ctx: click.Context, _param: click.Parameter, value: str | None
-) -> str | None:
+    ctx: click.Context, _param: click.Parameter, value: RepoHost | None
+) -> RepoHost | None:
     if value is not None:
         ctx.params.setdefault("mode", set()).add(value)
     return value
@@ -29,28 +30,32 @@ def set_mode(
 )
 @click.option(
     "--gin",
-    flag_value="gin",
+    flag_value=RepoHost.GIN,
+    type=click.UNPROCESSED,
     callback=set_mode,
     expose_value=False,
     help="Update GIN data",
 )
 @click.option(
     "--github",
-    flag_value="github",
+    flag_value=RepoHost.GITHUB,
+    type=click.UNPROCESSED,
     callback=set_mode,
     expose_value=False,
     help="Update GitHub data",
 )
 @click.option(
     "--hub-datalad-org",
-    flag_value="hub.datalad.org",
+    flag_value=RepoHost.HUB_DATALAD_ORG,
+    type=click.UNPROCESSED,
     callback=set_mode,
     expose_value=False,
     help="Update hub.datalad.org data",
 )
 @click.option(
     "--osf",
-    flag_value="osf",
+    flag_value=RepoHost.OSF,
+    type=click.UNPROCESSED,
     callback=set_mode,
     expose_value=False,
     help="Update OSF data",
@@ -61,7 +66,7 @@ def set_mode(
     is_flag=True,
     help="Regenerate the README from the JSON file without querying",
 )
-def main(log_level: int, regen_readme: bool, mode: set[str] | None = None) -> None:
+def main(log_level: int, regen_readme: bool, mode: set[RepoHost] | None = None) -> None:
     if regen_readme and mode:
         raise click.UsageError("--regen-readme is mutually exclusive with mode options")
 
@@ -78,14 +83,16 @@ def main(log_level: int, regen_readme: bool, mode: set[str] | None = None) -> No
         record = RepoRecord()
 
     reports: list[str] = []
+    if mode is None:
+        mode = set(RepoHost)
     if not regen_readme:
-        if mode is None or "github" in mode:
+        if RepoHost.GITHUB in mode:
             reports.extend(record.update_github(get_ghtoken()))
-        if mode is None or "osf" in mode:
+        if RepoHost.OSF in mode:
             reports.extend(record.update_osf())
-        if mode is None or "gin" in mode:
+        if RepoHost.GIN in mode:
             reports.extend(record.update_gin(os.environ["GIN_TOKEN"]))
-        if mode is None or "hub.datalad.org" in mode:
+        if RepoHost.HUB_DATALAD_ORG in mode:
             reports.extend(
                 record.update_hub_datalad_org(os.environ["HUB_DATALAD_ORG_TOKEN"])
             )
