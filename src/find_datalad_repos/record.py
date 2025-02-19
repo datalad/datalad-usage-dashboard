@@ -24,7 +24,7 @@ class RepoRecord(BaseModel):
 
     def update_hub_datalad_org(self, token: str) -> list[str]:
         return update_collection(
-            self.gin, GINUpdater, token=token, url="https://hub.datalad.org"
+            self.hub_datalad_org, GINUpdater, token=token, url="https://hub.datalad.org"
         )
 
 
