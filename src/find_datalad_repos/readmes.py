@@ -24,7 +24,6 @@ def mkreadmes(
     directory: str | Path = README_FOLDER,
 ) -> None:
     Path(directory).mkdir(parents=True, exist_ok=True)
-    Path(directory, "gin").mkdir(parents=True, exist_ok=True)
     Path(filename).parent.mkdir(parents=True, exist_ok=True)
     (github_block, github_wild, github_ours, github_gone) = make_github_tables(
         record.github, directory
@@ -59,7 +58,7 @@ def mkreadmes(
             file=fp,
         )
         print(
-            f"- [hub.datalad.org](#hub-datalad-org): [{hub_active}](#active-2) active +"
+            f"- [hub.datalad.org](#hubdataladorg): [{hub_active}](#active-2) active +"
             f" [{hub_gone}](#gone-3) gone",
             file=fp,
         )
@@ -168,10 +167,11 @@ def make_github_tables(
 
 def make_gin_tables(
     repolist: list[GINRepo],
-    directory: str | Path,
+    directory: Path,
     base_url: str = "https://gin.g-node.org",
     header: str = "GIN",
 ) -> tuple[str, int, int]:
+    directory.mkdir(parents=True, exist_ok=True)
     repos_by_org: dict[str, list[GINRepo]] = defaultdict(list)
     for repo in repolist:
         repos_by_org[repo.owner].append(repo)
