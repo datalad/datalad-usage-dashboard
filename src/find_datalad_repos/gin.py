@@ -123,7 +123,7 @@ class GINSearcher(Client, Searcher[GINRepo]):
                 headers={"Range": "0-1"},
             )
         except PrettyHTTPError as e:
-            if e.response.status_code == 404:
+            if e.response.status_code in (404, 500):
                 return False
             else:
                 raise e
