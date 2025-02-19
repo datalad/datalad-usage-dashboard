@@ -12,6 +12,7 @@ class RepoRecord(BaseModel):
     osf: list[OSFRepo] = Field(default_factory=list)
     gin: list[GINRepo] = Field(default_factory=list)
     hub_datalad_org: list[GINRepo] = Field(default_factory=list)
+    atris: list[GINRepo] = Field(default_factory=list)
 
     def update_github(self, token: str) -> list[str]:
         return update_collection(self.github, GitHubUpdater, token=token)
@@ -25,6 +26,11 @@ class RepoRecord(BaseModel):
     def update_hub_datalad_org(self, token: str) -> list[str]:
         return update_collection(
             self.hub_datalad_org, GINUpdater, token=token, url="https://hub.datalad.org"
+        )
+
+    def update_atris(self) -> list[str]:
+        return update_collection(
+            self.atris, GINUpdater, url="https://atris.fz-juelich.de"
         )
 
 

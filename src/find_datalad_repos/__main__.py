@@ -29,6 +29,14 @@ def set_mode(
     help="Set logging level  [default: INFO]",
 )
 @click.option(
+    "--atris",
+    flag_value=RepoHost.ATRIS,
+    type=click.UNPROCESSED,
+    callback=set_mode,
+    expose_value=False,
+    help="Update ATRIS data",
+)
+@click.option(
     "--gin",
     flag_value=RepoHost.GIN,
     type=click.UNPROCESSED,
@@ -96,6 +104,8 @@ def main(log_level: int, regen_readme: bool, mode: set[RepoHost] | None = None) 
             reports.extend(
                 record.update_hub_datalad_org(os.environ["HUB_DATALAD_ORG_TOKEN"])
             )
+        if RepoHost.ATRIS in mode:
+            reports.extend(record.update_atris())
         with open(RECORD_FILE, "w") as fp:
             print(record.model_dump_json(indent=4), file=fp)
 
