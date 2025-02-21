@@ -3,6 +3,7 @@
 - [OSF](#osf): [188](#active) active + [63](#gone-1) gone
 - [GIN](#gin): [819](#active-1) active + [12](#gone-2) gone
 - [hub.datalad.org](#hubdataladorg): [4599](#active-2) active + [0](#gone-3) gone
+- [ATRIS](#atris): [106](#active-3) active + [0](#gone-4) gone
 
 # GitHub
 ## In the wild
@@ -1050,6 +1051,21 @@
 | 10 | [studyforrest/*](https://hub.datalad.org/studyforrest) [(2)](READMEs/hub-datalad-org/studyforrest.md) | [0](READMEs/hub-datalad-org/studyforrest.md) | 2024-09-20 05:17:55+00:00 |
 | 11 | [test-resources/*](https://hub.datalad.org/test-resources) [(4)](READMEs/hub-datalad-org/test-resources.md) | [0](READMEs/hub-datalad-org/test-resources.md) | 2024-09-04 10:48:25+00:00 |
 | 12 | [www/*](https://hub.datalad.org/www) [(2)](READMEs/hub-datalad-org/www.md) | [0](READMEs/hub-datalad-org/www.md) | 2025-02-21 11:44:25+00:00 |
+
+## Gone
+No repositories found!
+
+# ATRIS
+## Active
+| # | Repository (106) | Stars (1) | Last Modified |
+| --- | --- | --- | --- |
+| 1 | [CAIRT/*](https://atris.fz-juelich.de/CAIRT) [(6)](READMEs/atris/CAIRT.md) | [0](READMEs/atris/CAIRT.md) | 2025-02-19 06:36:57+00:00 |
+| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(87)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2025-02-17 04:32:36+00:00 |
+| 3 | [b.vogel/Southtrac-2019-CLaMS-results](https://atris.fz-juelich.de/b.vogel/Southtrac-2019-CLaMS-results) | 0 | 2024-07-22 16:41:23+00:00 |
+| 4 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(4)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2025-02-14 11:09:48+00:00 |
+| 5 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(6)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2025-01-22 13:05:05+00:00 |
+| 6 | [p.konopka/clams_clim](https://atris.fz-juelich.de/p.konopka/clams_clim) | 0 | 2024-09-25 14:01:42+00:00 |
+| 7 | [yann.buechau/tutorials](https://atris.fz-juelich.de/yann.buechau/tutorials) | 0 | 2025-02-19 16:41:49+00:00 |
 
 ## Gone
 No repositories found!
