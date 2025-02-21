@@ -5,7 +5,7 @@ from operator import attrgetter
 from typing import Any
 from ghreq import Client, PrettyHTTPError, RetryConfig
 from pydantic import BaseModel, Field
-from .core import Searcher, Updater
+from .core import RepoHost, Searcher, Updater
 from .tables import GIN_COLUMNS, Column, TableRow
 from .util import USER_AGENT, Status, log
 
@@ -55,7 +55,9 @@ class GINRepo(BaseModel):
 
 
 class GINSearcher(Client, Searcher[GINRepo]):
-    def __init__(self, token: str | None = None, url: str | None = None) -> None:
+    def __init__(
+        self, host: RepoHost, token: str | None = None, url: str | None = None
+    ) -> None:
         if url is None:
             url = "https://gin.g-node.org"
         headers = {}
@@ -73,6 +75,7 @@ class GINSearcher(Client, Searcher[GINRepo]):
             # <https://github.com/G-Node/gogs/issues/148> is resolved
             retry_config=RetryConfig(retry_statuses=range(501, 600)),
         )
+        self.host = host
 
     def search_repositories(self) -> Iterator[dict[str, Any]]:
         # TODO: Switch back to this simpler implementation (and remove the
@@ -98,9 +101,10 @@ class GINSearcher(Client, Searcher[GINRepo]):
             except PrettyHTTPError as e:
                 if e.response.status_code == 500:
                     log.warning(
-                        "Request for page %d of GIN repository search results"
+                        "Request for page %d of %s repository search results"
                         " returned %d; skipping page",
                         page,
+                        self.host.value,
                         e.response.status_code,
                     )
                 else:
@@ -118,11 +122,17 @@ class GINSearcher(Client, Searcher[GINRepo]):
                 continue
             repo = GINRepo.from_data(datum)
             if self.has_datalad_config(repo.name, datum["default_branch"]):
-                log.info("Found DataLad repo on GIN: %r (ID: %d)", repo.name, repo.id)
+                log.info(
+                    "Found DataLad repo on %s: %r (ID: %d)",
+                    self.host.value,
+                    repo.name,
+                    repo.id,
+                )
                 yield repo
             else:
                 log.debug(
-                    "Found non-DataLad repo on GIN: %r (ID: %d); ignoring",
+                    "Found non-DataLad repo on %s: %r (ID: %d); ignoring",
+                    self.host.value,
                     repo.name,
                     repo.id,
                 )
@@ -146,16 +156,17 @@ class GINSearcher(Client, Searcher[GINRepo]):
 
 
 class GINUpdater(BaseModel, Updater[GINRepo, GINRepo, GINSearcher]):
+    host: RepoHost
     all_repos: dict[int, GINRepo]
     seen: set[int] = Field(default_factory=set)
     new_repos: int = 0
 
     @classmethod
-    def from_collection(cls, collection: list[GINRepo]) -> GINUpdater:
-        return cls(all_repos={repo.id: repo for repo in collection})
+    def from_collection(cls, host: RepoHost, collection: list[GINRepo]) -> GINUpdater:
+        return cls(host=host, all_repos={repo.id: repo for repo in collection})
 
     def get_searcher(self, **kwargs: Any) -> GINSearcher:
-        return GINSearcher(**kwargs)
+        return GINSearcher(host=self.host, **kwargs)
 
     def register_repo(self, repo: GINRepo, _searcher: GINSearcher) -> None:
         self.seen.add(repo.id)
@@ -176,6 +187,6 @@ class GINUpdater(BaseModel, Updater[GINRepo, GINRepo, GINSearcher]):
 
     def get_reports(self) -> list[str]:
         if self.new_repos:
-            return [f"GIN: {self.new_repos} new datasets"]
+            return [f"{self.host.value}: {self.new_repos} new datasets"]
         else:
             return []

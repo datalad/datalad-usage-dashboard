@@ -7,7 +7,7 @@ from time import sleep
 from typing import Any
 from ghreq import Client, PrettyHTTPError
 from pydantic import BaseModel, Field
-from .core import Searcher, Updater
+from .core import RepoHost, Searcher, Updater
 from .tables import GITHUB_COLUMNS, Column, TableRow
 from .util import USER_AGENT, Status, check, is_container_run, log, nowutc
 
@@ -182,7 +182,9 @@ class GitHubUpdater(BaseModel, Updater[GitHubRepo, SearchResult, GitHubSearcher]
     new_runs: int = 0
 
     @classmethod
-    def from_collection(cls, collection: list[GitHubRepo]) -> GitHubUpdater:
+    def from_collection(
+        cls, host: RepoHost, collection: list[GitHubRepo]  # noqa: U100
+    ) -> GitHubUpdater:
         all_repos: dict[int, GitHubRepo] = {}
         noid_repos: list[GitHubRepo] = []
         for repo in collection:

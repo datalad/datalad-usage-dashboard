@@ -14,17 +14,17 @@ S = TypeVar("S", bound="Searcher")
 
 
 class RepoHost(Enum):
-    GITHUB = 1
-    GIN = 2
-    OSF = 3
-    HUB_DATALAD_ORG = 4
-    ATRIS = 5
+    GITHUB = "GitHub"
+    GIN = "GIN"
+    OSF = "OSF"
+    HUB_DATALAD_ORG = "hub.datalad.org"
+    ATRIS = "ATRIS"
 
 
 class Updater(ABC, Generic[T, U, S]):
     @classmethod
     @abstractmethod
-    def from_collection(cls, collection: list[T]) -> Self:
+    def from_collection(cls, host: RepoHost, collection: list[T]) -> Self:
         ...
 
     @abstractmethod
