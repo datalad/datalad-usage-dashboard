@@ -62,6 +62,7 @@ def main(
     old_github_repos = {r.name for r in from_record.github}
     old_osf_repos = {r.id for r in from_record.osf}
     old_gin_repos = {r.id for r in from_record.gin}
+    old_hub_repos = {r.id for r in from_record.hub_datalad_org}
     new_record = RepoRecord()
     for ghr in to_record.github:
         if ghr.name not in old_github_repos:
@@ -72,6 +73,9 @@ def main(
     for ginr in to_record.gin:
         if ginr.id not in old_gin_repos:
             new_record.gin.append(ginr)
+    for hubr in to_record.hub_datalad_org:
+        if hubr.id not in old_hub_repos:
+            new_record.hub_datalad_org.append(hubr)
     mkreadmes(new_record, filename=readme_file, directory=readme_dir)
 
 

@@ -55,9 +55,11 @@ class GINRepo(BaseModel):
 
 
 class GINSearcher(Client, Searcher[GINRepo]):
-    def __init__(self, token: str) -> None:
+    def __init__(self, token: str, url: str | None = None) -> None:
+        if url is None:
+            url = "https://gin.g-node.org"
         super().__init__(
-            api_url="https://gin.g-node.org/api/v1",
+            api_url=f"{url}/api/v1",
             user_agent=USER_AGENT,
             accept=None,
             api_version=None,
@@ -113,11 +115,15 @@ class GINSearcher(Client, Searcher[GINRepo]):
 
     def has_datalad_config(self, repo: str, defbranch: str) -> bool:
         try:
-            self.request(
-                "HEAD", f"/repos/{repo}/raw/{defbranch}/.datalad/config", raw=True
+            # forgejo instances like hub.datalad.org don't support HEAD
+            # requests to this endpoint, so do a GET with a small range.
+            self.get(
+                f"/repos/{repo}/raw/{defbranch}/.datalad/config",
+                raw=True,
+                headers={"Range": "0-1"},
             )
         except PrettyHTTPError as e:
-            if e.response.status_code == 404:
+            if e.response.status_code in (404, 500):
                 return False
             else:
                 raise e
@@ -134,10 +140,8 @@ class GINUpdater(BaseModel, Updater[GINRepo, GINRepo, GINSearcher]):
     def from_collection(cls, collection: list[GINRepo]) -> GINUpdater:
         return cls(all_repos={repo.id: repo for repo in collection})
 
-    def get_searcher(self, token: str | None) -> GINSearcher:
-        if token is None:
-            raise TypeError("token required for GINSearcher")
-        return GINSearcher(token)
+    def get_searcher(self, **kwargs: Any) -> GINSearcher:
+        return GINSearcher(**kwargs)
 
     def register_repo(self, repo: GINRepo, _searcher: GINSearcher) -> None:
         self.seen.add(repo.id)

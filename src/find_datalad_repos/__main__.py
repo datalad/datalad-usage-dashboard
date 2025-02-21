@@ -42,6 +42,13 @@ def set_mode(
     help="Update GitHub data",
 )
 @click.option(
+    "--hub-datalad-org",
+    flag_value="hub.datalad.org",
+    callback=set_mode,
+    expose_value=False,
+    help="Update hub.datalad.org data",
+)
+@click.option(
     "--osf",
     flag_value="osf",
     callback=set_mode,
@@ -78,6 +85,10 @@ def main(log_level: int, regen_readme: bool, mode: set[str] | None = None) -> No
             reports.extend(record.update_osf())
         if mode is None or "gin" in mode:
             reports.extend(record.update_gin(os.environ["GIN_TOKEN"]))
+        if mode is None or "hub.datalad.org" in mode:
+            reports.extend(
+                record.update_hub_datalad_org(os.environ["HUB_DATALAD_ORG_TOKEN"])
+            )
         with open(RECORD_FILE, "w") as fp:
             print(record.model_dump_json(indent=4), file=fp)
 

@@ -192,10 +192,8 @@ class GitHubUpdater(BaseModel, Updater[GitHubRepo, SearchResult, GitHubSearcher]
                 noid_repos.append(repo)
         return cls(all_repos=all_repos, noid_repos=noid_repos)
 
-    def get_searcher(self, token: str | None) -> GitHubSearcher:
-        if token is None:
-            raise TypeError("token required for GHNDataladSearcher")
-        return GitHubSearcher(token)
+    def get_searcher(self, **kwargs: Any) -> GitHubSearcher:
+        return GitHubSearcher(**kwargs)
 
     def register_repo(self, sr: SearchResult, searcher: GitHubSearcher) -> None:
         rid = sr.id

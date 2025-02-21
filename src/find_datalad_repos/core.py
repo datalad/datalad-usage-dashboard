@@ -2,7 +2,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from collections.abc import Iterable
 from types import TracebackType
-from typing import Generic, Self, TypeVar
+from typing import Any, Generic, Self, TypeVar
 
 T = TypeVar("T")
 U = TypeVar("U")
@@ -19,7 +19,7 @@ class Updater(ABC, Generic[T, U, S]):
         ...
 
     @abstractmethod
-    def get_searcher(self, token: str | None) -> S:
+    def get_searcher(self, **kwargs: Any) -> S:
         ...
 
     @abstractmethod

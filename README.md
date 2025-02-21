@@ -2,6 +2,7 @@
 - [GitHub](#github): [2959](#in-the-wild) in the wild + [2889](#inner-circle) inner-circle + [86](#gone) gone
 - [OSF](#osf): [187](#active) active + [63](#gone-1) gone
 - [GIN](#gin): [776](#active-1) active + [13](#gone-2) gone
+- [hub.datalad.org](#hubdataladorg): [4596](#active-2) active + [0](#gone-3) gone
 
 # GitHub
 ## In the wild
@@ -1017,3 +1018,22 @@
 | 9 | [jwu/*](https://gin.g-node.org/jwu) [(2)](READMEs/gin/jwu.md) | [0](READMEs/gin/jwu.md) | 2024-08-20 13:00:11+00:00 |
 | 10 | [koch_means_cook/pedlr-derivatives](https://gin.g-node.org/koch_means_cook/pedlr-derivatives) | 0 | 2024-04-10 12:17:14+00:00 |
 | 11 | [nirmoneta/SODIVA](https://gin.g-node.org/nirmoneta/SODIVA) | 0 | 2023-04-17 08:17:25+00:00 |
+
+# hub.datalad.org
+## Active
+| # | Repository (4596) | Stars (2) | Last Modified |
+| --- | --- | --- | --- |
+| 1 | [ABCD-J/www](https://hub.datalad.org/ABCD-J/www) | 0 | 2025-02-02 11:17:16+00:00 |
+| 2 | [adina/*](https://hub.datalad.org/adina) [(2)](READMEs/hub-datalad-org/adina.md) | [0](READMEs/hub-datalad-org/adina.md) | 2024-09-24 08:07:16+00:00 |
+| 3 | [candleindark/*](https://hub.datalad.org/candleindark) [(2)](READMEs/hub-datalad-org/candleindark.md) | [0](READMEs/hub-datalad-org/candleindark.md) | 2024-12-20 12:40:59+00:00 |
+| 4 | [distribits/*](https://hub.datalad.org/distribits) [(2)](READMEs/hub-datalad-org/distribits.md) | [2](READMEs/hub-datalad-org/distribits.md) | 2025-02-18 14:27:09+00:00 |
+| 5 | [hcp-openaccess/*](https://hub.datalad.org/hcp-openaccess) [(4550)](READMEs/hub-datalad-org/hcp-openaccess.md) | [0](READMEs/hub-datalad-org/hcp-openaccess.md) | 2024-08-27 11:38:38+00:00 |
+| 6 | [j.goddard/project.d.o](https://hub.datalad.org/j.goddard/project.d.o) | 0 | 2025-02-19 15:01:56+00:00 |
+| 7 | [mslw/*](https://hub.datalad.org/mslw) [(4)](READMEs/hub-datalad-org/mslw.md) | [0](READMEs/hub-datalad-org/mslw.md) | 2025-02-13 14:16:03+00:00 |
+| 8 | [naturalistic-imaging/*](https://hub.datalad.org/naturalistic-imaging) [(26)](READMEs/hub-datalad-org/naturalistic-imaging.md) | [0](READMEs/hub-datalad-org/naturalistic-imaging.md) | 2025-02-17 03:15:36+00:00 |
+| 9 | [studyforrest/*](https://hub.datalad.org/studyforrest) [(2)](READMEs/hub-datalad-org/studyforrest.md) | [0](READMEs/hub-datalad-org/studyforrest.md) | 2024-09-20 05:17:55+00:00 |
+| 10 | [test-resources/*](https://hub.datalad.org/test-resources) [(4)](READMEs/hub-datalad-org/test-resources.md) | [0](READMEs/hub-datalad-org/test-resources.md) | 2024-09-04 10:48:25+00:00 |
+| 11 | [www/*](https://hub.datalad.org/www) [(2)](READMEs/hub-datalad-org/www.md) | [0](READMEs/hub-datalad-org/www.md) | 2025-02-17 15:26:56+00:00 |
+
+## Gone
+No repositories found!
