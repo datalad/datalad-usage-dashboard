@@ -1,7 +1,8 @@
 ## Active
-| # | Repository (1) | Stars | Last Modified |
+| # | Repository (2) | Stars | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [juaml/datalad-example-bgen](https://gin.g-node.org/juaml/datalad-example-bgen) | 0 | 2021-12-14 16:58:56+00:00 |
+| 2 | [juaml/datalad-example-bids](https://gin.g-node.org/juaml/datalad-example-bids) | 0 | 2024-11-19 14:19:54+00:00 |
 
 ## Gone
 | # | Repository (3) | Stars | Last Modified |
