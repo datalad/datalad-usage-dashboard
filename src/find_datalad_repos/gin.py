@@ -76,13 +76,22 @@ class GINSearcher(Client, Searcher[GINRepo]):
         # custom RetryConfig above) once
         # <https://github.com/G-Node/gogs/issues/148> is resolved:
         ###
-        # for datum in self.paginate("/repos/search"):
+        # for datum in self.paginate(
+        #     "/repos/search", params={"private": "false", "is_private": "false"}
+        # ):
         #     yield GINRepo.from_data(datum)
         ###
         page = 1
         while True:
             try:
-                r = self.get("/repos/search", params={"page": page}, raw=True)
+                r = self.get(
+                    "/repos/search",
+                    # `private` and `is_private` are supported by the forgejo
+                    # family (e.g., hub.datalad.org) but not GIN itself; for
+                    # that, we filter on the "private" field below.
+                    params={"page": page, "private": "false", "is_private": "false"},
+                    raw=True,
+                )
             except PrettyHTTPError as e:
                 if e.response.status_code == 500:
                     log.warning(
@@ -102,6 +111,8 @@ class GINSearcher(Client, Searcher[GINRepo]):
 
     def get_datalad_repos(self) -> Iterator[GINRepo]:
         for datum in self.search_repositories():
+            if datum.get("private", False):
+                continue
             repo = GINRepo.from_data(datum)
             if self.has_datalad_config(repo.name, datum["default_branch"]):
                 log.info("Found DataLad repo on GIN: %r (ID: %d)", repo.name, repo.id)
