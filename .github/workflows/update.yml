@@ -27,7 +27,7 @@ jobs:
 
       - name: Run script
         # No space between `-e` and `run` or tox gets confused
-        run: tox -erun -- -l DEBUG --github --osf
+        run: tox -erun -- -l DEBUG --hosts GitHub,OSF
         env:
           GITHUB_TOKEN: ${{ secrets.SEARCH_GITHUB_TOKEN }}
 
