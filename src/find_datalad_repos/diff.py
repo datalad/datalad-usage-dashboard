@@ -3,10 +3,18 @@ from datetime import date
 import os
 from pathlib import Path
 import subprocess
+from typing import Protocol, TypeVar
 import click
 from .config import RECORD_FILE
 from .readmes import mkreadmes
 from .record import RepoRecord
+
+
+class Ided(Protocol):
+    id: int
+
+
+D = TypeVar("D", bound="Ided")
 
 
 @click.command()
@@ -59,24 +67,21 @@ def main(
     to_commit = "HEAD" if to_point is None else dateish2commit(repo, to_point)
     from_record = RepoRecord.model_validate_json(read_record(from_commit, repo))
     to_record = RepoRecord.model_validate_json(read_record(to_commit, repo))
-    old_github_repos = {r.name for r in from_record.github}
-    old_osf_repos = {r.id for r in from_record.osf}
-    old_gin_repos = {r.id for r in from_record.gin}
-    old_hub_repos = {r.id for r in from_record.hub_datalad_org}
-    new_record = RepoRecord()
-    for ghr in to_record.github:
-        if ghr.name not in old_github_repos:
-            new_record.github.append(ghr)
-    for osfr in to_record.osf:
-        if osfr.id not in old_osf_repos:
-            new_record.osf.append(osfr)
-    for ginr in to_record.gin:
-        if ginr.id not in old_gin_repos:
-            new_record.gin.append(ginr)
-    for hubr in to_record.hub_datalad_org:
-        if hubr.id not in old_hub_repos:
-            new_record.hub_datalad_org.append(hubr)
+    new_record = RepoRecord(
+        github=diff_by_id(from_record.github, to_record.github),
+        osf=diff_by_id(from_record.osf, to_record.osf),
+        gin=diff_by_id(from_record.gin, to_record.gin),
+        hub_datalad_org=diff_by_id(
+            from_record.hub_datalad_org, to_record.hub_datalad_org
+        ),
+        atris=diff_by_id(from_record.atris, to_record.atris),
+    )
     mkreadmes(new_record, filename=readme_file, directory=readme_dir)
+
+
+def diff_by_id(old: list[D], new: list[D]) -> list[D]:
+    old_ids = {i.id for i in old}
+    return [j for j in new if j.id not in old_ids]
 
 
 def dateish2commit(repo: Path, dateish: str) -> str:

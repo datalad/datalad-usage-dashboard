@@ -27,7 +27,7 @@ jobs:
 
       - name: Run script
         # No space between `-e` and `run` or tox gets confused
-        run: tox -erun -- -l DEBUG --gin --hub-datalad-org
+        run: tox -erun -- -l DEBUG --hosts GIN,hub.datalad.org,ATRIS
         env:
           GIN_TOKEN: ${{ secrets.GIN_TOKEN }}
           HUB_DATALAD_ORG_TOKEN: ${{ secrets.HUB_DATALAD_ORG_TOKEN }}

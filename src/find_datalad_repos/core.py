@@ -1,6 +1,7 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from collections.abc import Iterable
+from enum import Enum
 from types import TracebackType
 from typing import Any, Generic, Self, TypeVar
 
@@ -12,10 +13,18 @@ U = TypeVar("U")
 S = TypeVar("S", bound="Searcher")
 
 
+class RepoHost(Enum):
+    GITHUB = "GitHub"
+    GIN = "GIN"
+    OSF = "OSF"
+    HUB_DATALAD_ORG = "hub.datalad.org"
+    ATRIS = "ATRIS"
+
+
 class Updater(ABC, Generic[T, U, S]):
     @classmethod
     @abstractmethod
-    def from_collection(cls, collection: list[T]) -> Self:
+    def from_collection(cls, host: RepoHost, collection: list[T]) -> Self:
         ...
 
     @abstractmethod

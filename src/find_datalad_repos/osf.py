@@ -7,7 +7,7 @@ from types import TracebackType
 from typing import Any
 from pydantic import BaseModel, Field
 import requests
-from .core import Searcher, Updater
+from .core import RepoHost, Searcher, Updater
 from .tables import OSF_COLUMNS, Column, TableRow
 from .util import USER_AGENT, Status, log
 
@@ -92,7 +92,9 @@ class OSFUpdater(BaseModel, Updater[OSFRepo, OSFRepo, OSFSearcher]):
     new_repos: int = 0
 
     @classmethod
-    def from_collection(cls, collection: list[OSFRepo]) -> OSFUpdater:
+    def from_collection(
+        cls, host: RepoHost, collection: list[OSFRepo]  # noqa: U100
+    ) -> OSFUpdater:
         return cls(all_repos={repo.id: repo for repo in collection})
 
     def get_searcher(self, **_kwargs: Any) -> OSFSearcher:

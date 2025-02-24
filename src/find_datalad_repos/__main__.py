@@ -2,24 +2,50 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 import click
 from click_loglevel import LogLevel
 from ghtoken import get_ghtoken
 from .config import README_FOLDER, RECORD_FILE
+from .core import RepoHost
 from .readmes import mkreadmes
 from .record import RepoRecord
 from .util import commit, runcmd
 
 
-def set_mode(
-    ctx: click.Context, _param: click.Parameter, value: str | None
-) -> str | None:
-    if value is not None:
-        ctx.params.setdefault("mode", set()).add(value)
-    return value
+class RepoHostSet(click.ParamType):
+    name = "hostset"
+
+    def convert(
+        self,
+        value: str | set[RepoHost],
+        param: click.Parameter | None,
+        ctx: click.Context | None,
+    ) -> set[RepoHost]:
+        if not isinstance(value, str):
+            return value
+        selected: set[RepoHost] = set()
+        for v in re.split(r"\s*,\s*", value):
+            if v == "all":
+                selected.update(RepoHost)
+            else:
+                try:
+                    selected.add(RepoHost(v))
+                except ValueError:
+                    self.fail(f"{value!r}: invalid item {v!r}", param, ctx)
+        return selected
+
+    def get_metavar(self, _param: click.Parameter) -> str:
+        return "[all," + ",".join(v.value for v in RepoHost) + "]"
 
 
 @click.command()
+@click.option(
+    "--hosts",
+    type=RepoHostSet(),
+    default="all",
+    help="Set which repository hosts to query",
+)
 @click.option(
     "-l",
     "--log-level",
@@ -28,43 +54,12 @@ def set_mode(
     help="Set logging level  [default: INFO]",
 )
 @click.option(
-    "--gin",
-    flag_value="gin",
-    callback=set_mode,
-    expose_value=False,
-    help="Update GIN data",
-)
-@click.option(
-    "--github",
-    flag_value="github",
-    callback=set_mode,
-    expose_value=False,
-    help="Update GitHub data",
-)
-@click.option(
-    "--hub-datalad-org",
-    flag_value="hub.datalad.org",
-    callback=set_mode,
-    expose_value=False,
-    help="Update hub.datalad.org data",
-)
-@click.option(
-    "--osf",
-    flag_value="osf",
-    callback=set_mode,
-    expose_value=False,
-    help="Update OSF data",
-)
-@click.option(
     "-R",
     "--regen-readme",
     is_flag=True,
     help="Regenerate the README from the JSON file without querying",
 )
-def main(log_level: int, regen_readme: bool, mode: set[str] | None = None) -> None:
-    if regen_readme and mode:
-        raise click.UsageError("--regen-readme is mutually exclusive with mode options")
-
+def main(log_level: int, regen_readme: bool, hosts: set[RepoHost]) -> None:
     logging.basicConfig(
         format="%(asctime)s [%(levelname)-8s] %(name)s %(message)s",
         datefmt="%Y-%m-%dT%H:%M:%S%z",
@@ -79,16 +74,18 @@ def main(log_level: int, regen_readme: bool, mode: set[str] | None = None) -> No
 
     reports: list[str] = []
     if not regen_readme:
-        if mode is None or "github" in mode:
+        if RepoHost.GITHUB in hosts:
             reports.extend(record.update_github(get_ghtoken()))
-        if mode is None or "osf" in mode:
+        if RepoHost.OSF in hosts:
             reports.extend(record.update_osf())
-        if mode is None or "gin" in mode:
+        if RepoHost.GIN in hosts:
             reports.extend(record.update_gin(os.environ["GIN_TOKEN"]))
-        if mode is None or "hub.datalad.org" in mode:
+        if RepoHost.HUB_DATALAD_ORG in hosts:
             reports.extend(
                 record.update_hub_datalad_org(os.environ["HUB_DATALAD_ORG_TOKEN"])
             )
+        if RepoHost.ATRIS in hosts:
+            reports.extend(record.update_atris())
         with open(RECORD_FILE, "w") as fp:
             print(record.model_dump_json(indent=4), file=fp)
 
