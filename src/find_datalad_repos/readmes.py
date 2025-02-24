@@ -45,6 +45,20 @@ def mkreadmes(
     )
     (osf_block, osf_active, osf_gone) = make_osf_tables(record.osf)
     with open(filename, "w") as fp:
+        print("# Introduction", file=fp)
+        print(file=fp)
+        print(
+            "This file is automatically updated using GitHub Actions workflows. "
+            "It lists Git repositories discovered on GitHub and other hosts that "
+            "either are [DataLad](https://www.datalad.org) datasets or else had "
+            "`datalad run` used on them. "
+            "Furthermore, the [`datalad-repos.json`](./datalad-repos.json) file in "
+            "this repository is used by https://registry.datalad.org/ to provide "
+            "up-to-date metadata for these repositories and support metadata-based "
+            "searches.",
+            file=fp,
+        )
+        print(file=fp)
         print("# Summary", file=fp)
         print(
             f"- [GitHub](#github): [{github_wild}](#in-the-wild) in the wild +"
