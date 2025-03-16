@@ -1,10 +1,10 @@
 ## Active
-| # | Repository (34) | Stars (82) | Dataset (25) | `run` (18) | `containers-run` (2) | Last Modified |
+| # | Repository (34) | Stars (83) | Dataset (25) | `run` (18) | `containers-run` (2) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [psychoinformatics-de/anima](https://github.com/psychoinformatics-de/anima) | 0 | :heavy_check_mark: |  |  | 2018-12-14 21:01:18+00:00 |
 | 2 | [psychoinformatics-de/datalad-concepts](https://github.com/psychoinformatics-de/datalad-concepts) | 6 |  | :heavy_check_mark: |  | 2025-02-13 07:37:26+00:00 |
 | 3 | [psychoinformatics-de/datalad-tabby](https://github.com/psychoinformatics-de/datalad-tabby) | 1 |  | :heavy_check_mark: |  | 2024-04-26 16:00:27+00:00 |
-| 4 | [psychoinformatics-de/fairly-big-processing-workflow-tutorial](https://github.com/psychoinformatics-de/fairly-big-processing-workflow-tutorial) | 7 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2022-02-09 07:20:34+00:00 |
+| 4 | [psychoinformatics-de/fairly-big-processing-workflow-tutorial](https://github.com/psychoinformatics-de/fairly-big-processing-workflow-tutorial) | 8 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2022-02-09 07:20:34+00:00 |
 | 5 | [psychoinformatics-de/hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) | 0 | :heavy_check_mark: |  |  | 2021-01-27 10:26:06+00:00 |
 | 6 | [psychoinformatics-de/hirni-demo-acq1](https://github.com/psychoinformatics-de/hirni-demo-acq1) | 0 | :heavy_check_mark: |  |  | 2020-09-22 12:04:41+00:00 |
 | 7 | [psychoinformatics-de/hirni-demo-acq2](https://github.com/psychoinformatics-de/hirni-demo-acq2) | 0 | :heavy_check_mark: |  |  | 2020-09-22 12:04:10+00:00 |

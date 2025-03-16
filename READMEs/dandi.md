@@ -16,7 +16,7 @@
 | 13 | [dandi/ndx-dandi](https://github.com/dandi/ndx-dandi) | 0 |  | :heavy_check_mark: |  | 2020-02-06 17:21:35+00:00 |
 | 14 | [dandi/nwb-healthstatus](https://github.com/dandi/nwb-healthstatus) | 1 | :heavy_check_mark: |  |  | 2023-11-09 22:05:52+00:00 |
 | 15 | [dandi/redirector](https://github.com/dandi/redirector) | 0 |  | :heavy_check_mark: |  | 2023-05-22 15:33:18+00:00 |
-| 16 | [dandi/s3invsync](https://github.com/dandi/s3invsync) | 2 |  | :heavy_check_mark: |  | 2025-03-03 13:06:08+00:00 |
+| 16 | [dandi/s3invsync](https://github.com/dandi/s3invsync) | 2 |  | :heavy_check_mark: |  | 2025-03-10 12:05:31+00:00 |
 | 17 | [dandi/s5cmd-dandi](https://github.com/dandi/s5cmd-dandi) | 0 |  | :heavy_check_mark: |  | 2024-10-29 16:08:09+00:00 |
 | 18 | [dandi/schema](https://github.com/dandi/schema) | 3 |  | :heavy_check_mark: |  | 2025-01-17 20:28:04+00:00 |
 | 19 | [dandi/upptime](https://github.com/dandi/upptime) | 3 |  | :heavy_check_mark: |  | 2025-03-11 00:21:36+00:00 |
