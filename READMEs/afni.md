@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (4) | Stars (168) | Dataset (2) | `run` (4) | `containers-run` | Last Modified |
+| # | Repository (4) | Stars (169) | Dataset (2) | `run` (4) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [afni/afni](https://github.com/afni/afni) | 167 |  | :heavy_check_mark: |  | 2025-03-09 14:53:38+00:00 |
+| 1 | [afni/afni](https://github.com/afni/afni) | 168 |  | :heavy_check_mark: |  | 2025-03-17 23:02:05+00:00 |
 | 2 | [afni/afni_atlases](https://github.com/afni/afni_atlases) | 0 |  | :heavy_check_mark: |  | 2019-12-18 21:18:56+00:00 |
 | 3 | [afni/afni_ci_test_data](https://github.com/afni/afni_ci_test_data) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-03-23 22:43:18+00:00 |
 | 4 | [afni/afni_data](https://github.com/afni/afni_data) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2020-01-29 16:27:19+00:00 |
