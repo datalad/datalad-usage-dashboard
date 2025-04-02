@@ -28,7 +28,7 @@
 | 25 | [datalad/datalad.org](https://github.com/datalad/datalad.org) | 4 |  | :heavy_check_mark: |  | 2025-03-31 01:38:37+00:00 |
 | 26 | [datalad/datasets.datalad.org](https://github.com/datalad/datasets.datalad.org) | 8 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-01-16 19:48:26+00:00 |
 | 27 | [datalad/datasets.datalad.org--labs](https://github.com/datalad/datasets.datalad.org--labs) | 0 | :heavy_check_mark: |  |  | 2018-05-18 20:47:27+00:00 |
-| 28 | [datalad/datasets.datalad.org-gitlog-stats](https://github.com/datalad/datasets.datalad.org-gitlog-stats) | 0 |  | :heavy_check_mark: |  | 2025-03-24 14:32:57+00:00 |
+| 28 | [datalad/datasets.datalad.org-gitlog-stats](https://github.com/datalad/datasets.datalad.org-gitlog-stats) | 0 |  | :heavy_check_mark: |  | 2025-03-31 14:16:28+00:00 |
 | 29 | [datalad/example-dicom-functional](https://github.com/datalad/example-dicom-functional) | 2 | :heavy_check_mark: |  |  | 2018-04-27 06:57:04+00:00 |
 | 30 | [datalad/example-dicom-structural](https://github.com/datalad/example-dicom-structural) | 11 | :heavy_check_mark: |  |  | 2018-04-27 07:40:52+00:00 |
 | 31 | [datalad/git-annex](https://github.com/datalad/git-annex) | 22 |  | :heavy_check_mark: |  | 2025-03-29 20:09:01+00:00 |
