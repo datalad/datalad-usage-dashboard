@@ -6,7 +6,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 - [GitHub](#github): [3014](#in-the-wild) in the wild + [2892](#inner-circle) inner-circle + [104](#gone) gone
 - [OSF](#osf): [189](#active) active + [67](#gone-1) gone
 - [GIN](#gin): [824](#active-1) active + [12](#gone-2) gone
-- [hub.datalad.org](#hubdataladorg): [4600](#active-2) active + [1](#gone-3) gone
+- [hub.datalad.org](#hubdataladorg): [4601](#active-2) active + [1](#gone-3) gone
 - [ATRIS](#atris): [106](#active-3) active + [0](#gone-4) gone
 
 # GitHub
@@ -1103,11 +1103,11 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # hub.datalad.org
 ## Active
-| # | Repository (4600) | Stars (2) | Last Modified |
+| # | Repository (4601) | Stars (2) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [adina/*](https://hub.datalad.org/adina) [(2)](READMEs/hub-datalad-org/adina.md) | [0](READMEs/hub-datalad-org/adina.md) | 2024-09-24 08:07:16+00:00 |
 | 2 | [candleindark/*](https://hub.datalad.org/candleindark) [(2)](READMEs/hub-datalad-org/candleindark.md) | [0](READMEs/hub-datalad-org/candleindark.md) | 2024-12-20 12:40:59+00:00 |
-| 3 | [distribits/*](https://hub.datalad.org/distribits) [(2)](READMEs/hub-datalad-org/distribits.md) | [2](READMEs/hub-datalad-org/distribits.md) | 2025-02-24 10:20:17+00:00 |
+| 3 | [distribits/*](https://hub.datalad.org/distribits) [(3)](READMEs/hub-datalad-org/distribits.md) | [2](READMEs/hub-datalad-org/distribits.md) | 2025-04-04 19:57:50+00:00 |
 | 4 | [hcp-openaccess/*](https://hub.datalad.org/hcp-openaccess) [(4550)](READMEs/hub-datalad-org/hcp-openaccess.md) | [0](READMEs/hub-datalad-org/hcp-openaccess.md) | 2024-08-27 11:38:38+00:00 |
 | 5 | [j.goddard/*](https://hub.datalad.org/j.goddard) [(3)](READMEs/hub-datalad-org/j.goddard.md) | [0](READMEs/hub-datalad-org/j.goddard.md) | 2025-02-27 08:24:39+00:00 |
 | 6 | [jsheunis/docs.trr379.de](https://hub.datalad.org/jsheunis/docs.trr379.de) | 0 | 2025-02-26 09:24:13+00:00 |
@@ -1128,8 +1128,8 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 ## Active
 | # | Repository (106) | Stars (1) | Last Modified |
 | --- | --- | --- | --- |
-| 1 | [CAIRT/*](https://atris.fz-juelich.de/CAIRT) [(6)](READMEs/atris/CAIRT.md) | [0](READMEs/atris/CAIRT.md) | 2025-02-19 06:36:57+00:00 |
-| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(87)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2025-03-24 04:35:05+00:00 |
+| 1 | [CAIRT/*](https://atris.fz-juelich.de/CAIRT) [(6)](READMEs/atris/CAIRT.md) | [0](READMEs/atris/CAIRT.md) | 2025-04-01 15:44:14+00:00 |
+| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(87)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2025-03-31 04:35:50+00:00 |
 | 3 | [b.vogel/Southtrac-2019-CLaMS-results](https://atris.fz-juelich.de/b.vogel/Southtrac-2019-CLaMS-results) | 0 | 2024-07-22 16:41:23+00:00 |
 | 4 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(4)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2025-02-24 12:30:42+00:00 |
 | 5 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(6)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2025-01-22 13:05:05+00:00 |
