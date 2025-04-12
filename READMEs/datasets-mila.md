@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (309) | Stars (20) | Dataset (205) | `run` (291) | `containers-run` | Last Modified |
+| # | Repository (310) | Stars (20) | Dataset (205) | `run` (292) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [datasets-mila/datasets--LDC--ontonotes](https://github.com/datasets-mila/datasets--LDC--ontonotes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 20:28:29+00:00 |
 | 2 | [datasets-mila/datasets--algoperf](https://github.com/datasets-mila/datasets--algoperf) | 0 |  | :heavy_check_mark: |  | 2025-04-09 23:13:40+00:00 |
@@ -295,21 +295,22 @@
 | 292 | [datasets-mila/datasets--qm7x](https://github.com/datasets-mila/datasets--qm7x) | 0 |  | :heavy_check_mark: |  | 2023-01-10 21:06:56+00:00 |
 | 293 | [datasets-mila/datasets--qmnist](https://github.com/datasets-mila/datasets--qmnist) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:07:04+00:00 |
 | 294 | [datasets-mila/datasets--quickdraw](https://github.com/datasets-mila/datasets--quickdraw) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:07:12+00:00 |
-| 295 | [datasets-mila/datasets--robotcar](https://github.com/datasets-mila/datasets--robotcar) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:07:20+00:00 |
-| 296 | [datasets-mila/datasets--shapenet](https://github.com/datasets-mila/datasets--shapenet) | 5 |  | :heavy_check_mark: |  | 2022-06-07 22:28:53+00:00 |
-| 297 | [datasets-mila/datasets--songlyrics--songlyrics](https://github.com/datasets-mila/datasets--songlyrics--songlyrics) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2022-10-07 19:05:24+00:00 |
-| 298 | [datasets-mila/datasets--songlyrics--songlyrics_mousehead](https://github.com/datasets-mila/datasets--songlyrics--songlyrics_mousehead) | 0 | :heavy_check_mark: |  |  | 2022-06-07 22:29:49+00:00 |
-| 299 | [datasets-mila/datasets--stl10](https://github.com/datasets-mila/datasets--stl10) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:08:05+00:00 |
-| 300 | [datasets-mila/datasets--svhn](https://github.com/datasets-mila/datasets--svhn) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:08:13+00:00 |
-| 301 | [datasets-mila/datasets--timit](https://github.com/datasets-mila/datasets--timit) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:08:21+00:00 |
-| 302 | [datasets-mila/datasets--tinyimagenet](https://github.com/datasets-mila/datasets--tinyimagenet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:08:29+00:00 |
-| 303 | [datasets-mila/datasets--toyadmos](https://github.com/datasets-mila/datasets--toyadmos) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:08:37+00:00 |
-| 304 | [datasets-mila/datasets--treemonitoring](https://github.com/datasets-mila/datasets--treemonitoring) | 0 | :heavy_check_mark: |  |  | 2023-01-10 21:08:52+00:00 |
-| 305 | [datasets-mila/datasets--twitter](https://github.com/datasets-mila/datasets--twitter) | 0 | :heavy_check_mark: |  |  | 2023-01-10 21:09:01+00:00 |
-| 306 | [datasets-mila/datasets--ubuntu](https://github.com/datasets-mila/datasets--ubuntu) | 0 |  | :heavy_check_mark: |  | 2023-01-10 21:09:09+00:00 |
-| 307 | [datasets-mila/datasets--voc2012](https://github.com/datasets-mila/datasets--voc2012) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:09:24+00:00 |
-| 308 | [datasets-mila/datasets--waymoperception](https://github.com/datasets-mila/datasets--waymoperception) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:09:33+00:00 |
-| 309 | [datasets-mila/datasets--wikitext](https://github.com/datasets-mila/datasets--wikitext) | 0 | :heavy_check_mark: |  |  | 2022-06-07 22:32:00+00:00 |
+| 295 | [datasets-mila/datasets--rapidai4eo](https://github.com/datasets-mila/datasets--rapidai4eo) | 0 |  | :heavy_check_mark: |  | 2025-04-11 15:14:53+00:00 |
+| 296 | [datasets-mila/datasets--robotcar](https://github.com/datasets-mila/datasets--robotcar) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:07:20+00:00 |
+| 297 | [datasets-mila/datasets--shapenet](https://github.com/datasets-mila/datasets--shapenet) | 5 |  | :heavy_check_mark: |  | 2022-06-07 22:28:53+00:00 |
+| 298 | [datasets-mila/datasets--songlyrics--songlyrics](https://github.com/datasets-mila/datasets--songlyrics--songlyrics) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2022-10-07 19:05:24+00:00 |
+| 299 | [datasets-mila/datasets--songlyrics--songlyrics_mousehead](https://github.com/datasets-mila/datasets--songlyrics--songlyrics_mousehead) | 0 | :heavy_check_mark: |  |  | 2022-06-07 22:29:49+00:00 |
+| 300 | [datasets-mila/datasets--stl10](https://github.com/datasets-mila/datasets--stl10) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:08:05+00:00 |
+| 301 | [datasets-mila/datasets--svhn](https://github.com/datasets-mila/datasets--svhn) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:08:13+00:00 |
+| 302 | [datasets-mila/datasets--timit](https://github.com/datasets-mila/datasets--timit) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:08:21+00:00 |
+| 303 | [datasets-mila/datasets--tinyimagenet](https://github.com/datasets-mila/datasets--tinyimagenet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:08:29+00:00 |
+| 304 | [datasets-mila/datasets--toyadmos](https://github.com/datasets-mila/datasets--toyadmos) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:08:37+00:00 |
+| 305 | [datasets-mila/datasets--treemonitoring](https://github.com/datasets-mila/datasets--treemonitoring) | 0 | :heavy_check_mark: |  |  | 2023-01-10 21:08:52+00:00 |
+| 306 | [datasets-mila/datasets--twitter](https://github.com/datasets-mila/datasets--twitter) | 0 | :heavy_check_mark: |  |  | 2023-01-10 21:09:01+00:00 |
+| 307 | [datasets-mila/datasets--ubuntu](https://github.com/datasets-mila/datasets--ubuntu) | 0 |  | :heavy_check_mark: |  | 2023-01-10 21:09:09+00:00 |
+| 308 | [datasets-mila/datasets--voc2012](https://github.com/datasets-mila/datasets--voc2012) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:09:24+00:00 |
+| 309 | [datasets-mila/datasets--waymoperception](https://github.com/datasets-mila/datasets--waymoperception) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 21:09:33+00:00 |
+| 310 | [datasets-mila/datasets--wikitext](https://github.com/datasets-mila/datasets--wikitext) | 0 | :heavy_check_mark: |  |  | 2022-06-07 22:32:00+00:00 |
 
 ## Gone
 | # | Repository (8) | Stars | Dataset (1) | `run` (7) | `containers-run` | Last Modified |
