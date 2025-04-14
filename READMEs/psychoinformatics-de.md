@@ -17,7 +17,7 @@
 | 14 | [psychoinformatics-de/paper-remodnav](https://github.com/psychoinformatics-de/paper-remodnav) | 4 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-10-21 12:15:10+00:00 |
 | 15 | [psychoinformatics-de/rdm-course](https://github.com/psychoinformatics-de/rdm-course) | 10 |  | :heavy_check_mark: |  | 2024-12-07 20:17:44+00:00 |
 | 16 | [psychoinformatics-de/rostami_etal_2024-reproducer](https://github.com/psychoinformatics-de/rostami_etal_2024-reproducer) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2024-05-29 09:16:35+00:00 |
-| 17 | [psychoinformatics-de/shacl-vue](https://github.com/psychoinformatics-de/shacl-vue) | 0 |  | :heavy_check_mark: |  | 2025-03-17 23:50:46+00:00 |
+| 17 | [psychoinformatics-de/shacl-vue](https://github.com/psychoinformatics-de/shacl-vue) | 0 |  | :heavy_check_mark: |  | 2025-04-10 12:12:57+00:00 |
 | 18 | [psychoinformatics-de/studyforrest-data](https://github.com/psychoinformatics-de/studyforrest-data) | 9 | :heavy_check_mark: |  |  | 2022-04-15 09:51:26+00:00 |
 | 19 | [psychoinformatics-de/studyforrest-data-aggregate](https://github.com/psychoinformatics-de/studyforrest-data-aggregate) | 1 | :heavy_check_mark: |  |  | 2024-09-20 04:34:16+00:00 |
 | 20 | [psychoinformatics-de/studyforrest-data-aligned](https://github.com/psychoinformatics-de/studyforrest-data-aligned) | 1 | :heavy_check_mark: |  |  | 2023-04-13 15:12:39+00:00 |
