@@ -40,7 +40,7 @@
 | 37 | [courtois-neuromod/shinobi.mriqc](https://github.com/courtois-neuromod/shinobi.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2025-03-20 17:41:09+00:00 |
 | 38 | [courtois-neuromod/shinobi.stimuli](https://github.com/courtois-neuromod/shinobi.stimuli) | 1 | :heavy_check_mark: |  |  | 2023-07-24 02:52:58+00:00 |
 | 39 | [courtois-neuromod/shinobi_training](https://github.com/courtois-neuromod/shinobi_training) | 1 | :heavy_check_mark: |  |  | 2024-11-18 22:24:01+00:00 |
-| 40 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 8 | :heavy_check_mark: |  |  | 2025-02-27 17:53:51+00:00 |
+| 40 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 8 | :heavy_check_mark: |  |  | 2025-04-26 00:51:17+00:00 |
 | 41 | [courtois-neuromod/templateflow](https://github.com/courtois-neuromod/templateflow) | 0 | :heavy_check_mark: |  |  | 2021-09-29 00:01:12+00:00 |
 | 42 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  | 2025-02-05 16:13:16+00:00 |
 
