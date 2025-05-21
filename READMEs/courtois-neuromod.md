@@ -4,7 +4,7 @@
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  | 2020-05-27 13:39:11+00:00 |
 | 2 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 2 | :heavy_check_mark: |  |  | 2025-05-02 15:12:31+00:00 |
 | 3 | [courtois-neuromod/anat.freesurfer](https://github.com/courtois-neuromod/anat.freesurfer) | 0 | :heavy_check_mark: |  |  | 2025-03-28 02:24:54+00:00 |
-| 4 | [courtois-neuromod/anat.smriprep](https://github.com/courtois-neuromod/anat.smriprep) | 0 | :heavy_check_mark: |  |  | 2025-03-28 02:24:58+00:00 |
+| 4 | [courtois-neuromod/anat.smriprep](https://github.com/courtois-neuromod/anat.smriprep) | 0 | :heavy_check_mark: |  |  | 2025-05-16 19:23:08+00:00 |
 | 5 | [courtois-neuromod/cimaq_fmriprep](https://github.com/courtois-neuromod/cimaq_fmriprep) | 0 | :heavy_check_mark: |  |  | 2021-09-25 19:52:39+00:00 |
 | 6 | [courtois-neuromod/cneuromod](https://github.com/courtois-neuromod/cneuromod) | 12 | :heavy_check_mark: |  |  | 2025-05-02 15:29:13+00:00 |
 | 7 | [courtois-neuromod/cneuromod.fmriprep](https://github.com/courtois-neuromod/cneuromod.fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-03-28 02:24:49+00:00 |
@@ -19,7 +19,7 @@
 | 16 | [courtois-neuromod/friends.fmriprep](https://github.com/courtois-neuromod/friends.fmriprep) | 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2025-03-28 02:24:18+00:00 |
 | 17 | [courtois-neuromod/friends.mriqc](https://github.com/courtois-neuromod/friends.mriqc) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2022-08-04 14:19:03+00:00 |
 | 18 | [courtois-neuromod/friends.stimuli](https://github.com/courtois-neuromod/friends.stimuli) | 1 | :heavy_check_mark: |  |  | 2024-12-28 19:18:11+00:00 |
-| 19 | [courtois-neuromod/friends_annotations](https://github.com/courtois-neuromod/friends_annotations) | 0 | :heavy_check_mark: |  |  | 2025-05-06 19:43:44+00:00 |
+| 19 | [courtois-neuromod/friends_annotations](https://github.com/courtois-neuromod/friends_annotations) | 0 | :heavy_check_mark: |  |  | 2025-05-16 21:13:29+00:00 |
 | 20 | [courtois-neuromod/friends_nlp_reproducibility](https://github.com/courtois-neuromod/friends_nlp_reproducibility) | 0 | :heavy_check_mark: |  |  | 2022-07-20 19:47:18+00:00 |
 | 21 | [courtois-neuromod/harrypotter](https://github.com/courtois-neuromod/harrypotter) | 0 | :heavy_check_mark: |  |  | 2025-05-02 15:13:03+00:00 |
 | 22 | [courtois-neuromod/harrypotter.fmriprep](https://github.com/courtois-neuromod/harrypotter.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-03-28 02:24:25+00:00 |
