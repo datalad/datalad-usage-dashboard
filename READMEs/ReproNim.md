@@ -3,7 +3,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproNim/OpenNeuroDerivatives-NIDM](https://github.com/ReproNim/OpenNeuroDerivatives-NIDM) | 1 |  | :heavy_check_mark: |  | 2025-05-19 16:44:57+00:00 |
 | 2 | [ReproNim/ReproTube](https://github.com/ReproNim/ReproTube) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-06-27 03:00:45+00:00 |
-| 3 | [ReproNim/SumarizeFmriprep](https://github.com/ReproNim/SumarizeFmriprep) | 0 |  | :heavy_check_mark: |  | 2025-05-16 17:00:23+00:00 |
+| 3 | [ReproNim/SumarizeFmriprep](https://github.com/ReproNim/SumarizeFmriprep) | 0 |  | :heavy_check_mark: |  | 2025-05-19 16:39:13+00:00 |
 | 4 | [ReproNim/abcd-apps](https://github.com/ReproNim/abcd-apps) | 0 | :heavy_check_mark: |  |  | 2023-02-13 13:28:51+00:00 |
 | 5 | [ReproNim/antspy-docker](https://github.com/ReproNim/antspy-docker) | 0 | :heavy_check_mark: |  |  | 2023-03-23 19:39:35+00:00 |
 | 6 | [ReproNim/coco2019-training](https://github.com/ReproNim/coco2019-training) | 2 | :heavy_check_mark: |  |  | 2022-07-06 20:14:58+00:00 |
