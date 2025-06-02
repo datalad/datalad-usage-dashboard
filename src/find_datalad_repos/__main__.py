@@ -35,7 +35,7 @@ class RepoHostSet(click.ParamType):
                     self.fail(f"{value!r}: invalid item {v!r}", param, ctx)
         return selected
 
-    def get_metavar(self, _param: click.Parameter) -> str:
+    def get_metavar(self, _param: click.Parameter, _ctx: click.Context) -> str:
         return "[all," + ",".join(v.value for v in RepoHost) + "]"
 
 
