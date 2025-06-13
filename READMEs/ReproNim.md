@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (29) | Stars (469) | Dataset (16) | `run` (19) | `containers-run` (1) | Last Modified |
+| # | Repository (29) | Stars (470) | Dataset (16) | `run` (19) | `containers-run` (1) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproNim/OpenNeuroDerivatives-NIDM](https://github.com/ReproNim/OpenNeuroDerivatives-NIDM) | 1 |  | :heavy_check_mark: |  | 2025-05-19 16:44:57+00:00 |
 | 2 | [ReproNim/ReproTube](https://github.com/ReproNim/ReproTube) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-06-27 03:00:45+00:00 |
@@ -25,7 +25,7 @@
 | 22 | [ReproNim/repronim.github.io](https://github.com/ReproNim/repronim.github.io) | 3 |  | :heavy_check_mark: |  | 2025-04-08 14:11:24+00:00 |
 | 23 | [ReproNim/repronim.org](https://github.com/ReproNim/repronim.org) | 0 |  | :heavy_check_mark: |  | 2025-05-25 22:28:38+00:00 |
 | 24 | [ReproNim/reproschema-ui](https://github.com/ReproNim/reproschema-ui) | 3 |  | :heavy_check_mark: |  | 2025-02-22 18:26:50+00:00 |
-| 25 | [ReproNim/reprostim](https://github.com/ReproNim/reprostim) | 5 |  | :heavy_check_mark: |  | 2025-06-03 14:47:48+00:00 |
+| 25 | [ReproNim/reprostim](https://github.com/ReproNim/reprostim) | 6 |  | :heavy_check_mark: |  | 2025-06-03 14:47:48+00:00 |
 | 26 | [ReproNim/reprostim-sessions](https://github.com/ReproNim/reprostim-sessions) | 0 | :heavy_check_mark: |  |  | 2023-03-09 15:02:51+00:00 |
 | 27 | [ReproNim/sfn2018-training](https://github.com/ReproNim/sfn2018-training) | 2 | :heavy_check_mark: |  |  | 2022-07-06 20:14:08+00:00 |
 | 28 | [ReproNim/test-babs](https://github.com/ReproNim/test-babs) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-12-08 20:39:43+00:00 |
