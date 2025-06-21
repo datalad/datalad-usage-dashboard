@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (403) | Stars | Dataset (403) | `run` | `containers-run` | Last Modified |
+| # | Repository (404) | Stars | Dataset (404) | `run` | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [OpenNeuroDatasets-JSONLD/ds000001](https://github.com/OpenNeuroDatasets-JSONLD/ds000001) | 0 | :heavy_check_mark: |  |  | 2025-03-20 17:43:29+00:00 |
 | 2 | [OpenNeuroDatasets-JSONLD/ds000002](https://github.com/OpenNeuroDatasets-JSONLD/ds000002) | 0 | :heavy_check_mark: |  |  | 2023-10-26 19:29:04+00:00 |
@@ -402,8 +402,9 @@
 | 399 | [OpenNeuroDatasets-JSONLD/ds004669](https://github.com/OpenNeuroDatasets-JSONLD/ds004669) | 0 | :heavy_check_mark: |  |  | 2025-06-16 13:03:13+00:00 |
 | 400 | [OpenNeuroDatasets-JSONLD/ds004670](https://github.com/OpenNeuroDatasets-JSONLD/ds004670) | 0 | :heavy_check_mark: |  |  | 2025-06-19 13:11:45+00:00 |
 | 401 | [OpenNeuroDatasets-JSONLD/ds005815](https://github.com/OpenNeuroDatasets-JSONLD/ds005815) | 0 | :heavy_check_mark: |  |  | 2025-06-14 12:56:29+00:00 |
-| 402 | [OpenNeuroDatasets-JSONLD/ds006239](https://github.com/OpenNeuroDatasets-JSONLD/ds006239) | 0 | :heavy_check_mark: |  |  | 2025-06-14 02:17:24+00:00 |
-| 403 | [OpenNeuroDatasets-JSONLD/ds006243](https://github.com/OpenNeuroDatasets-JSONLD/ds006243) | 0 | :heavy_check_mark: |  |  | 2025-06-19 02:22:00+00:00 |
+| 402 | [OpenNeuroDatasets-JSONLD/ds005884](https://github.com/OpenNeuroDatasets-JSONLD/ds005884) | 0 | :heavy_check_mark: |  |  | 2025-06-21 02:21:24+00:00 |
+| 403 | [OpenNeuroDatasets-JSONLD/ds006239](https://github.com/OpenNeuroDatasets-JSONLD/ds006239) | 0 | :heavy_check_mark: |  |  | 2025-06-14 02:17:24+00:00 |
+| 404 | [OpenNeuroDatasets-JSONLD/ds006243](https://github.com/OpenNeuroDatasets-JSONLD/ds006243) | 0 | :heavy_check_mark: |  |  | 2025-06-19 02:22:00+00:00 |
 
 ## Gone
 No repositories found!
