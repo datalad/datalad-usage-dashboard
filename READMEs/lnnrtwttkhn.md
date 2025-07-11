@@ -17,10 +17,10 @@
 | 14 | [lnnrtwttkhn/keeper-test](https://github.com/lnnrtwttkhn/keeper-test) | 0 | :heavy_check_mark: |  |  | 2020-10-15 12:56:15+00:00 |
 | 15 | [lnnrtwttkhn/keeper-test2](https://github.com/lnnrtwttkhn/keeper-test2) | 0 | :heavy_check_mark: |  |  | 2020-10-15 13:32:39+00:00 |
 | 16 | [lnnrtwttkhn/replay-illustrations](https://github.com/lnnrtwttkhn/replay-illustrations) | 0 | :heavy_check_mark: |  |  | 2022-10-17 12:26:40+00:00 |
-| 17 | [lnnrtwttkhn/resources](https://github.com/lnnrtwttkhn/resources) | 2 | :heavy_check_mark: |  |  | 2023-06-16 18:29:00+00:00 |
+| 17 | [lnnrtwttkhn/resources](https://github.com/lnnrtwttkhn/resources) | 2 | :heavy_check_mark: |  |  | 2025-07-08 20:38:04+00:00 |
 | 18 | [lnnrtwttkhn/talk-rdm](https://github.com/lnnrtwttkhn/talk-rdm) | 7 |  | :heavy_check_mark: |  | 2023-11-14 20:12:56+00:00 |
 | 19 | [lnnrtwttkhn/tools](https://github.com/lnnrtwttkhn/tools) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-02-01 13:38:02+00:00 |
-| 20 | [lnnrtwttkhn/version-control-book](https://github.com/lnnrtwttkhn/version-control-book) | 9 |  | :heavy_check_mark: |  | 2025-03-31 14:57:15+00:00 |
+| 20 | [lnnrtwttkhn/version-control-book](https://github.com/lnnrtwttkhn/version-control-book) | 9 |  | :heavy_check_mark: |  | 2025-07-08 06:30:29+00:00 |
 
 ## Gone
 No repositories found!
