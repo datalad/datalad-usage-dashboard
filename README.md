@@ -5,8 +5,8 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 # Summary
 - [GitHub](#github): [3250](#in-the-wild) in the wild + [2897](#inner-circle) inner-circle + [144](#gone) gone
 - [OSF](#osf): [189](#active) active + [70](#gone-1) gone
-- [GIN](#gin): [837](#active-1) active + [13](#gone-2) gone
-- [hub.datalad.org](#hubdataladorg): [4604](#active-2) active + [1](#gone-3) gone
+- [GIN](#gin): [839](#active-1) active + [13](#gone-2) gone
+- [hub.datalad.org](#hubdataladorg): [4606](#active-2) active + [1](#gone-3) gone
 - [ATRIS](#atris): [108](#active-3) active + [0](#gone-4) gone
 
 # GitHub
@@ -1186,11 +1186,11 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # GIN
 ## Active
-| # | Repository (837) | Stars (14) | Last Modified |
+| # | Repository (839) | Stars (14) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [AIDAqc_datasets/*](https://gin.g-node.org/AIDAqc_datasets) [(14)](READMEs/gin/AIDAqc_datasets.md) | [0](READMEs/gin/AIDAqc_datasets.md) | 2023-11-24 08:48:18+00:00 |
 | 2 | [AgataKoziol/polish-dataset-public](https://gin.g-node.org/AgataKoziol/polish-dataset-public) | 0 | 2024-03-19 18:22:38+00:00 |
-| 3 | [Aswendt_Lab/*](https://gin.g-node.org/Aswendt_Lab) [(11)](READMEs/gin/Aswendt_Lab.md) | [0](READMEs/gin/Aswendt_Lab.md) | 2025-07-11 08:37:36+00:00 |
+| 3 | [Aswendt_Lab/*](https://gin.g-node.org/Aswendt_Lab) [(12)](READMEs/gin/Aswendt_Lab.md) | [0](READMEs/gin/Aswendt_Lab.md) | 2025-07-17 18:52:18+00:00 |
 | 4 | [CREAM/*](https://gin.g-node.org/CREAM) [(2)](READMEs/gin/CREAM.md) | [0](READMEs/gin/CREAM.md) | 2025-07-02 09:26:52+00:00 |
 | 5 | [CatalystNeuro/*](https://gin.g-node.org/CatalystNeuro) [(2)](READMEs/gin/CatalystNeuro.md) | [1](READMEs/gin/CatalystNeuro.md) | 2025-07-04 09:20:47+00:00 |
 | 6 | [EdoardoBettazzi/*](https://gin.g-node.org/EdoardoBettazzi) [(3)](READMEs/gin/EdoardoBettazzi.md) | [0](READMEs/gin/EdoardoBettazzi.md) | 2025-05-26 14:31:36+00:00 |
@@ -1200,7 +1200,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 10 | [JK/workshop_1](https://gin.g-node.org/JK/workshop_1) | 0 | 2022-05-24 08:54:43+00:00 |
 | 11 | [JTrack/EMA_Pilot](https://gin.g-node.org/JTrack/EMA_Pilot) | 0 | 2024-02-26 08:52:49+00:00 |
 | 12 | [Khan_Abbas/dataset](https://gin.g-node.org/Khan_Abbas/dataset) | 0 | 2023-05-03 12:46:16+00:00 |
-| 13 | [LAAC-LSCP/*](https://gin.g-node.org/LAAC-LSCP) [(13)](READMEs/gin/LAAC-LSCP.md) | [0](READMEs/gin/LAAC-LSCP.md) | 2025-06-29 18:02:31+00:00 |
+| 13 | [LAAC-LSCP/*](https://gin.g-node.org/LAAC-LSCP) [(13)](READMEs/gin/LAAC-LSCP.md) | [0](READMEs/gin/LAAC-LSCP.md) | 2025-07-16 15:29:46+00:00 |
 | 14 | [ME-ICA/ds003643-fmriprep-derivatives](https://gin.g-node.org/ME-ICA/ds003643-fmriprep-derivatives) | 0 | 2022-08-01 13:30:47+00:00 |
 | 15 | [Neuroccino/my-dataset](https://gin.g-node.org/Neuroccino/my-dataset) | 0 | 2022-05-24 09:11:12+00:00 |
 | 16 | [PRESTUS/*](https://gin.g-node.org/PRESTUS) [(2)](READMEs/gin/PRESTUS.md) | [0](READMEs/gin/PRESTUS.md) | 2024-05-31 10:32:15+00:00 |
@@ -1235,7 +1235,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 45 | [doi/*](https://gin.g-node.org/doi) [(29)](READMEs/gin/doi.md) | [0](READMEs/gin/doi.md) | 2025-04-25 11:46:31+00:00 |
 | 46 | [eithan89/Localizer](https://gin.g-node.org/eithan89/Localizer) | 0 | 2021-11-08 12:01:30+00:00 |
 | 47 | [feilong/*](https://gin.g-node.org/feilong) [(3)](READMEs/gin/feilong.md) | [0](READMEs/gin/feilong.md) | 2023-03-08 14:51:08+00:00 |
-| 48 | [felixh/*](https://gin.g-node.org/felixh) [(337)](READMEs/gin/felixh.md) | [0](READMEs/gin/felixh.md) | 2025-06-09 00:11:27+00:00 |
+| 48 | [felixh/*](https://gin.g-node.org/felixh) [(337)](READMEs/gin/felixh.md) | [0](READMEs/gin/felixh.md) | 2025-07-14 11:59:20+00:00 |
 | 49 | [fleischmann-lab/calimag-testdata](https://gin.g-node.org/fleischmann-lab/calimag-testdata) | 1 | 2024-03-25 16:49:17+00:00 |
 | 50 | [flo-schu/tktd_rna_pulse__results](https://gin.g-node.org/flo-schu/tktd_rna_pulse__results) | 0 | 2025-05-19 09:12:27+00:00 |
 | 51 | [fourcade_a/*](https://gin.g-node.org/fourcade_a) [(2)](READMEs/gin/fourcade_a.md) | [0](READMEs/gin/fourcade_a.md) | 2022-07-21 12:37:15+00:00 |
@@ -1284,30 +1284,31 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 94 | [nawrotlab/delayed_center-out_uncertainty_Riehle](https://gin.g-node.org/nawrotlab/delayed_center-out_uncertainty_Riehle) | 0 | 2024-05-28 18:02:32+00:00 |
 | 95 | [neuroboros/*](https://gin.g-node.org/neuroboros) [(4)](READMEs/gin/neuroboros.md) | [0](READMEs/gin/neuroboros.md) | 2023-12-09 20:37:16+00:00 |
 | 96 | [nipreps-data/*](https://gin.g-node.org/nipreps-data) [(14)](READMEs/gin/nipreps-data.md) | [2](READMEs/gin/nipreps-data.md) | 2024-09-09 14:14:49+00:00 |
-| 97 | [oesteban/nitransforms-tests](https://gin.g-node.org/oesteban/nitransforms-tests) | 0 | 2024-06-20 08:15:14+00:00 |
-| 98 | [olivercontier/*](https://gin.g-node.org/olivercontier) [(3)](READMEs/gin/olivercontier.md) | [0](READMEs/gin/olivercontier.md) | 2022-07-21 12:41:09+00:00 |
-| 99 | [pjdavis/eos-hydro-outputs](https://gin.g-node.org/pjdavis/eos-hydro-outputs) | 0 | 2023-12-11 14:06:27+00:00 |
-| 100 | [positive_dragon/DataLad-101](https://gin.g-node.org/positive_dragon/DataLad-101) | 0 | 2023-07-06 05:55:28+00:00 |
-| 101 | [probs-lab/*](https://gin.g-node.org/probs-lab) [(2)](READMEs/gin/probs-lab.md) | [0](READMEs/gin/probs-lab.md) | 2024-03-28 09:10:49+00:00 |
-| 102 | [quantelchen/november-workshop-repo](https://gin.g-node.org/quantelchen/november-workshop-repo) | 0 | 2022-11-11 12:53:44+00:00 |
-| 103 | [reference-preprocessing/*](https://gin.g-node.org/reference-preprocessing) [(6)](READMEs/gin/reference-preprocessing.md) | [2](READMEs/gin/reference-preprocessing.md) | 2024-07-05 11:09:14+00:00 |
-| 104 | [rtenderra/adinas-dataset](https://gin.g-node.org/rtenderra/adinas-dataset) | 0 | 2022-07-21 11:56:12+00:00 |
-| 105 | [sangeethanandakumar/calcium_imaging](https://gin.g-node.org/sangeethanandakumar/calcium_imaging) | 0 | 2025-04-25 13:28:32+00:00 |
-| 106 | [sappelhoff/*](https://gin.g-node.org/sappelhoff) [(4)](READMEs/gin/sappelhoff.md) | [1](READMEs/gin/sappelhoff.md) | 2022-12-06 12:11:57+00:00 |
-| 107 | [shashankbansal56/*](https://gin.g-node.org/shashankbansal56) [(3)](READMEs/gin/shashankbansal56.md) | [0](READMEs/gin/shashankbansal56.md) | 2022-01-13 21:37:08+00:00 |
-| 108 | [shotgunosine/*](https://gin.g-node.org/shotgunosine) [(3)](READMEs/gin/shotgunosine.md) | [0](READMEs/gin/shotgunosine.md) | 2023-02-16 18:00:53+00:00 |
-| 109 | [sphache/DecodeGABAData](https://gin.g-node.org/sphache/DecodeGABAData) | 0 | 2025-06-10 13:35:23+00:00 |
-| 110 | [stejobla/2023_Blaschke_Stroke_tDCS_rsfMRI](https://gin.g-node.org/stejobla/2023_Blaschke_Stroke_tDCS_rsfMRI) | 0 | 2023-08-22 11:00:05+00:00 |
-| 111 | [studyforrest/*](https://gin.g-node.org/studyforrest) [(8)](READMEs/gin/studyforrest.md) | [0](READMEs/gin/studyforrest.md) | 2022-01-14 11:07:46+00:00 |
-| 112 | [surabhisnath/*](https://gin.g-node.org/surabhisnath) [(2)](READMEs/gin/surabhisnath.md) | [0](READMEs/gin/surabhisnath.md) | 2022-07-21 11:45:33+00:00 |
-| 113 | [susanneharidi/*](https://gin.g-node.org/susanneharidi) [(2)](READMEs/gin/susanneharidi.md) | [0](READMEs/gin/susanneharidi.md) | 2022-07-21 11:51:21+00:00 |
-| 114 | [synchon/*](https://gin.g-node.org/synchon) [(3)](READMEs/gin/synchon.md) | [0](READMEs/gin/synchon.md) | 2025-03-27 10:25:03+00:00 |
-| 115 | [templateflow/*](https://gin.g-node.org/templateflow) [(29)](READMEs/gin/templateflow.md) | [0](READMEs/gin/templateflow.md) | 2025-05-02 19:54:25+00:00 |
-| 116 | [ts_brain/Localizer](https://gin.g-node.org/ts_brain/Localizer) | 0 | 2021-11-10 17:18:48+00:00 |
-| 117 | [tsalo/*](https://gin.g-node.org/tsalo) [(2)](READMEs/gin/tsalo.md) | [0](READMEs/gin/tsalo.md) | 2024-05-15 14:04:57+00:00 |
-| 118 | [wentaosi/Localizer](https://gin.g-node.org/wentaosi/Localizer) | 0 | 2024-08-11 12:55:00+00:00 |
-| 119 | [wiri/my-dataset](https://gin.g-node.org/wiri/my-dataset) | 0 | 2022-05-24 09:23:14+00:00 |
-| 120 | [xgui3783/difumo](https://gin.g-node.org/xgui3783/difumo) | 0 | 2022-11-09 12:22:22+00:00 |
+| 97 | [obi/DataLad-Example-Repo](https://gin.g-node.org/obi/DataLad-Example-Repo) | 0 | 2025-07-15 11:48:57+00:00 |
+| 98 | [oesteban/nitransforms-tests](https://gin.g-node.org/oesteban/nitransforms-tests) | 0 | 2024-06-20 08:15:14+00:00 |
+| 99 | [olivercontier/*](https://gin.g-node.org/olivercontier) [(3)](READMEs/gin/olivercontier.md) | [0](READMEs/gin/olivercontier.md) | 2022-07-21 12:41:09+00:00 |
+| 100 | [pjdavis/eos-hydro-outputs](https://gin.g-node.org/pjdavis/eos-hydro-outputs) | 0 | 2023-12-11 14:06:27+00:00 |
+| 101 | [positive_dragon/DataLad-101](https://gin.g-node.org/positive_dragon/DataLad-101) | 0 | 2023-07-06 05:55:28+00:00 |
+| 102 | [probs-lab/*](https://gin.g-node.org/probs-lab) [(2)](READMEs/gin/probs-lab.md) | [0](READMEs/gin/probs-lab.md) | 2024-03-28 09:10:49+00:00 |
+| 103 | [quantelchen/november-workshop-repo](https://gin.g-node.org/quantelchen/november-workshop-repo) | 0 | 2022-11-11 12:53:44+00:00 |
+| 104 | [reference-preprocessing/*](https://gin.g-node.org/reference-preprocessing) [(6)](READMEs/gin/reference-preprocessing.md) | [2](READMEs/gin/reference-preprocessing.md) | 2024-07-05 11:09:14+00:00 |
+| 105 | [rtenderra/adinas-dataset](https://gin.g-node.org/rtenderra/adinas-dataset) | 0 | 2022-07-21 11:56:12+00:00 |
+| 106 | [sangeethanandakumar/calcium_imaging](https://gin.g-node.org/sangeethanandakumar/calcium_imaging) | 0 | 2025-04-25 13:28:32+00:00 |
+| 107 | [sappelhoff/*](https://gin.g-node.org/sappelhoff) [(4)](READMEs/gin/sappelhoff.md) | [1](READMEs/gin/sappelhoff.md) | 2022-12-06 12:11:57+00:00 |
+| 108 | [shashankbansal56/*](https://gin.g-node.org/shashankbansal56) [(3)](READMEs/gin/shashankbansal56.md) | [0](READMEs/gin/shashankbansal56.md) | 2022-01-13 21:37:08+00:00 |
+| 109 | [shotgunosine/*](https://gin.g-node.org/shotgunosine) [(3)](READMEs/gin/shotgunosine.md) | [0](READMEs/gin/shotgunosine.md) | 2023-02-16 18:00:53+00:00 |
+| 110 | [sphache/DecodeGABAData](https://gin.g-node.org/sphache/DecodeGABAData) | 0 | 2025-06-10 13:35:23+00:00 |
+| 111 | [stejobla/2023_Blaschke_Stroke_tDCS_rsfMRI](https://gin.g-node.org/stejobla/2023_Blaschke_Stroke_tDCS_rsfMRI) | 0 | 2023-08-22 11:00:05+00:00 |
+| 112 | [studyforrest/*](https://gin.g-node.org/studyforrest) [(8)](READMEs/gin/studyforrest.md) | [0](READMEs/gin/studyforrest.md) | 2022-01-14 11:07:46+00:00 |
+| 113 | [surabhisnath/*](https://gin.g-node.org/surabhisnath) [(2)](READMEs/gin/surabhisnath.md) | [0](READMEs/gin/surabhisnath.md) | 2022-07-21 11:45:33+00:00 |
+| 114 | [susanneharidi/*](https://gin.g-node.org/susanneharidi) [(2)](READMEs/gin/susanneharidi.md) | [0](READMEs/gin/susanneharidi.md) | 2022-07-21 11:51:21+00:00 |
+| 115 | [synchon/*](https://gin.g-node.org/synchon) [(3)](READMEs/gin/synchon.md) | [0](READMEs/gin/synchon.md) | 2025-03-27 10:25:03+00:00 |
+| 116 | [templateflow/*](https://gin.g-node.org/templateflow) [(29)](READMEs/gin/templateflow.md) | [0](READMEs/gin/templateflow.md) | 2025-05-02 19:54:25+00:00 |
+| 117 | [ts_brain/Localizer](https://gin.g-node.org/ts_brain/Localizer) | 0 | 2021-11-10 17:18:48+00:00 |
+| 118 | [tsalo/*](https://gin.g-node.org/tsalo) [(2)](READMEs/gin/tsalo.md) | [0](READMEs/gin/tsalo.md) | 2024-05-15 14:04:57+00:00 |
+| 119 | [wentaosi/Localizer](https://gin.g-node.org/wentaosi/Localizer) | 0 | 2024-08-11 12:55:00+00:00 |
+| 120 | [wiri/my-dataset](https://gin.g-node.org/wiri/my-dataset) | 0 | 2022-05-24 09:23:14+00:00 |
+| 121 | [xgui3783/difumo](https://gin.g-node.org/xgui3783/difumo) | 0 | 2022-11-09 12:22:22+00:00 |
 
 ## Gone
 | # | Repository (13) | Stars | Last Modified |
@@ -1326,18 +1327,18 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # hub.datalad.org
 ## Active
-| # | Repository (4604) | Stars (2) | Last Modified |
+| # | Repository (4606) | Stars (2) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [adina/*](https://hub.datalad.org/adina) [(2)](READMEs/hub-datalad-org/adina.md) | [0](READMEs/hub-datalad-org/adina.md) | 2024-09-24 08:07:16+00:00 |
 | 2 | [candleindark/*](https://hub.datalad.org/candleindark) [(2)](READMEs/hub-datalad-org/candleindark.md) | [0](READMEs/hub-datalad-org/candleindark.md) | 2024-12-20 12:40:59+00:00 |
-| 3 | [distribits/*](https://hub.datalad.org/distribits) [(3)](READMEs/hub-datalad-org/distribits.md) | [2](READMEs/hub-datalad-org/distribits.md) | 2025-07-11 09:44:38+00:00 |
-| 4 | [edu/penguins](https://hub.datalad.org/edu/penguins) | 0 | 2025-06-27 11:57:35+00:00 |
+| 3 | [distribits/*](https://hub.datalad.org/distribits) [(3)](READMEs/hub-datalad-org/distribits.md) | [2](READMEs/hub-datalad-org/distribits.md) | 2025-07-14 05:38:45+00:00 |
+| 4 | [edu/*](https://hub.datalad.org/edu) [(3)](READMEs/hub-datalad-org/edu.md) | [0](READMEs/hub-datalad-org/edu.md) | 2025-07-18 11:22:40+00:00 |
 | 5 | [hcp-openaccess/*](https://hub.datalad.org/hcp-openaccess) [(4550)](READMEs/hub-datalad-org/hcp-openaccess.md) | [0](READMEs/hub-datalad-org/hcp-openaccess.md) | 2024-08-27 11:38:38+00:00 |
 | 6 | [j.goddard/*](https://hub.datalad.org/j.goddard) [(3)](READMEs/hub-datalad-org/j.goddard.md) | [0](READMEs/hub-datalad-org/j.goddard.md) | 2025-02-27 08:24:39+00:00 |
 | 7 | [jsheunis/docs.trr379.de](https://hub.datalad.org/jsheunis/docs.trr379.de) | 0 | 2025-02-26 09:24:13+00:00 |
 | 8 | [mih/p2phttp-test](https://hub.datalad.org/mih/p2phttp-test) | 0 | 2025-02-21 09:57:39+00:00 |
 | 9 | [mslw/*](https://hub.datalad.org/mslw) [(4)](READMEs/hub-datalad-org/mslw.md) | [0](READMEs/hub-datalad-org/mslw.md) | 2025-03-11 16:51:49+00:00 |
-| 10 | [naturalistic-imaging/*](https://hub.datalad.org/naturalistic-imaging) [(26)](READMEs/hub-datalad-org/naturalistic-imaging.md) | [0](READMEs/hub-datalad-org/naturalistic-imaging.md) | 2025-06-09 18:59:48+00:00 |
+| 10 | [naturalistic-imaging/*](https://hub.datalad.org/naturalistic-imaging) [(26)](READMEs/hub-datalad-org/naturalistic-imaging.md) | [0](READMEs/hub-datalad-org/naturalistic-imaging.md) | 2025-07-14 18:19:03+00:00 |
 | 11 | [openneuro/ds000001](https://hub.datalad.org/openneuro/ds000001) | 0 | 2025-03-28 05:53:44+00:00 |
 | 12 | [studyforrest/*](https://hub.datalad.org/studyforrest) [(3)](READMEs/hub-datalad-org/studyforrest.md) | [0](READMEs/hub-datalad-org/studyforrest.md) | 2025-05-02 07:36:51+00:00 |
 | 13 | [test-resources/*](https://hub.datalad.org/test-resources) [(4)](READMEs/hub-datalad-org/test-resources.md) | [0](READMEs/hub-datalad-org/test-resources.md) | 2024-09-04 10:48:25+00:00 |
@@ -1354,9 +1355,9 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | # | Repository (108) | Stars (1) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [CAIRT/*](https://atris.fz-juelich.de/CAIRT) [(6)](READMEs/atris/CAIRT.md) | [0](READMEs/atris/CAIRT.md) | 2025-04-01 15:44:14+00:00 |
-| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(87)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2025-07-07 04:37:47+00:00 |
+| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(87)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2025-07-14 04:37:28+00:00 |
 | 3 | [b.vogel/Southtrac-2019-CLaMS-results](https://atris.fz-juelich.de/b.vogel/Southtrac-2019-CLaMS-results) | 0 | 2024-07-22 16:41:23+00:00 |
-| 4 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(5)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2025-07-09 14:15:47+00:00 |
+| 4 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(5)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2025-07-16 14:15:49+00:00 |
 | 5 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(7)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2025-07-04 23:32:08+00:00 |
 | 6 | [p.konopka/clams_clim](https://atris.fz-juelich.de/p.konopka/clams_clim) | 0 | 2024-09-25 14:01:42+00:00 |
 | 7 | [yann.buechau/tutorials](https://atris.fz-juelich.de/yann.buechau/tutorials) | 0 | 2025-02-19 16:41:49+00:00 |

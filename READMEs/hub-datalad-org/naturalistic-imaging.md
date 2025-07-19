@@ -4,7 +4,7 @@
 | 1 | [naturalistic-imaging/Emo-FiLM](https://hub.datalad.org/naturalistic-imaging/Emo-FiLM) | 0 | 2025-02-20 01:00:33+00:00 |
 | 2 | [naturalistic-imaging/NNDb](https://hub.datalad.org/naturalistic-imaging/NNDb) | 0 | 2021-04-21 11:13:49+00:00 |
 | 3 | [naturalistic-imaging/aly-et-al-the-grand-budapest-hotel](https://hub.datalad.org/naturalistic-imaging/aly-et-al-the-grand-budapest-hotel) | 0 | 2020-08-23 14:36:29+00:00 |
-| 4 | [naturalistic-imaging/cneuromod-opendata](https://hub.datalad.org/naturalistic-imaging/cneuromod-opendata) | 0 | 2025-05-02 15:24:11+00:00 |
+| 4 | [naturalistic-imaging/cneuromod-opendata](https://hub.datalad.org/naturalistic-imaging/cneuromod-opendata) | 0 | 2025-07-14 18:19:03+00:00 |
 | 5 | [naturalistic-imaging/cneuromod-opendata-preprocessed](https://hub.datalad.org/naturalistic-imaging/cneuromod-opendata-preprocessed) | 0 | 2025-03-26 15:39:47+00:00 |
 | 6 | [naturalistic-imaging/film-festival](https://hub.datalad.org/naturalistic-imaging/film-festival) | 0 | 2023-01-06 17:44:31+00:00 |
 | 7 | [naturalistic-imaging/friday-night-lights-study-1](https://hub.datalad.org/naturalistic-imaging/friday-night-lights-study-1) | 0 | 2021-10-16 00:53:51+00:00 |
