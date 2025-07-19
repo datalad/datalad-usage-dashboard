@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (7) | Stars (1300) | Dataset | `run` (7) | `containers-run` | Last Modified |
+| # | Repository (7) | Stars (1301) | Dataset | `run` (7) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [nipreps/acres](https://github.com/nipreps/acres) | 0 |  | :heavy_check_mark: |  | 2025-06-18 11:37:23+00:00 |
-| 2 | [nipreps/fmriprep](https://github.com/nipreps/fmriprep) | 682 |  | :heavy_check_mark: |  | 2025-07-01 18:25:42+00:00 |
+| 2 | [nipreps/fmriprep](https://github.com/nipreps/fmriprep) | 683 |  | :heavy_check_mark: |  | 2025-07-15 20:28:24+00:00 |
 | 3 | [nipreps/mriqc](https://github.com/nipreps/mriqc) | 331 |  | :heavy_check_mark: |  | 2025-06-04 12:23:07+00:00 |
 | 4 | [nipreps/nipreps.github.io](https://github.com/nipreps/nipreps.github.io) | 3 |  | :heavy_check_mark: |  | 2025-07-14 03:04:37+00:00 |
 | 5 | [nipreps/niworkflows](https://github.com/nipreps/niworkflows) | 99 |  | :heavy_check_mark: |  | 2025-07-06 18:14:32+00:00 |
