@@ -1,4 +1,5 @@
 from __future__ import annotations
+from collections import Counter
 from datetime import datetime, timezone
 from enum import Enum
 import json
@@ -9,7 +10,7 @@ import re
 import shlex
 import subprocess
 import sys
-from typing import Any
+from typing import Any, Union, Sequence
 import requests
 
 USER_AGENT = "find_datalad_repos ({}) requests/{} {}/{}".format(
@@ -69,3 +70,65 @@ def commit(msg: str) -> None:
 
 def nowutc() -> datetime:
     return datetime.now(timezone.utc)
+
+
+def get_organizations_for_exclusion(
+    current_repos: Sequence[Union[dict, Any]], threshold: int = 30
+) -> list[str]:
+    """
+    Get organizations with >threshold repos to exclude from global search.
+
+    Args:
+        current_repos: List of repository objects (dict or GitHubRepo objects)
+        threshold: Minimum number of repositories for exclusion
+
+    Returns:
+        List of organization names to exclude
+    """
+    org_counts: Counter[str] = Counter()
+
+    for repo in current_repos:
+        if isinstance(repo, dict):
+            # Handle dict format from JSON
+            org = repo['name'].split('/')[0]
+        else:
+            # Handle GitHubRepo objects
+            org = repo.name.split('/')[0]
+        org_counts[org] += 1
+
+    excluded_orgs = [org for org, count in org_counts.items() if count >= threshold]
+    log.info(f"Found {len(excluded_orgs)} organizations with >={threshold} repos for exclusion")
+
+    return excluded_orgs
+
+
+def build_exclusion_query(orgs: list[str], max_length: int = 1000) -> str:
+    """
+    Build -org:name1 -org:name2... string within GitHub query limits.
+
+    Args:
+        orgs: List of organization names to exclude
+        max_length: Maximum query string length
+
+    Returns:
+        Exclusion query string
+    """
+    if not orgs:
+        return ""
+
+    exclusions: list[str] = []
+    query_length = 0
+
+    # Sort by name for consistent ordering
+    for org in sorted(orgs):
+        addition = f" -org:{org}"
+        if query_length + len(addition) > max_length:
+            log.warning(f"Exclusion query length limit reached, excluding {len(orgs) - len(exclusions)} organizations")
+            break
+        exclusions.append(addition)
+        query_length += len(addition)
+
+    exclusion_str = "".join(exclusions)
+    log.info(f"Built exclusion query with {len(exclusions)} organizations ({len(exclusion_str)} chars)")
+
+    return exclusion_str

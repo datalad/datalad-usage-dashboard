@@ -27,3 +27,7 @@ OURSELVES = {
     "ReproNim",
     "yarikoptic",
 }
+
+# Hybrid search strategy configuration
+EXCLUSION_THRESHOLD = 30  # Organizations with >30 repos get excluded from global search
+MAX_EXCLUSION_QUERY_LENGTH = 1000  # GitHub query length limit
