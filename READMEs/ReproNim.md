@@ -25,7 +25,7 @@
 | 22 | [ReproNim/repromon](https://github.com/ReproNim/repromon) | 0 |  | :heavy_check_mark: |  | 2024-04-17 11:21:48+00:00 |
 | 23 | [ReproNim/repronim.github.io](https://github.com/ReproNim/repronim.github.io) | 3 |  | :heavy_check_mark: |  | 2025-07-22 21:27:34+00:00 |
 | 24 | [ReproNim/repronim.org](https://github.com/ReproNim/repronim.org) | 0 |  | :heavy_check_mark: |  | 2025-07-25 19:10:23+00:00 |
-| 25 | [ReproNim/reproschema-ui](https://github.com/ReproNim/reproschema-ui) | 3 |  | :heavy_check_mark: |  | 2025-06-18 16:50:04+00:00 |
+| 25 | [ReproNim/reproschema-ui](https://github.com/ReproNim/reproschema-ui) | 3 |  | :heavy_check_mark: |  | 2025-07-27 18:02:47+00:00 |
 | 26 | [ReproNim/reprostim](https://github.com/ReproNim/reprostim) | 6 |  | :heavy_check_mark: |  | 2025-07-15 16:06:38+00:00 |
 | 27 | [ReproNim/reprostim-sessions](https://github.com/ReproNim/reprostim-sessions) | 0 | :heavy_check_mark: |  |  | 2023-03-09 15:02:51+00:00 |
 | 28 | [ReproNim/sfn2018-training](https://github.com/ReproNim/sfn2018-training) | 2 | :heavy_check_mark: |  |  | 2022-07-06 20:14:08+00:00 |
