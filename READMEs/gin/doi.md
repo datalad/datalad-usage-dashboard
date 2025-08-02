@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (25) | Stars | Last Modified |
+| # | Repository (26) | Stars | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [doi/2023_Goetz_RecoveryGenes](https://gin.g-node.org/doi/2023_Goetz_RecoveryGenes) | 0 | 2022-12-28 00:04:06+00:00 |
 | 2 | [doi/2023_Kalantari_AIDAqc](https://gin.g-node.org/doi/2023_Kalantari_AIDAqc) | 0 | 2024-01-26 20:52:09+00:00 |
@@ -25,7 +25,8 @@
 | 22 | [doi/story_listening](https://gin.g-node.org/doi/story_listening) | 0 | 2023-05-22 15:20:33+00:00 |
 | 23 | [doi/studyforrest-data-structural](https://gin.g-node.org/doi/studyforrest-data-structural) | 0 | 2022-01-14 20:45:39+00:00 |
 | 24 | [doi/studyforrest-ppa-analysis](https://gin.g-node.org/doi/studyforrest-ppa-analysis) | 0 | 2021-12-18 10:13:49+00:00 |
-| 25 | [doi/zoo-campaign](https://gin.g-node.org/doi/zoo-campaign) | 0 | 2021-09-10 10:26:56+00:00 |
+| 25 | [doi/zoo-bids](https://gin.g-node.org/doi/zoo-bids) | 0 | 2025-08-01 14:01:48+00:00 |
+| 26 | [doi/zoo-campaign](https://gin.g-node.org/doi/zoo-campaign) | 0 | 2021-09-10 10:26:56+00:00 |
 
 ## Gone
 | # | Repository (4) | Stars | Last Modified |
