@@ -12,7 +12,7 @@
 | 9 | [conpdatasets/BigBrain_Raw_Data](https://github.com/conpdatasets/BigBrain_Raw_Data) | 0 | :heavy_check_mark: |  |  | 2022-05-02 15:47:29+00:00 |
 | 10 | [conpdatasets/BigBrain_Surface_Parcellations](https://github.com/conpdatasets/BigBrain_Surface_Parcellations) | 0 | :heavy_check_mark: |  |  | 2022-05-02 15:41:33+00:00 |
 | 11 | [conpdatasets/CHBMP](https://github.com/conpdatasets/CHBMP) | 3 | :heavy_check_mark: |  |  | 2024-11-21 16:17:51+00:00 |
-| 12 | [conpdatasets/CIMA-Q](https://github.com/conpdatasets/CIMA-Q) | 0 | :heavy_check_mark: |  |  | 2025-06-13 18:08:40+00:00 |
+| 12 | [conpdatasets/CIMA-Q](https://github.com/conpdatasets/CIMA-Q) | 0 | :heavy_check_mark: |  |  | 2025-07-31 18:15:02+00:00 |
 | 13 | [conpdatasets/Multi-model_functionalization_of_disease-associated_PTEN_missense_mutations](https://github.com/conpdatasets/Multi-model_functionalization_of_disease-associated_PTEN_missense_mutations) | 1 | :heavy_check_mark: |  |  | 2021-11-11 19:18:17+00:00 |
 | 14 | [conpdatasets/SIMON-dataset](https://github.com/conpdatasets/SIMON-dataset) | 1 | :heavy_check_mark: |  |  | 2024-10-09 14:02:56+00:00 |
 | 15 | [conpdatasets/Taowu](https://github.com/conpdatasets/Taowu) | 0 | :heavy_check_mark: |  |  | 2023-04-25 18:11:21+00:00 |
