@@ -7,7 +7,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 - [OSF](#osf): [189](#active) active + [71](#gone-1) gone
 - [GIN](#gin): [842](#active-1) active + [13](#gone-2) gone
 - [hub.datalad.org](#hubdataladorg): [4606](#active-2) active + [1](#gone-3) gone
-- [ATRIS](#atris): [108](#active-3) active + [0](#gone-4) gone
+- [ATRIS](#atris): [109](#active-3) active + [0](#gone-4) gone
 
 # GitHub
 ## In the wild
@@ -1226,7 +1226,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | --- | --- | --- | --- |
 | 1 | [AIDAqc_datasets/*](https://gin.g-node.org/AIDAqc_datasets) [(14)](READMEs/gin/AIDAqc_datasets.md) | [0](READMEs/gin/AIDAqc_datasets.md) | 2023-11-24 08:48:18+00:00 |
 | 2 | [AgataKoziol/polish-dataset-public](https://gin.g-node.org/AgataKoziol/polish-dataset-public) | 0 | 2024-03-19 18:22:38+00:00 |
-| 3 | [Aswendt_Lab/*](https://gin.g-node.org/Aswendt_Lab) [(12)](READMEs/gin/Aswendt_Lab.md) | [0](READMEs/gin/Aswendt_Lab.md) | 2025-07-24 11:10:32+00:00 |
+| 3 | [Aswendt_Lab/*](https://gin.g-node.org/Aswendt_Lab) [(12)](READMEs/gin/Aswendt_Lab.md) | [0](READMEs/gin/Aswendt_Lab.md) | 2025-08-07 07:46:37+00:00 |
 | 4 | [CREAM/*](https://gin.g-node.org/CREAM) [(2)](READMEs/gin/CREAM.md) | [0](READMEs/gin/CREAM.md) | 2025-07-02 09:26:52+00:00 |
 | 5 | [CatalystNeuro/*](https://gin.g-node.org/CatalystNeuro) [(2)](READMEs/gin/CatalystNeuro.md) | [1](READMEs/gin/CatalystNeuro.md) | 2025-07-04 09:20:47+00:00 |
 | 6 | [EdoardoBettazzi/*](https://gin.g-node.org/EdoardoBettazzi) [(3)](READMEs/gin/EdoardoBettazzi.md) | [0](READMEs/gin/EdoardoBettazzi.md) | 2025-05-26 14:31:36+00:00 |
@@ -1323,7 +1323,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 97 | [obi/*](https://gin.g-node.org/obi) [(2)](READMEs/gin/obi.md) | [0](READMEs/gin/obi.md) | 2025-07-23 13:17:53+00:00 |
 | 98 | [oesteban/nitransforms-tests](https://gin.g-node.org/oesteban/nitransforms-tests) | 0 | 2025-07-22 15:42:26+00:00 |
 | 99 | [olivercontier/*](https://gin.g-node.org/olivercontier) [(3)](READMEs/gin/olivercontier.md) | [0](READMEs/gin/olivercontier.md) | 2022-07-21 12:41:09+00:00 |
-| 100 | [ozika/foraging-ed-anon-data](https://gin.g-node.org/ozika/foraging-ed-anon-data) | 0 | 2025-07-31 07:11:31+00:00 |
+| 100 | [ozika/foraging-ed-anon-data](https://gin.g-node.org/ozika/foraging-ed-anon-data) | 0 | 2025-08-02 15:12:59+00:00 |
 | 101 | [pjdavis/eos-hydro-outputs](https://gin.g-node.org/pjdavis/eos-hydro-outputs) | 0 | 2023-12-11 14:06:27+00:00 |
 | 102 | [positive_dragon/DataLad-101](https://gin.g-node.org/positive_dragon/DataLad-101) | 0 | 2023-07-06 05:55:28+00:00 |
 | 103 | [probs-lab/*](https://gin.g-node.org/probs-lab) [(2)](READMEs/gin/probs-lab.md) | [0](READMEs/gin/probs-lab.md) | 2024-03-28 09:10:49+00:00 |
@@ -1368,7 +1368,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | --- | --- | --- | --- |
 | 1 | [adina/*](https://hub.datalad.org/adina) [(2)](READMEs/hub-datalad-org/adina.md) | [0](READMEs/hub-datalad-org/adina.md) | 2024-09-24 08:07:16+00:00 |
 | 2 | [candleindark/*](https://hub.datalad.org/candleindark) [(2)](READMEs/hub-datalad-org/candleindark.md) | [0](READMEs/hub-datalad-org/candleindark.md) | 2024-12-20 12:40:59+00:00 |
-| 3 | [distribits/*](https://hub.datalad.org/distribits) [(3)](READMEs/hub-datalad-org/distribits.md) | [2](READMEs/hub-datalad-org/distribits.md) | 2025-07-14 05:38:45+00:00 |
+| 3 | [distribits/*](https://hub.datalad.org/distribits) [(3)](READMEs/hub-datalad-org/distribits.md) | [2](READMEs/hub-datalad-org/distribits.md) | 2025-08-08 19:36:30+00:00 |
 | 4 | [edu/*](https://hub.datalad.org/edu) [(3)](READMEs/hub-datalad-org/edu.md) | [0](READMEs/hub-datalad-org/edu.md) | 2025-07-20 17:55:49+00:00 |
 | 5 | [hcp-openaccess/*](https://hub.datalad.org/hcp-openaccess) [(4550)](READMEs/hub-datalad-org/hcp-openaccess.md) | [0](READMEs/hub-datalad-org/hcp-openaccess.md) | 2024-08-27 11:38:38+00:00 |
 | 6 | [j.goddard/*](https://hub.datalad.org/j.goddard) [(3)](READMEs/hub-datalad-org/j.goddard.md) | [0](READMEs/hub-datalad-org/j.goddard.md) | 2025-02-27 08:24:39+00:00 |
@@ -1379,7 +1379,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 11 | [openneuro/ds000001](https://hub.datalad.org/openneuro/ds000001) | 0 | 2025-03-28 05:53:44+00:00 |
 | 12 | [studyforrest/*](https://hub.datalad.org/studyforrest) [(3)](READMEs/hub-datalad-org/studyforrest.md) | [0](READMEs/hub-datalad-org/studyforrest.md) | 2025-05-02 07:36:51+00:00 |
 | 13 | [test-resources/*](https://hub.datalad.org/test-resources) [(4)](READMEs/hub-datalad-org/test-resources.md) | [0](READMEs/hub-datalad-org/test-resources.md) | 2024-09-04 10:48:25+00:00 |
-| 14 | [www/*](https://hub.datalad.org/www) [(2)](READMEs/hub-datalad-org/www.md) | [0](READMEs/hub-datalad-org/www.md) | 2025-05-01 15:21:16+00:00 |
+| 14 | [www/*](https://hub.datalad.org/www) [(2)](READMEs/hub-datalad-org/www.md) | [0](READMEs/hub-datalad-org/www.md) | 2025-08-08 13:17:04+00:00 |
 | 15 | [yarikoptic/dandi-000029](https://hub.datalad.org/yarikoptic/dandi-000029) | 0 | 2025-04-07 19:47:47+00:00 |
 
 ## Gone
@@ -1389,13 +1389,13 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # ATRIS
 ## Active
-| # | Repository (108) | Stars (1) | Last Modified |
+| # | Repository (109) | Stars (1) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [CAIRT/*](https://atris.fz-juelich.de/CAIRT) [(6)](READMEs/atris/CAIRT.md) | [0](READMEs/atris/CAIRT.md) | 2025-04-01 15:44:14+00:00 |
-| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(87)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2025-07-28 04:36:07+00:00 |
+| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(87)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2025-08-05 09:53:48+00:00 |
 | 3 | [b.vogel/Southtrac-2019-CLaMS-results](https://atris.fz-juelich.de/b.vogel/Southtrac-2019-CLaMS-results) | 0 | 2024-07-22 16:41:23+00:00 |
-| 4 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(5)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2025-07-31 15:53:48+00:00 |
-| 5 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(7)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2025-07-27 07:36:10+00:00 |
+| 4 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(5)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2025-08-07 15:53:48+00:00 |
+| 5 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(8)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2025-08-05 14:13:37+00:00 |
 | 6 | [p.konopka/clams_clim](https://atris.fz-juelich.de/p.konopka/clams_clim) | 0 | 2024-09-25 14:01:42+00:00 |
 | 7 | [yann.buechau/tutorials](https://atris.fz-juelich.de/yann.buechau/tutorials) | 0 | 2025-02-19 16:41:49+00:00 |
 
