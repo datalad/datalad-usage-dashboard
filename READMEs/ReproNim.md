@@ -2,7 +2,7 @@
 | # | Repository (30) | Stars (479) | Dataset (16) | `run` (20) | `containers-run` (1) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproNim/OpenNeuroDerivatives-NIDM](https://github.com/ReproNim/OpenNeuroDerivatives-NIDM) | 1 |  | :heavy_check_mark: |  | 2025-05-19 16:44:57+00:00 |
-| 2 | [ReproNim/ReproInventory](https://github.com/ReproNim/ReproInventory) | 4 |  | :heavy_check_mark: |  | 2025-07-29 21:22:24+00:00 |
+| 2 | [ReproNim/ReproInventory](https://github.com/ReproNim/ReproInventory) | 4 |  | :heavy_check_mark: |  | 2025-08-05 18:08:12+00:00 |
 | 3 | [ReproNim/ReproTube](https://github.com/ReproNim/ReproTube) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-06-27 03:00:45+00:00 |
 | 4 | [ReproNim/SumarizeFmriprep](https://github.com/ReproNim/SumarizeFmriprep) | 0 |  | :heavy_check_mark: |  | 2025-05-19 16:39:13+00:00 |
 | 5 | [ReproNim/abcd-apps](https://github.com/ReproNim/abcd-apps) | 0 | :heavy_check_mark: |  |  | 2023-02-13 13:28:51+00:00 |
