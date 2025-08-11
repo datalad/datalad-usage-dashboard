@@ -11,7 +11,7 @@
 | 8 | [dandi/dandi-schema](https://github.com/dandi/dandi-schema) | 7 |  | :heavy_check_mark: |  | 2025-08-05 03:54:13+00:00 |
 | 9 | [dandi/dandisets](https://github.com/dandi/dandisets) | 12 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-08-07 01:03:42+00:00 |
 | 10 | [dandi/dandisets-healthstatus](https://github.com/dandi/dandisets-healthstatus) | 0 |  | :heavy_check_mark: |  | 2025-02-28 20:53:38+00:00 |
-| 11 | [dandi/dandisets-linkml-status](https://github.com/dandi/dandisets-linkml-status) | 0 |  | :heavy_check_mark: |  | 2025-02-05 06:53:17+00:00 |
+| 11 | [dandi/dandisets-linkml-status](https://github.com/dandi/dandisets-linkml-status) | 0 |  | :heavy_check_mark: |  | 2025-08-10 07:10:24+00:00 |
 | 12 | [dandi/example-notebooks](https://github.com/dandi/example-notebooks) | 6 |  | :heavy_check_mark: |  | 2025-08-06 20:37:31+00:00 |
 | 13 | [dandi/metadata-dumps](https://github.com/dandi/metadata-dumps) | 0 |  | :heavy_check_mark: |  | 2020-02-29 02:42:42+00:00 |
 | 14 | [dandi/ndx-dandi](https://github.com/dandi/ndx-dandi) | 0 |  | :heavy_check_mark: |  | 2020-02-06 17:21:35+00:00 |
