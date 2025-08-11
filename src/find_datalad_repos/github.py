@@ -94,7 +94,10 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
 
     def search(self, resource_type: str, query: str) -> Iterator[Any]:
         url: str | None = f"/search/{resource_type}"
-        params: dict[str, str] | None = {"q": query}
+        params: dict[str, str] | None = {
+            "q": query,
+            "per_page": 100,  # default is 30.
+        }
         while url is not None:
             try:
                 r = self.get(url, params=params, raw=True)
