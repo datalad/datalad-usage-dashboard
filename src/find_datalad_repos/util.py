@@ -76,11 +76,13 @@ def get_organizations_for_exclusion(
     current_repos: Sequence[Union[dict, Any]], threshold: int = 30
 ) -> list[str]:
     """
-    Get organizations with >threshold repos to exclude from global search.
+    Get organizations with >threshold active repos to exclude from global search.
+    
+    Repositories with 'gone' status are not counted as they are no longer accessible.
 
     Args:
         current_repos: List of repository objects (dict or GitHubRepo objects)
-        threshold: Minimum number of repositories for exclusion
+        threshold: Minimum number of active repositories for exclusion
 
     Returns:
         List of organization names to exclude
@@ -90,14 +92,20 @@ def get_organizations_for_exclusion(
     for repo in current_repos:
         if isinstance(repo, dict):
             # Handle dict format from JSON
+            # Skip repositories with 'gone' status
+            if repo.get('status') == 'gone':
+                continue
             org = repo['name'].split('/')[0]
         else:
             # Handle GitHubRepo objects
+            # Skip repositories with 'gone' status
+            if getattr(repo, 'status', None) == Status.GONE:
+                continue
             org = repo.name.split('/')[0]
         org_counts[org] += 1
 
     excluded_orgs = [org for org, count in org_counts.items() if count >= threshold]
-    log.info(f"Found {len(excluded_orgs)} organizations with >={threshold} repos for exclusion")
+    log.info(f"Found {len(excluded_orgs)} organizations with >={threshold} active repos for exclusion")
 
     return excluded_orgs
 
