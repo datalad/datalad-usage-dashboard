@@ -224,7 +224,8 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
         Hybrid search: global search with exclusions + targeted org searches
 
         Args:
-            excluded_orgs: Organizations to exclude from global search and search individually
+            excluded_orgs: Organizations to exclude from global search and
+                          search individually
                           If None, uses self.excluded_orgs set during initialization
         """
         excluded_orgs = excluded_orgs or self.excluded_orgs
@@ -251,7 +252,8 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
                 runcmds[repo] = container_run or runcmds.get(repo, False)
 
         log.info(
-            f"Global search found: {len(datasets)} datasets, {len(runcmds)} runcmd repos"
+            f"Global search found: {len(datasets)} datasets, "
+            f"{len(runcmds)} runcmd repos"
         )
 
         # Phase 2: Organization-specific searches
@@ -271,7 +273,8 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
                 log.info(f"Organization {org} added: {len(org_datasets)} datasets")
 
         log.info(
-            f"Total after hybrid search: {len(datasets)} datasets, {len(runcmds)} runcmd repos"
+            f"Total after hybrid search: {len(datasets)} datasets, "
+            f"{len(runcmds)} runcmd repos"
         )
 
         # Convert to SearchResult objects

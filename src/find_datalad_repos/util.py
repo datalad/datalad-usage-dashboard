@@ -106,7 +106,8 @@ def get_organizations_for_exclusion(
 
     excluded_orgs = [org for org, count in org_counts.items() if count >= threshold]
     log.info(
-        f"Found {len(excluded_orgs)} organizations with >={threshold} active repos for exclusion"
+        f"Found {len(excluded_orgs)} organizations with >={threshold} "
+        f"active repos for exclusion"
     )
 
     return excluded_orgs
@@ -134,7 +135,8 @@ def build_exclusion_query(orgs: list[str], max_length: int = 1000) -> str:
         addition = f" -org:{org}"
         if query_length + len(addition) > max_length:
             log.warning(
-                f"Exclusion query length limit reached, excluding {len(orgs) - len(exclusions)} organizations"
+                f"Exclusion query length limit reached, excluding "
+                f"{len(orgs) - len(exclusions)} organizations"
             )
             break
         exclusions.append(addition)
@@ -142,7 +144,8 @@ def build_exclusion_query(orgs: list[str], max_length: int = 1000) -> str:
 
     exclusion_str = "".join(exclusions)
     log.info(
-        f"Built exclusion query with {len(exclusions)} organizations ({len(exclusion_str)} chars)"
+        f"Built exclusion query with {len(exclusions)} organizations "
+        f"({len(exclusion_str)} chars)"
     )
 
     return exclusion_str
