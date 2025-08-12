@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """Test basic functionality without requiring external dependencies"""
 
-import json
 from collections import Counter
+import json
 from src.find_datalad_repos.config import EXCLUSION_THRESHOLD
-from src.find_datalad_repos.util import get_organizations_for_exclusion, build_exclusion_query
+from src.find_datalad_repos.util import (
+    build_exclusion_query,
+    get_organizations_for_exclusion,
+)
 
 
 def main():
@@ -13,23 +16,24 @@ def main():
     print("=" * 55)
 
     # Load current data
-    with open('datalad-repos.json') as f:
+    with open("datalad-repos.json") as f:
         data = json.load(f)
 
     print(f"Loaded {len(data['github'])} repositories from datalad-repos.json")
 
     # Test organization exclusion logic
     excluded_orgs = get_organizations_for_exclusion(
-        current_repos=data['github'],
-        threshold=EXCLUSION_THRESHOLD
+        current_repos=data["github"], threshold=EXCLUSION_THRESHOLD
     )
 
-    print(f"\n🎯 Organizations to exclude (threshold={EXCLUSION_THRESHOLD}): {len(excluded_orgs)}")
+    print(
+        f"\n🎯 Organizations to exclude (threshold={EXCLUSION_THRESHOLD}): {len(excluded_orgs)}"
+    )
 
     # Show organization counts
     org_counts = Counter()
-    for repo in data['github']:
-        org = repo['name'].split('/')[0]
+    for repo in data["github"]:
+        org = repo["name"].split("/")[0]
         org_counts[org] += 1
 
     print(f"\n📊 Repository distribution:")
@@ -46,7 +50,12 @@ def main():
     print(f"  Sample: {exclusion_query[:100]}...")
 
     # Validate expected organizations are excluded
-    expected_excluded = ['OpenNeuroDerivatives', 'OpenNeuroDatasets', 'dandizarrs', 'datasets-mila']
+    expected_excluded = [
+        "OpenNeuroDerivatives",
+        "OpenNeuroDatasets",
+        "dandizarrs",
+        "datasets-mila",
+    ]
     print(f"\n✅ Validation - Key organizations that should be excluded:")
     for org in expected_excluded:
         if org in excluded_orgs:
@@ -58,18 +67,20 @@ def main():
 
     # Calculate potential impact
     excluded_repo_count = sum(org_counts[org] for org in excluded_orgs)
-    total_repos = len(data['github'])
+    total_repos = len(data["github"])
 
     print(f"\n📈 Expected Impact:")
     print(f"  Total repositories: {total_repos}")
     print(f"  Repositories in excluded orgs: {excluded_repo_count}")
-    print(f"  Percentage handled by org-specific search: {excluded_repo_count/total_repos*100:.1f}%")
+    print(
+        f"  Percentage handled by org-specific search: {excluded_repo_count/total_repos*100:.1f}%"
+    )
     print(f"  Repositories for global search: {total_repos - excluded_repo_count}")
 
     # Estimate discovery potential based on our earlier testing
     discovery_estimates = {
-        'OpenNeuroDerivatives': 266,  # 556 discoverable vs 290 indexed
-        'OpenNeuroDatasets': 23,      # 780 discoverable vs 757 indexed
+        "OpenNeuroDerivatives": 266,  # 556 discoverable vs 290 indexed
+        "OpenNeuroDatasets": 23,  # 780 discoverable vs 757 indexed
     }
 
     total_estimated_new = sum(discovery_estimates.values())
@@ -83,5 +94,5 @@ def main():
     print(f"The hybrid search strategy has been successfully implemented and tested.")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

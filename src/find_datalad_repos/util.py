@@ -10,7 +10,7 @@ import re
 import shlex
 import subprocess
 import sys
-from typing import Any, Union, Sequence
+from typing import Any, Sequence, Union
 import requests
 
 USER_AGENT = "find_datalad_repos ({}) requests/{} {}/{}".format(
@@ -77,7 +77,7 @@ def get_organizations_for_exclusion(
 ) -> list[str]:
     """
     Get organizations with >threshold active repos to exclude from global search.
-    
+
     Repositories with 'gone' status are not counted as they are no longer accessible.
 
     Args:
@@ -93,19 +93,21 @@ def get_organizations_for_exclusion(
         if isinstance(repo, dict):
             # Handle dict format from JSON
             # Skip repositories with 'gone' status
-            if repo.get('status') == 'gone':
+            if repo.get("status") == "gone":
                 continue
-            org = repo['name'].split('/')[0]
+            org = repo["name"].split("/")[0]
         else:
             # Handle GitHubRepo objects
             # Skip repositories with 'gone' status
-            if getattr(repo, 'status', None) == Status.GONE:
+            if getattr(repo, "status", None) == Status.GONE:
                 continue
-            org = repo.name.split('/')[0]
+            org = repo.name.split("/")[0]
         org_counts[org] += 1
 
     excluded_orgs = [org for org, count in org_counts.items() if count >= threshold]
-    log.info(f"Found {len(excluded_orgs)} organizations with >={threshold} active repos for exclusion")
+    log.info(
+        f"Found {len(excluded_orgs)} organizations with >={threshold} active repos for exclusion"
+    )
 
     return excluded_orgs
 
@@ -131,12 +133,16 @@ def build_exclusion_query(orgs: list[str], max_length: int = 1000) -> str:
     for org in sorted(orgs):
         addition = f" -org:{org}"
         if query_length + len(addition) > max_length:
-            log.warning(f"Exclusion query length limit reached, excluding {len(orgs) - len(exclusions)} organizations")
+            log.warning(
+                f"Exclusion query length limit reached, excluding {len(orgs) - len(exclusions)} organizations"
+            )
             break
         exclusions.append(addition)
         query_length += len(addition)
 
     exclusion_str = "".join(exclusions)
-    log.info(f"Built exclusion query with {len(exclusions)} organizations ({len(exclusion_str)} chars)")
+    log.info(
+        f"Built exclusion query with {len(exclusions)} organizations ({len(exclusion_str)} chars)"
+    )
 
     return exclusion_str

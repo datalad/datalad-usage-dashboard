@@ -7,10 +7,19 @@ from time import sleep
 from typing import Any
 from ghreq import Client, PrettyHTTPError
 from pydantic import BaseModel, Field
+from .config import EXCLUSION_THRESHOLD
 from .core import RepoHost, Searcher, Updater
 from .tables import GITHUB_COLUMNS, Column, TableRow
-from .config import EXCLUSION_THRESHOLD
-from .util import USER_AGENT, Status, check, is_container_run, log, nowutc, build_exclusion_query, get_organizations_for_exclusion
+from .util import (
+    USER_AGENT,
+    Status,
+    build_exclusion_query,
+    check,
+    get_organizations_for_exclusion,
+    is_container_run,
+    log,
+    nowutc,
+)
 
 # Searching too fast can trigger abuse detection
 INTER_SEARCH_DELAY = 10
@@ -145,7 +154,9 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
             )
             yield (repo, container_run)
 
-    def search_dataset_repos_with_exclusions(self, exclusions: str) -> Iterator[SearchHit]:
+    def search_dataset_repos_with_exclusions(
+        self, exclusions: str
+    ) -> Iterator[SearchHit]:
         """Global search excluding busy organizations"""
         query = f"path:.datalad filename:config fork:true{exclusions}"
         log.info(f"Global search with exclusions: {query}")
@@ -154,15 +165,21 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
             log.info("Found %s", repo.name)
             yield repo
 
-    def search_runcmds_with_exclusions(self, exclusions: str) -> Iterator[tuple[SearchHit, bool]]:
+    def search_runcmds_with_exclusions(
+        self, exclusions: str
+    ) -> Iterator[tuple[SearchHit, bool]]:
         """Global RUNCMD search excluding busy organizations"""
         query = f'"DATALAD RUNCMD" merge:false is:public{exclusions}'
         log.info(f"Global RUNCMD search with exclusions: {query}")
         for hit in self.search("commits", query):
             container_run = is_container_run(hit["commit"]["message"])
             repo = SearchHit.from_repository(hit["repository"])
-            log.info("Found commit %s in %s (container run: %s)",
-                     hit["sha"][:7], repo.name, container_run)
+            log.info(
+                "Found commit %s in %s (container run: %s)",
+                hit["sha"][:7],
+                repo.name,
+                container_run,
+            )
             yield (repo, container_run)
 
     def search_dataset_repos_in_org(self, org: str) -> Iterator[SearchHit]:
@@ -181,8 +198,12 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
         for hit in self.search("commits", query):
             container_run = is_container_run(hit["commit"]["message"])
             repo = SearchHit.from_repository(hit["repository"])
-            log.info("Found commit %s in %s (container run: %s)",
-                     hit["sha"][:7], repo.name, container_run)
+            log.info(
+                "Found commit %s in %s (container run: %s)",
+                hit["sha"][:7],
+                repo.name,
+                container_run,
+            )
             yield (repo, container_run)
 
     def get_extra_repo_details(self, repo_fullname: str) -> ExtraDetails | None:
@@ -196,7 +217,9 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
         else:
             return ExtraDetails.parse_obj(r)
 
-    def get_datalad_repos(self, excluded_orgs: list[str] | None = None) -> list[SearchResult]:
+    def get_datalad_repos(
+        self, excluded_orgs: list[str] | None = None
+    ) -> list[SearchResult]:
         """
         Hybrid search: global search with exclusions + targeted org searches
 
@@ -207,7 +230,9 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
         excluded_orgs = excluded_orgs or self.excluded_orgs
         exclusions = build_exclusion_query(excluded_orgs) if excluded_orgs else ""
 
-        log.info(f"Using hybrid search strategy with {len(excluded_orgs)} excluded orgs")
+        log.info(
+            f"Using hybrid search strategy with {len(excluded_orgs)} excluded orgs"
+        )
 
         # Phase 1: Global search excluding busy orgs
         log.info("Phase 1: Global searches with exclusions")
@@ -225,7 +250,9 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
             for repo, container_run in self.search_runcmds():
                 runcmds[repo] = container_run or runcmds.get(repo, False)
 
-        log.info(f"Global search found: {len(datasets)} datasets, {len(runcmds)} runcmd repos")
+        log.info(
+            f"Global search found: {len(datasets)} datasets, {len(runcmds)} runcmd repos"
+        )
 
         # Phase 2: Organization-specific searches
         if excluded_orgs:
@@ -243,17 +270,23 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
 
                 log.info(f"Organization {org} added: {len(org_datasets)} datasets")
 
-        log.info(f"Total after hybrid search: {len(datasets)} datasets, {len(runcmds)} runcmd repos")
+        log.info(
+            f"Total after hybrid search: {len(datasets)} datasets, {len(runcmds)} runcmd repos"
+        )
 
         # Convert to SearchResult objects
         results = []
         for repo in datasets | runcmds.keys():
-            results.append(SearchResult(
-                id=repo.id, url=repo.url, name=repo.name,
-                dataset=repo in datasets,
-                run=repo in runcmds,
-                container_run=runcmds.get(repo, False),
-            ))
+            results.append(
+                SearchResult(
+                    id=repo.id,
+                    url=repo.url,
+                    name=repo.name,
+                    dataset=repo in datasets,
+                    run=repo in runcmds,
+                    container_run=runcmds.get(repo, False),
+                )
+            )
 
         return sorted(results, key=attrgetter("name"))
 
@@ -282,14 +315,11 @@ class GitHubUpdater(BaseModel, Updater[GitHubRepo, SearchResult, GitHubSearcher]
 
         # Calculate organizations to exclude based on current collection
         excluded_orgs = get_organizations_for_exclusion(
-            current_repos=collection,
-            threshold=EXCLUSION_THRESHOLD
+            current_repos=collection, threshold=EXCLUSION_THRESHOLD
         )
 
         return cls(
-            all_repos=all_repos,
-            noid_repos=noid_repos,
-            excluded_orgs=excluded_orgs
+            all_repos=all_repos, noid_repos=noid_repos, excluded_orgs=excluded_orgs
         )
 
     def get_searcher(self, **kwargs: Any) -> GitHubSearcher:
