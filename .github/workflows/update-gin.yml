@@ -3,6 +3,7 @@ name: Update repository for GIN datasets
 on:
   schedule:
     - cron: '0 12 * * 6'  # Only run on Saturday
+  workflow_dispatch:
 
 jobs:
   update:
