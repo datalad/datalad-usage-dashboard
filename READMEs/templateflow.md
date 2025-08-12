@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (30) | Stars (123) | Dataset (28) | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (33) | Stars (123) | Dataset (32) | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [templateflow/python-client](https://github.com/templateflow/python-client) | 8 |  | :heavy_check_mark: |  | 2025-08-08 18:02:09+00:00 |
 | 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 86 | :heavy_check_mark: |  |  | 2025-08-11 18:02:39+00:00 |
@@ -24,13 +24,16 @@
 | 21 | [templateflow/tpl-OASIS30ANTs](https://github.com/templateflow/tpl-OASIS30ANTs) | 2 | :heavy_check_mark: |  |  | 2022-03-31 06:46:22+00:00 |
 | 22 | [templateflow/tpl-PNC](https://github.com/templateflow/tpl-PNC) | 1 | :heavy_check_mark: |  |  | 2024-10-23 21:19:56+00:00 |
 | 23 | [templateflow/tpl-RESILIENT](https://github.com/templateflow/tpl-RESILIENT) | 0 | :heavy_check_mark: |  |  | 2022-01-11 09:59:40+00:00 |
-| 24 | [templateflow/tpl-UNCInfant](https://github.com/templateflow/tpl-UNCInfant) | 0 | :heavy_check_mark: |  |  | 2022-01-06 22:33:35+00:00 |
-| 25 | [templateflow/tpl-VALiDATe29](https://github.com/templateflow/tpl-VALiDATe29) | 0 | :heavy_check_mark: |  |  | 2022-01-06 22:32:20+00:00 |
-| 26 | [templateflow/tpl-WHS](https://github.com/templateflow/tpl-WHS) | 0 | :heavy_check_mark: |  |  | 2022-03-04 09:17:14+00:00 |
-| 27 | [templateflow/tpl-dhcpVol](https://github.com/templateflow/tpl-dhcpVol) | 0 |  | :heavy_check_mark: |  | 2024-02-14 21:24:45+00:00 |
-| 28 | [templateflow/tpl-fsLR](https://github.com/templateflow/tpl-fsLR) | 0 | :heavy_check_mark: |  |  | 2022-04-15 08:23:13+00:00 |
-| 29 | [templateflow/tpl-fsaverage](https://github.com/templateflow/tpl-fsaverage) | 0 | :heavy_check_mark: |  |  | 2024-04-15 09:10:29+00:00 |
-| 30 | [templateflow/tpl-onavg](https://github.com/templateflow/tpl-onavg) | 8 | :heavy_check_mark: |  |  | 2025-08-08 17:00:14+00:00 |
+| 24 | [templateflow/tpl-SUIT](https://github.com/templateflow/tpl-SUIT) | 0 | :heavy_check_mark: |  |  | 2024-04-15 09:57:23+00:00 |
+| 25 | [templateflow/tpl-UNCInfant](https://github.com/templateflow/tpl-UNCInfant) | 0 | :heavy_check_mark: |  |  | 2022-01-06 22:33:35+00:00 |
+| 26 | [templateflow/tpl-VALiDATe29](https://github.com/templateflow/tpl-VALiDATe29) | 0 | :heavy_check_mark: |  |  | 2022-01-06 22:32:20+00:00 |
+| 27 | [templateflow/tpl-WHS](https://github.com/templateflow/tpl-WHS) | 0 | :heavy_check_mark: |  |  | 2022-03-04 09:17:14+00:00 |
+| 28 | [templateflow/tpl-dhcpAsym](https://github.com/templateflow/tpl-dhcpAsym) | 0 | :heavy_check_mark: |  |  | 2024-02-16 18:28:13+00:00 |
+| 29 | [templateflow/tpl-dhcpSym](https://github.com/templateflow/tpl-dhcpSym) | 0 | :heavy_check_mark: |  |  | 2024-02-13 14:03:33+00:00 |
+| 30 | [templateflow/tpl-dhcpVol](https://github.com/templateflow/tpl-dhcpVol) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-02-14 21:24:45+00:00 |
+| 31 | [templateflow/tpl-fsLR](https://github.com/templateflow/tpl-fsLR) | 0 | :heavy_check_mark: |  |  | 2022-04-15 08:23:13+00:00 |
+| 32 | [templateflow/tpl-fsaverage](https://github.com/templateflow/tpl-fsaverage) | 0 | :heavy_check_mark: |  |  | 2024-04-15 09:10:29+00:00 |
+| 33 | [templateflow/tpl-onavg](https://github.com/templateflow/tpl-onavg) | 8 | :heavy_check_mark: |  |  | 2025-08-08 17:00:14+00:00 |
 
 ## Gone
 No repositories found!
