@@ -96,7 +96,7 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
         url: str | None = f"/search/{resource_type}"
         params: dict[str, str] | None = {
             "q": query,
-            "per_page": 100,  # default is 30.
+            "per_page": "100",  # default is 30.
         }
         while url is not None:
             try:
