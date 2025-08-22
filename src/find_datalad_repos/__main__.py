@@ -6,7 +6,7 @@ import re
 import click
 from click_loglevel import LogLevel
 from ghtoken import get_ghtoken
-from .config import README_FOLDER, RECORD_FILE
+from .config import README_FOLDER, RECORD_FILE, GITHUB_ORGS_FILE
 from .core import RepoHost
 from .readmes import mkreadmes
 from .record import RepoRecord
@@ -92,7 +92,7 @@ def main(log_level: int, regen_readme: bool, hosts: set[RepoHost]) -> None:
     mkreadmes(record)
 
     if not regen_readme:
-        runcmd("git", "add", RECORD_FILE, "README.md", README_FOLDER)
+        runcmd("git", "add", RECORD_FILE, GITHUB_ORGS_FILE, "README.md", README_FOLDER)
         if reports:
             msg = "; ".join(reports)
         else:
