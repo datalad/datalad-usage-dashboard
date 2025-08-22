@@ -8,15 +8,14 @@ from typing import Any
 from ghreq import Client, PrettyHTTPError
 from pydantic import BaseModel, Field
 import requests
-from .config import EXCLUSION_THRESHOLD
 from .core import RepoHost, Searcher, Updater
+from .github_orgs import GitHubOrgsConfig, initialize_orgs_config
 from .tables import GITHUB_COLUMNS, Column, TableRow
 from .util import (
     USER_AGENT,
     Status,
     build_exclusion_query,
     check,
-    get_organizations_for_exclusion,
     is_container_run,
     log,
     nowutc,
@@ -271,19 +270,24 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
     def get_datalad_repos(
         self,
         excluded_orgs: list[str] | None = None,
+        traverse_orgs: list[str] | None = None,
+        orgs_config: GitHubOrgsConfig | None = None,
         known_repos: list[dict] | None = None,
     ) -> list[SearchResult]:
         """
         Hybrid search: global search with exclusions + targeted org searches
 
         Args:
-            excluded_orgs: Organizations to exclude from global search and
-                          search individually
+            excluded_orgs: Organizations to exclude from global search
                           If None, uses self.excluded_orgs set during initialization
+            traverse_orgs: Organizations to explicitly traverse
+            orgs_config: Organization configuration
             known_repos: Known repositories for fallback detection
                          If None, uses self.known_repos set during initialization
         """
         excluded_orgs = excluded_orgs or self.excluded_orgs
+        traverse_orgs = traverse_orgs or []
+        orgs_config = orgs_config or GitHubOrgsConfig()
         known_repos = known_repos or self.known_repos
         exclusions = build_exclusion_query(excluded_orgs) if excluded_orgs else ""
 
@@ -312,21 +316,42 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
             f"{len(runcmds)} runcmd repos"
         )
 
-        # Phase 2: Organization-specific searches
-        if excluded_orgs:
-            log.info("Phase 2: Organization-specific searches")
-            for org in excluded_orgs:
-                log.info(f"Searching within organization: {org}")
+        # Phase 2: Organization-specific traversal
+        if traverse_orgs:
+            log.info(
+                f"Phase 2: Organization-specific traversal "
+                f"({len(traverse_orgs)} orgs)"
+            )
+            for org in traverse_orgs:
+                config = orgs_config.get_config(org)
+                log.info(f"Traversing organization: {org}")
 
-                # Add datasets from this org WITH FALLBACK SUPPORT
-                org_datasets = set(
-                    self.search_dataset_repos_in_org(org, known_repos=known_repos)
-                )
+                if config.use_enumeration_fallback:
+                    # Use enumeration for organizations with broken search
+                    log.info(f"Using enumeration fallback for {org}")
+                    # Get known repository names for this org
+                    known_names = {
+                        r["name"]
+                        for r in (known_repos or [])
+                        if r["name"].startswith(f"{org}/")
+                    }
+                    # Enumerate and check repositories
+                    org_datasets = set()
+                    for result in self.process_enumerated_repos(org, known_names):
+                        # Convert SearchResult to SearchHit for consistency
+                        hit = SearchHit(id=result.id, url=result.url, name=result.name)
+                        org_datasets.add(hit)
+                else:
+                    # Use search API WITH FALLBACK SUPPORT
+                    org_datasets = set(
+                        self.search_dataset_repos_in_org(org, known_repos=known_repos)
+                    )
                 datasets.update(org_datasets)
 
-                # Add runcmds from this org
-                for repo, container_run in self.search_runcmds_in_org(org):
-                    runcmds[repo] = container_run or runcmds.get(repo, False)
+                # Search for RUNCMD (search API usually works for this)
+                if not config.use_enumeration_fallback:
+                    for repo, container_run in self.search_runcmds_in_org(org):
+                        runcmds[repo] = container_run or runcmds.get(repo, False)
 
                 log.info(f"Organization {org} added: {len(org_datasets)} datasets")
 
@@ -503,6 +528,7 @@ class GitHubUpdater(BaseModel, Updater[GitHubRepo, SearchResult, GitHubSearcher]
     #: Repos that disappeared before we started tracking IDs
     noid_repos: list[GitHubRepo]
     excluded_orgs: list[str] = Field(default_factory=list)
+    orgs_config: GitHubOrgsConfig = Field(default_factory=GitHubOrgsConfig)
     seen: set[int] = Field(default_factory=set)
     new_hits: int = 0
     new_repos: int = 0
@@ -520,13 +546,23 @@ class GitHubUpdater(BaseModel, Updater[GitHubRepo, SearchResult, GitHubSearcher]
             else:
                 noid_repos.append(repo)
 
-        # Calculate organizations to exclude based on current collection
-        excluded_orgs = get_organizations_for_exclusion(
-            current_repos=collection, threshold=EXCLUSION_THRESHOLD
-        )
+        # Load or initialize organization configuration
+        orgs_config = GitHubOrgsConfig.load()
+        if not orgs_config.orgs:
+            # Initialize from current data if empty
+            orgs_config = initialize_orgs_config(collection)
+            orgs_config.save()
+            log.info("Initialized github-orgs.json configuration file")
+        # Get organizations to exclude from the configuration
+        excluded_orgs = [
+            org for org, config in orgs_config.orgs.items() if config.search_exclude
+        ]
 
         return cls(
-            all_repos=all_repos, noid_repos=noid_repos, excluded_orgs=excluded_orgs
+            all_repos=all_repos,
+            noid_repos=noid_repos,
+            excluded_orgs=excluded_orgs,
+            orgs_config=orgs_config,
         )
 
     def get_searcher(self, **kwargs: Any) -> GitHubSearcher:
@@ -537,6 +573,42 @@ class GitHubUpdater(BaseModel, Updater[GitHubRepo, SearchResult, GitHubSearcher]
         return GitHubSearcher(
             excluded_orgs=self.excluded_orgs, known_repos=known_repos, **kwargs
         )
+
+    def get_organizations_to_traverse(self) -> list[str]:
+        """Get list of organizations to explicitly traverse."""
+        orgs_to_traverse = []
+        for org, config in self.orgs_config.orgs.items():
+            if config.traverse_repos and self.orgs_config.needs_traversal(org):
+                orgs_to_traverse.append(org)
+        return orgs_to_traverse
+
+    def update_org_timestamps(self, org: str, searcher: GitHubSearcher) -> None:
+        """Update organization timestamps after traversal."""
+        config = self.orgs_config.get_config(org)
+        config.last_checked = nowutc()
+
+        # Try to get latest push timestamp
+        try:
+            # Get the most recently pushed repository
+            repos = searcher.get(
+                f"/orgs/{org}/repos",
+                params={"sort": "pushed", "direction": "desc", "per_page": 1},
+            )
+            if repos:
+                config.updated = datetime.fromisoformat(
+                    repos[0]["pushed_at"].replace("Z", "+00:00")
+                )
+        except Exception as e:
+            log.warning(f"Failed to get last push for {org}: {e}")
+
+        # Update repo count
+        try:
+            org_data = searcher.get(f"/orgs/{org}")
+            config.repo_count = org_data.get("public_repos", 0)
+        except Exception as e:
+            log.warning(f"Failed to get repo count for {org}: {e}")
+
+        self.orgs_config.save()
 
     def register_repo(self, sr: SearchResult, searcher: GitHubSearcher) -> None:
         rid = sr.id

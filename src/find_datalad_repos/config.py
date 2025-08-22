@@ -1,5 +1,8 @@
 RECORD_FILE = "datalad-repos.json"
 
+# GitHub organizations configuration file
+GITHUB_ORGS_FILE = "github-orgs.json"
+
 README_FOLDER = "READMEs"
 
 OURSELVES = {

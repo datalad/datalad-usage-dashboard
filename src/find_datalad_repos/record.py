@@ -48,7 +48,36 @@ def update_collection(
 ) -> list[str]:
     updater = updater_cls.from_collection(host, collection)
     with updater.get_searcher(**searcher_kwargs) as searcher:
-        for search_result in searcher.get_datalad_repos():
-            updater.register_repo(search_result, searcher)
+        # For GitHub, pass organization configuration
+        if host == RepoHost.GITHUB:
+            from .github import GitHubSearcher, GitHubUpdater
+
+            if isinstance(updater, GitHubUpdater) and isinstance(
+                searcher, GitHubSearcher
+            ):
+                traverse_orgs = updater.get_organizations_to_traverse()
+                known_repos = [
+                    {"name": r.name, "status": r.status.value}
+                    for r in updater.all_repos.values()
+                ]
+                search_results = searcher.get_datalad_repos(
+                    excluded_orgs=updater.excluded_orgs,
+                    traverse_orgs=traverse_orgs,
+                    orgs_config=updater.orgs_config,
+                    known_repos=known_repos,
+                )
+                for sr in search_results:
+                    updater.register_repo(sr, searcher)
+                # Update timestamps for traversed organizations
+                for org in traverse_orgs:
+                    updater.update_org_timestamps(org, searcher)
+                # Save configuration with updated timestamps
+                updater.orgs_config.save()
+            else:
+                for search_result in searcher.get_datalad_repos():
+                    updater.register_repo(search_result, searcher)
+        else:
+            for search_result in searcher.get_datalad_repos():
+                updater.register_repo(search_result, searcher)
         collection[:] = updater.get_new_collection(searcher)
     return updater.get_reports()
