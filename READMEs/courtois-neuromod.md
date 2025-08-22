@@ -34,7 +34,7 @@
 | 31 | [courtois-neuromod/friends_annotations](https://github.com/courtois-neuromod/friends_annotations) | 0 | :heavy_check_mark: |  |  | 2025-05-16 21:13:29+00:00 |
 | 32 | [courtois-neuromod/friends_nlp_reproducibility](https://github.com/courtois-neuromod/friends_nlp_reproducibility) | 0 | :heavy_check_mark: |  |  | 2022-07-20 19:47:18+00:00 |
 | 33 | [courtois-neuromod/gamepad](https://github.com/courtois-neuromod/gamepad) | 0 | :heavy_check_mark: |  |  | 2025-08-21 15:34:51+00:00 |
-| 34 | [courtois-neuromod/gamepad.fmriprep](https://github.com/courtois-neuromod/gamepad.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2025-08-21 20:11:53+00:00 |
+| 34 | [courtois-neuromod/gamepad.fmriprep](https://github.com/courtois-neuromod/gamepad.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2025-08-22 12:51:12+00:00 |
 | 35 | [courtois-neuromod/harrypotter](https://github.com/courtois-neuromod/harrypotter) | 0 | :heavy_check_mark: |  |  | 2025-06-04 19:14:09+00:00 |
 | 36 | [courtois-neuromod/harrypotter.fmriprep](https://github.com/courtois-neuromod/harrypotter.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2025-03-28 02:24:25+00:00 |
 | 37 | [courtois-neuromod/hcptrt](https://github.com/courtois-neuromod/hcptrt) | 1 | :heavy_check_mark: |  |  | 2025-05-02 15:13:13+00:00 |
@@ -53,7 +53,7 @@
 | 50 | [courtois-neuromod/movie_decoding_sa](https://github.com/courtois-neuromod/movie_decoding_sa) | 0 | :heavy_check_mark: |  |  | 2023-05-09 20:05:28+00:00 |
 | 51 | [courtois-neuromod/narratives.stimuli](https://github.com/courtois-neuromod/narratives.stimuli) | 0 | :heavy_check_mark: |  |  | 2025-07-03 15:10:43+00:00 |
 | 52 | [courtois-neuromod/ood.stimuli](https://github.com/courtois-neuromod/ood.stimuli) | 0 |  | :heavy_check_mark: |  | 2025-07-03 14:45:04+00:00 |
-| 53 | [courtois-neuromod/phantom_vlb](https://github.com/courtois-neuromod/phantom_vlb) | 0 | :heavy_check_mark: |  |  | 2025-08-19 21:05:24+00:00 |
+| 53 | [courtois-neuromod/phantom_vlb](https://github.com/courtois-neuromod/phantom_vlb) | 0 | :heavy_check_mark: |  |  | 2025-07-25 18:05:39+00:00 |
 | 54 | [courtois-neuromod/retino.stimuli](https://github.com/courtois-neuromod/retino.stimuli) | 0 | :heavy_check_mark: |  |  | 2025-06-12 19:11:20+00:00 |
 | 55 | [courtois-neuromod/retino_analysis](https://github.com/courtois-neuromod/retino_analysis) | 0 | :heavy_check_mark: |  |  | 2025-07-21 19:39:38+00:00 |
 | 56 | [courtois-neuromod/retinotopy](https://github.com/courtois-neuromod/retinotopy) | 0 | :heavy_check_mark: |  |  | 2025-06-12 19:11:26+00:00 |
