@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (12) | Stars (2) | Last Modified |
+| # | Repository (13) | Stars (2) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [nipreps-data/HCP101006](https://gin.g-node.org/nipreps-data/HCP101006) | 0 | 2023-08-07 18:58:47+00:00 |
 | 2 | [nipreps-data/bcp](https://gin.g-node.org/nipreps-data/bcp) | 1 | 2022-03-17 19:38:42+00:00 |
@@ -13,6 +13,7 @@
 | 10 | [nipreps-data/fmriprep-test-data](https://gin.g-node.org/nipreps-data/fmriprep-test-data) | 0 | 2021-09-29 14:54:52+00:00 |
 | 11 | [nipreps-data/hcph-pilot_fieldmaps](https://gin.g-node.org/nipreps-data/hcph-pilot_fieldmaps) | 0 | 2023-08-08 08:22:15+00:00 |
 | 12 | [nipreps-data/nibabies-test-data](https://gin.g-node.org/nipreps-data/nibabies-test-data) | 0 | 2022-03-17 19:40:22+00:00 |
+| 13 | [nipreps-data/pet-nimh-dasb](https://gin.g-node.org/nipreps-data/pet-nimh-dasb) | 0 | 2025-08-19 18:58:14+00:00 |
 
 ## Gone
 | # | Repository (2) | Stars | Last Modified |
