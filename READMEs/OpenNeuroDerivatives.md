@@ -144,7 +144,7 @@
 | 141 | [OpenNeuroDerivatives/ds001491-mriqc](https://github.com/OpenNeuroDerivatives/ds001491-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 01:18:40+00:00 |
 | 142 | [OpenNeuroDerivatives/ds001497-fmriprep](https://github.com/OpenNeuroDerivatives/ds001497-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-06-10 04:13:09+00:00 |
 | 143 | [OpenNeuroDerivatives/ds001497-mriqc](https://github.com/OpenNeuroDerivatives/ds001497-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 01:19:09+00:00 |
-| 144 | [OpenNeuroDerivatives/ds001506-fmriprep](https://github.com/OpenNeuroDerivatives/ds001506-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-06-10 04:21:03+00:00 |
+| 144 | [OpenNeuroDerivatives/ds001506-fmriprep](https://github.com/OpenNeuroDerivatives/ds001506-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-08-22 21:33:30+00:00 |
 | 145 | [OpenNeuroDerivatives/ds001506-mriqc](https://github.com/OpenNeuroDerivatives/ds001506-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 01:26:11+00:00 |
 | 146 | [OpenNeuroDerivatives/ds001511-mriqc](https://github.com/OpenNeuroDerivatives/ds001511-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 01:29:58+00:00 |
 | 147 | [OpenNeuroDerivatives/ds001521-mriqc](https://github.com/OpenNeuroDerivatives/ds001521-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 01:30:52+00:00 |
@@ -194,7 +194,7 @@
 | 191 | [OpenNeuroDerivatives/ds001847-mriqc](https://github.com/OpenNeuroDerivatives/ds001847-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 01:59:33+00:00 |
 | 192 | [OpenNeuroDerivatives/ds001848-fmriprep](https://github.com/OpenNeuroDerivatives/ds001848-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-06-11 23:28:01+00:00 |
 | 193 | [OpenNeuroDerivatives/ds001848-mriqc](https://github.com/OpenNeuroDerivatives/ds001848-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 02:00:20+00:00 |
-| 194 | [OpenNeuroDerivatives/ds001882-fmriprep](https://github.com/OpenNeuroDerivatives/ds001882-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-06-12 00:51:03+00:00 |
+| 194 | [OpenNeuroDerivatives/ds001882-fmriprep](https://github.com/OpenNeuroDerivatives/ds001882-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-08-22 18:00:44+00:00 |
 | 195 | [OpenNeuroDerivatives/ds001882-mriqc](https://github.com/OpenNeuroDerivatives/ds001882-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 02:01:01+00:00 |
 | 196 | [OpenNeuroDerivatives/ds001883-mriqc](https://github.com/OpenNeuroDerivatives/ds001883-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 02:01:43+00:00 |
 | 197 | [OpenNeuroDerivatives/ds001894-mriqc](https://github.com/OpenNeuroDerivatives/ds001894-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 02:05:22+00:00 |
@@ -259,7 +259,7 @@
 | 256 | [OpenNeuroDerivatives/ds002574-mriqc](https://github.com/OpenNeuroDerivatives/ds002574-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 02:49:52+00:00 |
 | 257 | [OpenNeuroDerivatives/ds002596-mriqc](https://github.com/OpenNeuroDerivatives/ds002596-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 02:50:39+00:00 |
 | 258 | [OpenNeuroDerivatives/ds002608-mriqc](https://github.com/OpenNeuroDerivatives/ds002608-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 02:51:15+00:00 |
-| 259 | [OpenNeuroDerivatives/ds002609-fmriprep](https://github.com/OpenNeuroDerivatives/ds002609-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-06-26 00:45:52+00:00 |
+| 259 | [OpenNeuroDerivatives/ds002609-fmriprep](https://github.com/OpenNeuroDerivatives/ds002609-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-08-22 23:21:07+00:00 |
 | 260 | [OpenNeuroDerivatives/ds002609-mriqc](https://github.com/OpenNeuroDerivatives/ds002609-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-06-23 22:51:04+00:00 |
 | 261 | [OpenNeuroDerivatives/ds002643-fmriprep](https://github.com/OpenNeuroDerivatives/ds002643-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-06-26 01:43:52+00:00 |
 | 262 | [OpenNeuroDerivatives/ds002643-mriqc](https://github.com/OpenNeuroDerivatives/ds002643-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-06-23 22:52:20+00:00 |
@@ -319,7 +319,7 @@
 | 316 | [OpenNeuroDerivatives/ds002898-mriqc](https://github.com/OpenNeuroDerivatives/ds002898-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-06-23 23:25:55+00:00 |
 | 317 | [OpenNeuroDerivatives/ds002938-fmriprep](https://github.com/OpenNeuroDerivatives/ds002938-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-06-26 10:46:21+00:00 |
 | 318 | [OpenNeuroDerivatives/ds002938-mriqc](https://github.com/OpenNeuroDerivatives/ds002938-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-06-23 23:28:32+00:00 |
-| 319 | [OpenNeuroDerivatives/ds002979-fmriprep](https://github.com/OpenNeuroDerivatives/ds002979-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-06-26 11:11:18+00:00 |
+| 319 | [OpenNeuroDerivatives/ds002979-fmriprep](https://github.com/OpenNeuroDerivatives/ds002979-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-08-22 04:10:30+00:00 |
 | 320 | [OpenNeuroDerivatives/ds002979-mriqc](https://github.com/OpenNeuroDerivatives/ds002979-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-06-23 23:31:29+00:00 |
 | 321 | [OpenNeuroDerivatives/ds003007-fmriprep](https://github.com/OpenNeuroDerivatives/ds003007-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-06-26 11:28:16+00:00 |
 | 322 | [OpenNeuroDerivatives/ds003007-mriqc](https://github.com/OpenNeuroDerivatives/ds003007-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-06-23 23:34:42+00:00 |
