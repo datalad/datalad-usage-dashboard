@@ -1791,7 +1791,7 @@
     "search_exclude": true,
     "traverse_repos": true,
     "use_enumeration_fallback": false,
-    "last_checked": "2025-08-30T06:27:12.250710+00:00",
+    "last_checked": "2025-08-31T06:28:32.983486+00:00",
     "repo_count": 31,
     "notes": "Auto-configured based on repository count"
   },
@@ -2661,7 +2661,7 @@
     "search_exclude": true,
     "traverse_repos": true,
     "use_enumeration_fallback": false,
-    "last_checked": "2025-08-30T06:27:12.334319+00:00",
+    "last_checked": "2025-08-31T06:28:33.284152+00:00",
     "repo_count": 343,
     "notes": "Auto-configured based on repository count"
   },
@@ -5900,7 +5900,7 @@
     "search_exclude": true,
     "traverse_repos": true,
     "use_enumeration_fallback": false,
-    "last_checked": "2025-08-30T06:27:12.424868+00:00",
+    "last_checked": "2025-08-31T06:28:33.410799+00:00",
     "repo_count": 39,
     "notes": "Auto-configured based on repository count"
   },
