@@ -1180,7 +1180,7 @@
   "OpenNeuroDatasets": {
     "search_exclude": true,
     "traverse_repos": true,
-    "use_enumeration_fallback": false,
+    "use_enumeration_fallback": true,
     "updated": "2025-08-22T17:40:56+00:00",
     "last_checked": "2025-08-22T18:30:06.895048+00:00",
     "repo_count": 1488,
