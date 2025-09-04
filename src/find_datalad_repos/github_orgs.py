@@ -1,6 +1,5 @@
 """GitHub organization configuration management."""
 from __future__ import annotations
-from datetime import datetime
 from enum import Enum
 import json
 from pathlib import Path
@@ -24,10 +23,6 @@ class OrgConfig(BaseModel):
     # Discovery method configuration
     discovery_method: Optional[DiscoveryMethod] = None
     search_exclude: Optional[bool] = None
-
-    # Metadata fields (only essential ones)
-    updated: Optional[datetime] = None
-    last_checked: Optional[datetime] = None
 
     @validator("search_exclude")
     @classmethod
@@ -86,19 +81,9 @@ class GitHubOrgsConfig(BaseModel):
                 "global_search",
             ] and config_dict.get("search_exclude") in [None, False]
 
-            if (
-                is_default
-                and not config_dict.get("updated")
-                and not config_dict.get("last_checked")
-            ):
+            if is_default:
                 # Skip completely default organizations
                 continue
-
-            # Convert datetime objects to ISO format strings
-            if "updated" in config_dict and config_dict["updated"]:
-                config_dict["updated"] = config_dict["updated"].isoformat()
-            if "last_checked" in config_dict and config_dict["last_checked"]:
-                config_dict["last_checked"] = config_dict["last_checked"].isoformat()
 
             # Remove default values to minimize file size
             if config_dict.get("discovery_method") == "global_search":
@@ -147,36 +132,18 @@ class GitHubOrgsConfig(BaseModel):
         ]
 
     def needs_traversal(self, org: str) -> bool:
-        """Check if organization needs re-traversal based on timestamps."""
+        """Check if organization needs traversal.
+
+        Note: Timestamp-based checks have been removed as timestamps
+        are tracked in individual repository records.
+        """
         config = self.get_config(org)
 
         # Only applies to orgs that are actually traversed
-        if config.effective_discovery_method not in [
+        return config.effective_discovery_method in [
             DiscoveryMethod.ORG_SEARCH,
             DiscoveryMethod.ORG_TRAVERSE,
-        ]:
-            return False
-
-        # Always traverse if configured but never traversed
-        if not config.last_checked:
-            log.info(f"Organization {org} needs traversal: never traversed before")
-            return True
-
-        # If we don't have updated timestamp, we need to traverse to get it
-        if not config.updated:
-            log.info(f"Organization {org} needs traversal: no updated timestamp")
-            return True
-
-        # Re-traverse if updated is newer than last_checked
-        if config.last_checked and config.updated > config.last_checked:
-            log.info(
-                f"Organization {org} needs traversal: "
-                f"updated {config.updated} > "
-                f"last_checked {config.last_checked}"
-            )
-            return True
-
-        return False
+        ]
 
 
 def initialize_orgs_config(

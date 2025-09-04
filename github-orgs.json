@@ -1,82 +1,57 @@
 {
   "OpenNeuroDatasets-JSONLD": {
     "discovery_method": "org_search",
-    "search_exclude": true,
-    "updated": "2025-08-22T02:15:02+00:00",
-    "last_checked": "2025-08-22T18:30:06.367779+00:00"
+    "search_exclude": true
   },
   "OpenNeuroDatasets": {
     "discovery_method": "org_traverse",
-    "search_exclude": true,
-    "updated": "2025-08-22T17:40:56+00:00",
-    "last_checked": "2025-08-22T18:30:06.895048+00:00"
+    "search_exclude": true
   },
   "OpenNeuroDerivatives": {
     "discovery_method": "org_search",
-    "search_exclude": true,
-    "updated": "2025-08-22T18:00:44+00:00",
-    "last_checked": "2025-08-22T18:30:07.491167+00:00"
+    "search_exclude": true
   },
   "ReproBrainChart": {
-    "discovery_method": "org_search",
-    "updated": "2025-08-21T22:14:16+00:00",
-    "last_checked": "2025-08-22T18:30:07.982805+00:00"
+    "discovery_method": "org_search"
   },
   "ReproNim": {
     "discovery_method": "org_search",
-    "search_exclude": true,
-    "updated": "2025-08-22T13:38:36+00:00",
-    "last_checked": "2025-08-22T18:30:08.633250+00:00"
+    "search_exclude": true
   },
   "adswa": {
     "discovery_method": "org_search",
-    "search_exclude": true,
-    "last_checked": "2025-09-02T20:32:54.068880+00:00"
+    "search_exclude": true
   },
   "courtois-neuromod": {
     "discovery_method": "org_search",
-    "search_exclude": true,
-    "updated": "2025-08-22T17:37:15+00:00",
-    "last_checked": "2025-08-22T18:30:09.197078+00:00"
+    "search_exclude": true
   },
   "dandisets": {
     "discovery_method": "org_traverse",
-    "search_exclude": true,
-    "updated": "2025-08-22T05:38:22+00:00",
-    "last_checked": "2025-08-22T18:30:09.567000+00:00"
+    "search_exclude": true
   },
   "dandizarrs": {
     "discovery_method": "org_search",
-    "search_exclude": true,
-    "updated": "2025-08-22T05:37:58+00:00",
-    "last_checked": "2025-08-22T18:30:10.088143+00:00"
+    "search_exclude": true
   },
   "datalad": {
     "discovery_method": "org_search",
-    "search_exclude": true,
-    "updated": "2025-08-22T18:13:31+00:00",
-    "last_checked": "2025-08-22T18:30:10.738181+00:00"
+    "search_exclude": true
   },
   "datasets-mila": {
     "discovery_method": "org_search",
-    "search_exclude": true,
-    "last_checked": "2025-09-02T20:32:54.351363+00:00"
+    "search_exclude": true
   },
   "psychoinformatics-de": {
     "discovery_method": "org_search",
-    "search_exclude": true,
-    "updated": "2025-08-22T09:32:39+00:00",
-    "last_checked": "2025-08-22T18:30:11.325415+00:00"
+    "search_exclude": true
   },
   "templateflow": {
     "discovery_method": "org_search",
-    "search_exclude": true,
-    "updated": "2025-08-20T16:55:24+00:00",
-    "last_checked": "2025-08-22T18:30:11.911811+00:00"
+    "search_exclude": true
   },
   "yarikoptic": {
     "discovery_method": "org_search",
-    "search_exclude": true,
-    "last_checked": "2025-09-02T20:32:54.574949+00:00"
+    "search_exclude": true
   }
 }

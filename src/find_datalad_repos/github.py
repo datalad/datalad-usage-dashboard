@@ -645,28 +645,7 @@ class GitHubUpdater(BaseModel, Updater[GitHubRepo, SearchResult, GitHubSearcher]
                     orgs_to_traverse.append(org)
         return orgs_to_traverse
 
-    def update_org_timestamps(self, org: str, searcher: GitHubSearcher) -> None:
-        """Update organization timestamps after traversal."""
-        config = self.orgs_config.get_config(org)
-        config.last_checked = nowutc()
-
-        # Try to get latest push timestamp
-        try:
-            # Get the most recently pushed repository
-            repos = searcher.get(
-                f"/orgs/{org}/repos",
-                params={"sort": "pushed", "direction": "desc", "per_page": 1},
-            )
-            if repos:
-                config.updated = datetime.fromisoformat(
-                    repos[0]["pushed_at"].replace("Z", "+00:00")
-                )
-        except Exception as e:
-            log.warning(f"Failed to get last push for {org}: {e}")
-
-        # Repo count is no longer stored (can be deduced from datalad-repos.json)
-
-        self.orgs_config.save()
+    # Timestamp tracking removed - tracked in individual repository records
 
     def register_repo(self, sr: SearchResult, searcher: GitHubSearcher) -> None:
         rid = sr.id
