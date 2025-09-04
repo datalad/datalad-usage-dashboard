@@ -82,7 +82,7 @@ diff-datalad-repos
 ## Configuration
 
 - **Environment variables**: `GIN_TOKEN`, `GITHUB_TOKEN`, `HUB_DATALAD_ORG_TOKEN`
-- **Known organizations**: Maintained in `config.py` as `OURSELVES` set
+- **Organization grouping**: Maintained in `github-orgs.json` with group classification ("ours" vs "public")
 - **Output files**: `datalad-repos.json` (data), `README.md` (main report), `READMEs/` (individual reports)
 
 ## Type System

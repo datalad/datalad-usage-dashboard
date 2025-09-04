@@ -2,9 +2,10 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
-from .config import OURSELVES, README_FOLDER
+from .config import README_FOLDER
 from .gin import GINRepo
 from .github import GitHubRepo
+from .github_orgs import GitHubOrgsConfig
 from .osf import OSFRepo
 from .record import RepoRecord
 from .tables import (
@@ -25,8 +26,12 @@ def mkreadmes(
 ) -> None:
     Path(directory).mkdir(parents=True, exist_ok=True)
     Path(filename).parent.mkdir(parents=True, exist_ok=True)
+
+    # Load organization configuration for proper categorization
+    orgs_config = GitHubOrgsConfig.load()
+
     (github_block, github_wild, github_ours, github_gone) = make_github_tables(
-        record.github, directory
+        record.github, directory, orgs_config
     )
     (gin_block, gin_active, gin_gone) = make_gin_tables(
         record.gin, Path(directory, "gin")
@@ -96,7 +101,9 @@ def mkreadmes(
 
 
 def make_github_tables(
-    repolist: list[GitHubRepo], directory: str | Path
+    repolist: list[GitHubRepo],
+    directory: str | Path,
+    orgs_config: GitHubOrgsConfig | None = None,
 ) -> tuple[str, int, int, int]:
     base_url = "https://github.com"
     repos_by_org: dict[str, list[GitHubRepo]] = defaultdict(list)
@@ -130,7 +137,7 @@ def make_github_tables(
                     for k, v in tbl.get_total_qtys().items():
                         stats[k] += v
             if active:
-                if owner in OURSELVES:
+                if orgs_config and orgs_config.is_our_org(owner):
                     section = main_ours
                 else:
                     section = main_wild
@@ -167,7 +174,7 @@ def make_github_tables(
             r = repos[0]
             if r.gone:
                 section = main_gone
-            elif owner in OURSELVES:
+            elif orgs_config and orgs_config.is_our_org(owner):
                 section = main_ours
             else:
                 section = main_wild
