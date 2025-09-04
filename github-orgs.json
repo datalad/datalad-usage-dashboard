@@ -60,5 +60,53 @@
     "discovery_method": "org_search",
     "search_exclude": true,
     "group": "ours"
+  },
+  "christian-monch": {
+    "group": "ours"
+  },
+  "con": {
+    "group": "ours"
+  },
+  "dandi": {
+    "group": "ours"
+  },
+  "dandi-containers": {
+    "group": "ours"
+  },
+  "datalad-collection-1": {
+    "group": "ours"
+  },
+  "datalad-datasets": {
+    "group": "ours"
+  },
+  "datalad-handbook": {
+    "group": "ours"
+  },
+  "datalad-tester": {
+    "group": "ours"
+  },
+  "dbic": {
+    "group": "ours"
+  },
+  "jsheunis": {
+    "group": "ours"
+  },
+  "jwodder": {
+    "group": "ours"
+  },
+  "loj": {
+    "group": "ours"
+  },
+  "mih": {
+    "group": "ours"
+  },
+  "myyoda": {
+    "group": "ours"
+  },
+  "neurodebian": {
+    "group": "ours"
+  },
+  "proj-nuisance": {
+    "group": "ours"
   }
 }

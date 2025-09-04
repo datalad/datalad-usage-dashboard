@@ -232,7 +232,12 @@ def initialize_orgs_config(
             if group == OrgGroup.OURS:
                 org_config = OrgConfig(group=group)
                 config.orgs[org] = org_config
-            # Skip storing public orgs with default settings
+            # Public orgs with default settings are not stored
+
+    # Ensure ALL organizations in OURSELVES have entries, even with zero repos
+    for org in OURSELVES:
+        if org not in config.orgs:
+            config.orgs[org] = OrgConfig(group=OrgGroup.OURS)
 
     # Add special cases with new system
     special_cases: dict[str, dict] = {
