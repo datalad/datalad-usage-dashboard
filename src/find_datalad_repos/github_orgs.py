@@ -25,11 +25,9 @@ class OrgConfig(BaseModel):
     discovery_method: Optional[DiscoveryMethod] = None
     search_exclude: Optional[bool] = None
 
-    # Metadata fields
+    # Metadata fields (only essential ones)
     updated: Optional[datetime] = None
     last_checked: Optional[datetime] = None
-    repo_count: Optional[int] = None
-    notes: Optional[str] = None
 
     @validator("search_exclude")
     @classmethod
@@ -81,12 +79,36 @@ class GitHubOrgsConfig(BaseModel):
         data = {}
         for name, config in self.orgs.items():
             config_dict = config.model_dump(exclude_none=True)
+
+            # Skip organizations that only have default values
+            is_default = config_dict.get("discovery_method") in [
+                None,
+                "global_search",
+            ] and config_dict.get("search_exclude") in [None, False]
+
+            if (
+                is_default
+                and not config_dict.get("updated")
+                and not config_dict.get("last_checked")
+            ):
+                # Skip completely default organizations
+                continue
+
             # Convert datetime objects to ISO format strings
             if "updated" in config_dict and config_dict["updated"]:
                 config_dict["updated"] = config_dict["updated"].isoformat()
             if "last_checked" in config_dict and config_dict["last_checked"]:
                 config_dict["last_checked"] = config_dict["last_checked"].isoformat()
-            data[name] = config_dict
+
+            # Remove default values to minimize file size
+            if config_dict.get("discovery_method") == "global_search":
+                config_dict.pop("discovery_method", None)
+            if config_dict.get("search_exclude") is False:
+                config_dict.pop("search_exclude", None)
+
+            # Only save if there's something meaningful left
+            if config_dict:
+                data[name] = config_dict
 
         with open(path, "w") as f:
             json.dump(data, f, indent=2)
@@ -179,32 +201,24 @@ def initialize_orgs_config(
             org_config = OrgConfig(
                 discovery_method=DiscoveryMethod.ORG_SEARCH,
                 search_exclude=True,
-                repo_count=count,
-                notes="Auto-configured: large org with org-specific search",
             )
         else:
-            # Small orgs use default (global_search)
-            org_config = OrgConfig(
-                repo_count=count,
-                notes="Auto-configured: small org using global search",
-            )
+            # Small orgs use default (global_search) - no config needed
+            org_config = OrgConfig()
         config.orgs[org] = org_config
 
     # Add special cases with new system
     special_cases: dict[str, dict] = {
         "ReproBrainChart": {
             "discovery_method": DiscoveryMethod.ORG_SEARCH,
-            "notes": "Explicitly search despite low repo count (#64)",
         },
         "dandisets": {
             "discovery_method": DiscoveryMethod.ORG_TRAVERSE,
             "search_exclude": True,
-            "notes": "Always enumerate - GitHub search unreliable for this org",
         },
         "OpenNeuroDatasets": {
             "discovery_method": DiscoveryMethod.ORG_TRAVERSE,
             "search_exclude": True,
-            "notes": "Always enumerate - GitHub search has indexing delays",
         },
     }
 

@@ -664,12 +664,7 @@ class GitHubUpdater(BaseModel, Updater[GitHubRepo, SearchResult, GitHubSearcher]
         except Exception as e:
             log.warning(f"Failed to get last push for {org}: {e}")
 
-        # Update repo count
-        try:
-            org_data = searcher.get(f"/orgs/{org}")
-            config.repo_count = org_data.get("public_repos", 0)
-        except Exception as e:
-            log.warning(f"Failed to get repo count for {org}: {e}")
+        # Repo count is no longer stored (can be deduced from datalad-repos.json)
 
         self.orgs_config.save()
 
