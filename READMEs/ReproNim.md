@@ -1,9 +1,9 @@
 ## Active
-| # | Repository (31) | Stars (481) | Dataset (19) | `run` (20) | `containers-run` (1) | Last Modified |
+| # | Repository (31) | Stars (482) | Dataset (19) | `run` (20) | `containers-run` (1) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproNim/FAIR_neuroimaging_with_NIDM](https://github.com/ReproNim/FAIR_neuroimaging_with_NIDM) | 0 | :heavy_check_mark: |  |  | 2025-07-09 19:03:37+00:00 |
 | 2 | [ReproNim/OpenNeuroDerivatives-NIDM](https://github.com/ReproNim/OpenNeuroDerivatives-NIDM) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-05-19 16:44:57+00:00 |
-| 3 | [ReproNim/ReproInventory](https://github.com/ReproNim/ReproInventory) | 4 |  | :heavy_check_mark: |  | 2025-08-20 12:34:10+00:00 |
+| 3 | [ReproNim/ReproInventory](https://github.com/ReproNim/ReproInventory) | 5 |  | :heavy_check_mark: |  | 2025-08-20 12:34:10+00:00 |
 | 4 | [ReproNim/ReproTube](https://github.com/ReproNim/ReproTube) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-06-27 03:00:45+00:00 |
 | 5 | [ReproNim/SumarizeFmriprep](https://github.com/ReproNim/SumarizeFmriprep) | 1 |  | :heavy_check_mark: |  | 2025-05-19 16:39:13+00:00 |
 | 6 | [ReproNim/abcd-apps](https://github.com/ReproNim/abcd-apps) | 0 | :heavy_check_mark: |  |  | 2023-02-13 13:28:51+00:00 |
