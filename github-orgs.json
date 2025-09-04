@@ -16,11 +16,13 @@
   },
   "ReproNim": {
     "discovery_method": "org_search",
-    "search_exclude": true
+    "search_exclude": true,
+    "group": "ours"
   },
   "adswa": {
     "discovery_method": "org_search",
-    "search_exclude": true
+    "search_exclude": true,
+    "group": "ours"
   },
   "courtois-neuromod": {
     "discovery_method": "org_search",
@@ -28,15 +30,18 @@
   },
   "dandisets": {
     "discovery_method": "org_traverse",
-    "search_exclude": true
+    "search_exclude": true,
+    "group": "ours"
   },
   "dandizarrs": {
     "discovery_method": "org_search",
-    "search_exclude": true
+    "search_exclude": true,
+    "group": "ours"
   },
   "datalad": {
     "discovery_method": "org_search",
-    "search_exclude": true
+    "search_exclude": true,
+    "group": "ours"
   },
   "datasets-mila": {
     "discovery_method": "org_search",
@@ -44,7 +49,8 @@
   },
   "psychoinformatics-de": {
     "discovery_method": "org_search",
-    "search_exclude": true
+    "search_exclude": true,
+    "group": "ours"
   },
   "templateflow": {
     "discovery_method": "org_search",
@@ -52,6 +58,7 @@
   },
   "yarikoptic": {
     "discovery_method": "org_search",
-    "search_exclude": true
+    "search_exclude": true,
+    "group": "ours"
   }
 }

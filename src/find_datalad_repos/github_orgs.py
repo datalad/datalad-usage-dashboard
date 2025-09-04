@@ -17,12 +17,20 @@ class DiscoveryMethod(str, Enum):
     ORG_TRAVERSE = "org_traverse"  # Always enumerate all repos (no search)
 
 
+class OrgGroup(str, Enum):
+    """Organization group classification."""
+
+    PUBLIC = "public"  # Default: external/community organizations
+    OURS = "ours"  # Organizations related to DataLad/ReproNim team
+
+
 class OrgConfig(BaseModel):
     """Configuration for a GitHub organization with new discovery method system."""
 
     # Discovery method configuration
     discovery_method: Optional[DiscoveryMethod] = None
     search_exclude: Optional[bool] = None
+    group: Optional[OrgGroup] = None
 
     @validator("search_exclude")
     @classmethod
@@ -46,6 +54,11 @@ class OrgConfig(BaseModel):
     def effective_search_exclude(self) -> bool:
         """Get the effective search_exclude value."""
         return self.search_exclude or False
+
+    @property
+    def effective_group(self) -> OrgGroup:
+        """Get the effective group value."""
+        return self.group or OrgGroup.PUBLIC
 
 
 class GitHubOrgsConfig(BaseModel):
@@ -76,10 +89,11 @@ class GitHubOrgsConfig(BaseModel):
             config_dict = config.model_dump(exclude_none=True)
 
             # Skip organizations that only have default values
-            is_default = config_dict.get("discovery_method") in [
-                None,
-                "global_search",
-            ] and config_dict.get("search_exclude") in [None, False]
+            is_default = (
+                config_dict.get("discovery_method") in [None, "global_search"]
+                and config_dict.get("search_exclude") in [None, False]
+                and config_dict.get("group") in [None, "public"]
+            )
 
             if is_default:
                 # Skip completely default organizations
@@ -90,6 +104,8 @@ class GitHubOrgsConfig(BaseModel):
                 config_dict.pop("discovery_method", None)
             if config_dict.get("search_exclude") is False:
                 config_dict.pop("search_exclude", None)
+            if config_dict.get("group") == "public":
+                config_dict.pop("group", None)
 
             # Only save if there's something meaningful left
             if config_dict:
@@ -118,6 +134,16 @@ class GitHubOrgsConfig(BaseModel):
         return [
             org for org, config in self.orgs.items() if config.effective_search_exclude
         ]
+
+    def get_orgs_by_group(self, group: OrgGroup) -> list[str]:
+        """Get organizations in a specific group."""
+        return [
+            org for org, config in self.orgs.items() if config.effective_group == group
+        ]
+
+    def is_our_org(self, org: str) -> bool:
+        """Check if organization belongs to our group."""
+        return self.get_config(org).effective_group == OrgGroup.OURS
 
     def should_exclude_from_search(self, org: str) -> bool:
         """Check if organization should be excluded from global search."""
@@ -152,6 +178,33 @@ def initialize_orgs_config(
     """Initialize organization config from current repository data."""
     from collections import Counter
 
+    # Historic OURSELVES set for initialization purposes
+    OURSELVES = {
+        "adswa",
+        "christian-monch",
+        "con",
+        "dandi",
+        "dandi-containers",
+        "dandisets",
+        "dandizarrs",
+        "datalad",
+        "datalad-collection-1",
+        "datalad-datasets",
+        "datalad-handbook",
+        "datalad-tester",
+        "dbic",
+        "jsheunis",
+        "jwodder",
+        "loj",
+        "mih",
+        "myyoda",
+        "neurodebian",
+        "proj-nuisance",
+        "psychoinformatics-de",
+        "ReproNim",
+        "yarikoptic",
+    }
+
     config = GitHubOrgsConfig()
 
     # Count repos per organization
@@ -163,29 +216,39 @@ def initialize_orgs_config(
 
     # Configure organizations based on threshold using new discovery method system
     for org, count in org_counts.items():
+        # Determine group based on OURSELVES set
+        group = OrgGroup.OURS if org in OURSELVES else OrgGroup.PUBLIC
+
         if count >= threshold:
             # Large orgs use org_search (with auto-fallback)
             org_config = OrgConfig(
                 discovery_method=DiscoveryMethod.ORG_SEARCH,
                 search_exclude=True,
+                group=group,
             )
+            config.orgs[org] = org_config
         else:
-            # Small orgs use default (global_search) - no config needed
-            org_config = OrgConfig()
-        config.orgs[org] = org_config
+            # Small orgs - only store if group is "ours"
+            if group == OrgGroup.OURS:
+                org_config = OrgConfig(group=group)
+                config.orgs[org] = org_config
+            # Skip storing public orgs with default settings
 
     # Add special cases with new system
     special_cases: dict[str, dict] = {
         "ReproBrainChart": {
             "discovery_method": DiscoveryMethod.ORG_SEARCH,
+            "group": OrgGroup.OURS,
         },
         "dandisets": {
             "discovery_method": DiscoveryMethod.ORG_TRAVERSE,
             "search_exclude": True,
+            "group": OrgGroup.OURS,
         },
         "OpenNeuroDatasets": {
             "discovery_method": DiscoveryMethod.ORG_TRAVERSE,
             "search_exclude": True,
+            "group": OrgGroup.PUBLIC,
         },
     }
 
