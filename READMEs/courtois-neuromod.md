@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (73) | Stars (102) | Dataset (69) | `run` (18) | `containers-run` (14) | Last Modified |
+| # | Repository (74) | Stars (102) | Dataset (69) | `run` (19) | `containers-run` (15) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  | 2020-05-27 13:39:11+00:00 |
 | 2 | [courtois-neuromod/algonauts_2025.competitors](https://github.com/courtois-neuromod/algonauts_2025.competitors) | 55 | :heavy_check_mark: |  |  | 2025-08-27 18:23:29+00:00 |
@@ -73,7 +73,8 @@
 | 70 | [courtois-neuromod/things.behaviour](https://github.com/courtois-neuromod/things.behaviour) | 0 | :heavy_check_mark: |  |  | 2025-08-25 19:24:16+00:00 |
 | 71 | [courtois-neuromod/things.fmriprep](https://github.com/courtois-neuromod/things.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2025-08-25 17:45:37+00:00 |
 | 72 | [courtois-neuromod/things.glmsingle](https://github.com/courtois-neuromod/things.glmsingle) | 0 | :heavy_check_mark: |  |  | 2025-08-25 19:24:45+00:00 |
-| 73 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  | 2025-06-12 19:09:59+00:00 |
+| 73 | [courtois-neuromod/things.mriqc](https://github.com/courtois-neuromod/things.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2025-08-25 19:24:50+00:00 |
+| 74 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  | 2025-06-12 19:09:59+00:00 |
 
 ## Gone
 | # | Repository (2) | Stars | Dataset (2) | `run` | `containers-run` | Last Modified |
