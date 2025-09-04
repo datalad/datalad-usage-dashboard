@@ -9,7 +9,7 @@ from ghreq import Client, PrettyHTTPError
 from pydantic import BaseModel, Field
 import requests
 from .core import RepoHost, Searcher, Updater
-from .github_orgs import GitHubOrgsConfig, initialize_orgs_config
+from .github_orgs import DiscoveryMethod, GitHubOrgsConfig, initialize_orgs_config
 from .tables import GITHUB_COLUMNS, Column, TableRow
 from .util import (
     USER_AGENT,
@@ -102,10 +102,12 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
         token: str,
         excluded_orgs: list[str] | None = None,
         known_repos: list[dict] | None = None,
+        orgs_config: GitHubOrgsConfig | None = None,
     ) -> None:
         super().__init__(token=token, user_agent=USER_AGENT)
         self.excluded_orgs = excluded_orgs or []
         self.known_repos = known_repos
+        self.orgs_config = orgs_config or GitHubOrgsConfig()
 
     def search(self, resource_type: str, query: str) -> Iterator[Any]:
         url: str | None = f"/search/{resource_type}"
@@ -267,47 +269,105 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
         else:
             return ExtraDetails.parse_obj(r)
 
-    def get_datalad_repos(
-        self,
-        excluded_orgs: list[str] | None = None,
-        traverse_orgs: list[str] | None = None,
-        orgs_config: GitHubOrgsConfig | None = None,
-        known_repos: list[dict] | None = None,
-    ) -> list[SearchResult]:
+    def traverse_org_repositories(
+        self, org: str, known_repos: list[dict] | None = None
+    ) -> Iterator[SearchHit]:
         """
-        Hybrid search: global search with exclusions + targeted org searches
+        Directly enumerate all repositories in an organization and check for DataLad.
+
+        This bypasses GitHub's search API and directly checks each repository
+        for the presence of .datalad/config file.
 
         Args:
-            excluded_orgs: Organizations to exclude from global search
-                          If None, uses self.excluded_orgs set during initialization
-            traverse_orgs: Organizations to explicitly traverse
-            orgs_config: Organization configuration
-            known_repos: Known repositories for fallback detection
-                         If None, uses self.known_repos set during initialization
+            org: Organization name
+            known_repos: Known repositories for optimization
+
+        Yields:
+            SearchHit objects for repositories with .datalad/config
         """
-        excluded_orgs = excluded_orgs or self.excluded_orgs
-        traverse_orgs = traverse_orgs or []
-        orgs_config = orgs_config or GitHubOrgsConfig()
-        known_repos = known_repos or self.known_repos
+        log.info(f"Enumerating all repositories in organization {org}")
+
+        # Get known repo names for this org for optimization
+        known_names = set()
+        if known_repos:
+            known_names = {
+                r["name"]
+                for r in known_repos
+                if r["name"].startswith(f"{org}/") and r.get("status") != "gone"
+            }
+
+        try:
+            # Enumerate all repositories in the organization
+            for repo_data in self.paginate(
+                f"/orgs/{org}/repos", params={"type": "all"}
+            ):
+                repo_name = repo_data["full_name"]
+
+                # Skip if we know this repo doesn't have DataLad
+                if known_names and repo_name not in known_names:
+                    # Check for .datalad/config
+                    try:
+                        self.get(f"/repos/{repo_name}/contents/.datalad/config")
+                        # If we get here, the file exists
+                        log.info(f"Found DataLad repository via traversal: {repo_name}")
+                        yield SearchHit.from_repository(repo_data)
+                    except PrettyHTTPError as e:
+                        if e.response.status_code == 404:
+                            # File doesn't exist, not a DataLad repo
+                            continue
+                        else:
+                            # Some other error, log and continue
+                            log.warning(f"Error checking {repo_name}: {e}")
+                            continue
+                else:
+                    # We already know this is a DataLad repo from known_repos
+                    log.debug(f"Skipping known DataLad repository: {repo_name}")
+                    yield SearchHit.from_repository(repo_data)
+
+        except PrettyHTTPError as e:
+            if e.response.status_code == 404:
+                log.warning(f"Organization {org} not found or not accessible")
+            else:
+                log.error(f"Error enumerating repositories for {org}: {e}")
+                raise
+
+    def get_datalad_repos(self) -> list[SearchResult]:
+        """
+        Discover DataLad repositories using configured discovery methods.
+        """
+
+        datasets: set[SearchHit] = set()
+        runcmds: dict[SearchHit, bool] = {}
+
+        # Get organizations by discovery method
+        global_search_orgs = self.orgs_config.get_orgs_by_discovery_method(
+            DiscoveryMethod.GLOBAL_SEARCH
+        )
+        org_search_orgs = self.orgs_config.get_orgs_by_discovery_method(
+            DiscoveryMethod.ORG_SEARCH
+        )
+        org_traverse_orgs = self.orgs_config.get_orgs_by_discovery_method(
+            DiscoveryMethod.ORG_TRAVERSE
+        )
+
+        # Build exclusion query for orgs not using global_search
+        excluded_orgs = self.orgs_config.get_excluded_orgs()
         exclusions = build_exclusion_query(excluded_orgs) if excluded_orgs else ""
 
         log.info(
-            f"Using hybrid search strategy with {len(excluded_orgs)} excluded orgs"
+            f"Discovery methods - global_search: {len(global_search_orgs)}, "
+            f"org_search: {len(org_search_orgs)}, "
+            f"org_traverse: {len(org_traverse_orgs)}"
         )
 
-        # Phase 1: Global search excluding busy orgs
-        log.info("Phase 1: Global searches with exclusions")
-        runcmds: dict[SearchHit, bool] = {}
-
-        if excluded_orgs:
-            datasets = set(self.search_dataset_repos_with_exclusions(exclusions))
-
+        # Phase 1: Global search (with exclusions)
+        log.info(f"Phase 1: Global search (excluding {len(excluded_orgs)} orgs)")
+        if exclusions:
+            datasets.update(self.search_dataset_repos_with_exclusions(exclusions))
             for repo, container_run in self.search_runcmds_with_exclusions(exclusions):
                 runcmds[repo] = container_run or runcmds.get(repo, False)
         else:
-            # Fallback to original search if no exclusions
-            datasets = set(self.search_dataset_repos())
-
+            datasets.update(self.search_dataset_repos())
             for repo, container_run in self.search_runcmds():
                 runcmds[repo] = container_run or runcmds.get(repo, False)
 
@@ -316,47 +376,47 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
             f"{len(runcmds)} runcmd repos"
         )
 
-        # Phase 2: Organization-specific traversal
-        if traverse_orgs:
-            log.info(
-                f"Phase 2: Organization-specific traversal "
-                f"({len(traverse_orgs)} orgs)"
-            )
-            for org in traverse_orgs:
-                config = orgs_config.get_config(org)
-                log.info(f"Traversing organization: {org}")
+        # Phase 2a: Organization-specific search (with auto-fallback)
+        for org in org_search_orgs:
+            log.info(f"Phase 2a: Searching organization {org}")
+            org_datasets = list(self.search_dataset_repos_in_org(org))
 
-                if config.use_enumeration_fallback:
-                    # Use enumeration for organizations with broken search
-                    log.info(f"Using enumeration fallback for {org}")
-                    # Get known repository names for this org
-                    known_names = {
-                        r["name"]
-                        for r in (known_repos or [])
-                        if r["name"].startswith(f"{org}/")
-                    }
-                    # Enumerate and check repositories
-                    org_datasets = set()
-                    for result in self.process_enumerated_repos(org, known_names):
-                        # Convert SearchResult to SearchHit for consistency
-                        hit = SearchHit(id=result.id, url=result.url, name=result.name)
-                        org_datasets.add(hit)
-                else:
-                    # Use search API WITH FALLBACK SUPPORT
-                    org_datasets = set(
-                        self.search_dataset_repos_in_org(org, known_repos=known_repos)
+            # Auto-fallback if search returns nothing but we have known repos
+            if len(org_datasets) == 0:
+                known_count = len(
+                    [
+                        r
+                        for r in (self.known_repos or [])
+                        if r["name"].startswith(f"{org}/") and r.get("status") != "gone"
+                    ]
+                )
+                if known_count > 0:
+                    log.warning(
+                        f"Search returned 0 results for {org} but has {known_count} "
+                        f"known repos - falling back to traversal"
                     )
-                datasets.update(org_datasets)
+                    org_datasets = list(
+                        self.traverse_org_repositories(org, self.known_repos)
+                    )
 
-                # Search for RUNCMD (search API usually works for this)
-                if not config.use_enumeration_fallback:
-                    for repo, container_run in self.search_runcmds_in_org(org):
-                        runcmds[repo] = container_run or runcmds.get(repo, False)
+            datasets.update(org_datasets)
 
-                log.info(f"Organization {org} added: {len(org_datasets)} datasets")
+            # Also search for RUNCMD commits
+            for repo, container_run in self.search_runcmds_in_org(org):
+                runcmds[repo] = container_run or runcmds.get(repo, False)
+
+            log.info(f"Organization {org} added: {len(org_datasets)} datasets")
+
+        # Phase 2b: Organization traversal (always enumerate)
+        for org in org_traverse_orgs:
+            log.info(f"Phase 2b: Traversing organization {org}")
+            org_datasets = list(self.traverse_org_repositories(org, self.known_repos))
+            datasets.update(org_datasets)
+            # Note: Can't detect RUNCMD via traversal without searching commits
+            log.info(f"Organization {org} added: {len(org_datasets)} datasets")
 
         log.info(
-            f"Total after hybrid search: {len(datasets)} datasets, "
+            f"Total discovered: {len(datasets)} datasets, "
             f"{len(runcmds)} runcmd repos"
         )
 
@@ -554,9 +614,7 @@ class GitHubUpdater(BaseModel, Updater[GitHubRepo, SearchResult, GitHubSearcher]
             orgs_config.save()
             log.info("Initialized github-orgs.json configuration file")
         # Get organizations to exclude from the configuration
-        excluded_orgs = [
-            org for org, config in orgs_config.orgs.items() if config.search_exclude
-        ]
+        excluded_orgs = orgs_config.get_excluded_orgs()
 
         return cls(
             all_repos=all_repos,
@@ -571,15 +629,20 @@ class GitHubUpdater(BaseModel, Updater[GitHubRepo, SearchResult, GitHubSearcher]
             {"name": r.name, "status": r.status.value} for r in self.all_repos.values()
         ]
         return GitHubSearcher(
-            excluded_orgs=self.excluded_orgs, known_repos=known_repos, **kwargs
+            excluded_orgs=self.excluded_orgs,
+            known_repos=known_repos,
+            orgs_config=self.orgs_config,
+            **kwargs,
         )
 
     def get_organizations_to_traverse(self) -> list[str]:
-        """Get list of organizations to explicitly traverse."""
+        """Get list of organizations that need timestamp updates after traversal."""
         orgs_to_traverse = []
-        for org, config in self.orgs_config.orgs.items():
-            if config.traverse_repos and self.orgs_config.needs_traversal(org):
-                orgs_to_traverse.append(org)
+        # Include organizations that use ORG_SEARCH or ORG_TRAVERSE methods
+        for method in [DiscoveryMethod.ORG_SEARCH, DiscoveryMethod.ORG_TRAVERSE]:
+            for org in self.orgs_config.get_orgs_by_discovery_method(method):
+                if self.orgs_config.needs_traversal(org):
+                    orgs_to_traverse.append(org)
         return orgs_to_traverse
 
     def update_org_timestamps(self, org: str, searcher: GitHubSearcher) -> None:

@@ -56,16 +56,7 @@ def update_collection(
                 searcher, GitHubSearcher
             ):
                 traverse_orgs = updater.get_organizations_to_traverse()
-                known_repos = [
-                    {"name": r.name, "status": r.status.value}
-                    for r in updater.all_repos.values()
-                ]
-                search_results = searcher.get_datalad_repos(
-                    excluded_orgs=updater.excluded_orgs,
-                    traverse_orgs=traverse_orgs,
-                    orgs_config=updater.orgs_config,
-                    known_repos=known_repos,
-                )
+                search_results = searcher.get_datalad_repos()
                 for sr in search_results:
                     updater.register_repo(sr, searcher)
                 # Update timestamps for traversed organizations
