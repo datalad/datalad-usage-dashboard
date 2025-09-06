@@ -20,7 +20,7 @@
 | 17 | [naturalistic-imaging/paranoia-preprocessed](https://hub.datalad.org/naturalistic-imaging/paranoia-preprocessed) | 0 | 2020-07-07 18:46:50+00:00 |
 | 18 | [naturalistic-imaging/political-moralization](https://hub.datalad.org/naturalistic-imaging/political-moralization) | 0 | 2024-12-04 22:50:17+00:00 |
 | 19 | [naturalistic-imaging/richardson-et-al](https://hub.datalad.org/naturalistic-imaging/richardson-et-al) | 0 | 2023-09-27 19:07:33+00:00 |
-| 20 | [naturalistic-imaging/sherafati-et-al](https://hub.datalad.org/naturalistic-imaging/sherafati-et-al) | 0 | 2023-11-03 22:33:25+00:00 |
+| 20 | [naturalistic-imaging/sherafati-et-al](https://hub.datalad.org/naturalistic-imaging/sherafati-et-al) | 0 | 2025-09-05 13:47:52+00:00 |
 | 21 | [naturalistic-imaging/sherlock-merlin](https://hub.datalad.org/naturalistic-imaging/sherlock-merlin) | 0 | 2020-08-17 20:29:34+00:00 |
 | 22 | [naturalistic-imaging/sherlock-preprocessed](https://hub.datalad.org/naturalistic-imaging/sherlock-preprocessed) | 0 | 2020-07-06 03:15:33+00:00 |
 | 23 | [naturalistic-imaging/sixth-sense](https://hub.datalad.org/naturalistic-imaging/sixth-sense) | 0 | 2023-08-24 19:17:59+00:00 |
