@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (20) | Stars (26) | Dataset (16) | `run` (6) | `containers-run` | Last Modified |
+| # | Repository (20) | Stars (27) | Dataset (16) | `run` (6) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [lnnrtwttkhn/DataLad-101](https://github.com/lnnrtwttkhn/DataLad-101) | 0 |  | :heavy_check_mark: |  | 2020-06-12 18:35:03+00:00 |
 | 2 | [lnnrtwttkhn/bibliography](https://github.com/lnnrtwttkhn/bibliography) | 4 | :heavy_check_mark: |  |  | 2024-11-25 13:51:50+00:00 |
@@ -20,7 +20,7 @@
 | 17 | [lnnrtwttkhn/resources](https://github.com/lnnrtwttkhn/resources) | 2 | :heavy_check_mark: |  |  | 2025-07-08 20:38:04+00:00 |
 | 18 | [lnnrtwttkhn/talk-rdm](https://github.com/lnnrtwttkhn/talk-rdm) | 7 |  | :heavy_check_mark: |  | 2023-11-14 20:12:56+00:00 |
 | 19 | [lnnrtwttkhn/tools](https://github.com/lnnrtwttkhn/tools) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-02-01 13:38:02+00:00 |
-| 20 | [lnnrtwttkhn/version-control-book](https://github.com/lnnrtwttkhn/version-control-book) | 9 |  | :heavy_check_mark: |  | 2025-07-08 06:30:29+00:00 |
+| 20 | [lnnrtwttkhn/version-control-book](https://github.com/lnnrtwttkhn/version-control-book) | 10 |  | :heavy_check_mark: |  | 2025-07-08 06:30:29+00:00 |
 
 ## Gone
 No repositories found!
