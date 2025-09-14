@@ -1,10 +1,10 @@
 ## Active
-| # | Repository (13) | Stars (85) | Dataset (2) | `run` (13) | `containers-run` | Last Modified |
+| # | Repository (13) | Stars (86) | Dataset (2) | `run` (13) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  | 2025-09-05 18:00:24+00:00 |
 | 2 | [con/catenate](https://github.com/con/catenate) | 2 |  | :heavy_check_mark: |  | 2025-04-30 19:04:11+00:00 |
 | 3 | [con/centerforopenneuroscience.org](https://github.com/con/centerforopenneuroscience.org) | 4 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-08-22 23:43:13+00:00 |
-| 4 | [con/duct](https://github.com/con/duct) | 7 |  | :heavy_check_mark: |  | 2025-09-04 01:42:41+00:00 |
+| 4 | [con/duct](https://github.com/con/duct) | 8 |  | :heavy_check_mark: |  | 2025-09-13 21:06:03+00:00 |
 | 5 | [con/fscacher](https://github.com/con/fscacher) | 1 |  | :heavy_check_mark: |  | 2025-09-08 01:02:54+00:00 |
 | 6 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
 | 7 | [con/nwb2bids](https://github.com/con/nwb2bids) | 1 |  | :heavy_check_mark: |  | 2025-09-11 19:20:23+00:00 |
