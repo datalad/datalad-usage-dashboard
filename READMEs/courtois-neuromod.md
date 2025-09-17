@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (74) | Stars (105) | Dataset (69) | `run` (19) | `containers-run` (15) | Last Modified |
+| # | Repository (74) | Stars (106) | Dataset (69) | `run` (19) | `containers-run` (15) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  | 2020-05-27 13:39:11+00:00 |
-| 2 | [courtois-neuromod/algonauts_2025.competitors](https://github.com/courtois-neuromod/algonauts_2025.competitors) | 55 | :heavy_check_mark: |  |  | 2025-08-28 19:37:56+00:00 |
+| 2 | [courtois-neuromod/algonauts_2025.competitors](https://github.com/courtois-neuromod/algonauts_2025.competitors) | 56 | :heavy_check_mark: |  |  | 2025-09-08 14:53:55+00:00 |
 | 3 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 2 | :heavy_check_mark: |  |  | 2025-08-25 17:43:01+00:00 |
 | 4 | [courtois-neuromod/anat.atlases](https://github.com/courtois-neuromod/anat.atlases) | 0 | :heavy_check_mark: |  |  | 2025-08-25 19:20:09+00:00 |
 | 5 | [courtois-neuromod/anat.freesurfer](https://github.com/courtois-neuromod/anat.freesurfer) | 0 | :heavy_check_mark: |  |  | 2025-08-25 19:20:22+00:00 |
@@ -69,7 +69,7 @@
 | 66 | [courtois-neuromod/task_stimuli](https://github.com/courtois-neuromod/task_stimuli) | 10 | :heavy_check_mark: |  |  | 2025-05-28 18:13:31+00:00 |
 | 67 | [courtois-neuromod/templateflow](https://github.com/courtois-neuromod/templateflow) | 0 | :heavy_check_mark: |  |  | 2021-09-29 00:01:12+00:00 |
 | 68 | [courtois-neuromod/things](https://github.com/courtois-neuromod/things) | 0 | :heavy_check_mark: |  |  | 2025-08-25 17:45:30+00:00 |
-| 69 | [courtois-neuromod/things-glm](https://github.com/courtois-neuromod/things-glm) | 0 | :heavy_check_mark: |  |  | 2025-08-25 19:24:37+00:00 |
+| 69 | [courtois-neuromod/things-glm](https://github.com/courtois-neuromod/things-glm) | 0 | :heavy_check_mark: |  |  | 2025-09-10 20:27:48+00:00 |
 | 70 | [courtois-neuromod/things.behaviour](https://github.com/courtois-neuromod/things.behaviour) | 0 | :heavy_check_mark: |  |  | 2025-08-25 19:24:16+00:00 |
 | 71 | [courtois-neuromod/things.fmriprep](https://github.com/courtois-neuromod/things.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2025-08-25 17:45:37+00:00 |
 | 72 | [courtois-neuromod/things.glmsingle](https://github.com/courtois-neuromod/things.glmsingle) | 0 | :heavy_check_mark: |  |  | 2025-08-25 19:24:45+00:00 |
