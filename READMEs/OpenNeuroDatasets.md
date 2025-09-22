@@ -659,7 +659,7 @@
 | 656 | [OpenNeuroDatasets/ds004144](https://github.com/OpenNeuroDatasets/ds004144) | 0 | :heavy_check_mark: |  |  | 2022-08-10 23:23:21+00:00 |
 | 657 | [OpenNeuroDatasets/ds004147](https://github.com/OpenNeuroDatasets/ds004147) | 0 | :heavy_check_mark: |  |  | 2024-01-24 19:53:37+00:00 |
 | 658 | [OpenNeuroDatasets/ds004152](https://github.com/OpenNeuroDatasets/ds004152) | 0 | :heavy_check_mark: |  |  | 2022-09-07 12:49:27+00:00 |
-| 659 | [OpenNeuroDatasets/ds004158](https://github.com/OpenNeuroDatasets/ds004158) | 0 | :heavy_check_mark: |  |  | 2025-05-09 22:37:33+00:00 |
+| 659 | [OpenNeuroDatasets/ds004158](https://github.com/OpenNeuroDatasets/ds004158) | 0 | :heavy_check_mark: |  |  | 2025-09-16 01:39:59+00:00 |
 | 660 | [OpenNeuroDatasets/ds004173](https://github.com/OpenNeuroDatasets/ds004173) | 7 | :heavy_check_mark: |  |  | 2022-10-18 09:12:49+00:00 |
 | 661 | [OpenNeuroDatasets/ds004182](https://github.com/OpenNeuroDatasets/ds004182) | 0 | :heavy_check_mark: |  |  | 2024-04-12 11:30:00+00:00 |
 | 662 | [OpenNeuroDatasets/ds004186](https://github.com/OpenNeuroDatasets/ds004186) | 0 | :heavy_check_mark: |  |  | 2022-07-17 14:29:31+00:00 |
