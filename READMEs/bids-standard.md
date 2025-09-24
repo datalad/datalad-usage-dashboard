@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (11) | Stars (894) | Dataset (1) | `run` (10) | `containers-run` | Last Modified |
+| # | Repository (12) | Stars (1142) | Dataset (1) | `run` (11) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [bids-standard/BEP028_BIDSprov](https://github.com/bids-standard/BEP028_BIDSprov) | 4 |  | :heavy_check_mark: |  | 2025-07-15 13:21:55+00:00 |
 | 2 | [bids-standard/awesome-bids](https://github.com/bids-standard/awesome-bids) | 14 |  | :heavy_check_mark: |  | 2025-09-22 20:00:11+00:00 |
@@ -12,6 +12,7 @@
 | 9 | [bids-standard/bids-validator](https://github.com/bids-standard/bids-validator) | 19 |  | :heavy_check_mark: |  | 2025-09-23 01:33:30+00:00 |
 | 10 | [bids-standard/bids-website](https://github.com/bids-standard/bids-website) | 53 |  | :heavy_check_mark: |  | 2025-09-17 19:35:10+00:00 |
 | 11 | [bids-standard/model-zoo](https://github.com/bids-standard/model-zoo) | 3 | :heavy_check_mark: |  |  | 2023-08-07 18:42:26+00:00 |
+| 12 | [bids-standard/pybids](https://github.com/bids-standard/pybids) | 248 |  | :heavy_check_mark: |  | 2025-09-24 00:12:39+00:00 |
 
 ## Gone
 No repositories found!
