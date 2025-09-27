@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (74) | Stars (106) | Dataset (69) | `run` (19) | `containers-run` (15) | Last Modified |
+| # | Repository (74) | Stars (106) | Dataset (69) | `run` (19) | `containers-run` (16) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  | 2020-05-27 13:39:11+00:00 |
 | 2 | [courtois-neuromod/algonauts_2025.competitors](https://github.com/courtois-neuromod/algonauts_2025.competitors) | 56 | :heavy_check_mark: |  |  | 2025-09-08 14:53:55+00:00 |
@@ -41,7 +41,7 @@
 | 38 | [courtois-neuromod/hcptrt.fmriprep](https://github.com/courtois-neuromod/hcptrt.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2025-08-25 19:22:32+00:00 |
 | 39 | [courtois-neuromod/hcptrt.stimuli](https://github.com/courtois-neuromod/hcptrt.stimuli) | 0 | :heavy_check_mark: |  |  | 2023-07-24 02:52:39+00:00 |
 | 40 | [courtois-neuromod/mario](https://github.com/courtois-neuromod/mario) | 1 | :heavy_check_mark: |  |  | 2025-08-25 17:44:29+00:00 |
-| 41 | [courtois-neuromod/mario.fmriprep](https://github.com/courtois-neuromod/mario.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-08-25 19:22:44+00:00 |
+| 41 | [courtois-neuromod/mario.fmriprep](https://github.com/courtois-neuromod/mario.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2025-08-25 19:22:44+00:00 |
 | 42 | [courtois-neuromod/mario.stimuli](https://github.com/courtois-neuromod/mario.stimuli) | 0 | :heavy_check_mark: |  |  | 2025-06-03 21:13:55+00:00 |
 | 43 | [courtois-neuromod/mario3](https://github.com/courtois-neuromod/mario3) | 0 | :heavy_check_mark: |  |  | 2024-05-31 20:30:47+00:00 |
 | 44 | [courtois-neuromod/mario3.stimuli](https://github.com/courtois-neuromod/mario3.stimuli) | 0 | :heavy_check_mark: |  |  | 2024-01-18 18:48:57+00:00 |
