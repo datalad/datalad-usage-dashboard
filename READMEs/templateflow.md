@@ -33,7 +33,7 @@
 | 30 | [templateflow/tpl-dhcpVol](https://github.com/templateflow/tpl-dhcpVol) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-02-14 21:24:45+00:00 |
 | 31 | [templateflow/tpl-fsLR](https://github.com/templateflow/tpl-fsLR) | 0 | :heavy_check_mark: |  |  | 2022-04-15 08:23:13+00:00 |
 | 32 | [templateflow/tpl-fsaverage](https://github.com/templateflow/tpl-fsaverage) | 0 | :heavy_check_mark: |  |  | 2024-04-15 09:10:29+00:00 |
-| 33 | [templateflow/tpl-onavg](https://github.com/templateflow/tpl-onavg) | 8 | :heavy_check_mark: |  |  | 2025-08-08 17:00:14+00:00 |
+| 33 | [templateflow/tpl-onavg](https://github.com/templateflow/tpl-onavg) | 8 | :heavy_check_mark: |  |  | 2025-09-18 19:23:11+00:00 |
 
 ## Gone
 No repositories found!
