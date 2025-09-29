@@ -6,7 +6,7 @@
 | 3 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 2 | :heavy_check_mark: |  |  | 2025-08-25 17:43:01+00:00 |
 | 4 | [courtois-neuromod/anat.atlases](https://github.com/courtois-neuromod/anat.atlases) | 0 | :heavy_check_mark: |  |  | 2025-09-26 17:44:17+00:00 |
 | 5 | [courtois-neuromod/anat.freesurfer](https://github.com/courtois-neuromod/anat.freesurfer) | 0 | :heavy_check_mark: |  |  | 2025-08-25 19:20:22+00:00 |
-| 6 | [courtois-neuromod/anat.freesurfer_longitudinal](https://github.com/courtois-neuromod/anat.freesurfer_longitudinal) | 1 |  | :heavy_check_mark: | :heavy_check_mark: | 2025-08-25 19:20:28+00:00 |
+| 6 | [courtois-neuromod/anat.freesurfer_longitudinal](https://github.com/courtois-neuromod/anat.freesurfer_longitudinal) | 1 |  | :heavy_check_mark: | :heavy_check_mark: | 2025-09-26 17:44:50+00:00 |
 | 7 | [courtois-neuromod/anat.freesurfer_stats](https://github.com/courtois-neuromod/anat.freesurfer_stats) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2024-11-16 03:04:08+00:00 |
 | 8 | [courtois-neuromod/anat.pycortex](https://github.com/courtois-neuromod/anat.pycortex) | 0 | :heavy_check_mark: |  |  | 2025-09-26 17:45:00+00:00 |
 | 9 | [courtois-neuromod/anat.smriprep](https://github.com/courtois-neuromod/anat.smriprep) | 0 | :heavy_check_mark: |  |  | 2025-08-25 19:20:41+00:00 |
