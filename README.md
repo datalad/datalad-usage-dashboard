@@ -3,7 +3,7 @@
 This file is automatically updated using GitHub Actions workflows. It lists Git repositories discovered on GitHub and other hosts that either are [DataLad](https://www.datalad.org) datasets or else had `datalad run` used on them. Furthermore, the [`datalad-repos.json`](./datalad-repos.json) file in this repository is used by https://registry.datalad.org/ to provide up-to-date metadata for these repositories and support metadata-based searches.
 
 # Summary
-- [GitHub](#github): [4329](#in-the-wild) in the wild + [6448](#inner-circle) inner-circle + [171](#gone) gone
+- [GitHub](#github): [4331](#in-the-wild) in the wild + [6448](#inner-circle) inner-circle + [171](#gone) gone
 - [OSF](#osf): [193](#active) active + [71](#gone-1) gone
 - [GIN](#gin): [850](#active-1) active + [10](#gone-2) gone
 - [hub.datalad.org](#hubdataladorg): [4609](#active-2) active + [1](#gone-3) gone
@@ -11,7 +11,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # GitHub
 ## In the wild
-| # | Repository (4329) | Stars (863750) | Dataset (3348) | `run` (1283) | `containers-run` (32) | Last Modified |
+| # | Repository (4331) | Stars (863750) | Dataset (3351) | `run` (1282) | `containers-run` (32) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [1104HARI/*](https://github.com/1104HARI) [(2)](READMEs/1104HARI.md) | [0](READMEs/1104HARI.md) |  | [:heavy_check_mark: (2)](READMEs/1104HARI.md) |  | 2023-12-06 09:12:59+00:00 |
 | 2 | [12Rameshwar/Open-AI](https://github.com/12Rameshwar/Open-AI) | 0 |  | :heavy_check_mark: |  | 2025-08-18 14:26:30+00:00 |
@@ -193,7 +193,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 178 | [Oivan-coder/ollama-webui](https://github.com/Oivan-coder/ollama-webui) | 0 |  | :heavy_check_mark: |  | 2025-04-19 19:54:54+00:00 |
 | 179 | [OleBialas/*](https://github.com/OleBialas) [(5)](READMEs/OleBialas.md) | [3](READMEs/OleBialas.md) | [:heavy_check_mark: (1)](READMEs/OleBialas.md) | [:heavy_check_mark: (4)](READMEs/OleBialas.md) |  | 2025-04-04 09:23:53+00:00 |
 | 180 | [OpenNeuroDatasets-JSONLD/*](https://github.com/OpenNeuroDatasets-JSONLD) [(414)](READMEs/OpenNeuroDatasets-JSONLD.md) | [0](READMEs/OpenNeuroDatasets-JSONLD.md) | [:heavy_check_mark: (414)](READMEs/OpenNeuroDatasets-JSONLD.md) |  |  | 2025-09-25 02:08:34+00:00 |
-| 181 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(1439)](READMEs/OpenNeuroDatasets.md) | [332](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1439)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (3)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1)](READMEs/OpenNeuroDatasets.md) | 2025-09-26 20:15:02+00:00 |
+| 181 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(1442)](READMEs/OpenNeuroDatasets.md) | [332](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1442)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (3)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1)](READMEs/OpenNeuroDatasets.md) | 2025-09-29 17:42:26+00:00 |
 | 182 | [OpenNeuroDerivatives/*](https://github.com/OpenNeuroDerivatives) [(470)](READMEs/OpenNeuroDerivatives.md) | [9](READMEs/OpenNeuroDerivatives.md) | [:heavy_check_mark: (470)](READMEs/OpenNeuroDerivatives.md) |  |  | 2025-08-26 18:13:42+00:00 |
 | 183 | [OpenNeuroDev/*](https://github.com/OpenNeuroDev) [(15)](READMEs/OpenNeuroDev.md) | [0](READMEs/OpenNeuroDev.md) | [:heavy_check_mark: (15)](READMEs/OpenNeuroDev.md) |  |  | 2020-09-22 21:50:48+00:00 |
 | 184 | [OpenNeuroOrg/openneuro](https://github.com/OpenNeuroOrg/openneuro) | 129 |  | :heavy_check_mark: |  | 2025-09-19 21:27:45+00:00 |
@@ -681,7 +681,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 666 | [nipreps-data/*](https://github.com/nipreps-data) [(26)](READMEs/nipreps-data.md) | [1](READMEs/nipreps-data.md) | [:heavy_check_mark: (25)](READMEs/nipreps-data.md) | [:heavy_check_mark: (3)](READMEs/nipreps-data.md) |  | 2023-12-09 00:29:27+00:00 |
 | 667 | [nipreps/*](https://github.com/nipreps) [(8)](READMEs/nipreps.md) | [1341](READMEs/nipreps.md) |  | [:heavy_check_mark: (8)](READMEs/nipreps.md) |  | 2025-09-26 20:40:51+00:00 |
 | 668 | [nipy/*](https://github.com/nipy) [(4)](READMEs/nipy.md) | [1313](READMEs/nipy.md) | [:heavy_check_mark: (1)](READMEs/nipy.md) | [:heavy_check_mark: (4)](READMEs/nipy.md) |  | 2025-09-24 17:54:54+00:00 |
-| 669 | [nludd25/*](https://github.com/nludd25) [(2)](READMEs/nludd25.md) | [0](READMEs/nludd25.md) |  | [:heavy_check_mark: (2)](READMEs/nludd25.md) |  | 2025-09-20 15:22:37+00:00 |
+| 669 | [nludd25/open-webui](https://github.com/nludd25/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-20 15:22:37+00:00 |
 | 670 | [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) | 76731 |  | :heavy_check_mark: |  | 2025-05-27 20:05:19+00:00 |
 | 671 | [notasecret/gpt4all](https://github.com/notasecret/gpt4all) | 0 |  | :heavy_check_mark: |  | 2023-08-27 01:11:26+00:00 |
 | 672 | [notestaff/datalad-paper-joss](https://github.com/notestaff/datalad-paper-joss) | 0 | :heavy_check_mark: |  |  | 2021-04-16 05:50:31+00:00 |
