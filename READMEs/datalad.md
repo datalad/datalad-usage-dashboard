@@ -31,7 +31,7 @@
 | 28 | [datalad/datasets.datalad.org-gitlog-stats](https://github.com/datalad/datasets.datalad.org-gitlog-stats) | 0 |  | :heavy_check_mark: |  | 2025-03-31 14:16:28+00:00 |
 | 29 | [datalad/example-dicom-functional](https://github.com/datalad/example-dicom-functional) | 2 | :heavy_check_mark: |  |  | 2018-04-27 06:57:04+00:00 |
 | 30 | [datalad/example-dicom-structural](https://github.com/datalad/example-dicom-structural) | 11 | :heavy_check_mark: |  |  | 2018-04-27 07:40:52+00:00 |
-| 31 | [datalad/git-annex](https://github.com/datalad/git-annex) | 24 |  | :heavy_check_mark: |  | 2025-09-26 00:44:43+00:00 |
+| 31 | [datalad/git-annex](https://github.com/datalad/git-annex) | 24 |  | :heavy_check_mark: |  | 2025-10-07 02:51:28+00:00 |
 | 32 | [datalad/hcp-100307-test](https://github.com/datalad/hcp-100307-test) | 1 | :heavy_check_mark: |  |  | 2017-11-29 14:33:44+00:00 |
 | 33 | [datalad/metalad-demo](https://github.com/datalad/metalad-demo) | 0 | :heavy_check_mark: |  |  | 2023-01-30 14:55:28+00:00 |
 | 34 | [datalad/ohbm-booth](https://github.com/datalad/ohbm-booth) | 0 | :heavy_check_mark: |  |  | 2020-06-22 21:54:46+00:00 |
