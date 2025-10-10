@@ -372,11 +372,11 @@
 | 369 | [OpenNeuroDatasets-JSONLD/ds004091](https://github.com/OpenNeuroDatasets-JSONLD/ds004091) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:56:42+00:00 |
 | 370 | [OpenNeuroDatasets-JSONLD/ds004103](https://github.com/OpenNeuroDatasets-JSONLD/ds004103) | 0 | :heavy_check_mark: |  |  | 2025-06-22 02:31:34+00:00 |
 | 371 | [OpenNeuroDatasets-JSONLD/ds004141](https://github.com/OpenNeuroDatasets-JSONLD/ds004141) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:55:56+00:00 |
-| 372 | [OpenNeuroDatasets-JSONLD/ds004158](https://github.com/OpenNeuroDatasets-JSONLD/ds004158) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:53:40+00:00 |
+| 372 | [OpenNeuroDatasets-JSONLD/ds004158](https://github.com/OpenNeuroDatasets-JSONLD/ds004158) | 0 | :heavy_check_mark: |  |  | 2025-10-08 02:05:50+00:00 |
 | 373 | [OpenNeuroDatasets-JSONLD/ds004173](https://github.com/OpenNeuroDatasets-JSONLD/ds004173) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:53:29+00:00 |
 | 374 | [OpenNeuroDatasets-JSONLD/ds004192](https://github.com/OpenNeuroDatasets-JSONLD/ds004192) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:53:26+00:00 |
 | 375 | [OpenNeuroDatasets-JSONLD/ds004194](https://github.com/OpenNeuroDatasets-JSONLD/ds004194) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:53:22+00:00 |
-| 376 | [OpenNeuroDatasets-JSONLD/ds004212](https://github.com/OpenNeuroDatasets-JSONLD/ds004212) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:53:18+00:00 |
+| 376 | [OpenNeuroDatasets-JSONLD/ds004212](https://github.com/OpenNeuroDatasets-JSONLD/ds004212) | 0 | :heavy_check_mark: |  |  | 2025-10-04 02:00:57+00:00 |
 | 377 | [OpenNeuroDatasets-JSONLD/ds004213](https://github.com/OpenNeuroDatasets-JSONLD/ds004213) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:53:15+00:00 |
 | 378 | [OpenNeuroDatasets-JSONLD/ds004215](https://github.com/OpenNeuroDatasets-JSONLD/ds004215) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:53:11+00:00 |
 | 379 | [OpenNeuroDatasets-JSONLD/ds004217](https://github.com/OpenNeuroDatasets-JSONLD/ds004217) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:53:08+00:00 |
