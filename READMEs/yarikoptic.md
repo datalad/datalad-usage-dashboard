@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (41) | Stars (5) | Dataset (38) | `run` (12) | `containers-run` (1) | Last Modified |
+| # | Repository (40) | Stars (5) | Dataset (38) | `run` (11) | `containers-run` (1) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [yarikoptic/4figshare](https://github.com/yarikoptic/4figshare) | 0 | :heavy_check_mark: |  |  | 2019-01-10 19:56:12+00:00 |
 | 2 | [yarikoptic/HBN_BIDS](https://github.com/yarikoptic/HBN_BIDS) | 0 | :heavy_check_mark: |  |  | 2021-08-20 15:00:40+00:00 |
@@ -40,8 +40,7 @@
 | 37 | [yarikoptic/testgh-sub1-subsub1](https://github.com/yarikoptic/testgh-sub1-subsub1) | 0 | :heavy_check_mark: |  |  | 2021-06-03 16:06:40+00:00 |
 | 38 | [yarikoptic/tipp-reference-datalad](https://github.com/yarikoptic/tipp-reference-datalad) | 0 | :heavy_check_mark: |  |  | 2020-10-08 14:27:47+00:00 |
 | 39 | [yarikoptic/tpl-MNI152NLin2009cAsym](https://github.com/yarikoptic/tpl-MNI152NLin2009cAsym) | 0 | :heavy_check_mark: |  |  | 2018-10-17 19:31:36+00:00 |
-| 40 | [yarikoptic/yarikoptic-duct-gallery](https://github.com/yarikoptic/yarikoptic-duct-gallery) | 0 |  | :heavy_check_mark: |  | 2025-10-07 01:53:01+00:00 |
-| 41 | [yarikoptic/zvalysche](https://github.com/yarikoptic/zvalysche) | 0 | :heavy_check_mark: |  |  | 2022-05-27 22:22:17+00:00 |
+| 40 | [yarikoptic/zvalysche](https://github.com/yarikoptic/zvalysche) | 0 | :heavy_check_mark: |  |  | 2022-05-27 22:22:17+00:00 |
 
 ## Gone
 | # | Repository (4) | Stars | Dataset (4) | `run` | `containers-run` | Last Modified |
