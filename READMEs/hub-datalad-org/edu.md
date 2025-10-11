@@ -5,7 +5,7 @@
 | 2 | [edu/penguins](https://hub.datalad.org/edu/penguins) | 0 | 2025-09-22 20:20:37+00:00 |
 | 3 | [edu/penguins-empty](https://hub.datalad.org/edu/penguins-empty) | 0 | 2025-09-12 13:07:23+00:00 |
 | 4 | [edu/penguins-mock](https://hub.datalad.org/edu/penguins-mock) | 0 | 2025-09-12 13:07:23+00:00 |
-| 5 | [edu/pool.v0.edu.datalad.org-knowledge](https://hub.datalad.org/edu/pool.v0.edu.datalad.org-knowledge) | 0 | 2025-10-03 08:34:11+00:00 |
+| 5 | [edu/pool.v0.edu.datalad.org-knowledge](https://hub.datalad.org/edu/pool.v0.edu.datalad.org-knowledge) | 0 | 2025-10-11 12:39:59+00:00 |
 
 ## Gone
 No repositories found!

@@ -5,8 +5,8 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 # Summary
 - [GitHub](#github): [4362](#in-the-wild) in the wild + [6465](#inner-circle) inner-circle + [174](#gone) gone
 - [OSF](#osf): [194](#active) active + [71](#gone-1) gone
-- [GIN](#gin): [850](#active-1) active + [11](#gone-2) gone
-- [hub.datalad.org](#hubdataladorg): [4610](#active-2) active + [1](#gone-3) gone
+- [GIN](#gin): [851](#active-1) active + [11](#gone-2) gone
+- [hub.datalad.org](#hubdataladorg): [4612](#active-2) active + [1](#gone-3) gone
 - [ATRIS](#atris): [109](#active-3) active + [0](#gone-4) gone
 
 # GitHub
@@ -1345,13 +1345,13 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # GIN
 ## Active
-| # | Repository (850) | Stars (14) | Last Modified |
+| # | Repository (851) | Stars (14) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [AIDAqc_datasets/*](https://gin.g-node.org/AIDAqc_datasets) [(14)](READMEs/gin/AIDAqc_datasets.md) | [0](READMEs/gin/AIDAqc_datasets.md) | 2023-11-24 08:48:18+00:00 |
 | 2 | [AgataKoziol/polish-dataset-public](https://gin.g-node.org/AgataKoziol/polish-dataset-public) | 0 | 2024-03-19 18:22:38+00:00 |
 | 3 | [Aswendt_Lab/*](https://gin.g-node.org/Aswendt_Lab) [(12)](READMEs/gin/Aswendt_Lab.md) | [0](READMEs/gin/Aswendt_Lab.md) | 2025-09-23 12:19:37+00:00 |
 | 4 | [CREAM/*](https://gin.g-node.org/CREAM) [(2)](READMEs/gin/CREAM.md) | [0](READMEs/gin/CREAM.md) | 2025-07-02 09:26:52+00:00 |
-| 5 | [CatalystNeuro/*](https://gin.g-node.org/CatalystNeuro) [(2)](READMEs/gin/CatalystNeuro.md) | [1](READMEs/gin/CatalystNeuro.md) | 2025-07-04 09:20:47+00:00 |
+| 5 | [CatalystNeuro/*](https://gin.g-node.org/CatalystNeuro) [(2)](READMEs/gin/CatalystNeuro.md) | [1](READMEs/gin/CatalystNeuro.md) | 2025-10-09 06:10:28+00:00 |
 | 6 | [EdoardoBettazzi/*](https://gin.g-node.org/EdoardoBettazzi) [(3)](READMEs/gin/EdoardoBettazzi.md) | [0](READMEs/gin/EdoardoBettazzi.md) | 2025-05-26 14:31:36+00:00 |
 | 7 | [GillesdeHollander/ds-tmsrisk](https://gin.g-node.org/GillesdeHollander/ds-tmsrisk) | 0 | 2025-01-15 15:06:10+00:00 |
 | 8 | [HashimSatti/*](https://gin.g-node.org/HashimSatti) [(2)](READMEs/gin/HashimSatti.md) | [0](READMEs/gin/HashimSatti.md) | 2022-07-21 11:59:53+00:00 |
@@ -1363,7 +1363,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 14 | [ME-ICA/ds003643-fmriprep-derivatives](https://gin.g-node.org/ME-ICA/ds003643-fmriprep-derivatives) | 0 | 2022-08-01 13:30:47+00:00 |
 | 15 | [Neuroccino/my-dataset](https://gin.g-node.org/Neuroccino/my-dataset) | 0 | 2022-05-24 09:11:12+00:00 |
 | 16 | [PRESTUS/*](https://gin.g-node.org/PRESTUS) [(2)](READMEs/gin/PRESTUS.md) | [0](READMEs/gin/PRESTUS.md) | 2024-05-31 10:32:15+00:00 |
-| 17 | [RemiGau/*](https://gin.g-node.org/RemiGau) [(11)](READMEs/gin/RemiGau.md) | [1](READMEs/gin/RemiGau.md) | 2023-01-02 16:58:39+00:00 |
+| 17 | [RemiGau/*](https://gin.g-node.org/RemiGau) [(12)](READMEs/gin/RemiGau.md) | [1](READMEs/gin/RemiGau.md) | 2025-10-05 16:26:23+00:00 |
 | 18 | [Rgautier/HEP_Characterization](https://gin.g-node.org/Rgautier/HEP_Characterization) | 0 | 2025-05-20 10:50:01+00:00 |
 | 19 | [SPM_datasets/*](https://gin.g-node.org/SPM_datasets) [(8)](READMEs/gin/SPM_datasets.md) | [0](READMEs/gin/SPM_datasets.md) | 2023-12-07 12:19:07+00:00 |
 | 20 | [SakshamSharda/ophys_testing1](https://gin.g-node.org/SakshamSharda/ophys_testing1) | 0 | 2021-01-27 04:17:49+00:00 |
@@ -1465,7 +1465,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 116 | [studyforrest/*](https://gin.g-node.org/studyforrest) [(8)](READMEs/gin/studyforrest.md) | [0](READMEs/gin/studyforrest.md) | 2022-01-14 11:07:46+00:00 |
 | 117 | [surabhisnath/*](https://gin.g-node.org/surabhisnath) [(2)](READMEs/gin/surabhisnath.md) | [0](READMEs/gin/surabhisnath.md) | 2022-07-21 11:45:33+00:00 |
 | 118 | [susanneharidi/*](https://gin.g-node.org/susanneharidi) [(2)](READMEs/gin/susanneharidi.md) | [0](READMEs/gin/susanneharidi.md) | 2022-07-21 11:51:21+00:00 |
-| 119 | [synchon/*](https://gin.g-node.org/synchon) [(3)](READMEs/gin/synchon.md) | [0](READMEs/gin/synchon.md) | 2025-09-24 10:04:40+00:00 |
+| 119 | [synchon/*](https://gin.g-node.org/synchon) [(3)](READMEs/gin/synchon.md) | [0](READMEs/gin/synchon.md) | 2025-10-08 11:12:19+00:00 |
 | 120 | [templateflow/*](https://gin.g-node.org/templateflow) [(29)](READMEs/gin/templateflow.md) | [0](READMEs/gin/templateflow.md) | 2025-05-02 19:54:25+00:00 |
 | 121 | [ts_brain/Localizer](https://gin.g-node.org/ts_brain/Localizer) | 0 | 2021-11-10 17:18:48+00:00 |
 | 122 | [tsalo/*](https://gin.g-node.org/tsalo) [(2)](READMEs/gin/tsalo.md) | [0](READMEs/gin/tsalo.md) | 2024-05-15 14:04:57+00:00 |
@@ -1489,24 +1489,25 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # hub.datalad.org
 ## Active
-| # | Repository (4610) | Stars (2) | Last Modified |
+| # | Repository (4612) | Stars (2) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [adina/*](https://hub.datalad.org/adina) [(2)](READMEs/hub-datalad-org/adina.md) | [0](READMEs/hub-datalad-org/adina.md) | 2025-09-12 13:07:20+00:00 |
 | 2 | [asmacdo/project.d.o](https://hub.datalad.org/asmacdo/project.d.o) | 0 | 2025-09-12 13:07:23+00:00 |
 | 3 | [candleindark/*](https://hub.datalad.org/candleindark) [(2)](READMEs/hub-datalad-org/candleindark.md) | [0](READMEs/hub-datalad-org/candleindark.md) | 2025-09-12 13:07:20+00:00 |
 | 4 | [distribits/*](https://hub.datalad.org/distribits) [(3)](READMEs/hub-datalad-org/distribits.md) | [2](READMEs/hub-datalad-org/distribits.md) | 2025-10-02 09:12:54+00:00 |
-| 5 | [edu/*](https://hub.datalad.org/edu) [(5)](READMEs/hub-datalad-org/edu.md) | [0](READMEs/hub-datalad-org/edu.md) | 2025-10-03 08:34:11+00:00 |
+| 5 | [edu/*](https://hub.datalad.org/edu) [(5)](READMEs/hub-datalad-org/edu.md) | [0](READMEs/hub-datalad-org/edu.md) | 2025-10-11 12:39:59+00:00 |
 | 6 | [hcp-openaccess/*](https://hub.datalad.org/hcp-openaccess) [(4550)](READMEs/hub-datalad-org/hcp-openaccess.md) | [0](READMEs/hub-datalad-org/hcp-openaccess.md) | 2025-09-12 13:07:17+00:00 |
 | 7 | [j.goddard/*](https://hub.datalad.org/j.goddard) [(3)](READMEs/hub-datalad-org/j.goddard.md) | [0](READMEs/hub-datalad-org/j.goddard.md) | 2025-09-12 13:07:21+00:00 |
 | 8 | [jsheunis/docs.trr379.de](https://hub.datalad.org/jsheunis/docs.trr379.de) | 0 | 2025-09-12 13:07:21+00:00 |
-| 9 | [mih/p2phttp-test](https://hub.datalad.org/mih/p2phttp-test) | 0 | 2025-09-12 13:07:22+00:00 |
-| 10 | [mslw/*](https://hub.datalad.org/mslw) [(5)](READMEs/hub-datalad-org/mslw.md) | [0](READMEs/hub-datalad-org/mslw.md) | 2025-09-12 14:27:27+00:00 |
-| 11 | [naturalistic-imaging/*](https://hub.datalad.org/naturalistic-imaging) [(26)](READMEs/hub-datalad-org/naturalistic-imaging.md) | [0](READMEs/hub-datalad-org/naturalistic-imaging.md) | 2025-09-05 13:47:52+00:00 |
-| 12 | [openneuro/ds000001](https://hub.datalad.org/openneuro/ds000001) | 0 | 2025-09-12 13:07:22+00:00 |
-| 13 | [studyforrest/*](https://hub.datalad.org/studyforrest) [(3)](READMEs/hub-datalad-org/studyforrest.md) | [0](READMEs/hub-datalad-org/studyforrest.md) | 2025-09-12 13:07:20+00:00 |
-| 14 | [test-resources/*](https://hub.datalad.org/test-resources) [(4)](READMEs/hub-datalad-org/test-resources.md) | [0](READMEs/hub-datalad-org/test-resources.md) | 2025-09-12 13:07:18+00:00 |
-| 15 | [www/*](https://hub.datalad.org/www) [(2)](READMEs/hub-datalad-org/www.md) | [0](READMEs/hub-datalad-org/www.md) | 2025-09-12 12:58:10+00:00 |
-| 16 | [yarikoptic/dandi-000029](https://hub.datalad.org/yarikoptic/dandi-000029) | 0 | 2025-09-12 13:07:22+00:00 |
+| 9 | [m-wierzba/*](https://hub.datalad.org/m-wierzba) [(2)](READMEs/hub-datalad-org/m-wierzba.md) | [0](READMEs/hub-datalad-org/m-wierzba.md) | 2025-10-10 16:54:31+00:00 |
+| 10 | [mih/p2phttp-test](https://hub.datalad.org/mih/p2phttp-test) | 0 | 2025-09-12 13:07:22+00:00 |
+| 11 | [mslw/*](https://hub.datalad.org/mslw) [(5)](READMEs/hub-datalad-org/mslw.md) | [0](READMEs/hub-datalad-org/mslw.md) | 2025-09-12 14:27:27+00:00 |
+| 12 | [naturalistic-imaging/*](https://hub.datalad.org/naturalistic-imaging) [(26)](READMEs/hub-datalad-org/naturalistic-imaging.md) | [0](READMEs/hub-datalad-org/naturalistic-imaging.md) | 2025-09-05 13:47:52+00:00 |
+| 13 | [openneuro/ds000001](https://hub.datalad.org/openneuro/ds000001) | 0 | 2025-09-12 13:07:22+00:00 |
+| 14 | [studyforrest/*](https://hub.datalad.org/studyforrest) [(3)](READMEs/hub-datalad-org/studyforrest.md) | [0](READMEs/hub-datalad-org/studyforrest.md) | 2025-09-12 13:07:20+00:00 |
+| 15 | [test-resources/*](https://hub.datalad.org/test-resources) [(4)](READMEs/hub-datalad-org/test-resources.md) | [0](READMEs/hub-datalad-org/test-resources.md) | 2025-09-12 13:07:18+00:00 |
+| 16 | [www/*](https://hub.datalad.org/www) [(2)](READMEs/hub-datalad-org/www.md) | [0](READMEs/hub-datalad-org/www.md) | 2025-09-12 12:58:10+00:00 |
+| 17 | [yarikoptic/dandi-000029](https://hub.datalad.org/yarikoptic/dandi-000029) | 0 | 2025-09-12 13:07:22+00:00 |
 
 ## Gone
 | # | Repository (1) | Stars | Last Modified |
@@ -1518,10 +1519,10 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | # | Repository (109) | Stars (1) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [CAIRT/*](https://atris.fz-juelich.de/CAIRT) [(6)](READMEs/atris/CAIRT.md) | [0](READMEs/atris/CAIRT.md) | 2025-04-01 15:44:14+00:00 |
-| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(87)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2025-09-29 04:41:19+00:00 |
+| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(87)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2025-10-06 04:36:15+00:00 |
 | 3 | [b.vogel/Southtrac-2019-CLaMS-results](https://atris.fz-juelich.de/b.vogel/Southtrac-2019-CLaMS-results) | 0 | 2024-07-22 16:41:23+00:00 |
-| 4 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(5)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2025-10-02 18:04:13+00:00 |
-| 5 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(8)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2025-09-28 08:12:35+00:00 |
+| 4 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(5)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2025-10-09 18:02:54+00:00 |
+| 5 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(8)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2025-10-06 04:41:56+00:00 |
 | 6 | [p.konopka/clams_clim](https://atris.fz-juelich.de/p.konopka/clams_clim) | 0 | 2024-09-25 14:01:42+00:00 |
 | 7 | [yann.buechau/tutorials](https://atris.fz-juelich.de/yann.buechau/tutorials) | 0 | 2025-02-19 16:41:49+00:00 |
 
