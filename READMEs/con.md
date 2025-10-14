@@ -2,7 +2,7 @@
 | # | Repository (14) | Stars (87) | Dataset (2) | `run` (14) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  | 2025-09-05 18:00:24+00:00 |
-| 2 | [con/catenate](https://github.com/con/catenate) | 2 |  | :heavy_check_mark: |  | 2025-04-30 19:04:11+00:00 |
+| 2 | [con/catenate](https://github.com/con/catenate) | 2 |  | :heavy_check_mark: |  | 2025-10-10 21:16:06+00:00 |
 | 3 | [con/centerforopenneuroscience.org](https://github.com/con/centerforopenneuroscience.org) | 4 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-08-22 23:43:13+00:00 |
 | 4 | [con/duct](https://github.com/con/duct) | 8 |  | :heavy_check_mark: |  | 2025-09-26 20:57:57+00:00 |
 | 5 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2025-10-07 01:53:01+00:00 |
