@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (2) | Stars (18) | Dataset | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (2) | Stars (19) | Dataset | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [conda-forge/conda-forge-repodata-patches-feedstock](https://github.com/conda-forge/conda-forge-repodata-patches-feedstock) | 18 |  | :heavy_check_mark: |  | 2025-10-02 10:32:19+00:00 |
+| 1 | [conda-forge/conda-forge-repodata-patches-feedstock](https://github.com/conda-forge/conda-forge-repodata-patches-feedstock) | 19 |  | :heavy_check_mark: |  | 2025-10-14 00:41:52+00:00 |
 | 2 | [conda-forge/git-annex-feedstock](https://github.com/conda-forge/git-annex-feedstock) | 0 |  | :heavy_check_mark: |  | 2025-09-11 07:44:38+00:00 |
 
 ## Gone
