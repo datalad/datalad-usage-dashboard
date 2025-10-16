@@ -294,7 +294,7 @@
 | 291 | [dandisets/000568](https://github.com/dandisets/000568) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:11:01+00:00 |
 | 292 | [dandisets/000569](https://github.com/dandisets/000569) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:11:02+00:00 |
 | 293 | [dandisets/000570](https://github.com/dandisets/000570) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:11:04+00:00 |
-| 294 | [dandisets/000571](https://github.com/dandisets/000571) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-06-23 04:44:42+00:00 |
+| 294 | [dandisets/000571](https://github.com/dandisets/000571) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-10-15 13:39:33+00:00 |
 | 295 | [dandisets/000572](https://github.com/dandisets/000572) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:12:12+00:00 |
 | 296 | [dandisets/000574](https://github.com/dandisets/000574) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:12:11+00:00 |
 | 297 | [dandisets/000575](https://github.com/dandisets/000575) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:12:12+00:00 |
@@ -723,7 +723,7 @@
 | 720 | [dandisets/001610](https://github.com/dandisets/001610) | 0 | :heavy_check_mark: |  |  | 2025-09-17 22:03:06+00:00 |
 | 721 | [dandisets/001611](https://github.com/dandisets/001611) | 0 | :heavy_check_mark: |  |  | 2025-09-22 23:03:39+00:00 |
 | 722 | [dandisets/001612](https://github.com/dandisets/001612) | 0 | :heavy_check_mark: |  |  | 2025-09-27 18:03:04+00:00 |
-| 723 | [dandisets/001613](https://github.com/dandisets/001613) | 0 | :heavy_check_mark: |  |  | 2025-10-02 17:03:41+00:00 |
+| 723 | [dandisets/001613](https://github.com/dandisets/001613) | 0 | :heavy_check_mark: |  |  | 2025-10-09 04:04:54+00:00 |
 | 724 | [dandisets/001614](https://github.com/dandisets/001614) | 0 | :heavy_check_mark: |  |  | 2025-09-25 17:03:23+00:00 |
 | 725 | [dandisets/001618](https://github.com/dandisets/001618) | 0 | :heavy_check_mark: |  |  | 2025-10-07 14:03:57+00:00 |
 | 726 | [dandisets/001620](https://github.com/dandisets/001620) | 0 | :heavy_check_mark: |  |  | 2025-10-06 14:03:09+00:00 |
