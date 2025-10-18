@@ -15,7 +15,7 @@
 | 12 | [naturalistic-imaging/keles-et-al-2024](https://hub.datalad.org/naturalistic-imaging/keles-et-al-2024) | 0 | 2024-02-27 20:35:08+00:00 |
 | 13 | [naturalistic-imaging/kenshu-dataset](https://hub.datalad.org/naturalistic-imaging/kenshu-dataset) | 0 | 2024-01-20 05:49:28+00:00 |
 | 14 | [naturalistic-imaging/le-petit-prince](https://hub.datalad.org/naturalistic-imaging/le-petit-prince) | 0 | 2025-02-12 03:36:43+00:00 |
-| 15 | [naturalistic-imaging/le-petit-prince-hong-kong](https://hub.datalad.org/naturalistic-imaging/le-petit-prince-hong-kong) | 0 | 2025-02-17 03:15:36+00:00 |
+| 15 | [naturalistic-imaging/le-petit-prince-hong-kong](https://hub.datalad.org/naturalistic-imaging/le-petit-prince-hong-kong) | 0 | 2025-10-14 01:09:46+00:00 |
 | 16 | [naturalistic-imaging/narratives](https://hub.datalad.org/naturalistic-imaging/narratives) | 0 | 2025-04-08 18:13:53+00:00 |
 | 17 | [naturalistic-imaging/paranoia-preprocessed](https://hub.datalad.org/naturalistic-imaging/paranoia-preprocessed) | 0 | 2020-07-07 18:46:50+00:00 |
 | 18 | [naturalistic-imaging/political-moralization](https://hub.datalad.org/naturalistic-imaging/political-moralization) | 0 | 2024-12-04 22:50:17+00:00 |
