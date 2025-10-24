@@ -3,15 +3,15 @@
 This file is automatically updated using GitHub Actions workflows. It lists Git repositories discovered on GitHub and other hosts that either are [DataLad](https://www.datalad.org) datasets or else had `datalad run` used on them. Furthermore, the [`datalad-repos.json`](./datalad-repos.json) file in this repository is used by https://registry.datalad.org/ to provide up-to-date metadata for these repositories and support metadata-based searches.
 
 # Summary
-- [GitHub](#github): [4383](#in-the-wild) in the wild + [6470](#inner-circle) inner-circle + [177](#gone) gone
-- [OSF](#osf): [194](#active) active + [71](#gone-1) gone
+- [GitHub](#github): [4384](#in-the-wild) in the wild + [6470](#inner-circle) inner-circle + [177](#gone) gone
+- [OSF](#osf): [194](#active) active + [72](#gone-1) gone
 - [GIN](#gin): [869](#active-1) active + [10](#gone-2) gone
 - [hub.datalad.org](#hubdataladorg): [4613](#active-2) active + [1](#gone-3) gone
 - [ATRIS](#atris): [109](#active-3) active + [0](#gone-4) gone
 
 # GitHub
 ## In the wild
-| # | Repository (4383) | Stars (913215) | Dataset (3381) | `run` (1305) | `containers-run` (32) | Last Modified |
+| # | Repository (4384) | Stars (913215) | Dataset (3381) | `run` (1306) | `containers-run` (32) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [1104HARI/*](https://github.com/1104HARI) [(2)](READMEs/1104HARI.md) | [0](READMEs/1104HARI.md) |  | [:heavy_check_mark: (2)](READMEs/1104HARI.md) |  | 2023-12-06 09:12:59+00:00 |
 | 2 | [12Rameshwar/Open-AI](https://github.com/12Rameshwar/Open-AI) | 0 |  | :heavy_check_mark: |  | 2025-08-18 14:26:30+00:00 |
@@ -440,7 +440,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 425 | [e-fortier/task_stimuli](https://github.com/e-fortier/task_stimuli) | 0 | :heavy_check_mark: |  |  | 2022-01-14 15:45:11+00:00 |
 | 426 | [earth-mover/icechunk](https://github.com/earth-mover/icechunk) | 515 |  | :heavy_check_mark: |  | 2025-10-17 14:04:32+00:00 |
 | 427 | [edenede2/bids_repo](https://github.com/edenede2/bids_repo) | 0 |  | :heavy_check_mark: |  | 2025-09-08 09:18:57+00:00 |
-| 428 | [effigies/*](https://github.com/effigies) [(8)](READMEs/effigies.md) | [1](READMEs/effigies.md) | [:heavy_check_mark: (7)](READMEs/effigies.md) | [:heavy_check_mark: (2)](READMEs/effigies.md) |  | 2025-10-14 20:09:40+00:00 |
+| 428 | [effigies/*](https://github.com/effigies) [(9)](READMEs/effigies.md) | [1](READMEs/effigies.md) | [:heavy_check_mark: (7)](READMEs/effigies.md) | [:heavy_check_mark: (3)](READMEs/effigies.md) |  | 2025-10-23 14:53:13+00:00 |
 | 429 | [efiefiakbari/ds002799](https://github.com/efiefiakbari/ds002799) | 0 | :heavy_check_mark: |  |  | 2020-08-25 23:47:32+00:00 |
 | 430 | [egzakharovich/ebudget-wks-tlsclient-configuration](https://github.com/egzakharovich/ebudget-wks-tlsclient-configuration) | 0 | :heavy_check_mark: |  |  | 2022-10-25 14:45:31+00:00 |
 | 431 | [elijahdev0/android-openwebui](https://github.com/elijahdev0/android-openwebui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 15:28:15+00:00 |
@@ -1180,108 +1180,108 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 93 | [TemplateFlow resource: ](https://osf.io/t8n7e/) | 2023-07-26 14:06:09.001052 |
 | 94 | [TemplateFlow resource: ](https://osf.io/3r7m9/) | 2023-07-26 14:00:56.665458 |
 | 95 | [TemplateFlow resource: ](https://osf.io/fup4n/) | 2024-04-12 16:53:02.574090 |
-| 96 | [TemplateFlow resource: ](https://osf.io/eavrj/) | 2025-10-10 14:21:33.639987 |
-| 97 | [TemplateFlow resource:  (RRID: SCR_008796)](https://osf.io/au48f/) | 2022-03-30 19:28:10.981406 |
-| 98 | [TemplateFlow resource:  (RRID: SCR_008796)](https://osf.io/52nvd/) | 2022-03-30 19:18:01.357455 |
-| 99 | [TemplateFlow resource:  (RRID: SCR_008796)](https://osf.io/8hftb/) | 2022-03-30 18:42:41.047204 |
-| 100 | [TemplateFlow resource:  (RRID: SCR_008796)](https://osf.io/dcjbe/) | 2022-03-30 18:21:47.436637 |
-| 101 | [TemplateFlow resource:  (RRID: SCR_008796)](https://osf.io/7zr49/) | 2022-03-30 17:01:53.330787 |
-| 102 | [TemplateFlow resource:  (RRID: SCR_008796)](https://osf.io/u48nt/) | 2022-03-30 16:40:27.516048 |
-| 103 | [TemplateFlow resource:  (RRID: SCR_015542)](https://osf.io/zjufk/) | 2021-12-15 11:42:18.373511 |
-| 104 | [TemplateFlow resource:  (RRID: SCR_015542)](https://osf.io/3bjz8/) | 2021-12-15 11:40:28.310508 |
-| 105 | [TemplateFlow resource: SUIT](https://osf.io/8autb/) | 2024-04-12 17:42:39.418471 |
-| 106 | [TemplateFlow resource: SUIT](https://osf.io/d36pn/) | 2024-04-12 17:41:19.660738 |
-| 107 | [TemplateFlow resource: SUIT](https://osf.io/7n5ad/) | 2024-04-12 17:35:05.375369 |
-| 108 | [TemplateFlow resource: SUIT](https://osf.io/4khmd/) | 2024-04-12 17:32:02.510650 |
-| 109 | [TemplateFlow resource: SUIT](https://osf.io/n3vkr/) | 2024-04-12 17:27:52.737053 |
-| 110 | [TemplateFlow resource: SUIT](https://osf.io/amshb/) | 2024-04-12 17:26:38.819699 |
-| 111 | [VanDam Demo](https://osf.io/96jpd/) | 2021-02-04 13:51:24.667063 |
-| 112 | [VanDam Demo](https://osf.io/6whqs/) | 2021-02-04 14:49:06.280706 |
-| 113 | [YODA](https://osf.io/gfp9r/) | 2024-06-04 14:16:16.753790 |
-| 114 | [best-data-ever](https://osf.io/ypskr/) | 2021-06-22 02:29:56.829199 |
-| 115 | [best-data-ever](https://osf.io/pvfjz/) | 2021-06-19 23:49:24.951287 |
-| 116 | [bonsai-examples](https://osf.io/wgrn3/) | 2020-11-02 17:32:12.938130 |
-| 117 | [bsd5](https://osf.io/vnerp/) | 2021-06-28 14:33:37.647860 |
-| 118 | [bsd6](https://osf.io/3bqrt/) | 2021-06-28 14:33:38.441214 |
-| 119 | [bsd7](https://osf.io/g4szy/) | 2021-06-28 14:33:39.211966 |
-| 120 | [ca-tutorial](https://osf.io/ydxw7/) | 2024-05-31 13:02:25.860643 |
-| 121 | [cna-tutorial](https://osf.io/u7vb4/) | 2024-05-29 10:07:30.448963 |
-| 122 | [collapse-complex-societies](https://osf.io/u897c/) | 2023-12-01 16:12:55.855553 |
-| 123 | [collapse-complex-societies](https://osf.io/thx25/) | 2023-12-01 15:39:02.615781 |
-| 124 | [collapse-complex-societies](https://osf.io/dk328/) | 2023-12-01 15:07:38.486343 |
-| 125 | [dMRI-HMC-phantom-results](https://osf.io/7twne/) | 2022-04-16 17:50:16.226910 |
-| 126 | [data4babs_fmriprepOutputs_multiSes](https://osf.io/k9zw2/) | 2022-10-25 00:30:06.221386 |
-| 127 | [data4babs_fmriprepOutputs_singleSes](https://osf.io/2jvub/) | 2022-10-28 15:32:45.622806 |
-| 128 | [data4babs_qsiprepOutputs_multiSes](https://osf.io/d3js6/) | 2022-10-24 20:33:54.935117 |
-| 129 | [data4babs_qsiprepOutputs_singleSes](https://osf.io/8t9sf/) | 2022-10-24 20:47:43.016478 |
-| 130 | [data4babs_rawBIDS_multiSes](https://osf.io/w2nu3/) | 2022-11-15 19:49:20.527741 |
-| 131 | [data4babs_rawBIDS_singleSes](https://osf.io/t8urc/) | 2022-11-14 21:40:40.910033 |
-| 132 | [datalad-test](https://osf.io/qabp9/) | 2021-05-12 05:06:18.139384 |
-| 133 | [datalad_example](https://osf.io/7fe38/) | 2024-12-05 11:30:48.939949 |
-| 134 | [ds000003-subsampled-exportonly](https://osf.io/g4u6k/) | 2023-04-17 14:34:03.734277 |
-| 135 | [ds000005 FreeSurfer derivatives](https://osf.io/s6d8b/) | 2023-12-07 03:09:18.167082 |
-| 136 | [ds000005-fmriprep](https://osf.io/592tb/) | 2024-06-17 05:05:48.555528 |
-| 137 | [elife-data](https://osf.io/2xmau/) | 2024-05-11 01:42:36.018296 |
-| 138 | [exported-roadmap](https://osf.io/938tj/) | 2025-09-22 13:49:50.863454 |
-| 139 | [fMRIPrep Bootcamp Geneva 2024](https://osf.io/hp2yu/) | 2024-09-09 13:47:01.820875 |
-| 140 | [fitlins_tests](https://osf.io/2ynvg/) | 2021-01-28 15:22:19.527258 |
-| 141 | [fitlins_tests](https://osf.io/m6k2v/) | 2021-01-29 11:08:40.421068 |
-| 142 | [fmriprep-fuzzy-analysis](https://osf.io/gvjbn/) | 2024-01-16 23:08:45.228793 |
-| 143 | [fmriprep-lts container images](https://osf.io/rbu92/) | 2021-05-31 21:33:12.920167 |
-| 144 | [fmriprep-lts container images](https://osf.io/d753w/) | 2021-05-13 20:23:07.951486 |
-| 145 | [fmriprep-lts container images](https://osf.io/9vg8e/) | 2021-05-13 20:22:55.000399 |
-| 146 | [fmriprep-lts container images-dev](https://osf.io/wvz3e/) | 2021-05-13 20:22:39.890478 |
-| 147 | [hg-tm-fork](https://osf.io/3nbrp/) | 2023-11-09 12:10:21.099460 |
-| 148 | [midtermexport](https://osf.io/ezjhu/) | 2023-06-12 12:50:44.929453 |
-| 149 | [my-best-so-far](https://osf.io/zxuc3/) | 2025-09-22 12:55:16.384747 |
-| 150 | [my-osf-555](https://osf.io/vxkyb/) | 2024-06-04 16:31:40.434527 |
-| 151 | [my-osf-project-title](https://osf.io/q74fs/) | 2023-06-15 09:52:30.296860 |
-| 152 | [my-osf-project-title](https://osf.io/cxvpm/) | 2023-09-26 14:21:36.872991 |
-| 153 | [my-osf-project-title](https://osf.io/ce9tk/) | 2023-09-27 07:43:29.787542 |
-| 154 | [my-osf-project-title](https://osf.io/ngsaj/) | 2024-06-03 09:59:13.848241 |
-| 155 | [my-osf-project-title](https://osf.io/cqyg6/) | 2024-06-04 09:28:03.611269 |
-| 156 | [my-osf-project-title](https://osf.io/axvsm/) | 2024-06-04 08:24:55.930055 |
-| 157 | [my-osf-project-title](https://osf.io/987f3/) | 2024-06-20 13:39:11.855346 |
-| 158 | [my-osf-project-title](https://osf.io/yegd2/) | 2024-06-20 13:35:08.377265 |
-| 159 | [myproject](https://osf.io/wugae/) | 2024-06-20 13:39:32.796306 |
-| 160 | [natImSac_BIDSexample](https://osf.io/4ynm5/) | 2024-07-03 10:53:08.220489 |
-| 161 | [nobrainer-trained-models](https://osf.io/qpxad/) | 2023-11-05 17:16:29.590581 |
-| 162 | [non-human primate test data](https://osf.io/xt93j/) | 2022-06-14 17:07:49.037333 |
-| 163 | [nuisance-QA-data](https://osf.io/dj2gf/) | 2020-09-05 09:57:52.906599 |
-| 164 | [osftestproject](https://osf.io/hcxst/) | 2024-06-04 11:17:39.726444 |
-| 165 | [our-study](https://osf.io/c9aj3/) | 2023-11-07 14:23:37.884657 |
-| 166 | [our-study-data](https://osf.io/yjm68/) | 2023-08-01 11:57:15.202579 |
-| 167 | [pydpiper-test-data](https://osf.io/49qzr/) | 2022-08-09 19:15:21.775204 |
-| 168 | [random_files](https://osf.io/txsk6/) | 2022-11-15 19:23:45.992595 |
-| 169 | [raw-file-test](https://osf.io/9tp7k/) | 2021-12-16 16:32:39.435817 |
-| 170 | [rodent test data](https://osf.io/uya3r/) | 2022-06-09 15:38:29.491316 |
-| 171 | [sc-candida_paper](https://osf.io/5tpk3/) | 2023-12-01 14:01:34.352707 |
-| 172 | [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/) | 2021-09-02 21:04:25.540838 |
-| 173 | [simulate-cbma](https://osf.io/9jbhg/) | 2021-06-28 20:45:26.526249 |
-| 174 | [sp-data-archive-bathy](https://osf.io/7anhw/) | 2024-04-23 19:25:11.223316 |
-| 175 | [sp-data-archive-bathy-ds](https://osf.io/jmkd6/) | 2022-10-15 05:11:46.326716 |
-| 176 | [sp-data-archive-ctd](https://osf.io/up5j4/) | 2022-10-19 17:03:11.240523 |
-| 177 | [sp-data-archive-ctd-ds](https://osf.io/un9pb/) | 2022-10-19 17:02:36.046232 |
-| 178 | [sp-data-archive-mp](https://osf.io/7b8fn/) | 2022-10-18 20:54:44.345902 |
-| 179 | [sp-data-archive-mp-ds](https://osf.io/9uxr8/) | 2022-10-18 20:49:21.785935 |
-| 180 | [sp-data-archive-towyo](https://osf.io/uaem3/) | 2022-10-13 21:39:25.829943 |
-| 181 | [sp-data-archive-towyo-ds](https://osf.io/j47pk/) | 2022-10-15 00:26:24.718577 |
-| 182 | [speech-maturity-dataset](https://osf.io/tf3hq/) | 2024-10-01 15:52:38.528479 |
-| 183 | [studyforrest-ppa-analysis](https://osf.io/ypjhn/) | 2021-06-28 20:32:21.636919 |
-| 184 | [studyforrest-speechanno-validation](https://osf.io/x3zpr/) | 2023-07-11 07:47:27.819362 |
-| 185 | [studyforrest-speechannotation](https://osf.io/f5j3e/) | 2023-07-11 07:43:25.124750 |
-| 186 | [sub-219_bids_datalad](https://osf.io/86d3a/) | 2020-07-20 00:01:33.309435 |
-| 187 | [test-aws](https://osf.io/n6tma/) | 2024-02-08 00:45:04.331363 |
-| 188 | [test-sibling](https://osf.io/5z4km/) | 2021-12-16 16:32:38.578992 |
-| 189 | [test-zarr](https://osf.io/84gbt/) | 2021-06-28 14:45:29.860434 |
-| 190 | [testing_TMGit](https://osf.io/vj87f/) | 2023-10-04 15:14:05.142491 |
-| 191 | [testing_workflow](https://osf.io/26j7z/) | 2023-11-16 21:02:25 |
-| 192 | [testing_workflows](https://osf.io/jdhkc/) | 2023-09-28 05:17:54.617407 |
+| 96 | [TemplateFlow resource:  (RRID: SCR_008796)](https://osf.io/au48f/) | 2022-03-30 19:28:10.981406 |
+| 97 | [TemplateFlow resource:  (RRID: SCR_008796)](https://osf.io/52nvd/) | 2022-03-30 19:18:01.357455 |
+| 98 | [TemplateFlow resource:  (RRID: SCR_008796)](https://osf.io/8hftb/) | 2022-03-30 18:42:41.047204 |
+| 99 | [TemplateFlow resource:  (RRID: SCR_008796)](https://osf.io/dcjbe/) | 2022-03-30 18:21:47.436637 |
+| 100 | [TemplateFlow resource:  (RRID: SCR_008796)](https://osf.io/7zr49/) | 2022-03-30 17:01:53.330787 |
+| 101 | [TemplateFlow resource:  (RRID: SCR_008796)](https://osf.io/u48nt/) | 2022-03-30 16:40:27.516048 |
+| 102 | [TemplateFlow resource:  (RRID: SCR_015542)](https://osf.io/zjufk/) | 2021-12-15 11:42:18.373511 |
+| 103 | [TemplateFlow resource:  (RRID: SCR_015542)](https://osf.io/3bjz8/) | 2021-12-15 11:40:28.310508 |
+| 104 | [TemplateFlow resource: SUIT](https://osf.io/8autb/) | 2024-04-12 17:42:39.418471 |
+| 105 | [TemplateFlow resource: SUIT](https://osf.io/d36pn/) | 2024-04-12 17:41:19.660738 |
+| 106 | [TemplateFlow resource: SUIT](https://osf.io/7n5ad/) | 2024-04-12 17:35:05.375369 |
+| 107 | [TemplateFlow resource: SUIT](https://osf.io/4khmd/) | 2024-04-12 17:32:02.510650 |
+| 108 | [TemplateFlow resource: SUIT](https://osf.io/n3vkr/) | 2024-04-12 17:27:52.737053 |
+| 109 | [TemplateFlow resource: SUIT](https://osf.io/amshb/) | 2024-04-12 17:26:38.819699 |
+| 110 | [VanDam Demo](https://osf.io/96jpd/) | 2021-02-04 13:51:24.667063 |
+| 111 | [VanDam Demo](https://osf.io/6whqs/) | 2021-02-04 14:49:06.280706 |
+| 112 | [YODA](https://osf.io/gfp9r/) | 2024-06-04 14:16:16.753790 |
+| 113 | [best-data-ever](https://osf.io/ypskr/) | 2021-06-22 02:29:56.829199 |
+| 114 | [best-data-ever](https://osf.io/pvfjz/) | 2021-06-19 23:49:24.951287 |
+| 115 | [bonsai-examples](https://osf.io/wgrn3/) | 2020-11-02 17:32:12.938130 |
+| 116 | [bsd5](https://osf.io/vnerp/) | 2021-06-28 14:33:37.647860 |
+| 117 | [bsd6](https://osf.io/3bqrt/) | 2021-06-28 14:33:38.441214 |
+| 118 | [bsd7](https://osf.io/g4szy/) | 2021-06-28 14:33:39.211966 |
+| 119 | [ca-tutorial](https://osf.io/ydxw7/) | 2024-05-31 13:02:25.860643 |
+| 120 | [cna-tutorial](https://osf.io/u7vb4/) | 2024-05-29 10:07:30.448963 |
+| 121 | [collapse-complex-societies](https://osf.io/u897c/) | 2023-12-01 16:12:55.855553 |
+| 122 | [collapse-complex-societies](https://osf.io/thx25/) | 2023-12-01 15:39:02.615781 |
+| 123 | [collapse-complex-societies](https://osf.io/dk328/) | 2023-12-01 15:07:38.486343 |
+| 124 | [dMRI-HMC-phantom-results](https://osf.io/7twne/) | 2022-04-16 17:50:16.226910 |
+| 125 | [data4babs_fmriprepOutputs_multiSes](https://osf.io/k9zw2/) | 2022-10-25 00:30:06.221386 |
+| 126 | [data4babs_fmriprepOutputs_singleSes](https://osf.io/2jvub/) | 2022-10-28 15:32:45.622806 |
+| 127 | [data4babs_qsiprepOutputs_multiSes](https://osf.io/d3js6/) | 2022-10-24 20:33:54.935117 |
+| 128 | [data4babs_qsiprepOutputs_singleSes](https://osf.io/8t9sf/) | 2022-10-24 20:47:43.016478 |
+| 129 | [data4babs_rawBIDS_multiSes](https://osf.io/w2nu3/) | 2022-11-15 19:49:20.527741 |
+| 130 | [data4babs_rawBIDS_singleSes](https://osf.io/t8urc/) | 2022-11-14 21:40:40.910033 |
+| 131 | [datalad-test](https://osf.io/qabp9/) | 2021-05-12 05:06:18.139384 |
+| 132 | [datalad_example](https://osf.io/7fe38/) | 2024-12-05 11:30:48.939949 |
+| 133 | [ds000003-subsampled-exportonly](https://osf.io/g4u6k/) | 2023-04-17 14:34:03.734277 |
+| 134 | [ds000005 FreeSurfer derivatives](https://osf.io/s6d8b/) | 2023-12-07 03:09:18.167082 |
+| 135 | [ds000005-fmriprep](https://osf.io/592tb/) | 2024-06-17 05:05:48.555528 |
+| 136 | [elife-data](https://osf.io/2xmau/) | 2024-05-11 01:42:36.018296 |
+| 137 | [exported-roadmap](https://osf.io/938tj/) | 2025-09-22 13:49:50.863454 |
+| 138 | [fMRIPrep Bootcamp Geneva 2024](https://osf.io/hp2yu/) | 2024-09-09 13:47:01.820875 |
+| 139 | [fitlins_tests](https://osf.io/2ynvg/) | 2021-01-28 15:22:19.527258 |
+| 140 | [fitlins_tests](https://osf.io/m6k2v/) | 2021-01-29 11:08:40.421068 |
+| 141 | [fmriprep-fuzzy-analysis](https://osf.io/gvjbn/) | 2024-01-16 23:08:45.228793 |
+| 142 | [fmriprep-lts container images](https://osf.io/rbu92/) | 2021-05-31 21:33:12.920167 |
+| 143 | [fmriprep-lts container images](https://osf.io/d753w/) | 2021-05-13 20:23:07.951486 |
+| 144 | [fmriprep-lts container images](https://osf.io/9vg8e/) | 2021-05-13 20:22:55.000399 |
+| 145 | [fmriprep-lts container images-dev](https://osf.io/wvz3e/) | 2021-05-13 20:22:39.890478 |
+| 146 | [hg-tm-fork](https://osf.io/3nbrp/) | 2023-11-09 12:10:21.099460 |
+| 147 | [midtermexport](https://osf.io/ezjhu/) | 2023-06-12 12:50:44.929453 |
+| 148 | [my-best-so-far](https://osf.io/zxuc3/) | 2025-09-22 12:55:16.384747 |
+| 149 | [my-osf-555](https://osf.io/vxkyb/) | 2024-06-04 16:31:40.434527 |
+| 150 | [my-osf-project-title](https://osf.io/q74fs/) | 2023-06-15 09:52:30.296860 |
+| 151 | [my-osf-project-title](https://osf.io/cxvpm/) | 2023-09-26 14:21:36.872991 |
+| 152 | [my-osf-project-title](https://osf.io/ce9tk/) | 2023-09-27 07:43:29.787542 |
+| 153 | [my-osf-project-title](https://osf.io/ngsaj/) | 2024-06-03 09:59:13.848241 |
+| 154 | [my-osf-project-title](https://osf.io/cqyg6/) | 2024-06-04 09:28:03.611269 |
+| 155 | [my-osf-project-title](https://osf.io/axvsm/) | 2024-06-04 08:24:55.930055 |
+| 156 | [my-osf-project-title](https://osf.io/987f3/) | 2024-06-20 13:39:11.855346 |
+| 157 | [my-osf-project-title](https://osf.io/yegd2/) | 2024-06-20 13:35:08.377265 |
+| 158 | [myproject](https://osf.io/wugae/) | 2024-06-20 13:39:32.796306 |
+| 159 | [natImSac_BIDSexample](https://osf.io/4ynm5/) | 2024-07-03 10:53:08.220489 |
+| 160 | [nobrainer-trained-models](https://osf.io/qpxad/) | 2023-11-05 17:16:29.590581 |
+| 161 | [non-human primate test data](https://osf.io/xt93j/) | 2022-06-14 17:07:49.037333 |
+| 162 | [nuisance-QA-data](https://osf.io/dj2gf/) | 2020-09-05 09:57:52.906599 |
+| 163 | [osftestproject](https://osf.io/hcxst/) | 2024-06-04 11:17:39.726444 |
+| 164 | [our-study](https://osf.io/c9aj3/) | 2023-11-07 14:23:37.884657 |
+| 165 | [our-study-data](https://osf.io/yjm68/) | 2023-08-01 11:57:15.202579 |
+| 166 | [pydpiper-test-data](https://osf.io/49qzr/) | 2022-08-09 19:15:21.775204 |
+| 167 | [random_files](https://osf.io/txsk6/) | 2022-11-15 19:23:45.992595 |
+| 168 | [raw-file-test](https://osf.io/9tp7k/) | 2021-12-16 16:32:39.435817 |
+| 169 | [rodent test data](https://osf.io/uya3r/) | 2022-06-09 15:38:29.491316 |
+| 170 | [sc-candida_paper](https://osf.io/5tpk3/) | 2023-12-01 14:01:34.352707 |
+| 171 | [shoreline-fiberfox-dmri-phantoms](https://osf.io/38vce/) | 2021-09-02 21:04:25.540838 |
+| 172 | [simulate-cbma](https://osf.io/9jbhg/) | 2021-06-28 20:45:26.526249 |
+| 173 | [sp-data-archive-bathy](https://osf.io/7anhw/) | 2024-04-23 19:25:11.223316 |
+| 174 | [sp-data-archive-bathy-ds](https://osf.io/jmkd6/) | 2022-10-15 05:11:46.326716 |
+| 175 | [sp-data-archive-ctd](https://osf.io/up5j4/) | 2022-10-19 17:03:11.240523 |
+| 176 | [sp-data-archive-ctd-ds](https://osf.io/un9pb/) | 2022-10-19 17:02:36.046232 |
+| 177 | [sp-data-archive-mp](https://osf.io/7b8fn/) | 2022-10-18 20:54:44.345902 |
+| 178 | [sp-data-archive-mp-ds](https://osf.io/9uxr8/) | 2022-10-18 20:49:21.785935 |
+| 179 | [sp-data-archive-towyo](https://osf.io/uaem3/) | 2022-10-13 21:39:25.829943 |
+| 180 | [sp-data-archive-towyo-ds](https://osf.io/j47pk/) | 2022-10-15 00:26:24.718577 |
+| 181 | [speech-maturity-dataset](https://osf.io/tf3hq/) | 2024-10-01 15:52:38.528479 |
+| 182 | [studyforrest-ppa-analysis](https://osf.io/ypjhn/) | 2021-06-28 20:32:21.636919 |
+| 183 | [studyforrest-speechanno-validation](https://osf.io/x3zpr/) | 2023-07-11 07:47:27.819362 |
+| 184 | [studyforrest-speechannotation](https://osf.io/f5j3e/) | 2023-07-11 07:43:25.124750 |
+| 185 | [sub-219_bids_datalad](https://osf.io/86d3a/) | 2020-07-20 00:01:33.309435 |
+| 186 | [test-aws](https://osf.io/n6tma/) | 2024-02-08 00:45:04.331363 |
+| 187 | [test-sibling](https://osf.io/5z4km/) | 2021-12-16 16:32:38.578992 |
+| 188 | [test-zarr](https://osf.io/84gbt/) | 2021-06-28 14:45:29.860434 |
+| 189 | [testing_TMGit](https://osf.io/vj87f/) | 2023-10-04 15:14:05.142491 |
+| 190 | [testing_workflow](https://osf.io/26j7z/) | 2023-11-16 21:02:25 |
+| 191 | [testing_workflows](https://osf.io/jdhkc/) | 2023-09-28 05:17:54.617407 |
+| 192 | [tpl-Elderly (EBT v1.1)](https://osf.io/k9axq/) | 2025-10-24 04:04:55.536892 |
 | 193 | [vandam-daylong](https://osf.io/6w3sq/) | 2021-04-15 18:01:07.759600 |
 | 194 | [vocalpy-test-data-datalad](https://osf.io/xqnuf/) | 2024-11-17 16:21:43.868381 |
 
 ## Gone
-| # | Repository (71) | Last Modified |
+| # | Repository (72) | Last Modified |
 | --- | --- | --- |
 | 1 | [CAT12.8_AOMIC-PIOP1](https://osf.io/eyg8t/) | — |
 | 2 | [CAT12.8_AOMIC-PIOP1](https://osf.io/b97wz/) | — |
@@ -1296,64 +1296,65 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 11 | [TemplateFlow resource: ](https://osf.io/3hwvb/) | 2025-05-23 02:27:15.067408 |
 | 12 | [TemplateFlow resource: ](https://osf.io/wt4zn/) | 2025-05-23 02:21:27.935566 |
 | 13 | [TemplateFlow resource: ](https://osf.io/pe674/) | 2025-05-23 02:18:01.368093 |
-| 14 | [best-data-ever](https://osf.io/7tprb/) | — |
-| 15 | [best-data-ever](https://osf.io/qxzky/) | — |
-| 16 | [best-stdscudywdw-ever](https://osf.io/b6fwn/) | — |
-| 17 | [best-study-ever](https://osf.io/n6bgd/) | — |
-| 18 | [best-study-ever](https://osf.io/yzura/) | — |
-| 19 | [best-study-ever](https://osf.io/ehnwz/) | — |
-| 20 | [best-study-ever](https://osf.io/dwmeq/) | — |
-| 21 | [best-study-ever](https://osf.io/whm2e/) | 2025-03-15 06:17:58.828983 |
-| 22 | [best-studywdw-ever](https://osf.io/qkmzr/) | — |
-| 23 | [best-studywdw-ever](https://osf.io/fz2dw/) | — |
-| 24 | [data4babs_rawBIDS_multiSes](https://osf.io/j854e/) | — |
-| 25 | [data4babs_rawBIDS_multiSes](https://osf.io/vbk6s/) | — |
-| 26 | [data4babs_rawBIDS_singleSes](https://osf.io/zd9a6/) | — |
-| 27 | [dataladFakeProject](https://osf.io/5a672/) | 2024-06-04 08:54:31.148841 |
-| 28 | [eegelevation-freefield](https://osf.io/k4jdw/) | — |
-| 29 | [elife-test](https://osf.io/xc42a/) | 2024-05-11 00:42:11.053241 |
-| 30 | [fMRIPrep reproducibility reference](https://osf.io/cgjzw/) | — |
-| 31 | [fMRIPrep reproducibility reference](https://osf.io/wezq7/) | — |
-| 32 | [fMRIPrep reproducibility reference](https://osf.io/r3a6s/) | — |
-| 33 | [fmriprep-fuzzy](https://osf.io/cj85p/) | — |
-| 34 | [fmriprep-fuzzy](https://osf.io/bhzf2/) | — |
-| 35 | [fmriprep-fuzzy](https://osf.io/ej5dt/) | — |
-| 36 | [fmriprep-fuzzy](https://osf.io/fqw8n/) | — |
-| 37 | [fmriprep-fuzzy](https://osf.io/6pm3e/) | — |
-| 38 | [fmriprep-fuzzy](https://osf.io/y8752/) | — |
-| 39 | [fmriprep-fuzzy-results](https://osf.io/k4y28/) | — |
-| 40 | [fmriprep-reproducibility](https://osf.io/ur6tp/) | — |
-| 41 | [fmriprep-reproducibility-results](https://osf.io/6ga9z/) | — |
-| 42 | [fmriprep-reproducibility-results](https://osf.io/qr26u/) | — |
-| 43 | [fmriprep-reproducibility-results](https://osf.io/nydg6/) | — |
-| 44 | [fuzzy-fmriprpe](https://osf.io/cjxbv/) | — |
-| 45 | [hereismyresearch](https://osf.io/4fr7n/) | — |
-| 46 | [hivemind](https://osf.io/vhnk8/) | — |
-| 47 | [midterm_project](https://osf.io/b37a8/) | — |
-| 48 | [my-best-so-far](https://osf.io/pmgx2/) | — |
-| 49 | [my-best-so-far](https://osf.io/nbty3/) | 2025-03-15 06:20:40.866550 |
-| 50 | [nobrainer-test1](https://osf.io/bqp76/) | — |
-| 51 | [opfvta-replication](https://osf.io/frxsu/) | — |
-| 52 | [opfvta-replication-2023](https://osf.io/dbxpt/) | — |
-| 53 | [our-study-data](https://osf.io/wv2zh/) | — |
-| 54 | [our-study-data](https://osf.io/hp6t7/) | — |
-| 55 | [our-study-data](https://osf.io/an3v8/) | — |
-| 56 | [our-study-data2](https://osf.io/ncqk5/) | — |
-| 57 | [pydpiper-test-data](https://osf.io/e6jg4/) | — |
-| 58 | [sc-candida_paper](https://osf.io/86ewk/) | — |
-| 59 | [sc-candida_paper](https://osf.io/4gb6q/) | — |
-| 60 | [sc-candida_paper](https://osf.io/awjh9/) | — |
-| 61 | [sc-candida_paper](https://osf.io/p528d/) | — |
-| 62 | [sc-candida_paper](https://osf.io/xhzkg/) | — |
-| 63 | [sc-candida_paper](https://osf.io/bqr4z/) | — |
-| 64 | [sc-candida_paper](https://osf.io/d7ufz/) | — |
-| 65 | [sc-candida_paper](https://osf.io/q2jvr/) | — |
-| 66 | [test-datalad-osf](https://osf.io/dhnw6/) | 2023-11-05 14:08:06.288843 |
-| 67 | [test_datalad](https://osf.io/uhndf/) | — |
-| 68 | [testexport](https://osf.io/d5b8c/) | — |
-| 69 | [testexport2](https://osf.io/kjpqa/) | — |
-| 70 | [tm-fork](https://osf.io/hzmb2/) | — |
-| 71 | [yodeling](https://osf.io/m3ck5/) | — |
+| 14 | [TemplateFlow resource: ](https://osf.io/eavrj/) | 2025-10-10 14:21:33.639987 |
+| 15 | [best-data-ever](https://osf.io/7tprb/) | — |
+| 16 | [best-data-ever](https://osf.io/qxzky/) | — |
+| 17 | [best-stdscudywdw-ever](https://osf.io/b6fwn/) | — |
+| 18 | [best-study-ever](https://osf.io/n6bgd/) | — |
+| 19 | [best-study-ever](https://osf.io/yzura/) | — |
+| 20 | [best-study-ever](https://osf.io/ehnwz/) | — |
+| 21 | [best-study-ever](https://osf.io/dwmeq/) | — |
+| 22 | [best-study-ever](https://osf.io/whm2e/) | 2025-03-15 06:17:58.828983 |
+| 23 | [best-studywdw-ever](https://osf.io/qkmzr/) | — |
+| 24 | [best-studywdw-ever](https://osf.io/fz2dw/) | — |
+| 25 | [data4babs_rawBIDS_multiSes](https://osf.io/j854e/) | — |
+| 26 | [data4babs_rawBIDS_multiSes](https://osf.io/vbk6s/) | — |
+| 27 | [data4babs_rawBIDS_singleSes](https://osf.io/zd9a6/) | — |
+| 28 | [dataladFakeProject](https://osf.io/5a672/) | 2024-06-04 08:54:31.148841 |
+| 29 | [eegelevation-freefield](https://osf.io/k4jdw/) | — |
+| 30 | [elife-test](https://osf.io/xc42a/) | 2024-05-11 00:42:11.053241 |
+| 31 | [fMRIPrep reproducibility reference](https://osf.io/cgjzw/) | — |
+| 32 | [fMRIPrep reproducibility reference](https://osf.io/wezq7/) | — |
+| 33 | [fMRIPrep reproducibility reference](https://osf.io/r3a6s/) | — |
+| 34 | [fmriprep-fuzzy](https://osf.io/cj85p/) | — |
+| 35 | [fmriprep-fuzzy](https://osf.io/bhzf2/) | — |
+| 36 | [fmriprep-fuzzy](https://osf.io/ej5dt/) | — |
+| 37 | [fmriprep-fuzzy](https://osf.io/fqw8n/) | — |
+| 38 | [fmriprep-fuzzy](https://osf.io/6pm3e/) | — |
+| 39 | [fmriprep-fuzzy](https://osf.io/y8752/) | — |
+| 40 | [fmriprep-fuzzy-results](https://osf.io/k4y28/) | — |
+| 41 | [fmriprep-reproducibility](https://osf.io/ur6tp/) | — |
+| 42 | [fmriprep-reproducibility-results](https://osf.io/6ga9z/) | — |
+| 43 | [fmriprep-reproducibility-results](https://osf.io/qr26u/) | — |
+| 44 | [fmriprep-reproducibility-results](https://osf.io/nydg6/) | — |
+| 45 | [fuzzy-fmriprpe](https://osf.io/cjxbv/) | — |
+| 46 | [hereismyresearch](https://osf.io/4fr7n/) | — |
+| 47 | [hivemind](https://osf.io/vhnk8/) | — |
+| 48 | [midterm_project](https://osf.io/b37a8/) | — |
+| 49 | [my-best-so-far](https://osf.io/pmgx2/) | — |
+| 50 | [my-best-so-far](https://osf.io/nbty3/) | 2025-03-15 06:20:40.866550 |
+| 51 | [nobrainer-test1](https://osf.io/bqp76/) | — |
+| 52 | [opfvta-replication](https://osf.io/frxsu/) | — |
+| 53 | [opfvta-replication-2023](https://osf.io/dbxpt/) | — |
+| 54 | [our-study-data](https://osf.io/wv2zh/) | — |
+| 55 | [our-study-data](https://osf.io/hp6t7/) | — |
+| 56 | [our-study-data](https://osf.io/an3v8/) | — |
+| 57 | [our-study-data2](https://osf.io/ncqk5/) | — |
+| 58 | [pydpiper-test-data](https://osf.io/e6jg4/) | — |
+| 59 | [sc-candida_paper](https://osf.io/86ewk/) | — |
+| 60 | [sc-candida_paper](https://osf.io/4gb6q/) | — |
+| 61 | [sc-candida_paper](https://osf.io/awjh9/) | — |
+| 62 | [sc-candida_paper](https://osf.io/p528d/) | — |
+| 63 | [sc-candida_paper](https://osf.io/xhzkg/) | — |
+| 64 | [sc-candida_paper](https://osf.io/bqr4z/) | — |
+| 65 | [sc-candida_paper](https://osf.io/d7ufz/) | — |
+| 66 | [sc-candida_paper](https://osf.io/q2jvr/) | — |
+| 67 | [test-datalad-osf](https://osf.io/dhnw6/) | 2023-11-05 14:08:06.288843 |
+| 68 | [test_datalad](https://osf.io/uhndf/) | — |
+| 69 | [testexport](https://osf.io/d5b8c/) | — |
+| 70 | [testexport2](https://osf.io/kjpqa/) | — |
+| 71 | [tm-fork](https://osf.io/hzmb2/) | — |
+| 72 | [yodeling](https://osf.io/m3ck5/) | — |
 
 # GIN
 ## Active
