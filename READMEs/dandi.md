@@ -1,15 +1,15 @@
 ## Active
-| # | Repository (22) | Stars (103) | Dataset (5) | `run` (20) | `containers-run` | Last Modified |
+| # | Repository (22) | Stars (104) | Dataset (5) | `run` (20) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [dandi/dandi-about](https://github.com/dandi/dandi-about) | 0 |  | :heavy_check_mark: |  | 2025-08-22 17:14:38+00:00 |
+| 1 | [dandi/dandi-about](https://github.com/dandi/dandi-about) | 0 |  | :heavy_check_mark: |  | 2025-10-27 20:54:23+00:00 |
 | 2 | [dandi/dandi-api-datasets](https://github.com/dandi/dandi-api-datasets) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-05-10 18:39:55+00:00 |
 | 3 | [dandi/dandi-api-webshots](https://github.com/dandi/dandi-api-webshots) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-09-27 12:53:14+00:00 |
 | 4 | [dandi/dandi-api-webshots-staging](https://github.com/dandi/dandi-api-webshots-staging) | 0 | :heavy_check_mark: |  |  | 2021-12-20 08:47:12+00:00 |
-| 5 | [dandi/dandi-archive](https://github.com/dandi/dandi-archive) | 19 |  | :heavy_check_mark: |  | 2025-10-14 20:26:25+00:00 |
-| 6 | [dandi/dandi-cli](https://github.com/dandi/dandi-cli) | 24 |  | :heavy_check_mark: |  | 2025-10-14 17:58:57+00:00 |
+| 5 | [dandi/dandi-archive](https://github.com/dandi/dandi-archive) | 20 |  | :heavy_check_mark: |  | 2025-10-27 21:17:11+00:00 |
+| 6 | [dandi/dandi-cli](https://github.com/dandi/dandi-cli) | 24 |  | :heavy_check_mark: |  | 2025-10-15 14:04:48+00:00 |
 | 7 | [dandi/dandi-hub](https://github.com/dandi/dandi-hub) | 12 |  | :heavy_check_mark: |  | 2025-08-11 14:21:04+00:00 |
-| 8 | [dandi/dandi-schema](https://github.com/dandi/dandi-schema) | 7 |  | :heavy_check_mark: |  | 2025-10-14 00:25:25+00:00 |
-| 9 | [dandi/dandisets](https://github.com/dandi/dandisets) | 12 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-10-14 20:32:38+00:00 |
+| 8 | [dandi/dandi-schema](https://github.com/dandi/dandi-schema) | 7 |  | :heavy_check_mark: |  | 2025-10-27 19:53:58+00:00 |
+| 9 | [dandi/dandisets](https://github.com/dandi/dandisets) | 12 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-10-27 23:05:31+00:00 |
 | 10 | [dandi/dandisets-healthstatus](https://github.com/dandi/dandisets-healthstatus) | 0 |  | :heavy_check_mark: |  | 2025-09-08 13:13:33+00:00 |
 | 11 | [dandi/dandisets-linkml-status](https://github.com/dandi/dandisets-linkml-status) | 0 |  | :heavy_check_mark: |  | 2025-10-17 07:03:03+00:00 |
 | 12 | [dandi/example-notebooks](https://github.com/dandi/example-notebooks) | 7 |  | :heavy_check_mark: |  | 2025-08-29 18:01:53+00:00 |
