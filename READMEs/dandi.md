@@ -20,7 +20,7 @@
 | 17 | [dandi/s3invsync](https://github.com/dandi/s3invsync) | 2 |  | :heavy_check_mark: |  | 2025-10-13 03:50:33+00:00 |
 | 18 | [dandi/s5cmd-dandi](https://github.com/dandi/s5cmd-dandi) | 0 |  | :heavy_check_mark: |  | 2024-10-29 16:08:09+00:00 |
 | 19 | [dandi/schema](https://github.com/dandi/schema) | 3 |  | :heavy_check_mark: |  | 2025-05-15 13:38:39+00:00 |
-| 20 | [dandi/upptime](https://github.com/dandi/upptime) | 3 |  | :heavy_check_mark: |  | 2025-10-16 00:23:48+00:00 |
+| 20 | [dandi/upptime](https://github.com/dandi/upptime) | 3 |  | :heavy_check_mark: |  | 2025-10-29 00:24:36+00:00 |
 | 21 | [dandi/zarr-manifests](https://github.com/dandi/zarr-manifests) | 0 |  | :heavy_check_mark: |  | 2025-08-29 14:06:22+00:00 |
 | 22 | [dandi/zarr_checksum](https://github.com/dandi/zarr_checksum) | 13 |  | :heavy_check_mark: |  | 2025-09-08 15:17:20+00:00 |
 
