@@ -1,9 +1,9 @@
 ## Active
-| # | Repository (49) | Stars (809) | Dataset (25) | `run` (28) | `containers-run` | Last Modified |
+| # | Repository (49) | Stars (811) | Dataset (25) | `run` (28) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  | 2024-08-08 09:09:32+00:00 |
 | 2 | [datalad/blog](https://github.com/datalad/blog) | 1 |  | :heavy_check_mark: |  | 2024-08-05 15:13:05+00:00 |
-| 3 | [datalad/datalad](https://github.com/datalad/datalad) | 612 |  | :heavy_check_mark: |  | 2025-10-17 19:29:20+00:00 |
+| 3 | [datalad/datalad](https://github.com/datalad/datalad) | 615 |  | :heavy_check_mark: |  | 2025-10-30 12:00:58+00:00 |
 | 4 | [datalad/datalad-action-test](https://github.com/datalad/datalad-action-test) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-02-10 01:42:57+00:00 |
 | 5 | [datalad/datalad-catalog](https://github.com/datalad/datalad-catalog) | 19 |  | :heavy_check_mark: |  | 2024-11-28 20:35:52+00:00 |
 | 6 | [datalad/datalad-container](https://github.com/datalad/datalad-container) | 11 |  | :heavy_check_mark: |  | 2025-09-28 15:17:09+00:00 |
@@ -19,7 +19,7 @@
 | 16 | [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 7 |  | :heavy_check_mark: |  | 2025-09-08 13:10:23+00:00 |
 | 17 | [datalad/datalad-metalad](https://github.com/datalad/datalad-metalad) | 17 |  | :heavy_check_mark: |  | 2024-01-23 15:25:21+00:00 |
 | 18 | [datalad/datalad-neuroimaging](https://github.com/datalad/datalad-neuroimaging) | 18 |  | :heavy_check_mark: |  | 2025-05-18 12:31:13+00:00 |
-| 19 | [datalad/datalad-next](https://github.com/datalad/datalad-next) | 11 |  | :heavy_check_mark: |  | 2025-07-23 10:29:20+00:00 |
+| 19 | [datalad/datalad-next](https://github.com/datalad/datalad-next) | 10 |  | :heavy_check_mark: |  | 2025-07-23 10:29:20+00:00 |
 | 20 | [datalad/datalad-nuitka](https://github.com/datalad/datalad-nuitka) | 0 | :heavy_check_mark: |  |  | 2022-08-12 17:13:20+00:00 |
 | 21 | [datalad/datalad-openneuropet](https://github.com/datalad/datalad-openneuropet) | 0 |  | :heavy_check_mark: |  | 2023-09-11 09:54:12+00:00 |
 | 22 | [datalad/datalad-paper-joss](https://github.com/datalad/datalad-paper-joss) | 3 | :heavy_check_mark: |  |  | 2021-06-26 04:05:27+00:00 |
@@ -31,7 +31,7 @@
 | 28 | [datalad/datasets.datalad.org-gitlog-stats](https://github.com/datalad/datasets.datalad.org-gitlog-stats) | 0 |  | :heavy_check_mark: |  | 2025-03-31 14:16:28+00:00 |
 | 29 | [datalad/example-dicom-functional](https://github.com/datalad/example-dicom-functional) | 2 | :heavy_check_mark: |  |  | 2018-04-27 06:57:04+00:00 |
 | 30 | [datalad/example-dicom-structural](https://github.com/datalad/example-dicom-structural) | 11 | :heavy_check_mark: |  |  | 2018-04-27 07:40:52+00:00 |
-| 31 | [datalad/git-annex](https://github.com/datalad/git-annex) | 24 |  | :heavy_check_mark: |  | 2025-10-16 16:12:39+00:00 |
+| 31 | [datalad/git-annex](https://github.com/datalad/git-annex) | 24 |  | :heavy_check_mark: |  | 2025-10-31 00:48:13+00:00 |
 | 32 | [datalad/hcp-100307-test](https://github.com/datalad/hcp-100307-test) | 1 | :heavy_check_mark: |  |  | 2017-11-29 14:33:44+00:00 |
 | 33 | [datalad/metalad-demo](https://github.com/datalad/metalad-demo) | 0 | :heavy_check_mark: |  |  | 2023-01-30 14:55:28+00:00 |
 | 34 | [datalad/ohbm-booth](https://github.com/datalad/ohbm-booth) | 0 | :heavy_check_mark: |  |  | 2020-06-22 21:54:46+00:00 |
