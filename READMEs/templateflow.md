@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (33) | Stars (129) | Dataset (32) | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (33) | Stars (131) | Dataset (32) | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [templateflow/python-client](https://github.com/templateflow/python-client) | 8 |  | :heavy_check_mark: |  | 2025-10-21 17:32:16+00:00 |
-| 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 91 | :heavy_check_mark: |  |  | 2025-10-01 13:11:55+00:00 |
+| 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 92 | :heavy_check_mark: |  |  | 2025-10-01 13:11:55+00:00 |
 | 3 | [templateflow/tpl-Fischer344](https://github.com/templateflow/tpl-Fischer344) | 0 | :heavy_check_mark: |  |  | 2022-03-28 22:25:11+00:00 |
 | 4 | [templateflow/tpl-ILABSInfant](https://github.com/templateflow/tpl-ILABSInfant) | 0 | :heavy_check_mark: |  |  | 2019-02-22 10:52:37+00:00 |
 | 5 | [templateflow/tpl-MNI152Lin](https://github.com/templateflow/tpl-MNI152Lin) | 1 | :heavy_check_mark: |  |  | 2022-03-25 13:10:17+00:00 |
@@ -16,7 +16,7 @@
 | 13 | [templateflow/tpl-MNI152NLin6Sym](https://github.com/templateflow/tpl-MNI152NLin6Sym) | 0 | :heavy_check_mark: |  |  | 2022-01-06 22:33:02+00:00 |
 | 14 | [templateflow/tpl-MNI305](https://github.com/templateflow/tpl-MNI305) | 1 | :heavy_check_mark: |  |  | 2022-01-06 22:31:46+00:00 |
 | 15 | [templateflow/tpl-MNIColin27](https://github.com/templateflow/tpl-MNIColin27) | 0 | :heavy_check_mark: |  |  | 2022-08-03 17:53:14+00:00 |
-| 16 | [templateflow/tpl-MNIInfant](https://github.com/templateflow/tpl-MNIInfant) | 0 | :heavy_check_mark: |  |  | 2025-08-12 18:27:21+00:00 |
+| 16 | [templateflow/tpl-MNIInfant](https://github.com/templateflow/tpl-MNIInfant) | 1 | :heavy_check_mark: |  |  | 2025-08-12 18:27:21+00:00 |
 | 17 | [templateflow/tpl-MNIPediatricAsym](https://github.com/templateflow/tpl-MNIPediatricAsym) | 2 | :heavy_check_mark: |  |  | 2022-01-06 22:28:55+00:00 |
 | 18 | [templateflow/tpl-MouseIn](https://github.com/templateflow/tpl-MouseIn) | 0 | :heavy_check_mark: |  |  | 2022-04-14 22:06:54+00:00 |
 | 19 | [templateflow/tpl-NKI](https://github.com/templateflow/tpl-NKI) | 0 | :heavy_check_mark: |  |  | 2022-01-06 22:32:03+00:00 |
