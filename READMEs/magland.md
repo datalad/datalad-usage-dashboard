@@ -1,9 +1,10 @@
 ## Active
-| # | Repository (3) | Stars (1) | Dataset | `run` (3) | `containers-run` | Last Modified |
+| # | Repository (4) | Stars (4) | Dataset | `run` (4) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [magland/neurosift-mcps](https://github.com/magland/neurosift-mcps) | 1 |  | :heavy_check_mark: |  | 2025-03-27 14:15:11+00:00 |
-| 2 | [magland/spikeforestxyz-data](https://github.com/magland/spikeforestxyz-data) | 0 |  | :heavy_check_mark: |  | 2024-05-09 10:35:30+00:00 |
-| 3 | [magland/spikeforestxyz-data2](https://github.com/magland/spikeforestxyz-data2) | 0 |  | :heavy_check_mark: |  | 2024-05-09 15:42:09+00:00 |
+| 2 | [magland/qp](https://github.com/magland/qp) | 3 |  | :heavy_check_mark: |  | 2025-11-06 15:06:31+00:00 |
+| 3 | [magland/spikeforestxyz-data](https://github.com/magland/spikeforestxyz-data) | 0 |  | :heavy_check_mark: |  | 2024-05-09 10:35:30+00:00 |
+| 4 | [magland/spikeforestxyz-data2](https://github.com/magland/spikeforestxyz-data2) | 0 |  | :heavy_check_mark: |  | 2024-05-09 15:42:09+00:00 |
 
 ## Gone
 No repositories found!
