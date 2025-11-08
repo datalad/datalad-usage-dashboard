@@ -2,8 +2,8 @@
 | # | Repository (3) | Stars (2) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [distribits/captions](https://hub.datalad.org/distribits/captions) | 0 | 2025-09-12 13:07:22+00:00 |
-| 2 | [distribits/recordings](https://hub.datalad.org/distribits/recordings) | 2 | 2025-10-31 14:43:53+00:00 |
-| 3 | [distribits/www](https://hub.datalad.org/distribits/www) | 0 | 2025-10-31 09:11:05+00:00 |
+| 2 | [distribits/recordings](https://hub.datalad.org/distribits/recordings) | 2 | 2025-11-07 19:15:29+00:00 |
+| 3 | [distribits/www](https://hub.datalad.org/distribits/www) | 0 | 2025-11-05 15:29:16+00:00 |
 
 ## Gone
 No repositories found!

@@ -6,7 +6,7 @@
 | 3 | [LAAC-LSCP/align-vandam](https://gin.g-node.org/LAAC-LSCP/align-vandam) | 0 | 2023-08-30 12:52:47+00:00 |
 | 4 | [LAAC-LSCP/longform-hardware-audio-test](https://gin.g-node.org/LAAC-LSCP/longform-hardware-audio-test) | 0 | 2022-11-15 14:40:27+00:00 |
 | 5 | [LAAC-LSCP/managing-storing-sharing-paper](https://gin.g-node.org/LAAC-LSCP/managing-storing-sharing-paper) | 0 | 2021-10-29 11:53:20+00:00 |
-| 6 | [LAAC-LSCP/providence](https://gin.g-node.org/LAAC-LSCP/providence) | 0 | 2023-07-26 09:40:19+00:00 |
+| 6 | [LAAC-LSCP/providence](https://gin.g-node.org/LAAC-LSCP/providence) | 0 | 2025-11-06 10:53:48+00:00 |
 | 7 | [LAAC-LSCP/soderstrom](https://gin.g-node.org/LAAC-LSCP/soderstrom) | 0 | 2025-09-01 14:12:42+00:00 |
 | 8 | [LAAC-LSCP/speaker-confusion-model](https://gin.g-node.org/LAAC-LSCP/speaker-confusion-model) | 0 | 2025-07-29 14:32:31+00:00 |
 | 9 | [LAAC-LSCP/speech-maturity-tests](https://gin.g-node.org/LAAC-LSCP/speech-maturity-tests) | 0 | 2024-02-08 14:26:44+00:00 |
