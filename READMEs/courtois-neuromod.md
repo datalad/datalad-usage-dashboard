@@ -19,7 +19,7 @@
 | 16 | [courtois-neuromod/cneuromod_extract_tseries](https://github.com/courtois-neuromod/cneuromod_extract_tseries) | 0 | :heavy_check_mark: |  |  | 2025-07-23 22:20:48+00:00 |
 | 17 | [courtois-neuromod/containers](https://github.com/courtois-neuromod/containers) | 0 | :heavy_check_mark: |  |  | 2025-09-08 20:44:04+00:00 |
 | 18 | [courtois-neuromod/dataset_test](https://github.com/courtois-neuromod/dataset_test) | 0 | :heavy_check_mark: |  |  | 2025-10-26 17:30:08+00:00 |
-| 19 | [courtois-neuromod/ds_prep](https://github.com/courtois-neuromod/ds_prep) | 4 | :heavy_check_mark: |  |  | 2025-10-27 14:41:00+00:00 |
+| 19 | [courtois-neuromod/ds_prep](https://github.com/courtois-neuromod/ds_prep) | 4 | :heavy_check_mark: |  |  | 2025-11-05 23:48:55+00:00 |
 | 20 | [courtois-neuromod/flesp_friends-isc](https://github.com/courtois-neuromod/flesp_friends-isc) | 0 | :heavy_check_mark: |  |  | 2023-06-21 17:55:19+00:00 |
 | 21 | [courtois-neuromod/floc](https://github.com/courtois-neuromod/floc) | 0 | :heavy_check_mark: |  |  | 2025-09-26 17:45:33+00:00 |
 | 22 | [courtois-neuromod/floc.fmriprep](https://github.com/courtois-neuromod/floc.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2025-09-26 17:45:44+00:00 |
@@ -59,7 +59,7 @@
 | 56 | [courtois-neuromod/retinotopy](https://github.com/courtois-neuromod/retinotopy) | 0 | :heavy_check_mark: |  |  | 2025-09-26 17:50:18+00:00 |
 | 57 | [courtois-neuromod/retinotopy.fmriprep](https://github.com/courtois-neuromod/retinotopy.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2025-09-26 17:50:29+00:00 |
 | 58 | [courtois-neuromod/retinotopy.prf](https://github.com/courtois-neuromod/retinotopy.prf) | 0 | :heavy_check_mark: |  |  | 2025-09-26 17:50:40+00:00 |
-| 59 | [courtois-neuromod/shinobi](https://github.com/courtois-neuromod/shinobi) | 1 | :heavy_check_mark: |  |  | 2025-09-26 17:50:52+00:00 |
+| 59 | [courtois-neuromod/shinobi](https://github.com/courtois-neuromod/shinobi) | 1 | :heavy_check_mark: |  |  | 2025-11-03 22:20:27+00:00 |
 | 60 | [courtois-neuromod/shinobi.fmriprep](https://github.com/courtois-neuromod/shinobi.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2025-09-26 17:51:03+00:00 |
 | 61 | [courtois-neuromod/shinobi.mriqc](https://github.com/courtois-neuromod/shinobi.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2025-09-26 17:51:14+00:00 |
 | 62 | [courtois-neuromod/shinobi.stimuli](https://github.com/courtois-neuromod/shinobi.stimuli) | 1 | :heavy_check_mark: |  |  | 2023-07-24 02:52:58+00:00 |
