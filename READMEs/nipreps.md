@@ -8,7 +8,7 @@
 | 5 | [nipreps/nireports](https://github.com/nipreps/nireports) | 10 |  | :heavy_check_mark: |  | 2025-11-03 21:46:46+00:00 |
 | 6 | [nipreps/niworkflows](https://github.com/nipreps/niworkflows) | 105 |  | :heavy_check_mark: |  | 2025-10-27 22:45:59+00:00 |
 | 7 | [nipreps/sdcflows](https://github.com/nipreps/sdcflows) | 43 |  | :heavy_check_mark: |  | 2025-10-28 11:15:46+00:00 |
-| 8 | [nipreps/smriprep](https://github.com/nipreps/smriprep) | 155 |  | :heavy_check_mark: |  | 2025-10-27 21:16:45+00:00 |
+| 8 | [nipreps/smriprep](https://github.com/nipreps/smriprep) | 155 |  | :heavy_check_mark: |  | 2025-11-06 22:10:13+00:00 |
 
 ## Gone
 No repositories found!
