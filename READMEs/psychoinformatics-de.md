@@ -6,7 +6,7 @@
 | 3 | [psychoinformatics-de/datalad-debian](https://github.com/psychoinformatics-de/datalad-debian) | 2 |  | :heavy_check_mark: |  | 2023-04-26 09:47:00+00:00 |
 | 4 | [psychoinformatics-de/datalad-tabby](https://github.com/psychoinformatics-de/datalad-tabby) | 1 |  | :heavy_check_mark: |  | 2024-04-26 16:00:27+00:00 |
 | 5 | [psychoinformatics-de/fairly-big-processing-workflow-tutorial](https://github.com/psychoinformatics-de/fairly-big-processing-workflow-tutorial) | 8 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2022-02-09 07:20:34+00:00 |
-| 6 | [psychoinformatics-de/git-annex-wheel](https://github.com/psychoinformatics-de/git-annex-wheel) | 2 |  | :heavy_check_mark: |  | 2025-10-14 07:10:50+00:00 |
+| 6 | [psychoinformatics-de/git-annex-wheel](https://github.com/psychoinformatics-de/git-annex-wheel) | 2 |  | :heavy_check_mark: |  | 2025-11-11 17:56:59+00:00 |
 | 7 | [psychoinformatics-de/hirni-demo](https://github.com/psychoinformatics-de/hirni-demo) | 0 | :heavy_check_mark: |  |  | 2021-01-27 10:26:06+00:00 |
 | 8 | [psychoinformatics-de/hirni-demo-acq1](https://github.com/psychoinformatics-de/hirni-demo-acq1) | 0 | :heavy_check_mark: |  |  | 2020-09-22 12:04:41+00:00 |
 | 9 | [psychoinformatics-de/hirni-demo-acq2](https://github.com/psychoinformatics-de/hirni-demo-acq2) | 0 | :heavy_check_mark: |  |  | 2020-09-22 12:04:10+00:00 |
