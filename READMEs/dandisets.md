@@ -18,8 +18,8 @@
 | 15 | [dandisets/000018](https://github.com/dandisets/000018) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:04:08+00:00 |
 | 16 | [dandisets/000019](https://github.com/dandisets/000019) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:04:11+00:00 |
 | 17 | [dandisets/000020](https://github.com/dandisets/000020) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:05:16+00:00 |
-| 18 | [dandisets/000021](https://github.com/dandisets/000021) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:04:12+00:00 |
-| 19 | [dandisets/000022](https://github.com/dandisets/000022) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:04:13+00:00 |
+| 18 | [dandisets/000021](https://github.com/dandisets/000021) | 0 | :heavy_check_mark: |  |  | 2025-11-16 23:02:33+00:00 |
+| 19 | [dandisets/000022](https://github.com/dandisets/000022) | 0 | :heavy_check_mark: |  |  | 2025-11-16 23:02:33+00:00 |
 | 20 | [dandisets/000023](https://github.com/dandisets/000023) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:04:18+00:00 |
 | 21 | [dandisets/000024](https://github.com/dandisets/000024) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:04:14+00:00 |
 | 22 | [dandisets/000025](https://github.com/dandisets/000025) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:04:15+00:00 |
@@ -193,7 +193,7 @@
 | 190 | [dandisets/000302](https://github.com/dandisets/000302) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:07:59+00:00 |
 | 191 | [dandisets/000335](https://github.com/dandisets/000335) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:07:59+00:00 |
 | 192 | [dandisets/000337](https://github.com/dandisets/000337) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:08:01+00:00 |
-| 193 | [dandisets/000338](https://github.com/dandisets/000338) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:08:01+00:00 |
+| 193 | [dandisets/000338](https://github.com/dandisets/000338) | 0 | :heavy_check_mark: |  |  | 2025-11-09 18:02:50+00:00 |
 | 194 | [dandisets/000339](https://github.com/dandisets/000339) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:08:03+00:00 |
 | 195 | [dandisets/000340](https://github.com/dandisets/000340) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:08:05+00:00 |
 | 196 | [dandisets/000341](https://github.com/dandisets/000341) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:09:06+00:00 |
