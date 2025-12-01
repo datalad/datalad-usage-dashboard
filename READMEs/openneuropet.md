@@ -1,7 +1,7 @@
 ## Active
 | # | Repository (2) | Stars (38) | Dataset | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [openneuropet/PET2BIDS](https://github.com/openneuropet/PET2BIDS) | 31 |  | :heavy_check_mark: |  | 2025-11-13 09:09:13+00:00 |
+| 1 | [openneuropet/PET2BIDS](https://github.com/openneuropet/PET2BIDS) | 31 |  | :heavy_check_mark: |  | 2025-11-21 14:40:06+00:00 |
 | 2 | [openneuropet/outreach](https://github.com/openneuropet/outreach) | 7 |  | :heavy_check_mark: |  | 2025-09-29 09:21:57+00:00 |
 
 ## Gone
