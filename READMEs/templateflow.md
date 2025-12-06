@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (33) | Stars (131) | Dataset (32) | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (33) | Stars (132) | Dataset (32) | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [templateflow/python-client](https://github.com/templateflow/python-client) | 8 |  | :heavy_check_mark: |  | 2025-10-21 17:32:16+00:00 |
-| 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 92 | :heavy_check_mark: |  |  | 2025-11-13 19:06:47+00:00 |
+| 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 93 | :heavy_check_mark: |  |  | 2025-11-13 19:06:47+00:00 |
 | 3 | [templateflow/tpl-Fischer344](https://github.com/templateflow/tpl-Fischer344) | 0 | :heavy_check_mark: |  |  | 2025-11-12 18:37:44+00:00 |
 | 4 | [templateflow/tpl-ILABSInfant](https://github.com/templateflow/tpl-ILABSInfant) | 0 | :heavy_check_mark: |  |  | 2019-02-22 10:52:37+00:00 |
 | 5 | [templateflow/tpl-MNI152Lin](https://github.com/templateflow/tpl-MNI152Lin) | 1 | :heavy_check_mark: |  |  | 2025-11-12 18:56:31+00:00 |
