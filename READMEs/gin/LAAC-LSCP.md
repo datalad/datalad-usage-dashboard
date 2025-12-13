@@ -11,7 +11,7 @@
 | 8 | [LAAC-LSCP/speaker-confusion-model](https://gin.g-node.org/LAAC-LSCP/speaker-confusion-model) | 0 | 2025-07-29 14:32:31+00:00 |
 | 9 | [LAAC-LSCP/speech-maturity-tests](https://gin.g-node.org/LAAC-LSCP/speech-maturity-tests) | 0 | 2024-02-08 14:26:44+00:00 |
 | 10 | [LAAC-LSCP/thomas](https://gin.g-node.org/LAAC-LSCP/thomas) | 0 | 2025-11-10 14:33:30+00:00 |
-| 11 | [LAAC-LSCP/tsay](https://gin.g-node.org/LAAC-LSCP/tsay) | 0 | 2025-09-01 14:19:55+00:00 |
+| 11 | [LAAC-LSCP/tsay](https://gin.g-node.org/LAAC-LSCP/tsay) | 0 | 2025-12-08 11:05:46+00:00 |
 | 12 | [LAAC-LSCP/zoo-campaign](https://gin.g-node.org/LAAC-LSCP/zoo-campaign) | 0 | 2021-09-09 14:36:00+00:00 |
 
 ## Gone

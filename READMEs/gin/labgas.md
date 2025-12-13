@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (11) | Stars | Last Modified |
+| # | Repository (15) | Stars | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [labgas/proj_emosex-BIDS](https://gin.g-node.org/labgas/proj_emosex-BIDS) | 0 | 2023-08-16 12:06:55+00:00 |
 | 2 | [labgas/proj_emosex-code](https://gin.g-node.org/labgas/proj_emosex-code) | 0 | 2023-08-16 12:05:20+00:00 |
@@ -12,6 +12,10 @@
 | 9 | [labgas/proj_erythritol_4b-derivatives](https://gin.g-node.org/labgas/proj_erythritol_4b-derivatives) | 0 | 2025-01-23 14:27:12+00:00 |
 | 10 | [labgas/proj_erythritol_4b-firstlevel](https://gin.g-node.org/labgas/proj_erythritol_4b-firstlevel) | 0 | 2024-08-09 12:00:33+00:00 |
 | 11 | [labgas/proj_erythritol_4b-secondlevel](https://gin.g-node.org/labgas/proj_erythritol_4b-secondlevel) | 0 | 2025-01-23 15:28:32+00:00 |
+| 12 | [labgas/proj_thc-BIDS](https://gin.g-node.org/labgas/proj_thc-BIDS) | 0 | 2025-12-09 09:56:07+00:00 |
+| 13 | [labgas/proj_thc-mriqc](https://gin.g-node.org/labgas/proj_thc-mriqc) | 0 | 2025-12-09 09:56:50+00:00 |
+| 14 | [labgas/proj_thc-pipeline](https://gin.g-node.org/labgas/proj_thc-pipeline) | 0 | 2025-12-09 09:57:11+00:00 |
+| 15 | [labgas/proj_thc-secondlevel](https://gin.g-node.org/labgas/proj_thc-secondlevel) | 0 | 2025-12-09 09:57:21+00:00 |
 
 ## Gone
 | # | Repository (8) | Stars | Last Modified |
