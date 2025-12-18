@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (41) | Stars (4) | Dataset (39) | `run` (12) | `containers-run` (1) | Last Modified |
+| # | Repository (41) | Stars (5) | Dataset (39) | `run` (12) | `containers-run` (1) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [yarikoptic/4figshare](https://github.com/yarikoptic/4figshare) | 0 | :heavy_check_mark: |  |  | 2019-01-10 19:56:12+00:00 |
 | 2 | [yarikoptic/HBN_BIDS](https://github.com/yarikoptic/HBN_BIDS) | 0 | :heavy_check_mark: |  |  | 2021-08-20 15:00:40+00:00 |
@@ -8,7 +8,7 @@
 | 5 | [yarikoptic/amana-fan-bracket-3dprint](https://github.com/yarikoptic/amana-fan-bracket-3dprint) | 0 | :heavy_check_mark: |  |  | 2021-08-16 13:55:16+00:00 |
 | 6 | [yarikoptic/bootstrap_MRIQC](https://github.com/yarikoptic/bootstrap_MRIQC) | 0 |  | :heavy_check_mark: |  | 2025-10-08 20:16:51+00:00 |
 | 7 | [yarikoptic/containers](https://github.com/yarikoptic/containers) | 0 | :heavy_check_mark: |  |  | 2025-05-27 10:26:34+00:00 |
-| 8 | [yarikoptic/coop](https://github.com/yarikoptic/coop) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-31 13:49:06+00:00 |
+| 8 | [yarikoptic/coop](https://github.com/yarikoptic/coop) | 2 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-31 13:49:06+00:00 |
 | 9 | [yarikoptic/datalad-handbook-artwork](https://github.com/yarikoptic/datalad-handbook-artwork) | 0 | :heavy_check_mark: |  |  | 2019-12-14 05:33:49+00:00 |
 | 10 | [yarikoptic/datasets](https://github.com/yarikoptic/datasets) | 0 | :heavy_check_mark: |  |  | 2018-10-18 04:18:57+00:00 |
 | 11 | [yarikoptic/demo-cifar-preproc](https://github.com/yarikoptic/demo-cifar-preproc) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2019-03-25 19:12:06+00:00 |
