@@ -5,7 +5,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 # Summary
 - [GitHub](#github): [4491](#in-the-wild) in the wild + [6498](#inner-circle) inner-circle + [194](#gone) gone
 - [OSF](#osf): [195](#active) active + [83](#gone-1) gone
-- [GIN](#gin): [892](#active-1) active + [12](#gone-2) gone
+- [GIN](#gin): [893](#active-1) active + [12](#gone-2) gone
 - [hub.datalad.org](#hubdataladorg): [4616](#active-2) active + [1](#gone-3) gone
 - [ATRIS](#atris): [109](#active-3) active + [0](#gone-4) gone
 
@@ -1428,11 +1428,11 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # GIN
 ## Active
-| # | Repository (892) | Stars (14) | Last Modified |
+| # | Repository (893) | Stars (14) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [AIDAqc_datasets/*](https://gin.g-node.org/AIDAqc_datasets) [(14)](READMEs/gin/AIDAqc_datasets.md) | [0](READMEs/gin/AIDAqc_datasets.md) | 2023-11-24 08:48:18+00:00 |
 | 2 | [AgataKoziol/polish-dataset-public](https://gin.g-node.org/AgataKoziol/polish-dataset-public) | 0 | 2024-03-19 18:22:38+00:00 |
-| 3 | [Aswendt_Lab/*](https://gin.g-node.org/Aswendt_Lab) [(14)](READMEs/gin/Aswendt_Lab.md) | [0](READMEs/gin/Aswendt_Lab.md) | 2025-12-04 15:55:57+00:00 |
+| 3 | [Aswendt_Lab/*](https://gin.g-node.org/Aswendt_Lab) [(14)](READMEs/gin/Aswendt_Lab.md) | [0](READMEs/gin/Aswendt_Lab.md) | 2025-12-17 16:32:01+00:00 |
 | 4 | [CREAM/*](https://gin.g-node.org/CREAM) [(2)](READMEs/gin/CREAM.md) | [0](READMEs/gin/CREAM.md) | 2025-11-12 15:14:27+00:00 |
 | 5 | [CatalystNeuro/*](https://gin.g-node.org/CatalystNeuro) [(2)](READMEs/gin/CatalystNeuro.md) | [1](READMEs/gin/CatalystNeuro.md) | 2025-10-09 06:10:28+00:00 |
 | 6 | [EdoardoBettazzi/*](https://gin.g-node.org/EdoardoBettazzi) [(3)](READMEs/gin/EdoardoBettazzi.md) | [0](READMEs/gin/EdoardoBettazzi.md) | 2025-05-26 14:31:36+00:00 |
@@ -1443,7 +1443,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 11 | [JK/workshop_1](https://gin.g-node.org/JK/workshop_1) | 0 | 2022-05-24 08:54:43+00:00 |
 | 12 | [JTrack/EMA_Pilot](https://gin.g-node.org/JTrack/EMA_Pilot) | 0 | 2024-02-26 08:52:49+00:00 |
 | 13 | [Khan_Abbas/dataset](https://gin.g-node.org/Khan_Abbas/dataset) | 0 | 2023-05-03 12:46:16+00:00 |
-| 14 | [LAAC-LSCP/*](https://gin.g-node.org/LAAC-LSCP) [(13)](READMEs/gin/LAAC-LSCP.md) | [0](READMEs/gin/LAAC-LSCP.md) | 2025-12-08 11:05:46+00:00 |
+| 14 | [LAAC-LSCP/*](https://gin.g-node.org/LAAC-LSCP) [(13)](READMEs/gin/LAAC-LSCP.md) | [0](READMEs/gin/LAAC-LSCP.md) | 2025-12-18 16:57:45+00:00 |
 | 15 | [ME-ICA/ds003643-fmriprep-derivatives](https://gin.g-node.org/ME-ICA/ds003643-fmriprep-derivatives) | 0 | 2022-08-01 13:30:47+00:00 |
 | 16 | [Neuroccino/my-dataset](https://gin.g-node.org/Neuroccino/my-dataset) | 0 | 2022-05-24 09:11:12+00:00 |
 | 17 | [PRESTUS/*](https://gin.g-node.org/PRESTUS) [(2)](READMEs/gin/PRESTUS.md) | [0](READMEs/gin/PRESTUS.md) | 2024-05-31 10:32:15+00:00 |
@@ -1498,7 +1498,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 66 | [jsheunis/bids-data](https://gin.g-node.org/jsheunis/bids-data) | 0 | 2022-12-07 12:52:24+00:00 |
 | 67 | [juaml/*](https://gin.g-node.org/juaml) [(5)](READMEs/gin/juaml.md) | [0](READMEs/gin/juaml.md) | 2024-11-29 13:09:41+00:00 |
 | 68 | [juliankosciessa/*](https://gin.g-node.org/juliankosciessa) [(2)](READMEs/gin/juliankosciessa.md) | [1](READMEs/gin/juliankosciessa.md) | 2022-11-17 22:15:58+00:00 |
-| 69 | [jwu/*](https://gin.g-node.org/jwu) [(9)](READMEs/gin/jwu.md) | [0](READMEs/gin/jwu.md) | 2025-12-12 22:08:50+00:00 |
+| 69 | [jwu/*](https://gin.g-node.org/jwu) [(10)](READMEs/gin/jwu.md) | [0](READMEs/gin/jwu.md) | 2025-12-19 20:42:58+00:00 |
 | 70 | [karolis_degutis/*](https://gin.g-node.org/karolis_degutis) [(2)](READMEs/gin/karolis_degutis.md) | [0](READMEs/gin/karolis_degutis.md) | 2022-07-21 11:55:53+00:00 |
 | 71 | [kimsin98/GeneStruct](https://gin.g-node.org/kimsin98/GeneStruct) | 0 | 2023-11-02 01:49:39+00:00 |
 | 72 | [kroddick/my-dataset](https://gin.g-node.org/kroddick/my-dataset) | 0 | 2025-06-20 14:29:58+00:00 |
@@ -1607,10 +1607,10 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | # | Repository (109) | Stars (1) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [CAIRT/*](https://atris.fz-juelich.de/CAIRT) [(6)](READMEs/atris/CAIRT.md) | [0](READMEs/atris/CAIRT.md) | 2025-04-01 15:44:14+00:00 |
-| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(87)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2025-12-08 04:35:13+00:00 |
+| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(87)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2025-12-15 04:35:50+00:00 |
 | 3 | [b.vogel/Southtrac-2019-CLaMS-results](https://atris.fz-juelich.de/b.vogel/Southtrac-2019-CLaMS-results) | 0 | 2024-07-22 16:41:23+00:00 |
-| 4 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(5)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2025-12-11 18:15:30+00:00 |
-| 5 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(8)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2025-12-07 08:43:55+00:00 |
+| 4 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(5)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2025-12-18 16:16:16+00:00 |
+| 5 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(8)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2025-12-14 04:01:11+00:00 |
 | 6 | [p.konopka/clams_clim](https://atris.fz-juelich.de/p.konopka/clams_clim) | 0 | 2024-09-25 14:01:42+00:00 |
 | 7 | [yann.buechau/tutorials](https://atris.fz-juelich.de/yann.buechau/tutorials) | 0 | 2025-02-19 16:41:49+00:00 |
 
