@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (2) | Stars (28134) | Dataset | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (2) | Stars (28199) | Dataset | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [celery/billiard](https://github.com/celery/billiard) | 429 |  | :heavy_check_mark: |  | 2025-11-30 13:28:53+00:00 |
-| 2 | [celery/celery](https://github.com/celery/celery) | 27705 |  | :heavy_check_mark: |  | 2025-12-09 10:17:07+00:00 |
+| 2 | [celery/celery](https://github.com/celery/celery) | 27770 |  | :heavy_check_mark: |  | 2025-12-22 17:26:19+00:00 |
 
 ## Gone
 No repositories found!
