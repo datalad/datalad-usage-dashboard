@@ -4,7 +4,7 @@
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  | 2024-08-08 09:09:32+00:00 |
 | 2 | [datalad/datalad](https://github.com/datalad/datalad) | 622 |  | :heavy_check_mark: |  | 2026-01-05 23:18:48+00:00 |
 | 3 | [datalad/datalad-action-test](https://github.com/datalad/datalad-action-test) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-02-10 01:42:57+00:00 |
-| 4 | [datalad/datalad-blog](https://github.com/datalad/datalad-blog) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-12-28 01:08:40+00:00 |
+| 4 | [datalad/datalad-blog](https://github.com/datalad/datalad-blog) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-01-06 19:10:17+00:00 |
 | 5 | [datalad/datalad-catalog](https://github.com/datalad/datalad-catalog) | 19 |  | :heavy_check_mark: |  | 2024-11-28 20:35:52+00:00 |
 | 6 | [datalad/datalad-container](https://github.com/datalad/datalad-container) | 11 |  | :heavy_check_mark: |  | 2025-11-26 16:43:51+00:00 |
 | 7 | [datalad/datalad-crawler](https://github.com/datalad/datalad-crawler) | 6 |  | :heavy_check_mark: |  | 2025-11-24 01:03:06+00:00 |
