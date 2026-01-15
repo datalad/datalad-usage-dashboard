@@ -5,7 +5,7 @@
 | 2 | [nipreps/fmriprep](https://github.com/nipreps/fmriprep) | 708 |  | :heavy_check_mark: |  | 2026-01-06 19:30:29+00:00 |
 | 3 | [nipreps/mriqc](https://github.com/nipreps/mriqc) | 343 |  | :heavy_check_mark: |  | 2025-11-24 09:21:56+00:00 |
 | 4 | [nipreps/nipreps.github.io](https://github.com/nipreps/nipreps.github.io) | 3 |  | :heavy_check_mark: |  | 2026-01-05 04:03:35+00:00 |
-| 5 | [nipreps/nireports](https://github.com/nipreps/nireports) | 10 |  | :heavy_check_mark: |  | 2025-12-27 16:54:38+00:00 |
+| 5 | [nipreps/nireports](https://github.com/nipreps/nireports) | 10 |  | :heavy_check_mark: |  | 2026-01-14 21:45:38+00:00 |
 | 6 | [nipreps/niworkflows](https://github.com/nipreps/niworkflows) | 107 |  | :heavy_check_mark: |  | 2026-01-08 06:37:24+00:00 |
 | 7 | [nipreps/sdcflows](https://github.com/nipreps/sdcflows) | 43 |  | :heavy_check_mark: |  | 2026-01-08 05:53:25+00:00 |
 | 8 | [nipreps/smriprep](https://github.com/nipreps/smriprep) | 162 |  | :heavy_check_mark: |  | 2025-12-29 22:11:40+00:00 |
