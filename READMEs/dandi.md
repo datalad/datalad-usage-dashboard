@@ -5,12 +5,12 @@
 | 2 | [dandi/dandi-api-datasets](https://github.com/dandi/dandi-api-datasets) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-05-10 18:39:55+00:00 |
 | 3 | [dandi/dandi-api-webshots](https://github.com/dandi/dandi-api-webshots) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-09-27 12:53:14+00:00 |
 | 4 | [dandi/dandi-api-webshots-staging](https://github.com/dandi/dandi-api-webshots-staging) | 0 | :heavy_check_mark: |  |  | 2021-12-20 08:47:12+00:00 |
-| 5 | [dandi/dandi-archive](https://github.com/dandi/dandi-archive) | 20 |  | :heavy_check_mark: |  | 2025-12-31 16:22:40+00:00 |
-| 6 | [dandi/dandi-cli](https://github.com/dandi/dandi-cli) | 24 |  | :heavy_check_mark: |  | 2025-12-17 20:31:26+00:00 |
+| 5 | [dandi/dandi-archive](https://github.com/dandi/dandi-archive) | 20 |  | :heavy_check_mark: |  | 2026-01-13 19:22:02+00:00 |
+| 6 | [dandi/dandi-cli](https://github.com/dandi/dandi-cli) | 24 |  | :heavy_check_mark: |  | 2026-01-16 06:23:41+00:00 |
 | 7 | [dandi/dandi-hub](https://github.com/dandi/dandi-hub) | 12 |  | :heavy_check_mark: |  | 2025-12-17 22:10:24+00:00 |
-| 8 | [dandi/dandi-schema](https://github.com/dandi/dandi-schema) | 7 |  | :heavy_check_mark: |  | 2025-12-18 01:47:48+00:00 |
+| 8 | [dandi/dandi-schema](https://github.com/dandi/dandi-schema) | 7 |  | :heavy_check_mark: |  | 2026-01-14 20:25:12+00:00 |
 | 9 | [dandi/dandiarchive-bucket-top](https://github.com/dandi/dandiarchive-bucket-top) | 0 |  | :heavy_check_mark: |  | 2026-01-08 03:03:56+00:00 |
-| 10 | [dandi/dandisets](https://github.com/dandi/dandisets) | 12 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-01-04 00:04:23+00:00 |
+| 10 | [dandi/dandisets](https://github.com/dandi/dandisets) | 12 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-01-16 00:04:41+00:00 |
 | 11 | [dandi/dandisets-healthstatus](https://github.com/dandi/dandisets-healthstatus) | 0 |  | :heavy_check_mark: |  | 2025-11-24 14:16:34+00:00 |
 | 12 | [dandi/dandisets-linkml-status](https://github.com/dandi/dandisets-linkml-status) | 0 |  | :heavy_check_mark: |  | 2026-01-07 07:07:41+00:00 |
 | 13 | [dandi/example-notebooks](https://github.com/dandi/example-notebooks) | 7 |  | :heavy_check_mark: |  | 2025-08-29 18:01:53+00:00 |
@@ -22,8 +22,8 @@
 | 19 | [dandi/s5cmd-dandi](https://github.com/dandi/s5cmd-dandi) | 0 |  | :heavy_check_mark: |  | 2024-10-29 16:08:09+00:00 |
 | 20 | [dandi/schema](https://github.com/dandi/schema) | 3 |  | :heavy_check_mark: |  | 2025-11-20 23:54:49+00:00 |
 | 21 | [dandi/upptime](https://github.com/dandi/upptime) | 3 |  | :heavy_check_mark: |  | 2026-01-06 00:26:24+00:00 |
-| 22 | [dandi/zarr-manifests](https://github.com/dandi/zarr-manifests) | 0 |  | :heavy_check_mark: |  | 2025-12-16 07:23:06+00:00 |
-| 23 | [dandi/zarr_checksum](https://github.com/dandi/zarr_checksum) | 12 |  | :heavy_check_mark: |  | 2025-12-22 15:11:43+00:00 |
+| 22 | [dandi/zarr-manifests](https://github.com/dandi/zarr-manifests) | 0 |  | :heavy_check_mark: |  | 2026-01-14 07:23:11+00:00 |
+| 23 | [dandi/zarr_checksum](https://github.com/dandi/zarr_checksum) | 12 |  | :heavy_check_mark: |  | 2026-01-12 19:21:07+00:00 |
 
 ## Gone
 No repositories found!
