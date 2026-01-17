@@ -5,7 +5,7 @@
 | 2 | [con/catenate](https://github.com/con/catenate) | 2 |  | :heavy_check_mark: |  | 2025-12-12 17:15:23+00:00 |
 | 3 | [con/centerforopenneuroscience.org](https://github.com/con/centerforopenneuroscience.org) | 4 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-10-10 17:21:55+00:00 |
 | 4 | [con/demos](https://github.com/con/demos) | 0 |  | :heavy_check_mark: |  | 2025-11-17 20:33:51+00:00 |
-| 5 | [con/duct](https://github.com/con/duct) | 9 |  | :heavy_check_mark: |  | 2026-01-05 21:40:19+00:00 |
+| 5 | [con/duct](https://github.com/con/duct) | 9 |  | :heavy_check_mark: |  | 2026-01-16 19:43:00+00:00 |
 | 6 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-01-08 02:19:53+00:00 |
 | 7 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2025-11-24 01:02:55+00:00 |
 | 8 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
