@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (33) | Stars (132) | Dataset (32) | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (33) | Stars (134) | Dataset (32) | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [templateflow/python-client](https://github.com/templateflow/python-client) | 8 |  | :heavy_check_mark: |  | 2026-01-06 10:15:02+00:00 |
 | 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 93 | :heavy_check_mark: |  |  | 2026-01-06 10:10:21+00:00 |
@@ -10,7 +10,7 @@
 | 7 | [templateflow/tpl-MNI152NLin2009aSym](https://github.com/templateflow/tpl-MNI152NLin2009aSym) | 0 | :heavy_check_mark: |  |  | 2025-11-13 17:49:23+00:00 |
 | 8 | [templateflow/tpl-MNI152NLin2009bAsym](https://github.com/templateflow/tpl-MNI152NLin2009bAsym) | 0 | :heavy_check_mark: |  |  | 2025-11-13 18:06:23+00:00 |
 | 9 | [templateflow/tpl-MNI152NLin2009bSym](https://github.com/templateflow/tpl-MNI152NLin2009bSym) | 0 | :heavy_check_mark: |  |  | 2025-11-13 18:32:52+00:00 |
-| 10 | [templateflow/tpl-MNI152NLin2009cAsym](https://github.com/templateflow/tpl-MNI152NLin2009cAsym) | 11 | :heavy_check_mark: |  |  | 2026-01-06 08:01:54+00:00 |
+| 10 | [templateflow/tpl-MNI152NLin2009cAsym](https://github.com/templateflow/tpl-MNI152NLin2009cAsym) | 13 | :heavy_check_mark: |  |  | 2026-01-06 08:01:54+00:00 |
 | 11 | [templateflow/tpl-MNI152NLin2009cSym](https://github.com/templateflow/tpl-MNI152NLin2009cSym) | 0 | :heavy_check_mark: |  |  | 2025-11-13 18:46:23+00:00 |
 | 12 | [templateflow/tpl-MNI152NLin6Asym](https://github.com/templateflow/tpl-MNI152NLin6Asym) | 4 | :heavy_check_mark: |  |  | 2026-01-06 10:10:19+00:00 |
 | 13 | [templateflow/tpl-MNI152NLin6Sym](https://github.com/templateflow/tpl-MNI152NLin6Sym) | 0 | :heavy_check_mark: |  |  | 2025-11-12 19:34:21+00:00 |
