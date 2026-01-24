@@ -7,11 +7,11 @@
 | 4 | [LAAC-LSCP/longform-hardware-audio-test](https://gin.g-node.org/LAAC-LSCP/longform-hardware-audio-test) | 0 | 2022-11-15 14:40:27+00:00 |
 | 5 | [LAAC-LSCP/managing-storing-sharing-paper](https://gin.g-node.org/LAAC-LSCP/managing-storing-sharing-paper) | 0 | 2021-10-29 11:53:20+00:00 |
 | 6 | [LAAC-LSCP/providence](https://gin.g-node.org/LAAC-LSCP/providence) | 0 | 2026-01-15 17:05:52+00:00 |
-| 7 | [LAAC-LSCP/soderstrom](https://gin.g-node.org/LAAC-LSCP/soderstrom) | 0 | 2026-01-08 15:52:36+00:00 |
+| 7 | [LAAC-LSCP/soderstrom](https://gin.g-node.org/LAAC-LSCP/soderstrom) | 0 | 2026-01-19 09:35:43+00:00 |
 | 8 | [LAAC-LSCP/speaker-confusion-model](https://gin.g-node.org/LAAC-LSCP/speaker-confusion-model) | 0 | 2026-01-08 08:12:16+00:00 |
 | 9 | [LAAC-LSCP/speech-maturity-tests](https://gin.g-node.org/LAAC-LSCP/speech-maturity-tests) | 0 | 2024-02-08 14:26:44+00:00 |
-| 10 | [LAAC-LSCP/thomas](https://gin.g-node.org/LAAC-LSCP/thomas) | 0 | 2026-01-08 17:12:59+00:00 |
-| 11 | [LAAC-LSCP/tsay](https://gin.g-node.org/LAAC-LSCP/tsay) | 0 | 2026-01-08 17:43:16+00:00 |
+| 10 | [LAAC-LSCP/thomas](https://gin.g-node.org/LAAC-LSCP/thomas) | 0 | 2026-01-19 09:45:24+00:00 |
+| 11 | [LAAC-LSCP/tsay](https://gin.g-node.org/LAAC-LSCP/tsay) | 0 | 2026-01-19 10:29:36+00:00 |
 | 12 | [LAAC-LSCP/zoo-campaign](https://gin.g-node.org/LAAC-LSCP/zoo-campaign) | 0 | 2021-09-09 14:36:00+00:00 |
 
 ## Gone
