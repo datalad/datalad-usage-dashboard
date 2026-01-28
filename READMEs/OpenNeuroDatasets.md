@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (1522) | Stars (401) | Dataset (1522) | `run` (3) | `containers-run` (1) | Last Modified |
+| # | Repository (1523) | Stars (401) | Dataset (1523) | `run` (3) | `containers-run` (1) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [OpenNeuroDatasets/ds000001](https://github.com/OpenNeuroDatasets/ds000001) | 1 | :heavy_check_mark: |  |  | 2020-09-01 17:26:01+00:00 |
 | 2 | [OpenNeuroDatasets/ds000002](https://github.com/OpenNeuroDatasets/ds000002) | 2 | :heavy_check_mark: |  |  | 2020-08-17 19:59:17+00:00 |
@@ -1523,6 +1523,7 @@
 | 1520 | [OpenNeuroDatasets/ds007185](https://github.com/OpenNeuroDatasets/ds007185) | 0 | :heavy_check_mark: |  |  | 2026-01-16 21:35:05+00:00 |
 | 1521 | [OpenNeuroDatasets/ds007262](https://github.com/OpenNeuroDatasets/ds007262) | 0 | :heavy_check_mark: |  |  | 2026-01-19 17:47:54+00:00 |
 | 1522 | [OpenNeuroDatasets/ds007313](https://github.com/OpenNeuroDatasets/ds007313) | 0 | :heavy_check_mark: |  |  | 2026-01-23 15:25:04+00:00 |
+| 1523 | [OpenNeuroDatasets/ds007338](https://github.com/OpenNeuroDatasets/ds007338) | 0 | :heavy_check_mark: |  |  | 2026-01-27 19:22:02+00:00 |
 
 ## Gone
 | # | Repository (26) | Stars (1) | Dataset (26) | `run` | `containers-run` | Last Modified |

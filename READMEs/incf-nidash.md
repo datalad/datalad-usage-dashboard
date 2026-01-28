@@ -3,7 +3,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [incf-nidash/PyNIDM](https://github.com/incf-nidash/PyNIDM) | 21 |  | :heavy_check_mark: |  | 2026-01-14 15:48:34+00:00 |
 | 2 | [incf-nidash/demo-datalad-nidmresults](https://github.com/incf-nidash/demo-datalad-nidmresults) | 0 | :heavy_check_mark: |  |  | 2018-08-08 15:35:53+00:00 |
-| 3 | [incf-nidash/nidmresults](https://github.com/incf-nidash/nidmresults) | 7 |  | :heavy_check_mark: |  | 2026-01-12 21:24:01+00:00 |
+| 3 | [incf-nidash/nidmresults](https://github.com/incf-nidash/nidmresults) | 7 |  | :heavy_check_mark: |  | 2026-01-19 21:51:01+00:00 |
 
 ## Gone
 No repositories found!
