@@ -5,7 +5,7 @@
 | 2 | [Aswendt_Lab/2023_Kalantari_DataladExampleDataset](https://gin.g-node.org/Aswendt_Lab/2023_Kalantari_DataladExampleDataset) | 0 | 2023-09-27 11:17:27+00:00 |
 | 3 | [Aswendt_Lab/2023_Stokowska_Periinfarct](https://gin.g-node.org/Aswendt_Lab/2023_Stokowska_Periinfarct) | 0 | 2025-01-06 13:01:22+00:00 |
 | 4 | [Aswendt_Lab/2024_Mahani_SC](https://gin.g-node.org/Aswendt_Lab/2024_Mahani_SC) | 0 | 2025-07-08 12:34:02+00:00 |
-| 5 | [Aswendt_Lab/2024_Ruthe_SND](https://gin.g-node.org/Aswendt_Lab/2024_Ruthe_SND) | 0 | 2026-01-22 13:05:57+00:00 |
+| 5 | [Aswendt_Lab/2024_Ruthe_SND](https://gin.g-node.org/Aswendt_Lab/2024_Ruthe_SND) | 0 | 2026-01-30 19:48:37+00:00 |
 | 6 | [Aswendt_Lab/2024_Stokowska_SND](https://gin.g-node.org/Aswendt_Lab/2024_Stokowska_SND) | 0 | 2025-01-20 10:09:28+00:00 |
 | 7 | [Aswendt_Lab/2025_Mahani_FC](https://gin.g-node.org/Aswendt_Lab/2025_Mahani_FC) | 0 | 2025-11-12 21:02:35+00:00 |
 | 8 | [Aswendt_Lab/2025_Mousavi_Gliascar](https://gin.g-node.org/Aswendt_Lab/2025_Mousavi_Gliascar) | 0 | 2025-12-27 20:03:04+00:00 |

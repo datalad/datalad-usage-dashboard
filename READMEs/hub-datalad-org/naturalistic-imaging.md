@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (26) | Stars | Last Modified |
+| # | Repository (27) | Stars | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [naturalistic-imaging/Emo-FiLM](https://hub.datalad.org/naturalistic-imaging/Emo-FiLM) | 0 | 2025-02-20 01:00:33+00:00 |
 | 2 | [naturalistic-imaging/NNDb](https://hub.datalad.org/naturalistic-imaging/NNDb) | 0 | 2021-04-21 11:13:49+00:00 |
@@ -25,8 +25,9 @@
 | 22 | [naturalistic-imaging/sherlock-preprocessed](https://hub.datalad.org/naturalistic-imaging/sherlock-preprocessed) | 0 | 2020-07-06 03:15:33+00:00 |
 | 23 | [naturalistic-imaging/sixth-sense](https://hub.datalad.org/naturalistic-imaging/sixth-sense) | 0 | 2023-08-24 19:17:59+00:00 |
 | 24 | [naturalistic-imaging/studyforrest](https://hub.datalad.org/naturalistic-imaging/studyforrest) | 0 | 2025-06-09 18:59:48+00:00 |
-| 25 | [naturalistic-imaging/twilight-zone-movie-watching-dataset](https://hub.datalad.org/naturalistic-imaging/twilight-zone-movie-watching-dataset) | 0 | 2020-08-17 20:29:39+00:00 |
-| 26 | [naturalistic-imaging/visconti-di-oleggio-castello-at-al-the-grand-budapest-hotel](https://hub.datalad.org/naturalistic-imaging/visconti-di-oleggio-castello-at-al-the-grand-budapest-hotel) | 0 | 2021-04-01 22:18:05+00:00 |
+| 25 | [naturalistic-imaging/studyforrest-data](https://hub.datalad.org/naturalistic-imaging/studyforrest-data) | 0 | 2026-01-26 12:29:54+00:00 |
+| 26 | [naturalistic-imaging/twilight-zone-movie-watching-dataset](https://hub.datalad.org/naturalistic-imaging/twilight-zone-movie-watching-dataset) | 0 | 2020-08-17 20:29:39+00:00 |
+| 27 | [naturalistic-imaging/visconti-di-oleggio-castello-at-al-the-grand-budapest-hotel](https://hub.datalad.org/naturalistic-imaging/visconti-di-oleggio-castello-at-al-the-grand-budapest-hotel) | 0 | 2021-04-01 22:18:05+00:00 |
 
 ## Gone
 No repositories found!
