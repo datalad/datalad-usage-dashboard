@@ -23,7 +23,7 @@
 | 20 | [yarikoptic/hbn-datalad-ls](https://github.com/yarikoptic/hbn-datalad-ls) | 0 | :heavy_check_mark: |  |  | 2020-08-03 14:03:38+00:00 |
 | 21 | [yarikoptic/heudiconv-testdata](https://github.com/yarikoptic/heudiconv-testdata) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2020-05-06 21:57:24+00:00 |
 | 22 | [yarikoptic/human-connectome-project-openaccess](https://github.com/yarikoptic/human-connectome-project-openaccess) | 0 | :heavy_check_mark: |  |  | 2020-02-14 03:32:21+00:00 |
-| 23 | [yarikoptic/improveit-dashboard](https://github.com/yarikoptic/improveit-dashboard) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-01-27 06:22:59+00:00 |
+| 23 | [yarikoptic/improveit-dashboard](https://github.com/yarikoptic/improveit-dashboard) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-02-07 06:31:42+00:00 |
 | 24 | [yarikoptic/mriqc-sample1](https://github.com/yarikoptic/mriqc-sample1) | 0 | :heavy_check_mark: |  |  | 2020-07-22 02:05:13+00:00 |
 | 25 | [yarikoptic/neurodebian-singularity-temp](https://github.com/yarikoptic/neurodebian-singularity-temp) | 0 | :heavy_check_mark: |  |  | 2017-08-19 04:04:32+00:00 |
 | 26 | [yarikoptic/ohbm2020-posters](https://github.com/yarikoptic/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-07-01 15:17:09+00:00 |
