@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (15) | Stars (6) | Dataset (10) | `run` (7) | `containers-run` | Last Modified |
+| # | Repository (16) | Stars (7) | Dataset (11) | `run` (7) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproBrainChart/BHRC_BIDS](https://github.com/ReproBrainChart/BHRC_BIDS) | 0 | :heavy_check_mark: |  |  | 2024-05-30 22:40:30+00:00 |
 | 2 | [ReproBrainChart/BHRC_CPAC](https://github.com/ReproBrainChart/BHRC_CPAC) | 0 |  | :heavy_check_mark: |  | 2024-06-07 19:20:43+00:00 |
@@ -16,6 +16,7 @@
 | 13 | [ReproBrainChart/PNC_BIDS](https://github.com/ReproBrainChart/PNC_BIDS) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-06-17 20:49:57+00:00 |
 | 14 | [ReproBrainChart/PNC_CPAC](https://github.com/ReproBrainChart/PNC_CPAC) | 0 |  | :heavy_check_mark: |  | 2024-06-07 20:07:34+00:00 |
 | 15 | [ReproBrainChart/PNC_FreeSurfer](https://github.com/ReproBrainChart/PNC_FreeSurfer) | 1 | :heavy_check_mark: |  |  | 2024-06-07 19:20:54+00:00 |
+| 16 | [ReproBrainChart/rbc-analysis-template](https://github.com/ReproBrainChart/rbc-analysis-template) | 1 | :heavy_check_mark: |  |  | 2025-02-25 02:47:25+00:00 |
 
 ## Gone
 No repositories found!
