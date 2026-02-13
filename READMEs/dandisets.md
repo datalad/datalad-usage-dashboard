@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (781) | Stars (16) | Dataset (781) | `run` (1) | `containers-run` | Last Modified |
+| # | Repository (783) | Stars (16) | Dataset (783) | `run` (1) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [dandisets/000003](https://github.com/dandisets/000003) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:03:57+00:00 |
 | 2 | [dandisets/000004](https://github.com/dandisets/000004) | 0 | :heavy_check_mark: |  |  | 2026-01-14 21:02:19+00:00 |
@@ -779,9 +779,11 @@
 | 776 | [dandisets/001746](https://github.com/dandisets/001746) | 0 | :heavy_check_mark: |  |  | 2026-02-10 03:04:38+00:00 |
 | 777 | [dandisets/001747](https://github.com/dandisets/001747) | 0 | :heavy_check_mark: |  |  | 2026-02-10 06:19:51+00:00 |
 | 778 | [dandisets/001748](https://github.com/dandisets/001748) | 0 | :heavy_check_mark: |  |  | 2026-02-10 20:09:15+00:00 |
-| 779 | [dandisets/SenzaiNeuron2017](https://github.com/dandisets/SenzaiNeuron2017) | 0 | :heavy_check_mark: |  |  | 2019-10-09 00:39:38+00:00 |
-| 780 | [dandisets/najafi-2018-nwb](https://github.com/dandisets/najafi-2018-nwb) | 0 | :heavy_check_mark: |  |  | 2019-09-27 20:29:19+00:00 |
-| 781 | [dandisets/nwb_test_data](https://github.com/dandisets/nwb_test_data) | 0 | :heavy_check_mark: |  |  | 2019-10-09 00:35:08+00:00 |
+| 779 | [dandisets/001749](https://github.com/dandisets/001749) | 0 | :heavy_check_mark: |  |  | 2026-02-12 23:06:51+00:00 |
+| 780 | [dandisets/001750](https://github.com/dandisets/001750) | 0 | :heavy_check_mark: |  |  | 2026-02-13 06:45:51+00:00 |
+| 781 | [dandisets/SenzaiNeuron2017](https://github.com/dandisets/SenzaiNeuron2017) | 0 | :heavy_check_mark: |  |  | 2019-10-09 00:39:38+00:00 |
+| 782 | [dandisets/najafi-2018-nwb](https://github.com/dandisets/najafi-2018-nwb) | 0 | :heavy_check_mark: |  |  | 2019-09-27 20:29:19+00:00 |
+| 783 | [dandisets/nwb_test_data](https://github.com/dandisets/nwb_test_data) | 0 | :heavy_check_mark: |  |  | 2019-10-09 00:35:08+00:00 |
 
 ## Gone
 | # | Repository (10) | Stars | Dataset (10) | `run` | `containers-run` | Last Modified |
