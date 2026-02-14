@@ -6,11 +6,11 @@
 | 3 | [LAAC-LSCP/align-vandam](https://gin.g-node.org/LAAC-LSCP/align-vandam) | 0 | 2023-08-30 12:52:47+00:00 |
 | 4 | [LAAC-LSCP/longform-hardware-audio-test](https://gin.g-node.org/LAAC-LSCP/longform-hardware-audio-test) | 0 | 2022-11-15 14:40:27+00:00 |
 | 5 | [LAAC-LSCP/managing-storing-sharing-paper](https://gin.g-node.org/LAAC-LSCP/managing-storing-sharing-paper) | 0 | 2021-10-29 11:53:20+00:00 |
-| 6 | [LAAC-LSCP/providence](https://gin.g-node.org/LAAC-LSCP/providence) | 0 | 2026-02-03 13:34:35+00:00 |
-| 7 | [LAAC-LSCP/soderstrom](https://gin.g-node.org/LAAC-LSCP/soderstrom) | 0 | 2026-01-19 09:35:43+00:00 |
-| 8 | [LAAC-LSCP/speaker-confusion-model](https://gin.g-node.org/LAAC-LSCP/speaker-confusion-model) | 0 | 2026-02-07 05:43:09+00:00 |
+| 6 | [LAAC-LSCP/providence](https://gin.g-node.org/LAAC-LSCP/providence) | 0 | 2026-02-12 11:00:52+00:00 |
+| 7 | [LAAC-LSCP/soderstrom](https://gin.g-node.org/LAAC-LSCP/soderstrom) | 0 | 2026-02-10 09:41:01+00:00 |
+| 8 | [LAAC-LSCP/speaker-confusion-model](https://gin.g-node.org/LAAC-LSCP/speaker-confusion-model) | 0 | 2026-02-08 22:55:35+00:00 |
 | 9 | [LAAC-LSCP/speech-maturity-tests](https://gin.g-node.org/LAAC-LSCP/speech-maturity-tests) | 0 | 2024-02-08 14:26:44+00:00 |
-| 10 | [LAAC-LSCP/thomas](https://gin.g-node.org/LAAC-LSCP/thomas) | 0 | 2026-02-05 00:11:34+00:00 |
+| 10 | [LAAC-LSCP/thomas](https://gin.g-node.org/LAAC-LSCP/thomas) | 0 | 2026-02-12 17:32:04+00:00 |
 | 11 | [LAAC-LSCP/tsay](https://gin.g-node.org/LAAC-LSCP/tsay) | 0 | 2026-02-05 01:38:01+00:00 |
 | 12 | [LAAC-LSCP/zoo-campaign](https://gin.g-node.org/LAAC-LSCP/zoo-campaign) | 0 | 2021-09-09 14:36:00+00:00 |
 
