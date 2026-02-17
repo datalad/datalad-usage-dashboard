@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (19) | Stars (93) | Dataset (2) | `run` (19) | `containers-run` | Last Modified |
+| # | Repository (20) | Stars (93) | Dataset (2) | `run` (20) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  | 2025-09-05 18:00:24+00:00 |
 | 2 | [con/annextube](https://github.com/con/annextube) | 0 |  | :heavy_check_mark: |  | 2026-02-08 00:16:20+00:00 |
@@ -14,12 +14,13 @@
 | 11 | [con/nwb2bids](https://github.com/con/nwb2bids) | 3 |  | :heavy_check_mark: |  | 2026-02-04 18:21:15+00:00 |
 | 12 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 45 |  | :heavy_check_mark: |  | 2026-01-15 21:49:12+00:00 |
 | 13 | [con/opfvta-reexecution](https://github.com/con/opfvta-reexecution) | 1 |  | :heavy_check_mark: |  | 2024-08-02 08:06:56+00:00 |
-| 14 | [con/shub](https://github.com/con/shub) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-10-19 16:30:00+00:00 |
-| 15 | [con/solidation](https://github.com/con/solidation) | 0 |  | :heavy_check_mark: |  | 2025-11-24 16:18:51+00:00 |
-| 16 | [con/tinuous](https://github.com/con/tinuous) | 10 |  | :heavy_check_mark: |  | 2026-01-07 02:16:51+00:00 |
-| 17 | [con/tributors](https://github.com/con/tributors) | 14 |  | :heavy_check_mark: |  | 2025-05-14 15:25:41+00:00 |
-| 18 | [con/try-aind-1](https://github.com/con/try-aind-1) | 0 |  | :heavy_check_mark: |  | 2025-11-13 21:10:33+00:00 |
-| 19 | [con/visidata-demos](https://github.com/con/visidata-demos) | 0 |  | :heavy_check_mark: |  | 2026-02-13 15:17:00+00:00 |
+| 14 | [con/serve](https://github.com/con/serve) | 0 |  | :heavy_check_mark: |  | 2026-02-16 20:13:27+00:00 |
+| 15 | [con/shub](https://github.com/con/shub) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-10-19 16:30:00+00:00 |
+| 16 | [con/solidation](https://github.com/con/solidation) | 0 |  | :heavy_check_mark: |  | 2025-11-24 16:18:51+00:00 |
+| 17 | [con/tinuous](https://github.com/con/tinuous) | 10 |  | :heavy_check_mark: |  | 2026-01-07 02:16:51+00:00 |
+| 18 | [con/tributors](https://github.com/con/tributors) | 14 |  | :heavy_check_mark: |  | 2025-05-14 15:25:41+00:00 |
+| 19 | [con/try-aind-1](https://github.com/con/try-aind-1) | 0 |  | :heavy_check_mark: |  | 2025-11-13 21:10:33+00:00 |
+| 20 | [con/visidata-demos](https://github.com/con/visidata-demos) | 0 |  | :heavy_check_mark: |  | 2026-02-13 15:17:00+00:00 |
 
 ## Gone
 No repositories found!
