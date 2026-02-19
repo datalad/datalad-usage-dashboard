@@ -7,7 +7,7 @@
 | 4 | [linkml/linkml-project-cookiecutter](https://github.com/linkml/linkml-project-cookiecutter) | 27 |  | :heavy_check_mark: |  | 2025-10-23 21:36:05+00:00 |
 | 5 | [linkml/linkml-registry](https://github.com/linkml/linkml-registry) | 15 |  | :heavy_check_mark: |  | 2026-02-09 07:50:35+00:00 |
 | 6 | [linkml/linkml-runtime.js](https://github.com/linkml/linkml-runtime.js) | 8 |  | :heavy_check_mark: |  | 2023-06-12 18:56:08+00:00 |
-| 7 | [linkml/schema-automator](https://github.com/linkml/schema-automator) | 55 |  | :heavy_check_mark: |  | 2025-12-12 22:54:33+00:00 |
+| 7 | [linkml/schema-automator](https://github.com/linkml/schema-automator) | 55 |  | :heavy_check_mark: |  | 2026-02-19 02:16:08+00:00 |
 | 8 | [linkml/schemasheets](https://github.com/linkml/schemasheets) | 49 |  | :heavy_check_mark: |  | 2026-02-04 13:00:42+00:00 |
 
 ## Gone
