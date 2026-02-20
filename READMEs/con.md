@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (20) | Stars (93) | Dataset (2) | `run` (20) | `containers-run` | Last Modified |
+| # | Repository (20) | Stars (95) | Dataset (2) | `run` (20) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  | 2025-09-05 18:00:24+00:00 |
-| 2 | [con/annextube](https://github.com/con/annextube) | 0 |  | :heavy_check_mark: |  | 2026-02-08 00:16:20+00:00 |
+| 2 | [con/annextube](https://github.com/con/annextube) | 0 |  | :heavy_check_mark: |  | 2026-02-20 02:53:17+00:00 |
 | 3 | [con/catenate](https://github.com/con/catenate) | 2 |  | :heavy_check_mark: |  | 2025-12-12 17:15:23+00:00 |
 | 4 | [con/centerforopenneuroscience.org](https://github.com/con/centerforopenneuroscience.org) | 4 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-10-10 17:21:55+00:00 |
 | 5 | [con/citations-collector](https://github.com/con/citations-collector) | 2 |  | :heavy_check_mark: |  | 2026-02-12 17:51:57+00:00 |
@@ -11,7 +11,7 @@
 | 8 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-02-11 03:14:37+00:00 |
 | 9 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2025-11-24 01:02:55+00:00 |
 | 10 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
-| 11 | [con/nwb2bids](https://github.com/con/nwb2bids) | 3 |  | :heavy_check_mark: |  | 2026-02-04 18:21:15+00:00 |
+| 11 | [con/nwb2bids](https://github.com/con/nwb2bids) | 5 |  | :heavy_check_mark: |  | 2026-02-16 19:38:31+00:00 |
 | 12 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 45 |  | :heavy_check_mark: |  | 2026-01-15 21:49:12+00:00 |
 | 13 | [con/opfvta-reexecution](https://github.com/con/opfvta-reexecution) | 1 |  | :heavy_check_mark: |  | 2024-08-02 08:06:56+00:00 |
 | 14 | [con/serve](https://github.com/con/serve) | 0 |  | :heavy_check_mark: |  | 2026-02-16 20:13:27+00:00 |
