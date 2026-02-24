@@ -8,7 +8,7 @@
 | 5 | [pranavmishra90/nextgen-analysis-scvi-tools](https://github.com/pranavmishra90/nextgen-analysis-scvi-tools) | 0 | :heavy_check_mark: |  |  | 2024-03-11 20:04:42+00:00 |
 | 6 | [pranavmishra90/primer-design](https://github.com/pranavmishra90/primer-design) | 0 | :heavy_check_mark: |  |  | 2022-09-28 01:23:54+00:00 |
 | 7 | [pranavmishra90/project-template](https://github.com/pranavmishra90/project-template) | 0 | :heavy_check_mark: |  |  | 2025-08-10 22:16:19+00:00 |
-| 8 | [pranavmishra90/research-reference](https://github.com/pranavmishra90/research-reference) | 3 | :heavy_check_mark: |  |  | 2024-08-09 19:47:54+00:00 |
+| 8 | [pranavmishra90/research-reference](https://github.com/pranavmishra90/research-reference) | 3 | :heavy_check_mark: |  |  | 2026-02-17 00:43:27+00:00 |
 
 ## Gone
 | # | Repository (3) | Stars | Dataset (3) | `run` | `containers-run` | Last Modified |
