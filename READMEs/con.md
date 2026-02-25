@@ -20,7 +20,7 @@
 | 17 | [con/tinuous](https://github.com/con/tinuous) | 10 |  | :heavy_check_mark: |  | 2026-02-09 20:21:13+00:00 |
 | 18 | [con/tributors](https://github.com/con/tributors) | 14 |  | :heavy_check_mark: |  | 2025-05-14 15:25:41+00:00 |
 | 19 | [con/try-aind-1](https://github.com/con/try-aind-1) | 0 |  | :heavy_check_mark: |  | 2025-11-13 21:10:33+00:00 |
-| 20 | [con/visidata-demos](https://github.com/con/visidata-demos) | 0 |  | :heavy_check_mark: |  | 2026-02-13 15:17:00+00:00 |
+| 20 | [con/visidata-demos](https://github.com/con/visidata-demos) | 0 |  | :heavy_check_mark: |  | 2026-02-18 03:20:48+00:00 |
 
 ## Gone
 No repositories found!
