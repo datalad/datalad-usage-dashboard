@@ -3,7 +3,7 @@
 This file is automatically updated using GitHub Actions workflows. It lists Git repositories discovered on GitHub and other hosts that either are [DataLad](https://www.datalad.org) datasets or else had `datalad run` used on them. Furthermore, the [`datalad-repos.json`](./datalad-repos.json) file in this repository is used by https://registry.datalad.org/ to provide up-to-date metadata for these repositories and support metadata-based searches.
 
 # Summary
-- [GitHub](#github): [4590](#in-the-wild) in the wild + [6539](#inner-circle) inner-circle + [213](#gone) gone
+- [GitHub](#github): [4587](#in-the-wild) in the wild + [6539](#inner-circle) inner-circle + [213](#gone) gone
 - [OSF](#osf): [195](#active) active + [83](#gone-1) gone
 - [GIN](#gin): [913](#active-1) active + [12](#gone-2) gone
 - [hub.datalad.org](#hubdataladorg): [4626](#active-2) active + [1](#gone-3) gone
@@ -11,7 +11,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # GitHub
 ## In the wild
-| # | Repository (4590) | Stars (1003323) | Dataset (3543) | `run` (1350) | `containers-run` (33) | Last Modified |
+| # | Repository (4587) | Stars (1003322) | Dataset (3540) | `run` (1350) | `containers-run` (33) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [1104HARI/*](https://github.com/1104HARI) [(2)](READMEs/1104HARI.md) | [0](READMEs/1104HARI.md) |  | [:heavy_check_mark: (2)](READMEs/1104HARI.md) |  | 2023-12-06 09:12:59+00:00 |
 | 2 | [12Rameshwar/Open-AI](https://github.com/12Rameshwar/Open-AI) | 0 |  | :heavy_check_mark: |  | 2025-08-18 14:26:30+00:00 |
@@ -212,7 +212,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 197 | [OleBialas/*](https://github.com/OleBialas) [(5)](READMEs/OleBialas.md) | [3](READMEs/OleBialas.md) | [:heavy_check_mark: (1)](READMEs/OleBialas.md) | [:heavy_check_mark: (4)](READMEs/OleBialas.md) |  | 2025-04-04 09:23:53+00:00 |
 | 198 | [OluwadamilareSunmola/HackUTD2025](https://github.com/OluwadamilareSunmola/HackUTD2025) | 0 |  | :heavy_check_mark: |  | 2025-11-08 21:11:52+00:00 |
 | 199 | [OpenNeuroDatasets-JSONLD/*](https://github.com/OpenNeuroDatasets-JSONLD) [(414)](READMEs/OpenNeuroDatasets-JSONLD.md) | [0](READMEs/OpenNeuroDatasets-JSONLD.md) | [:heavy_check_mark: (414)](READMEs/OpenNeuroDatasets-JSONLD.md) |  |  | 2025-11-19 02:22:50+00:00 |
-| 200 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(1595)](READMEs/OpenNeuroDatasets.md) | [421](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1595)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (3)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1)](READMEs/OpenNeuroDatasets.md) | 2026-02-25 18:21:51+00:00 |
+| 200 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(1597)](READMEs/OpenNeuroDatasets.md) | [421](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1597)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (3)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1)](READMEs/OpenNeuroDatasets.md) | 2026-02-26 16:41:43+00:00 |
 | 201 | [OpenNeuroDerivatives/*](https://github.com/OpenNeuroDerivatives) [(471)](READMEs/OpenNeuroDerivatives.md) | [10](READMEs/OpenNeuroDerivatives.md) | [:heavy_check_mark: (471)](READMEs/OpenNeuroDerivatives.md) |  |  | 2025-11-24 22:58:52+00:00 |
 | 202 | [OpenNeuroDev/*](https://github.com/OpenNeuroDev) [(15)](READMEs/OpenNeuroDev.md) | [0](READMEs/OpenNeuroDev.md) | [:heavy_check_mark: (15)](READMEs/OpenNeuroDev.md) |  |  | 2020-09-22 21:50:48+00:00 |
 | 203 | [OpenNeuroOrg/openneuro](https://github.com/OpenNeuroOrg/openneuro) | 139 |  | :heavy_check_mark: |  | 2026-02-18 21:37:24+00:00 |
@@ -706,7 +706,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 691 | [nbirnel/who-owns-the-housing](https://github.com/nbirnel/who-owns-the-housing) | 0 |  | :heavy_check_mark: |  | 2025-05-30 19:07:06+00:00 |
 | 692 | [nebius/soperator](https://github.com/nebius/soperator) | 358 |  | :heavy_check_mark: |  | 2026-02-21 13:31:28+00:00 |
 | 693 | [nektos/act](https://github.com/nektos/act) | 68975 |  | :heavy_check_mark: |  | 2026-02-10 00:45:34+00:00 |
-| 694 | [nemarDatasets/*](https://github.com/nemarDatasets) [(18)](READMEs/nemarDatasets.md) | [1](READMEs/nemarDatasets.md) | [:heavy_check_mark: (18)](READMEs/nemarDatasets.md) |  |  | 2026-02-23 08:35:57+00:00 |
+| 694 | [nemarDatasets/*](https://github.com/nemarDatasets) [(13)](READMEs/nemarDatasets.md) | [0](READMEs/nemarDatasets.md) | [:heavy_check_mark: (13)](READMEs/nemarDatasets.md) |  |  | 2026-02-23 08:51:10+00:00 |
 | 695 | [neronain/open-webui](https://github.com/neronain/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 13:50:23+00:00 |
 | 696 | [netbox-community/netbox](https://github.com/netbox-community/netbox) | 19868 |  | :heavy_check_mark: |  | 2026-02-21 05:16:37+00:00 |
 | 697 | [netinvent/command_runner](https://github.com/netinvent/command_runner) | 42 |  | :heavy_check_mark: |  | 2025-11-07 12:51:21+00:00 |
