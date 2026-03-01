@@ -14,7 +14,7 @@
 | 11 | [con/nwb2bids](https://github.com/con/nwb2bids) | 5 |  | :heavy_check_mark: |  | 2026-02-16 19:38:31+00:00 |
 | 12 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 45 |  | :heavy_check_mark: |  | 2026-01-15 21:49:12+00:00 |
 | 13 | [con/opfvta-reexecution](https://github.com/con/opfvta-reexecution) | 1 |  | :heavy_check_mark: |  | 2024-08-02 08:06:56+00:00 |
-| 14 | [con/serve](https://github.com/con/serve) | 0 |  | :heavy_check_mark: |  | 2026-02-16 20:13:27+00:00 |
+| 14 | [con/serve](https://github.com/con/serve) | 0 |  | :heavy_check_mark: |  | 2026-02-20 13:52:03+00:00 |
 | 15 | [con/shub](https://github.com/con/shub) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-10-19 16:30:00+00:00 |
 | 16 | [con/solidation](https://github.com/con/solidation) | 0 |  | :heavy_check_mark: |  | 2025-11-24 16:18:51+00:00 |
 | 17 | [con/tinuous](https://github.com/con/tinuous) | 10 |  | :heavy_check_mark: |  | 2026-02-09 20:21:13+00:00 |
