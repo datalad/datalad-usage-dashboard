@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (2) | Stars (986) | Dataset | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (2) | Stars (988) | Dataset | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [awslabs/ai-on-eks](https://github.com/awslabs/ai-on-eks) | 162 |  | :heavy_check_mark: |  | 2026-02-18 19:56:11+00:00 |
-| 2 | [awslabs/data-on-eks](https://github.com/awslabs/data-on-eks) | 824 |  | :heavy_check_mark: |  | 2026-02-17 01:31:15+00:00 |
+| 2 | [awslabs/data-on-eks](https://github.com/awslabs/data-on-eks) | 826 |  | :heavy_check_mark: |  | 2026-02-24 01:31:20+00:00 |
 
 ## Gone
 No repositories found!
