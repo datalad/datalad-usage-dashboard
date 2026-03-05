@@ -778,7 +778,7 @@
 | 775 | [dandisets/001707](https://github.com/dandisets/001707) | 0 | :heavy_check_mark: |  |  | 2026-01-29 22:04:08+00:00 |
 | 776 | [dandisets/001708](https://github.com/dandisets/001708) | 0 | :heavy_check_mark: |  |  | 2026-02-17 16:06:35+00:00 |
 | 777 | [dandisets/001710](https://github.com/dandisets/001710) | 0 | :heavy_check_mark: |  |  | 2026-02-13 04:04:07+00:00 |
-| 778 | [dandisets/001712](https://github.com/dandisets/001712) | 0 | :heavy_check_mark: |  |  | 2026-02-19 17:04:10+00:00 |
+| 778 | [dandisets/001712](https://github.com/dandisets/001712) | 0 | :heavy_check_mark: |  |  | 2026-02-23 13:06:20+00:00 |
 | 779 | [dandisets/001746](https://github.com/dandisets/001746) | 0 | :heavy_check_mark: |  |  | 2026-02-13 21:04:31+00:00 |
 | 780 | [dandisets/001747](https://github.com/dandisets/001747) | 0 | :heavy_check_mark: |  |  | 2026-02-15 23:04:38+00:00 |
 | 781 | [dandisets/001748](https://github.com/dandisets/001748) | 0 | :heavy_check_mark: |  |  | 2026-02-17 20:08:08+00:00 |
