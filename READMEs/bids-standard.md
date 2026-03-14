@@ -9,11 +9,11 @@
 | 6 | [bids-standard/bids-specification](https://github.com/bids-standard/bids-specification) | 346 |  | :heavy_check_mark: |  | 2026-03-02 20:18:06+00:00 |
 | 7 | [bids-standard/bids-specification-ignore](https://github.com/bids-standard/bids-specification-ignore) | 0 |  | :heavy_check_mark: |  | 2022-07-14 19:58:22+00:00 |
 | 8 | [bids-standard/bids-starter-kit](https://github.com/bids-standard/bids-starter-kit) | 276 |  | :heavy_check_mark: |  | 2025-02-21 16:36:13+00:00 |
-| 9 | [bids-standard/bids-validator](https://github.com/bids-standard/bids-validator) | 35 |  | :heavy_check_mark: |  | 2026-02-20 15:27:04+00:00 |
+| 9 | [bids-standard/bids-validator](https://github.com/bids-standard/bids-validator) | 35 |  | :heavy_check_mark: |  | 2026-03-10 17:06:25+00:00 |
 | 10 | [bids-standard/bids-website](https://github.com/bids-standard/bids-website) | 73 |  | :heavy_check_mark: |  | 2026-03-03 13:17:10+00:00 |
 | 11 | [bids-standard/model-zoo](https://github.com/bids-standard/model-zoo) | 5 | :heavy_check_mark: |  |  | 2023-08-07 18:42:26+00:00 |
 | 12 | [bids-standard/pybids](https://github.com/bids-standard/pybids) | 256 |  | :heavy_check_mark: |  | 2026-03-02 13:39:10+00:00 |
-| 13 | [bids-standard/python-validator](https://github.com/bids-standard/python-validator) | 8 |  | :heavy_check_mark: |  | 2026-03-02 01:02:56+00:00 |
+| 13 | [bids-standard/python-validator](https://github.com/bids-standard/python-validator) | 8 |  | :heavy_check_mark: |  | 2026-03-13 12:09:25+00:00 |
 
 ## Gone
 No repositories found!
