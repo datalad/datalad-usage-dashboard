@@ -7,7 +7,7 @@
 | 4 | [con/centerforopenneuroscience.org](https://github.com/con/centerforopenneuroscience.org) | 4 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-03-11 20:18:01+00:00 |
 | 5 | [con/citations-collector](https://github.com/con/citations-collector) | 2 |  | :heavy_check_mark: |  | 2026-02-12 17:51:57+00:00 |
 | 6 | [con/demos](https://github.com/con/demos) | 0 |  | :heavy_check_mark: |  | 2025-11-17 20:33:51+00:00 |
-| 7 | [con/duct](https://github.com/con/duct) | 9 |  | :heavy_check_mark: |  | 2026-03-02 19:43:35+00:00 |
+| 7 | [con/duct](https://github.com/con/duct) | 9 |  | :heavy_check_mark: |  | 2026-03-09 19:43:41+00:00 |
 | 8 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-03-06 02:41:18+00:00 |
 | 9 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2025-11-24 01:02:55+00:00 |
 | 10 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |

@@ -12,7 +12,7 @@
 | 9 | [bids-standard/bids-validator](https://github.com/bids-standard/bids-validator) | 35 |  | :heavy_check_mark: |  | 2026-03-10 17:06:25+00:00 |
 | 10 | [bids-standard/bids-website](https://github.com/bids-standard/bids-website) | 73 |  | :heavy_check_mark: |  | 2026-03-03 13:17:10+00:00 |
 | 11 | [bids-standard/model-zoo](https://github.com/bids-standard/model-zoo) | 5 | :heavy_check_mark: |  |  | 2023-08-07 18:42:26+00:00 |
-| 12 | [bids-standard/pybids](https://github.com/bids-standard/pybids) | 256 |  | :heavy_check_mark: |  | 2026-03-02 13:39:10+00:00 |
+| 12 | [bids-standard/pybids](https://github.com/bids-standard/pybids) | 256 |  | :heavy_check_mark: |  | 2026-03-12 02:40:32+00:00 |
 | 13 | [bids-standard/python-validator](https://github.com/bids-standard/python-validator) | 8 |  | :heavy_check_mark: |  | 2026-03-13 12:09:25+00:00 |
 
 ## Gone
