@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (33) | Stars (134) | Dataset (32) | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (33) | Stars (136) | Dataset (32) | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [templateflow/python-client](https://github.com/templateflow/python-client) | 8 |  | :heavy_check_mark: |  | 2026-03-17 00:52:28+00:00 |
-| 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 93 | :heavy_check_mark: |  |  | 2026-01-06 10:10:21+00:00 |
+| 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 94 | :heavy_check_mark: |  |  | 2026-03-17 01:09:09+00:00 |
 | 3 | [templateflow/tpl-Fischer344](https://github.com/templateflow/tpl-Fischer344) | 0 | :heavy_check_mark: |  |  | 2025-11-12 18:37:44+00:00 |
 | 4 | [templateflow/tpl-ILABSInfant](https://github.com/templateflow/tpl-ILABSInfant) | 0 | :heavy_check_mark: |  |  | 2019-02-22 10:52:37+00:00 |
 | 5 | [templateflow/tpl-MNI152Lin](https://github.com/templateflow/tpl-MNI152Lin) | 1 | :heavy_check_mark: |  |  | 2025-11-12 18:56:31+00:00 |
@@ -31,7 +31,7 @@
 | 28 | [templateflow/tpl-dhcpAsym](https://github.com/templateflow/tpl-dhcpAsym) | 0 | :heavy_check_mark: |  |  | 2025-11-12 17:49:50+00:00 |
 | 29 | [templateflow/tpl-dhcpSym](https://github.com/templateflow/tpl-dhcpSym) | 0 | :heavy_check_mark: |  |  | 2024-02-13 14:03:33+00:00 |
 | 30 | [templateflow/tpl-dhcpVol](https://github.com/templateflow/tpl-dhcpVol) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-02-14 21:24:45+00:00 |
-| 31 | [templateflow/tpl-fsLR](https://github.com/templateflow/tpl-fsLR) | 0 | :heavy_check_mark: |  |  | 2022-04-15 08:23:13+00:00 |
+| 31 | [templateflow/tpl-fsLR](https://github.com/templateflow/tpl-fsLR) | 1 | :heavy_check_mark: |  |  | 2022-04-15 08:23:13+00:00 |
 | 32 | [templateflow/tpl-fsaverage](https://github.com/templateflow/tpl-fsaverage) | 0 | :heavy_check_mark: |  |  | 2024-04-15 09:10:29+00:00 |
 | 33 | [templateflow/tpl-onavg](https://github.com/templateflow/tpl-onavg) | 8 | :heavy_check_mark: |  |  | 2025-11-13 19:51:48+00:00 |
 
