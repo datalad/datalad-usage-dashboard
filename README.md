@@ -3,7 +3,7 @@
 This file is automatically updated using GitHub Actions workflows. It lists Git repositories discovered on GitHub and other hosts that either are [DataLad](https://www.datalad.org) datasets or else had `datalad run` used on them. Furthermore, the [`datalad-repos.json`](./datalad-repos.json) file in this repository is used by https://registry.datalad.org/ to provide up-to-date metadata for these repositories and support metadata-based searches.
 
 # Summary
-- [GitHub](#github): [4656](#in-the-wild) in the wild + [6555](#inner-circle) inner-circle + [219](#gone) gone
+- [GitHub](#github): [4669](#in-the-wild) in the wild + [6555](#inner-circle) inner-circle + [219](#gone) gone
 - [OSF](#osf): [196](#active) active + [83](#gone-1) gone
 - [GIN](#gin): [955](#active-1) active + [13](#gone-2) gone
 - [hub.datalad.org](#hubdataladorg): [4626](#active-2) active + [1](#gone-3) gone
@@ -11,7 +11,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # GitHub
 ## In the wild
-| # | Repository (4656) | Stars (1015644) | Dataset (3606) | `run` (1354) | `containers-run` (33) | Last Modified |
+| # | Repository (4669) | Stars (1015644) | Dataset (3607) | `run` (1366) | `containers-run` (33) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [1104HARI/*](https://github.com/1104HARI) [(2)](READMEs/1104HARI.md) | [0](READMEs/1104HARI.md) |  | [:heavy_check_mark: (2)](READMEs/1104HARI.md) |  | 2023-12-06 09:12:59+00:00 |
 | 2 | [12Rameshwar/Open-AI](https://github.com/12Rameshwar/Open-AI) | 0 |  | :heavy_check_mark: |  | 2025-08-18 14:26:30+00:00 |
@@ -210,11 +210,11 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 195 | [OleBialas/*](https://github.com/OleBialas) [(5)](READMEs/OleBialas.md) | [3](READMEs/OleBialas.md) | [:heavy_check_mark: (1)](READMEs/OleBialas.md) | [:heavy_check_mark: (4)](READMEs/OleBialas.md) |  | 2025-04-04 09:23:53+00:00 |
 | 196 | [OluwadamilareSunmola/HackUTD2025](https://github.com/OluwadamilareSunmola/HackUTD2025) | 0 |  | :heavy_check_mark: |  | 2025-11-08 21:11:52+00:00 |
 | 197 | [OpenNeuroDatasets-JSONLD/*](https://github.com/OpenNeuroDatasets-JSONLD) [(414)](READMEs/OpenNeuroDatasets-JSONLD.md) | [0](READMEs/OpenNeuroDatasets-JSONLD.md) | [:heavy_check_mark: (414)](READMEs/OpenNeuroDatasets-JSONLD.md) |  |  | 2025-11-19 02:22:50+00:00 |
-| 198 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(1634)](READMEs/OpenNeuroDatasets.md) | [435](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1634)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (3)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1)](READMEs/OpenNeuroDatasets.md) | 2026-03-19 11:06:41+00:00 |
+| 198 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(1635)](READMEs/OpenNeuroDatasets.md) | [435](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1635)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (3)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1)](READMEs/OpenNeuroDatasets.md) | 2026-03-21 23:16:26+00:00 |
 | 199 | [OpenNeuroDerivatives/*](https://github.com/OpenNeuroDerivatives) [(471)](READMEs/OpenNeuroDerivatives.md) | [10](READMEs/OpenNeuroDerivatives.md) | [:heavy_check_mark: (471)](READMEs/OpenNeuroDerivatives.md) |  |  | 2026-03-03 18:15:23+00:00 |
 | 200 | [OpenNeuroDev/*](https://github.com/OpenNeuroDev) [(15)](READMEs/OpenNeuroDev.md) | [0](READMEs/OpenNeuroDev.md) | [:heavy_check_mark: (15)](READMEs/OpenNeuroDev.md) |  |  | 2020-09-22 21:50:48+00:00 |
 | 201 | [OpenNeuroOrg/openneuro](https://github.com/OpenNeuroOrg/openneuro) | 140 |  | :heavy_check_mark: |  | 2026-03-14 06:07:53+00:00 |
-| 202 | [OpenNeuroStudies/*](https://github.com/OpenNeuroStudies) [(3)](READMEs/OpenNeuroStudies.md) | [2](READMEs/OpenNeuroStudies.md) |  | [:heavy_check_mark: (3)](READMEs/OpenNeuroStudies.md) |  | 2026-03-10 15:31:02+00:00 |
+| 202 | [OpenNeuroStudies/*](https://github.com/OpenNeuroStudies) [(15)](READMEs/OpenNeuroStudies.md) | [2](READMEs/OpenNeuroStudies.md) |  | [:heavy_check_mark: (15)](READMEs/OpenNeuroStudies.md) |  | 2026-03-21 13:25:45+00:00 |
 | 203 | [OpenSourceBrain/DANDIArchiveShowcase](https://github.com/OpenSourceBrain/DANDIArchiveShowcase) | 3 |  | :heavy_check_mark: |  | 2025-05-07 10:33:38+00:00 |
 | 204 | [OziumPutares/*](https://github.com/OziumPutares) [(2)](READMEs/OziumPutares.md) | [0](READMEs/OziumPutares.md) |  | [:heavy_check_mark: (2)](READMEs/OziumPutares.md) |  | 2025-07-17 07:16:27+00:00 |
 | 205 | [PASTA-ELN/pasta-eln](https://github.com/PASTA-ELN/pasta-eln) | 8 |  | :heavy_check_mark: |  | 2026-03-10 13:43:11+00:00 |
@@ -972,7 +972,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 4 | [con/*](https://github.com/con) [(20)](READMEs/con.md) | [96](READMEs/con.md) | [:heavy_check_mark: (2)](READMEs/con.md) | [:heavy_check_mark: (20)](READMEs/con.md) |  | 2026-03-18 17:14:15+00:00 |
 | 5 | [dandi-containers/pynwb-mpi](https://github.com/dandi-containers/pynwb-mpi) | 0 |  | :heavy_check_mark: |  | 2019-10-20 21:58:30+00:00 |
 | 6 | [dandi/*](https://github.com/dandi) [(25)](READMEs/dandi.md) | [108](READMEs/dandi.md) | [:heavy_check_mark: (5)](READMEs/dandi.md) | [:heavy_check_mark: (23)](READMEs/dandi.md) |  | 2026-03-16 00:37:09+00:00 |
-| 7 | [dandisets/*](https://github.com/dandisets) [(809)](READMEs/dandisets.md) | [16](READMEs/dandisets.md) | [:heavy_check_mark: (809)](READMEs/dandisets.md) | [:heavy_check_mark: (1)](READMEs/dandisets.md) |  | 2026-03-20 00:12:44+00:00 |
+| 7 | [dandisets/*](https://github.com/dandisets) [(809)](READMEs/dandisets.md) | [16](READMEs/dandisets.md) | [:heavy_check_mark: (809)](READMEs/dandisets.md) | [:heavy_check_mark: (1)](READMEs/dandisets.md) |  | 2026-03-20 18:04:12+00:00 |
 | 8 | [dandizarrs/*](https://github.com/dandizarrs) [(5420)](READMEs/dandizarrs.md) | [7](READMEs/dandizarrs.md) | [:heavy_check_mark: (5420)](READMEs/dandizarrs.md) |  |  | 2026-03-20 15:12:21+00:00 |
 | 9 | [datalad-collection-1/*](https://github.com/datalad-collection-1) [(6)](READMEs/datalad-collection-1.md) | [1](READMEs/datalad-collection-1.md) | [:heavy_check_mark: (6)](READMEs/datalad-collection-1.md) |  |  | 2018-12-04 19:09:16+00:00 |
 | 10 | [datalad-datasets/*](https://github.com/datalad-datasets) [(19)](READMEs/datalad-datasets.md) | [222](READMEs/datalad-datasets.md) | [:heavy_check_mark: (19)](READMEs/datalad-datasets.md) | [:heavy_check_mark: (13)](READMEs/datalad-datasets.md) |  | 2024-08-27 11:28:54+00:00 |
