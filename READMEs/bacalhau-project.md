@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (1) | Stars (851) | Dataset | `run` (1) | `containers-run` | Last Modified |
+| # | Repository (1) | Stars (853) | Dataset | `run` (1) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [bacalhau-project/bacalhau](https://github.com/bacalhau-project/bacalhau) | 851 |  | :heavy_check_mark: |  | 2026-03-14 05:26:19+00:00 |
+| 1 | [bacalhau-project/bacalhau](https://github.com/bacalhau-project/bacalhau) | 853 |  | :heavy_check_mark: |  | 2026-03-26 18:56:32+00:00 |
 
 ## Gone
 | # | Repository (1) | Stars (7) | Dataset | `run` (1) | `containers-run` | Last Modified |
