@@ -4,7 +4,7 @@
 | 1 | [pni-data/BEP035_example](https://github.com/pni-data/BEP035_example) | 0 | :heavy_check_mark: |  |  | 2022-08-29 18:21:40+00:00 |
 | 2 | [pni-data/CAP_MRI](https://github.com/pni-data/CAP_MRI) | 0 | :heavy_check_mark: |  |  | 2023-04-07 20:03:12+00:00 |
 | 3 | [pni-data/IXI](https://github.com/pni-data/IXI) | 0 | :heavy_check_mark: |  |  | 2022-08-26 14:01:51+00:00 |
-| 4 | [pni-data/TRR289_A01](https://github.com/pni-data/TRR289_A01) | 0 | :heavy_check_mark: |  |  | 2025-10-06 18:42:24+00:00 |
+| 4 | [pni-data/TRR289_A01](https://github.com/pni-data/TRR289_A01) | 0 | :heavy_check_mark: |  |  | 2026-03-23 15:42:57+00:00 |
 | 5 | [pni-data/TRR289_A02](https://github.com/pni-data/TRR289_A02) | 0 | :heavy_check_mark: |  |  | 2024-02-22 09:34:40+00:00 |
 | 6 | [pni-data/TRR289_A04](https://github.com/pni-data/TRR289_A04) | 1 | :heavy_check_mark: |  |  | 2025-11-25 12:49:30+00:00 |
 | 7 | [pni-data/TRR289_A06](https://github.com/pni-data/TRR289_A06) | 2 | :heavy_check_mark: |  |  | 2025-12-04 09:51:15+00:00 |
