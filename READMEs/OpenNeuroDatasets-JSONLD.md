@@ -372,7 +372,7 @@
 | 369 | [OpenNeuroDatasets-JSONLD/ds004091](https://github.com/OpenNeuroDatasets-JSONLD/ds004091) | 0 | :heavy_check_mark: |  |  | 2025-10-15 13:07:58+00:00 |
 | 370 | [OpenNeuroDatasets-JSONLD/ds004103](https://github.com/OpenNeuroDatasets-JSONLD/ds004103) | 0 | :heavy_check_mark: |  |  | 2025-06-22 02:31:34+00:00 |
 | 371 | [OpenNeuroDatasets-JSONLD/ds004141](https://github.com/OpenNeuroDatasets-JSONLD/ds004141) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:55:56+00:00 |
-| 372 | [OpenNeuroDatasets-JSONLD/ds004158](https://github.com/OpenNeuroDatasets-JSONLD/ds004158) | 0 | :heavy_check_mark: |  |  | 2025-10-08 02:05:50+00:00 |
+| 372 | [OpenNeuroDatasets-JSONLD/ds004158](https://github.com/OpenNeuroDatasets-JSONLD/ds004158) | 0 | :heavy_check_mark: |  |  | 2026-03-31 03:35:34+00:00 |
 | 373 | [OpenNeuroDatasets-JSONLD/ds004173](https://github.com/OpenNeuroDatasets-JSONLD/ds004173) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:53:29+00:00 |
 | 374 | [OpenNeuroDatasets-JSONLD/ds004192](https://github.com/OpenNeuroDatasets-JSONLD/ds004192) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:53:26+00:00 |
 | 375 | [OpenNeuroDatasets-JSONLD/ds004194](https://github.com/OpenNeuroDatasets-JSONLD/ds004194) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:53:22+00:00 |
@@ -395,7 +395,7 @@
 | 392 | [OpenNeuroDatasets-JSONLD/ds004339](https://github.com/OpenNeuroDatasets-JSONLD/ds004339) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:52:28+00:00 |
 | 393 | [OpenNeuroDatasets-JSONLD/ds004346](https://github.com/OpenNeuroDatasets-JSONLD/ds004346) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:52:24+00:00 |
 | 394 | [OpenNeuroDatasets-JSONLD/ds004349](https://github.com/OpenNeuroDatasets-JSONLD/ds004349) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:52:21+00:00 |
-| 395 | [OpenNeuroDatasets-JSONLD/ds004392](https://github.com/OpenNeuroDatasets-JSONLD/ds004392) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:52:17+00:00 |
+| 395 | [OpenNeuroDatasets-JSONLD/ds004392](https://github.com/OpenNeuroDatasets-JSONLD/ds004392) | 0 | :heavy_check_mark: |  |  | 2026-03-31 03:42:41+00:00 |
 | 396 | [OpenNeuroDatasets-JSONLD/ds004393](https://github.com/OpenNeuroDatasets-JSONLD/ds004393) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:52:14+00:00 |
 | 397 | [OpenNeuroDatasets-JSONLD/ds004400](https://github.com/OpenNeuroDatasets-JSONLD/ds004400) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:52:10+00:00 |
 | 398 | [OpenNeuroDatasets-JSONLD/ds004401](https://github.com/OpenNeuroDatasets-JSONLD/ds004401) | 0 | :heavy_check_mark: |  |  | 2025-09-19 01:52:07+00:00 |
