@@ -503,7 +503,7 @@
 | 500 | [dandisets/001131](https://github.com/dandisets/001131) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:18:12+00:00 |
 | 501 | [dandisets/001132](https://github.com/dandisets/001132) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:18:13+00:00 |
 | 502 | [dandisets/001133](https://github.com/dandisets/001133) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:18:13+00:00 |
-| 503 | [dandisets/001169](https://github.com/dandisets/001169) | 0 | :heavy_check_mark: |  |  | 2025-09-25 16:04:59+00:00 |
+| 503 | [dandisets/001169](https://github.com/dandisets/001169) | 0 | :heavy_check_mark: |  |  | 2026-04-07 11:05:03+00:00 |
 | 504 | [dandisets/001170](https://github.com/dandisets/001170) | 0 | :heavy_check_mark: |  |  | 2025-11-11 16:04:05+00:00 |
 | 505 | [dandisets/001171](https://github.com/dandisets/001171) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:18:18+00:00 |
 | 506 | [dandisets/001172](https://github.com/dandisets/001172) | 0 | :heavy_check_mark: |  |  | 2026-02-12 23:06:12+00:00 |
