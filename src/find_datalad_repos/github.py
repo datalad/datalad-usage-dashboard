@@ -5,7 +5,7 @@ import heapq
 from operator import attrgetter
 from time import sleep
 from typing import Any
-from ghreq import Client, PrettyHTTPError
+from ghreq import Client, PrettyHTTPError, RetryConfig
 from pydantic import BaseModel, Field
 import requests
 from .core import RepoHost, Searcher, Updater
@@ -26,6 +26,26 @@ INTER_SEARCH_DELAY = 10
 
 # How long to wait after triggering abuse detection
 POST_ABUSE_DELAY = 45
+
+# GitHub's search API intermittently returns 404 / 408 for otherwise valid
+# queries (see datalad/datalad-usage-dashboard#70).  We retry a few times
+# with exponential backoff before giving up on the page.
+SEARCH_FLAKY_STATUSES = frozenset({404, 408})
+SEARCH_FLAKY_MAX_RETRIES = 3
+SEARCH_FLAKY_BASE_DELAY = 30  # seconds; doubled on each retry
+
+# Tuned RetryConfig for ghreq.  GitHub's guidance for secondary rate limits
+# is to wait at least 60 s; the ghreq defaults back off too aggressively
+# (backoff_factor=1.0, base=1.25 -> ~7 s max between retries) and exhaust
+# the 10-attempt budget in well under a minute.  Wait longer and give more
+# total time for the limit to clear.
+RETRY_CONFIG = RetryConfig(
+    retries=10,
+    backoff_factor=5.0,
+    backoff_base=2.0,
+    backoff_max=120.0,
+    total_wait=900.0,
+)
 
 
 class SearchResult(BaseModel):
@@ -104,7 +124,7 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
         known_repos: list[dict] | None = None,
         orgs_config: GitHubOrgsConfig | None = None,
     ) -> None:
-        super().__init__(token=token, user_agent=USER_AGENT)
+        super().__init__(token=token, user_agent=USER_AGENT, retry_config=RETRY_CONFIG)
         self.excluded_orgs = excluded_orgs or []
         self.known_repos = known_repos
         self.orgs_config = orgs_config or GitHubOrgsConfig()
@@ -116,21 +136,41 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
             "per_page": "100",  # default is 30.
         }
         while url is not None:
-            try:
-                r = self.get(url, params=params, raw=True)
-            except PrettyHTTPError as e:
-                if (
-                    e.response is not None
-                    and e.response.status_code == 403
-                    and "abuse detection" in e.response.text
-                ):
-                    log.warning(
-                        "Abuse detection triggered; sleeping for %s seconds",
-                        POST_ABUSE_DELAY,
-                    )
-                    sleep(POST_ABUSE_DELAY)
-                    continue
-                else:
+            flaky_attempts = 0
+            while True:
+                try:
+                    r = self.get(url, params=params, raw=True)
+                    break
+                except PrettyHTTPError as e:
+                    status = e.response.status_code if e.response is not None else None
+                    if (
+                        status == 403
+                        and e.response is not None
+                        and "abuse detection" in e.response.text
+                    ):
+                        log.warning(
+                            "Abuse detection triggered; sleeping for %s" " seconds",
+                            POST_ABUSE_DELAY,
+                        )
+                        sleep(POST_ABUSE_DELAY)
+                        continue
+                    if (
+                        status in SEARCH_FLAKY_STATUSES
+                        and flaky_attempts < SEARCH_FLAKY_MAX_RETRIES
+                    ):
+                        flaky_attempts += 1
+                        delay = SEARCH_FLAKY_BASE_DELAY * (2 ** (flaky_attempts - 1))
+                        log.warning(
+                            "GitHub search returned %d for %s; flaky retry"
+                            " %d/%d after %d s",
+                            status,
+                            url,
+                            flaky_attempts,
+                            SEARCH_FLAKY_MAX_RETRIES,
+                            delay,
+                        )
+                        sleep(delay)
+                        continue
                     raise
             data = r.json()
             if data["incomplete_results"]:
@@ -364,10 +404,12 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
         log.info(f"Phase 1: Global search (excluding {len(excluded_orgs)} orgs)")
         if exclusions:
             datasets.update(self.search_dataset_repos_with_exclusions(exclusions))
+            sleep(INTER_SEARCH_DELAY)
             for repo, container_run in self.search_runcmds_with_exclusions(exclusions):
                 runcmds[repo] = container_run or runcmds.get(repo, False)
         else:
             datasets.update(self.search_dataset_repos())
+            sleep(INTER_SEARCH_DELAY)
             for repo, container_run in self.search_runcmds():
                 runcmds[repo] = container_run or runcmds.get(repo, False)
 
@@ -378,6 +420,7 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
 
         # Phase 2a: Organization-specific search (with auto-fallback)
         for org in org_search_orgs:
+            sleep(INTER_SEARCH_DELAY)
             log.info(f"Phase 2a: Searching organization {org}")
             org_datasets = list(self.search_dataset_repos_in_org(org))
 
@@ -402,6 +445,7 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
             datasets.update(org_datasets)
 
             # Also search for RUNCMD commits
+            sleep(INTER_SEARCH_DELAY)
             for repo, container_run in self.search_runcmds_in_org(org):
                 runcmds[repo] = container_run or runcmds.get(repo, False)
 
@@ -409,6 +453,7 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
 
         # Phase 2b: Organization traversal (always enumerate)
         for org in org_traverse_orgs:
+            sleep(INTER_SEARCH_DELAY)
             log.info(f"Phase 2b: Traversing organization {org}")
             org_datasets = list(self.traverse_org_repositories(org, self.known_repos))
             datasets.update(org_datasets)
