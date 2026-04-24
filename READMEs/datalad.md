@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (49) | Stars (840) | Dataset (26) | `run` (28) | `containers-run` | Last Modified |
+| # | Repository (49) | Stars (840) | Dataset (26) | `run` (29) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  | 2024-08-08 09:09:32+00:00 |
 | 2 | [datalad/datalad](https://github.com/datalad/datalad) | 634 |  | :heavy_check_mark: |  | 2026-04-15 15:58:06+00:00 |
@@ -35,7 +35,7 @@
 | 32 | [datalad/hcp-100307-test](https://github.com/datalad/hcp-100307-test) | 1 | :heavy_check_mark: |  |  | 2017-11-29 14:33:44+00:00 |
 | 33 | [datalad/metalad-demo](https://github.com/datalad/metalad-demo) | 0 | :heavy_check_mark: |  |  | 2023-01-30 14:55:28+00:00 |
 | 34 | [datalad/ohbm-booth](https://github.com/datalad/ohbm-booth) | 0 | :heavy_check_mark: |  |  | 2020-06-22 21:54:46+00:00 |
-| 35 | [datalad/packages](https://github.com/datalad/packages) | 0 | :heavy_check_mark: |  |  | 2020-10-25 15:09:21+00:00 |
+| 35 | [datalad/packages](https://github.com/datalad/packages) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2020-10-25 15:09:21+00:00 |
 | 36 | [datalad/ria-tools](https://github.com/datalad/ria-tools) | 1 | :heavy_check_mark: |  |  | 2021-04-21 13:42:23+00:00 |
 | 37 | [datalad/screencaster](https://github.com/datalad/screencaster) | 0 |  | :heavy_check_mark: |  | 2026-02-18 02:23:18+00:00 |
 | 38 | [datalad/talk-2019-mila](https://github.com/datalad/talk-2019-mila) | 3 | :heavy_check_mark: |  |  | 2019-03-28 13:36:31+00:00 |
