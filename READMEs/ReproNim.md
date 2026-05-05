@@ -27,7 +27,7 @@
 | 24 | [ReproNim/reproman](https://github.com/ReproNim/reproman) | 24 |  | :heavy_check_mark: |  | 2026-04-16 13:19:29+00:00 |
 | 25 | [ReproNim/repromon](https://github.com/ReproNim/repromon) | 0 |  | :heavy_check_mark: |  | 2024-04-17 11:21:48+00:00 |
 | 26 | [ReproNim/repronim.github.io](https://github.com/ReproNim/repronim.github.io) | 3 |  | :heavy_check_mark: |  | 2025-08-13 14:29:12+00:00 |
-| 27 | [ReproNim/repronim.org](https://github.com/ReproNim/repronim.org) | 0 |  | :heavy_check_mark: |  | 2026-04-13 14:51:29+00:00 |
+| 27 | [ReproNim/repronim.org](https://github.com/ReproNim/repronim.org) | 0 |  | :heavy_check_mark: |  | 2026-05-03 20:25:07+00:00 |
 | 28 | [ReproNim/reproschema-ui](https://github.com/ReproNim/reproschema-ui) | 3 |  | :heavy_check_mark: |  | 2025-08-25 19:00:24+00:00 |
 | 29 | [ReproNim/reprostim](https://github.com/ReproNim/reprostim) | 8 |  | :heavy_check_mark: |  | 2026-04-28 04:54:39+00:00 |
 | 30 | [ReproNim/reprostim-sessions](https://github.com/ReproNim/reprostim-sessions) | 0 | :heavy_check_mark: |  |  | 2023-03-09 15:02:51+00:00 |
