@@ -4,7 +4,7 @@
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  | 2026-02-28 01:26:32+00:00 |
 | 2 | [con/annextube](https://github.com/con/annextube) | 1 |  | :heavy_check_mark: |  | 2026-04-10 17:18:43+00:00 |
 | 3 | [con/catenate](https://github.com/con/catenate) | 2 |  | :heavy_check_mark: |  | 2026-05-08 17:44:32+00:00 |
-| 4 | [con/centerforopenneuroscience.org](https://github.com/con/centerforopenneuroscience.org) | 4 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-03-11 20:18:01+00:00 |
+| 4 | [con/centerforopenneuroscience.org](https://github.com/con/centerforopenneuroscience.org) | 4 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-05-09 16:45:49+00:00 |
 | 5 | [con/citations-collector](https://github.com/con/citations-collector) | 2 |  | :heavy_check_mark: |  | 2026-04-13 17:53:17+00:00 |
 | 6 | [con/demos](https://github.com/con/demos) | 0 |  | :heavy_check_mark: |  | 2025-11-17 20:33:51+00:00 |
 | 7 | [con/duct](https://github.com/con/duct) | 10 |  | :heavy_check_mark: |  | 2026-04-27 19:41:38+00:00 |
