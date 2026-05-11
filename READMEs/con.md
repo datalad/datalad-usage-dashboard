@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (20) | Stars (97) | Dataset (2) | `run` (20) | `containers-run` | Last Modified |
+| # | Repository (21) | Stars (108) | Dataset (2) | `run` (21) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  | 2026-02-28 01:26:32+00:00 |
 | 2 | [con/annextube](https://github.com/con/annextube) | 1 |  | :heavy_check_mark: |  | 2026-04-10 17:18:43+00:00 |
@@ -7,7 +7,7 @@
 | 4 | [con/centerforopenneuroscience.org](https://github.com/con/centerforopenneuroscience.org) | 4 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-05-09 16:45:49+00:00 |
 | 5 | [con/citations-collector](https://github.com/con/citations-collector) | 2 |  | :heavy_check_mark: |  | 2026-04-13 17:53:17+00:00 |
 | 6 | [con/demos](https://github.com/con/demos) | 0 |  | :heavy_check_mark: |  | 2025-11-17 20:33:51+00:00 |
-| 7 | [con/duct](https://github.com/con/duct) | 10 |  | :heavy_check_mark: |  | 2026-04-27 19:41:38+00:00 |
+| 7 | [con/duct](https://github.com/con/duct) | 10 |  | :heavy_check_mark: |  | 2026-05-05 12:53:22+00:00 |
 | 8 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-04-25 17:10:50+00:00 |
 | 9 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2025-11-24 01:02:55+00:00 |
 | 10 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
@@ -21,6 +21,7 @@
 | 18 | [con/tributors](https://github.com/con/tributors) | 14 |  | :heavy_check_mark: |  | 2025-05-14 15:25:41+00:00 |
 | 19 | [con/try-aind-1](https://github.com/con/try-aind-1) | 0 |  | :heavy_check_mark: |  | 2025-11-13 21:10:33+00:00 |
 | 20 | [con/visidata-demos](https://github.com/con/visidata-demos) | 0 |  | :heavy_check_mark: |  | 2026-03-24 14:55:13+00:00 |
+| 21 | [con/yolo](https://github.com/con/yolo) | 11 |  | :heavy_check_mark: |  | 2026-05-10 12:55:13+00:00 |
 
 ## Gone
 No repositories found!
