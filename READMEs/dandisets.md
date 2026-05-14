@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (825) | Stars (15) | Dataset (825) | `run` (1) | `containers-run` | Last Modified |
+| # | Repository (828) | Stars (15) | Dataset (828) | `run` (1) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [dandisets/000003](https://github.com/dandisets/000003) | 0 | :heavy_check_mark: |  |  | 2026-02-18 21:02:32+00:00 |
 | 2 | [dandisets/000004](https://github.com/dandisets/000004) | 0 | :heavy_check_mark: |  |  | 2026-01-14 21:02:19+00:00 |
@@ -823,9 +823,12 @@
 | 820 | [dandisets/001838](https://github.com/dandisets/001838) | 0 | :heavy_check_mark: |  |  | 2026-05-11 22:05:25+00:00 |
 | 821 | [dandisets/001839](https://github.com/dandisets/001839) | 0 | :heavy_check_mark: |  |  | 2026-05-13 00:03:57+00:00 |
 | 822 | [dandisets/001840](https://github.com/dandisets/001840) | 0 | :heavy_check_mark: |  |  | 2026-05-13 07:04:36+00:00 |
-| 823 | [dandisets/SenzaiNeuron2017](https://github.com/dandisets/SenzaiNeuron2017) | 0 | :heavy_check_mark: |  |  | 2019-10-09 00:39:38+00:00 |
-| 824 | [dandisets/najafi-2018-nwb](https://github.com/dandisets/najafi-2018-nwb) | 0 | :heavy_check_mark: |  |  | 2019-09-27 20:29:19+00:00 |
-| 825 | [dandisets/nwb_test_data](https://github.com/dandisets/nwb_test_data) | 0 | :heavy_check_mark: |  |  | 2019-10-09 00:35:08+00:00 |
+| 823 | [dandisets/001841](https://github.com/dandisets/001841) | 0 | :heavy_check_mark: |  |  | 2026-05-13 16:04:54+00:00 |
+| 824 | [dandisets/001842](https://github.com/dandisets/001842) | 0 | :heavy_check_mark: |  |  | 2026-05-13 17:04:22+00:00 |
+| 825 | [dandisets/001843](https://github.com/dandisets/001843) | 0 | :heavy_check_mark: |  |  | 2026-05-13 21:04:40+00:00 |
+| 826 | [dandisets/SenzaiNeuron2017](https://github.com/dandisets/SenzaiNeuron2017) | 0 | :heavy_check_mark: |  |  | 2019-10-09 00:39:38+00:00 |
+| 827 | [dandisets/najafi-2018-nwb](https://github.com/dandisets/najafi-2018-nwb) | 0 | :heavy_check_mark: |  |  | 2019-09-27 20:29:19+00:00 |
+| 828 | [dandisets/nwb_test_data](https://github.com/dandisets/nwb_test_data) | 0 | :heavy_check_mark: |  |  | 2019-10-09 00:35:08+00:00 |
 
 ## Gone
 | # | Repository (18) | Stars (1) | Dataset (18) | `run` | `containers-run` | Last Modified |
