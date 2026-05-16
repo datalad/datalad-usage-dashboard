@@ -1677,7 +1677,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 10 | [m-wierzba/*](https://hub.datalad.org/m-wierzba) [(4)](READMEs/hub-datalad-org/m-wierzba.md) | [0](READMEs/hub-datalad-org/m-wierzba.md) | 2025-10-19 10:25:40+00:00 |
 | 11 | [mih/p2phttp-test](https://hub.datalad.org/mih/p2phttp-test) | 0 | 2025-09-12 13:07:22+00:00 |
 | 12 | [mslw/*](https://hub.datalad.org/mslw) [(5)](READMEs/hub-datalad-org/mslw.md) | [0](READMEs/hub-datalad-org/mslw.md) | 2025-09-12 14:27:27+00:00 |
-| 13 | [naturalistic-imaging/*](https://hub.datalad.org/naturalistic-imaging) [(27)](READMEs/hub-datalad-org/naturalistic-imaging.md) | [0](READMEs/hub-datalad-org/naturalistic-imaging.md) | 2026-04-16 20:20:27+00:00 |
+| 13 | [naturalistic-imaging/*](https://hub.datalad.org/naturalistic-imaging) [(27)](READMEs/hub-datalad-org/naturalistic-imaging.md) | [0](READMEs/hub-datalad-org/naturalistic-imaging.md) | 2026-05-12 15:33:56+00:00 |
 | 14 | [openneuro/ds000001](https://hub.datalad.org/openneuro/ds000001) | 0 | 2025-09-12 13:07:22+00:00 |
 | 15 | [studyforrest/*](https://hub.datalad.org/studyforrest) [(3)](READMEs/hub-datalad-org/studyforrest.md) | [0](READMEs/hub-datalad-org/studyforrest.md) | 2025-09-12 13:07:20+00:00 |
 | 16 | [test-resources/*](https://hub.datalad.org/test-resources) [(4)](READMEs/hub-datalad-org/test-resources.md) | [0](READMEs/hub-datalad-org/test-resources.md) | 2025-09-12 13:07:18+00:00 |
@@ -1695,10 +1695,10 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | # | Repository (112) | Stars (1) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [CAIRT/*](https://atris.fz-juelich.de/CAIRT) [(6)](READMEs/atris/CAIRT.md) | [0](READMEs/atris/CAIRT.md) | 2026-01-13 10:49:56+00:00 |
-| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(89)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2026-05-09 11:42:00+00:00 |
+| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(89)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2026-05-16 11:20:06+00:00 |
 | 3 | [b.vogel/Southtrac-2019-CLaMS-results](https://atris.fz-juelich.de/b.vogel/Southtrac-2019-CLaMS-results) | 0 | 2024-07-22 16:41:23+00:00 |
 | 4 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(5)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2026-01-22 14:23:45+00:00 |
-| 5 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(9)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2026-04-26 09:26:14+00:00 |
+| 5 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(9)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2026-05-16 13:21:47+00:00 |
 | 6 | [p.konopka/clams_clim](https://atris.fz-juelich.de/p.konopka/clams_clim) | 0 | 2024-09-25 14:01:42+00:00 |
 | 7 | [yann.buechau/tutorials](https://atris.fz-juelich.de/yann.buechau/tutorials) | 0 | 2025-02-19 16:41:49+00:00 |
 
