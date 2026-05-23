@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (36) | Stars (98) | Dataset (25) | `run` (20) | `containers-run` (3) | Last Modified |
+| # | Repository (36) | Stars (99) | Dataset (25) | `run` (20) | `containers-run` (3) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [psychoinformatics-de/anima](https://github.com/psychoinformatics-de/anima) | 0 | :heavy_check_mark: |  |  | 2018-12-14 21:01:18+00:00 |
 | 2 | [psychoinformatics-de/datalad-concepts](https://github.com/psychoinformatics-de/datalad-concepts) | 8 |  | :heavy_check_mark: |  | 2026-03-26 15:22:39+00:00 |
@@ -17,7 +17,7 @@
 | 14 | [psychoinformatics-de/kdenlive-gource-ukbiobank](https://github.com/psychoinformatics-de/kdenlive-gource-ukbiobank) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-06-07 05:57:21+00:00 |
 | 15 | [psychoinformatics-de/knowledge-base](https://github.com/psychoinformatics-de/knowledge-base) | 0 |  | :heavy_check_mark: |  | 2024-12-13 12:52:39+00:00 |
 | 16 | [psychoinformatics-de/paper-remodnav](https://github.com/psychoinformatics-de/paper-remodnav) | 5 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2025-06-26 11:47:33+00:00 |
-| 17 | [psychoinformatics-de/rdm-course](https://github.com/psychoinformatics-de/rdm-course) | 10 |  | :heavy_check_mark: |  | 2024-12-07 20:17:44+00:00 |
+| 17 | [psychoinformatics-de/rdm-course](https://github.com/psychoinformatics-de/rdm-course) | 11 |  | :heavy_check_mark: |  | 2024-12-07 20:17:44+00:00 |
 | 18 | [psychoinformatics-de/rostami_etal_2024-reproducer](https://github.com/psychoinformatics-de/rostami_etal_2024-reproducer) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2024-05-29 09:16:35+00:00 |
 | 19 | [psychoinformatics-de/shacl-vue](https://github.com/psychoinformatics-de/shacl-vue) | 2 |  | :heavy_check_mark: |  | 2026-01-15 10:32:22+00:00 |
 | 20 | [psychoinformatics-de/studyforrest-data](https://github.com/psychoinformatics-de/studyforrest-data) | 10 | :heavy_check_mark: |  |  | 2025-06-09 19:00:19+00:00 |
