@@ -18,7 +18,7 @@
 | 15 | [courtois-neuromod/cneuromod.processed](https://github.com/courtois-neuromod/cneuromod.processed) | 2 | :heavy_check_mark: |  |  | 2026-05-12 15:34:01+00:00 |
 | 16 | [courtois-neuromod/cneuromod_extract_tseries](https://github.com/courtois-neuromod/cneuromod_extract_tseries) | 0 | :heavy_check_mark: |  |  | 2026-03-24 19:58:09+00:00 |
 | 17 | [courtois-neuromod/containers](https://github.com/courtois-neuromod/containers) | 0 | :heavy_check_mark: |  |  | 2026-03-12 14:23:37+00:00 |
-| 18 | [courtois-neuromod/dataset_comparison](https://github.com/courtois-neuromod/dataset_comparison) | 0 | :heavy_check_mark: |  |  | 2026-05-09 20:09:19+00:00 |
+| 18 | [courtois-neuromod/dataset_comparison](https://github.com/courtois-neuromod/dataset_comparison) | 0 | :heavy_check_mark: |  |  | 2026-05-25 20:13:15+00:00 |
 | 19 | [courtois-neuromod/dataset_test](https://github.com/courtois-neuromod/dataset_test) | 0 | :heavy_check_mark: |  |  | 2025-10-26 17:30:08+00:00 |
 | 20 | [courtois-neuromod/ds_prep](https://github.com/courtois-neuromod/ds_prep) | 5 | :heavy_check_mark: |  |  | 2026-04-07 20:54:42+00:00 |
 | 21 | [courtois-neuromod/emotion-videos](https://github.com/courtois-neuromod/emotion-videos) | 0 | :heavy_check_mark: |  |  | 2025-12-19 19:26:39+00:00 |

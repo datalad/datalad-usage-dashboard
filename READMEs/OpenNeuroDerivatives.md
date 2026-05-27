@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (473) | Stars (10) | Dataset (471) | `run` (2) | `containers-run` (2) | Last Modified |
+| # | Repository (479) | Stars (10) | Dataset (471) | `run` (8) | `containers-run` (8) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [OpenNeuroDerivatives/OpenNeuroDerivatives](https://github.com/OpenNeuroDerivatives/OpenNeuroDerivatives) | 2 | :heavy_check_mark: |  |  | 2026-05-14 18:32:31+00:00 |
 | 2 | [OpenNeuroDerivatives/ds000001-fmriprep](https://github.com/OpenNeuroDerivatives/ds000001-fmriprep) | 0 | :heavy_check_mark: |  |  | 2025-06-06 18:07:23+00:00 |
@@ -474,6 +474,12 @@
 | 471 | [OpenNeuroDerivatives/ds004873-mriqc](https://github.com/OpenNeuroDerivatives/ds004873-mriqc) | 0 | :heavy_check_mark: |  |  | 2025-07-23 05:08:53+00:00 |
 | 472 | [OpenNeuroDerivatives/ds005664-mriqc](https://github.com/OpenNeuroDerivatives/ds005664-mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-05-11 06:33:47+00:00 |
 | 473 | [OpenNeuroDerivatives/ds005699-mriqc](https://github.com/OpenNeuroDerivatives/ds005699-mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-05-11 06:24:08+00:00 |
+| 474 | [OpenNeuroDerivatives/ds005731-mriqc](https://github.com/OpenNeuroDerivatives/ds005731-mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-05-27 00:30:50+00:00 |
+| 475 | [OpenNeuroDerivatives/ds005978-mriqc](https://github.com/OpenNeuroDerivatives/ds005978-mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-05-26 23:09:03+00:00 |
+| 476 | [OpenNeuroDerivatives/ds006012-mriqc](https://github.com/OpenNeuroDerivatives/ds006012-mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-05-26 23:27:47+00:00 |
+| 477 | [OpenNeuroDerivatives/ds006035-mriqc](https://github.com/OpenNeuroDerivatives/ds006035-mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-05-26 23:43:44+00:00 |
+| 478 | [OpenNeuroDerivatives/ds006193-mriqc](https://github.com/OpenNeuroDerivatives/ds006193-mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-05-26 23:48:45+00:00 |
+| 479 | [OpenNeuroDerivatives/ds006206-mriqc](https://github.com/OpenNeuroDerivatives/ds006206-mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-05-26 23:57:23+00:00 |
 
 ## Gone
 No repositories found!
