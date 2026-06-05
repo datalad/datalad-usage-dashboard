@@ -1,11 +1,11 @@
 ## Active
-| # | Repository (17) | Stars (8) | Dataset (11) | `run` (8) | `containers-run` | Last Modified |
+| # | Repository (17) | Stars (8) | Dataset (13) | `run` (8) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproBrainChart/BHRC_BIDS](https://github.com/ReproBrainChart/BHRC_BIDS) | 0 | :heavy_check_mark: |  |  | 2024-05-30 22:40:30+00:00 |
-| 2 | [ReproBrainChart/BHRC_CPAC](https://github.com/ReproBrainChart/BHRC_CPAC) | 0 |  | :heavy_check_mark: |  | 2026-05-26 19:32:14+00:00 |
+| 2 | [ReproBrainChart/BHRC_CPAC](https://github.com/ReproBrainChart/BHRC_CPAC) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-05-26 19:32:14+00:00 |
 | 3 | [ReproBrainChart/BHRC_FreeSurfer](https://github.com/ReproBrainChart/BHRC_FreeSurfer) | 0 | :heavy_check_mark: |  |  | 2024-06-07 19:20:02+00:00 |
 | 4 | [ReproBrainChart/CCNP_BIDS](https://github.com/ReproBrainChart/CCNP_BIDS) | 1 | :heavy_check_mark: |  |  | 2024-06-17 20:38:19+00:00 |
-| 5 | [ReproBrainChart/CCNP_CPAC](https://github.com/ReproBrainChart/CCNP_CPAC) | 0 |  | :heavy_check_mark: |  | 2026-05-27 15:56:19+00:00 |
+| 5 | [ReproBrainChart/CCNP_CPAC](https://github.com/ReproBrainChart/CCNP_CPAC) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-05-27 15:56:19+00:00 |
 | 6 | [ReproBrainChart/CCNP_FreeSurfer](https://github.com/ReproBrainChart/CCNP_FreeSurfer) | 0 | :heavy_check_mark: |  |  | 2024-06-07 19:19:50+00:00 |
 | 7 | [ReproBrainChart/CCNP_XCP-D](https://github.com/ReproBrainChart/CCNP_XCP-D) | 0 |  | :heavy_check_mark: |  | 2026-05-27 01:05:33+00:00 |
 | 8 | [ReproBrainChart/HBN_BIDS](https://github.com/ReproBrainChart/HBN_BIDS) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-06-17 20:43:12+00:00 |
