@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (24) | Stars (139) | Dataset (2) | `run` (24) | `containers-run` | Last Modified |
+| # | Repository (24) | Stars (140) | Dataset (2) | `run` (24) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  | 2026-02-28 01:26:32+00:00 |
 | 2 | [con/annextube](https://github.com/con/annextube) | 2 |  | :heavy_check_mark: |  | 2026-04-10 17:18:43+00:00 |
@@ -10,7 +10,7 @@
 | 7 | [con/duct](https://github.com/con/duct) | 10 |  | :heavy_check_mark: |  | 2026-06-01 15:00:36+00:00 |
 | 8 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-04-25 17:10:50+00:00 |
 | 9 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2025-11-24 01:02:55+00:00 |
-| 10 | [con/git-annex](https://github.com/con/git-annex) | 28 |  | :heavy_check_mark: |  | 2026-05-20 14:30:19+00:00 |
+| 10 | [con/git-annex](https://github.com/con/git-annex) | 29 |  | :heavy_check_mark: |  | 2026-06-04 19:51:49+00:00 |
 | 11 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
 | 12 | [con/nwb2bids](https://github.com/con/nwb2bids) | 5 |  | :heavy_check_mark: |  | 2026-05-12 17:16:24+00:00 |
 | 13 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 45 |  | :heavy_check_mark: |  | 2026-05-14 14:01:49+00:00 |
