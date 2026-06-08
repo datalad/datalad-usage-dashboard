@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (87) | Stars (128) | Dataset (80) | `run` (22) | `containers-run` (19) | Last Modified |
+| # | Repository (87) | Stars (129) | Dataset (80) | `run` (22) | `containers-run` (19) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  | 2020-05-27 13:39:11+00:00 |
-| 2 | [courtois-neuromod/algonauts_2025.competitors](https://github.com/courtois-neuromod/algonauts_2025.competitors) | 62 | :heavy_check_mark: |  |  | 2025-09-08 14:53:55+00:00 |
+| 2 | [courtois-neuromod/algonauts_2025.competitors](https://github.com/courtois-neuromod/algonauts_2025.competitors) | 63 | :heavy_check_mark: |  |  | 2025-09-08 14:53:55+00:00 |
 | 3 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 2 | :heavy_check_mark: |  |  | 2026-01-08 17:06:19+00:00 |
 | 4 | [courtois-neuromod/anat.atlases](https://github.com/courtois-neuromod/anat.atlases) | 0 | :heavy_check_mark: |  |  | 2026-03-27 18:45:02+00:00 |
 | 5 | [courtois-neuromod/anat.freesurfer](https://github.com/courtois-neuromod/anat.freesurfer) | 0 | :heavy_check_mark: |  |  | 2026-01-08 17:06:26+00:00 |
