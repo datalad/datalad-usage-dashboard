@@ -1,7 +1,7 @@
 ## Active
 | # | Repository (2) | Stars (147) | Dataset | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [OpenNeuroOrg/dashboard](https://github.com/OpenNeuroOrg/dashboard) | 1 |  | :heavy_check_mark: |  | 2026-05-29 10:08:16+00:00 |
+| 1 | [OpenNeuroOrg/dashboard](https://github.com/OpenNeuroOrg/dashboard) | 1 |  | :heavy_check_mark: |  | 2026-06-10 10:16:42+00:00 |
 | 2 | [OpenNeuroOrg/openneuro](https://github.com/OpenNeuroOrg/openneuro) | 146 |  | :heavy_check_mark: |  | 2026-06-01 21:42:11+00:00 |
 
 ## Gone
