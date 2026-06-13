@@ -1,11 +1,11 @@
 ## Active
-| # | Repository (8) | Stars (1440) | Dataset | `run` (8) | `containers-run` | Last Modified |
+| # | Repository (8) | Stars (1442) | Dataset | `run` (8) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [nipreps/acres](https://github.com/nipreps/acres) | 0 |  | :heavy_check_mark: |  | 2026-06-02 19:11:53+00:00 |
 | 2 | [nipreps/fmriprep](https://github.com/nipreps/fmriprep) | 736 |  | :heavy_check_mark: |  | 2026-06-01 22:31:52+00:00 |
 | 3 | [nipreps/mriqc](https://github.com/nipreps/mriqc) | 364 |  | :heavy_check_mark: |  | 2026-01-28 10:40:24+00:00 |
 | 4 | [nipreps/nipreps.github.io](https://github.com/nipreps/nipreps.github.io) | 3 |  | :heavy_check_mark: |  | 2026-05-07 12:31:30+00:00 |
-| 5 | [nipreps/nireports](https://github.com/nipreps/nireports) | 11 |  | :heavy_check_mark: |  | 2026-05-28 05:13:12+00:00 |
+| 5 | [nipreps/nireports](https://github.com/nipreps/nireports) | 13 |  | :heavy_check_mark: |  | 2026-06-04 05:04:09+00:00 |
 | 6 | [nipreps/niworkflows](https://github.com/nipreps/niworkflows) | 115 |  | :heavy_check_mark: |  | 2026-06-01 22:31:54+00:00 |
 | 7 | [nipreps/sdcflows](https://github.com/nipreps/sdcflows) | 45 |  | :heavy_check_mark: |  | 2026-06-02 20:48:05+00:00 |
 | 8 | [nipreps/smriprep](https://github.com/nipreps/smriprep) | 166 |  | :heavy_check_mark: |  | 2026-06-01 22:32:02+00:00 |
