@@ -30,7 +30,7 @@ jobs:
         # No space between `-e` and `run` or tox gets confused.
         # Retry once after a long wait so transient GitHub search API
         # failures (404 / 408 / secondary rate limit) do not burn a day.
-        uses: nick-fields/retry@v3
+        uses: nick-fields/retry@v4
         with:
           timeout_minutes: 30
           max_attempts: 2
