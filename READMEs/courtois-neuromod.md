@@ -6,7 +6,7 @@
 | 3 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 2 | :heavy_check_mark: |  |  | 2026-01-08 17:06:19+00:00 |
 | 4 | [courtois-neuromod/anat.atlases](https://github.com/courtois-neuromod/anat.atlases) | 0 | :heavy_check_mark: |  |  | 2026-06-18 13:29:26+00:00 |
 | 5 | [courtois-neuromod/anat.freesurfer](https://github.com/courtois-neuromod/anat.freesurfer) | 0 | :heavy_check_mark: |  |  | 2026-01-08 17:06:26+00:00 |
-| 6 | [courtois-neuromod/anat.freesurfer_longitudinal](https://github.com/courtois-neuromod/anat.freesurfer_longitudinal) | 1 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-01-08 17:06:32+00:00 |
+| 6 | [courtois-neuromod/anat.freesurfer_longitudinal](https://github.com/courtois-neuromod/anat.freesurfer_longitudinal) | 1 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-06-18 13:29:41+00:00 |
 | 7 | [courtois-neuromod/anat.freesurfer_stats](https://github.com/courtois-neuromod/anat.freesurfer_stats) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2024-11-16 03:04:08+00:00 |
 | 8 | [courtois-neuromod/anat.pycortex](https://github.com/courtois-neuromod/anat.pycortex) | 0 | :heavy_check_mark: |  |  | 2026-06-18 13:29:48+00:00 |
 | 9 | [courtois-neuromod/anat.smriprep](https://github.com/courtois-neuromod/anat.smriprep) | 0 | :heavy_check_mark: |  |  | 2026-01-08 17:06:46+00:00 |
@@ -36,8 +36,8 @@
 | 33 | [courtois-neuromod/friends.stimuli](https://github.com/courtois-neuromod/friends.stimuli) | 2 | :heavy_check_mark: |  |  | 2024-12-28 19:18:11+00:00 |
 | 34 | [courtois-neuromod/friends_annotations](https://github.com/courtois-neuromod/friends_annotations) | 1 | :heavy_check_mark: |  |  | 2026-02-18 21:16:53+00:00 |
 | 35 | [courtois-neuromod/friends_nlp_reproducibility](https://github.com/courtois-neuromod/friends_nlp_reproducibility) | 0 | :heavy_check_mark: |  |  | 2022-07-20 19:47:18+00:00 |
-| 36 | [courtois-neuromod/gamepad](https://github.com/courtois-neuromod/gamepad) | 0 | :heavy_check_mark: |  |  | 2026-01-08 17:07:56+00:00 |
-| 37 | [courtois-neuromod/gamepad.fmriprep](https://github.com/courtois-neuromod/gamepad.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-05-12 14:50:03+00:00 |
+| 36 | [courtois-neuromod/gamepad](https://github.com/courtois-neuromod/gamepad) | 0 | :heavy_check_mark: |  |  | 2026-06-18 13:31:24+00:00 |
+| 37 | [courtois-neuromod/gamepad.fmriprep](https://github.com/courtois-neuromod/gamepad.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-06-18 13:31:29+00:00 |
 | 38 | [courtois-neuromod/gamepad.mriqc](https://github.com/courtois-neuromod/gamepad.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-06-15 17:15:44+00:00 |
 | 39 | [courtois-neuromod/harrypotter](https://github.com/courtois-neuromod/harrypotter) | 0 | :heavy_check_mark: |  |  | 2026-01-08 17:08:08+00:00 |
 | 40 | [courtois-neuromod/harrypotter.fmriprep](https://github.com/courtois-neuromod/harrypotter.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-05-12 14:50:10+00:00 |
