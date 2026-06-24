@@ -3,7 +3,7 @@
 This file is automatically updated using GitHub Actions workflows. It lists Git repositories discovered on GitHub and other hosts that either are [DataLad](https://www.datalad.org) datasets or else had `datalad run` used on them. Furthermore, the [`datalad-repos.json`](./datalad-repos.json) file in this repository is used by https://registry.datalad.org/ to provide up-to-date metadata for these repositories and support metadata-based searches.
 
 # Summary
-- [GitHub](#github): [5437](#in-the-wild) in the wild + [6630](#inner-circle) inner-circle + [251](#gone) gone
+- [GitHub](#github): [5498](#in-the-wild) in the wild + [6630](#inner-circle) inner-circle + [251](#gone) gone
 - [OSF](#osf): [199](#active) active + [83](#gone-1) gone
 - [GIN](#gin): [966](#active-1) active + [15](#gone-2) gone
 - [hub.datalad.org](#hubdataladorg): [4628](#active-2) active + [1](#gone-3) gone
@@ -11,7 +11,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # GitHub
 ## In the wild
-| # | Repository (5437) | Stars (1149440) | Dataset (4121) | `run` (1622) | `containers-run` (195) | Last Modified |
+| # | Repository (5498) | Stars (1149440) | Dataset (4182) | `run` (1622) | `containers-run` (195) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [1104HARI/*](https://github.com/1104HARI) [(2)](READMEs/1104HARI.md) | [0](READMEs/1104HARI.md) |  | [:heavy_check_mark: (2)](READMEs/1104HARI.md) |  | 2023-12-06 09:12:59+00:00 |
 | 2 | [12Rameshwar/Open-AI](https://github.com/12Rameshwar/Open-AI) | 0 |  | :heavy_check_mark: |  | 2025-08-18 14:26:30+00:00 |
@@ -221,7 +221,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 206 | [Oivan-coder/ollama-webui](https://github.com/Oivan-coder/ollama-webui) | 0 |  | :heavy_check_mark: |  | 2025-04-19 19:54:54+00:00 |
 | 207 | [OleBialas/*](https://github.com/OleBialas) [(5)](READMEs/OleBialas.md) | [3](READMEs/OleBialas.md) | [:heavy_check_mark: (1)](READMEs/OleBialas.md) | [:heavy_check_mark: (4)](READMEs/OleBialas.md) |  | 2025-04-04 09:23:53+00:00 |
 | 208 | [OpenNeuroDatasets-JSONLD/*](https://github.com/OpenNeuroDatasets-JSONLD) [(414)](READMEs/OpenNeuroDatasets-JSONLD.md) | [0](READMEs/OpenNeuroDatasets-JSONLD.md) | [:heavy_check_mark: (414)](READMEs/OpenNeuroDatasets-JSONLD.md) |  |  | 2026-05-29 16:13:16+00:00 |
-| 209 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(1753)](READMEs/OpenNeuroDatasets.md) | [487](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1753)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (3)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1)](READMEs/OpenNeuroDatasets.md) | 2026-06-19 21:10:33+00:00 |
+| 209 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(1755)](READMEs/OpenNeuroDatasets.md) | [487](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1755)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (3)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1)](READMEs/OpenNeuroDatasets.md) | 2026-06-23 21:37:17+00:00 |
 | 210 | [OpenNeuroDerivatives/*](https://github.com/OpenNeuroDerivatives) [(618)](READMEs/OpenNeuroDerivatives.md) | [10](READMEs/OpenNeuroDerivatives.md) | [:heavy_check_mark: (471)](READMEs/OpenNeuroDerivatives.md) | [:heavy_check_mark: (147)](READMEs/OpenNeuroDerivatives.md) | [:heavy_check_mark: (147)](READMEs/OpenNeuroDerivatives.md) | 2026-06-05 21:33:24+00:00 |
 | 211 | [OpenNeuroDev/*](https://github.com/OpenNeuroDev) [(15)](READMEs/OpenNeuroDev.md) | [0](READMEs/OpenNeuroDev.md) | [:heavy_check_mark: (15)](READMEs/OpenNeuroDev.md) |  |  | 2020-09-22 21:50:48+00:00 |
 | 212 | [OpenNeuroOrg/*](https://github.com/OpenNeuroOrg) [(2)](READMEs/OpenNeuroOrg.md) | [148](READMEs/OpenNeuroOrg.md) |  | [:heavy_check_mark: (2)](READMEs/OpenNeuroOrg.md) |  | 2026-06-22 12:20:26+00:00 |
@@ -750,7 +750,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 735 | [nbirnel/who-owns-the-housing](https://github.com/nbirnel/who-owns-the-housing) | 0 |  | :heavy_check_mark: |  | 2025-05-30 19:07:06+00:00 |
 | 736 | [nebius/soperator](https://github.com/nebius/soperator) | 394 |  | :heavy_check_mark: |  | 2026-06-16 16:27:52+00:00 |
 | 737 | [nektos/act](https://github.com/nektos/act) | 70835 |  | :heavy_check_mark: |  | 2026-06-01 03:30:25+00:00 |
-| 738 | [nemarDatasets/*](https://github.com/nemarDatasets) [(419)](READMEs/nemarDatasets.md) | [3](READMEs/nemarDatasets.md) | [:heavy_check_mark: (419)](READMEs/nemarDatasets.md) |  |  | 2026-06-23 09:45:24+00:00 |
+| 738 | [nemarDatasets/*](https://github.com/nemarDatasets) [(478)](READMEs/nemarDatasets.md) | [3](READMEs/nemarDatasets.md) | [:heavy_check_mark: (478)](READMEs/nemarDatasets.md) |  |  | 2026-06-24 09:43:55+00:00 |
 | 739 | [neronain/open-webui](https://github.com/neronain/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 13:50:23+00:00 |
 | 740 | [netbox-community/netbox](https://github.com/netbox-community/netbox) | 20892 |  | :heavy_check_mark: |  | 2026-06-19 07:38:50+00:00 |
 | 741 | [netinvent/command_runner](https://github.com/netinvent/command_runner) | 43 |  | :heavy_check_mark: |  | 2026-06-03 16:14:45+00:00 |
@@ -969,13 +969,13 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 954 | [vcloud369/web-ui](https://github.com/vcloud369/web-ui) | 0 |  | :heavy_check_mark: |  | 2025-04-30 07:22:19+00:00 |
 | 955 | [vdumeaux/sc-candida_paper](https://github.com/vdumeaux/sc-candida_paper) | 2 | :heavy_check_mark: |  |  | 2025-01-20 21:02:32+00:00 |
 | 956 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22060 |  | :heavy_check_mark: |  | 2026-06-19 09:44:40+00:00 |
-| 957 | [venkateshhs/eCRF](https://github.com/venkateshhs/eCRF) | 1 |  | :heavy_check_mark: |  | 2026-05-28 07:22:27+00:00 |
+| 957 | [venkateshhs/eCRF](https://github.com/venkateshhs/eCRF) | 1 |  | :heavy_check_mark: |  | 2026-06-23 02:56:27+00:00 |
 | 958 | [verakye/ds001907-EDU](https://github.com/verakye/ds001907-EDU) | 0 | :heavy_check_mark: |  |  | 2022-06-19 15:06:10+00:00 |
 | 959 | [veronikavinnichenko/open-webui-rag-format-changes](https://github.com/veronikavinnichenko/open-webui-rag-format-changes) | 0 |  | :heavy_check_mark: |  | 2025-08-14 14:13:41+00:00 |
 | 960 | [vicoqi/nanobot](https://github.com/vicoqi/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-06-06 17:35:50+00:00 |
 | 961 | [vidtory-ai/Vidtory-Agent](https://github.com/vidtory-ai/Vidtory-Agent) | 0 |  | :heavy_check_mark: |  | 2026-06-16 03:58:49+00:00 |
 | 962 | [vikramguptatheai/open-webui](https://github.com/vikramguptatheai/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-04-01 04:18:57+00:00 |
-| 963 | [vlbandara/*](https://github.com/vlbandara) [(2)](READMEs/vlbandara.md) | [0](READMEs/vlbandara.md) |  | [:heavy_check_mark: (2)](READMEs/vlbandara.md) |  | 2026-05-29 08:13:07+00:00 |
+| 963 | [vlbandara/*](https://github.com/vlbandara) [(2)](READMEs/vlbandara.md) | [0](READMEs/vlbandara.md) |  | [:heavy_check_mark: (2)](READMEs/vlbandara.md) |  | 2026-06-19 11:11:41+00:00 |
 | 964 | [vsoch/oci-python](https://github.com/vsoch/oci-python) | 37 |  | :heavy_check_mark: |  | 2025-09-23 21:31:47+00:00 |
 | 965 | [vuminhanh067/dementia](https://github.com/vuminhanh067/dementia) | 0 | :heavy_check_mark: |  |  | 2024-10-30 09:15:27+00:00 |
 | 966 | [vutran8902/OWUI](https://github.com/vutran8902/OWUI) | 0 |  | :heavy_check_mark: |  | 2025-04-16 00:30:44+00:00 |
@@ -1404,7 +1404,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 148 | [fmriprep-lts container images](https://osf.io/9vg8e/) | 2021-05-13 20:22:55.000399 |
 | 149 | [fmriprep-lts container images-dev](https://osf.io/wvz3e/) | 2021-05-13 20:22:39.890478 |
 | 150 | [hg-tm-fork](https://osf.io/3nbrp/) | 2023-11-09 12:10:21.099460 |
-| 151 | [metalign](https://osf.io/dren7/) | 2026-06-15 13:24:08.479384 |
+| 151 | [metalign](https://osf.io/dren7/) | 2026-06-24 09:46:52.348486 |
 | 152 | [midtermexport](https://osf.io/ezjhu/) | 2023-06-12 12:50:44.929453 |
 | 153 | [my-best-so-far](https://osf.io/zxuc3/) | 2025-09-22 12:55:16.384747 |
 | 154 | [my-osf-555](https://osf.io/vxkyb/) | 2024-06-04 16:31:40.434527 |
