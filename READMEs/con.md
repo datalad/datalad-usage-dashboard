@@ -12,15 +12,15 @@
 | 9 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2025-11-24 01:02:55+00:00 |
 | 10 | [con/git-annex](https://github.com/con/git-annex) | 29 |  | :heavy_check_mark: |  | 2026-06-16 19:25:12+00:00 |
 | 11 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
-| 12 | [con/nwb2bids](https://github.com/con/nwb2bids) | 5 |  | :heavy_check_mark: |  | 2026-06-07 23:32:05+00:00 |
+| 12 | [con/nwb2bids](https://github.com/con/nwb2bids) | 5 |  | :heavy_check_mark: |  | 2026-06-18 18:06:05+00:00 |
 | 13 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 45 |  | :heavy_check_mark: |  | 2026-05-14 14:01:49+00:00 |
 | 14 | [con/opfvta-reexecution](https://github.com/con/opfvta-reexecution) | 1 |  | :heavy_check_mark: |  | 2024-08-02 08:06:56+00:00 |
 | 15 | [con/serve](https://github.com/con/serve) | 0 |  | :heavy_check_mark: |  | 2026-05-19 14:28:17+00:00 |
 | 16 | [con/serve-wayback-archive-demo](https://github.com/con/serve-wayback-archive-demo) | 0 |  | :heavy_check_mark: |  | 2026-05-11 15:25:00+00:00 |
 | 17 | [con/shub](https://github.com/con/shub) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-10-19 16:30:00+00:00 |
-| 18 | [con/solidation](https://github.com/con/solidation) | 0 |  | :heavy_check_mark: |  | 2025-11-24 16:18:51+00:00 |
+| 18 | [con/solidation](https://github.com/con/solidation) | 0 |  | :heavy_check_mark: |  | 2026-06-22 07:22:42+00:00 |
 | 19 | [con/talks](https://github.com/con/talks) | 0 |  | :heavy_check_mark: |  | 2026-06-11 09:52:07+00:00 |
-| 20 | [con/tinuous](https://github.com/con/tinuous) | 10 |  | :heavy_check_mark: |  | 2026-06-08 16:22:38+00:00 |
+| 20 | [con/tinuous](https://github.com/con/tinuous) | 10 |  | :heavy_check_mark: |  | 2026-06-22 16:22:38+00:00 |
 | 21 | [con/tributors](https://github.com/con/tributors) | 14 |  | :heavy_check_mark: |  | 2026-05-19 18:13:13+00:00 |
 | 22 | [con/try-aind-1](https://github.com/con/try-aind-1) | 0 |  | :heavy_check_mark: |  | 2025-11-13 21:10:33+00:00 |
 | 23 | [con/visidata-demos](https://github.com/con/visidata-demos) | 0 |  | :heavy_check_mark: |  | 2026-05-26 16:34:47+00:00 |
