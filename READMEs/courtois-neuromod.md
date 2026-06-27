@@ -55,7 +55,7 @@
 | 52 | [courtois-neuromod/mario.datalad_tests](https://github.com/courtois-neuromod/mario.datalad_tests) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-02-05 21:43:14+00:00 |
 | 53 | [courtois-neuromod/mario.fmriprep](https://github.com/courtois-neuromod/mario.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-06-18 13:32:45+00:00 |
 | 54 | [courtois-neuromod/mario.replays](https://github.com/courtois-neuromod/mario.replays) | 0 | :heavy_check_mark: |  |  | 2025-12-09 21:29:07+00:00 |
-| 55 | [courtois-neuromod/mario.scenes](https://github.com/courtois-neuromod/mario.scenes) | 0 | :heavy_check_mark: |  |  | 2026-06-03 15:58:59+00:00 |
+| 55 | [courtois-neuromod/mario.scenes](https://github.com/courtois-neuromod/mario.scenes) | 0 | :heavy_check_mark: |  |  | 2026-06-17 01:51:04+00:00 |
 | 56 | [courtois-neuromod/mario.stimuli](https://github.com/courtois-neuromod/mario.stimuli) | 0 | :heavy_check_mark: |  |  | 2026-02-05 21:13:22+00:00 |
 | 57 | [courtois-neuromod/mario.tsnr](https://github.com/courtois-neuromod/mario.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-06-16 15:04:38+00:00 |
 | 58 | [courtois-neuromod/mario3](https://github.com/courtois-neuromod/mario3) | 0 | :heavy_check_mark: |  |  | 2026-06-18 13:33:01+00:00 |

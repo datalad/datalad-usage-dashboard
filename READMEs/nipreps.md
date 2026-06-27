@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (8) | Stars (1446) | Dataset | `run` (8) | `containers-run` | Last Modified |
+| # | Repository (8) | Stars (1445) | Dataset | `run` (8) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [nipreps/acres](https://github.com/nipreps/acres) | 0 |  | :heavy_check_mark: |  | 2026-06-02 19:11:53+00:00 |
 | 2 | [nipreps/fmriprep](https://github.com/nipreps/fmriprep) | 738 |  | :heavy_check_mark: |  | 2026-06-17 23:16:55+00:00 |
@@ -8,7 +8,7 @@
 | 5 | [nipreps/nireports](https://github.com/nipreps/nireports) | 13 |  | :heavy_check_mark: |  | 2026-06-25 05:04:58+00:00 |
 | 6 | [nipreps/niworkflows](https://github.com/nipreps/niworkflows) | 115 |  | :heavy_check_mark: |  | 2026-06-15 21:52:48+00:00 |
 | 7 | [nipreps/sdcflows](https://github.com/nipreps/sdcflows) | 45 |  | :heavy_check_mark: |  | 2026-06-15 21:52:45+00:00 |
-| 8 | [nipreps/smriprep](https://github.com/nipreps/smriprep) | 166 |  | :heavy_check_mark: |  | 2026-06-01 22:32:02+00:00 |
+| 8 | [nipreps/smriprep](https://github.com/nipreps/smriprep) | 165 |  | :heavy_check_mark: |  | 2026-06-01 22:32:02+00:00 |
 
 ## Gone
 No repositories found!
