@@ -1,7 +1,7 @@
 ## Active
-| # | Repository (2) | Stars (503) | Dataset | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (2) | Stars (507) | Dataset | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [niivue/niivue](https://github.com/niivue/niivue) | 456 |  | :heavy_check_mark: |  | 2026-06-03 13:29:18+00:00 |
+| 1 | [niivue/niivue](https://github.com/niivue/niivue) | 460 |  | :heavy_check_mark: |  | 2026-06-03 13:29:18+00:00 |
 | 2 | [niivue/niivue-vscode](https://github.com/niivue/niivue-vscode) | 47 |  | :heavy_check_mark: |  | 2026-06-19 10:29:44+00:00 |
 
 ## Gone
