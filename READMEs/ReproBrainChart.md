@@ -7,7 +7,7 @@
 | 4 | [ReproBrainChart/CCNP_BIDS](https://github.com/ReproBrainChart/CCNP_BIDS) | 1 | :heavy_check_mark: |  |  | 2024-06-17 20:38:19+00:00 |
 | 5 | [ReproBrainChart/CCNP_CPAC](https://github.com/ReproBrainChart/CCNP_CPAC) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-05-27 15:56:19+00:00 |
 | 6 | [ReproBrainChart/CCNP_FreeSurfer](https://github.com/ReproBrainChart/CCNP_FreeSurfer) | 0 | :heavy_check_mark: |  |  | 2024-06-07 19:19:50+00:00 |
-| 7 | [ReproBrainChart/CCNP_XCP-D](https://github.com/ReproBrainChart/CCNP_XCP-D) | 0 |  | :heavy_check_mark: |  | 2026-05-27 01:05:33+00:00 |
+| 7 | [ReproBrainChart/CCNP_XCP-D](https://github.com/ReproBrainChart/CCNP_XCP-D) | 0 |  | :heavy_check_mark: |  | 2026-07-01 18:06:31+00:00 |
 | 8 | [ReproBrainChart/HBN_BIDS](https://github.com/ReproBrainChart/HBN_BIDS) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-06-17 20:43:12+00:00 |
 | 9 | [ReproBrainChart/HBN_CPAC](https://github.com/ReproBrainChart/HBN_CPAC) | 2 |  | :heavy_check_mark: |  | 2026-05-28 14:31:03+00:00 |
 | 10 | [ReproBrainChart/HBN_FreeSurfer](https://github.com/ReproBrainChart/HBN_FreeSurfer) | 0 | :heavy_check_mark: |  |  | 2024-06-07 19:22:52+00:00 |

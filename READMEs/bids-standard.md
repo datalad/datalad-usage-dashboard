@@ -11,7 +11,7 @@
 | 8 | [bids-standard/bids-starter-kit](https://github.com/bids-standard/bids-starter-kit) | 276 |  | :heavy_check_mark: |  | 2025-02-21 16:36:13+00:00 |
 | 9 | [bids-standard/bids-utils](https://github.com/bids-standard/bids-utils) | 3 |  | :heavy_check_mark: |  | 2026-06-02 18:03:32+00:00 |
 | 10 | [bids-standard/bids-validator](https://github.com/bids-standard/bids-validator) | 45 |  | :heavy_check_mark: |  | 2026-06-22 16:59:24+00:00 |
-| 11 | [bids-standard/bids-website](https://github.com/bids-standard/bids-website) | 85 |  | :heavy_check_mark: |  | 2026-06-18 13:29:27+00:00 |
+| 11 | [bids-standard/bids-website](https://github.com/bids-standard/bids-website) | 85 |  | :heavy_check_mark: |  | 2026-07-01 19:50:07+00:00 |
 | 12 | [bids-standard/model-zoo](https://github.com/bids-standard/model-zoo) | 6 | :heavy_check_mark: |  |  | 2023-08-07 18:42:26+00:00 |
 | 13 | [bids-standard/pybids](https://github.com/bids-standard/pybids) | 260 |  | :heavy_check_mark: |  | 2026-06-22 12:22:35+00:00 |
 | 14 | [bids-standard/python-validator](https://github.com/bids-standard/python-validator) | 9 |  | :heavy_check_mark: |  | 2026-06-24 17:51:15+00:00 |
