@@ -1,7 +1,7 @@
 ## Active
 | # | Repository (15) | Stars (1295) | Dataset (1) | `run` (14) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [bids-standard/2026-os4ls-bids](https://github.com/bids-standard/2026-os4ls-bids) | 0 |  | :heavy_check_mark: |  | 2026-06-06 19:51:49+00:00 |
+| 1 | [bids-standard/2026-os4ls-bids](https://github.com/bids-standard/2026-os4ls-bids) | 0 |  | :heavy_check_mark: |  | 2026-07-06 20:23:53+00:00 |
 | 2 | [bids-standard/BEP028_BIDSprov](https://github.com/bids-standard/BEP028_BIDSprov) | 5 |  | :heavy_check_mark: |  | 2025-12-15 13:12:19+00:00 |
 | 3 | [bids-standard/awesome-bids](https://github.com/bids-standard/awesome-bids) | 17 |  | :heavy_check_mark: |  | 2026-04-06 20:35:05+00:00 |
 | 4 | [bids-standard/bids-bep016](https://github.com/bids-standard/bids-bep016) | 7 |  | :heavy_check_mark: |  | 2026-06-16 01:53:58+00:00 |
@@ -15,7 +15,7 @@
 | 12 | [bids-standard/bids-website](https://github.com/bids-standard/bids-website) | 85 |  | :heavy_check_mark: |  | 2026-07-01 19:50:07+00:00 |
 | 13 | [bids-standard/model-zoo](https://github.com/bids-standard/model-zoo) | 6 | :heavy_check_mark: |  |  | 2023-08-07 18:42:26+00:00 |
 | 14 | [bids-standard/pybids](https://github.com/bids-standard/pybids) | 260 |  | :heavy_check_mark: |  | 2026-06-22 12:22:35+00:00 |
-| 15 | [bids-standard/python-validator](https://github.com/bids-standard/python-validator) | 9 |  | :heavy_check_mark: |  | 2026-06-24 17:51:15+00:00 |
+| 15 | [bids-standard/python-validator](https://github.com/bids-standard/python-validator) | 9 |  | :heavy_check_mark: |  | 2026-07-01 02:16:22+00:00 |
 
 ## Gone
 No repositories found!
