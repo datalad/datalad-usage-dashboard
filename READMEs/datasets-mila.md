@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (343) | Stars (49) | Dataset (209) | `run` (339) | `containers-run` | Last Modified |
+| # | Repository (343) | Stars (50) | Dataset (209) | `run` (339) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [datasets-mila/datasets--LDC--ontonotes](https://github.com/datasets-mila/datasets--LDC--ontonotes) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 20:28:29+00:00 |
 | 2 | [datasets-mila/datasets--algoperf](https://github.com/datasets-mila/datasets--algoperf) | 0 |  | :heavy_check_mark: |  | 2025-04-09 23:13:40+00:00 |
@@ -184,7 +184,7 @@
 | 181 | [datasets-mila/datasets--caltech101](https://github.com/datasets-mila/datasets--caltech101) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 20:28:53+00:00 |
 | 182 | [datasets-mila/datasets--caltech256](https://github.com/datasets-mila/datasets--caltech256) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 20:29:01+00:00 |
 | 183 | [datasets-mila/datasets--celeba](https://github.com/datasets-mila/datasets--celeba) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 20:29:09+00:00 |
-| 184 | [datasets-mila/datasets--cifar10](https://github.com/datasets-mila/datasets--cifar10) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 20:29:18+00:00 |
+| 184 | [datasets-mila/datasets--cifar10](https://github.com/datasets-mila/datasets--cifar10) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 20:29:18+00:00 |
 | 185 | [datasets-mila/datasets--cifar100](https://github.com/datasets-mila/datasets--cifar100) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 20:29:26+00:00 |
 | 186 | [datasets-mila/datasets--cityscapes](https://github.com/datasets-mila/datasets--cityscapes) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 20:29:34+00:00 |
 | 187 | [datasets-mila/datasets--climatenet](https://github.com/datasets-mila/datasets--climatenet) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-10 20:29:42+00:00 |

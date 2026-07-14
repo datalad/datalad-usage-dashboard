@@ -10,7 +10,7 @@
 | 7 | [con/duct](https://github.com/con/duct) | 11 |  | :heavy_check_mark: |  | 2026-06-01 15:00:36+00:00 |
 | 8 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-04-25 17:10:50+00:00 |
 | 9 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2025-11-24 01:02:55+00:00 |
-| 10 | [con/git-annex](https://github.com/con/git-annex) | 28 |  | :heavy_check_mark: |  | 2026-06-27 15:06:30+00:00 |
+| 10 | [con/git-annex](https://github.com/con/git-annex) | 28 |  | :heavy_check_mark: |  | 2026-07-13 19:08:26+00:00 |
 | 11 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
 | 12 | [con/nwb2bids](https://github.com/con/nwb2bids) | 5 |  | :heavy_check_mark: |  | 2026-07-06 20:54:45+00:00 |
 | 13 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 45 |  | :heavy_check_mark: |  | 2026-05-14 14:01:49+00:00 |
