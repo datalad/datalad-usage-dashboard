@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (107) | Stars (132) | Dataset (80) | `run` (42) | `containers-run` (32) | Last Modified |
+| # | Repository (107) | Stars (135) | Dataset (80) | `run` (42) | `containers-run` (32) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  | 2020-05-27 13:39:11+00:00 |
-| 2 | [courtois-neuromod/algonauts_2025.competitors](https://github.com/courtois-neuromod/algonauts_2025.competitors) | 64 | :heavy_check_mark: |  |  | 2025-09-08 14:53:55+00:00 |
+| 2 | [courtois-neuromod/algonauts_2025.competitors](https://github.com/courtois-neuromod/algonauts_2025.competitors) | 66 | :heavy_check_mark: |  |  | 2025-09-08 14:53:55+00:00 |
 | 3 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 2 | :heavy_check_mark: |  |  | 2026-06-18 13:29:31+00:00 |
 | 4 | [courtois-neuromod/anat.atlases](https://github.com/courtois-neuromod/anat.atlases) | 0 | :heavy_check_mark: |  |  | 2026-06-18 13:29:26+00:00 |
 | 5 | [courtois-neuromod/anat.freesurfer](https://github.com/courtois-neuromod/anat.freesurfer) | 0 | :heavy_check_mark: |  |  | 2026-06-18 13:29:36+00:00 |
@@ -13,7 +13,7 @@
 | 10 | [courtois-neuromod/anat.tractoflow](https://github.com/courtois-neuromod/anat.tractoflow) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-01-27 18:36:58+00:00 |
 | 11 | [courtois-neuromod/cimaq_fmriprep](https://github.com/courtois-neuromod/cimaq_fmriprep) | 0 | :heavy_check_mark: |  |  | 2021-09-25 19:52:39+00:00 |
 | 12 | [courtois-neuromod/cneuromod](https://github.com/courtois-neuromod/cneuromod) | 22 | :heavy_check_mark: |  |  | 2026-05-13 19:32:39+00:00 |
-| 13 | [courtois-neuromod/cneuromod-things](https://github.com/courtois-neuromod/cneuromod-things) | 8 | :heavy_check_mark: |  |  | 2026-05-07 15:42:47+00:00 |
+| 13 | [courtois-neuromod/cneuromod-things](https://github.com/courtois-neuromod/cneuromod-things) | 9 | :heavy_check_mark: |  |  | 2026-05-07 15:42:47+00:00 |
 | 14 | [courtois-neuromod/cneuromod.all.comparison](https://github.com/courtois-neuromod/cneuromod.all.comparison) | 0 | :heavy_check_mark: |  |  | 2026-06-13 11:37:37+00:00 |
 | 15 | [courtois-neuromod/cneuromod.fmriprep](https://github.com/courtois-neuromod/cneuromod.fmriprep) | 0 | :heavy_check_mark: |  |  | 2026-05-12 15:33:49+00:00 |
 | 16 | [courtois-neuromod/cneuromod.processed](https://github.com/courtois-neuromod/cneuromod.processed) | 2 | :heavy_check_mark: |  |  | 2026-05-12 15:34:01+00:00 |
@@ -50,7 +50,7 @@
 | 47 | [courtois-neuromod/langlocalizer.mriqc](https://github.com/courtois-neuromod/langlocalizer.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-06-16 13:29:33+00:00 |
 | 48 | [courtois-neuromod/langlocalizer.stimuli](https://github.com/courtois-neuromod/langlocalizer.stimuli) | 0 | :heavy_check_mark: |  |  | 2023-12-07 20:54:39+00:00 |
 | 49 | [courtois-neuromod/langlocalizer.tsnr](https://github.com/courtois-neuromod/langlocalizer.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-06-18 13:14:53+00:00 |
-| 50 | [courtois-neuromod/mario](https://github.com/courtois-neuromod/mario) | 1 | :heavy_check_mark: |  |  | 2026-06-18 13:32:40+00:00 |
+| 50 | [courtois-neuromod/mario](https://github.com/courtois-neuromod/mario) | 1 | :heavy_check_mark: |  |  | 2026-07-15 01:41:47+00:00 |
 | 51 | [courtois-neuromod/mario.annotations](https://github.com/courtois-neuromod/mario.annotations) | 0 | :heavy_check_mark: |  |  | 2025-12-08 16:46:53+00:00 |
 | 52 | [courtois-neuromod/mario.datalad_tests](https://github.com/courtois-neuromod/mario.datalad_tests) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-02-05 21:43:14+00:00 |
 | 53 | [courtois-neuromod/mario.fmriprep](https://github.com/courtois-neuromod/mario.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-06-18 13:32:45+00:00 |
@@ -58,7 +58,7 @@
 | 55 | [courtois-neuromod/mario.scenes](https://github.com/courtois-neuromod/mario.scenes) | 0 | :heavy_check_mark: |  |  | 2026-06-17 01:51:04+00:00 |
 | 56 | [courtois-neuromod/mario.stimuli](https://github.com/courtois-neuromod/mario.stimuli) | 0 | :heavy_check_mark: |  |  | 2026-02-05 21:13:22+00:00 |
 | 57 | [courtois-neuromod/mario.tsnr](https://github.com/courtois-neuromod/mario.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-06-16 15:04:38+00:00 |
-| 58 | [courtois-neuromod/mario3](https://github.com/courtois-neuromod/mario3) | 0 | :heavy_check_mark: |  |  | 2026-06-28 18:44:30+00:00 |
+| 58 | [courtois-neuromod/mario3](https://github.com/courtois-neuromod/mario3) | 0 | :heavy_check_mark: |  |  | 2026-07-15 03:04:09+00:00 |
 | 59 | [courtois-neuromod/mario3.mriqc](https://github.com/courtois-neuromod/mario3.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-06-16 13:29:56+00:00 |
 | 60 | [courtois-neuromod/mario3.stimuli](https://github.com/courtois-neuromod/mario3.stimuli) | 0 | :heavy_check_mark: |  |  | 2026-01-25 18:39:53+00:00 |
 | 61 | [courtois-neuromod/mariostars.mriqc](https://github.com/courtois-neuromod/mariostars.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-06-16 13:30:22+00:00 |

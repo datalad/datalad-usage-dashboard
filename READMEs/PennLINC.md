@@ -8,7 +8,7 @@
 | 5 | [PennLINC/containers](https://github.com/PennLINC/containers) | 0 | :heavy_check_mark: |  |  | 2021-08-12 14:54:21+00:00 |
 | 6 | [PennLINC/dMRI_HMC_Benchmark](https://github.com/PennLINC/dMRI_HMC_Benchmark) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2022-04-28 15:40:36+00:00 |
 | 7 | [PennLINC/freesurfer_tabulate](https://github.com/PennLINC/freesurfer_tabulate) | 2 | :heavy_check_mark: |  |  | 2024-01-18 21:31:12+00:00 |
-| 8 | [PennLINC/qsiprep](https://github.com/PennLINC/qsiprep) | 185 |  | :heavy_check_mark: |  | 2026-06-19 14:05:08+00:00 |
+| 8 | [PennLINC/qsiprep](https://github.com/PennLINC/qsiprep) | 185 |  | :heavy_check_mark: |  | 2026-07-14 16:11:07+00:00 |
 
 ## Gone
 No repositories found!
