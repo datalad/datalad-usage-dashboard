@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (21) | Stars (8) | Dataset (13) | `run` (12) | `containers-run` | Last Modified |
+| # | Repository (21) | Stars (9) | Dataset (13) | `run` (12) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproBrainChart/BHRC_BIDS](https://github.com/ReproBrainChart/BHRC_BIDS) | 0 | :heavy_check_mark: |  |  | 2024-05-30 22:40:30+00:00 |
 | 2 | [ReproBrainChart/BHRC_CPAC](https://github.com/ReproBrainChart/BHRC_CPAC) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-05-26 19:32:14+00:00 |
@@ -20,7 +20,7 @@
 | 17 | [ReproBrainChart/NKI_FreeSurfer](https://github.com/ReproBrainChart/NKI_FreeSurfer) | 0 | :heavy_check_mark: |  |  | 2024-06-07 19:23:53+00:00 |
 | 18 | [ReproBrainChart/PNC_BIDS](https://github.com/ReproBrainChart/PNC_BIDS) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-06-17 20:49:57+00:00 |
 | 19 | [ReproBrainChart/PNC_CPAC](https://github.com/ReproBrainChart/PNC_CPAC) | 0 |  | :heavy_check_mark: |  | 2026-05-27 15:58:29+00:00 |
-| 20 | [ReproBrainChart/PNC_FreeSurfer](https://github.com/ReproBrainChart/PNC_FreeSurfer) | 2 | :heavy_check_mark: |  |  | 2024-06-07 19:20:54+00:00 |
+| 20 | [ReproBrainChart/PNC_FreeSurfer](https://github.com/ReproBrainChart/PNC_FreeSurfer) | 3 | :heavy_check_mark: |  |  | 2024-06-07 19:20:54+00:00 |
 | 21 | [ReproBrainChart/rbc-analysis-template](https://github.com/ReproBrainChart/rbc-analysis-template) | 1 | :heavy_check_mark: |  |  | 2025-02-25 02:47:25+00:00 |
 
 ## Gone
