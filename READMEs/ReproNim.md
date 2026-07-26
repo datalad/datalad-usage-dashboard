@@ -6,7 +6,7 @@
 | 3 | [ReproNim/OpenNeuroDerivatives-NIDM](https://github.com/ReproNim/OpenNeuroDerivatives-NIDM) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-07-14 18:05:10+00:00 |
 | 4 | [ReproNim/ReproInventory](https://github.com/ReproNim/ReproInventory) | 6 |  | :heavy_check_mark: |  | 2026-06-11 15:46:01+00:00 |
 | 5 | [ReproNim/ReproTube](https://github.com/ReproNim/ReproTube) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-02-12 22:33:09+00:00 |
-| 6 | [ReproNim/SumarizeFmriprep](https://github.com/ReproNim/SumarizeFmriprep) | 1 |  | :heavy_check_mark: |  | 2026-01-16 14:48:29+00:00 |
+| 6 | [ReproNim/SumarizeFmriprep](https://github.com/ReproNim/SumarizeFmriprep) | 1 |  | :heavy_check_mark: |  | 2026-07-14 21:25:16+00:00 |
 | 7 | [ReproNim/abcd-apps](https://github.com/ReproNim/abcd-apps) | 0 | :heavy_check_mark: |  |  | 2023-02-13 13:28:51+00:00 |
 | 8 | [ReproNim/antspy-docker](https://github.com/ReproNim/antspy-docker) | 0 | :heavy_check_mark: |  |  | 2023-03-23 19:39:35+00:00 |
 | 9 | [ReproNim/coco2019-training](https://github.com/ReproNim/coco2019-training) | 2 | :heavy_check_mark: |  |  | 2022-07-06 20:14:58+00:00 |
