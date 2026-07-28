@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (21) | Stars (9) | Dataset (13) | `run` (12) | `containers-run` | Last Modified |
+| # | Repository (21) | Stars (10) | Dataset (13) | `run` (12) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproBrainChart/BHRC_BIDS](https://github.com/ReproBrainChart/BHRC_BIDS) | 0 | :heavy_check_mark: |  |  | 2024-05-30 22:40:30+00:00 |
 | 2 | [ReproBrainChart/BHRC_CPAC](https://github.com/ReproBrainChart/BHRC_CPAC) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-05-26 19:32:14+00:00 |
@@ -15,7 +15,7 @@
 | 12 | [ReproBrainChart/HBN_BIDS](https://github.com/ReproBrainChart/HBN_BIDS) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-06-17 20:43:12+00:00 |
 | 13 | [ReproBrainChart/HBN_CPAC](https://github.com/ReproBrainChart/HBN_CPAC) | 2 |  | :heavy_check_mark: |  | 2026-05-28 14:31:03+00:00 |
 | 14 | [ReproBrainChart/HBN_FreeSurfer](https://github.com/ReproBrainChart/HBN_FreeSurfer) | 0 | :heavy_check_mark: |  |  | 2024-06-07 19:22:52+00:00 |
-| 15 | [ReproBrainChart/NKI_BIDS](https://github.com/ReproBrainChart/NKI_BIDS) | 0 | :heavy_check_mark: |  |  | 2024-06-17 20:46:25+00:00 |
+| 15 | [ReproBrainChart/NKI_BIDS](https://github.com/ReproBrainChart/NKI_BIDS) | 1 | :heavy_check_mark: |  |  | 2024-06-17 20:46:25+00:00 |
 | 16 | [ReproBrainChart/NKI_CPAC](https://github.com/ReproBrainChart/NKI_CPAC) | 1 |  | :heavy_check_mark: |  | 2026-05-28 14:32:01+00:00 |
 | 17 | [ReproBrainChart/NKI_FreeSurfer](https://github.com/ReproBrainChart/NKI_FreeSurfer) | 0 | :heavy_check_mark: |  |  | 2024-06-07 19:23:53+00:00 |
 | 18 | [ReproBrainChart/PNC_BIDS](https://github.com/ReproBrainChart/PNC_BIDS) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-06-17 20:49:57+00:00 |

@@ -24,7 +24,7 @@
 | 21 | [con/tinuous](https://github.com/con/tinuous) | 10 |  | :heavy_check_mark: |  | 2026-07-20 16:22:48+00:00 |
 | 22 | [con/tributors](https://github.com/con/tributors) | 14 |  | :heavy_check_mark: |  | 2026-05-19 18:13:13+00:00 |
 | 23 | [con/try-aind-1](https://github.com/con/try-aind-1) | 0 |  | :heavy_check_mark: |  | 2025-11-13 21:10:33+00:00 |
-| 24 | [con/visidata-demos](https://github.com/con/visidata-demos) | 0 |  | :heavy_check_mark: |  | 2026-05-26 16:34:47+00:00 |
+| 24 | [con/visidata-demos](https://github.com/con/visidata-demos) | 0 |  | :heavy_check_mark: |  | 2026-07-22 19:27:31+00:00 |
 | 25 | [con/yolo](https://github.com/con/yolo) | 13 |  | :heavy_check_mark: |  | 2026-06-02 07:45:43+00:00 |
 
 ## Gone

@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (48) | Stars (831) | Dataset (26) | `run` (28) | `containers-run` | Last Modified |
+| # | Repository (48) | Stars (832) | Dataset (26) | `run` (28) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  | 2024-08-08 09:09:32+00:00 |
 | 2 | [datalad/datalad](https://github.com/datalad/datalad) | 651 |  | :heavy_check_mark: |  | 2026-07-24 13:12:02+00:00 |
@@ -13,7 +13,7 @@
 | 10 | [datalad/datalad-ebrains](https://github.com/datalad/datalad-ebrains) | 3 |  | :heavy_check_mark: |  | 2023-07-14 11:33:10+00:00 |
 | 11 | [datalad/datalad-extension-template](https://github.com/datalad/datalad-extension-template) | 2 |  | :heavy_check_mark: |  | 2026-07-20 15:40:02+00:00 |
 | 12 | [datalad/datalad-extensions](https://github.com/datalad/datalad-extensions) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-07-21 16:20:29+00:00 |
-| 13 | [datalad/datalad-fuse](https://github.com/datalad/datalad-fuse) | 3 |  | :heavy_check_mark: |  | 2026-07-07 03:49:18+00:00 |
+| 13 | [datalad/datalad-fuse](https://github.com/datalad/datalad-fuse) | 4 |  | :heavy_check_mark: |  | 2026-07-20 16:12:39+00:00 |
 | 14 | [datalad/datalad-git-bug-dumps](https://github.com/datalad/datalad-git-bug-dumps) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-04-08 18:04:01+00:00 |
 | 15 | [datalad/datalad-gooey](https://github.com/datalad/datalad-gooey) | 7 |  | :heavy_check_mark: |  | 2024-02-20 12:08:16+00:00 |
 | 16 | [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 9 |  | :heavy_check_mark: |  | 2026-07-20 14:31:32+00:00 |
