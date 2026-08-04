@@ -20,7 +20,7 @@
 | 17 | [con/serve-wayback-archive-demo](https://github.com/con/serve-wayback-archive-demo) | 0 |  | :heavy_check_mark: |  | 2026-05-11 15:25:00+00:00 |
 | 18 | [con/shub](https://github.com/con/shub) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-10-19 16:30:00+00:00 |
 | 19 | [con/solidation](https://github.com/con/solidation) | 0 |  | :heavy_check_mark: |  | 2026-07-20 07:22:47+00:00 |
-| 20 | [con/talks](https://github.com/con/talks) | 0 |  | :heavy_check_mark: |  | 2026-06-11 09:52:07+00:00 |
+| 20 | [con/talks](https://github.com/con/talks) | 0 |  | :heavy_check_mark: |  | 2026-08-03 20:39:37+00:00 |
 | 21 | [con/tinuous](https://github.com/con/tinuous) | 10 |  | :heavy_check_mark: |  | 2026-07-20 16:22:48+00:00 |
 | 22 | [con/tributors](https://github.com/con/tributors) | 14 |  | :heavy_check_mark: |  | 2026-05-19 18:13:13+00:00 |
 | 23 | [con/try-aind-1](https://github.com/con/try-aind-1) | 0 |  | :heavy_check_mark: |  | 2025-11-13 21:10:33+00:00 |
