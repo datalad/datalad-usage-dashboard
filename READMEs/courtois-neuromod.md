@@ -59,7 +59,7 @@
 | 56 | [courtois-neuromod/mario.replays](https://github.com/courtois-neuromod/mario.replays) | 0 | :heavy_check_mark: |  |  | 2025-12-09 21:29:07+00:00 |
 | 57 | [courtois-neuromod/mario.scenes](https://github.com/courtois-neuromod/mario.scenes) | 0 | :heavy_check_mark: |  |  | 2026-06-17 01:51:04+00:00 |
 | 58 | [courtois-neuromod/mario.stimuli](https://github.com/courtois-neuromod/mario.stimuli) | 0 | :heavy_check_mark: |  |  | 2026-02-05 21:13:22+00:00 |
-| 59 | [courtois-neuromod/mario.tsnr](https://github.com/courtois-neuromod/mario.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-06-16 15:04:38+00:00 |
+| 59 | [courtois-neuromod/mario.tsnr](https://github.com/courtois-neuromod/mario.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-07-30 02:18:35+00:00 |
 | 60 | [courtois-neuromod/mario3](https://github.com/courtois-neuromod/mario3) | 0 | :heavy_check_mark: |  |  | 2026-07-16 04:32:07+00:00 |
 | 61 | [courtois-neuromod/mario3.mriqc](https://github.com/courtois-neuromod/mario3.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-07-29 18:59:44+00:00 |
 | 62 | [courtois-neuromod/mario3.stimuli](https://github.com/courtois-neuromod/mario3.stimuli) | 0 | :heavy_check_mark: |  |  | 2026-01-25 18:39:53+00:00 |
@@ -73,11 +73,11 @@
 | 70 | [courtois-neuromod/movie10.stimuli](https://github.com/courtois-neuromod/movie10.stimuli) | 1 | :heavy_check_mark: |  |  | 2024-12-28 19:17:37+00:00 |
 | 71 | [courtois-neuromod/movie10.tsnr](https://github.com/courtois-neuromod/movie10.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-06-18 13:16:18+00:00 |
 | 72 | [courtois-neuromod/movie_decoding_sa](https://github.com/courtois-neuromod/movie_decoding_sa) | 0 | :heavy_check_mark: |  |  | 2023-05-09 20:05:28+00:00 |
-| 73 | [courtois-neuromod/multfs.fmriprep](https://github.com/courtois-neuromod/multfs.fmriprep) | 0 | :heavy_check_mark: |  |  | 2026-06-18 13:16:30+00:00 |
+| 73 | [courtois-neuromod/multfs.fmriprep](https://github.com/courtois-neuromod/multfs.fmriprep) | 0 | :heavy_check_mark: |  |  | 2026-07-30 02:28:20+00:00 |
 | 74 | [courtois-neuromod/multfs.mriqc](https://github.com/courtois-neuromod/multfs.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-07-29 19:00:43+00:00 |
 | 75 | [courtois-neuromod/mutemusic.mriqc](https://github.com/courtois-neuromod/mutemusic.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-07-29 19:00:56+00:00 |
 | 76 | [courtois-neuromod/mutemusic.tsnr](https://github.com/courtois-neuromod/mutemusic.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-07-27 17:46:43+00:00 |
-| 77 | [courtois-neuromod/narratives.mriqc](https://github.com/courtois-neuromod/narratives.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-06-18 13:17:07+00:00 |
+| 77 | [courtois-neuromod/narratives.mriqc](https://github.com/courtois-neuromod/narratives.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-07-30 02:30:24+00:00 |
 | 78 | [courtois-neuromod/narratives.stimuli](https://github.com/courtois-neuromod/narratives.stimuli) | 0 | :heavy_check_mark: |  |  | 2025-07-03 15:10:43+00:00 |
 | 79 | [courtois-neuromod/narratives.tsnr](https://github.com/courtois-neuromod/narratives.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-07-27 17:47:00+00:00 |
 | 80 | [courtois-neuromod/ood.mriqc](https://github.com/courtois-neuromod/ood.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-07-29 19:01:26+00:00 |
@@ -111,8 +111,8 @@
 | 108 | [courtois-neuromod/things.mriqc](https://github.com/courtois-neuromod/things.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-06-18 13:19:13+00:00 |
 | 109 | [courtois-neuromod/things.stimuli](https://github.com/courtois-neuromod/things.stimuli) | 0 | :heavy_check_mark: |  |  | 2025-12-05 16:54:46+00:00 |
 | 110 | [courtois-neuromod/triplets](https://github.com/courtois-neuromod/triplets) | 0 | :heavy_check_mark: |  |  | 2026-06-18 13:19:25+00:00 |
-| 111 | [courtois-neuromod/triplets.fmriprep](https://github.com/courtois-neuromod/triplets.fmriprep) | 0 | :heavy_check_mark: |  |  | 2026-06-18 13:19:30+00:00 |
-| 112 | [courtois-neuromod/triplets.mriqc](https://github.com/courtois-neuromod/triplets.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-06-16 13:32:35+00:00 |
+| 111 | [courtois-neuromod/triplets.fmriprep](https://github.com/courtois-neuromod/triplets.fmriprep) | 0 | :heavy_check_mark: |  |  | 2026-07-30 02:37:35+00:00 |
+| 112 | [courtois-neuromod/triplets.mriqc](https://github.com/courtois-neuromod/triplets.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-07-29 19:03:14+00:00 |
 | 113 | [courtois-neuromod/triplets.stimuli](https://github.com/courtois-neuromod/triplets.stimuli) | 0 | :heavy_check_mark: |  |  | 2024-01-18 18:49:53+00:00 |
 | 114 | [courtois-neuromod/triplets.tsnr](https://github.com/courtois-neuromod/triplets.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-06-18 13:19:37+00:00 |
 
