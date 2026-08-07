@@ -95,7 +95,7 @@
 | 92 | [courtois-neuromod/retinotopy.prf](https://github.com/courtois-neuromod/retinotopy.prf) | 0 | :heavy_check_mark: |  |  | 2026-06-18 13:18:03+00:00 |
 | 93 | [courtois-neuromod/shinobi](https://github.com/courtois-neuromod/shinobi) | 1 | :heavy_check_mark: |  |  | 2026-07-16 04:15:04+00:00 |
 | 94 | [courtois-neuromod/shinobi.fmriprep](https://github.com/courtois-neuromod/shinobi.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-07-27 20:00:33+00:00 |
-| 95 | [courtois-neuromod/shinobi.mriqc](https://github.com/courtois-neuromod/shinobi.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-06-18 13:18:24+00:00 |
+| 95 | [courtois-neuromod/shinobi.mriqc](https://github.com/courtois-neuromod/shinobi.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-07-29 19:02:18+00:00 |
 | 96 | [courtois-neuromod/shinobi.stimuli](https://github.com/courtois-neuromod/shinobi.stimuli) | 1 | :heavy_check_mark: |  |  | 2023-07-24 02:52:58+00:00 |
 | 97 | [courtois-neuromod/shinobi.tsnr](https://github.com/courtois-neuromod/shinobi.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-06-18 13:18:38+00:00 |
 | 98 | [courtois-neuromod/shinobi_behav](https://github.com/courtois-neuromod/shinobi_behav) | 0 | :heavy_check_mark: |  |  | 2023-08-10 15:47:20+00:00 |
