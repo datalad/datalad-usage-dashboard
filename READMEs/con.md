@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (25) | Stars (143) | Dataset (2) | `run` (25) | `containers-run` | Last Modified |
+| # | Repository (25) | Stars (144) | Dataset (2) | `run` (25) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  | 2026-07-08 15:59:17+00:00 |
 | 2 | [con/annextube](https://github.com/con/annextube) | 3 |  | :heavy_check_mark: |  | 2026-07-13 21:44:43+00:00 |
@@ -10,7 +10,7 @@
 | 7 | [con/duct](https://github.com/con/duct) | 12 |  | :heavy_check_mark: |  | 2026-07-31 21:34:51+00:00 |
 | 8 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-04-25 17:10:50+00:00 |
 | 9 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2025-11-24 01:02:55+00:00 |
-| 10 | [con/git-annex](https://github.com/con/git-annex) | 28 |  | :heavy_check_mark: |  | 2026-07-24 13:47:44+00:00 |
+| 10 | [con/git-annex](https://github.com/con/git-annex) | 29 |  | :heavy_check_mark: |  | 2026-08-07 18:28:40+00:00 |
 | 11 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
 | 12 | [con/mechababs](https://github.com/con/mechababs) | 1 |  | :heavy_check_mark: |  | 2026-08-05 13:58:35+00:00 |
 | 13 | [con/nwb2bids](https://github.com/con/nwb2bids) | 5 |  | :heavy_check_mark: |  | 2026-07-06 20:54:45+00:00 |
