@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (1784) | Stars (518) | Dataset (1784) | `run` (3) | `containers-run` (1) | Last Modified |
+| # | Repository (1785) | Stars (519) | Dataset (1785) | `run` (3) | `containers-run` (1) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [OpenNeuroDatasets/ds000001](https://github.com/OpenNeuroDatasets/ds000001) | 1 | :heavy_check_mark: |  |  | 2020-09-01 17:26:01+00:00 |
 | 2 | [OpenNeuroDatasets/ds000002](https://github.com/OpenNeuroDatasets/ds000002) | 2 | :heavy_check_mark: |  |  | 2020-08-17 19:59:17+00:00 |
@@ -947,7 +947,7 @@
 | 944 | [OpenNeuroDatasets/ds004872](https://github.com/OpenNeuroDatasets/ds004872) | 0 | :heavy_check_mark: |  |  | 2024-04-05 00:55:21+00:00 |
 | 945 | [OpenNeuroDatasets/ds004873](https://github.com/OpenNeuroDatasets/ds004873) | 0 | :heavy_check_mark: |  |  | 2026-04-07 15:26:17+00:00 |
 | 946 | [OpenNeuroDatasets/ds004883](https://github.com/OpenNeuroDatasets/ds004883) | 0 | :heavy_check_mark: |  |  | 2026-06-08 18:20:48+00:00 |
-| 947 | [OpenNeuroDatasets/ds004884](https://github.com/OpenNeuroDatasets/ds004884) | 0 | :heavy_check_mark: |  |  | 2024-10-17 18:34:04+00:00 |
+| 947 | [OpenNeuroDatasets/ds004884](https://github.com/OpenNeuroDatasets/ds004884) | 1 | :heavy_check_mark: |  |  | 2024-10-17 18:34:04+00:00 |
 | 948 | [OpenNeuroDatasets/ds004889](https://github.com/OpenNeuroDatasets/ds004889) | 2 | :heavy_check_mark: |  |  | 2026-08-05 20:03:12+00:00 |
 | 949 | [OpenNeuroDatasets/ds004892](https://github.com/OpenNeuroDatasets/ds004892) | 0 | :heavy_check_mark: |  |  | 2025-02-20 01:00:59+00:00 |
 | 950 | [OpenNeuroDatasets/ds004894](https://github.com/OpenNeuroDatasets/ds004894) | 0 | :heavy_check_mark: |  |  | 2024-02-08 02:12:31+00:00 |
@@ -1284,7 +1284,7 @@
 | 1281 | [OpenNeuroDatasets/ds005899](https://github.com/OpenNeuroDatasets/ds005899) | 2 | :heavy_check_mark: |  |  | 2025-04-07 17:15:24+00:00 |
 | 1282 | [OpenNeuroDatasets/ds005901](https://github.com/OpenNeuroDatasets/ds005901) | 0 | :heavy_check_mark: |  |  | 2025-03-27 17:10:57+00:00 |
 | 1283 | [OpenNeuroDatasets/ds005903](https://github.com/OpenNeuroDatasets/ds005903) | 0 | :heavy_check_mark: |  |  | 2025-02-06 17:23:22+00:00 |
-| 1284 | [OpenNeuroDatasets/ds005906](https://github.com/OpenNeuroDatasets/ds005906) | 0 | :heavy_check_mark: |  |  | 2026-02-24 21:10:59+00:00 |
+| 1284 | [OpenNeuroDatasets/ds005906](https://github.com/OpenNeuroDatasets/ds005906) | 0 | :heavy_check_mark: |  |  | 2026-08-05 23:49:36+00:00 |
 | 1285 | [OpenNeuroDatasets/ds005907](https://github.com/OpenNeuroDatasets/ds005907) | 0 | :heavy_check_mark: |  |  | 2025-02-12 16:12:16+00:00 |
 | 1286 | [OpenNeuroDatasets/ds005917](https://github.com/OpenNeuroDatasets/ds005917) | 1 | :heavy_check_mark: |  |  | 2026-03-13 16:35:20+00:00 |
 | 1287 | [OpenNeuroDatasets/ds005920](https://github.com/OpenNeuroDatasets/ds005920) | 0 | :heavy_check_mark: |  |  | 2025-04-07 07:24:05+00:00 |
@@ -1354,7 +1354,7 @@
 | 1351 | [OpenNeuroDatasets/ds006191](https://github.com/OpenNeuroDatasets/ds006191) | 0 | :heavy_check_mark: |  |  | 2025-05-14 16:05:29+00:00 |
 | 1352 | [OpenNeuroDatasets/ds006192](https://github.com/OpenNeuroDatasets/ds006192) | 0 | :heavy_check_mark: |  |  | 2025-05-14 17:20:15+00:00 |
 | 1353 | [OpenNeuroDatasets/ds006193](https://github.com/OpenNeuroDatasets/ds006193) | 0 | :heavy_check_mark: |  |  | 2025-04-30 19:42:01+00:00 |
-| 1354 | [OpenNeuroDatasets/ds006206](https://github.com/OpenNeuroDatasets/ds006206) | 0 | :heavy_check_mark: |  |  | 2025-11-04 18:59:25+00:00 |
+| 1354 | [OpenNeuroDatasets/ds006206](https://github.com/OpenNeuroDatasets/ds006206) | 0 | :heavy_check_mark: |  |  | 2026-07-29 21:02:24+00:00 |
 | 1355 | [OpenNeuroDatasets/ds006207](https://github.com/OpenNeuroDatasets/ds006207) | 0 | :heavy_check_mark: |  |  | 2025-05-06 19:12:28+00:00 |
 | 1356 | [OpenNeuroDatasets/ds006209](https://github.com/OpenNeuroDatasets/ds006209) | 0 | :heavy_check_mark: |  |  | 2025-05-07 13:02:17+00:00 |
 | 1357 | [OpenNeuroDatasets/ds006211](https://github.com/OpenNeuroDatasets/ds006211) | 0 | :heavy_check_mark: |  |  | 2025-05-07 18:16:21+00:00 |
@@ -1382,7 +1382,7 @@
 | 1379 | [OpenNeuroDatasets/ds006366](https://github.com/OpenNeuroDatasets/ds006366) | 0 | :heavy_check_mark: |  |  | 2025-09-05 13:07:19+00:00 |
 | 1380 | [OpenNeuroDatasets/ds006367](https://github.com/OpenNeuroDatasets/ds006367) | 0 | :heavy_check_mark: |  |  | 2025-06-25 12:01:27+00:00 |
 | 1381 | [OpenNeuroDatasets/ds006370](https://github.com/OpenNeuroDatasets/ds006370) | 1 | :heavy_check_mark: |  |  | 2025-06-25 12:17:09+00:00 |
-| 1382 | [OpenNeuroDatasets/ds006373](https://github.com/OpenNeuroDatasets/ds006373) | 0 | :heavy_check_mark: |  |  | 2025-06-26 17:03:09+00:00 |
+| 1382 | [OpenNeuroDatasets/ds006373](https://github.com/OpenNeuroDatasets/ds006373) | 0 | :heavy_check_mark: |  |  | 2026-08-06 15:25:50+00:00 |
 | 1383 | [OpenNeuroDatasets/ds006374](https://github.com/OpenNeuroDatasets/ds006374) | 0 | :heavy_check_mark: |  |  | 2025-09-12 11:06:17+00:00 |
 | 1384 | [OpenNeuroDatasets/ds006377](https://github.com/OpenNeuroDatasets/ds006377) | 0 | :heavy_check_mark: |  |  | 2025-09-19 15:39:33+00:00 |
 | 1385 | [OpenNeuroDatasets/ds006386](https://github.com/OpenNeuroDatasets/ds006386) | 0 | :heavy_check_mark: |  |  | 2026-02-11 03:23:14+00:00 |
@@ -1638,7 +1638,7 @@
 | 1635 | [OpenNeuroDatasets/ds007468](https://github.com/OpenNeuroDatasets/ds007468) | 0 | :heavy_check_mark: |  |  | 2026-05-20 01:58:25+00:00 |
 | 1636 | [OpenNeuroDatasets/ds007471](https://github.com/OpenNeuroDatasets/ds007471) | 0 | :heavy_check_mark: |  |  | 2026-03-14 05:57:57+00:00 |
 | 1637 | [OpenNeuroDatasets/ds007473](https://github.com/OpenNeuroDatasets/ds007473) | 1 | :heavy_check_mark: |  |  | 2026-03-05 21:41:39+00:00 |
-| 1638 | [OpenNeuroDatasets/ds007474](https://github.com/OpenNeuroDatasets/ds007474) | 0 | :heavy_check_mark: |  |  | 2026-05-12 00:32:21+00:00 |
+| 1638 | [OpenNeuroDatasets/ds007474](https://github.com/OpenNeuroDatasets/ds007474) | 0 | :heavy_check_mark: |  |  | 2026-07-31 05:15:17+00:00 |
 | 1639 | [OpenNeuroDatasets/ds007477](https://github.com/OpenNeuroDatasets/ds007477) | 0 | :heavy_check_mark: |  |  | 2026-03-18 13:20:12+00:00 |
 | 1640 | [OpenNeuroDatasets/ds007486](https://github.com/OpenNeuroDatasets/ds007486) | 1 | :heavy_check_mark: |  |  | 2026-03-13 17:30:46+00:00 |
 | 1641 | [OpenNeuroDatasets/ds007508](https://github.com/OpenNeuroDatasets/ds007508) | 0 | :heavy_check_mark: |  |  | 2026-03-12 14:20:27+00:00 |
@@ -1651,7 +1651,7 @@
 | 1648 | [OpenNeuroDatasets/ds007532](https://github.com/OpenNeuroDatasets/ds007532) | 0 | :heavy_check_mark: |  |  | 2026-03-24 20:38:03+00:00 |
 | 1649 | [OpenNeuroDatasets/ds007534](https://github.com/OpenNeuroDatasets/ds007534) | 0 | :heavy_check_mark: |  |  | 2026-04-08 07:19:58+00:00 |
 | 1650 | [OpenNeuroDatasets/ds007535](https://github.com/OpenNeuroDatasets/ds007535) | 0 | :heavy_check_mark: |  |  | 2026-03-19 11:06:41+00:00 |
-| 1651 | [OpenNeuroDatasets/ds007537](https://github.com/OpenNeuroDatasets/ds007537) | 0 | :heavy_check_mark: |  |  | 2026-04-18 17:31:33+00:00 |
+| 1651 | [OpenNeuroDatasets/ds007537](https://github.com/OpenNeuroDatasets/ds007537) | 0 | :heavy_check_mark: |  |  | 2026-07-29 17:58:45+00:00 |
 | 1652 | [OpenNeuroDatasets/ds007541](https://github.com/OpenNeuroDatasets/ds007541) | 0 | :heavy_check_mark: |  |  | 2026-07-01 20:37:36+00:00 |
 | 1653 | [OpenNeuroDatasets/ds007543](https://github.com/OpenNeuroDatasets/ds007543) | 0 | :heavy_check_mark: |  |  | 2026-04-20 15:44:17+00:00 |
 | 1654 | [OpenNeuroDatasets/ds007544](https://github.com/OpenNeuroDatasets/ds007544) | 0 | :heavy_check_mark: |  |  | 2026-08-01 06:34:35+00:00 |
@@ -1763,7 +1763,7 @@
 | 1760 | [OpenNeuroDatasets/ds008159](https://github.com/OpenNeuroDatasets/ds008159) | 0 | :heavy_check_mark: |  |  | 2026-07-10 13:56:59+00:00 |
 | 1761 | [OpenNeuroDatasets/ds008161](https://github.com/OpenNeuroDatasets/ds008161) | 0 | :heavy_check_mark: |  |  | 2026-07-14 14:50:15+00:00 |
 | 1762 | [OpenNeuroDatasets/ds008162](https://github.com/OpenNeuroDatasets/ds008162) | 0 | :heavy_check_mark: |  |  | 2026-07-09 18:58:03+00:00 |
-| 1763 | [OpenNeuroDatasets/ds008192](https://github.com/OpenNeuroDatasets/ds008192) | 0 | :heavy_check_mark: |  |  | 2026-07-23 09:11:16+00:00 |
+| 1763 | [OpenNeuroDatasets/ds008192](https://github.com/OpenNeuroDatasets/ds008192) | 0 | :heavy_check_mark: |  |  | 2026-07-31 09:00:51+00:00 |
 | 1764 | [OpenNeuroDatasets/ds008255](https://github.com/OpenNeuroDatasets/ds008255) | 0 | :heavy_check_mark: |  |  | 2026-07-27 19:25:18+00:00 |
 | 1765 | [OpenNeuroDatasets/ds008321](https://github.com/OpenNeuroDatasets/ds008321) | 0 | :heavy_check_mark: |  |  | 2026-07-29 04:14:59+00:00 |
 | 1766 | [OpenNeuroDatasets/ds008325](https://github.com/OpenNeuroDatasets/ds008325) | 0 | :heavy_check_mark: |  |  | 2026-08-03 23:02:30+00:00 |
@@ -1782,9 +1782,10 @@
 | 1779 | [OpenNeuroDatasets/ds008589](https://github.com/OpenNeuroDatasets/ds008589) | 0 | :heavy_check_mark: |  |  | 2026-08-04 18:15:03+00:00 |
 | 1780 | [OpenNeuroDatasets/ds008590](https://github.com/OpenNeuroDatasets/ds008590) | 0 | :heavy_check_mark: |  |  | 2026-08-05 14:08:36+00:00 |
 | 1781 | [OpenNeuroDatasets/ds008599](https://github.com/OpenNeuroDatasets/ds008599) | 0 | :heavy_check_mark: |  |  | 2026-08-06 18:45:04+00:00 |
-| 1782 | [OpenNeuroDatasets/ds008602](https://github.com/OpenNeuroDatasets/ds008602) | 0 | :heavy_check_mark: |  |  | 2026-08-05 23:11:58+00:00 |
-| 1783 | [OpenNeuroDatasets/ds008606](https://github.com/OpenNeuroDatasets/ds008606) | 0 | :heavy_check_mark: |  |  | 2026-08-08 00:48:57+00:00 |
-| 1784 | [OpenNeuroDatasets/ds008610](https://github.com/OpenNeuroDatasets/ds008610) | 0 | :heavy_check_mark: |  |  | 2026-08-06 17:55:54+00:00 |
+| 1782 | [OpenNeuroDatasets/ds008600](https://github.com/OpenNeuroDatasets/ds008600) | 0 | :heavy_check_mark: |  |  | 2026-08-08 12:23:43+00:00 |
+| 1783 | [OpenNeuroDatasets/ds008602](https://github.com/OpenNeuroDatasets/ds008602) | 0 | :heavy_check_mark: |  |  | 2026-08-05 23:11:58+00:00 |
+| 1784 | [OpenNeuroDatasets/ds008606](https://github.com/OpenNeuroDatasets/ds008606) | 0 | :heavy_check_mark: |  |  | 2026-08-08 00:48:57+00:00 |
+| 1785 | [OpenNeuroDatasets/ds008610](https://github.com/OpenNeuroDatasets/ds008610) | 0 | :heavy_check_mark: |  |  | 2026-08-06 17:55:54+00:00 |
 
 ## Gone
 | # | Repository (39) | Stars (2) | Dataset (39) | `run` | `containers-run` | Last Modified |
