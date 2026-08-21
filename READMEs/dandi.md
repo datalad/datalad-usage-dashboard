@@ -6,9 +6,9 @@
 | 3 | [dandi/dandi-api-webshots](https://github.com/dandi/dandi-api-webshots) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-09-27 12:53:14+00:00 |
 | 4 | [dandi/dandi-api-webshots-staging](https://github.com/dandi/dandi-api-webshots-staging) | 0 | :heavy_check_mark: |  |  | 2021-12-20 08:47:12+00:00 |
 | 5 | [dandi/dandi-archive](https://github.com/dandi/dandi-archive) | 25 |  | :heavy_check_mark: |  | 2026-08-15 21:11:42+00:00 |
-| 6 | [dandi/dandi-bib](https://github.com/dandi/dandi-bib) | 0 |  | :heavy_check_mark: |  | 2026-08-07 05:07:47+00:00 |
+| 6 | [dandi/dandi-bib](https://github.com/dandi/dandi-bib) | 0 |  | :heavy_check_mark: |  | 2026-08-21 05:21:01+00:00 |
 | 7 | [dandi/dandi-cli](https://github.com/dandi/dandi-cli) | 27 |  | :heavy_check_mark: |  | 2026-08-11 20:17:36+00:00 |
-| 8 | [dandi/dandi-hub](https://github.com/dandi/dandi-hub) | 12 |  | :heavy_check_mark: |  | 2026-02-09 19:46:42+00:00 |
+| 8 | [dandi/dandi-hub](https://github.com/dandi/dandi-hub) | 12 |  | :heavy_check_mark: |  | 2026-08-12 20:49:46+00:00 |
 | 9 | [dandi/dandi-schema](https://github.com/dandi/dandi-schema) | 7 |  | :heavy_check_mark: |  | 2026-08-10 21:20:54+00:00 |
 | 10 | [dandi/dandiarchive-bucket-top](https://github.com/dandi/dandiarchive-bucket-top) | 0 |  | :heavy_check_mark: |  | 2026-01-08 03:03:56+00:00 |
 | 11 | [dandi/dandisets](https://github.com/dandi/dandisets) | 14 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-05-28 15:43:36+00:00 |
