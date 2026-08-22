@@ -1,13 +1,13 @@
 ## Active
-| # | Repository (48) | Stars (835) | Dataset (26) | `run` (28) | `containers-run` | Last Modified |
+| # | Repository (48) | Stars (837) | Dataset (26) | `run` (28) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  | 2024-08-08 09:09:32+00:00 |
-| 2 | [datalad/datalad](https://github.com/datalad/datalad) | 654 |  | :heavy_check_mark: |  | 2026-08-04 17:50:42+00:00 |
+| 2 | [datalad/datalad](https://github.com/datalad/datalad) | 656 |  | :heavy_check_mark: |  | 2026-08-22 03:15:29+00:00 |
 | 3 | [datalad/datalad-action-test](https://github.com/datalad/datalad-action-test) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-02-10 01:42:57+00:00 |
 | 4 | [datalad/datalad-blog](https://github.com/datalad/datalad-blog) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-04-25 13:53:51+00:00 |
 | 5 | [datalad/datalad-catalog](https://github.com/datalad/datalad-catalog) | 18 |  | :heavy_check_mark: |  | 2024-11-28 20:35:52+00:00 |
 | 6 | [datalad/datalad-container](https://github.com/datalad/datalad-container) | 11 |  | :heavy_check_mark: |  | 2026-07-20 21:52:39+00:00 |
-| 7 | [datalad/datalad-crawler](https://github.com/datalad/datalad-crawler) | 7 |  | :heavy_check_mark: |  | 2026-07-27 13:30:22+00:00 |
+| 7 | [datalad/datalad-crawler](https://github.com/datalad/datalad-crawler) | 7 |  | :heavy_check_mark: |  | 2026-08-20 20:57:24+00:00 |
 | 8 | [datalad/datalad-dataverse](https://github.com/datalad/datalad-dataverse) | 10 |  | :heavy_check_mark: |  | 2024-10-29 14:50:42+00:00 |
 | 9 | [datalad/datalad-deprecated](https://github.com/datalad/datalad-deprecated) | 0 |  | :heavy_check_mark: |  | 2026-07-20 12:40:13+00:00 |
 | 10 | [datalad/datalad-ebrains](https://github.com/datalad/datalad-ebrains) | 3 |  | :heavy_check_mark: |  | 2023-07-14 11:33:10+00:00 |
