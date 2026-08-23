@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (114) | Stars (136) | Dataset (80) | `run` (49) | `containers-run` (32) | Last Modified |
+| # | Repository (114) | Stars (137) | Dataset (80) | `run` (49) | `containers-run` (32) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [courtois-neuromod/IBC](https://github.com/courtois-neuromod/IBC) | 0 | :heavy_check_mark: |  |  | 2020-05-27 13:39:11+00:00 |
-| 2 | [courtois-neuromod/algonauts_2025.competitors](https://github.com/courtois-neuromod/algonauts_2025.competitors) | 67 | :heavy_check_mark: |  |  | 2025-09-08 14:53:55+00:00 |
+| 2 | [courtois-neuromod/algonauts_2025.competitors](https://github.com/courtois-neuromod/algonauts_2025.competitors) | 68 | :heavy_check_mark: |  |  | 2025-09-08 14:53:55+00:00 |
 | 3 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 2 | :heavy_check_mark: |  |  | 2026-07-29 19:30:10+00:00 |
 | 4 | [courtois-neuromod/anat.atlases](https://github.com/courtois-neuromod/anat.atlases) | 0 | :heavy_check_mark: |  |  | 2026-06-18 13:29:26+00:00 |
 | 5 | [courtois-neuromod/anat.freesurfer](https://github.com/courtois-neuromod/anat.freesurfer) | 0 | :heavy_check_mark: |  |  | 2026-06-18 13:29:36+00:00 |
@@ -14,7 +14,7 @@
 | 11 | [courtois-neuromod/cimaq_fmriprep](https://github.com/courtois-neuromod/cimaq_fmriprep) | 0 | :heavy_check_mark: |  |  | 2021-09-25 19:52:39+00:00 |
 | 12 | [courtois-neuromod/cneuromod](https://github.com/courtois-neuromod/cneuromod) | 22 | :heavy_check_mark: |  |  | 2026-05-13 19:32:39+00:00 |
 | 13 | [courtois-neuromod/cneuromod-things](https://github.com/courtois-neuromod/cneuromod-things) | 9 | :heavy_check_mark: |  |  | 2026-05-07 15:42:47+00:00 |
-| 14 | [courtois-neuromod/cneuromod.all.comparison](https://github.com/courtois-neuromod/cneuromod.all.comparison) | 0 | :heavy_check_mark: |  |  | 2026-06-13 11:37:37+00:00 |
+| 14 | [courtois-neuromod/cneuromod.all.comparison](https://github.com/courtois-neuromod/cneuromod.all.comparison) | 0 | :heavy_check_mark: |  |  | 2026-08-20 14:28:05+00:00 |
 | 15 | [courtois-neuromod/cneuromod.fmriprep](https://github.com/courtois-neuromod/cneuromod.fmriprep) | 0 | :heavy_check_mark: |  |  | 2026-05-12 15:33:49+00:00 |
 | 16 | [courtois-neuromod/cneuromod.processed](https://github.com/courtois-neuromod/cneuromod.processed) | 2 | :heavy_check_mark: |  |  | 2026-05-12 15:34:01+00:00 |
 | 17 | [courtois-neuromod/cneuromod_extract_tseries](https://github.com/courtois-neuromod/cneuromod_extract_tseries) | 0 | :heavy_check_mark: |  |  | 2026-06-12 02:56:12+00:00 |
