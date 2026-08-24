@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (15) | Stars (1320) | Dataset (1) | `run` (14) | `containers-run` | Last Modified |
+| # | Repository (15) | Stars (1321) | Dataset (1) | `run` (14) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [bids-standard/2026-os4ls-bids](https://github.com/bids-standard/2026-os4ls-bids) | 0 |  | :heavy_check_mark: |  | 2026-07-21 15:50:35+00:00 |
 | 2 | [bids-standard/BEP028_BIDSprov](https://github.com/bids-standard/BEP028_BIDSprov) | 5 |  | :heavy_check_mark: |  | 2025-12-15 13:12:19+00:00 |
@@ -10,9 +10,9 @@
 | 7 | [bids-standard/bids-specification](https://github.com/bids-standard/bids-specification) | 366 |  | :heavy_check_mark: |  | 2026-08-10 21:58:53+00:00 |
 | 8 | [bids-standard/bids-specification-ignore](https://github.com/bids-standard/bids-specification-ignore) | 0 |  | :heavy_check_mark: |  | 2022-07-14 19:58:22+00:00 |
 | 9 | [bids-standard/bids-starter-kit](https://github.com/bids-standard/bids-starter-kit) | 277 |  | :heavy_check_mark: |  | 2025-02-21 16:36:13+00:00 |
-| 10 | [bids-standard/bids-utils](https://github.com/bids-standard/bids-utils) | 3 |  | :heavy_check_mark: |  | 2026-06-02 18:03:32+00:00 |
+| 10 | [bids-standard/bids-utils](https://github.com/bids-standard/bids-utils) | 3 |  | :heavy_check_mark: |  | 2026-08-20 18:13:29+00:00 |
 | 11 | [bids-standard/bids-validator](https://github.com/bids-standard/bids-validator) | 48 |  | :heavy_check_mark: |  | 2026-08-10 17:05:07+00:00 |
-| 12 | [bids-standard/bids-website](https://github.com/bids-standard/bids-website) | 90 |  | :heavy_check_mark: |  | 2026-08-09 07:59:42+00:00 |
+| 12 | [bids-standard/bids-website](https://github.com/bids-standard/bids-website) | 91 |  | :heavy_check_mark: |  | 2026-08-20 18:23:21+00:00 |
 | 13 | [bids-standard/model-zoo](https://github.com/bids-standard/model-zoo) | 6 | :heavy_check_mark: |  |  | 2023-08-07 18:42:26+00:00 |
 | 14 | [bids-standard/pybids](https://github.com/bids-standard/pybids) | 263 |  | :heavy_check_mark: |  | 2026-08-04 20:13:03+00:00 |
 | 15 | [bids-standard/python-validator](https://github.com/bids-standard/python-validator) | 10 |  | :heavy_check_mark: |  | 2026-08-10 00:53:23+00:00 |
