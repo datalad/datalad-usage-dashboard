@@ -3,7 +3,7 @@
 This file is automatically updated using GitHub Actions workflows. It lists Git repositories discovered on GitHub and other hosts that either are [DataLad](https://www.datalad.org) datasets or else had `datalad run` used on them. Furthermore, the [`datalad-repos.json`](./datalad-repos.json) file in this repository is used by https://registry.datalad.org/ to provide up-to-date metadata for these repositories and support metadata-based searches.
 
 # Summary
-- [GitHub](#github): [5924](#in-the-wild) in the wild + [6688](#inner-circle) inner-circle + [272](#gone) gone
+- [GitHub](#github): [5925](#in-the-wild) in the wild + [6688](#inner-circle) inner-circle + [272](#gone) gone
 - [OSF](#osf): [204](#active) active + [83](#gone-1) gone
 - [GIN](#gin): [974](#active-1) active + [14](#gone-2) gone
 - [hub.datalad.org](#hubdataladorg): [4628](#active-2) active + [1](#gone-3) gone
@@ -11,9 +11,9 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # GitHub
 ## In the wild
-| # | Repository (5924) | Stars (1190280) | Dataset (4568) | `run` (1663) | `containers-run` (195) | Last Modified |
+| # | Repository (5925) | Stars (1191994) | Dataset (4569) | `run` (1663) | `containers-run` (195) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [0sage/atom](https://github.com/0sage/atom) | 0 |  | :heavy_check_mark: |  | 2026-08-12 18:56:23+00:00 |
+| 1 | [0sage/atom](https://github.com/0sage/atom) | 1 |  | :heavy_check_mark: |  | 2026-08-21 08:12:13+00:00 |
 | 2 | [1104HARI/*](https://github.com/1104HARI) [(2)](READMEs/1104HARI.md) | [0](READMEs/1104HARI.md) |  | [:heavy_check_mark: (2)](READMEs/1104HARI.md) |  | 2023-12-06 09:12:59+00:00 |
 | 3 | [1234563782/Nexus](https://github.com/1234563782/Nexus) | 1 |  | :heavy_check_mark: |  | 2026-08-15 13:49:55+00:00 |
 | 4 | [12Rameshwar/Open-AI](https://github.com/12Rameshwar/Open-AI) | 0 |  | :heavy_check_mark: |  | 2025-08-18 14:26:30+00:00 |
@@ -129,7 +129,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 114 | [HEALTHCHASE/*](https://github.com/HEALTHCHASE) [(2)](READMEs/HEALTHCHASE.md) | [0](READMEs/HEALTHCHASE.md) |  | [:heavy_check_mark: (2)](READMEs/HEALTHCHASE.md) |  | 2025-05-16 01:18:50+00:00 |
 | 115 | [HIP-infrastructure/Bidsificator](https://github.com/HIP-infrastructure/Bidsificator) | 1 |  | :heavy_check_mark: |  | 2026-07-24 08:50:06+00:00 |
 | 116 | [HITjige/Paper-Master](https://github.com/HITjige/Paper-Master) | 0 |  | :heavy_check_mark: |  | 2026-05-13 08:28:17+00:00 |
-| 117 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 46916 |  | :heavy_check_mark: |  | 2026-08-13 03:05:05+00:00 |
+| 117 | [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | 47406 |  | :heavy_check_mark: |  | 2026-08-26 06:54:07+00:00 |
 | 118 | [HarmonizedMRI/PulCeq](https://github.com/HarmonizedMRI/PulCeq) | 10 |  | :heavy_check_mark: |  | 2026-03-04 14:03:17+00:00 |
 | 119 | [Haterofppl/mcp-tool](https://github.com/Haterofppl/mcp-tool) | 0 |  | :heavy_check_mark: |  | 2025-06-26 10:07:44+00:00 |
 | 120 | [HealthBioscienceIDEAS/demon-imaging-data](https://github.com/HealthBioscienceIDEAS/demon-imaging-data) | 0 | :heavy_check_mark: |  |  | 2021-09-10 17:03:44+00:00 |
@@ -163,7 +163,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 148 | [JohnGriffiths/test_dl_dataset](https://github.com/JohnGriffiths/test_dl_dataset) | 0 | :heavy_check_mark: |  |  | 2020-04-03 04:13:52+00:00 |
 | 149 | [JujiaoKang/*](https://github.com/JujiaoKang) [(2)](READMEs/JujiaoKang.md) | [0](READMEs/JujiaoKang.md) | [:heavy_check_mark: (2)](READMEs/JujiaoKang.md) |  |  | 2022-06-25 13:52:15+00:00 |
 | 150 | [JuliaIO/Zarr.jl](https://github.com/JuliaIO/Zarr.jl) | 139 |  | :heavy_check_mark: |  | 2026-08-22 05:51:05+00:00 |
-| 151 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 33270 |  | :heavy_check_mark: |  | 2026-08-12 00:44:57+00:00 |
+| 151 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 34492 |  | :heavy_check_mark: |  | 2026-08-24 09:22:55+00:00 |
 | 152 | [KN375/open-webui](https://github.com/KN375/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-30 12:06:39+00:00 |
 | 153 | [KennethV007/SD1](https://github.com/KennethV007/SD1) | 0 |  | :heavy_check_mark: |  | 2026-04-20 19:43:31+00:00 |
 | 154 | [KevinWuWon/kevinwuwon.github.io](https://github.com/KevinWuWon/kevinwuwon.github.io) | 0 |  | :heavy_check_mark: |  | 2025-07-09 05:48:33+00:00 |
@@ -599,7 +599,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 584 | [howard-wong/nanobot](https://github.com/howard-wong/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-08 17:04:21+00:00 |
 | 585 | [htwangtw/hrvtrt](https://github.com/htwangtw/hrvtrt) | 0 | :heavy_check_mark: |  |  | 2021-05-26 11:19:44+00:00 |
 | 586 | [huaihuaiweng/open-webui](https://github.com/huaihuaiweng/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-11-12 00:50:13+00:00 |
-| 587 | [huangserva/NanoAgent](https://github.com/huangserva/NanoAgent) | 1 |  | :heavy_check_mark: |  | 2026-05-17 10:44:40+00:00 |
+| 587 | [huangserva/NanoAgent](https://github.com/huangserva/NanoAgent) | 2 |  | :heavy_check_mark: |  | 2026-05-17 10:44:40+00:00 |
 | 588 | [huhudejueqi/huhudejueqi](https://github.com/huhudejueqi/huhudejueqi) | 0 |  | :heavy_check_mark: |  | 2026-06-16 12:11:56+00:00 |
 | 589 | [hurngchunlee/*](https://github.com/hurngchunlee) [(2)](READMEs/hurngchunlee.md) | [0](READMEs/hurngchunlee.md) | [:heavy_check_mark: (2)](READMEs/hurngchunlee.md) |  |  | 2022-01-28 11:39:29+00:00 |
 | 590 | [hyruuk/task_stimuli](https://github.com/hyruuk/task_stimuli) | 0 | :heavy_check_mark: |  |  | 2026-05-26 13:41:06+00:00 |
@@ -756,14 +756,14 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 741 | [n0imposta/nanobot](https://github.com/n0imposta/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-13 21:18:45+00:00 |
 | 742 | [naldea/nnUnet](https://github.com/naldea/nnUnet) | 0 |  | :heavy_check_mark: |  | 2024-11-01 16:00:57+00:00 |
 | 743 | [naming123/nnUNet_NCCT](https://github.com/naming123/nnUNet_NCCT) | 0 |  | :heavy_check_mark: |  | 2025-02-10 11:47:20+00:00 |
-| 744 | [nanoinfraorg/nanoinfra](https://github.com/nanoinfraorg/nanoinfra) | 0 |  | :heavy_check_mark: |  | 2026-08-13 02:48:36+00:00 |
+| 744 | [nanoinfraorg/nanoinfra](https://github.com/nanoinfraorg/nanoinfra) | 0 |  | :heavy_check_mark: |  | 2026-08-26 03:10:39+00:00 |
 | 745 | [nata1ka89/my-presentation](https://github.com/nata1ka89/my-presentation) | 0 |  | :heavy_check_mark: |  | 2025-04-26 09:08:31+00:00 |
 | 746 | [naturalistic-data-analysis/naturalistic-data](https://github.com/naturalistic-data-analysis/naturalistic-data) | 1 | :heavy_check_mark: |  |  | 2020-07-13 21:43:12+00:00 |
 | 747 | [navenchary/drf](https://github.com/navenchary/drf) | 0 |  | :heavy_check_mark: |  | 2025-09-08 11:27:50+00:00 |
 | 748 | [nbirnel/who-owns-the-housing](https://github.com/nbirnel/who-owns-the-housing) | 0 |  | :heavy_check_mark: |  | 2025-05-30 19:07:06+00:00 |
 | 749 | [nebius/soperator](https://github.com/nebius/soperator) | 418 |  | :heavy_check_mark: |  | 2026-08-20 15:54:48+00:00 |
 | 750 | [nektos/act](https://github.com/nektos/act) | 71616 |  | :heavy_check_mark: |  | 2026-08-09 22:50:11+00:00 |
-| 751 | [nemarDatasets/*](https://github.com/nemarDatasets) [(778)](READMEs/nemarDatasets.md) | [8](READMEs/nemarDatasets.md) | [:heavy_check_mark: (778)](READMEs/nemarDatasets.md) |  |  | 2026-08-24 03:00:09+00:00 |
+| 751 | [nemarDatasets/*](https://github.com/nemarDatasets) [(779)](READMEs/nemarDatasets.md) | [8](READMEs/nemarDatasets.md) | [:heavy_check_mark: (779)](READMEs/nemarDatasets.md) |  |  | 2026-08-26 05:17:48+00:00 |
 | 752 | [neronain/open-webui](https://github.com/neronain/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 13:50:23+00:00 |
 | 753 | [netbox-community/netbox](https://github.com/netbox-community/netbox) | 21346 |  | :heavy_check_mark: |  | 2026-08-22 05:06:34+00:00 |
 | 754 | [netinvent/command_runner](https://github.com/netinvent/command_runner) | 44 |  | :heavy_check_mark: |  | 2026-06-03 16:14:45+00:00 |
