@@ -1,10 +1,10 @@
 ## Active
-| # | Repository (9) | Stars (288) | Dataset (5) | `run` (6) | `containers-run` | Last Modified |
+| # | Repository (9) | Stars (291) | Dataset (5) | `run` (6) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [PennLINC/AtlasPack](https://github.com/PennLINC/AtlasPack) | 31 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-08-28 14:37:49+00:00 |
-| 2 | [PennLINC/CuBIDS](https://github.com/PennLINC/CuBIDS) | 31 |  | :heavy_check_mark: |  | 2026-07-27 00:32:49+00:00 |
+| 1 | [PennLINC/AtlasPack](https://github.com/PennLINC/AtlasPack) | 33 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-08-28 14:37:49+00:00 |
+| 2 | [PennLINC/CuBIDS](https://github.com/PennLINC/CuBIDS) | 31 |  | :heavy_check_mark: |  | 2026-08-31 19:38:25+00:00 |
 | 3 | [PennLINC/HBN_BIDS](https://github.com/PennLINC/HBN_BIDS) | 1 | :heavy_check_mark: |  |  | 2021-08-24 21:06:26+00:00 |
-| 4 | [PennLINC/babs](https://github.com/PennLINC/babs) | 12 |  | :heavy_check_mark: |  | 2026-08-04 19:19:59+00:00 |
+| 4 | [PennLINC/babs](https://github.com/PennLINC/babs) | 13 |  | :heavy_check_mark: |  | 2026-08-27 17:14:55+00:00 |
 | 5 | [PennLINC/containers](https://github.com/PennLINC/containers) | 0 | :heavy_check_mark: |  |  | 2021-08-12 14:54:21+00:00 |
 | 6 | [PennLINC/dMRI_HMC_Benchmark](https://github.com/PennLINC/dMRI_HMC_Benchmark) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2022-04-28 15:40:36+00:00 |
 | 7 | [PennLINC/freesurfer_tabulate](https://github.com/PennLINC/freesurfer_tabulate) | 2 | :heavy_check_mark: |  |  | 2024-01-18 21:31:12+00:00 |
