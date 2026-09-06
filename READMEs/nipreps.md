@@ -8,7 +8,7 @@
 | 5 | [nipreps/nipreps.github.io](https://github.com/nipreps/nipreps.github.io) | 3 |  | :heavy_check_mark: |  | 2026-05-07 12:31:30+00:00 |
 | 6 | [nipreps/nireports](https://github.com/nipreps/nireports) | 13 |  | :heavy_check_mark: |  | 2026-08-27 05:06:39+00:00 |
 | 7 | [nipreps/niworkflows](https://github.com/nipreps/niworkflows) | 117 |  | :heavy_check_mark: |  | 2026-08-19 16:56:12+00:00 |
-| 8 | [nipreps/sdcflows](https://github.com/nipreps/sdcflows) | 45 |  | :heavy_check_mark: |  | 2026-08-17 22:35:47+00:00 |
+| 8 | [nipreps/sdcflows](https://github.com/nipreps/sdcflows) | 45 |  | :heavy_check_mark: |  | 2026-09-04 01:08:43+00:00 |
 | 9 | [nipreps/smriprep](https://github.com/nipreps/smriprep) | 164 |  | :heavy_check_mark: |  | 2026-08-25 23:18:36+00:00 |
 
 ## Gone

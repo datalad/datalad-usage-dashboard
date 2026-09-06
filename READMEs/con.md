@@ -9,9 +9,9 @@
 | 6 | [con/demos](https://github.com/con/demos) | 0 |  | :heavy_check_mark: |  | 2025-11-17 20:33:51+00:00 |
 | 7 | [con/duct](https://github.com/con/duct) | 12 |  | :heavy_check_mark: |  | 2026-09-02 03:20:20+00:00 |
 | 8 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-04-25 17:10:50+00:00 |
-| 9 | [con/eval-under](https://github.com/con/eval-under) | 0 |  | :heavy_check_mark: |  | 2026-08-21 20:54:42+00:00 |
+| 9 | [con/eval-under](https://github.com/con/eval-under) | 0 |  | :heavy_check_mark: |  | 2026-08-31 11:53:54+00:00 |
 | 10 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2026-08-31 01:42:36+00:00 |
-| 11 | [con/git-annex](https://github.com/con/git-annex) | 29 |  | :heavy_check_mark: |  | 2026-08-21 14:22:27+00:00 |
+| 11 | [con/git-annex](https://github.com/con/git-annex) | 29 |  | :heavy_check_mark: |  | 2026-09-05 17:46:31+00:00 |
 | 12 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
 | 13 | [con/mechababs](https://github.com/con/mechababs) | 1 |  | :heavy_check_mark: |  | 2026-09-04 21:13:32+00:00 |
 | 14 | [con/nwb2bids](https://github.com/con/nwb2bids) | 5 |  | :heavy_check_mark: |  | 2026-07-06 20:54:45+00:00 |
