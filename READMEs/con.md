@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (27) | Stars (144) | Dataset (2) | `run` (27) | `containers-run` | Last Modified |
+| # | Repository (28) | Stars (144) | Dataset (2) | `run` (28) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  | 2026-07-08 15:59:17+00:00 |
 | 2 | [con/annextube](https://github.com/con/annextube) | 3 |  | :heavy_check_mark: |  | 2026-08-29 06:57:29+00:00 |
@@ -7,27 +7,28 @@
 | 4 | [con/centerforopenneuroscience.org](https://github.com/con/centerforopenneuroscience.org) | 4 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-07-09 02:00:28+00:00 |
 | 5 | [con/citations-collector](https://github.com/con/citations-collector) | 2 |  | :heavy_check_mark: |  | 2026-07-09 22:47:25+00:00 |
 | 6 | [con/demos](https://github.com/con/demos) | 0 |  | :heavy_check_mark: |  | 2025-11-17 20:33:51+00:00 |
-| 7 | [con/duct](https://github.com/con/duct) | 12 |  | :heavy_check_mark: |  | 2026-09-02 03:20:20+00:00 |
-| 8 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-04-25 17:10:50+00:00 |
-| 9 | [con/eval-under](https://github.com/con/eval-under) | 0 |  | :heavy_check_mark: |  | 2026-08-31 11:53:54+00:00 |
-| 10 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2026-08-31 01:42:36+00:00 |
-| 11 | [con/git-annex](https://github.com/con/git-annex) | 29 |  | :heavy_check_mark: |  | 2026-09-05 17:46:31+00:00 |
-| 12 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
-| 13 | [con/mechababs](https://github.com/con/mechababs) | 1 |  | :heavy_check_mark: |  | 2026-09-04 21:13:32+00:00 |
-| 14 | [con/nwb2bids](https://github.com/con/nwb2bids) | 5 |  | :heavy_check_mark: |  | 2026-07-06 20:54:45+00:00 |
-| 15 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 45 |  | :heavy_check_mark: |  | 2026-05-14 14:01:49+00:00 |
-| 16 | [con/opfvta-reexecution](https://github.com/con/opfvta-reexecution) | 1 |  | :heavy_check_mark: |  | 2024-08-02 08:06:56+00:00 |
-| 17 | [con/serve](https://github.com/con/serve) | 0 |  | :heavy_check_mark: |  | 2026-05-19 14:28:17+00:00 |
-| 18 | [con/serve-wayback-archive-demo](https://github.com/con/serve-wayback-archive-demo) | 0 |  | :heavy_check_mark: |  | 2026-05-11 15:25:00+00:00 |
-| 19 | [con/shub](https://github.com/con/shub) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-10-19 16:30:00+00:00 |
-| 20 | [con/solidation](https://github.com/con/solidation) | 0 |  | :heavy_check_mark: |  | 2026-07-20 07:22:47+00:00 |
-| 21 | [con/talks](https://github.com/con/talks) | 0 |  | :heavy_check_mark: |  | 2026-08-15 02:54:13+00:00 |
-| 22 | [con/tinuous](https://github.com/con/tinuous) | 10 |  | :heavy_check_mark: |  | 2026-08-21 17:59:37+00:00 |
-| 23 | [con/tributors](https://github.com/con/tributors) | 14 |  | :heavy_check_mark: |  | 2026-05-19 18:13:13+00:00 |
-| 24 | [con/try-aind-1](https://github.com/con/try-aind-1) | 0 |  | :heavy_check_mark: |  | 2025-11-13 21:10:33+00:00 |
-| 25 | [con/visidata-demos](https://github.com/con/visidata-demos) | 0 |  | :heavy_check_mark: |  | 2026-08-20 22:25:20+00:00 |
-| 26 | [con/yarikoptic-historia](https://github.com/con/yarikoptic-historia) | 0 |  | :heavy_check_mark: |  | 2026-08-13 14:21:32+00:00 |
-| 27 | [con/yolo](https://github.com/con/yolo) | 13 |  | :heavy_check_mark: |  | 2026-08-20 22:08:47+00:00 |
+| 7 | [con/dev-centerforopenneuroscience.org](https://github.com/con/dev-centerforopenneuroscience.org) | 0 |  | :heavy_check_mark: |  | 2026-09-09 06:30:27+00:00 |
+| 8 | [con/duct](https://github.com/con/duct) | 12 |  | :heavy_check_mark: |  | 2026-09-02 03:20:20+00:00 |
+| 9 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-04-25 17:10:50+00:00 |
+| 10 | [con/eval-under](https://github.com/con/eval-under) | 0 |  | :heavy_check_mark: |  | 2026-08-31 11:53:54+00:00 |
+| 11 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2026-08-31 01:42:36+00:00 |
+| 12 | [con/git-annex](https://github.com/con/git-annex) | 29 |  | :heavy_check_mark: |  | 2026-09-05 17:46:31+00:00 |
+| 13 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
+| 14 | [con/mechababs](https://github.com/con/mechababs) | 1 |  | :heavy_check_mark: |  | 2026-09-04 21:13:32+00:00 |
+| 15 | [con/nwb2bids](https://github.com/con/nwb2bids) | 5 |  | :heavy_check_mark: |  | 2026-07-06 20:54:45+00:00 |
+| 16 | [con/open-brain-consent](https://github.com/con/open-brain-consent) | 45 |  | :heavy_check_mark: |  | 2026-05-14 14:01:49+00:00 |
+| 17 | [con/opfvta-reexecution](https://github.com/con/opfvta-reexecution) | 1 |  | :heavy_check_mark: |  | 2024-08-02 08:06:56+00:00 |
+| 18 | [con/serve](https://github.com/con/serve) | 0 |  | :heavy_check_mark: |  | 2026-05-19 14:28:17+00:00 |
+| 19 | [con/serve-wayback-archive-demo](https://github.com/con/serve-wayback-archive-demo) | 0 |  | :heavy_check_mark: |  | 2026-05-11 15:25:00+00:00 |
+| 20 | [con/shub](https://github.com/con/shub) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-10-19 16:30:00+00:00 |
+| 21 | [con/solidation](https://github.com/con/solidation) | 0 |  | :heavy_check_mark: |  | 2026-07-20 07:22:47+00:00 |
+| 22 | [con/talks](https://github.com/con/talks) | 0 |  | :heavy_check_mark: |  | 2026-08-15 02:54:13+00:00 |
+| 23 | [con/tinuous](https://github.com/con/tinuous) | 10 |  | :heavy_check_mark: |  | 2026-08-21 17:59:37+00:00 |
+| 24 | [con/tributors](https://github.com/con/tributors) | 14 |  | :heavy_check_mark: |  | 2026-05-19 18:13:13+00:00 |
+| 25 | [con/try-aind-1](https://github.com/con/try-aind-1) | 0 |  | :heavy_check_mark: |  | 2025-11-13 21:10:33+00:00 |
+| 26 | [con/visidata-demos](https://github.com/con/visidata-demos) | 0 |  | :heavy_check_mark: |  | 2026-08-20 22:25:20+00:00 |
+| 27 | [con/yarikoptic-historia](https://github.com/con/yarikoptic-historia) | 0 |  | :heavy_check_mark: |  | 2026-08-13 14:21:32+00:00 |
+| 28 | [con/yolo](https://github.com/con/yolo) | 13 |  | :heavy_check_mark: |  | 2026-08-20 22:08:47+00:00 |
 
 ## Gone
 No repositories found!
