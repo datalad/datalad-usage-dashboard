@@ -10,7 +10,7 @@
 | 7 | [leej3/datalad_demo-Halchenko-Yarik-950_bids_test4-.heudiconv](https://github.com/leej3/datalad_demo-Halchenko-Yarik-950_bids_test4-.heudiconv) | 0 | :heavy_check_mark: |  |  | 2019-05-23 13:56:05+00:00 |
 | 8 | [leej3/datalad_test](https://github.com/leej3/datalad_test) | 0 | :heavy_check_mark: |  |  | 2019-05-23 13:42:13+00:00 |
 | 9 | [leej3/heudiconv-joss-paper](https://github.com/leej3/heudiconv-joss-paper) | 0 | :heavy_check_mark: |  |  | 2023-06-16 10:43:03+00:00 |
-| 10 | [leej3/orinoco-lite-demo](https://github.com/leej3/orinoco-lite-demo) | 0 |  | :heavy_check_mark: |  | 2026-08-25 04:34:30+00:00 |
+| 10 | [leej3/orinoco-lite-demo](https://github.com/leej3/orinoco-lite-demo) | 0 |  | :heavy_check_mark: |  | 2026-09-09 15:23:51+00:00 |
 | 11 | [leej3/s3annextest](https://github.com/leej3/s3annextest) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2019-06-28 13:24:40+00:00 |
 
 ## Gone
