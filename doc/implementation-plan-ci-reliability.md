@@ -5,12 +5,12 @@ last 15 `update-gin.yml` runs, and the current `datalad-repos.json`.
 
 ## 1. What is failing
 
-| Cause | Runs | Evidence |
-|-------|------|----------|
-| OSF `/v2/nodes/` 5xx on the first page | 6 (Sep 4, 7, 11, 12, 13, 14) | 502 after exactly 60 s (Sep 13); 500 in 0.17 s (Sep 14) |
-| 30-minute per-attempt timeout | 3 (Aug 17, 29, 30) | `Timeout of 1800000ms hit` |
-| GitHub primary rate limit exhausted | (Aug 29, above) | `Primary rate limit exceeded` -> 755 s sleep -> timeout |
-| GIN `/api/v1/repos/search` HTML 403 | 7 of 15 `update-gin.yml` runs | `Request forbidden by administrative rules.` |
+| Cause                                  | Runs                          | Evidence                                                |
+|----------------------------------------|-------------------------------|---------------------------------------------------------|
+| OSF `/v2/nodes/` 5xx on the first page | 6 (Sep 4, 7, 11, 12, 13, 14)  | 502 after exactly 60 s (Sep 13); 500 in 0.17 s (Sep 14) |
+| 30-minute per-attempt timeout          | 3 (Aug 17, 29, 30)            | `Timeout of 1800000ms hit`                              |
+| GitHub primary rate limit exhausted    | (Aug 29, above)               | `Primary rate limit exceeded` -> 755 s sleep -> timeout |
+| GIN `/api/v1/repos/search` HTML 403    | 7 of 15 `update-gin.yml` runs | `Request forbidden by administrative rules.`            |
 
 9/60 runs are red, but 7 more went green only on attempt 2, so **27% of runs had a
 failed attempt**. Clean runs take 22-29 min against `timeout_minutes: 30`.
@@ -184,11 +184,72 @@ Not caused by this work; all verified against the code and the record.
 - `CenterForOpenScience/osf.io#11917` — follow-up ready at
   `doc/upstream/osf-11917-comment.md`. Corrects the "happened once" framing and
   adds the timing evidence that this is a query-performance problem.
-- G-Node — draft at `doc/upstream/gin-403-issue.md`. **Do not file it yet.**
-  `gin.py:98` sends no `limit` on `/repos/search` (server default 10-30, cap 50),
-  there is no throttling anywhere in `gin.py`, and the scan issues one raw-file GET
-  per public repo on their instance — ≥4,630 for hub.datalad.org alone. Set
-  `limit=50`, add a delay, measure, and only then ask G-Node whether the block is
-  by user-agent, IP or rate. Asking to be allowlisted for a scan we have not tried
-  to shrink is the wrong first move, and a WAF answering us on 7 of 15 runs may
-  well be a response to that volume.
+- G-Node — draft at `doc/upstream/gin-403-issue.md`. **Do not file it yet**; see
+  section 7.
+
+## 7. Reduce our GIN/forgejo traffic before asking G-Node for anything
+
+What the scan does today, per host, every run, for GIN + hub.datalad.org + ATRIS:
+
+1. Paginate `/repos/search` over **every public repo on the instance**, not just
+   the DataLad ones (`gin.py:90-117`).
+2. For **every** repo returned, GET
+   `/repos/{repo}/raw/{branch}/.datalad/config` (`gin.py:140-155`) — including
+   repos we already know are datasets and repos we already know are not.
+
+Nothing is cached between runs, and there is no throttling anywhere in `gin.py`
+(contrast `github.py:25`, `INTER_SEARCH_DELAY = 10`).
+
+Observed in the 2026-09-12 run (36 min of command time for the three hosts):
+
+| Observation                                          | Evidence                                              |
+|------------------------------------------------------|-------------------------------------------------------|
+| No `limit` sent; server pages are small               | `/repos/search?page=N&private=false&is_private=false` |
+| One content GET per enumerated repo, back to back     | ~130-450 ms apart, ~5-7 req/s sustained, no sleep     |
+| `Range: 0-1` is ignored — full body returned         | responses are `200 63`, not `206` with 2 bytes        |
+| A GIN 403 also kills hub.datalad.org and ATRIS        | `__main__.py:82-87` runs them in one process          |
+
+The `Range` header is malformed: RFC 9110 requires a unit (`bytes=0-1`), and a
+server must ignore a range unit it does not understand. The intent to keep the
+request small is not being honoured.
+
+Steady-state active records — a lower bound on the content GETs we issue per run,
+since the scan also checks every *non*-DataLad public repo:
+
+| Host            | Active | Gone |
+|-----------------|-------:|-----:|
+| hub.datalad.org |  4,627 |    3 |
+| GIN             |    748 |  244 |
+| ATRIS           |    113 |    3 |
+
+### Order of work
+
+| Step | Change                                                                     | Where                        | Size | Effect                                  |
+|------|----------------------------------------------------------------------------|------------------------------|-----:|-----------------------------------------|
+| G0   | Log per-host request and page counts                                       | `gin.py`                     |   ~3 | the numbers that go in the issue        |
+| G1   | Send `limit=50` on `/repos/search`                                         | `gin.py:98`                  |    1 | up to ~5x fewer search pages            |
+| G2   | Fix `Range: 0-1` -> `bytes=0-1`                                            | `gin.py:147`                 |    1 | 2-byte 206 instead of the whole file    |
+| G3   | Throttle between requests                                                  | `gin.py`                     |   ~3 | bounds the burst rate the WAF sees      |
+| G4   | Skip the content check for a known dataset whose `updated_at` is unchanged | `gin.py:119-138` + updater   |  ~15 | removes ~5,400 GETs/run at steady state |
+| G5   | Persist a negative cache (repo id -> `updated_at` when last checked)       | `record.py` + `gin.py`       |  ~25 | removes most of what remains            |
+| G6   | *Verify then use:* `sort=updated&order=desc` with early stop               | `gin.py:98`                  |  ~10 | full sweep becomes incremental          |
+
+G4 is safe because removing `.datalad/config` bumps the repo's `updated_at`, so a
+dataset that stops being one is still re-checked. G5 needs a staleness bound
+(re-check anything not confirmed in ~90 days) in case `updated_at` does not move.
+G6 is the structural win but depends on whether Gogs (GIN) and forgejo
+(hub.datalad.org, ATRIS) both honour `sort`/`order` on `/repos/search` — test
+against each instance before relying on it.
+
+**Note:** the 2026-09-12 log shows ATRIS pagination terminating at page 6 with
+~10 content checks while page 5 was consumed, which does not square with 113
+active ATRIS records. That inconsistency is itself the argument for G0: we do not
+currently know our own request volume, and we should not quote numbers at G-Node
+that we have not measured.
+
+### Then file
+
+Run G0-G5 for two or three weekly cycles, fill the measured volume into the
+"Client details" section of `doc/upstream/gin-403-issue.md`, and only then ask
+G-Node whether the block is by user-agent, IP or rate. If the 403s stop once the
+volume drops, there may be nothing to file at all.
