@@ -120,3 +120,41 @@ def test_gone_flip_ceiling_floor_protects_small_hosts():
         osf(r.id, Status.GONE if i < 9 else Status.ACTIVE) for i, r in enumerate(before)
     ]
     check_gone_flip(RepoHost.OSF, before, after)
+
+
+def test_missing_record_does_not_rebuild_over_a_tracked_one(tmp_path, monkeypatch):
+    """A vanished record file must abort, not rebuild the dashboard from one run.
+
+    Every host would otherwise see an empty prior collection, which also
+    disables the gone-flip ceiling, so nothing else would catch it.
+    """
+    monkeypatch.chdir(tmp_path)
+    git("init", "-q", ".")
+    git("config", "user.email", "test@example.com")
+    git("config", "user.name", "Test")
+    (tmp_path / "datalad-repos.json").write_text(json.dumps(SEED))
+    (tmp_path / "github-orgs.json").write_text("{}")
+    git("add", "-A")
+    git("commit", "-qm", "seed")
+    (tmp_path / "datalad-repos.json").unlink()
+
+    def gin_ok(self):
+        yield GINRepo(
+            id=1,
+            name="owner/repo",
+            url="https://gin.g-node.org/owner/repo",
+            stars=7,
+            status=Status.ACTIVE,
+        )
+
+    monkeypatch.setattr(GINSearcher, "get_datalad_repos", gin_ok)
+    monkeypatch.setenv("GIN_TOKEN", "unused")
+
+    result = CliRunner().invoke(main, ["--hosts", "GIN"])
+
+    assert result.exit_code != 0
+    assert isinstance(result.exception, RuntimeError)
+    assert "refusing to start from an empty record" in str(result.exception)
+    # Nothing was committed over the seeded record.
+    assert git("rev-list", "--count", "HEAD").strip() == "1"
+    assert json.loads(git("show", "HEAD:datalad-repos.json")) == SEED

@@ -61,6 +61,16 @@ def runcmd(*args: str | Path, **kwargs: Any) -> None:
         sys.exit(r.returncode)
 
 
+def in_git_head(path: str) -> bool:
+    """Is `path` present in the current HEAD commit?"""
+    r = subprocess.run(
+        ["git", "cat-file", "-e", f"HEAD:{path}"],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+    return r.returncode == 0
+
+
 def commit(msg: str) -> None:
     if subprocess.run(["git", "diff", "--cached", "--quiet"]).returncode != 0:
         runcmd("git", "commit", "-m", msg)

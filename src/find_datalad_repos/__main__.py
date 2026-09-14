@@ -12,7 +12,7 @@ from .config import README_FOLDER, RECORD_FILE, GITHUB_ORGS_FILE
 from .core import RepoHost
 from .readmes import mkreadmes
 from .record import RepoRecord
-from .util import commit, log, runcmd
+from .util import commit, in_git_head, log, runcmd
 
 
 class RepoHostSet(click.ParamType):
@@ -72,6 +72,15 @@ def main(log_level: int, regen_readme: bool, hosts: set[RepoHost]) -> None:
         with open(RECORD_FILE, encoding="utf-8") as fp:
             record = RepoRecord.model_validate(json.load(fp))
     except FileNotFoundError:
+        if in_git_head(RECORD_FILE):
+            # Starting from an empty record here would rebuild the whole
+            # dashboard from a single run's results and commit that over the
+            # real one.  Every host would also skip the gone-flip ceiling,
+            # since it has nothing to compare against.
+            raise RuntimeError(
+                f"{RECORD_FILE} is missing from the working tree but present"
+                " in HEAD; refusing to start from an empty record."
+            ) from None
         record = RepoRecord()
 
     reports: list[str] = []
@@ -100,8 +109,12 @@ def main(log_level: int, regen_readme: bool, hosts: set[RepoHost]) -> None:
             except Exception:
                 log.exception("Updating %s failed; continuing", host.value)
                 failed.append(host.value)
-        with open(RECORD_FILE, "w") as fp:
+        # Serialise to a sibling and rename, so a failure partway through
+        # cannot leave a truncated record behind for `git add` to pick up.
+        tmpfile = RECORD_FILE + ".tmp"
+        with open(tmpfile, "w", encoding="utf-8") as fp:
             print(record.model_dump_json(indent=4), file=fp)
+        os.replace(tmpfile, RECORD_FILE)
 
     mkreadmes(record)
 

@@ -90,6 +90,20 @@ more than `max(10, 5%)` of a host's active repos, raising so the host is
 isolated and the rest of the run still commits. The floor of 10 sits above the
 observed 5-9 GIN flap.
 
+**Two ways the record could still be wiped, both closed here.** Raised in
+review on PR A:
+
+- **The record file goes missing.** `__main__` treated `FileNotFoundError` as
+  "first run" and started from an empty `RepoRecord`. Every host would then see
+  an empty prior collection, so the gone-flip ceiling above would *also* not
+  fire (`was_active == 0` skips it), and the run would commit a dashboard
+  rebuilt from one pass. Now: if the file is absent from the working tree but
+  present in `HEAD`, abort. A genuine first run, with nothing in `HEAD`, still
+  starts empty as before.
+- **A truncated write.** `open(RECORD_FILE, "w")` truncates immediately, so a
+  failure during serialisation left an empty file for `git add` to stage. Now
+  serialised to a sibling and `os.replace`d into position.
+
 **Prerequisite in the same commit:** two separate paths in `gin.py` treat a
 500 as evidence of absence and silently shrink `seen`, after which the sweep
 marks those repos gone. This already flaps in the record (5-9 GIN repos
