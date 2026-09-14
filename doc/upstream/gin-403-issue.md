@@ -1,6 +1,15 @@
 <!--
 Draft issue for G-Node about the GIN API 403.
 
+DO NOT FILE YET. Our own request rate is unmeasured and probably excessive:
+gin.py:98 sends no `limit` on /repos/search (server default 10-30, cap 50), there
+is no throttling anywhere in gin.py, and get_datalad_repos() issues one raw-file
+GET per public repo on the instance (>=4,630 for hub.datalad.org alone). A WAF
+answering us on 7 of 15 runs may be a response to that volume. Set limit=50, add
+a delay, observe a couple of runs, then file this with the measured numbers in
+the "Client details" section below. See doc/implementation-plan-ci-reliability.md
+section 6.
+
 Where to file: G-Node/gogs is the tracker we already use for GIN API problems
 (gin.py cites G-Node/gogs#148), but this 403 comes from a proxy in front of the
 application rather than from Gogs itself, so infrastructure contact
@@ -46,6 +55,8 @@ the whole job completes, so it is not a permanent block on our token.
 - Project: <https://github.com/datalad/datalad-usage-dashboard>, which indexes
   public DataLad datasets on GIN for <https://registry.datalad.org/>.
 - Schedule: **once a week**, Saturdays, single-threaded, no concurrency.
+- Request volume: _[fill in measured numbers after the limit=50 + throttling
+  change lands — see the comment at the top of this file]_
 - Client: python-requests via [`ghreq`](https://github.com/jwodder/ghreq).
 - User-Agent:
   `find_datalad_repos (https://github.com/datalad/datalad-usage-dashboard) requests/<version> CPython/3.14.x`

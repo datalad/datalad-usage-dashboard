@@ -1,116 +1,194 @@
 # Implementation Plan: Update-Workflow Reliability
 
-Evidence base: the 60 scheduled `update.yml` runs from 2026-07-17 to 2026-09-14,
-plus the last 15 `update-gin.yml` runs.
+Evidence: the 60 scheduled `update.yml` runs from 2026-07-17 to 2026-09-14, the
+last 15 `update-gin.yml` runs, and the current `datalad-repos.json`.
 
-## 1. Measured failure modes
+## 1. What is failing
 
-| # | Cause | Runs affected | Evidence |
-|---|-------|---------------|----------|
-| 1 | OSF `/v2/nodes/` returns 5xx on the first page | 6 (Sep 4, 7, 11, 12, 13, 14) | 502 after exactly 60 s (Sep 11-13); 500 in 0.17 s (Sep 14) |
-| 2 | 30-minute per-attempt timeout | 3 (Aug 17, 29, 30) | `Final attempt failed. Timeout of 1800000ms hit` |
-| 3 | GitHub primary rate limit exhausted | 1 (Aug 29, counted above) | `Primary rate limit exceeded; waiting for reset` -> 755 s sleep -> timeout |
-| 4 | GIN `/api/v1/repos/search` returns HTML 403 | 7 of 15 `update-gin.yml` runs | `403 Forbidden ... Request forbidden by administrative rules.` |
+| Cause | Runs | Evidence |
+|-------|------|----------|
+| OSF `/v2/nodes/` 5xx on the first page | 6 (Sep 4, 7, 11, 12, 13, 14) | 502 after exactly 60 s (Sep 13); 500 in 0.17 s (Sep 14) |
+| 30-minute per-attempt timeout | 3 (Aug 17, 29, 30) | `Timeout of 1800000ms hit` |
+| GitHub primary rate limit exhausted | (Aug 29, above) | `Primary rate limit exceeded` -> 755 s sleep -> timeout |
+| GIN `/api/v1/repos/search` HTML 403 | 7 of 15 `update-gin.yml` runs | `Request forbidden by administrative rules.` |
 
-Job-level failure rate is 9/60 (15%), but 7 further runs went green only on the
-second attempt (`Command completed after 2 attempt(s).`), so **27% of runs had at
-least one failed attempt**.
+9/60 runs are red, but 7 more went green only on attempt 2, so **27% of runs had a
+failed attempt**. Clean runs take 22-29 min against `timeout_minutes: 30`.
 
-Two amplifiers make each of those failures much more expensive than it should be:
+Two amplifiers turn small upstream faults into whole lost days:
 
-- **No partial persistence.** `OSFSearcher.paginate()` calls `sys.exit(1)`
-  (`src/find_datalad_repos/osf.py:70-72`) and `__main__.py:76-86` writes
-  `datalad-repos.json` only after every host finishes. A single OSF 502 discards
-  the ~22-minute GitHub scan that just completed. `origin/master` has had no
-  GitHub update since Sep 10 for exactly this reason.
-- **Blind whole-command retry.** `nick-fields/retry` re-runs the entire scan,
-  re-spending the GitHub rate-limit budget inside the same hour, and it sleeps
-  `retry_wait_seconds` even after the final attempt (900 s of dead runner time in
-  every failing log).
+- **No partial persistence.** `osf.py:73` calls `sys.exit(1)`; `__main__.py:76-90`
+  writes `datalad-repos.json` only after every host succeeds. One OSF 502 discards
+  the ~22-minute GitHub scan. No GitHub update has landed on master since Sep 10.
+- **Whole-command retry.** `nick-fields/retry` re-runs the entire scan. A failed
+  attempt costs ~1,900 core + ~100 search requests, so a retry spends ~3,800 core
+  requests inside one 5,000/hr window — that *is* the Aug 29 rate-limit failure.
+  It also sleeps `retry_wait_seconds` after the final attempt (900 s of dead
+  runner time in every failing log).
 
-Clean runs take 22-29 min (Jul median 24 -> Sep median 26) against
-`timeout_minutes: 30`.
+## 2. Commit 1 — stop losing work, stop double-scanning
 
-## 2. Fixes
+Order matters: the workflow changes are part of this commit, not a follow-up.
+Without them the Python change is inert.
 
-### A. Per-host failure isolation
+- `.github/workflows/update.yml`, `update-gin.yml`: **`if: always()` on the
+  `Push changes` step.** It currently has no `if:`, so it defaults to `success()`
+  and is skipped whenever the script exits non-zero — a partial commit would be
+  made in the runner and discarded with it.
+- `update.yml`: **drop the `nick-fields/retry` wrapper** for a plain `run:` with
+  `timeout-minutes: 45`. Once failures are isolated it protects nothing and costs
+  ~2,000 GitHub requests per failure. (Shortening `retry_wait_seconds` would make
+  this *worse* — it lands the second attempt inside the same rate-limit hour.)
+- `__main__.py`: run the five host updates in a loop of zero-arg callables, so the
+  `os.environ[...]` / `get_ghtoken()` lookups happen inside the `try` and a missing
+  token kills one host rather than all five. `except Exception` + `log.exception`,
+  accumulate failed host names, **always** write the record and commit, then
+  `sys.exit(1)` if anything failed. Name the skipped hosts in the commit message.
+- `osf.py:73`: `raise RuntimeError(...)` instead of `sys.exit(1)`. No new exception
+  type — every other host already fails with `ghreq.PrettyHTTPError` or
+  `RuntimeError`, so a bespoke `HostError` would isolate only the one host that
+  does not need it.
+- `osf.py:70`: add `timeout=(10, 90)`. There is no timeout on the OSF session at
+  all today; a hung connection burns the whole job budget.
+- `osf.py:80-83`: add `page[size]=100`, keep the `links.next` loop. 287 datasets
+  currently cost 29 requests at the default page size of 10; this makes it 3. At
+  the observed ~2% 5xx rate that takes per-run OSF failure probability from ~44%
+  to ~6%. **Unverified:** `api.osf.io` is unreachable from the dev sandbox —
+  confirm the accepted maximum before relying on it; the `links.next` loop makes a
+  smaller server-side cap harmless.
+- `github.py:341`: add `"per_page": "100"` to the org enumeration. `ghreq`'s
+  `paginate()` sets no `per_page`, so this runs at GitHub's default of 30 —
+  dandizarrs is ~197 pages, not 59, and the Aug 30 timeout hit at page 59, only
+  ~30% through. One line, ~-220 requests and -3-5 min per run.
 
-Each host update runs independently; a failure records the host and lets the rest
-of the run finish. The record file is written and committed with whatever
-succeeded, then the process exits non-zero so CI still goes red.
+**The partial-failure invariant.** If a host raises, `record.py:69`
+(`collection[:] = updater.get_new_collection(searcher)`) never runs and its
+collection is untouched. This works *only* while the `except` lives in
+`__main__`, outside `update_collection()`. Catching inside it to "keep what OSF
+already found" would mass-mark the un-fetched pages GONE — `osf.py:109-118` and
+`gin.py:177-186` mark everything not in `seen` as gone. (`github.py:743-794` has
+no such sweep; `GitHubUpdater.seen` is written at `github.py:698` and never read.
+It only marks gone what it actually re-checked.)
 
-- `osf.py`: replace `sys.exit(1)` with `raise` of an exception type shared by all
-  searchers (e.g. `HostError` in `core.py`).
-- `__main__.py`: drive the per-host calls through a loop; catch `HostError`,
-  accumulate failed hosts, always write the record + commit, `sys.exit(1)` at the
-  end if any host failed.
-- Commit message must state what was skipped, so a partial commit is not mistaken
-  for a complete run.
+**Prerequisite in the same commit:** `gin.py:101-111` swallows a 500 and skips the
+page, and `has_datalad_config` returns `False` on a 500 — both silently shrink
+`seen`, and the sweep then marks those repos gone. This already flaps in the
+record (5-9 GIN repos flipping to gone and back per commit, versus 1-2 genuine
+GitHub deletions). Set a `pages_skipped` flag on `GINSearcher` and have
+`GINUpdater.get_new_collection` keep the previous status when it is set. Without
+this, making partial commits actually push makes the flapping worse.
 
-Hosts whose update failed must keep their previous collection untouched — in
-particular the `Status.GONE` sweep in each updater's `get_new_collection()` must
-not run on a partial result set, or a transient outage would mass-mark repos
-gone.
+**Test.** One, covering both invariants: seed a tmp record with 2 active OSF and 1
+active GIN entry, make `OSFSearcher.get_datalad_repos` yield one then raise, run
+`--hosts OSF,GIN`, assert exit code 1, both OSF entries still `active` (not
+`gone`), the GIN update landed, and a commit exists. Enabling it needs
+`tox.ini:49` fixed first — `addopts = --cov={{import_name}}` is an unrendered
+cookiecutter placeholder, so `tox -e py3` fails instantly today.
 
-### B. Retry OSF 5xx in-process
+## 3. Commit 2 — stop re-fetching what we already downloaded
 
-Mount a `requests.adapters.HTTPAdapter` on the OSF session with
-`urllib3.util.Retry(total=5, status_forcelist=(500, 502, 503, 504),
-allowed_methods=("GET",), backoff_factor=..., respect_retry_after_header=True)`.
+The refresh loop is the largest single consumer (1,000 of ~1,900 core requests per
+run) and most of it is redundant *within the same run*.
 
-The observed 502 arrives after a 60-second upstream timeout, so the backoff has to
-be in the tens of seconds (~30/60/120), not the sub-second default. Cap the total
-added wall time so this cannot push the job into the timeout.
+`/orgs/{org}/repos` already returns `id`, `pushed_at` and `stargazers_count` for
+every repo. `traverse_org_repositories` (`github.py:341-365`) discards all of it
+and yields only `SearchHit(id, url, name)`; `register_repo` (`github.py:729-740`)
+then deliberately keeps the *stale* values; and `get_new_collection`
+(`github.py:747-763`) spends one `GET /repos/{name}` per repo re-fetching exactly
+those two fields. The four enumerated orgs hold 8,928 of 12,470 active repos and
+are the oldest entries, so they dominate the oldest-first queue.
 
-### C. Larger OSF pages
+Carry `pushed_at`/`stars` through `SearchHit` -> `SearchResult` -> `register_repo`
+and stamp `last_checked`. ~15 lines. The residual refresh set drops from 12,931 to
+~3,542 — a full sweep every ~3.5 runs at the existing 1,000 cap, against today's
+12.9-day sweep versus a 7-day promise (measured median staleness 11 days, max 19).
+Gone-detection is unchanged: a repo that disappears from an org listing is not
+stamped, ages past the cutoff, and gets its 404 in the refresh queue.
 
-Add `page[size]=100` to the `/v2/nodes/` query. OSF's default is 10, so 287 known
-datasets cost ~29 requests per run today; at 100/page it is 3. Fewer requests is
-both less exposure to their 5xx and less load on them.
+Also here, both one-liners:
 
-**Unverified:** `api.osf.io` is unreachable from the dev sandbox. Confirm the
-accepted maximum page size against the live API before relying on it, and keep the
-`links.next` pagination loop so a smaller server-side cap degrades gracefully.
+- Skip `Status.GONE` in the refresh selection (`github.py:750-753`). 461 deleted
+  repos are re-polled every sweep and 404 every time.
+- Flip `dandizarrs` to `org_traverse` in `github-orgs.json`. It has 5,439 datasets
+  and the Search API caps at 1,000 results, so `org:dandizarrs path:.datalad` can
+  never enumerate it — the empty result and traversal fallback are the designed
+  outcome, not a bug to investigate. One word removes two wasted search pages and
+  an implicit failure mode.
 
-### D. Workflow knobs
+## 4. Correctness bugs found during review
 
-- `timeout_minutes: 30` -> `50`. Current headroom is ~1 minute and shrinking.
-- `retry_wait_seconds: 900` -> `300`; with A+B in place the whole-command retry is
-  a backstop, not the primary recovery path.
-- Once A+B are merged and observed for ~2 weeks, consider dropping
-  `nick-fields/retry` entirely: retrying a 25-minute scan to recover from a
-  3-second OSF error is the wrong granularity and re-burns the API budget.
+Not caused by this work; all verified against the code and the record.
 
-## 3. Further work, not in this change
+1. **`nemardatasets` case mismatch.** `github-orgs.json` says `nemardatasets`, the
+   repos are `nemarDatasets/*`, so `known_names` (`github.py:333-337`) is empty and
+   `github.py:347` (`if known_names and ...`) falls through to yielding **every
+   repo in the org as a DataLad dataset with no content check**. `nemarDatasets/.github`
+   is in the record with `"dataset": true`. Fix the case comparison *and* drop the
+   `known_names and` guard — as written, any org with an empty known set is
+   ingested wholesale. Pair with commit 2: it adds ~790 content checks per run.
+2. **Search queries exceed the documented length limit.** 14 excluded orgs produce
+   a 269-char exclusion string; the code query is 308 chars and the commits query
+   307, against GitHub's documented 256. `util.py:116` and
+   `config.py:MAX_EXCLUSION_QUERY_LENGTH` both cap at 1,000 — the wrong number.
+   This is a plausible cause of the intermittent search 404s that the
+   `SEARCH_FLAKY_*` retry at `github.py:33-36` exists to paper over, and it grows
+   with every new 30-repo org. Verify with one request before changing.
+3. **~215 lines of unreachable code.** `needs_enumeration_fallback` returns `False`
+   immediately unless `known_repos` is passed, and its only caller
+   (`github.py:425`) never passes it — so `process_enumerated_repos`,
+   `enumerate_org_repositories` and `check_datalad_config` cannot run.
+   `get_organizations_to_traverse`, `should_traverse` and
+   `get_organizations_for_exclusion` have zero callers. The live path is the outer
+   fallback at `github.py:428-443`. This dead twin is why the enumeration's
+   throttling and `per_page` look correct at a glance — the copy that sets
+   `per_page: 100` (`github.py:533`) is the one that never executes. Delete it.
 
-Ordered by expected value.
+## 5. Deferred, with reasons
 
-1. **GraphQL batching for the refresh loop.** 12,931 GitHub repos, refreshed at
-   most 1000/run (`github.py:746-753`), one REST call each. 8,913 entries are
-   already past the 7-day cutoff; median staleness 11 days, max 19 — the freshness
-   target in the code is not being met, and a full sweep takes ~13 days. One
-   GraphQL request can carry ~100 aliased `repository(owner:,name:)` lookups for
-   `pushedAt`/`stargazerCount`. Measure the point cost before committing.
-2. **`dandizarrs` enumeration fallback.** The org is configured `org_search`, but
-   its search returns 0 hits, so `traverse_org_repositories()` enumerates ~5,900
-   repos (59 pages) every run — the direct cause of the Aug 30 timeout. Find out
-   why the search is empty rather than paying for the fallback daily.
-3. **Split GitHub and OSF into separate jobs.** OSF is 3-30 cheap requests; GitHub
-   is 25 minutes. Sharing a timeout and a failure domain buys nothing. (A makes
-   this optional rather than urgent.)
-4. **GIN 403.** `gin.py` tolerates 500 (skip page) and retries 501-599; the HTML
-   403 propagates and kills the run in 1.5 s. Needs upstream clarification from
-   G-Node on whether the block is by user-agent or by runner IP before we decide
-   between a retry, a backoff, or a contact-and-allowlist. `update-gin.yml` has no
-   retry wrapper at all.
-5. **Failure notification.** Nothing reports a red scheduled run today. A
-   `if: failure()` step that opens or updates a tracking issue is a cheap partial
-   for issue #12.
+- **Log `total_count` per search** (`github.py:175-178` already reads
+  `incomplete_results` and ignores it). Three log lines that turn every estimate
+  above into a measurement. Cheapest item here; do it alongside commit 1 if
+  convenient.
+- **OSF retry adapter.** With commit 1 an OSF failure costs only the OSF table,
+  and `page[size]=100` cuts exposure to 3 requests. Measure the real 5xx rate for
+  a week, then size the backoff against data. When it is written:
+  `raise_on_status=False` is required, or urllib3 raises `RetryError` and bypasses
+  both the `not r.ok` diagnostic at `osf.py:71-73` and any per-host handler;
+  `respect_retry_after_header` is a no-op because
+  `Retry.RETRY_AFTER_STATUS_CODES` is `{413, 429, 503}`; import `Retry` from
+  `requests.adapters` since `urllib3` is not a declared dependency; and urllib3
+  has no total-time budget, so the bound is `total x backoff_max` arithmetic.
+- **Date-scoping the commits searches.** `"DATALAD RUNCMD" merge:false is:public`
+  returns one hit per commit and is silently truncated at 1,000 today. An
+  `author-date:>` window would cut most org searches to 1-2 pages (-50 to -80
+  search requests, -8 to -13 min of `sleep(10)`) *and* improve coverage. Needs the
+  `total_count` logging first to pick a window.
+- **GraphQL batching.** Point cost is a non-issue (~130 points for the whole
+  corpus), but it needs alias/index mapping for names containing `.` and `-`,
+  correlation of `errors[]` entries against nulled `data` fields, and a retrier
+  that understands HTTP 200 with an errors body — which `RETRY_CONFIG`
+  (`github.py:42-48`) does not. ~60-100 lines and a new failure surface to save
+  requests that commit 2 removes outright. If the residual 3,542 still needs
+  relief, ETags on `get_extra_repo_details` are ~10 lines and 304s do not count
+  against the hourly limit.
+- **Splitting GitHub and OSF into separate jobs.** Unnecessary once commit 1
+  lands. Keep it in mind only as the minimum-diff alternative if commit 1 slips:
+  two `run:` steps plus `if: always()` on the push is ~8 lines of YAML, no Python,
+  and covers 6 of the 9 observed failures.
+- **Failure notification.** Dropped. GitHub already emails the repo owner on a
+  failed scheduled run; if those are not arriving that is a notification setting,
+  not code.
 
-## 4. Upstream reports
+## 6. Upstream
 
-- `CenterForOpenScience/osf.io#11917` — needs a follow-up comment: the issue
-  currently describes a single 500, but the same query also returned 502 after
-  exactly 60 s on five other days. Draft: `doc/upstream/osf-11917-comment.md`.
-- G-Node — new issue for the `repos/search` 403. Draft:
-  `doc/upstream/gin-403-issue.md`.
+- `CenterForOpenScience/osf.io#11917` — follow-up ready at
+  `doc/upstream/osf-11917-comment.md`. Corrects the "happened once" framing and
+  adds the timing evidence that this is a query-performance problem.
+- G-Node — draft at `doc/upstream/gin-403-issue.md`. **Do not file it yet.**
+  `gin.py:98` sends no `limit` on `/repos/search` (server default 10-30, cap 50),
+  there is no throttling anywhere in `gin.py`, and the scan issues one raw-file GET
+  per public repo on their instance — ≥4,630 for hub.datalad.org alone. Set
+  `limit=50`, add a delay, measure, and only then ask G-Node whether the block is
+  by user-agent, IP or rate. Asking to be allowlisted for a scan we have not tried
+  to shrink is the wrong first move, and a WAF answering us on 7 of 15 runs may
+  well be a response to that volume.
