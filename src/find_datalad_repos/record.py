@@ -1,10 +1,18 @@
 from __future__ import annotations
+from collections.abc import Sequence
 from typing import Any
 from pydantic import BaseModel, Field
 from .core import RepoHost, S, T, U, Updater
 from .gin import GINRepo, GINUpdater
 from .github import GitHubRepo, GitHubUpdater
 from .osf import OSFRepo, OSFUpdater
+
+# A run may legitimately retire a few repos, but a jump much larger than
+# that means the host was unhealthy rather than emptied.  Refuse to write
+# such a result: the caller isolates the host and the rest of the run
+# still commits.
+GONE_FLIP_FLOOR = 10
+GONE_FLIP_FRACTION = 0.05
 
 
 class RepoRecord(BaseModel):
@@ -66,5 +74,24 @@ def update_collection(
         else:
             for search_result in searcher.get_datalad_repos():
                 updater.register_repo(search_result, searcher)
-        collection[:] = updater.get_new_collection(searcher)
+        new_collection = updater.get_new_collection(searcher)
+        check_gone_flip(host, collection, new_collection)
+        collection[:] = new_collection
     return updater.get_reports()
+
+
+def count_gone(repos: Sequence[Any]) -> int:
+    return sum(1 for r in repos if r.gone)
+
+
+def check_gone_flip(host: RepoHost, old: Sequence[Any], new: Sequence[Any]) -> None:
+    """Refuse an update that retires an implausible number of repositories."""
+    was_active = len(old) - count_gone(old)
+    newly_gone = count_gone(new) - count_gone(old)
+    limit = max(GONE_FLIP_FLOOR, int(GONE_FLIP_FRACTION * was_active))
+    if was_active and newly_gone > limit:
+        raise RuntimeError(
+            f"{host.value}: would mark {newly_gone} of {was_active} active"
+            f" repositories as gone (limit {limit}); refusing to write."
+            " The host is probably unhealthy."
+        )

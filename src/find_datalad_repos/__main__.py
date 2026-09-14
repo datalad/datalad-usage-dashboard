@@ -1,8 +1,10 @@
 from __future__ import annotations
+from collections.abc import Callable
 import json
 import logging
 import os
 import re
+import sys
 import click
 from click_loglevel import LogLevel
 from ghtoken import get_ghtoken
@@ -10,7 +12,7 @@ from .config import README_FOLDER, RECORD_FILE, GITHUB_ORGS_FILE
 from .core import RepoHost
 from .readmes import mkreadmes
 from .record import RepoRecord
-from .util import commit, runcmd
+from .util import commit, log, runcmd
 
 
 class RepoHostSet(click.ParamType):
@@ -73,19 +75,31 @@ def main(log_level: int, regen_readme: bool, hosts: set[RepoHost]) -> None:
         record = RepoRecord()
 
     reports: list[str] = []
+    failed: list[str] = []
     if not regen_readme:
-        if RepoHost.GITHUB in hosts:
-            reports.extend(record.update_github(get_ghtoken()))
-        if RepoHost.OSF in hosts:
-            reports.extend(record.update_osf())
-        if RepoHost.GIN in hosts:
-            reports.extend(record.update_gin(os.environ["GIN_TOKEN"]))
-        if RepoHost.HUB_DATALAD_ORG in hosts:
-            reports.extend(
-                record.update_hub_datalad_org(os.environ["HUB_DATALAD_ORG_TOKEN"])
-            )
-        if RepoHost.ATRIS in hosts:
-            reports.extend(record.update_atris())
+        # Zero-argument callables so that a missing token raises inside the
+        # try below, taking down one host instead of the whole run.  Ordered,
+        # unlike `hosts`, which is a set.
+        updates: list[tuple[RepoHost, Callable[[], list[str]]]] = [
+            (RepoHost.GITHUB, lambda: record.update_github(get_ghtoken())),
+            (RepoHost.OSF, record.update_osf),
+            (RepoHost.GIN, lambda: record.update_gin(os.environ["GIN_TOKEN"])),
+            (
+                RepoHost.HUB_DATALAD_ORG,
+                lambda: record.update_hub_datalad_org(
+                    os.environ["HUB_DATALAD_ORG_TOKEN"]
+                ),
+            ),
+            (RepoHost.ATRIS, record.update_atris),
+        ]
+        for host, update in updates:
+            if host not in hosts:
+                continue
+            try:
+                reports.extend(update())
+            except Exception:
+                log.exception("Updating %s failed; continuing", host.value)
+                failed.append(host.value)
         with open(RECORD_FILE, "w") as fp:
             print(record.model_dump_json(indent=4), file=fp)
 
@@ -97,7 +111,11 @@ def main(log_level: int, regen_readme: bool, hosts: set[RepoHost]) -> None:
             msg = "; ".join(reports)
         else:
             msg = "Updated the state without any new hits added"
+        if failed:
+            msg += " [failed: " + ", ".join(failed) + "]"
         commit(msg)
+        if failed:
+            sys.exit(1)
 
 
 if __name__ == "__main__":

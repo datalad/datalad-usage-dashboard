@@ -9,6 +9,10 @@ from .core import RepoHost, Searcher, Updater
 from .tables import GIN_COLUMNS, Column, TableRow
 from .util import USER_AGENT, Status, log
 
+# Give up on a host after this many consecutive 500s from /repos/search;
+# without a bound the page counter just keeps climbing forever.
+MAX_CONSECUTIVE_PAGE_FAILURES = 3
+
 
 class GINRepo(BaseModel):
     id: int
@@ -76,6 +80,10 @@ class GINSearcher(Client, Searcher[GINRepo]):
             retry_config=RetryConfig(retry_statuses=range(501, 600)),
         )
         self.host = host
+        # Set when a search page or a repo check gave no reliable
+        # answer, so the caller can skip the not-seen -> GONE sweep.
+        self.pages_skipped = False
+        self.unresolved: set[int] = set()
 
     def search_repositories(self) -> Iterator[dict[str, Any]]:
         # TODO: Switch back to this simpler implementation (and remove the
@@ -88,6 +96,7 @@ class GINSearcher(Client, Searcher[GINRepo]):
         #     yield GINRepo.from_data(datum)
         ###
         page = 1
+        consecutive_failures = 0
         while True:
             try:
                 r = self.get(
@@ -95,11 +104,19 @@ class GINSearcher(Client, Searcher[GINRepo]):
                     # `private` and `is_private` are supported by the forgejo
                     # family (e.g., hub.datalad.org) but not GIN itself; for
                     # that, we filter on the "private" field below.
-                    params={"page": page, "private": "false", "is_private": "false"},
+                    params={
+                        "page": page,
+                        # Server default is 10-30; 50 is the usual cap.
+                        "limit": 50,
+                        "private": "false",
+                        "is_private": "false",
+                    },
                     raw=True,
                 )
             except PrettyHTTPError as e:
                 if e.response.status_code == 500:
+                    self.pages_skipped = True
+                    consecutive_failures += 1
                     log.warning(
                         "Request for page %d of %s repository search results"
                         " returned %d; skipping page",
@@ -107,9 +124,15 @@ class GINSearcher(Client, Searcher[GINRepo]):
                         self.host.value,
                         e.response.status_code,
                     )
+                    if consecutive_failures >= MAX_CONSECUTIVE_PAGE_FAILURES:
+                        raise RuntimeError(
+                            f"{self.host.value}: {consecutive_failures} consecutive"
+                            " 500s from /repos/search; giving up"
+                        ) from e
                 else:
                     raise
             else:
+                consecutive_failures = 0
                 repos = r.json()["data"]
                 if not repos:
                     break
@@ -121,7 +144,17 @@ class GINSearcher(Client, Searcher[GINRepo]):
             if datum.get("private", False):
                 continue
             repo = GINRepo.from_data(datum)
-            if self.has_datalad_config(repo.name, datum["default_branch"]):
+            present = self.has_datalad_config(repo.name, datum["default_branch"])
+            if present is None:
+                self.unresolved.add(repo.id)
+                log.warning(
+                    "Could not determine whether %r (ID: %d) on %s is a DataLad"
+                    " repo; leaving its status alone",
+                    repo.name,
+                    repo.id,
+                    self.host.value,
+                )
+            elif present:
                 log.info(
                     "Found DataLad repo on %s: %r (ID: %d)",
                     self.host.value,
@@ -137,18 +170,25 @@ class GINSearcher(Client, Searcher[GINRepo]):
                     repo.id,
                 )
 
-    def has_datalad_config(self, repo: str, defbranch: str) -> bool:
+    def has_datalad_config(self, repo: str, defbranch: str) -> bool | None:
+        """True if present, False if absent, None if the server gave no answer.
+
+        A 500 is not evidence of absence; treating it as such used to sweep
+        the repository into the "gone" column on the next pass.
+        """
         try:
             # forgejo instances like hub.datalad.org don't support HEAD
             # requests to this endpoint, so do a GET with a small range.
             self.get(
                 f"/repos/{repo}/raw/{defbranch}/.datalad/config",
                 raw=True,
-                headers={"Range": "0-1"},
+                headers={"Range": "bytes=0-1"},
             )
         except PrettyHTTPError as e:
-            if e.response.status_code in (404, 500):
+            if e.response.status_code == 404:
                 return False
+            elif e.response.status_code == 500:
+                return None
             else:
                 raise e
         else:
@@ -174,11 +214,15 @@ class GINUpdater(BaseModel, Updater[GINRepo, GINRepo, GINSearcher]):
             self.new_repos += 1
         self.all_repos[repo.id] = repo
 
-    def get_new_collection(self, _searcher: GINSearcher) -> list[GINRepo]:
+    def get_new_collection(self, searcher: GINSearcher) -> list[GINRepo]:
         collection: list[GINRepo] = []
         for repo in self.all_repos.values():
             if repo.id in self.seen:
                 status = Status.ACTIVE
+            elif searcher.pages_skipped or repo.id in searcher.unresolved:
+                # We got no reliable answer for this repo on this run, so
+                # keep whatever we knew before rather than declaring it gone.
+                status = repo.status
             else:
                 status = Status.GONE
             collection.append(repo.model_copy(update={"status": status}))

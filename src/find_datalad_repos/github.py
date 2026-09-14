@@ -339,7 +339,10 @@ class GitHubSearcher(Client, Searcher[SearchResult]):
         try:
             # Enumerate all repositories in the organization
             for repo_data in self.paginate(
-                f"/orgs/{org}/repos", params={"type": "all"}
+                # ghreq does not default per_page, so without this the
+                # listing runs at GitHub's default of 30 per page.
+                f"/orgs/{org}/repos",
+                params={"type": "all", "per_page": "100"},
             ):
                 repo_name = repo_data["full_name"]
 

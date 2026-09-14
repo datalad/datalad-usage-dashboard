@@ -27,19 +27,21 @@ jobs:
           python -m pip install --upgrade tox
 
       - name: Run script
+        id: scan
         # No space between `-e` and `run` or tox gets confused.
-        # Retry once after a long wait so transient GitHub search API
-        # failures (404 / 408 / secondary rate limit) do not burn a day.
-        uses: nick-fields/retry@v4
-        with:
-          timeout_minutes: 30
-          max_attempts: 2
-          retry_wait_seconds: 900
-          command: tox -erun -- -l DEBUG --hosts GitHub,OSF
+        # No retry wrapper: host failures are isolated in __main__, so a
+        # whole-command retry only re-spends ~2000 GitHub requests inside
+        # the same rate-limit hour, which is what exhausted it on Aug 29.
+        run: tox -erun -- -l DEBUG --hosts GitHub,OSF
+        timeout-minutes: 60
         env:
           GITHUB_TOKEN: ${{ secrets.SEARCH_GITHUB_TOKEN }}
 
       - name: Push changes
+        # The scan exits non-zero when a host failed but still commits the
+        # hosts that succeeded, so this must not be gated on success().
+        # Only runs if the scan itself ran; never during cancellation.
+        if: ${{ !cancelled() && (steps.scan.outcome == 'success' || steps.scan.outcome == 'failure') }}
         run: |
           ahead="$(git rev-list --count --right-only @{upstream}...HEAD)"
           if [ "$ahead" -gt 0 ]
