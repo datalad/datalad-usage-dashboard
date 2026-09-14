@@ -25,6 +25,8 @@ jobs:
         #toxenv: [py]
         include:
           - python-version: '3.11'
+            toxenv: py3
+          - python-version: '3.11'
             toxenv: lint
           - python-version: '3.11'
             toxenv: typing
