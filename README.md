@@ -1788,7 +1788,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | # | Repository (116) | Stars (1) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [CAIRT/*](https://atris.fz-juelich.de/CAIRT) [(6)](READMEs/atris/CAIRT.md) | [0](READMEs/atris/CAIRT.md) | 2026-01-13 10:49:56+00:00 |
-| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(89)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2026-09-12 08:49:21+00:00 |
+| 2 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(89)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2026-09-14 13:27:10+00:00 |
 | 3 | [b.vogel/*](https://atris.fz-juelich.de/b.vogel) [(5)](READMEs/atris/b.vogel.md) | [0](READMEs/atris/b.vogel.md) | 2026-09-08 08:40:05+00:00 |
 | 4 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(5)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2026-07-23 08:57:53+00:00 |
 | 5 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(9)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2026-09-06 04:19:26+00:00 |
