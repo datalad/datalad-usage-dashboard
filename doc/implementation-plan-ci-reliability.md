@@ -50,13 +50,15 @@ Without them the Python change is inert.
   does not need it.
 - `osf.py:70`: add `timeout=(10, 90)`. There is no timeout on the OSF session at
   all today; a hung connection burns the whole job budget.
-- `osf.py`: add `page[size]=100`, keep the `links.next` loop. The search returns
-  only live datasets (204 active of 287 records), so it currently costs ~21
-  requests at the default page size of 10; this makes it 3. At the observed ~2%
-  5xx rate that takes per-run OSF failure probability from ~35% to ~6%.
-  **Unverified:** `api.osf.io` is unreachable from the dev sandbox — confirm the
-  accepted maximum before merging; the `links.next` loop makes a smaller
-  server-side cap harmless.
+- `osf.py`: **`page[size]` deliberately NOT set.** Measured 2026-09-14 by the
+  maintainer against the live API: the query returns 502 after 60.198 s at
+  `page[size]=100` and after 60.190 s at `page[size]=20`. Two conclusions. The
+  60 s wall clock on both confirms the upstream backend timeout rather than a
+  random fault, matching the 2026-09-13 CI log exactly. And a larger page is
+  *more* server work per request, so raising it plausibly makes that timeout
+  more likely, not less. The ~21-requests-per-run cost stays until OSF is
+  healthy enough to measure; with per-host isolation an OSF failure is now
+  cheap anyway.
 - `github.py`: add `"per_page": "100"` to the org enumeration in
   `traverse_org_repositories` (github.py:312-372). `ghreq`'s
   `paginate()` sets no `per_page`, so this runs at GitHub's default of 30 —

@@ -82,12 +82,11 @@ class OSFSearcher(Searcher[OSFRepo]):
     def get_datalad_repos(self) -> Iterator[OSFRepo]:
         for hit in self.paginate(
             f"{self.API_URL}/nodes/",
-            params={
-                "filter[tags]": "DataLad Dataset",
-                "filter[public]": "true",
-                # Default page size is 10; 100 is the documented maximum.
-                "page[size]": "100",
-            },
+            # No page[size]: the tag-filtered query is already slow enough
+            # that it intermittently exceeds a 60 s upstream timeout, and a
+            # bigger page is more server work per request, not less.  See
+            # CenterForOpenScience/osf.io#11917.
+            params={"filter[tags]": "DataLad Dataset", "filter[public]": "true"},
         ):
             repo = OSFRepo.from_data(hit)
             log.info("Found OSF repo %r (ID: %s)", repo.name, repo.id)
