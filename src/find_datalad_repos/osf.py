@@ -2,7 +2,6 @@ from __future__ import annotations
 from collections.abc import Iterator
 from datetime import datetime
 from operator import attrgetter
-import sys
 from types import TracebackType
 from typing import Any
 from pydantic import BaseModel, Field
@@ -10,6 +9,10 @@ import requests
 from .core import RepoHost, Searcher, Updater
 from .tables import OSF_COLUMNS, Column, TableRow
 from .util import USER_AGENT, Status, log
+
+# (connect, read) timeout.  The read timeout is generous because the
+# tag-filtered /v2/nodes/ query routinely takes 7-11 s per page.
+REQUEST_TIMEOUT = (10, 90)
 
 
 class OSFRepo(BaseModel):
@@ -67,10 +70,10 @@ class OSFSearcher(Searcher[OSFRepo]):
 
     def paginate(self, url: str, params: dict[str, str] | None = None) -> Iterator:
         while url is not None:
-            r = self.session.get(url, params=params)
+            r = self.session.get(url, params=params, timeout=REQUEST_TIMEOUT)
             if not r.ok:
                 log.error("Request to %s returned %d: %s", r.url, r.status_code, r.text)
-                sys.exit(1)
+                raise RuntimeError(f"Request to {r.url} returned {r.status_code}")
             data = r.json()
             yield from data["data"]
             url = data.get("links", {}).get("next")
@@ -79,6 +82,10 @@ class OSFSearcher(Searcher[OSFRepo]):
     def get_datalad_repos(self) -> Iterator[OSFRepo]:
         for hit in self.paginate(
             f"{self.API_URL}/nodes/",
+            # No page[size]: the tag-filtered query is already slow enough
+            # that it intermittently exceeds a 60 s upstream timeout, and a
+            # bigger page is more server work per request, not less.  See
+            # CenterForOpenScience/osf.io#11917.
             params={"filter[tags]": "DataLad Dataset", "filter[public]": "true"},
         ):
             repo = OSFRepo.from_data(hit)

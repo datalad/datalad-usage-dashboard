@@ -27,13 +27,17 @@ jobs:
           python -m pip install --upgrade tox
 
       - name: Run script
+        id: scan
         # No space between `-e` and `run` or tox gets confused
         run: tox -erun -- -l DEBUG --hosts GIN,hub.datalad.org,ATRIS
+        timeout-minutes: 90
         env:
           GIN_TOKEN: ${{ secrets.GIN_TOKEN }}
           HUB_DATALAD_ORG_TOKEN: ${{ secrets.HUB_DATALAD_ORG_TOKEN }}
 
       - name: Push changes
+        # See update.yml: a partial run commits and must still push.
+        if: ${{ !cancelled() && (steps.scan.outcome == 'success' || steps.scan.outcome == 'failure') }}
         run: |
           ahead="$(git rev-list --count --right-only @{upstream}...HEAD)"
           if [ "$ahead" -gt 0 ]

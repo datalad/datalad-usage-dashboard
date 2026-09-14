@@ -1,8 +1,10 @@
 from __future__ import annotations
+from collections.abc import Callable
 import json
 import logging
 import os
 import re
+import sys
 import click
 from click_loglevel import LogLevel
 from ghtoken import get_ghtoken
@@ -10,7 +12,7 @@ from .config import README_FOLDER, RECORD_FILE, GITHUB_ORGS_FILE
 from .core import RepoHost
 from .readmes import mkreadmes
 from .record import RepoRecord
-from .util import commit, runcmd
+from .util import commit, in_git_head, log, runcmd
 
 
 class RepoHostSet(click.ParamType):
@@ -70,24 +72,49 @@ def main(log_level: int, regen_readme: bool, hosts: set[RepoHost]) -> None:
         with open(RECORD_FILE, encoding="utf-8") as fp:
             record = RepoRecord.model_validate(json.load(fp))
     except FileNotFoundError:
+        if in_git_head(RECORD_FILE):
+            # Starting from an empty record here would rebuild the whole
+            # dashboard from a single run's results and commit that over the
+            # real one.  Every host would also skip the gone-flip ceiling,
+            # since it has nothing to compare against.
+            raise RuntimeError(
+                f"{RECORD_FILE} is missing from the working tree but present"
+                " in HEAD; refusing to start from an empty record."
+            ) from None
         record = RepoRecord()
 
     reports: list[str] = []
+    failed: list[str] = []
     if not regen_readme:
-        if RepoHost.GITHUB in hosts:
-            reports.extend(record.update_github(get_ghtoken()))
-        if RepoHost.OSF in hosts:
-            reports.extend(record.update_osf())
-        if RepoHost.GIN in hosts:
-            reports.extend(record.update_gin(os.environ["GIN_TOKEN"]))
-        if RepoHost.HUB_DATALAD_ORG in hosts:
-            reports.extend(
-                record.update_hub_datalad_org(os.environ["HUB_DATALAD_ORG_TOKEN"])
-            )
-        if RepoHost.ATRIS in hosts:
-            reports.extend(record.update_atris())
-        with open(RECORD_FILE, "w") as fp:
+        # Zero-argument callables so that a missing token raises inside the
+        # try below, taking down one host instead of the whole run.  Ordered,
+        # unlike `hosts`, which is a set.
+        updates: list[tuple[RepoHost, Callable[[], list[str]]]] = [
+            (RepoHost.GITHUB, lambda: record.update_github(get_ghtoken())),
+            (RepoHost.OSF, record.update_osf),
+            (RepoHost.GIN, lambda: record.update_gin(os.environ["GIN_TOKEN"])),
+            (
+                RepoHost.HUB_DATALAD_ORG,
+                lambda: record.update_hub_datalad_org(
+                    os.environ["HUB_DATALAD_ORG_TOKEN"]
+                ),
+            ),
+            (RepoHost.ATRIS, record.update_atris),
+        ]
+        for host, update in updates:
+            if host not in hosts:
+                continue
+            try:
+                reports.extend(update())
+            except Exception:
+                log.exception("Updating %s failed; continuing", host.value)
+                failed.append(host.value)
+        # Serialise to a sibling and rename, so a failure partway through
+        # cannot leave a truncated record behind for `git add` to pick up.
+        tmpfile = RECORD_FILE + ".tmp"
+        with open(tmpfile, "w", encoding="utf-8") as fp:
             print(record.model_dump_json(indent=4), file=fp)
+        os.replace(tmpfile, RECORD_FILE)
 
     mkreadmes(record)
 
@@ -97,7 +124,11 @@ def main(log_level: int, regen_readme: bool, hosts: set[RepoHost]) -> None:
             msg = "; ".join(reports)
         else:
             msg = "Updated the state without any new hits added"
+        if failed:
+            msg += " [failed: " + ", ".join(failed) + "]"
         commit(msg)
+        if failed:
+            sys.exit(1)
 
 
 if __name__ == "__main__":
