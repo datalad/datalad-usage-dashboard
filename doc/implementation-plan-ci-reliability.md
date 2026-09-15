@@ -127,6 +127,43 @@ active GIN entry, make `OSFSearcher.get_datalad_repos` yield one then raise, run
 `tox.ini:49` fixed first — `addopts = --cov={{import_name}}` is an unrendered
 cookiecutter placeholder, so `tox -e py3` fails instantly today.
 
+## 2b. PR A2 — don't lose the commit at the push
+
+Observed on the first two production runs after PR A merged (2026-09-14):
+
+| Run                    | Result                                                                  |
+|------------------------|-------------------------------------------------------------------------|
+| `update.yml` #1902     | OSF 502 at 60.3 s; GitHub's 13 new hits committed as `cddcf7f`; **push rejected**, commit lost |
+| `update-gin.yml` #147  | GIN failed; hub.datalad.org + ATRIS committed and **pushed**; zero status flips on any host |
+
+PR A worked in both: the failing host was isolated, the healthy hosts' work
+was committed, and the `if:` guard let the push step run on a red scan. Run
+147 banked the payoff. Run 1902 created it and then lost it, because
+`git push` is bare — no rebase, no retry.
+
+Master moved under run 1902 during its 24-minute scan: the concurrent GIN run
+pushed `d439ee65` at 17:51:25, and dependabot merges landed as well. This
+weakness is pre-existing, but it was invisible before PR A because a failed
+run never reached the push step at all. It is now the dominant loss mode.
+
+Two changes, both workflows:
+
+- **Rebase and retry on push.** Distinguish the two failures: a rebase
+  conflict means retrying cannot help, so fail immediately with a clear
+  message; a rejected push means we lost a race, so refetch and retry, up to
+  three times. Our commit only touches the record and the files generated
+  from it, so a conflict requires another *update* run — which the next item
+  prevents.
+- **A shared `concurrency` group** (`update-record`, `cancel-in-progress:
+  false`) across both workflows. They were dispatched 13 s apart on
+  2026-09-14 and raced each other; nothing serialised them. This removes the
+  only realistic source of a rebase conflict.
+
+Verified against a local bare-remote simulation: a lost race rebases and
+pushes with both sides' changes intact; nothing-to-push exits 0; a genuine
+conflict aborts cleanly, leaves `HEAD` and the working tree untouched, keeps
+the run's commit, and does not retry.
+
 ## 3. PR B — stop re-fetching what we already downloaded
 
 The refresh loop is the largest single consumer (1,000 of ~1,900 core requests per
