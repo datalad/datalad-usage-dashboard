@@ -44,31 +44,6 @@ jobs:
       - name: Push changes
         # See update.yml: a partial run commits and must still push.
         if: ${{ !cancelled() && (steps.scan.outcome == 'success' || steps.scan.outcome == 'failure') }}
-        run: |
-          if [ "$(git rev-list --count --right-only @{upstream}...HEAD)" -eq 0 ]; then
-            echo "No commits to push"
-            exit 0
-          fi
-          # A scan runs for tens of minutes and master can move under it --
-          # the sibling update workflow, dependabot, or a person.  A bare
-          # push then throws the whole run away, so rebase onto the new tip
-          # and retry.  Our commit only touches the record and the files
-          # generated from it, so the rebase is conflict-free in practice.
-          for attempt in 1 2 3; do
-            if ! git pull --rebase; then
-              git rebase --abort 2>/dev/null || true
-              echo "Rebase onto the updated master conflicted;" \
-                   "leaving this run's commit unpushed" >&2
-              exit 1
-            fi
-            if git push; then
-              echo "Pushed on attempt $attempt"
-              exit 0
-            fi
-            echo "Push attempt $attempt lost a race; retrying"
-            sleep 5
-          done
-          echo "Could not push after 3 attempts" >&2
-          exit 1
+        run: .github/tools/git_push_with_rebase
 
 # vim:set et sts=2:
