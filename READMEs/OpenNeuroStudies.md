@@ -15,7 +15,7 @@
 | 12 | [OpenNeuroStudies/study-ds002843](https://github.com/OpenNeuroStudies/study-ds002843) | 0 |  | :heavy_check_mark: |  | 2026-05-19 00:02:05+00:00 |
 | 13 | [OpenNeuroStudies/study-ds003020](https://github.com/OpenNeuroStudies/study-ds003020) | 0 |  | :heavy_check_mark: |  | 2026-07-28 04:24:44+00:00 |
 | 14 | [OpenNeuroStudies/study-ds003097](https://github.com/OpenNeuroStudies/study-ds003097) | 0 |  | :heavy_check_mark: |  | 2026-05-19 00:02:10+00:00 |
-| 15 | [OpenNeuroStudies/study-ds003592](https://github.com/OpenNeuroStudies/study-ds003592) | 0 |  | :heavy_check_mark: |  | 2026-05-21 14:41:42+00:00 |
+| 15 | [OpenNeuroStudies/study-ds003592](https://github.com/OpenNeuroStudies/study-ds003592) | 0 |  | :heavy_check_mark: |  | 2026-09-16 04:45:34+00:00 |
 | 16 | [OpenNeuroStudies/study-ds003604](https://github.com/OpenNeuroStudies/study-ds003604) | 0 |  | :heavy_check_mark: |  | 2026-07-28 04:24:46+00:00 |
 | 17 | [OpenNeuroStudies/study-ds003900](https://github.com/OpenNeuroStudies/study-ds003900) | 0 |  | :heavy_check_mark: |  | 2026-05-19 00:02:56+00:00 |
 | 18 | [OpenNeuroStudies/study-ds004044](https://github.com/OpenNeuroStudies/study-ds004044) | 0 |  | :heavy_check_mark: |  | 2026-05-19 00:02:22+00:00 |
@@ -28,7 +28,7 @@
 | 25 | [OpenNeuroStudies/study-ds004746](https://github.com/OpenNeuroStudies/study-ds004746) | 0 |  | :heavy_check_mark: |  | 2026-05-19 00:02:38+00:00 |
 | 26 | [OpenNeuroStudies/study-ds005165](https://github.com/OpenNeuroStudies/study-ds005165) | 0 |  | :heavy_check_mark: |  | 2026-09-16 04:46:00+00:00 |
 | 27 | [OpenNeuroStudies/study-ds005237](https://github.com/OpenNeuroStudies/study-ds005237) | 0 |  | :heavy_check_mark: |  | 2026-05-19 00:02:45+00:00 |
-| 28 | [OpenNeuroStudies/study-ds005256](https://github.com/OpenNeuroStudies/study-ds005256) | 0 |  | :heavy_check_mark: |  | 2026-05-19 00:01:24+00:00 |
+| 28 | [OpenNeuroStudies/study-ds005256](https://github.com/OpenNeuroStudies/study-ds005256) | 0 |  | :heavy_check_mark: |  | 2026-09-16 04:46:04+00:00 |
 | 29 | [OpenNeuroStudies/study-ds006131](https://github.com/OpenNeuroStudies/study-ds006131) | 0 |  | :heavy_check_mark: |  | 2026-09-16 04:46:12+00:00 |
 | 30 | [OpenNeuroStudies/study-ds006189](https://github.com/OpenNeuroStudies/study-ds006189) | 0 |  | :heavy_check_mark: |  | 2026-07-28 04:24:54+00:00 |
 | 31 | [OpenNeuroStudies/study-ds006190](https://github.com/OpenNeuroStudies/study-ds006190) | 0 |  | :heavy_check_mark: |  | 2026-07-28 04:24:55+00:00 |
