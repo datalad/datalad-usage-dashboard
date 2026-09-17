@@ -5,6 +5,12 @@ on:
     - cron: '0 12 * * 6'  # Only run on Saturday
   workflow_dispatch:
 
+# Both update workflows commit and push the same record file, so they must
+# not run at the same time; on 2026-09-14 they raced and one lost its work.
+concurrency:
+  group: update-record
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -38,11 +44,6 @@ jobs:
       - name: Push changes
         # See update.yml: a partial run commits and must still push.
         if: ${{ !cancelled() && (steps.scan.outcome == 'success' || steps.scan.outcome == 'failure') }}
-        run: |
-          ahead="$(git rev-list --count --right-only @{upstream}...HEAD)"
-          if [ "$ahead" -gt 0 ]
-          then git push
-          else echo "No commits to push"
-          fi
+        run: .github/tools/git_push_with_rebase
 
 # vim:set et sts=2:
