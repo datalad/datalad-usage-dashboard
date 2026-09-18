@@ -15,7 +15,7 @@
 | 12 | [bids-standard/bids-website](https://github.com/bids-standard/bids-website) | 93 |  | :heavy_check_mark: |  | 2026-09-03 23:44:10+00:00 |
 | 13 | [bids-standard/model-zoo](https://github.com/bids-standard/model-zoo) | 6 | :heavy_check_mark: |  |  | 2026-08-20 18:15:17+00:00 |
 | 14 | [bids-standard/pybids](https://github.com/bids-standard/pybids) | 265 |  | :heavy_check_mark: |  | 2026-09-01 21:33:48+00:00 |
-| 15 | [bids-standard/python-validator](https://github.com/bids-standard/python-validator) | 10 |  | :heavy_check_mark: |  | 2026-08-24 00:54:55+00:00 |
+| 15 | [bids-standard/python-validator](https://github.com/bids-standard/python-validator) | 10 |  | :heavy_check_mark: |  | 2026-09-07 20:16:02+00:00 |
 
 ## Gone
 No repositories found!
