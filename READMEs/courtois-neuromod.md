@@ -39,7 +39,7 @@
 | 36 | [courtois-neuromod/gamepad](https://github.com/courtois-neuromod/gamepad) | 0 | :heavy_check_mark: |  |  | 2026-09-09 14:46:56+00:00 |
 | 37 | [courtois-neuromod/gamepad.fmriprep](https://github.com/courtois-neuromod/gamepad.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-09-09 14:47:00+00:00 |
 | 38 | [courtois-neuromod/gamepad.mriqc](https://github.com/courtois-neuromod/gamepad.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-07-29 18:58:07+00:00 |
-| 39 | [courtois-neuromod/gamepad.tsnr](https://github.com/courtois-neuromod/gamepad.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-07-30 02:04:19+00:00 |
+| 39 | [courtois-neuromod/gamepad.tsnr](https://github.com/courtois-neuromod/gamepad.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-09 14:47:08+00:00 |
 | 40 | [courtois-neuromod/harrypotter](https://github.com/courtois-neuromod/harrypotter) | 0 | :heavy_check_mark: |  |  | 2026-09-09 14:47:13+00:00 |
 | 41 | [courtois-neuromod/harrypotter.fmriprep](https://github.com/courtois-neuromod/harrypotter.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-09-09 14:47:18+00:00 |
 | 42 | [courtois-neuromod/harrypotter.mriqc](https://github.com/courtois-neuromod/harrypotter.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-07-29 18:58:27+00:00 |
@@ -63,7 +63,7 @@
 | 60 | [courtois-neuromod/mario3](https://github.com/courtois-neuromod/mario3) | 0 | :heavy_check_mark: |  |  | 2026-07-16 04:32:07+00:00 |
 | 61 | [courtois-neuromod/mario3.mriqc](https://github.com/courtois-neuromod/mario3.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-07-29 18:59:44+00:00 |
 | 62 | [courtois-neuromod/mario3.stimuli](https://github.com/courtois-neuromod/mario3.stimuli) | 0 | :heavy_check_mark: |  |  | 2026-09-12 21:38:00+00:00 |
-| 63 | [courtois-neuromod/mario3.tsnr](https://github.com/courtois-neuromod/mario3.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-07-30 02:21:51+00:00 |
+| 63 | [courtois-neuromod/mario3.tsnr](https://github.com/courtois-neuromod/mario3.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-09 14:49:02+00:00 |
 | 64 | [courtois-neuromod/mariostars.mriqc](https://github.com/courtois-neuromod/mariostars.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-07-29 19:00:04+00:00 |
 | 65 | [courtois-neuromod/mariostars.stimuli](https://github.com/courtois-neuromod/mariostars.stimuli) | 0 | :heavy_check_mark: |  |  | 2026-01-22 20:24:31+00:00 |
 | 66 | [courtois-neuromod/mariostars.tsnr](https://github.com/courtois-neuromod/mariostars.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-09 14:49:27+00:00 |
