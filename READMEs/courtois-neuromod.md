@@ -49,7 +49,7 @@
 | 46 | [courtois-neuromod/hcptrt.fmriprep](https://github.com/courtois-neuromod/hcptrt.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-09-09 14:47:43+00:00 |
 | 47 | [courtois-neuromod/hcptrt.mriqc](https://github.com/courtois-neuromod/hcptrt.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-09 14:47:47+00:00 |
 | 48 | [courtois-neuromod/hcptrt.stimuli](https://github.com/courtois-neuromod/hcptrt.stimuli) | 0 | :heavy_check_mark: |  |  | 2023-07-24 02:52:39+00:00 |
-| 49 | [courtois-neuromod/hcptrt.tsnr](https://github.com/courtois-neuromod/hcptrt.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-09 14:47:51+00:00 |
+| 49 | [courtois-neuromod/hcptrt.tsnr](https://github.com/courtois-neuromod/hcptrt.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:15:52+00:00 |
 | 50 | [courtois-neuromod/langlocalizer.mriqc](https://github.com/courtois-neuromod/langlocalizer.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-09 14:48:13+00:00 |
 | 51 | [courtois-neuromod/langlocalizer.stimuli](https://github.com/courtois-neuromod/langlocalizer.stimuli) | 0 | :heavy_check_mark: |  |  | 2023-12-07 20:54:39+00:00 |
 | 52 | [courtois-neuromod/langlocalizer.tsnr](https://github.com/courtois-neuromod/langlocalizer.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:16:22+00:00 |
