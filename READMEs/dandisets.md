@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (906) | Stars (16) | Dataset (906) | `run` (1) | `containers-run` | Last Modified |
+| # | Repository (915) | Stars (16) | Dataset (915) | `run` (1) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [dandisets/000003](https://github.com/dandisets/000003) | 0 | :heavy_check_mark: |  |  | 2026-05-28 09:22:30+00:00 |
 | 2 | [dandisets/000004](https://github.com/dandisets/000004) | 0 | :heavy_check_mark: |  |  | 2026-05-28 09:22:27+00:00 |
@@ -797,7 +797,7 @@
 | 794 | [dandisets/001758](https://github.com/dandisets/001758) | 0 | :heavy_check_mark: |  |  | 2026-03-04 00:12:07+00:00 |
 | 795 | [dandisets/001762](https://github.com/dandisets/001762) | 0 | :heavy_check_mark: |  |  | 2026-03-12 17:42:50+00:00 |
 | 796 | [dandisets/001764](https://github.com/dandisets/001764) | 0 | :heavy_check_mark: |  |  | 2026-03-12 00:54:14+00:00 |
-| 797 | [dandisets/001765](https://github.com/dandisets/001765) | 0 | :heavy_check_mark: |  |  | 2026-08-21 21:46:57+00:00 |
+| 797 | [dandisets/001765](https://github.com/dandisets/001765) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:21:31+00:00 |
 | 798 | [dandisets/001766](https://github.com/dandisets/001766) | 0 | :heavy_check_mark: |  |  | 2026-03-13 17:04:17+00:00 |
 | 799 | [dandisets/001767](https://github.com/dandisets/001767) | 0 | :heavy_check_mark: |  |  | 2026-03-18 15:05:46+00:00 |
 | 800 | [dandisets/001768](https://github.com/dandisets/001768) | 0 | :heavy_check_mark: |  |  | 2026-08-21 21:46:44+00:00 |
@@ -807,7 +807,7 @@
 | 804 | [dandisets/001775](https://github.com/dandisets/001775) | 0 | :heavy_check_mark: |  |  | 2026-04-18 06:03:54+00:00 |
 | 805 | [dandisets/001776](https://github.com/dandisets/001776) | 0 | :heavy_check_mark: |  |  | 2026-04-06 13:55:03+00:00 |
 | 806 | [dandisets/001777](https://github.com/dandisets/001777) | 0 | :heavy_check_mark: |  |  | 2026-05-21 22:16:14+00:00 |
-| 807 | [dandisets/001778](https://github.com/dandisets/001778) | 0 | :heavy_check_mark: |  |  | 2026-04-08 22:12:26+00:00 |
+| 807 | [dandisets/001778](https://github.com/dandisets/001778) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:22:10+00:00 |
 | 808 | [dandisets/001779](https://github.com/dandisets/001779) | 0 | :heavy_check_mark: |  |  | 2026-04-06 22:05:13+00:00 |
 | 809 | [dandisets/001780](https://github.com/dandisets/001780) | 0 | :heavy_check_mark: |  |  | 2026-08-21 21:47:29+00:00 |
 | 810 | [dandisets/001782](https://github.com/dandisets/001782) | 0 | :heavy_check_mark: |  |  | 2026-04-22 00:04:49+00:00 |
@@ -904,9 +904,18 @@
 | 901 | [dandisets/001966](https://github.com/dandisets/001966) | 0 | :heavy_check_mark: |  |  | 2026-09-11 14:31:06+00:00 |
 | 902 | [dandisets/001968](https://github.com/dandisets/001968) | 0 | :heavy_check_mark: |  |  | 2026-09-17 01:44:28+00:00 |
 | 903 | [dandisets/001971](https://github.com/dandisets/001971) | 0 | :heavy_check_mark: |  |  | 2026-09-17 20:16:28+00:00 |
-| 904 | [dandisets/SenzaiNeuron2017](https://github.com/dandisets/SenzaiNeuron2017) | 0 | :heavy_check_mark: |  |  | 2019-10-09 00:39:38+00:00 |
-| 905 | [dandisets/najafi-2018-nwb](https://github.com/dandisets/najafi-2018-nwb) | 0 | :heavy_check_mark: |  |  | 2019-09-27 20:29:19+00:00 |
-| 906 | [dandisets/nwb_test_data](https://github.com/dandisets/nwb_test_data) | 0 | :heavy_check_mark: |  |  | 2019-10-09 00:35:08+00:00 |
+| 904 | [dandisets/002006](https://github.com/dandisets/002006) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:26:04+00:00 |
+| 905 | [dandisets/002009](https://github.com/dandisets/002009) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:26:06+00:00 |
+| 906 | [dandisets/002010](https://github.com/dandisets/002010) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:25:49+00:00 |
+| 907 | [dandisets/002011](https://github.com/dandisets/002011) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:26:11+00:00 |
+| 908 | [dandisets/002012](https://github.com/dandisets/002012) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:26:56+00:00 |
+| 909 | [dandisets/002016](https://github.com/dandisets/002016) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:27:25+00:00 |
+| 910 | [dandisets/002017](https://github.com/dandisets/002017) | 0 | :heavy_check_mark: |  |  | 2026-09-30 12:16:29+00:00 |
+| 911 | [dandisets/002018](https://github.com/dandisets/002018) | 0 | :heavy_check_mark: |  |  | 2026-09-29 18:54:41+00:00 |
+| 912 | [dandisets/002019](https://github.com/dandisets/002019) | 0 | :heavy_check_mark: |  |  | 2026-09-29 19:46:17+00:00 |
+| 913 | [dandisets/SenzaiNeuron2017](https://github.com/dandisets/SenzaiNeuron2017) | 0 | :heavy_check_mark: |  |  | 2019-10-09 00:39:38+00:00 |
+| 914 | [dandisets/najafi-2018-nwb](https://github.com/dandisets/najafi-2018-nwb) | 0 | :heavy_check_mark: |  |  | 2019-09-27 20:29:19+00:00 |
+| 915 | [dandisets/nwb_test_data](https://github.com/dandisets/nwb_test_data) | 0 | :heavy_check_mark: |  |  | 2019-10-09 00:35:08+00:00 |
 
 ## Gone
 | # | Repository (22) | Stars (1) | Dataset (22) | `run` | `containers-run` | Last Modified |
