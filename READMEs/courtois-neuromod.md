@@ -84,7 +84,7 @@
 | 81 | [courtois-neuromod/ood.mriqc](https://github.com/courtois-neuromod/ood.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-09 14:51:01+00:00 |
 | 82 | [courtois-neuromod/ood.stimuli](https://github.com/courtois-neuromod/ood.stimuli) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-07-03 14:45:04+00:00 |
 | 83 | [courtois-neuromod/ood.tsnr](https://github.com/courtois-neuromod/ood.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:20:32+00:00 |
-| 84 | [courtois-neuromod/petit-prince.fmriprep](https://github.com/courtois-neuromod/petit-prince.fmriprep) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-09 14:51:14+00:00 |
+| 84 | [courtois-neuromod/petit-prince.fmriprep](https://github.com/courtois-neuromod/petit-prince.fmriprep) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:20:42+00:00 |
 | 85 | [courtois-neuromod/petit-prince.mriqc](https://github.com/courtois-neuromod/petit-prince.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-09 14:51:18+00:00 |
 | 86 | [courtois-neuromod/petit-prince.tsnr](https://github.com/courtois-neuromod/petit-prince.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:20:54+00:00 |
 | 87 | [courtois-neuromod/phantom_vlb](https://github.com/courtois-neuromod/phantom_vlb) | 0 | :heavy_check_mark: |  |  | 2025-08-29 21:02:34+00:00 |
