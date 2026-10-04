@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (11) | Stars | Dataset (10) | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (12) | Stars | Dataset (10) | `run` (3) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [leej3/afni_ci_test_data](https://github.com/leej3/afni_ci_test_data) | 0 | :heavy_check_mark: |  |  | 2019-04-18 19:19:15+00:00 |
 | 2 | [leej3/datalad-paper-joss](https://github.com/leej3/datalad-paper-joss) | 0 | :heavy_check_mark: |  |  | 2021-04-10 21:21:17+00:00 |
@@ -11,7 +11,8 @@
 | 8 | [leej3/datalad_test](https://github.com/leej3/datalad_test) | 0 | :heavy_check_mark: |  |  | 2019-05-23 13:42:13+00:00 |
 | 9 | [leej3/heudiconv-joss-paper](https://github.com/leej3/heudiconv-joss-paper) | 0 | :heavy_check_mark: |  |  | 2023-06-16 10:43:03+00:00 |
 | 10 | [leej3/orinoco-lite-demo](https://github.com/leej3/orinoco-lite-demo) | 0 |  | :heavy_check_mark: |  | 2026-09-16 20:58:21+00:00 |
-| 11 | [leej3/s3annextest](https://github.com/leej3/s3annextest) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2019-06-28 13:24:40+00:00 |
+| 11 | [leej3/reproseed-cpu-experiments](https://github.com/leej3/reproseed-cpu-experiments) | 0 |  | :heavy_check_mark: |  | 2026-10-03 20:03:07+00:00 |
+| 12 | [leej3/s3annextest](https://github.com/leej3/s3annextest) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2019-06-28 13:24:40+00:00 |
 
 ## Gone
 No repositories found!
