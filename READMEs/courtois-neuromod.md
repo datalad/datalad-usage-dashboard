@@ -20,7 +20,7 @@
 | 17 | [courtois-neuromod/cneuromod_extract_tseries](https://github.com/courtois-neuromod/cneuromod_extract_tseries) | 0 | :heavy_check_mark: |  |  | 2026-09-02 15:13:46+00:00 |
 | 18 | [courtois-neuromod/containers](https://github.com/courtois-neuromod/containers) | 0 | :heavy_check_mark: |  |  | 2026-03-12 14:23:37+00:00 |
 | 19 | [courtois-neuromod/dataset_test](https://github.com/courtois-neuromod/dataset_test) | 0 | :heavy_check_mark: |  |  | 2025-10-26 17:30:08+00:00 |
-| 20 | [courtois-neuromod/dbp.games](https://github.com/courtois-neuromod/dbp.games) | 0 |  | :heavy_check_mark: |  | 2026-09-23 17:15:46+00:00 |
+| 20 | [courtois-neuromod/dbp.games](https://github.com/courtois-neuromod/dbp.games) | 0 |  | :heavy_check_mark: |  | 2026-09-29 13:35:38+00:00 |
 | 21 | [courtois-neuromod/ds_prep](https://github.com/courtois-neuromod/ds_prep) | 5 | :heavy_check_mark: |  |  | 2026-04-07 20:54:42+00:00 |
 | 22 | [courtois-neuromod/emotion-videos](https://github.com/courtois-neuromod/emotion-videos) | 0 | :heavy_check_mark: |  |  | 2026-09-22 17:13:01+00:00 |
 | 23 | [courtois-neuromod/flesp_friends-isc](https://github.com/courtois-neuromod/flesp_friends-isc) | 0 | :heavy_check_mark: |  |  | 2023-06-21 17:55:19+00:00 |
@@ -60,7 +60,7 @@
 | 57 | [courtois-neuromod/mario.replays](https://github.com/courtois-neuromod/mario.replays) | 0 | :heavy_check_mark: |  |  | 2025-12-09 21:29:07+00:00 |
 | 58 | [courtois-neuromod/mario.scenes](https://github.com/courtois-neuromod/mario.scenes) | 0 | :heavy_check_mark: |  |  | 2026-06-17 01:51:04+00:00 |
 | 59 | [courtois-neuromod/mario.stimuli](https://github.com/courtois-neuromod/mario.stimuli) | 0 | :heavy_check_mark: |  |  | 2026-09-12 21:26:09+00:00 |
-| 60 | [courtois-neuromod/mario.tsnr](https://github.com/courtois-neuromod/mario.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:17:28+00:00 |
+| 60 | [courtois-neuromod/mario.tsnr](https://github.com/courtois-neuromod/mario.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-29 20:23:19+00:00 |
 | 61 | [courtois-neuromod/mario3](https://github.com/courtois-neuromod/mario3) | 0 | :heavy_check_mark: |  |  | 2026-09-22 17:17:36+00:00 |
 | 62 | [courtois-neuromod/mario3.mriqc](https://github.com/courtois-neuromod/mario3.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:17:44+00:00 |
 | 63 | [courtois-neuromod/mario3.stimuli](https://github.com/courtois-neuromod/mario3.stimuli) | 0 | :heavy_check_mark: |  |  | 2026-09-12 21:38:00+00:00 |
@@ -78,7 +78,7 @@
 | 75 | [courtois-neuromod/multfs.mriqc](https://github.com/courtois-neuromod/multfs.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:19:12+00:00 |
 | 76 | [courtois-neuromod/mutemusic.mriqc](https://github.com/courtois-neuromod/mutemusic.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:19:34+00:00 |
 | 77 | [courtois-neuromod/mutemusic.tsnr](https://github.com/courtois-neuromod/mutemusic.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:19:43+00:00 |
-| 78 | [courtois-neuromod/narratives.mriqc](https://github.com/courtois-neuromod/narratives.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:20:02+00:00 |
+| 78 | [courtois-neuromod/narratives.mriqc](https://github.com/courtois-neuromod/narratives.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-29 20:25:41+00:00 |
 | 79 | [courtois-neuromod/narratives.stimuli](https://github.com/courtois-neuromod/narratives.stimuli) | 0 | :heavy_check_mark: |  |  | 2025-07-03 15:10:43+00:00 |
 | 80 | [courtois-neuromod/narratives.tsnr](https://github.com/courtois-neuromod/narratives.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:20:11+00:00 |
 | 81 | [courtois-neuromod/ood.mriqc](https://github.com/courtois-neuromod/ood.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:20:24+00:00 |
