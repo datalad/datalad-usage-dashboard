@@ -52,7 +52,7 @@
 | 49 | [courtois-neuromod/hcptrt.tsnr](https://github.com/courtois-neuromod/hcptrt.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:15:52+00:00 |
 | 50 | [courtois-neuromod/langlocalizer.mriqc](https://github.com/courtois-neuromod/langlocalizer.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-29 20:21:57+00:00 |
 | 51 | [courtois-neuromod/langlocalizer.stimuli](https://github.com/courtois-neuromod/langlocalizer.stimuli) | 0 | :heavy_check_mark: |  |  | 2023-12-07 20:54:39+00:00 |
-| 52 | [courtois-neuromod/langlocalizer.tsnr](https://github.com/courtois-neuromod/langlocalizer.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:16:22+00:00 |
+| 52 | [courtois-neuromod/langlocalizer.tsnr](https://github.com/courtois-neuromod/langlocalizer.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-29 20:22:08+00:00 |
 | 53 | [courtois-neuromod/mario](https://github.com/courtois-neuromod/mario) | 1 | :heavy_check_mark: |  |  | 2026-09-22 17:17:04+00:00 |
 | 54 | [courtois-neuromod/mario.annotations](https://github.com/courtois-neuromod/mario.annotations) | 0 | :heavy_check_mark: |  |  | 2025-12-08 16:46:53+00:00 |
 | 55 | [courtois-neuromod/mario.datalad_tests](https://github.com/courtois-neuromod/mario.datalad_tests) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-02-05 21:43:14+00:00 |
@@ -72,21 +72,21 @@
 | 69 | [courtois-neuromod/movie10.fmriprep](https://github.com/courtois-neuromod/movie10.fmriprep) | 1 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:18:35+00:00 |
 | 70 | [courtois-neuromod/movie10.mriqc](https://github.com/courtois-neuromod/movie10.mriqc) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-09-09 14:49:43+00:00 |
 | 71 | [courtois-neuromod/movie10.stimuli](https://github.com/courtois-neuromod/movie10.stimuli) | 1 | :heavy_check_mark: |  |  | 2024-12-28 19:17:37+00:00 |
-| 72 | [courtois-neuromod/movie10.tsnr](https://github.com/courtois-neuromod/movie10.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:18:52+00:00 |
+| 72 | [courtois-neuromod/movie10.tsnr](https://github.com/courtois-neuromod/movie10.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-29 20:24:36+00:00 |
 | 73 | [courtois-neuromod/movie_decoding_sa](https://github.com/courtois-neuromod/movie_decoding_sa) | 0 | :heavy_check_mark: |  |  | 2023-05-09 20:05:28+00:00 |
 | 74 | [courtois-neuromod/multfs.fmriprep](https://github.com/courtois-neuromod/multfs.fmriprep) | 0 | :heavy_check_mark: |  |  | 2026-09-29 20:24:49+00:00 |
 | 75 | [courtois-neuromod/multfs.mriqc](https://github.com/courtois-neuromod/multfs.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:19:12+00:00 |
 | 76 | [courtois-neuromod/mutemusic.mriqc](https://github.com/courtois-neuromod/mutemusic.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:19:34+00:00 |
-| 77 | [courtois-neuromod/mutemusic.tsnr](https://github.com/courtois-neuromod/mutemusic.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:19:43+00:00 |
+| 77 | [courtois-neuromod/mutemusic.tsnr](https://github.com/courtois-neuromod/mutemusic.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-29 20:25:26+00:00 |
 | 78 | [courtois-neuromod/narratives.mriqc](https://github.com/courtois-neuromod/narratives.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-29 20:25:41+00:00 |
 | 79 | [courtois-neuromod/narratives.stimuli](https://github.com/courtois-neuromod/narratives.stimuli) | 0 | :heavy_check_mark: |  |  | 2025-07-03 15:10:43+00:00 |
-| 80 | [courtois-neuromod/narratives.tsnr](https://github.com/courtois-neuromod/narratives.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:20:11+00:00 |
+| 80 | [courtois-neuromod/narratives.tsnr](https://github.com/courtois-neuromod/narratives.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-29 20:25:50+00:00 |
 | 81 | [courtois-neuromod/ood.mriqc](https://github.com/courtois-neuromod/ood.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:20:24+00:00 |
 | 82 | [courtois-neuromod/ood.stimuli](https://github.com/courtois-neuromod/ood.stimuli) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-07-03 14:45:04+00:00 |
 | 83 | [courtois-neuromod/ood.tsnr](https://github.com/courtois-neuromod/ood.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:20:32+00:00 |
 | 84 | [courtois-neuromod/petit-prince.fmriprep](https://github.com/courtois-neuromod/petit-prince.fmriprep) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:20:42+00:00 |
 | 85 | [courtois-neuromod/petit-prince.mriqc](https://github.com/courtois-neuromod/petit-prince.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:20:46+00:00 |
-| 86 | [courtois-neuromod/petit-prince.tsnr](https://github.com/courtois-neuromod/petit-prince.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:20:54+00:00 |
+| 86 | [courtois-neuromod/petit-prince.tsnr](https://github.com/courtois-neuromod/petit-prince.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-29 20:26:31+00:00 |
 | 87 | [courtois-neuromod/phantom_vlb](https://github.com/courtois-neuromod/phantom_vlb) | 0 | :heavy_check_mark: |  |  | 2025-08-29 21:02:34+00:00 |
 | 88 | [courtois-neuromod/retino.stimuli](https://github.com/courtois-neuromod/retino.stimuli) | 0 | :heavy_check_mark: |  |  | 2025-12-05 16:55:46+00:00 |
 | 89 | [courtois-neuromod/retino_analysis](https://github.com/courtois-neuromod/retino_analysis) | 0 | :heavy_check_mark: |  |  | 2025-07-21 19:39:38+00:00 |
@@ -98,7 +98,7 @@
 | 95 | [courtois-neuromod/shinobi.fmriprep](https://github.com/courtois-neuromod/shinobi.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:21:34+00:00 |
 | 96 | [courtois-neuromod/shinobi.mriqc](https://github.com/courtois-neuromod/shinobi.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-09 14:52:03+00:00 |
 | 97 | [courtois-neuromod/shinobi.stimuli](https://github.com/courtois-neuromod/shinobi.stimuli) | 1 | :heavy_check_mark: |  |  | 2023-07-24 02:52:58+00:00 |
-| 98 | [courtois-neuromod/shinobi.tsnr](https://github.com/courtois-neuromod/shinobi.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:21:57+00:00 |
+| 98 | [courtois-neuromod/shinobi.tsnr](https://github.com/courtois-neuromod/shinobi.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-29 20:27:30+00:00 |
 | 99 | [courtois-neuromod/shinobi_behav](https://github.com/courtois-neuromod/shinobi_behav) | 0 | :heavy_check_mark: |  |  | 2023-08-10 15:47:20+00:00 |
 | 100 | [courtois-neuromod/shinobi_fmri](https://github.com/courtois-neuromod/shinobi_fmri) | 0 | :heavy_check_mark: |  |  | 2026-04-15 01:31:41+00:00 |
 | 101 | [courtois-neuromod/shinobi_training](https://github.com/courtois-neuromod/shinobi_training) | 1 | :heavy_check_mark: |  |  | 2026-09-22 17:21:53+00:00 |
@@ -115,7 +115,7 @@
 | 112 | [courtois-neuromod/triplets.fmriprep](https://github.com/courtois-neuromod/triplets.fmriprep) | 0 | :heavy_check_mark: |  |  | 2026-09-29 20:28:24+00:00 |
 | 113 | [courtois-neuromod/triplets.mriqc](https://github.com/courtois-neuromod/triplets.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:22:59+00:00 |
 | 114 | [courtois-neuromod/triplets.stimuli](https://github.com/courtois-neuromod/triplets.stimuli) | 0 | :heavy_check_mark: |  |  | 2024-01-18 18:49:53+00:00 |
-| 115 | [courtois-neuromod/triplets.tsnr](https://github.com/courtois-neuromod/triplets.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-22 17:23:08+00:00 |
+| 115 | [courtois-neuromod/triplets.tsnr](https://github.com/courtois-neuromod/triplets.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-29 20:28:37+00:00 |
 
 ## Gone
 | # | Repository (1) | Stars | Dataset (1) | `run` | `containers-run` | Last Modified |

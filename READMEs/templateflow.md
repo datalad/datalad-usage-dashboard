@@ -1,8 +1,8 @@
 ## Active
-| # | Repository (33) | Stars (143) | Dataset (32) | `run` (2) | `containers-run` | Last Modified |
+| # | Repository (33) | Stars (144) | Dataset (32) | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [templateflow/python-client](https://github.com/templateflow/python-client) | 7 |  | :heavy_check_mark: |  | 2026-03-17 00:52:28+00:00 |
-| 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 99 | :heavy_check_mark: |  |  | 2026-03-17 01:09:09+00:00 |
+| 2 | [templateflow/templateflow](https://github.com/templateflow/templateflow) | 100 | :heavy_check_mark: |  |  | 2026-10-07 19:50:23+00:00 |
 | 3 | [templateflow/tpl-Fischer344](https://github.com/templateflow/tpl-Fischer344) | 0 | :heavy_check_mark: |  |  | 2025-11-12 18:37:44+00:00 |
 | 4 | [templateflow/tpl-ILABSInfant](https://github.com/templateflow/tpl-ILABSInfant) | 0 | :heavy_check_mark: |  |  | 2019-02-22 10:52:37+00:00 |
 | 5 | [templateflow/tpl-MNI152Lin](https://github.com/templateflow/tpl-MNI152Lin) | 1 | :heavy_check_mark: |  |  | 2025-11-12 18:56:31+00:00 |
@@ -12,7 +12,7 @@
 | 9 | [templateflow/tpl-MNI152NLin2009bSym](https://github.com/templateflow/tpl-MNI152NLin2009bSym) | 0 | :heavy_check_mark: |  |  | 2025-11-13 18:32:52+00:00 |
 | 10 | [templateflow/tpl-MNI152NLin2009cAsym](https://github.com/templateflow/tpl-MNI152NLin2009cAsym) | 14 | :heavy_check_mark: |  |  | 2026-01-06 08:01:54+00:00 |
 | 11 | [templateflow/tpl-MNI152NLin2009cSym](https://github.com/templateflow/tpl-MNI152NLin2009cSym) | 0 | :heavy_check_mark: |  |  | 2025-11-13 18:46:23+00:00 |
-| 12 | [templateflow/tpl-MNI152NLin6Asym](https://github.com/templateflow/tpl-MNI152NLin6Asym) | 4 | :heavy_check_mark: |  |  | 2026-01-06 10:10:19+00:00 |
+| 12 | [templateflow/tpl-MNI152NLin6Asym](https://github.com/templateflow/tpl-MNI152NLin6Asym) | 4 | :heavy_check_mark: |  |  | 2026-10-07 13:20:55+00:00 |
 | 13 | [templateflow/tpl-MNI152NLin6Sym](https://github.com/templateflow/tpl-MNI152NLin6Sym) | 0 | :heavy_check_mark: |  |  | 2025-11-12 19:34:21+00:00 |
 | 14 | [templateflow/tpl-MNI305](https://github.com/templateflow/tpl-MNI305) | 1 | :heavy_check_mark: |  |  | 2025-11-13 18:47:12+00:00 |
 | 15 | [templateflow/tpl-MNIColin27](https://github.com/templateflow/tpl-MNIColin27) | 0 | :heavy_check_mark: |  |  | 2025-11-13 18:58:52+00:00 |
@@ -26,7 +26,7 @@
 | 23 | [templateflow/tpl-RESILIENT](https://github.com/templateflow/tpl-RESILIENT) | 0 | :heavy_check_mark: |  |  | 2025-11-13 19:53:57+00:00 |
 | 24 | [templateflow/tpl-SUIT](https://github.com/templateflow/tpl-SUIT) | 0 | :heavy_check_mark: |  |  | 2025-11-13 19:56:07+00:00 |
 | 25 | [templateflow/tpl-UNCInfant](https://github.com/templateflow/tpl-UNCInfant) | 0 | :heavy_check_mark: |  |  | 2025-11-13 20:30:31+00:00 |
-| 26 | [templateflow/tpl-VALiDATe29](https://github.com/templateflow/tpl-VALiDATe29) | 0 | :heavy_check_mark: |  |  | 2025-11-13 20:36:10+00:00 |
+| 26 | [templateflow/tpl-VALiDATe29](https://github.com/templateflow/tpl-VALiDATe29) | 0 | :heavy_check_mark: |  |  | 2026-10-07 20:20:21+00:00 |
 | 27 | [templateflow/tpl-WHS](https://github.com/templateflow/tpl-WHS) | 0 | :heavy_check_mark: |  |  | 2025-11-13 20:37:01+00:00 |
 | 28 | [templateflow/tpl-dhcpAsym](https://github.com/templateflow/tpl-dhcpAsym) | 0 | :heavy_check_mark: |  |  | 2025-11-12 17:49:50+00:00 |
 | 29 | [templateflow/tpl-dhcpSym](https://github.com/templateflow/tpl-dhcpSym) | 0 | :heavy_check_mark: |  |  | 2024-02-13 14:03:33+00:00 |

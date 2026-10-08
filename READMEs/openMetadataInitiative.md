@@ -2,7 +2,7 @@
 | # | Repository (2) | Stars (11) | Dataset | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [openMetadataInitiative/openMINDS](https://github.com/openMetadataInitiative/openMINDS) | 6 |  | :heavy_check_mark: |  | 2026-09-09 11:10:35+00:00 |
-| 2 | [openMetadataInitiative/openMINDS_instances](https://github.com/openMetadataInitiative/openMINDS_instances) | 5 |  | :heavy_check_mark: |  | 2026-09-14 13:42:46+00:00 |
+| 2 | [openMetadataInitiative/openMINDS_instances](https://github.com/openMetadataInitiative/openMINDS_instances) | 5 |  | :heavy_check_mark: |  | 2026-09-30 13:15:28+00:00 |
 
 ## Gone
 No repositories found!
