@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (28) | Stars (146) | Dataset (2) | `run` (28) | `containers-run` | Last Modified |
+| # | Repository (28) | Stars (147) | Dataset (2) | `run` (28) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  | 2026-07-08 15:59:17+00:00 |
 | 2 | [con/annextube](https://github.com/con/annextube) | 3 |  | :heavy_check_mark: |  | 2026-09-25 21:20:03+00:00 |
@@ -26,7 +26,7 @@
 | 23 | [con/tinuous](https://github.com/con/tinuous) | 10 |  | :heavy_check_mark: |  | 2026-08-21 17:59:37+00:00 |
 | 24 | [con/tributors](https://github.com/con/tributors) | 14 |  | :heavy_check_mark: |  | 2026-05-19 18:13:13+00:00 |
 | 25 | [con/try-aind-1](https://github.com/con/try-aind-1) | 0 |  | :heavy_check_mark: |  | 2025-11-13 21:10:33+00:00 |
-| 26 | [con/visidata-demos](https://github.com/con/visidata-demos) | 0 |  | :heavy_check_mark: |  | 2026-09-15 19:18:06+00:00 |
+| 26 | [con/visidata-demos](https://github.com/con/visidata-demos) | 1 |  | :heavy_check_mark: |  | 2026-09-15 19:18:06+00:00 |
 | 27 | [con/yarikoptic-historia](https://github.com/con/yarikoptic-historia) | 0 |  | :heavy_check_mark: |  | 2026-09-30 03:19:25+00:00 |
 | 28 | [con/yolo](https://github.com/con/yolo) | 14 |  | :heavy_check_mark: |  | 2026-09-17 23:18:16+00:00 |
 
