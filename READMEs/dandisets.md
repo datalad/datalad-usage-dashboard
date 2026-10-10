@@ -232,7 +232,7 @@
 | 229 | [dandisets/000463](https://github.com/dandisets/000463) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:09:48+00:00 |
 | 230 | [dandisets/000465](https://github.com/dandisets/000465) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:09:49+00:00 |
 | 231 | [dandisets/000466](https://github.com/dandisets/000466) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:09:48+00:00 |
-| 232 | [dandisets/000467](https://github.com/dandisets/000467) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:10:35+00:00 |
+| 232 | [dandisets/000467](https://github.com/dandisets/000467) | 0 | :heavy_check_mark: |  |  | 2026-10-05 15:47:50+00:00 |
 | 233 | [dandisets/000468](https://github.com/dandisets/000468) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:09:50+00:00 |
 | 234 | [dandisets/000469](https://github.com/dandisets/000469) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:09:52+00:00 |
 | 235 | [dandisets/000470](https://github.com/dandisets/000470) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:09:51+00:00 |
@@ -273,7 +273,7 @@
 | 270 | [dandisets/000548](https://github.com/dandisets/000548) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:10:43+00:00 |
 | 271 | [dandisets/000549](https://github.com/dandisets/000549) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:10:43+00:00 |
 | 272 | [dandisets/000550](https://github.com/dandisets/000550) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:10:45+00:00 |
-| 273 | [dandisets/000552](https://github.com/dandisets/000552) | 0 | :heavy_check_mark: |  |  | 2026-05-28 09:30:47+00:00 |
+| 273 | [dandisets/000552](https://github.com/dandisets/000552) | 0 | :heavy_check_mark: |  |  | 2026-10-05 19:05:23+00:00 |
 | 274 | [dandisets/000554](https://github.com/dandisets/000554) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:10:49+00:00 |
 | 275 | [dandisets/000555](https://github.com/dandisets/000555) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:10:49+00:00 |
 | 276 | [dandisets/000556](https://github.com/dandisets/000556) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:10:50+00:00 |
@@ -299,7 +299,7 @@
 | 296 | [dandisets/000582](https://github.com/dandisets/000582) | 0 | :heavy_check_mark: |  |  | 2026-05-28 09:30:48+00:00 |
 | 297 | [dandisets/000615](https://github.com/dandisets/000615) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:12:19+00:00 |
 | 298 | [dandisets/000617](https://github.com/dandisets/000617) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:12:41+00:00 |
-| 299 | [dandisets/000618](https://github.com/dandisets/000618) | 0 | :heavy_check_mark: |  |  | 2026-01-09 20:03:19+00:00 |
+| 299 | [dandisets/000618](https://github.com/dandisets/000618) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:15:08+00:00 |
 | 300 | [dandisets/000619](https://github.com/dandisets/000619) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:12:22+00:00 |
 | 301 | [dandisets/000620](https://github.com/dandisets/000620) | 0 | :heavy_check_mark: |  |  | 2026-03-05 19:03:15+00:00 |
 | 302 | [dandisets/000623](https://github.com/dandisets/000623) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:12:28+00:00 |
@@ -330,7 +330,7 @@
 | 327 | [dandisets/000686](https://github.com/dandisets/000686) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:12:56+00:00 |
 | 328 | [dandisets/000687](https://github.com/dandisets/000687) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:12:57+00:00 |
 | 329 | [dandisets/000688](https://github.com/dandisets/000688) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:12:58+00:00 |
-| 330 | [dandisets/000689](https://github.com/dandisets/000689) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:12:59+00:00 |
+| 330 | [dandisets/000689](https://github.com/dandisets/000689) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:15:10+00:00 |
 | 331 | [dandisets/000690](https://github.com/dandisets/000690) | 0 | :heavy_check_mark: |  |  | 2026-03-30 22:03:11+00:00 |
 | 332 | [dandisets/000691](https://github.com/dandisets/000691) | 0 | :heavy_check_mark: |  |  | 2026-08-27 14:00:35+00:00 |
 | 333 | [dandisets/000692](https://github.com/dandisets/000692) | 1 | :heavy_check_mark: |  |  | 2025-09-12 18:13:01+00:00 |
@@ -399,7 +399,7 @@
 | 396 | [dandisets/000935](https://github.com/dandisets/000935) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:15:20+00:00 |
 | 397 | [dandisets/000937](https://github.com/dandisets/000937) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:16:14+00:00 |
 | 398 | [dandisets/000938](https://github.com/dandisets/000938) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:16:15+00:00 |
-| 399 | [dandisets/000939](https://github.com/dandisets/000939) | 0 | :heavy_check_mark: |  |  | 2026-05-12 17:04:14+00:00 |
+| 399 | [dandisets/000939](https://github.com/dandisets/000939) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:15:22+00:00 |
 | 400 | [dandisets/000940](https://github.com/dandisets/000940) | 0 | :heavy_check_mark: |  |  | 2026-04-08 23:03:32+00:00 |
 | 401 | [dandisets/000941](https://github.com/dandisets/000941) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:16:17+00:00 |
 | 402 | [dandisets/000942](https://github.com/dandisets/000942) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:16:17+00:00 |
@@ -434,7 +434,7 @@
 | 431 | [dandisets/000984](https://github.com/dandisets/000984) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:04+00:00 |
 | 432 | [dandisets/000985](https://github.com/dandisets/000985) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:05+00:00 |
 | 433 | [dandisets/000986](https://github.com/dandisets/000986) | 0 | :heavy_check_mark: |  |  | 2025-10-31 20:03:15+00:00 |
-| 434 | [dandisets/000987](https://github.com/dandisets/000987) | 0 | :heavy_check_mark: |  |  | 2026-08-31 20:35:44+00:00 |
+| 434 | [dandisets/000987](https://github.com/dandisets/000987) | 0 | :heavy_check_mark: |  |  | 2026-10-05 15:47:46+00:00 |
 | 435 | [dandisets/000988](https://github.com/dandisets/000988) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:08+00:00 |
 | 436 | [dandisets/000989](https://github.com/dandisets/000989) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:10+00:00 |
 | 437 | [dandisets/001022](https://github.com/dandisets/001022) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:09+00:00 |
@@ -460,7 +460,7 @@
 | 457 | [dandisets/001047](https://github.com/dandisets/001047) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:26+00:00 |
 | 458 | [dandisets/001048](https://github.com/dandisets/001048) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:26+00:00 |
 | 459 | [dandisets/001049](https://github.com/dandisets/001049) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:27+00:00 |
-| 460 | [dandisets/001051](https://github.com/dandisets/001051) | 0 | :heavy_check_mark: |  |  | 2026-08-27 04:14:59+00:00 |
+| 460 | [dandisets/001051](https://github.com/dandisets/001051) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:15:36+00:00 |
 | 461 | [dandisets/001052](https://github.com/dandisets/001052) | 0 | :heavy_check_mark: |  |  | 2026-01-16 00:03:28+00:00 |
 | 462 | [dandisets/001054](https://github.com/dandisets/001054) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:32+00:00 |
 | 463 | [dandisets/001055](https://github.com/dandisets/001055) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:32+00:00 |
@@ -473,7 +473,7 @@
 | 470 | [dandisets/001062](https://github.com/dandisets/001062) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:37+00:00 |
 | 471 | [dandisets/001063](https://github.com/dandisets/001063) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:45+00:00 |
 | 472 | [dandisets/001064](https://github.com/dandisets/001064) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:51+00:00 |
-| 473 | [dandisets/001065](https://github.com/dandisets/001065) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:52+00:00 |
+| 473 | [dandisets/001065](https://github.com/dandisets/001065) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:15:29+00:00 |
 | 474 | [dandisets/001066](https://github.com/dandisets/001066) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:52+00:00 |
 | 475 | [dandisets/001069](https://github.com/dandisets/001069) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:53+00:00 |
 | 476 | [dandisets/001070](https://github.com/dandisets/001070) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:17:55+00:00 |
@@ -528,7 +528,7 @@
 | 525 | [dandisets/001200](https://github.com/dandisets/001200) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:18:42+00:00 |
 | 526 | [dandisets/001201](https://github.com/dandisets/001201) | 0 | :heavy_check_mark: |  |  | 2025-10-24 00:03:33+00:00 |
 | 527 | [dandisets/001202](https://github.com/dandisets/001202) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:18:43+00:00 |
-| 528 | [dandisets/001203](https://github.com/dandisets/001203) | 0 | :heavy_check_mark: |  |  | 2026-09-17 01:32:18+00:00 |
+| 528 | [dandisets/001203](https://github.com/dandisets/001203) | 0 | :heavy_check_mark: |  |  | 2026-10-08 12:42:14+00:00 |
 | 529 | [dandisets/001205](https://github.com/dandisets/001205) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:19:14+00:00 |
 | 530 | [dandisets/001207](https://github.com/dandisets/001207) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:19:14+00:00 |
 | 531 | [dandisets/001208](https://github.com/dandisets/001208) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:19:15+00:00 |
@@ -550,7 +550,7 @@
 | 547 | [dandisets/001257](https://github.com/dandisets/001257) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:19:41+00:00 |
 | 548 | [dandisets/001258](https://github.com/dandisets/001258) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:19:43+00:00 |
 | 549 | [dandisets/001260](https://github.com/dandisets/001260) | 0 | :heavy_check_mark: |  |  | 2025-09-13 02:35:15+00:00 |
-| 550 | [dandisets/001261](https://github.com/dandisets/001261) | 0 | :heavy_check_mark: |  |  | 2025-09-17 21:02:56+00:00 |
+| 550 | [dandisets/001261](https://github.com/dandisets/001261) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:15:44+00:00 |
 | 551 | [dandisets/001262](https://github.com/dandisets/001262) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:19:49+00:00 |
 | 552 | [dandisets/001263](https://github.com/dandisets/001263) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:19:45+00:00 |
 | 553 | [dandisets/001266](https://github.com/dandisets/001266) | 0 | :heavy_check_mark: |  |  | 2025-09-12 18:19:49+00:00 |
@@ -819,7 +819,7 @@
 | 816 | [dandisets/001787](https://github.com/dandisets/001787) | 0 | :heavy_check_mark: |  |  | 2026-04-20 02:05:16+00:00 |
 | 817 | [dandisets/001788](https://github.com/dandisets/001788) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:21:51+00:00 |
 | 818 | [dandisets/001789](https://github.com/dandisets/001789) | 0 | :heavy_check_mark: |  |  | 2026-04-23 17:13:26+00:00 |
-| 819 | [dandisets/001790](https://github.com/dandisets/001790) | 0 | :heavy_check_mark: |  |  | 2026-04-23 18:06:02+00:00 |
+| 819 | [dandisets/001790](https://github.com/dandisets/001790) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:22:19+00:00 |
 | 820 | [dandisets/001791](https://github.com/dandisets/001791) | 0 | :heavy_check_mark: |  |  | 2026-04-24 04:04:00+00:00 |
 | 821 | [dandisets/001792](https://github.com/dandisets/001792) | 0 | :heavy_check_mark: |  |  | 2026-04-23 20:23:02+00:00 |
 | 822 | [dandisets/001794](https://github.com/dandisets/001794) | 0 | :heavy_check_mark: |  |  | 2026-04-26 07:28:30+00:00 |
@@ -901,7 +901,7 @@
 | 898 | [dandisets/001957](https://github.com/dandisets/001957) | 0 | :heavy_check_mark: |  |  | 2026-08-31 20:49:04+00:00 |
 | 899 | [dandisets/001958](https://github.com/dandisets/001958) | 0 | :heavy_check_mark: |  |  | 2026-08-31 20:49:16+00:00 |
 | 900 | [dandisets/001959](https://github.com/dandisets/001959) | 0 | :heavy_check_mark: |  |  | 2026-09-04 19:31:19+00:00 |
-| 901 | [dandisets/001960](https://github.com/dandisets/001960) | 0 | :heavy_check_mark: |  |  | 2026-09-10 20:16:33+00:00 |
+| 901 | [dandisets/001960](https://github.com/dandisets/001960) | 0 | :heavy_check_mark: |  |  | 2026-09-29 16:23:48+00:00 |
 | 902 | [dandisets/001961](https://github.com/dandisets/001961) | 0 | :heavy_check_mark: |  |  | 2026-09-11 13:16:13+00:00 |
 | 903 | [dandisets/001966](https://github.com/dandisets/001966) | 0 | :heavy_check_mark: |  |  | 2026-09-11 14:31:06+00:00 |
 | 904 | [dandisets/001968](https://github.com/dandisets/001968) | 0 | :heavy_check_mark: |  |  | 2026-09-17 01:44:28+00:00 |
