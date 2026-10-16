@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (35) | Stars (509) | Dataset (23) | `run` (22) | `containers-run` (2) | Last Modified |
+| # | Repository (36) | Stars (509) | Dataset (24) | `run` (23) | `containers-run` (2) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproNim/ABCD-visidata](https://github.com/ReproNim/ABCD-visidata) | 1 | :heavy_check_mark: |  |  | 2026-01-23 15:53:51+00:00 |
 | 2 | [ReproNim/FAIR_neuroimaging_with_NIDM](https://github.com/ReproNim/FAIR_neuroimaging_with_NIDM) | 0 | :heavy_check_mark: |  |  | 2025-09-03 19:36:36+00:00 |
@@ -17,25 +17,26 @@
 | 14 | [ReproNim/ds000003-demo-fastsurfer](https://github.com/ReproNim/ds000003-demo-fastsurfer) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-04-10 16:25:09+00:00 |
 | 15 | [ReproNim/ds000003-qc](https://github.com/ReproNim/ds000003-qc) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2019-08-31 12:40:29+00:00 |
 | 16 | [ReproNim/ds001907-EDU](https://github.com/ReproNim/ds001907-EDU) | 0 | :heavy_check_mark: |  |  | 2022-05-13 11:30:14+00:00 |
-| 17 | [ReproNim/module-reproducible-basics](https://github.com/ReproNim/module-reproducible-basics) | 5 |  | :heavy_check_mark: |  | 2021-04-28 12:33:17+00:00 |
-| 18 | [ReproNim/neurodocker](https://github.com/ReproNim/neurodocker) | 361 |  | :heavy_check_mark: |  | 2026-10-01 04:46:18+00:00 |
-| 19 | [ReproNim/nobrainer-benchmarkit](https://github.com/ReproNim/nobrainer-benchmarkit) | 1 | :heavy_check_mark: |  |  | 2022-11-10 18:37:02+00:00 |
-| 20 | [ReproNim/openneuro-tools](https://github.com/ReproNim/openneuro-tools) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-05-13 14:33:57+00:00 |
-| 21 | [ReproNim/openneurolab-metasearch-dataset](https://github.com/ReproNim/openneurolab-metasearch-dataset) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2018-04-04 00:21:36+00:00 |
-| 22 | [ReproNim/publications](https://github.com/ReproNim/publications) | 0 | :heavy_check_mark: |  |  | 2019-06-07 13:46:55+00:00 |
-| 23 | [ReproNim/reproflow-data-sync](https://github.com/ReproNim/reproflow-data-sync) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-05-07 18:00:13+00:00 |
-| 24 | [ReproNim/reproin](https://github.com/ReproNim/reproin) | 56 |  | :heavy_check_mark: |  | 2025-05-12 14:40:11+00:00 |
-| 25 | [ReproNim/reproman](https://github.com/ReproNim/reproman) | 24 |  | :heavy_check_mark: |  | 2026-04-16 13:19:29+00:00 |
-| 26 | [ReproNim/repromon](https://github.com/ReproNim/repromon) | 0 |  | :heavy_check_mark: |  | 2024-04-17 11:21:48+00:00 |
-| 27 | [ReproNim/repronim.github.io](https://github.com/ReproNim/repronim.github.io) | 3 |  | :heavy_check_mark: |  | 2025-08-13 14:29:12+00:00 |
-| 28 | [ReproNim/repronim.org](https://github.com/ReproNim/repronim.org) | 0 |  | :heavy_check_mark: |  | 2026-10-05 18:29:28+00:00 |
-| 29 | [ReproNim/reproschema-ui](https://github.com/ReproNim/reproschema-ui) | 3 |  | :heavy_check_mark: |  | 2025-08-25 19:00:24+00:00 |
-| 30 | [ReproNim/reprostim](https://github.com/ReproNim/reprostim) | 8 |  | :heavy_check_mark: |  | 2026-10-14 11:15:13+00:00 |
-| 31 | [ReproNim/reprostim-sessions](https://github.com/ReproNim/reprostim-sessions) | 0 | :heavy_check_mark: |  |  | 2023-03-09 15:02:51+00:00 |
-| 32 | [ReproNim/sfn2018-training](https://github.com/ReproNim/sfn2018-training) | 2 | :heavy_check_mark: |  |  | 2022-07-06 20:14:08+00:00 |
-| 33 | [ReproNim/study-ds000003-demo](https://github.com/ReproNim/study-ds000003-demo) | 0 | :heavy_check_mark: |  |  | 2026-09-09 18:52:36+00:00 |
-| 34 | [ReproNim/test-babs](https://github.com/ReproNim/test-babs) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-12-08 20:39:43+00:00 |
-| 35 | [ReproNim/webinar-2020-reprocomp](https://github.com/ReproNim/webinar-2020-reprocomp) | 0 | :heavy_check_mark: |  |  | 2020-12-04 18:51:46+00:00 |
+| 17 | [ReproNim/llm-workshop-kg](https://github.com/ReproNim/llm-workshop-kg) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-10-16 10:32:26+00:00 |
+| 18 | [ReproNim/module-reproducible-basics](https://github.com/ReproNim/module-reproducible-basics) | 5 |  | :heavy_check_mark: |  | 2021-04-28 12:33:17+00:00 |
+| 19 | [ReproNim/neurodocker](https://github.com/ReproNim/neurodocker) | 361 |  | :heavy_check_mark: |  | 2026-10-01 04:46:18+00:00 |
+| 20 | [ReproNim/nobrainer-benchmarkit](https://github.com/ReproNim/nobrainer-benchmarkit) | 1 | :heavy_check_mark: |  |  | 2022-11-10 18:37:02+00:00 |
+| 21 | [ReproNim/openneuro-tools](https://github.com/ReproNim/openneuro-tools) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-05-13 14:33:57+00:00 |
+| 22 | [ReproNim/openneurolab-metasearch-dataset](https://github.com/ReproNim/openneurolab-metasearch-dataset) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2018-04-04 00:21:36+00:00 |
+| 23 | [ReproNim/publications](https://github.com/ReproNim/publications) | 0 | :heavy_check_mark: |  |  | 2019-06-07 13:46:55+00:00 |
+| 24 | [ReproNim/reproflow-data-sync](https://github.com/ReproNim/reproflow-data-sync) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-05-07 18:00:13+00:00 |
+| 25 | [ReproNim/reproin](https://github.com/ReproNim/reproin) | 56 |  | :heavy_check_mark: |  | 2025-05-12 14:40:11+00:00 |
+| 26 | [ReproNim/reproman](https://github.com/ReproNim/reproman) | 24 |  | :heavy_check_mark: |  | 2026-04-16 13:19:29+00:00 |
+| 27 | [ReproNim/repromon](https://github.com/ReproNim/repromon) | 0 |  | :heavy_check_mark: |  | 2024-04-17 11:21:48+00:00 |
+| 28 | [ReproNim/repronim.github.io](https://github.com/ReproNim/repronim.github.io) | 3 |  | :heavy_check_mark: |  | 2025-08-13 14:29:12+00:00 |
+| 29 | [ReproNim/repronim.org](https://github.com/ReproNim/repronim.org) | 0 |  | :heavy_check_mark: |  | 2026-10-05 18:29:28+00:00 |
+| 30 | [ReproNim/reproschema-ui](https://github.com/ReproNim/reproschema-ui) | 3 |  | :heavy_check_mark: |  | 2025-08-25 19:00:24+00:00 |
+| 31 | [ReproNim/reprostim](https://github.com/ReproNim/reprostim) | 8 |  | :heavy_check_mark: |  | 2026-10-14 11:15:13+00:00 |
+| 32 | [ReproNim/reprostim-sessions](https://github.com/ReproNim/reprostim-sessions) | 0 | :heavy_check_mark: |  |  | 2023-03-09 15:02:51+00:00 |
+| 33 | [ReproNim/sfn2018-training](https://github.com/ReproNim/sfn2018-training) | 2 | :heavy_check_mark: |  |  | 2022-07-06 20:14:08+00:00 |
+| 34 | [ReproNim/study-ds000003-demo](https://github.com/ReproNim/study-ds000003-demo) | 0 | :heavy_check_mark: |  |  | 2026-09-09 18:52:36+00:00 |
+| 35 | [ReproNim/test-babs](https://github.com/ReproNim/test-babs) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-12-08 20:39:43+00:00 |
+| 36 | [ReproNim/webinar-2020-reprocomp](https://github.com/ReproNim/webinar-2020-reprocomp) | 0 | :heavy_check_mark: |  |  | 2020-12-04 18:51:46+00:00 |
 
 ## Gone
 No repositories found!
