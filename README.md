@@ -6,8 +6,8 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 - [GitHub](#github): [6134](#in-the-wild) in the wild + [6736](#inner-circle) inner-circle + [291](#gone) gone
 - [OSF](#osf): [205](#active) active + [83](#gone-1) gone
 - [GIN](#gin): [984](#active-1) active + [13](#gone-2) gone
-- [hub.datalad.org](#hubdataladorg): [4632](#active-2) active + [1](#gone-3) gone
-- [ATRIS](#atris): [118](#active-3) active + [0](#gone-4) gone
+- [hub.datalad.org](#hubdataladorg): [4633](#active-2) active + [1](#gone-3) gone
+- [ATRIS](#atris): [120](#active-3) active + [0](#gone-4) gone
 
 # GitHub
 ## In the wild
@@ -1767,29 +1767,30 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # hub.datalad.org
 ## Active
-| # | Repository (4632) | Stars (3) | Last Modified |
+| # | Repository (4633) | Stars (3) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [adina/*](https://hub.datalad.org/adina) [(2)](READMEs/hub-datalad-org/adina.md) | [0](READMEs/hub-datalad-org/adina.md) | 2025-09-12 13:07:20+00:00 |
 | 2 | [asmacdo/project.d.o](https://hub.datalad.org/asmacdo/project.d.o) | 0 | 2025-09-12 13:07:23+00:00 |
 | 3 | [candleindark/*](https://hub.datalad.org/candleindark) [(3)](READMEs/hub-datalad-org/candleindark.md) | [0](READMEs/hub-datalad-org/candleindark.md) | 2026-01-28 06:47:35+00:00 |
 | 4 | [distribits/*](https://hub.datalad.org/distribits) [(4)](READMEs/hub-datalad-org/distribits.md) | [3](READMEs/hub-datalad-org/distribits.md) | 2026-09-30 13:52:25+00:00 |
 | 5 | [edu/*](https://hub.datalad.org/edu) [(7)](READMEs/hub-datalad-org/edu.md) | [0](READMEs/hub-datalad-org/edu.md) | 2026-04-29 09:26:59+00:00 |
-| 6 | [git-annex/*](https://hub.datalad.org/git-annex) [(3)](READMEs/hub-datalad-org/git-annex.md) | [0](READMEs/hub-datalad-org/git-annex.md) | 2026-09-28 05:15:58+00:00 |
-| 7 | [handbook/*](https://hub.datalad.org/handbook) [(8)](READMEs/hub-datalad-org/handbook.md) | [0](READMEs/hub-datalad-org/handbook.md) | 2026-01-23 09:15:11+00:00 |
-| 8 | [hcp-openaccess/*](https://hub.datalad.org/hcp-openaccess) [(4550)](READMEs/hub-datalad-org/hcp-openaccess.md) | [0](READMEs/hub-datalad-org/hcp-openaccess.md) | 2025-09-12 13:07:17+00:00 |
-| 9 | [j.goddard/*](https://hub.datalad.org/j.goddard) [(3)](READMEs/hub-datalad-org/j.goddard.md) | [0](READMEs/hub-datalad-org/j.goddard.md) | 2025-09-12 13:07:21+00:00 |
-| 10 | [jsheunis/docs.trr379.de](https://hub.datalad.org/jsheunis/docs.trr379.de) | 0 | 2025-09-12 13:07:21+00:00 |
-| 11 | [leej3/con-site-specific-annex](https://hub.datalad.org/leej3/con-site-specific-annex) | 0 | 2026-10-01 14:24:35+00:00 |
-| 12 | [m-wierzba/*](https://hub.datalad.org/m-wierzba) [(4)](READMEs/hub-datalad-org/m-wierzba.md) | [0](READMEs/hub-datalad-org/m-wierzba.md) | 2025-10-19 10:25:40+00:00 |
-| 13 | [mih/p2phttp-test](https://hub.datalad.org/mih/p2phttp-test) | 0 | 2025-09-12 13:07:22+00:00 |
-| 14 | [mslw/*](https://hub.datalad.org/mslw) [(5)](READMEs/hub-datalad-org/mslw.md) | [0](READMEs/hub-datalad-org/mslw.md) | 2025-09-12 14:27:27+00:00 |
-| 15 | [naturalistic-imaging/*](https://hub.datalad.org/naturalistic-imaging) [(27)](READMEs/hub-datalad-org/naturalistic-imaging.md) | [0](READMEs/hub-datalad-org/naturalistic-imaging.md) | 2026-08-16 14:07:42+00:00 |
-| 16 | [openneuro/ds000001](https://hub.datalad.org/openneuro/ds000001) | 0 | 2025-09-12 13:07:22+00:00 |
-| 17 | [studyforrest/*](https://hub.datalad.org/studyforrest) [(3)](READMEs/hub-datalad-org/studyforrest.md) | [0](READMEs/hub-datalad-org/studyforrest.md) | 2025-09-12 13:07:20+00:00 |
-| 18 | [test-resources/*](https://hub.datalad.org/test-resources) [(4)](READMEs/hub-datalad-org/test-resources.md) | [0](READMEs/hub-datalad-org/test-resources.md) | 2025-09-12 13:07:18+00:00 |
-| 19 | [wjm/datalad-blog](https://hub.datalad.org/wjm/datalad-blog) | 0 | 2026-04-18 20:35:37+00:00 |
-| 20 | [www/*](https://hub.datalad.org/www) [(2)](READMEs/hub-datalad-org/www.md) | [0](READMEs/hub-datalad-org/www.md) | 2026-04-25 13:53:48+00:00 |
-| 21 | [yarikoptic/dandi-000029](https://hub.datalad.org/yarikoptic/dandi-000029) | 0 | 2025-09-12 13:07:22+00:00 |
+| 6 | [forgejo/runner-images](https://hub.datalad.org/forgejo/runner-images) | 0 | 2026-10-16 12:01:01+00:00 |
+| 7 | [git-annex/*](https://hub.datalad.org/git-annex) [(3)](READMEs/hub-datalad-org/git-annex.md) | [0](READMEs/hub-datalad-org/git-annex.md) | 2026-09-28 05:15:58+00:00 |
+| 8 | [handbook/*](https://hub.datalad.org/handbook) [(8)](READMEs/hub-datalad-org/handbook.md) | [0](READMEs/hub-datalad-org/handbook.md) | 2026-01-23 09:15:11+00:00 |
+| 9 | [hcp-openaccess/*](https://hub.datalad.org/hcp-openaccess) [(4550)](READMEs/hub-datalad-org/hcp-openaccess.md) | [0](READMEs/hub-datalad-org/hcp-openaccess.md) | 2025-09-12 13:07:17+00:00 |
+| 10 | [j.goddard/*](https://hub.datalad.org/j.goddard) [(3)](READMEs/hub-datalad-org/j.goddard.md) | [0](READMEs/hub-datalad-org/j.goddard.md) | 2025-09-12 13:07:21+00:00 |
+| 11 | [jsheunis/docs.trr379.de](https://hub.datalad.org/jsheunis/docs.trr379.de) | 0 | 2025-09-12 13:07:21+00:00 |
+| 12 | [leej3/con-site-specific-annex](https://hub.datalad.org/leej3/con-site-specific-annex) | 0 | 2026-10-14 18:22:08+00:00 |
+| 13 | [m-wierzba/*](https://hub.datalad.org/m-wierzba) [(4)](READMEs/hub-datalad-org/m-wierzba.md) | [0](READMEs/hub-datalad-org/m-wierzba.md) | 2025-10-19 10:25:40+00:00 |
+| 14 | [mih/p2phttp-test](https://hub.datalad.org/mih/p2phttp-test) | 0 | 2025-09-12 13:07:22+00:00 |
+| 15 | [mslw/*](https://hub.datalad.org/mslw) [(5)](READMEs/hub-datalad-org/mslw.md) | [0](READMEs/hub-datalad-org/mslw.md) | 2025-09-12 14:27:27+00:00 |
+| 16 | [naturalistic-imaging/*](https://hub.datalad.org/naturalistic-imaging) [(27)](READMEs/hub-datalad-org/naturalistic-imaging.md) | [0](READMEs/hub-datalad-org/naturalistic-imaging.md) | 2026-08-16 14:07:42+00:00 |
+| 17 | [openneuro/ds000001](https://hub.datalad.org/openneuro/ds000001) | 0 | 2025-09-12 13:07:22+00:00 |
+| 18 | [studyforrest/*](https://hub.datalad.org/studyforrest) [(3)](READMEs/hub-datalad-org/studyforrest.md) | [0](READMEs/hub-datalad-org/studyforrest.md) | 2025-09-12 13:07:20+00:00 |
+| 19 | [test-resources/*](https://hub.datalad.org/test-resources) [(4)](READMEs/hub-datalad-org/test-resources.md) | [0](READMEs/hub-datalad-org/test-resources.md) | 2025-09-12 13:07:18+00:00 |
+| 20 | [wjm/datalad-blog](https://hub.datalad.org/wjm/datalad-blog) | 0 | 2026-04-18 20:35:37+00:00 |
+| 21 | [www/*](https://hub.datalad.org/www) [(2)](READMEs/hub-datalad-org/www.md) | [0](READMEs/hub-datalad-org/www.md) | 2026-04-25 13:53:48+00:00 |
+| 22 | [yarikoptic/dandi-000029](https://hub.datalad.org/yarikoptic/dandi-000029) | 0 | 2025-09-12 13:07:22+00:00 |
 
 ## Gone
 | # | Repository (1) | Stars | Last Modified |
@@ -1798,14 +1799,14 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # ATRIS
 ## Active
-| # | Repository (118) | Stars (1) | Last Modified |
+| # | Repository (120) | Stars (1) | Last Modified |
 | --- | --- | --- | --- |
 | 1 | [CAIRT/*](https://atris.fz-juelich.de/CAIRT) [(6)](READMEs/atris/CAIRT.md) | [0](READMEs/atris/CAIRT.md) | 2026-01-13 10:49:56+00:00 |
-| 2 | [CRISTA/*](https://atris.fz-juelich.de/CRISTA) [(2)](READMEs/atris/CRISTA.md) | [0](READMEs/atris/CRISTA.md) | 2026-10-07 12:23:35+00:00 |
-| 3 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(89)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2026-10-08 22:20:54+00:00 |
+| 2 | [CRISTA/*](https://atris.fz-juelich.de/CRISTA) [(4)](READMEs/atris/CRISTA.md) | [0](READMEs/atris/CRISTA.md) | 2026-10-16 14:09:38+00:00 |
+| 3 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(89)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2026-10-12 12:42:10+00:00 |
 | 4 | [b.vogel/*](https://atris.fz-juelich.de/b.vogel) [(5)](READMEs/atris/b.vogel.md) | [0](READMEs/atris/b.vogel.md) | 2026-09-18 07:27:36+00:00 |
 | 5 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(5)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2026-07-23 08:57:53+00:00 |
-| 6 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(9)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2026-09-06 04:19:26+00:00 |
+| 6 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(9)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2026-10-13 10:45:45+00:00 |
 | 7 | [p.konopka/clams_clim](https://atris.fz-juelich.de/p.konopka/clams_clim) | 0 | 2024-09-25 14:01:42+00:00 |
 | 8 | [yann.buechau/tutorials](https://atris.fz-juelich.de/yann.buechau/tutorials) | 0 | 2025-02-19 16:41:49+00:00 |
 
