@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (28) | Stars (147) | Dataset (2) | `run` (28) | `containers-run` | Last Modified |
+| # | Repository (28) | Stars (148) | Dataset (2) | `run` (28) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  | 2026-07-08 15:59:17+00:00 |
 | 2 | [con/annextube](https://github.com/con/annextube) | 3 |  | :heavy_check_mark: |  | 2026-09-25 21:20:03+00:00 |
@@ -8,7 +8,7 @@
 | 5 | [con/citations-collector](https://github.com/con/citations-collector) | 2 |  | :heavy_check_mark: |  | 2026-09-30 17:34:11+00:00 |
 | 6 | [con/demos](https://github.com/con/demos) | 0 |  | :heavy_check_mark: |  | 2025-11-17 20:33:51+00:00 |
 | 7 | [con/dev-centerforopenneuroscience.org](https://github.com/con/dev-centerforopenneuroscience.org) | 0 |  | :heavy_check_mark: |  | 2026-10-05 21:51:23+00:00 |
-| 8 | [con/duct](https://github.com/con/duct) | 12 |  | :heavy_check_mark: |  | 2026-10-02 13:08:41+00:00 |
+| 8 | [con/duct](https://github.com/con/duct) | 12 |  | :heavy_check_mark: |  | 2026-10-08 21:07:05+00:00 |
 | 9 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-09-16 13:48:07+00:00 |
 | 10 | [con/eval-under](https://github.com/con/eval-under) | 0 |  | :heavy_check_mark: |  | 2026-10-05 13:20:19+00:00 |
 | 11 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2026-10-05 15:24:46+00:00 |
@@ -28,7 +28,7 @@
 | 25 | [con/try-aind-1](https://github.com/con/try-aind-1) | 0 |  | :heavy_check_mark: |  | 2025-11-13 21:10:33+00:00 |
 | 26 | [con/visidata-demos](https://github.com/con/visidata-demos) | 1 |  | :heavy_check_mark: |  | 2026-09-15 19:18:06+00:00 |
 | 27 | [con/yarikoptic-historia](https://github.com/con/yarikoptic-historia) | 0 |  | :heavy_check_mark: |  | 2026-10-13 04:50:35+00:00 |
-| 28 | [con/yolo](https://github.com/con/yolo) | 14 |  | :heavy_check_mark: |  | 2026-09-17 23:18:16+00:00 |
+| 28 | [con/yolo](https://github.com/con/yolo) | 15 |  | :heavy_check_mark: |  | 2026-09-17 23:18:16+00:00 |
 
 ## Gone
 No repositories found!

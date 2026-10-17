@@ -4,7 +4,7 @@
 | 1 | [ReproNim/ABCD-visidata](https://github.com/ReproNim/ABCD-visidata) | 1 | :heavy_check_mark: |  |  | 2026-01-23 15:53:51+00:00 |
 | 2 | [ReproNim/FAIR_neuroimaging_with_NIDM](https://github.com/ReproNim/FAIR_neuroimaging_with_NIDM) | 0 | :heavy_check_mark: |  |  | 2025-09-03 19:36:36+00:00 |
 | 3 | [ReproNim/OpenNeuroDerivatives-NIDM](https://github.com/ReproNim/OpenNeuroDerivatives-NIDM) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-07-14 18:05:10+00:00 |
-| 4 | [ReproNim/ReproInventory](https://github.com/ReproNim/ReproInventory) | 6 |  | :heavy_check_mark: |  | 2026-06-11 15:46:01+00:00 |
+| 4 | [ReproNim/ReproInventory](https://github.com/ReproNim/ReproInventory) | 6 |  | :heavy_check_mark: |  | 2026-10-15 20:55:46+00:00 |
 | 5 | [ReproNim/ReproTube](https://github.com/ReproNim/ReproTube) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-02-12 22:33:09+00:00 |
 | 6 | [ReproNim/SumarizeFmriprep](https://github.com/ReproNim/SumarizeFmriprep) | 1 |  | :heavy_check_mark: |  | 2026-07-14 21:25:16+00:00 |
 | 7 | [ReproNim/abcd-apps](https://github.com/ReproNim/abcd-apps) | 0 | :heavy_check_mark: |  |  | 2023-02-13 13:28:51+00:00 |
