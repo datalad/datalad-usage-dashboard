@@ -10,9 +10,9 @@
 | 7 | [con/dev-centerforopenneuroscience.org](https://github.com/con/dev-centerforopenneuroscience.org) | 0 |  | :heavy_check_mark: |  | 2026-10-05 21:51:23+00:00 |
 | 8 | [con/duct](https://github.com/con/duct) | 12 |  | :heavy_check_mark: |  | 2026-10-08 21:07:05+00:00 |
 | 9 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-09-16 13:48:07+00:00 |
-| 10 | [con/eval-under](https://github.com/con/eval-under) | 0 |  | :heavy_check_mark: |  | 2026-10-05 13:20:19+00:00 |
+| 10 | [con/eval-under](https://github.com/con/eval-under) | 0 |  | :heavy_check_mark: |  | 2026-10-19 11:07:44+00:00 |
 | 11 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2026-10-05 15:24:46+00:00 |
-| 12 | [con/git-annex](https://github.com/con/git-annex) | 30 |  | :heavy_check_mark: |  | 2026-10-07 12:35:26+00:00 |
+| 12 | [con/git-annex](https://github.com/con/git-annex) | 30 |  | :heavy_check_mark: |  | 2026-10-14 14:58:56+00:00 |
 | 13 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
 | 14 | [con/mechababs](https://github.com/con/mechababs) | 1 |  | :heavy_check_mark: |  | 2026-09-04 21:13:32+00:00 |
 | 15 | [con/nwb2bids](https://github.com/con/nwb2bids) | 5 |  | :heavy_check_mark: |  | 2026-10-06 21:39:20+00:00 |
