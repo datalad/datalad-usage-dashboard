@@ -3,7 +3,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [dbic/QA](https://github.com/dbic/QA) | 0 | :heavy_check_mark: |  |  | 2026-10-03 02:43:59+00:00 |
 | 2 | [dbic/dicom-workflow](https://github.com/dbic/dicom-workflow) | 0 |  | :heavy_check_mark: |  | 2025-03-14 21:39:13+00:00 |
-| 3 | [dbic/handbook](https://github.com/dbic/handbook) | 5 |  | :heavy_check_mark: |  | 2026-09-18 15:39:34+00:00 |
+| 3 | [dbic/handbook](https://github.com/dbic/handbook) | 5 |  | :heavy_check_mark: |  | 2026-10-12 20:51:11+00:00 |
 
 ## Gone
 No repositories found!
