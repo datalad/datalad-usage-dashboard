@@ -3,7 +3,7 @@
 This file is automatically updated using GitHub Actions workflows. It lists Git repositories discovered on GitHub and other hosts that either are [DataLad](https://www.datalad.org) datasets or else had `datalad run` used on them. Furthermore, the [`datalad-repos.json`](./datalad-repos.json) file in this repository is used by https://registry.datalad.org/ to provide up-to-date metadata for these repositories and support metadata-based searches.
 
 # Summary
-- [GitHub](#github): [6143](#in-the-wild) in the wild + [6741](#inner-circle) inner-circle + [293](#gone) gone
+- [GitHub](#github): [6146](#in-the-wild) in the wild + [6742](#inner-circle) inner-circle + [293](#gone) gone
 - [OSF](#osf): [205](#active) active + [83](#gone-1) gone
 - [GIN](#gin): [984](#active-1) active + [13](#gone-2) gone
 - [hub.datalad.org](#hubdataladorg): [4633](#active-2) active + [1](#gone-3) gone
@@ -11,7 +11,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 
 # GitHub
 ## In the wild
-| # | Repository (6143) | Stars (1234962) | Dataset (4773) | `run` (1678) | `containers-run` (195) | Last Modified |
+| # | Repository (6146) | Stars (1240957) | Dataset (4773) | `run` (1681) | `containers-run` (195) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [0sage/atom](https://github.com/0sage/atom) | 1 |  | :heavy_check_mark: |  | 2026-08-21 08:12:13+00:00 |
 | 2 | [1104HARI/*](https://github.com/1104HARI) [(2)](READMEs/1104HARI.md) | [0](READMEs/1104HARI.md) |  | [:heavy_check_mark: (2)](READMEs/1104HARI.md) |  | 2023-12-06 09:12:59+00:00 |
@@ -132,7 +132,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 117 | [HarmonizedMRI/PulCeq](https://github.com/HarmonizedMRI/PulCeq) | 10 |  | :heavy_check_mark: |  | 2026-03-04 14:03:17+00:00 |
 | 118 | [Haterofppl/mcp-tool](https://github.com/Haterofppl/mcp-tool) | 0 |  | :heavy_check_mark: |  | 2025-06-26 10:07:44+00:00 |
 | 119 | [HealthBioscienceIDEAS/demon-imaging-data](https://github.com/HealthBioscienceIDEAS/demon-imaging-data) | 0 | :heavy_check_mark: |  |  | 2021-09-10 17:03:44+00:00 |
-| 120 | [HippocampusGirl/wonkyconn](https://github.com/HippocampusGirl/wonkyconn) | 0 | :heavy_check_mark: |  |  | 2026-08-02 09:44:31+00:00 |
+| 120 | [HippocampusGirl/*](https://github.com/HippocampusGirl) [(2)](READMEs/HippocampusGirl.md) | [0](READMEs/HippocampusGirl.md) | [:heavy_check_mark: (1)](READMEs/HippocampusGirl.md) | [:heavy_check_mark: (1)](READMEs/HippocampusGirl.md) |  | 2026-10-23 23:06:23+00:00 |
 | 121 | [Hobbeist/*](https://github.com/Hobbeist) [(2)](READMEs/Hobbeist.md) | [0](READMEs/Hobbeist.md) | [:heavy_check_mark: (2)](READMEs/Hobbeist.md) |  |  | 2021-08-19 07:20:04+00:00 |
 | 122 | [HugoDelhaye/*](https://github.com/HugoDelhaye) [(2)](READMEs/HugoDelhaye.md) | [0](READMEs/HugoDelhaye.md) | [:heavy_check_mark: (2)](READMEs/HugoDelhaye.md) |  |  | 2026-02-26 16:04:35+00:00 |
 | 123 | [HumanPseudo/mimibot-private](https://github.com/HumanPseudo/mimibot-private) | 0 |  | :heavy_check_mark: |  | 2026-05-01 01:23:45+00:00 |
@@ -162,7 +162,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 147 | [JonathanReyess/eeg-dementia-ml](https://github.com/JonathanReyess/eeg-dementia-ml) | 1 | :heavy_check_mark: |  |  | 2025-09-30 00:37:28+00:00 |
 | 148 | [JujiaoKang/*](https://github.com/JujiaoKang) [(2)](READMEs/JujiaoKang.md) | [0](READMEs/JujiaoKang.md) | [:heavy_check_mark: (2)](READMEs/JujiaoKang.md) |  |  | 2022-06-25 13:52:15+00:00 |
 | 149 | [JuliaIO/Zarr.jl](https://github.com/JuliaIO/Zarr.jl) | 141 |  | :heavy_check_mark: |  | 2026-10-16 18:04:54+00:00 |
-| 150 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 48360 |  | :heavy_check_mark: |  | 2026-10-05 09:39:11+00:00 |
+| 150 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 54352 |  | :heavy_check_mark: |  | 2026-10-19 09:33:57+00:00 |
 | 151 | [KN375/open-webui](https://github.com/KN375/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-30 12:06:39+00:00 |
 | 152 | [Kandy22/cneuromod.all](https://github.com/Kandy22/cneuromod.all) | 0 | :heavy_check_mark: |  |  | 2026-10-11 22:41:59+00:00 |
 | 153 | [KennethV007/SD1](https://github.com/KennethV007/SD1) | 0 |  | :heavy_check_mark: |  | 2026-04-20 19:43:31+00:00 |
@@ -225,7 +225,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 210 | [Oivan-coder/ollama-webui](https://github.com/Oivan-coder/ollama-webui) | 0 |  | :heavy_check_mark: |  | 2026-07-17 19:01:18+00:00 |
 | 211 | [OleBialas/*](https://github.com/OleBialas) [(5)](READMEs/OleBialas.md) | [3](READMEs/OleBialas.md) | [:heavy_check_mark: (1)](READMEs/OleBialas.md) | [:heavy_check_mark: (4)](READMEs/OleBialas.md) |  | 2025-04-04 09:23:53+00:00 |
 | 212 | [OpenNeuroDatasets-JSONLD/*](https://github.com/OpenNeuroDatasets-JSONLD) [(414)](READMEs/OpenNeuroDatasets-JSONLD.md) | [0](READMEs/OpenNeuroDatasets-JSONLD.md) | [:heavy_check_mark: (414)](READMEs/OpenNeuroDatasets-JSONLD.md) |  |  | 2026-10-07 06:08:44+00:00 |
-| 213 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(1902)](READMEs/OpenNeuroDatasets.md) | [567](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1902)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (3)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1)](READMEs/OpenNeuroDatasets.md) | 2026-10-23 11:15:28+00:00 |
+| 213 | [OpenNeuroDatasets/*](https://github.com/OpenNeuroDatasets) [(1902)](READMEs/OpenNeuroDatasets.md) | [566](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1902)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (3)](READMEs/OpenNeuroDatasets.md) | [:heavy_check_mark: (1)](READMEs/OpenNeuroDatasets.md) | 2026-10-23 11:15:28+00:00 |
 | 214 | [OpenNeuroDerivatives/*](https://github.com/OpenNeuroDerivatives) [(619)](READMEs/OpenNeuroDerivatives.md) | [10](READMEs/OpenNeuroDerivatives.md) | [:heavy_check_mark: (473)](READMEs/OpenNeuroDerivatives.md) | [:heavy_check_mark: (147)](READMEs/OpenNeuroDerivatives.md) | [:heavy_check_mark: (147)](READMEs/OpenNeuroDerivatives.md) | 2026-06-05 21:33:24+00:00 |
 | 215 | [OpenNeuroDev/*](https://github.com/OpenNeuroDev) [(15)](READMEs/OpenNeuroDev.md) | [0](READMEs/OpenNeuroDev.md) | [:heavy_check_mark: (15)](READMEs/OpenNeuroDev.md) |  |  | 2020-09-22 21:50:48+00:00 |
 | 216 | [OpenNeuroOrg/*](https://github.com/OpenNeuroOrg) [(2)](READMEs/OpenNeuroOrg.md) | [163](READMEs/OpenNeuroOrg.md) |  | [:heavy_check_mark: (2)](READMEs/OpenNeuroOrg.md) |  | 2026-10-13 20:55:56+00:00 |
@@ -248,816 +248,817 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 233 | [PintaProject/Pinta](https://github.com/PintaProject/Pinta) | 4090 |  | :heavy_check_mark: |  | 2026-10-15 00:27:58+00:00 |
 | 234 | [PolusAI/microjson](https://github.com/PolusAI/microjson) | 12 |  | :heavy_check_mark: |  | 2026-02-10 20:20:48+00:00 |
 | 235 | [PrakharRanjan2909/rag-ui-web-search](https://github.com/PrakharRanjan2909/rag-ui-web-search) | 0 |  | :heavy_check_mark: |  | 2025-12-01 03:58:56+00:00 |
-| 236 | [Preston-Adams/official-images](https://github.com/Preston-Adams/official-images) | 0 |  | :heavy_check_mark: |  | 2024-08-18 23:05:44+00:00 |
-| 237 | [PrudhviBade/nanobot](https://github.com/PrudhviBade/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-04-27 04:38:02+00:00 |
-| 238 | [Psychtoolbox-3/Psychtoolbox-3](https://github.com/Psychtoolbox-3/Psychtoolbox-3) | 486 |  | :heavy_check_mark: |  | 2026-08-14 14:53:08+00:00 |
-| 239 | [Public-nEUro/Public-nEUro.github.io](https://github.com/Public-nEUro/Public-nEUro.github.io) | 0 |  | :heavy_check_mark: |  | 2026-09-23 11:28:30+00:00 |
-| 240 | [PySlurm/pyslurm](https://github.com/PySlurm/pyslurm) | 574 |  | :heavy_check_mark: |  | 2026-09-04 22:00:42+00:00 |
-| 241 | [PythonChoboman/OpenWebUI](https://github.com/PythonChoboman/OpenWebUI) | 0 |  | :heavy_check_mark: |  | 2025-09-08 01:12:14+00:00 |
-| 242 | [RJi86/NeuroSentry](https://github.com/RJi86/NeuroSentry) | 1 |  | :heavy_check_mark: |  | 2024-01-10 06:59:37+00:00 |
-| 243 | [Raheem-19/serena-optimized](https://github.com/Raheem-19/serena-optimized) | 0 |  | :heavy_check_mark: |  | 2025-09-16 12:33:06+00:00 |
-| 244 | [RahmaNiftaliyev/tpl-MNI152NLin2009cAsym](https://github.com/RahmaNiftaliyev/tpl-MNI152NLin2009cAsym) | 0 | :heavy_check_mark: |  |  | 2026-01-06 10:08:14+00:00 |
-| 245 | [Raj-Lab-UCSF/*](https://github.com/Raj-Lab-UCSF) [(4)](READMEs/Raj-Lab-UCSF.md) | [0](READMEs/Raj-Lab-UCSF.md) | [:heavy_check_mark: (4)](READMEs/Raj-Lab-UCSF.md) |  |  | 2021-04-27 20:35:44+00:00 |
-| 246 | [Ramprasadya/plane](https://github.com/Ramprasadya/plane) | 0 |  | :heavy_check_mark: |  | 2025-10-13 08:49:33+00:00 |
-| 247 | [Rayzeq/quick-settings-audio-panel](https://github.com/Rayzeq/quick-settings-audio-panel) | 154 |  | :heavy_check_mark: |  | 2026-10-10 09:24:47+00:00 |
-| 248 | [Remi-Gau/*](https://github.com/Remi-Gau) [(7)](READMEs/Remi-Gau.md) | [8](READMEs/Remi-Gau.md) | [:heavy_check_mark: (7)](READMEs/Remi-Gau.md) | [:heavy_check_mark: (1)](READMEs/Remi-Gau.md) |  | 2026-07-23 08:13:28+00:00 |
-| 249 | [Renierkotze-eroad/open-webui.old](https://github.com/Renierkotze-eroad/open-webui.old) | 0 |  | :heavy_check_mark: |  | 2025-03-26 08:25:02+00:00 |
-| 250 | [ReproBrainChart/*](https://github.com/ReproBrainChart) [(23)](READMEs/ReproBrainChart.md) | [17](READMEs/ReproBrainChart.md) | [:heavy_check_mark: (13)](READMEs/ReproBrainChart.md) | [:heavy_check_mark: (14)](READMEs/ReproBrainChart.md) |  | 2026-10-16 16:36:26+00:00 |
-| 251 | [Rodent-Cognition-Core/*](https://github.com/Rodent-Cognition-Core) [(4)](READMEs/Rodent-Cognition-Core.md) | [0](READMEs/Rodent-Cognition-Core.md) | [:heavy_check_mark: (4)](READMEs/Rodent-Cognition-Core.md) |  |  | 2021-11-16 21:18:24+00:00 |
-| 252 | [RodrigoLujambio/patrones](https://github.com/RodrigoLujambio/patrones) | 0 |  | :heavy_check_mark: |  | 2026-06-18 13:43:34+00:00 |
-| 253 | [RoelandCosaert/OWUI](https://github.com/RoelandCosaert/OWUI) | 0 |  | :heavy_check_mark: |  | 2026-01-26 09:30:35+00:00 |
-| 254 | [Ronel0810/Ruby_bot](https://github.com/Ronel0810/Ruby_bot) | 0 |  | :heavy_check_mark: |  | 2025-11-23 16:07:05+00:00 |
-| 255 | [Ruberhauptmann/*](https://github.com/Ruberhauptmann) [(2)](READMEs/Ruberhauptmann.md) | [0](READMEs/Ruberhauptmann.md) |  | [:heavy_check_mark: (2)](READMEs/Ruberhauptmann.md) |  | 2024-07-11 08:13:26+00:00 |
-| 256 | [SAADOUNAGHA/saadoundark](https://github.com/SAADOUNAGHA/saadoundark) | 0 |  | :heavy_check_mark: |  | 2025-08-03 15:18:47+00:00 |
-| 257 | [SAYALI8106/Grand_Viva_BT4170](https://github.com/SAYALI8106/Grand_Viva_BT4170) | 0 |  | :heavy_check_mark: |  | 2025-05-29 00:37:52+00:00 |
-| 258 | [SHoony-C/openwebui](https://github.com/SHoony-C/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-02-27 20:09:44+00:00 |
-| 259 | [SIMEXP/*](https://github.com/SIMEXP) [(5)](READMEs/SIMEXP.md) | [22](READMEs/SIMEXP.md) | [:heavy_check_mark: (5)](READMEs/SIMEXP.md) |  |  | 2025-12-18 16:41:02+00:00 |
-| 260 | [SIML-guo/miniforge](https://github.com/SIML-guo/miniforge) | 0 |  | :heavy_check_mark: |  | 2026-06-27 07:04:24+00:00 |
-| 261 | [SOOSEMII/soosemii](https://github.com/SOOSEMII/soosemii) | 0 |  | :heavy_check_mark: |  | 2025-06-01 06:27:16+00:00 |
-| 262 | [STAMPED-dl-morphometrics-biases/*](https://github.com/STAMPED-dl-morphometrics-biases) [(3)](READMEs/STAMPED-dl-morphometrics-biases.md) | [0](READMEs/STAMPED-dl-morphometrics-biases.md) |  | [:heavy_check_mark: (3)](READMEs/STAMPED-dl-morphometrics-biases.md) |  | 2026-07-23 16:37:28+00:00 |
-| 263 | [SWE-Gym-Raw/*](https://github.com/SWE-Gym-Raw) [(2)](READMEs/SWE-Gym-Raw.md) | [0](READMEs/SWE-Gym-Raw.md) |  | [:heavy_check_mark: (2)](READMEs/SWE-Gym-Raw.md) |  | 2025-01-17 12:50:21+00:00 |
-| 264 | [SagaSmithAI/SagaSmith-agent](https://github.com/SagaSmithAI/SagaSmith-agent) | 0 |  | :heavy_check_mark: |  | 2026-09-22 07:03:45+00:00 |
-| 265 | [SaiSandeepKantareddy/machinelearning-books](https://github.com/SaiSandeepKantareddy/machinelearning-books) | 0 | :heavy_check_mark: |  |  | 2018-07-16 15:59:48+00:00 |
-| 266 | [SamDoucet/fauseytrio-public-test](https://github.com/SamDoucet/fauseytrio-public-test) | 0 | :heavy_check_mark: |  |  | 2021-11-16 18:59:57+00:00 |
-| 267 | [SamR1/FitTrackee](https://github.com/SamR1/FitTrackee) | 1172 |  | :heavy_check_mark: |  | 2026-10-11 22:44:10+00:00 |
-| 268 | [SarahK01/Computational-Cognition](https://github.com/SarahK01/Computational-Cognition) | 0 | :heavy_check_mark: |  |  | 2024-10-13 01:14:08+00:00 |
-| 269 | [Sberm/linux-agent](https://github.com/Sberm/linux-agent) | 0 |  | :heavy_check_mark: |  | 2025-04-27 23:35:54+00:00 |
-| 270 | [SebastianDeseke/ihk_presentation](https://github.com/SebastianDeseke/ihk_presentation) | 0 |  | :heavy_check_mark: |  | 2025-07-08 14:38:43+00:00 |
-| 271 | [ShijuPJohn/openwebui-test](https://github.com/ShijuPJohn/openwebui-test) | 0 |  | :heavy_check_mark: |  | 2025-06-07 09:25:46+00:00 |
-| 272 | [Sickeroni/talk_ugaachen2025april_slides](https://github.com/Sickeroni/talk_ugaachen2025april_slides) | 0 |  | :heavy_check_mark: |  | 2025-04-04 11:03:12+00:00 |
-| 273 | [Silence-1031/my-nanobot](https://github.com/Silence-1031/my-nanobot) | 0 |  | :heavy_check_mark: |  | 2026-04-26 13:28:37+00:00 |
-| 274 | [SirraSneha18/azurefileshare](https://github.com/SirraSneha18/azurefileshare) | 0 |  | :heavy_check_mark: |  | 2024-08-12 18:52:01+00:00 |
-| 275 | [Somers1/plane](https://github.com/Somers1/plane) | 0 |  | :heavy_check_mark: |  | 2025-11-05 05:46:11+00:00 |
-| 276 | [SpikeInterface/*](https://github.com/SpikeInterface) [(2)](READMEs/SpikeInterface.md) | [160](READMEs/SpikeInterface.md) |  | [:heavy_check_mark: (2)](READMEs/SpikeInterface.md) |  | 2026-10-16 13:05:30+00:00 |
-| 277 | [TDXCORE/openchatui](https://github.com/TDXCORE/openchatui) | 0 |  | :heavy_check_mark: |  | 2025-09-07 20:48:42+00:00 |
-| 278 | [TIGRLab/human-connectome-project-openaccess](https://github.com/TIGRLab/human-connectome-project-openaccess) | 0 | :heavy_check_mark: |  |  | 2021-05-01 13:31:03+00:00 |
-| 279 | [TM-ACode/Dependabot_Core](https://github.com/TM-ACode/Dependabot_Core) | 0 |  | :heavy_check_mark: |  | 2026-09-01 22:02:26+00:00 |
-| 280 | [Tatiana-Golub/Presentation](https://github.com/Tatiana-Golub/Presentation) | 0 |  | :heavy_check_mark: |  | 2025-04-27 19:07:04+00:00 |
-| 281 | [Tencon99/flutter_open_webui](https://github.com/Tencon99/flutter_open_webui) | 0 |  | :heavy_check_mark: |  | 2025-11-04 03:47:36+00:00 |
-| 282 | [TheLabbingProject/pylabber](https://github.com/TheLabbingProject/pylabber) | 7 |  | :heavy_check_mark: |  | 2024-04-17 00:29:35+00:00 |
-| 283 | [TheOwenLab/2021-Wild-et-al-COVID-Cognition](https://github.com/TheOwenLab/2021-Wild-et-al-COVID-Cognition) | 1 | :heavy_check_mark: |  |  | 2023-07-11 15:40:43+00:00 |
-| 284 | [TheRauch1/open-webui-ubi](https://github.com/TheRauch1/open-webui-ubi) | 0 |  | :heavy_check_mark: |  | 2025-01-10 12:46:16+00:00 |
-| 285 | [TheWizardTower/*](https://github.com/TheWizardTower) [(2)](READMEs/TheWizardTower.md) | [0](READMEs/TheWizardTower.md) |  | [:heavy_check_mark: (2)](READMEs/TheWizardTower.md) |  | 2025-06-12 07:37:08+00:00 |
-| 286 | [Titicia/handedness](https://github.com/Titicia/handedness) | 0 | :heavy_check_mark: |  |  | 2022-05-17 20:52:56+00:00 |
-| 287 | [TobiasKadelka/123420](https://github.com/TobiasKadelka/123420) | 0 | :heavy_check_mark: |  |  | 2019-07-16 12:54:05+00:00 |
-| 288 | [TomasLenc/midtermproject](https://github.com/TomasLenc/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2020-10-22 10:32:28+00:00 |
-| 289 | [Trainer-Blue/daly-comp-analysis](https://github.com/Trainer-Blue/daly-comp-analysis) | 0 | :heavy_check_mark: |  |  | 2026-08-08 11:40:57+00:00 |
-| 290 | [Tranha-hokk/nnUnetv2_ori](https://github.com/Tranha-hokk/nnUnetv2_ori) | 0 |  | :heavy_check_mark: |  | 2024-12-24 05:59:26+00:00 |
-| 291 | [Trees-23/KdmCopilot](https://github.com/Trees-23/KdmCopilot) | 2 |  | :heavy_check_mark: |  | 2026-10-11 18:10:22+00:00 |
-| 292 | [TrueTube/Andriy_Popyk](https://github.com/TrueTube/Andriy_Popyk) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-10-15 10:04:05+00:00 |
-| 293 | [TuJinkai/Nanobot-Desktop](https://github.com/TuJinkai/Nanobot-Desktop) | 0 |  | :heavy_check_mark: |  | 2026-07-28 01:31:33+00:00 |
-| 294 | [UNFmontreal/*](https://github.com/UNFmontreal) [(3)](READMEs/UNFmontreal.md) | [212](READMEs/UNFmontreal.md) |  | [:heavy_check_mark: (3)](READMEs/UNFmontreal.md) | [:heavy_check_mark: (1)](READMEs/UNFmontreal.md) | 2026-10-06 20:18:21+00:00 |
-| 295 | [US-PRASATH/RevealJS-Test](https://github.com/US-PRASATH/RevealJS-Test) | 0 |  | :heavy_check_mark: |  | 2025-08-20 16:48:31+00:00 |
-| 296 | [UTJFritz/datasets.datalad.org](https://github.com/UTJFritz/datasets.datalad.org) | 1 | :heavy_check_mark: |  |  | 2020-11-05 00:07:55+00:00 |
-| 297 | [Veronika-Kashlej/presentation](https://github.com/Veronika-Kashlej/presentation) | 0 |  | :heavy_check_mark: |  | 2025-04-28 13:29:55+00:00 |
-| 298 | [VidyaBipin/bats-core-shell](https://github.com/VidyaBipin/bats-core-shell) | 0 |  | :heavy_check_mark: |  | 2025-02-06 18:38:02+00:00 |
-| 299 | [Vincent-wq/templateflow](https://github.com/Vincent-wq/templateflow) | 0 | :heavy_check_mark: |  |  | 2022-06-15 20:39:12+00:00 |
-| 300 | [VivianChencwy/ds005863](https://github.com/VivianChencwy/ds005863) | 0 | :heavy_check_mark: |  |  | 2025-08-26 21:39:27+00:00 |
-| 301 | [Waqibsk/KOSS_LT_TALK](https://github.com/Waqibsk/KOSS_LT_TALK) | 0 |  | :heavy_check_mark: |  | 2025-08-09 04:51:32+00:00 |
-| 302 | [WiemSaafi/*](https://github.com/WiemSaafi) [(4)](READMEs/WiemSaafi.md) | [0](READMEs/WiemSaafi.md) |  | [:heavy_check_mark: (4)](READMEs/WiemSaafi.md) |  | 2025-09-02 19:38:33+00:00 |
-| 303 | [Woodii1998/coscene-extensions-power-point](https://github.com/Woodii1998/coscene-extensions-power-point) | 0 |  | :heavy_check_mark: |  | 2025-04-20 16:31:02+00:00 |
-| 304 | [Woz13200/open-webui](https://github.com/Woz13200/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-11-12 00:58:20+00:00 |
-| 305 | [XSU15/kestra](https://github.com/XSU15/kestra) | 0 |  | :heavy_check_mark: |  | 2026-10-14 19:51:36+00:00 |
-| 306 | [Xizw4z360XD/multi-agent-automation](https://github.com/Xizw4z360XD/multi-agent-automation) | 0 |  | :heavy_check_mark: |  | 2025-05-10 00:54:44+00:00 |
-| 307 | [Yansanya/UAVbot](https://github.com/Yansanya/UAVbot) | 0 |  | :heavy_check_mark: |  | 2026-04-23 08:24:24+00:00 |
-| 308 | [Yao-yao-ya/tick-ai](https://github.com/Yao-yao-ya/tick-ai) | 0 |  | :heavy_check_mark: |  | 2026-08-22 07:23:45+00:00 |
-| 309 | [Yarski/studyforrest-data-phase2](https://github.com/Yarski/studyforrest-data-phase2) | 0 | :heavy_check_mark: |  |  | 2018-10-26 14:54:17+00:00 |
-| 310 | [Yu-Group/vds-book-supplementary](https://github.com/Yu-Group/vds-book-supplementary) | 89 |  | :heavy_check_mark: |  | 2025-07-01 18:39:25+00:00 |
-| 311 | [YummyYohan/Open-Webui](https://github.com/YummyYohan/Open-Webui) | 1 |  | :heavy_check_mark: |  | 2025-05-03 04:04:18+00:00 |
-| 312 | [Yuvanesh-ux/Project-t](https://github.com/Yuvanesh-ux/Project-t) | 0 |  | :heavy_check_mark: |  | 2025-11-11 22:07:57+00:00 |
-| 313 | [Zeigar/ds001927](https://github.com/Zeigar/ds001927) | 0 | :heavy_check_mark: |  |  | 2020-08-17 20:31:24+00:00 |
-| 314 | [ZhidongZhang96/algonauts_2025.competitors](https://github.com/ZhidongZhang96/algonauts_2025.competitors) | 0 | :heavy_check_mark: |  |  | 2025-01-06 17:27:57+00:00 |
-| 315 | [Zilusion/presentation-svg](https://github.com/Zilusion/presentation-svg) | 0 |  | :heavy_check_mark: |  | 2025-04-26 16:55:12+00:00 |
-| 316 | [a1gorhythm7/ds004473](https://github.com/a1gorhythm7/ds004473) | 0 | :heavy_check_mark: |  |  | 2023-02-09 20:20:39+00:00 |
-| 317 | [aaddrick/claude-desktop-debian](https://github.com/aaddrick/claude-desktop-debian) | 5464 |  | :heavy_check_mark: |  | 2026-10-19 03:02:07+00:00 |
-| 318 | [abcd-j/data-catalog](https://github.com/abcd-j/data-catalog) | 0 |  | :heavy_check_mark: |  | 2025-03-04 14:47:29+00:00 |
-| 319 | [abdulazizalmutlaaq/aziz](https://github.com/abdulazizalmutlaaq/aziz) | 0 |  | :heavy_check_mark: |  | 2026-07-13 11:25:32+00:00 |
-| 320 | [abidecaltech-test2/*](https://github.com/abidecaltech-test2) [(4)](READMEs/abidecaltech-test2.md) | [0](READMEs/abidecaltech-test2.md) |  | [:heavy_check_mark: (4)](READMEs/abidecaltech-test2.md) |  | 2026-09-03 16:56:19+00:00 |
-| 321 | [abitecaltech-test/*](https://github.com/abitecaltech-test) [(3)](READMEs/abitecaltech-test.md) | [0](READMEs/abitecaltech-test.md) |  | [:heavy_check_mark: (3)](READMEs/abitecaltech-test.md) |  | 2026-07-23 16:29:00+00:00 |
-| 322 | [abitecaltech-test1/test1-derivatives-babs-fsl-nidm4.5.0-sourcedata-NIDM](https://github.com/abitecaltech-test1/test1-derivatives-babs-fsl-nidm4.5.0-sourcedata-NIDM) | 0 |  | :heavy_check_mark: |  | 2026-07-23 13:02:53+00:00 |
-| 323 | [actions-oss/act-cli](https://github.com/actions-oss/act-cli) | 7 |  | :heavy_check_mark: |  | 2026-03-01 13:36:50+00:00 |
-| 324 | [aditisaxena12/algonauts_2025.competitors](https://github.com/aditisaxena12/algonauts_2025.competitors) | 0 | :heavy_check_mark: |  |  | 2025-01-21 11:24:51+00:00 |
-| 325 | [aditya-gaharawar/answerv1](https://github.com/aditya-gaharawar/answerv1) | 0 |  | :heavy_check_mark: |  | 2025-05-18 17:31:29+00:00 |
-| 326 | [adminesc/open-webui](https://github.com/adminesc/open-webui) | 1 |  | :heavy_check_mark: |  | 2025-06-20 04:44:55+00:00 |
-| 327 | [adnan-umich/open-webui-sandboxai](https://github.com/adnan-umich/open-webui-sandboxai) | 2 |  | :heavy_check_mark: |  | 2025-06-29 03:13:41+00:00 |
-| 328 | [adulbo28/docker](https://github.com/adulbo28/docker) | 0 |  | :heavy_check_mark: |  | 2021-02-13 12:42:48+00:00 |
-| 329 | [afids/*](https://github.com/afids) [(6)](READMEs/afids.md) | [6](READMEs/afids.md) | [:heavy_check_mark: (6)](READMEs/afids.md) |  |  | 2023-06-22 20:37:31+00:00 |
-| 330 | [afni/*](https://github.com/afni) [(4)](READMEs/afni.md) | [197](READMEs/afni.md) | [:heavy_check_mark: (2)](READMEs/afni.md) | [:heavy_check_mark: (4)](READMEs/afni.md) |  | 2026-10-15 00:16:32+00:00 |
-| 331 | [aiegoo/gpt4all](https://github.com/aiegoo/gpt4all) | 2 |  | :heavy_check_mark: |  | 2024-04-08 16:10:50+00:00 |
-| 332 | [airweave-ai/airweave](https://github.com/airweave-ai/airweave) | 6556 |  | :heavy_check_mark: |  | 2026-06-05 09:52:19+00:00 |
-| 333 | [akhanf/test_datalad](https://github.com/akhanf/test_datalad) | 0 | :heavy_check_mark: |  |  | 2018-03-29 21:06:17+00:00 |
-| 334 | [alekseygenerozov/starforgeDDA25](https://github.com/alekseygenerozov/starforgeDDA25) | 0 |  | :heavy_check_mark: |  | 2025-08-26 06:04:03+00:00 |
-| 335 | [alexlicohen/Cohen2019_Prosopagnosia](https://github.com/alexlicohen/Cohen2019_Prosopagnosia) | 0 | :heavy_check_mark: |  |  | 2020-06-26 23:08:04+00:00 |
-| 336 | [alfastack-in/open-webui](https://github.com/alfastack-in/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-04 15:20:19+00:00 |
-| 337 | [algojogacor/nanobot](https://github.com/algojogacor/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-01 22:37:14+00:00 |
-| 338 | [almightyYantao/open-webui-coreland](https://github.com/almightyYantao/open-webui-coreland) | 0 |  | :heavy_check_mark: |  | 2026-03-06 14:46:36+00:00 |
-| 339 | [amardito/nanobot](https://github.com/amardito/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-07-08 13:20:31+00:00 |
-| 340 | [amirozhan/task_stimuli](https://github.com/amirozhan/task_stimuli) | 1 | :heavy_check_mark: |  |  | 2026-05-31 18:02:43+00:00 |
-| 341 | [amnsbr/laminar_organization](https://github.com/amnsbr/laminar_organization) | 6 |  | :heavy_check_mark: |  | 2023-11-13 13:51:23+00:00 |
-| 342 | [amulyahg25/WebUI](https://github.com/amulyahg25/WebUI) | 0 |  | :heavy_check_mark: |  | 2025-12-01 03:59:52+00:00 |
-| 343 | [anassigit/open-webui](https://github.com/anassigit/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-14 17:41:34+00:00 |
-| 344 | [andrewjahn/AndysBrainBook](https://github.com/andrewjahn/AndysBrainBook) | 206 |  | :heavy_check_mark: |  | 2026-10-14 18:27:22+00:00 |
-| 345 | [andy145s/andy-bot-](https://github.com/andy145s/andy-bot-) | 0 |  | :heavy_check_mark: |  | 2025-07-22 21:49:15+00:00 |
-| 346 | [andykitchen/pycon-de-2025](https://github.com/andykitchen/pycon-de-2025) | 0 |  | :heavy_check_mark: |  | 2025-04-24 12:02:01+00:00 |
-| 347 | [anhct2/owl-ex](https://github.com/anhct2/owl-ex) | 0 |  | :heavy_check_mark: |  | 2025-04-14 10:35:12+00:00 |
-| 348 | [anhede/drone-cyberattack-presentation](https://github.com/anhede/drone-cyberattack-presentation) | 0 |  | :heavy_check_mark: |  | 2026-01-12 13:04:01+00:00 |
-| 349 | [ansible-community/molecule](https://github.com/ansible-community/molecule) | 4159 |  | :heavy_check_mark: |  | 2026-10-14 17:48:40+00:00 |
-| 350 | [apierzch1/*](https://github.com/apierzch1) [(2)](READMEs/apierzch1.md) | [0](READMEs/apierzch1.md) | [:heavy_check_mark: (2)](READMEs/apierzch1.md) |  |  | 2022-11-30 13:58:54+00:00 |
-| 351 | [aplbrain/*](https://github.com/aplbrain) [(3)](READMEs/aplbrain.md) | [3](READMEs/aplbrain.md) |  | [:heavy_check_mark: (3)](READMEs/aplbrain.md) |  | 2026-10-16 18:41:20+00:00 |
-| 352 | [apptainer/apptainer-userdocs](https://github.com/apptainer/apptainer-userdocs) | 7 |  | :heavy_check_mark: |  | 2026-10-12 22:27:27+00:00 |
-| 353 | [apraga/datasets.datalad.org](https://github.com/apraga/datasets.datalad.org) | 0 | :heavy_check_mark: |  |  | 2025-01-25 18:22:35+00:00 |
-| 354 | [aragilar/PPDSolutions](https://github.com/aragilar/PPDSolutions) | 0 | :heavy_check_mark: |  |  | 2025-12-03 22:37:05+00:00 |
-| 355 | [aranyics/datalad-test-aranyics](https://github.com/aranyics/datalad-test-aranyics) | 0 |  | :heavy_check_mark: |  | 2023-09-28 07:15:59+00:00 |
-| 356 | [argonne-lcf/open-webui](https://github.com/argonne-lcf/open-webui) | 2 |  | :heavy_check_mark: |  | 2026-08-28 18:53:07+00:00 |
-| 357 | [arisan17/Airflow-EKS](https://github.com/arisan17/Airflow-EKS) | 0 |  | :heavy_check_mark: |  | 2024-05-15 07:39:41+00:00 |
-| 358 | [aristidb/aws](https://github.com/aristidb/aws) | 246 |  | :heavy_check_mark: |  | 2025-12-08 20:44:06+00:00 |
-| 359 | [arvindgfx1/aiiiiiiiiiii8](https://github.com/arvindgfx1/aiiiiiiiiiii8) | 0 |  | :heavy_check_mark: |  | 2025-10-01 10:37:59+00:00 |
-| 360 | [asharovatova/cicd-presentation](https://github.com/asharovatova/cicd-presentation) | 0 |  | :heavy_check_mark: |  | 2025-05-02 03:12:23+00:00 |
-| 361 | [asmacdo/*](https://github.com/asmacdo) [(5)](READMEs/asmacdo.md) | [0](READMEs/asmacdo.md) |  | [:heavy_check_mark: (5)](READMEs/asmacdo.md) |  | 2026-10-23 00:25:42+00:00 |
-| 362 | [aspirerabbit/MICCAI-PSFHS-challenge](https://github.com/aspirerabbit/MICCAI-PSFHS-challenge) | 0 |  | :heavy_check_mark: |  | 2023-11-22 22:11:14+00:00 |
-| 363 | [ataha24/tpl-Agile12v2016](https://github.com/ataha24/tpl-Agile12v2016) | 0 | :heavy_check_mark: |  |  | 2023-02-07 19:50:30+00:00 |
-| 364 | [atiasavn/open-webui](https://github.com/atiasavn/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-11-01 19:19:24+00:00 |
-| 365 | [atuinsh/atuin](https://github.com/atuinsh/atuin) | 31992 |  | :heavy_check_mark: |  | 2026-10-14 03:26:21+00:00 |
-| 366 | [auto-pi-lot/autopilot](https://github.com/auto-pi-lot/autopilot) | 95 |  | :heavy_check_mark: |  | 2025-02-19 08:42:06+00:00 |
-| 367 | [automationlearners/openwebui](https://github.com/automationlearners/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 00:57:07+00:00 |
-| 368 | [awslabs/*](https://github.com/awslabs) [(2)](READMEs/awslabs.md) | [1082](READMEs/awslabs.md) |  | [:heavy_check_mark: (2)](READMEs/awslabs.md) |  | 2026-10-16 20:27:19+00:00 |
-| 369 | [axiezai/collab-git-tutorial](https://github.com/axiezai/collab-git-tutorial) | 0 |  | :heavy_check_mark: |  | 2020-12-11 00:42:52+00:00 |
-| 370 | [bacalhau-project/*](https://github.com/bacalhau-project) [(2)](READMEs/bacalhau-project.md) | [881](READMEs/bacalhau-project.md) |  | [:heavy_check_mark: (2)](READMEs/bacalhau-project.md) |  | 2026-10-12 19:56:00+00:00 |
-| 371 | [bagususwanto/fe-manai](https://github.com/bagususwanto/fe-manai) | 0 |  | :heavy_check_mark: |  | 2025-07-02 06:28:17+00:00 |
-| 372 | [bannert1337/foss-webui](https://github.com/bannert1337/foss-webui) | 3 |  | :heavy_check_mark: |  | 2026-07-06 18:34:44+00:00 |
-| 373 | [barionleg/ohbm2020-posters](https://github.com/barionleg/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2025-05-13 09:52:28+00:00 |
-| 374 | [bashhh89/opensg](https://github.com/bashhh89/opensg) | 0 |  | :heavy_check_mark: |  | 2025-06-27 11:49:15+00:00 |
-| 375 | [basil9584/LLMWEBAPP3](https://github.com/basil9584/LLMWEBAPP3) | 0 |  | :heavy_check_mark: |  | 2025-04-01 16:22:11+00:00 |
-| 376 | [bastiaanvanassche-tomtom/openstreetmap-presentation](https://github.com/bastiaanvanassche-tomtom/openstreetmap-presentation) | 0 |  | :heavy_check_mark: |  | 2025-04-23 08:20:23+00:00 |
-| 377 | [bats-core/bats-core](https://github.com/bats-core/bats-core) | 6318 |  | :heavy_check_mark: |  | 2026-10-09 19:18:44+00:00 |
-| 378 | [bbfrederick/rapidtide](https://github.com/bbfrederick/rapidtide) | 97 |  | :heavy_check_mark: |  | 2026-10-12 15:01:59+00:00 |
-| 379 | [becharabechara/open-webui-teams](https://github.com/becharabechara/open-webui-teams) | 1 |  | :heavy_check_mark: |  | 2026-05-04 11:16:22+00:00 |
-| 380 | [beckolson/mytest](https://github.com/beckolson/mytest) | 0 | :heavy_check_mark: |  |  | 2021-02-23 19:45:54+00:00 |
-| 381 | [beeware/briefcase](https://github.com/beeware/briefcase) | 3361 |  | :heavy_check_mark: |  | 2026-10-15 02:37:36+00:00 |
-| 382 | [bendhouseart/yaml_fix](https://github.com/bendhouseart/yaml_fix) | 0 |  | :heavy_check_mark: |  | 2022-08-15 17:46:14+00:00 |
-| 383 | [bhanuprasanna2001/datalad-demo](https://github.com/bhanuprasanna2001/datalad-demo) | 1 |  | :heavy_check_mark: |  | 2026-03-04 15:01:09+00:00 |
-| 384 | [bids-bep001/bep001-v1](https://github.com/bids-bep001/bep001-v1) | 0 |  | :heavy_check_mark: |  | 2020-12-01 17:46:28+00:00 |
-| 385 | [bids-standard/*](https://github.com/bids-standard) [(15)](READMEs/bids-standard.md) | [1345](READMEs/bids-standard.md) | [:heavy_check_mark: (1)](READMEs/bids-standard.md) | [:heavy_check_mark: (14)](READMEs/bids-standard.md) |  | 2026-10-22 06:16:27+00:00 |
-| 386 | [big-data-lab-team/*](https://github.com/big-data-lab-team) [(7)](READMEs/big-data-lab-team.md) | [2](READMEs/big-data-lab-team.md) | [:heavy_check_mark: (7)](READMEs/big-data-lab-team.md) |  |  | 2021-11-16 21:14:40+00:00 |
-| 387 | [bigdatasciencegroup/conp-dataset-Synthetic-Animated-Mouse-SAM-University-of-British-Columbia-Datasets-and-3D-models](https://github.com/bigdatasciencegroup/conp-dataset-Synthetic-Animated-Mouse-SAM-University-of-British-Columbia-Datasets-and-3D-models) | 0 | :heavy_check_mark: |  |  | 2021-06-17 23:44:36+00:00 |
-| 388 | [bioimagesuiteweb/bisweb](https://github.com/bioimagesuiteweb/bisweb) | 86 |  | :heavy_check_mark: |  | 2026-09-24 17:31:36+00:00 |
-| 389 | [biolink/biolink-model](https://github.com/biolink/biolink-model) | 266 |  | :heavy_check_mark: |  | 2026-10-09 23:08:47+00:00 |
-| 390 | [bizmate/bizmate-reveal](https://github.com/bizmate/bizmate-reveal) | 0 |  | :heavy_check_mark: |  | 2025-06-05 16:46:45+00:00 |
-| 391 | [bkmo/grub-btrfs-sdv](https://github.com/bkmo/grub-btrfs-sdv) | 0 |  | :heavy_check_mark: |  | 2024-06-20 19:43:05+00:00 |
-| 392 | [bl4km0uz/nanobot](https://github.com/bl4km0uz/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-04-23 08:24:39+00:00 |
-| 393 | [boblemaire/IoTaWatt](https://github.com/boblemaire/IoTaWatt) | 732 |  | :heavy_check_mark: |  | 2026-03-06 22:16:33+00:00 |
-| 394 | [boccorouslan71-svg/nanobot-super-agent](https://github.com/boccorouslan71-svg/nanobot-super-agent) | 0 |  | :heavy_check_mark: |  | 2026-08-23 15:06:10+00:00 |
-| 395 | [boomerangguru/netbox_cicd](https://github.com/boomerangguru/netbox_cicd) | 0 |  | :heavy_check_mark: |  | 2023-12-15 08:25:58+00:00 |
-| 396 | [boutiques/boutiques](https://github.com/boutiques/boutiques) | 63 |  | :heavy_check_mark: |  | 2026-02-04 11:11:57+00:00 |
-| 397 | [bpoldrack/*](https://github.com/bpoldrack) [(7)](READMEs/bpoldrack.md) | [0](READMEs/bpoldrack.md) | [:heavy_check_mark: (7)](READMEs/bpoldrack.md) |  |  | 2021-11-17 16:17:57+00:00 |
-| 398 | [brainbench-org/ibl-bwb](https://github.com/brainbench-org/ibl-bwb) | 3 |  | :heavy_check_mark: |  | 2026-10-12 23:08:01+00:00 |
-| 399 | [brainhack-school2020/stephaniealley_bhs2020_project](https://github.com/brainhack-school2020/stephaniealley_bhs2020_project) | 4 |  | :heavy_check_mark: |  | 2022-12-08 10:07:57+00:00 |
-| 400 | [brainhack-school2022/brotherwood_project](https://github.com/brainhack-school2022/brotherwood_project) | 4 | :heavy_check_mark: |  |  | 2022-08-06 07:19:47+00:00 |
-| 401 | [brainhackorg/brainhack_jupyter_book](https://github.com/brainhackorg/brainhack_jupyter_book) | 14 |  | :heavy_check_mark: |  | 2026-10-05 22:13:28+00:00 |
-| 402 | [brainlife/*](https://github.com/brainlife) [(3)](READMEs/brainlife.md) | [58](READMEs/brainlife.md) |  | [:heavy_check_mark: (3)](READMEs/brainlife.md) |  | 2026-08-07 21:17:29+00:00 |
-| 403 | [brainstem-org/brainstem_support](https://github.com/brainstem-org/brainstem_support) | 3 |  | :heavy_check_mark: |  | 2026-09-29 07:31:24+00:00 |
-| 404 | [brip/ds003768](https://github.com/brip/ds003768) | 0 | :heavy_check_mark: |  |  | 2021-08-17 17:52:45+00:00 |
-| 405 | [buidoanchung/openwebui](https://github.com/buidoanchung/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 15:55:20+00:00 |
-| 406 | [buncel/recht-soziale-bewegungen-presentation](https://github.com/buncel/recht-soziale-bewegungen-presentation) | 0 |  | :heavy_check_mark: |  | 2025-07-10 09:06:11+00:00 |
-| 407 | [c-gr34sl3y/rsg-hack-25-pres](https://github.com/c-gr34sl3y/rsg-hack-25-pres) | 0 |  | :heavy_check_mark: |  | 2025-04-15 08:21:20+00:00 |
-| 408 | [camel-ai/owl](https://github.com/camel-ai/owl) | 20153 |  | :heavy_check_mark: |  | 2026-10-12 09:06:09+00:00 |
-| 409 | [candleindark/*](https://github.com/candleindark) [(2)](READMEs/candleindark.md) | [0](READMEs/candleindark.md) | [:heavy_check_mark: (2)](READMEs/candleindark.md) |  |  | 2026-05-09 00:02:29+00:00 |
-| 410 | [canlab/CanlabCore](https://github.com/canlab/CanlabCore) | 171 |  | :heavy_check_mark: |  | 2026-10-08 01:40:27+00:00 |
-| 411 | [casus/esa-hubble-picture-of-the-week.tutorial](https://github.com/casus/esa-hubble-picture-of-the-week.tutorial) | 1 |  | :heavy_check_mark: |  | 2026-10-06 14:05:11+00:00 |
-| 412 | [catalystneuro/neuroconv](https://github.com/catalystneuro/neuroconv) | 81 |  | :heavy_check_mark: |  | 2026-10-16 09:31:14+00:00 |
-| 413 | [cbogart/*](https://github.com/cbogart) [(2)](READMEs/cbogart.md) | [0](READMEs/cbogart.md) | [:heavy_check_mark: (2)](READMEs/cbogart.md) | [:heavy_check_mark: (2)](READMEs/cbogart.md) |  | 2023-07-01 16:03:05+00:00 |
-| 414 | [cclauss/improveit-dashboard](https://github.com/cclauss/improveit-dashboard) | 2 |  | :heavy_check_mark: |  | 2026-05-30 13:08:46+00:00 |
-| 415 | [ccna-biomarkers/ccna-timeseries](https://github.com/ccna-biomarkers/ccna-timeseries) | 0 | :heavy_check_mark: |  |  | 2022-04-05 22:27:25+00:00 |
-| 416 | [ccwang008/nanobot](https://github.com/ccwang008/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-07-05 04:51:46+00:00 |
-| 417 | [cecilyen/AIDAqc](https://github.com/cecilyen/AIDAqc) | 0 | :heavy_check_mark: |  |  | 2026-08-14 16:16:32+00:00 |
-| 418 | [cehbrecht/*](https://github.com/cehbrecht) [(2)](READMEs/cehbrecht.md) | [0](READMEs/cehbrecht.md) |  | [:heavy_check_mark: (2)](READMEs/cehbrecht.md) |  | 2025-12-12 12:53:00+00:00 |
-| 419 | [celery/*](https://github.com/celery) [(2)](READMEs/celery.md) | [29423](READMEs/celery.md) |  | [:heavy_check_mark: (2)](READMEs/celery.md) |  | 2026-10-15 22:13:14+00:00 |
-| 420 | [cenzulun/AI-Project](https://github.com/cenzulun/AI-Project) | 0 |  | :heavy_check_mark: |  | 2025-10-30 16:00:43+00:00 |
-| 421 | [chaintechki/webui](https://github.com/chaintechki/webui) | 0 |  | :heavy_check_mark: |  | 2025-07-08 11:13:00+00:00 |
-| 422 | [changyoutaxiang/plane](https://github.com/changyoutaxiang/plane) | 0 |  | :heavy_check_mark: |  | 2025-11-19 08:21:32+00:00 |
-| 423 | [chfc-cmi/cmr-seg-tl-sscrofa](https://github.com/chfc-cmi/cmr-seg-tl-sscrofa) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-09-13 12:48:27+00:00 |
-| 424 | [chhe/act](https://github.com/chhe/act) | 0 |  | :heavy_check_mark: |  | 2026-05-20 11:43:45+00:00 |
-| 425 | [chpk/OWUI](https://github.com/chpk/OWUI) | 0 |  | :heavy_check_mark: |  | 2025-05-01 16:04:44+00:00 |
-| 426 | [chrhaeusler/*](https://github.com/chrhaeusler) [(2)](READMEs/chrhaeusler.md) | [0](READMEs/chrhaeusler.md) | [:heavy_check_mark: (2)](READMEs/chrhaeusler.md) | [:heavy_check_mark: (1)](READMEs/chrhaeusler.md) |  | 2023-04-04 17:04:45+00:00 |
-| 427 | [chrispycheng/qa](https://github.com/chrispycheng/qa) | 0 | :heavy_check_mark: |  |  | 2018-05-27 18:28:42+00:00 |
-| 428 | [christen-tung-trinh-partior/dependabot-core](https://github.com/christen-tung-trinh-partior/dependabot-core) | 0 |  | :heavy_check_mark: |  | 2024-09-22 16:49:39+00:00 |
-| 429 | [christineecker/fsnulls](https://github.com/christineecker/fsnulls) | 2 |  | :heavy_check_mark: |  | 2024-09-02 09:23:23+00:00 |
-| 430 | [citation-file-format/citation-file-format](https://github.com/citation-file-format/citation-file-format) | 561 |  | :heavy_check_mark: |  | 2026-09-29 11:14:11+00:00 |
-| 431 | [claraElk/wonkyconn](https://github.com/claraElk/wonkyconn) | 0 | :heavy_check_mark: |  |  | 2026-02-12 17:25:15+00:00 |
-| 432 | [cleiton1231/Nano_bot](https://github.com/cleiton1231/Nano_bot) | 1 |  | :heavy_check_mark: |  | 2026-08-28 11:01:07+00:00 |
-| 433 | [cmadjar/*](https://github.com/cmadjar) [(3)](READMEs/cmadjar.md) | [0](READMEs/cmadjar.md) | [:heavy_check_mark: (3)](READMEs/cmadjar.md) |  |  | 2021-04-26 19:22:23+00:00 |
-| 434 | [cmaumet/ds001907-EDU](https://github.com/cmaumet/ds001907-EDU) | 0 | :heavy_check_mark: |  |  | 2022-06-19 14:52:41+00:00 |
-| 435 | [cmbaatz/open-webui-bak](https://github.com/cmbaatz/open-webui-bak) | 0 |  | :heavy_check_mark: |  | 2025-10-02 21:30:59+00:00 |
-| 436 | [cncf-tags/container-device-interface](https://github.com/cncf-tags/container-device-interface) | 313 |  | :heavy_check_mark: |  | 2026-10-02 13:25:13+00:00 |
-| 437 | [coachlou/*](https://github.com/coachlou) [(2)](READMEs/coachlou.md) | [0](READMEs/coachlou.md) |  | [:heavy_check_mark: (2)](READMEs/coachlou.md) |  | 2026-10-17 22:59:17+00:00 |
-| 438 | [cobwebos/SD-AI-WEBUI](https://github.com/cobwebos/SD-AI-WEBUI) | 0 |  | :heavy_check_mark: |  | 2025-05-01 00:46:46+00:00 |
-| 439 | [compet-cisam/interface](https://github.com/compet-cisam/interface) | 2 |  | :heavy_check_mark: |  | 2026-02-28 17:39:11+00:00 |
-| 440 | [complexbrains/movie10.stimuli](https://github.com/complexbrains/movie10.stimuli) | 0 | :heavy_check_mark: |  |  | 2024-02-22 20:32:13+00:00 |
-| 441 | [conda-forge/*](https://github.com/conda-forge) [(3)](READMEs/conda-forge.md) | [10303](READMEs/conda-forge.md) |  | [:heavy_check_mark: (3)](READMEs/conda-forge.md) |  | 2026-10-18 11:32:29+00:00 |
-| 442 | [connectomicslab/*](https://github.com/connectomicslab) [(4)](READMEs/connectomicslab.md) | [1](READMEs/connectomicslab.md) | [:heavy_check_mark: (4)](READMEs/connectomicslab.md) |  |  | 2021-07-16 14:30:20+00:00 |
-| 443 | [conp-bot/*](https://github.com/conp-bot) [(27)](READMEs/conp-bot.md) | [3](READMEs/conp-bot.md) | [:heavy_check_mark: (27)](READMEs/conp-bot.md) |  |  | 2026-09-02 16:10:36+00:00 |
-| 444 | [conpdatasets/*](https://github.com/conpdatasets) [(27)](READMEs/conpdatasets.md) | [16](READMEs/conpdatasets.md) | [:heavy_check_mark: (27)](READMEs/conpdatasets.md) |  |  | 2025-09-08 14:56:17+00:00 |
-| 445 | [containers/image](https://github.com/containers/image) | 968 |  | :heavy_check_mark: |  | 2025-09-02 20:22:35+00:00 |
-| 446 | [coreinfrastructure/best-practices-badge](https://github.com/coreinfrastructure/best-practices-badge) | 1368 |  | :heavy_check_mark: |  | 2026-10-15 09:54:30+00:00 |
-| 447 | [cortex-lab/phy](https://github.com/cortex-lab/phy) | 433 |  | :heavy_check_mark: |  | 2026-10-16 20:37:19+00:00 |
-| 448 | [courtois-neuromod/*](https://github.com/courtois-neuromod) [(116)](READMEs/courtois-neuromod.md) | [138](READMEs/courtois-neuromod.md) | [:heavy_check_mark: (81)](READMEs/courtois-neuromod.md) | [:heavy_check_mark: (50)](READMEs/courtois-neuromod.md) | [:heavy_check_mark: (32)](READMEs/courtois-neuromod.md) | 2026-10-19 15:17:54+00:00 |
-| 449 | [cpp-lln-lab/*](https://github.com/cpp-lln-lab) [(4)](READMEs/cpp-lln-lab.md) | [6](READMEs/cpp-lln-lab.md) | [:heavy_check_mark: (4)](READMEs/cpp-lln-lab.md) |  |  | 2026-07-23 08:57:20+00:00 |
-| 450 | [cramerjulian21c/AIDAqc_julian](https://github.com/cramerjulian21c/AIDAqc_julian) | 0 | :heavy_check_mark: |  |  | 2026-10-19 12:57:17+00:00 |
-| 451 | [cryo-data/*](https://github.com/cryo-data) [(16)](READMEs/cryo-data.md) | [7](READMEs/cryo-data.md) | [:heavy_check_mark: (16)](READMEs/cryo-data.md) | [:heavy_check_mark: (2)](READMEs/cryo-data.md) |  | 2022-06-03 16:14:12+00:00 |
-| 452 | [cvmfs/cvmfs](https://github.com/cvmfs/cvmfs) | 363 |  | :heavy_check_mark: |  | 2026-10-14 20:50:07+00:00 |
-| 453 | [cy-suite/open-webui](https://github.com/cy-suite/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-03-02 23:03:18+00:00 |
-| 454 | [cynk21/*](https://github.com/cynk21) [(3)](READMEs/cynk21.md) | [0](READMEs/cynk21.md) |  | [:heavy_check_mark: (3)](READMEs/cynk21.md) |  | 2025-09-11 08:22:50+00:00 |
-| 455 | [cython/cython](https://github.com/cython/cython) | 10869 |  | :heavy_check_mark: |  | 2026-10-16 07:43:48+00:00 |
-| 456 | [dPys/ohbm2020-posters](https://github.com/dPys/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-29 03:20:47+00:00 |
-| 457 | [dabaojiexushneg/personalnanobot](https://github.com/dabaojiexushneg/personalnanobot) | 0 |  | :heavy_check_mark: |  | 2026-06-16 12:41:21+00:00 |
-| 458 | [dacadev-official/llm-and-chatgpt](https://github.com/dacadev-official/llm-and-chatgpt) | 0 |  | :heavy_check_mark: |  | 2025-09-01 11:35:26+00:00 |
-| 459 | [dagu-org/dagu](https://github.com/dagu-org/dagu) | 4367 |  | :heavy_check_mark: |  | 2026-10-16 10:51:39+00:00 |
-| 460 | [damienfrancois/dataladset](https://github.com/damienfrancois/dataladset) | 0 | :heavy_check_mark: |  |  | 2023-01-12 15:04:52+00:00 |
-| 461 | [darlingbud/my-nanobot](https://github.com/darlingbud/my-nanobot) | 0 |  | :heavy_check_mark: |  | 2026-04-13 05:44:24+00:00 |
-| 462 | [dartmouth-pbs/psyc161-wi19-srv](https://github.com/dartmouth-pbs/psyc161-wi19-srv) | 0 | :heavy_check_mark: |  |  | 2019-02-07 02:55:14+00:00 |
-| 463 | [datajoint/*](https://github.com/datajoint) [(3)](READMEs/datajoint.md) | [217](READMEs/datajoint.md) |  | [:heavy_check_mark: (3)](READMEs/datajoint.md) |  | 2026-10-19 03:32:17+00:00 |
-| 464 | [datasets-mila/*](https://github.com/datasets-mila) [(351)](READMEs/datasets-mila.md) | [49](READMEs/datasets-mila.md) | [:heavy_check_mark: (211)](READMEs/datasets-mila.md) | [:heavy_check_mark: (346)](READMEs/datasets-mila.md) |  | 2025-04-14 17:10:28+00:00 |
-| 465 | [dattalab/moseq2-app](https://github.com/dattalab/moseq2-app) | 41 |  | :heavy_check_mark: |  | 2026-08-03 21:58:20+00:00 |
-| 466 | [dcasciotti/*](https://github.com/dcasciotti) [(3)](READMEs/dcasciotti.md) | [0](READMEs/dcasciotti.md) | [:heavy_check_mark: (3)](READMEs/dcasciotti.md) | [:heavy_check_mark: (3)](READMEs/dcasciotti.md) |  | 2022-06-15 13:46:02+00:00 |
-| 467 | [dcxchatbot/chat_openwebui](https://github.com/dcxchatbot/chat_openwebui) | 0 |  | :heavy_check_mark: |  | 2025-10-18 14:02:25+00:00 |
-| 468 | [debops-contrib/ansible-checkmk_agent](https://github.com/debops-contrib/ansible-checkmk_agent) | 11 |  | :heavy_check_mark: |  | 2023-01-08 13:56:05+00:00 |
-| 469 | [debops/debops](https://github.com/debops/debops) | 1425 |  | :heavy_check_mark: |  | 2026-10-19 18:12:14+00:00 |
-| 470 | [demetrees-proton/openwebui](https://github.com/demetrees-proton/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-06-23 12:07:49+00:00 |
-| 471 | [dependabot/dependabot-core](https://github.com/dependabot/dependabot-core) | 5808 |  | :heavy_check_mark: |  | 2026-10-21 11:09:06+00:00 |
-| 472 | [devlancer-lucas/gpt4all](https://github.com/devlancer-lucas/gpt4all) | 4 |  | :heavy_check_mark: |  | 2023-06-22 17:02:45+00:00 |
-| 473 | [dguibert/*](https://github.com/dguibert) [(2)](READMEs/dguibert.md) | [6](READMEs/dguibert.md) | [:heavy_check_mark: (2)](READMEs/dguibert.md) |  |  | 2026-09-07 14:16:56+00:00 |
-| 474 | [dh-tech/hugo-bibliography](https://github.com/dh-tech/hugo-bibliography) | 7 |  | :heavy_check_mark: |  | 2026-10-14 20:19:32+00:00 |
-| 475 | [dhivakark/*](https://github.com/dhivakark) [(2)](READMEs/dhivakark.md) | [0](READMEs/dhivakark.md) | [:heavy_check_mark: (2)](READMEs/dhivakark.md) | [:heavy_check_mark: (1)](READMEs/dhivakark.md) |  | 2020-04-20 14:52:17+00:00 |
-| 476 | [dimitri-pletschette/taipyclone](https://github.com/dimitri-pletschette/taipyclone) | 0 |  | :heavy_check_mark: |  | 2026-10-10 17:33:25+00:00 |
-| 477 | [dingsiguo/open-webui](https://github.com/dingsiguo/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-09 08:41:11+00:00 |
-| 478 | [dipy/*](https://github.com/dipy) [(2)](READMEs/dipy.md) | [852](READMEs/dipy.md) |  | [:heavy_check_mark: (2)](READMEs/dipy.md) |  | 2026-10-20 16:02:11+00:00 |
-| 479 | [distribits/distribits-videos](https://github.com/distribits/distribits-videos) | 1 |  | :heavy_check_mark: | :heavy_check_mark: | 2024-08-09 12:41:05+00:00 |
-| 480 | [djarecka/*](https://github.com/djarecka) [(12)](READMEs/djarecka.md) | [0](READMEs/djarecka.md) | [:heavy_check_mark: (12)](READMEs/djarecka.md) | [:heavy_check_mark: (2)](READMEs/djarecka.md) |  | 2022-06-19 10:32:50+00:00 |
-| 481 | [dl-throwaway/*](https://github.com/dl-throwaway) [(12)](READMEs/dl-throwaway.md) | [0](READMEs/dl-throwaway.md) | [:heavy_check_mark: (12)](READMEs/dl-throwaway.md) |  |  | 2021-06-03 20:04:38+00:00 |
-| 482 | [dnkennedy/*](https://github.com/dnkennedy) [(4)](READMEs/dnkennedy.md) | [0](READMEs/dnkennedy.md) | [:heavy_check_mark: (2)](READMEs/dnkennedy.md) | [:heavy_check_mark: (3)](READMEs/dnkennedy.md) | [:heavy_check_mark: (3)](READMEs/dnkennedy.md) | 2019-10-06 16:42:44+00:00 |
-| 483 | [docker-library/official-images](https://github.com/docker-library/official-images) | 7009 |  | :heavy_check_mark: |  | 2026-10-21 11:28:21+00:00 |
-| 484 | [dreamlx/evolvai](https://github.com/dreamlx/evolvai) | 0 |  | :heavy_check_mark: |  | 2025-11-22 09:00:13+00:00 |
-| 485 | [drerx/gpt4all](https://github.com/drerx/gpt4all) | 0 |  | :heavy_check_mark: |  | 2024-02-06 21:37:05+00:00 |
-| 486 | [duecredit/duecredit](https://github.com/duecredit/duecredit) | 247 |  | :heavy_check_mark: |  | 2026-08-20 16:19:48+00:00 |
-| 487 | [dungscout96/ds003645](https://github.com/dungscout96/ds003645) | 0 | :heavy_check_mark: |  |  | 2023-07-24 19:13:52+00:00 |
-| 488 | [duyijinli/nanobot](https://github.com/duyijinli/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-04-27 13:56:30+00:00 |
-| 489 | [e-fortier/task_stimuli](https://github.com/e-fortier/task_stimuli) | 0 | :heavy_check_mark: |  |  | 2022-01-14 15:45:11+00:00 |
-| 490 | [earth-mover/icechunk](https://github.com/earth-mover/icechunk) | 693 |  | :heavy_check_mark: |  | 2026-10-19 19:17:48+00:00 |
-| 491 | [edenede2/bids_repo](https://github.com/edenede2/bids_repo) | 0 |  | :heavy_check_mark: |  | 2025-11-24 09:33:23+00:00 |
-| 492 | [effigies/*](https://github.com/effigies) [(9)](READMEs/effigies.md) | [2](READMEs/effigies.md) | [:heavy_check_mark: (7)](READMEs/effigies.md) | [:heavy_check_mark: (3)](READMEs/effigies.md) |  | 2026-10-19 18:09:18+00:00 |
-| 493 | [efiefiakbari/ds002799](https://github.com/efiefiakbari/ds002799) | 0 | :heavy_check_mark: |  |  | 2020-08-25 23:47:32+00:00 |
-| 494 | [egzakharovich/ebudget-wks-tlsclient-configuration](https://github.com/egzakharovich/ebudget-wks-tlsclient-configuration) | 0 | :heavy_check_mark: |  |  | 2022-10-25 14:45:31+00:00 |
-| 495 | [elegantlyy/CephSage](https://github.com/elegantlyy/CephSage) | 0 |  | :heavy_check_mark: |  | 2026-08-25 07:15:25+00:00 |
-| 496 | [elijahdev0/android-openwebui](https://github.com/elijahdev0/android-openwebui) | 2 |  | :heavy_check_mark: |  | 2026-03-01 15:46:56+00:00 |
-| 497 | [ellentyyu/gsap_presentation](https://github.com/ellentyyu/gsap_presentation) | 0 |  | :heavy_check_mark: |  | 2025-08-27 01:51:27+00:00 |
-| 498 | [elloras1/*](https://github.com/elloras1) [(3)](READMEs/elloras1.md) | [0](READMEs/elloras1.md) | [:heavy_check_mark: (3)](READMEs/elloras1.md) |  |  | 2023-10-12 15:50:52+00:00 |
-| 499 | [elver0429709/agent-owl-api](https://github.com/elver0429709/agent-owl-api) | 0 |  | :heavy_check_mark: |  | 2025-11-07 00:55:26+00:00 |
-| 500 | [emmetaobrien/*](https://github.com/emmetaobrien) [(18)](READMEs/emmetaobrien.md) | [6](READMEs/emmetaobrien.md) | [:heavy_check_mark: (18)](READMEs/emmetaobrien.md) |  |  | 2026-10-16 13:01:50+00:00 |
-| 501 | [emooney/openwebui-ollama](https://github.com/emooney/openwebui-ollama) | 0 |  | :heavy_check_mark: |  | 2025-02-26 01:22:16+00:00 |
-| 502 | [emtee40/EternalTerminal](https://github.com/emtee40/EternalTerminal) | 0 |  | :heavy_check_mark: |  | 2024-03-18 06:02:47+00:00 |
-| 503 | [encode/django-rest-framework](https://github.com/encode/django-rest-framework) | 30211 |  | :heavy_check_mark: |  | 2026-10-14 22:32:27+00:00 |
-| 504 | [eremchuk-mp-8/open-webui](https://github.com/eremchuk-mp-8/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-26 19:51:10+00:00 |
-| 505 | [erikjseidel/netbox](https://github.com/erikjseidel/netbox) | 0 |  | :heavy_check_mark: |  | 2023-05-31 16:03:44+00:00 |
-| 506 | [esavary/phys2bids-modified](https://github.com/esavary/phys2bids-modified) | 0 |  | :heavy_check_mark: |  | 2023-10-03 14:56:03+00:00 |
-| 507 | [ess-kay-p/pre_sales_frontend](https://github.com/ess-kay-p/pre_sales_frontend) | 0 |  | :heavy_check_mark: |  | 2025-09-10 09:17:44+00:00 |
-| 508 | [estesp/manifest-tool](https://github.com/estesp/manifest-tool) | 840 |  | :heavy_check_mark: |  | 2026-10-19 18:49:11+00:00 |
-| 509 | [eugene-pascal/presentation-crypto](https://github.com/eugene-pascal/presentation-crypto) | 0 |  | :heavy_check_mark: |  | 2025-04-05 10:09:34+00:00 |
-| 510 | [excniesNIED/nao-chat](https://github.com/excniesNIED/nao-chat) | 0 |  | :heavy_check_mark: |  | 2025-09-22 03:11:41+00:00 |
-| 511 | [expfactory/expfactory-experiments](https://github.com/expfactory/expfactory-experiments) | 38 |  | :heavy_check_mark: |  | 2023-07-28 16:15:15+00:00 |
-| 512 | [eyescr3am/datalad_test_sibling_irys](https://github.com/eyescr3am/datalad_test_sibling_irys) | 0 |  | :heavy_check_mark: |  | 2024-01-29 18:38:56+00:00 |
-| 513 | [fabrizio-monaco/ki_ethische_probleme_deepfakes](https://github.com/fabrizio-monaco/ki_ethische_probleme_deepfakes) | 0 |  | :heavy_check_mark: |  | 2025-07-06 13:27:32+00:00 |
-| 514 | [fail2ban/fail2ban](https://github.com/fail2ban/fail2ban) | 18838 |  | :heavy_check_mark: |  | 2026-10-10 23:27:09+00:00 |
-| 515 | [fandofastest/my3dmodeling](https://github.com/fandofastest/my3dmodeling) | 0 | :heavy_check_mark: |  |  | 2021-12-20 07:36:32+00:00 |
-| 516 | [fangfufu/Linux-Fake-Background-Webcam](https://github.com/fangfufu/Linux-Fake-Background-Webcam) | 1706 |  | :heavy_check_mark: |  | 2026-02-24 04:04:22+00:00 |
-| 517 | [fanqingsong/open-webui](https://github.com/fanqingsong/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 22:52:28+00:00 |
-| 518 | [farmmp/dandisets](https://github.com/farmmp/dandisets) | 0 | :heavy_check_mark: |  |  | 2026-04-19 17:45:13+00:00 |
-| 519 | [farooqseeru/openwebui](https://github.com/farooqseeru/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-10-05 08:49:32+00:00 |
-| 520 | [fcerpe/*](https://github.com/fcerpe) [(2)](READMEs/fcerpe.md) | [0](READMEs/fcerpe.md) | [:heavy_check_mark: (2)](READMEs/fcerpe.md) |  |  | 2026-02-24 10:50:34+00:00 |
-| 521 | [featherwit525/Nanobot_Rag_MultiAgent](https://github.com/featherwit525/Nanobot_Rag_MultiAgent) | 0 |  | :heavy_check_mark: |  | 2026-04-23 08:05:41+00:00 |
-| 522 | [febri-13/modulLevel9TCPICT](https://github.com/febri-13/modulLevel9TCPICT) | 0 |  | :heavy_check_mark: |  | 2025-08-03 23:04:12+00:00 |
-| 523 | [fedbiomed/fedbiomed](https://github.com/fedbiomed/fedbiomed) | 93 |  | :heavy_check_mark: |  | 2026-10-20 11:07:34+00:00 |
-| 524 | [feilong/tpl-onavg](https://github.com/feilong/tpl-onavg) | 15 | :heavy_check_mark: |  |  | 2024-02-08 18:59:55+00:00 |
-| 525 | [fffflllll/AgentHub](https://github.com/fffflllll/AgentHub) | 0 |  | :heavy_check_mark: |  | 2026-06-18 16:25:50+00:00 |
-| 526 | [ffsho/open-webui](https://github.com/ffsho/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-24 13:03:09+00:00 |
-| 527 | [fictusinscript/niivue](https://github.com/fictusinscript/niivue) | 0 |  | :heavy_check_mark: |  | 2025-04-28 15:04:44+00:00 |
-| 528 | [fieldtrip/fieldtrip](https://github.com/fieldtrip/fieldtrip) | 992 |  | :heavy_check_mark: |  | 2026-10-13 21:46:20+00:00 |
-| 529 | [firetoweak/nanoHelper](https://github.com/firetoweak/nanoHelper) | 0 |  | :heavy_check_mark: |  | 2026-05-18 17:31:45+00:00 |
-| 530 | [flatironinstitute/*](https://github.com/flatironinstitute) [(4)](READMEs/flatironinstitute.md) | [834](READMEs/flatironinstitute.md) |  | [:heavy_check_mark: (4)](READMEs/flatironinstitute.md) |  | 2026-10-13 19:15:07+00:00 |
-| 531 | [flickadamis/gpt4all](https://github.com/flickadamis/gpt4all) | 0 |  | :heavy_check_mark: |  | 2024-02-27 13:39:19+00:00 |
-| 532 | [fluese/T1w_250um](https://github.com/fluese/T1w_250um) | 2 | :heavy_check_mark: |  |  | 2019-04-18 03:09:07+00:00 |
-| 533 | [flyfox2022/Human_Brain_Atlases-desikan-killiany](https://github.com/flyfox2022/Human_Brain_Atlases-desikan-killiany) | 0 | :heavy_check_mark: |  |  | 2021-03-15 19:56:08+00:00 |
-| 534 | [fmops/open-webui](https://github.com/fmops/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-04-01 15:58:15+00:00 |
-| 535 | [fmralign/fmralign](https://github.com/fmralign/fmralign) | 39 |  | :heavy_check_mark: |  | 2026-10-08 09:18:06+00:00 |
-| 536 | [fphsFischmeister/ohbm2020-posters](https://github.com/fphsFischmeister/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-29 16:00:59+00:00 |
-| 537 | [gabilobom/SlidesDigital](https://github.com/gabilobom/SlidesDigital) | 1 |  | :heavy_check_mark: |  | 2025-06-06 22:53:42+00:00 |
-| 538 | [gaiborjosue/OSF-Trained-Models](https://github.com/gaiborjosue/OSF-Trained-Models) | 1 | :heavy_check_mark: |  |  | 2023-08-16 15:23:21+00:00 |
-| 539 | [gallantlab/*](https://github.com/gallantlab) [(3)](READMEs/gallantlab.md) | [892](READMEs/gallantlab.md) |  | [:heavy_check_mark: (3)](READMEs/gallantlab.md) |  | 2026-10-18 04:14:45+00:00 |
-| 540 | [gaotiezhu1/gaotiezhu1](https://github.com/gaotiezhu1/gaotiezhu1) | 0 |  | :heavy_check_mark: |  | 2025-06-01 12:55:48+00:00 |
-| 541 | [garrettmflynn/webnwb](https://github.com/garrettmflynn/webnwb) | 7 |  | :heavy_check_mark: |  | 2024-06-06 15:32:40+00:00 |
-| 542 | [garronej/keycloakify-setup](https://github.com/garronej/keycloakify-setup) | 0 |  | :heavy_check_mark: |  | 2025-06-21 15:48:53+00:00 |
-| 543 | [gccornejo441/fuzzy-octo-potato](https://github.com/gccornejo441/fuzzy-octo-potato) | 0 |  | :heavy_check_mark: |  | 2025-08-16 02:17:24+00:00 |
-| 544 | [gclt7777/zhinengkefu](https://github.com/gclt7777/zhinengkefu) | 0 |  | :heavy_check_mark: |  | 2025-11-14 02:12:00+00:00 |
-| 545 | [gdcc/*](https://github.com/gdcc) [(2)](READMEs/gdcc.md) | [114](READMEs/gdcc.md) |  | [:heavy_check_mark: (2)](READMEs/gdcc.md) |  | 2026-09-13 07:19:27+00:00 |
-| 546 | [gerbs66/slides1](https://github.com/gerbs66/slides1) | 0 |  | :heavy_check_mark: |  | 2025-09-05 13:47:04+00:00 |
-| 547 | [gies-ai-experiments/hackclaw](https://github.com/gies-ai-experiments/hackclaw) | 2 |  | :heavy_check_mark: |  | 2026-04-25 20:33:36+00:00 |
-| 548 | [gilesknap/gphotos-sync](https://github.com/gilesknap/gphotos-sync) | 2083 |  | :heavy_check_mark: |  | 2026-03-17 20:57:13+00:00 |
-| 549 | [gillet-thomas/nnUNet-wandb](https://github.com/gillet-thomas/nnUNet-wandb) | 1 |  | :heavy_check_mark: |  | 2024-10-17 08:48:01+00:00 |
-| 550 | [girder/girder](https://github.com/girder/girder) | 457 |  | :heavy_check_mark: |  | 2026-10-13 14:06:19+00:00 |
-| 551 | [git-annex-remote-rclone/git-annex-remote-rclone](https://github.com/git-annex-remote-rclone/git-annex-remote-rclone) | 197 |  | :heavy_check_mark: |  | 2026-06-20 22:15:55+00:00 |
-| 552 | [glatard/fmriprep-lts-images](https://github.com/glatard/fmriprep-lts-images) | 0 | :heavy_check_mark: |  |  | 2021-05-31 21:42:32+00:00 |
-| 553 | [goodtab/*](https://github.com/goodtab) [(2)](READMEs/goodtab.md) | [0](READMEs/goodtab.md) |  | [:heavy_check_mark: (2)](READMEs/goodtab.md) |  | 2025-07-29 10:10:53+00:00 |
-| 554 | [google/tensorstore](https://github.com/google/tensorstore) | 1547 |  | :heavy_check_mark: |  | 2026-10-20 08:42:41+00:00 |
-| 555 | [gparadis/*](https://github.com/gparadis) [(3)](READMEs/gparadis.md) | [0](READMEs/gparadis.md) |  | [:heavy_check_mark: (3)](READMEs/gparadis.md) |  | 2025-09-22 21:46:38+00:00 |
-| 556 | [grandjeanlab/*](https://github.com/grandjeanlab) [(2)](READMEs/grandjeanlab.md) | [1](READMEs/grandjeanlab.md) | [:heavy_check_mark: (1)](READMEs/grandjeanlab.md) | [:heavy_check_mark: (1)](READMEs/grandjeanlab.md) |  | 2025-05-30 07:29:03+00:00 |
-| 557 | [greentea-icecreme/probeinterface](https://github.com/greentea-icecreme/probeinterface) | 0 |  | :heavy_check_mark: |  | 2025-12-06 03:10:13+00:00 |
-| 558 | [gridgentoo/qdrant](https://github.com/gridgentoo/qdrant) | 0 |  | :heavy_check_mark: |  | 2024-03-19 06:25:29+00:00 |
-| 559 | [griffithlab/civic-v2](https://github.com/griffithlab/civic-v2) | 31 |  | :heavy_check_mark: |  | 2026-10-14 20:01:33+00:00 |
-| 560 | [gufran-codes/SmartBotOpen](https://github.com/gufran-codes/SmartBotOpen) | 0 |  | :heavy_check_mark: |  | 2025-02-05 13:59:29+00:00 |
-| 561 | [gumasruthy/open-webui](https://github.com/gumasruthy/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-04 17:01:05+00:00 |
-| 562 | [gunnarvoet/*](https://github.com/gunnarvoet) [(7)](READMEs/gunnarvoet.md) | [2](READMEs/gunnarvoet.md) | [:heavy_check_mark: (7)](READMEs/gunnarvoet.md) |  |  | 2024-02-13 13:02:47+00:00 |
-| 563 | [guocuixia/gpt4888](https://github.com/guocuixia/gpt4888) | 0 |  | :heavy_check_mark: |  | 2024-03-04 23:10:42+00:00 |
-| 564 | [habitual-it/ceahi11](https://github.com/habitual-it/ceahi11) | 0 |  | :heavy_check_mark: |  | 2025-08-12 02:20:54+00:00 |
-| 565 | [hakimel/reveal.js](https://github.com/hakimel/reveal.js) | 72434 |  | :heavy_check_mark: |  | 2026-09-30 19:38:13+00:00 |
-| 566 | [hamzasalmahi-lab/ds005873-FND](https://github.com/hamzasalmahi-lab/ds005873-FND) | 0 | :heavy_check_mark: |  |  | 2026-05-16 01:42:41+00:00 |
-| 567 | [hanahub/open-webui](https://github.com/hanahub/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-29 02:35:14+00:00 |
-| 568 | [handun818/open-webui](https://github.com/handun818/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-04 08:25:39+00:00 |
-| 569 | [happyl-12/nanobot](https://github.com/happyl-12/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-06-09 01:50:33+00:00 |
-| 570 | [hardihardi/Taipy](https://github.com/hardihardi/Taipy) | 1 |  | :heavy_check_mark: |  | 2025-12-22 20:48:00+00:00 |
-| 571 | [harlequix/moq-timeout-dataset](https://github.com/harlequix/moq-timeout-dataset) | 0 |  | :heavy_check_mark: |  | 2026-06-19 15:09:22+00:00 |
-| 572 | [harrycjs/wikinova](https://github.com/harrycjs/wikinova) | 0 |  | :heavy_check_mark: |  | 2026-07-09 09:52:24+00:00 |
-| 573 | [harshBoii/*](https://github.com/harshBoii) [(2)](READMEs/harshBoii.md) | [0](READMEs/harshBoii.md) |  | [:heavy_check_mark: (2)](READMEs/harshBoii.md) |  | 2025-08-20 14:59:26+00:00 |
-| 574 | [haskell-pkg-janitors/aws](https://github.com/haskell-pkg-janitors/aws) | 1 |  | :heavy_check_mark: |  | 2026-06-24 21:23:22+00:00 |
-| 575 | [hawkrobe/tangrams-fmri-data](https://github.com/hawkrobe/tangrams-fmri-data) | 2 | :heavy_check_mark: |  |  | 2023-08-30 20:15:17+00:00 |
-| 576 | [hcferguson/*](https://github.com/hcferguson) [(3)](READMEs/hcferguson.md) | [0](READMEs/hcferguson.md) | [:heavy_check_mark: (3)](READMEs/hcferguson.md) | [:heavy_check_mark: (1)](READMEs/hcferguson.md) |  | 2022-12-01 16:03:09+00:00 |
-| 577 | [heartexlabs/label-studio](https://github.com/heartexlabs/label-studio) | 28511 |  | :heavy_check_mark: |  | 2026-10-21 11:03:59+00:00 |
-| 578 | [hed-standard/*](https://github.com/hed-standard) [(3)](READMEs/hed-standard.md) | [20](READMEs/hed-standard.md) |  | [:heavy_check_mark: (3)](READMEs/hed-standard.md) |  | 2026-10-20 16:42:33+00:00 |
-| 579 | [hesam305/ds004902](https://github.com/hesam305/ds004902) | 0 | :heavy_check_mark: |  |  | 2025-09-17 08:06:47+00:00 |
-| 580 | [heycatwonton/EssDiveSampleRFOld](https://github.com/heycatwonton/EssDiveSampleRFOld) | 0 |  | :heavy_check_mark: |  | 2024-07-18 16:51:15+00:00 |
-| 581 | [hhw007-code/open-webui](https://github.com/hhw007-code/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-04-01 01:50:06+00:00 |
-| 582 | [hkirk/swtafp-slides](https://github.com/hkirk/swtafp-slides) | 1 |  | :heavy_check_mark: |  | 2026-10-20 10:08:04+00:00 |
-| 583 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12523 |  | :heavy_check_mark: |  | 2026-10-21 05:51:35+00:00 |
-| 584 | [hopefuturehu/KAT](https://github.com/hopefuturehu/KAT) | 0 |  | :heavy_check_mark: |  | 2026-05-26 03:51:10+00:00 |
-| 585 | [hotakutsuki/quito-la-ciudad-que-late](https://github.com/hotakutsuki/quito-la-ciudad-que-late) | 0 |  | :heavy_check_mark: |  | 2025-05-28 21:46:04+00:00 |
-| 586 | [howard-wong/nanobot](https://github.com/howard-wong/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-08 17:04:21+00:00 |
-| 587 | [htwangtw/hrvtrt](https://github.com/htwangtw/hrvtrt) | 0 | :heavy_check_mark: |  |  | 2021-05-26 11:19:44+00:00 |
-| 588 | [huaihuaiweng/open-webui](https://github.com/huaihuaiweng/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-11-12 00:50:13+00:00 |
-| 589 | [huangserva/NanoAgent](https://github.com/huangserva/NanoAgent) | 2 |  | :heavy_check_mark: |  | 2026-05-17 10:44:40+00:00 |
-| 590 | [huhudejueqi/huhudejueqi](https://github.com/huhudejueqi/huhudejueqi) | 0 |  | :heavy_check_mark: |  | 2026-06-16 12:11:56+00:00 |
-| 591 | [hurngchunlee/*](https://github.com/hurngchunlee) [(2)](READMEs/hurngchunlee.md) | [0](READMEs/hurngchunlee.md) | [:heavy_check_mark: (2)](READMEs/hurngchunlee.md) |  |  | 2022-01-28 11:39:29+00:00 |
-| 592 | [hyeni87/K-dence-ai](https://github.com/hyeni87/K-dence-ai) | 0 |  | :heavy_check_mark: |  | 2026-10-13 05:42:28+00:00 |
-| 593 | [hyruuk/task_stimuli](https://github.com/hyruuk/task_stimuli) | 0 | :heavy_check_mark: |  |  | 2026-05-26 13:41:06+00:00 |
-| 594 | [icosa-studios/lanturn-webui](https://github.com/icosa-studios/lanturn-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-07 22:35:53+00:00 |
-| 595 | [iimog/datalad-github](https://github.com/iimog/datalad-github) | 0 | :heavy_check_mark: |  |  | 2026-07-03 18:40:45+00:00 |
-| 596 | [ikhgs/gpt4all](https://github.com/ikhgs/gpt4all) | 0 |  | :heavy_check_mark: |  | 2024-07-13 20:19:32+00:00 |
-| 597 | [ildunari/markdown-editor-mcp](https://github.com/ildunari/markdown-editor-mcp) | 0 |  | :heavy_check_mark: |  | 2025-07-03 20:49:25+00:00 |
-| 598 | [imaiguo/OpenWebUI](https://github.com/imaiguo/OpenWebUI) | 0 |  | :heavy_check_mark: |  | 2025-05-27 06:51:54+00:00 |
-| 599 | [imax09-wq/DesktopCommanderMCP](https://github.com/imax09-wq/DesktopCommanderMCP) | 1 |  | :heavy_check_mark: |  | 2025-04-09 23:13:16+00:00 |
-| 600 | [incf-nidash/*](https://github.com/incf-nidash) [(3)](READMEs/incf-nidash.md) | [31](READMEs/incf-nidash.md) | [:heavy_check_mark: (1)](READMEs/incf-nidash.md) | [:heavy_check_mark: (2)](READMEs/incf-nidash.md) |  | 2026-10-19 23:43:51+00:00 |
-| 601 | [indigo-dc/udocker](https://github.com/indigo-dc/udocker) | 1795 |  | :heavy_check_mark: |  | 2025-08-13 17:21:57+00:00 |
-| 602 | [injaamam/ds007526](https://github.com/injaamam/ds007526) | 1 | :heavy_check_mark: |  |  | 2026-04-28 06:18:57+00:00 |
-| 603 | [inm7/*](https://github.com/inm7) [(4)](READMEs/inm7.md) | [7](READMEs/inm7.md) | [:heavy_check_mark: (4)](READMEs/inm7.md) |  |  | 2021-11-03 12:20:10+00:00 |
-| 604 | [intellegin/open-webui](https://github.com/intellegin/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-05-23 16:32:01+00:00 |
-| 605 | [iqrashahzad14/*](https://github.com/iqrashahzad14) [(2)](READMEs/iqrashahzad14.md) | [2](READMEs/iqrashahzad14.md) | [:heavy_check_mark: (2)](READMEs/iqrashahzad14.md) |  |  | 2026-01-12 20:29:31+00:00 |
-| 606 | [isidoregpt/openwebuimod](https://github.com/isidoregpt/openwebuimod) | 0 |  | :heavy_check_mark: |  | 2025-10-01 01:40:28+00:00 |
-| 607 | [ismi9/scientific-agent-skills](https://github.com/ismi9/scientific-agent-skills) | 1 |  | :heavy_check_mark: |  | 2026-08-29 12:30:10+00:00 |
-| 608 | [isomorphic-git/isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) | 8377 |  | :heavy_check_mark: |  | 2026-10-17 09:35:03+00:00 |
-| 609 | [iterate-ch/docs](https://github.com/iterate-ch/docs) | 35 |  | :heavy_check_mark: |  | 2026-10-20 15:42:35+00:00 |
-| 610 | [ivis-akaike/DataLad](https://github.com/ivis-akaike/DataLad) | 0 | :heavy_check_mark: |  |  | 2022-05-12 10:39:39+00:00 |
-| 611 | [ivis-tsukioka/*](https://github.com/ivis-tsukioka) [(4)](READMEs/ivis-tsukioka.md) | [0](READMEs/ivis-tsukioka.md) | [:heavy_check_mark: (4)](READMEs/ivis-tsukioka.md) |  |  | 2022-07-12 09:02:57+00:00 |
-| 612 | [jadecci/*](https://github.com/jadecci) [(2)](READMEs/jadecci.md) | [1](READMEs/jadecci.md) |  | [:heavy_check_mark: (2)](READMEs/jadecci.md) |  | 2026-10-11 15:06:36+00:00 |
-| 613 | [jadynpark/emregPFC](https://github.com/jadynpark/emregPFC) | 0 | :heavy_check_mark: |  |  | 2020-08-24 18:45:20+00:00 |
-| 614 | [jairossaldanha/nano-bot-v2.0](https://github.com/jairossaldanha/nano-bot-v2.0) | 0 |  | :heavy_check_mark: |  | 2026-06-02 17:58:23+00:00 |
-| 615 | [janelia-flyem/dvid](https://github.com/janelia-flyem/dvid) | 203 |  | :heavy_check_mark: |  | 2026-10-20 23:31:07+00:00 |
-| 616 | [jannisborn/paperscraper](https://github.com/jannisborn/paperscraper) | 544 |  | :heavy_check_mark: |  | 2026-10-14 13:21:51+00:00 |
-| 617 | [jasongallant/midtermproject](https://github.com/jasongallant/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-07-01 02:44:53+00:00 |
-| 618 | [jasonpnnl/open-webui-public](https://github.com/jasonpnnl/open-webui-public) | 0 |  | :heavy_check_mark: |  | 2025-08-12 18:09:05+00:00 |
-| 619 | [jaykumar9022/quarterly-report-1](https://github.com/jaykumar9022/quarterly-report-1) | 0 |  | :heavy_check_mark: |  | 2025-08-08 05:32:56+00:00 |
-| 620 | [jazzband/*](https://github.com/jazzband) [(2)](READMEs/jazzband.md) | [3381](READMEs/jazzband.md) |  | [:heavy_check_mark: (2)](READMEs/jazzband.md) |  | 2026-10-10 07:23:43+00:00 |
-| 621 | [jazzmagus/abl2025-slides](https://github.com/jazzmagus/abl2025-slides) | 0 |  | :heavy_check_mark: |  | 2025-06-23 19:02:41+00:00 |
-| 622 | [jbnu-KimGilMoIm/Jeonbuk-AI](https://github.com/jbnu-KimGilMoIm/Jeonbuk-AI) | 0 |  | :heavy_check_mark: |  | 2025-12-10 05:53:41+00:00 |
-| 623 | [jbpoline/datasets.datalad.org](https://github.com/jbpoline/datasets.datalad.org) | 0 | :heavy_check_mark: |  |  | 2018-08-27 01:23:42+00:00 |
-| 624 | [jbwexler/*](https://github.com/jbwexler) [(9)](READMEs/jbwexler.md) | [0](READMEs/jbwexler.md) | [:heavy_check_mark: (9)](READMEs/jbwexler.md) |  |  | 2021-08-01 16:39:00+00:00 |
-| 625 | [jennydaman/*](https://github.com/jennydaman) [(5)](READMEs/jennydaman.md) | [0](READMEs/jennydaman.md) |  | [:heavy_check_mark: (5)](READMEs/jennydaman.md) |  | 2023-07-29 11:32:22+00:00 |
-| 626 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | 83263 |  | :heavy_check_mark: |  | 2026-10-17 11:06:26+00:00 |
-| 627 | [jianlinjiang/open-webui](https://github.com/jianlinjiang/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 04:21:00+00:00 |
-| 628 | [jjzha/chat-aau](https://github.com/jjzha/chat-aau) | 0 |  | :heavy_check_mark: |  | 2025-05-07 11:41:36+00:00 |
-| 629 | [jkolarov/webui](https://github.com/jkolarov/webui) | 0 |  | :heavy_check_mark: |  | 2025-07-13 14:24:21+00:00 |
-| 630 | [jkosciessa/eegmp](https://github.com/jkosciessa/eegmp) | 0 | :heavy_check_mark: |  |  | 2022-11-18 11:13:51+00:00 |
-| 631 | [jkuhl-uni/test-data](https://github.com/jkuhl-uni/test-data) | 0 |  | :heavy_check_mark: |  | 2024-06-05 14:54:07+00:00 |
-| 632 | [joeyzhou98/osf-private-test](https://github.com/joeyzhou98/osf-private-test) | 0 | :heavy_check_mark: |  |  | 2021-03-19 04:59:01+00:00 |
-| 633 | [jonclayden/divest](https://github.com/jonclayden/divest) | 15 |  | :heavy_check_mark: |  | 2026-10-15 16:02:40+00:00 |
-| 634 | [jonescompneurolab/hnn-core](https://github.com/jonescompneurolab/hnn-core) | 83 |  | :heavy_check_mark: |  | 2026-10-08 18:47:56+00:00 |
-| 635 | [jooh/liu_gardner_2018_reanalysis](https://github.com/jooh/liu_gardner_2018_reanalysis) | 0 |  | :heavy_check_mark: |  | 2019-11-06 15:23:07+00:00 |
-| 636 | [joost-de-vries/zio-doobie-transactions](https://github.com/joost-de-vries/zio-doobie-transactions) | 0 |  | :heavy_check_mark: |  | 2025-07-24 20:48:49+00:00 |
-| 637 | [jorrickkeuper/dockerimage](https://github.com/jorrickkeuper/dockerimage) | 0 |  | :heavy_check_mark: |  | 2022-10-07 10:01:11+00:00 |
-| 638 | [joshmoore/ngff-specifications](https://github.com/joshmoore/ngff-specifications) | 1 |  | :heavy_check_mark: |  | 2024-12-04 20:52:07+00:00 |
-| 639 | [jpvaldes/cbbs-imaging-container-fmriprep](https://github.com/jpvaldes/cbbs-imaging-container-fmriprep) | 0 | :heavy_check_mark: |  |  | 2018-05-05 09:17:27+00:00 |
-| 640 | [jreniel/ACE](https://github.com/jreniel/ACE) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-12-11 17:16:40+00:00 |
-| 641 | [jsmentch/nat_nascar](https://github.com/jsmentch/nat_nascar) | 0 | :heavy_check_mark: |  |  | 2023-08-18 20:49:14+00:00 |
-| 642 | [jsol444455/Mod_OpenWebUI](https://github.com/jsol444455/Mod_OpenWebUI) | 0 |  | :heavy_check_mark: |  | 2025-12-01 02:53:27+00:00 |
-| 643 | [juaml/*](https://github.com/juaml) [(2)](READMEs/juaml.md) | [0](READMEs/juaml.md) | [:heavy_check_mark: (2)](READMEs/juaml.md) |  |  | 2026-10-06 19:46:40+00:00 |
-| 644 | [juliebates/my_experiment](https://github.com/juliebates/my_experiment) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2022-06-17 15:31:46+00:00 |
-| 645 | [jungheejung/containers](https://github.com/jungheejung/containers) | 0 | :heavy_check_mark: |  |  | 2020-04-21 18:51:35+00:00 |
-| 646 | [junhaols/ds004078](https://github.com/junhaols/ds004078) | 0 | :heavy_check_mark: |  |  | 2022-10-26 19:47:10+00:00 |
-| 647 | [just-meng/*](https://github.com/just-meng) [(4)](READMEs/just-meng.md) | [1](READMEs/just-meng.md) | [:heavy_check_mark: (1)](READMEs/just-meng.md) | [:heavy_check_mark: (4)](READMEs/just-meng.md) |  | 2026-10-09 14:07:18+00:00 |
-| 648 | [justinlietz93/ds007275](https://github.com/justinlietz93/ds007275) | 0 | :heavy_check_mark: |  |  | 2026-05-09 04:23:30+00:00 |
-| 649 | [jwh99common/open-webui](https://github.com/jwh99common/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-05-20 19:20:25+00:00 |
-| 650 | [kabilar/*](https://github.com/kabilar) [(2)](READMEs/kabilar.md) | [0](READMEs/kabilar.md) | [:heavy_check_mark: (2)](READMEs/kabilar.md) |  |  | 2025-01-11 23:21:55+00:00 |
-| 651 | [kaczmarj/*](https://github.com/kaczmarj) [(2)](READMEs/kaczmarj.md) | [0](READMEs/kaczmarj.md) | [:heavy_check_mark: (2)](READMEs/kaczmarj.md) |  |  | 2019-01-10 14:21:02+00:00 |
-| 652 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 29613 |  | :heavy_check_mark: |  | 2026-10-15 11:11:13+00:00 |
-| 653 | [kgbarlea/*](https://github.com/kgbarlea) [(2)](READMEs/kgbarlea.md) | [0](READMEs/kgbarlea.md) |  | [:heavy_check_mark: (2)](READMEs/kgbarlea.md) |  | 2026-08-05 19:55:27+00:00 |
-| 654 | [khanlab-datasets/*](https://github.com/khanlab-datasets) [(4)](READMEs/khanlab-datasets.md) | [2](READMEs/khanlab-datasets.md) | [:heavy_check_mark: (4)](READMEs/khanlab-datasets.md) |  |  | 2022-05-04 14:34:57+00:00 |
-| 655 | [khanlab/*](https://github.com/khanlab) [(3)](READMEs/khanlab.md) | [24](READMEs/khanlab.md) | [:heavy_check_mark: (2)](READMEs/khanlab.md) | [:heavy_check_mark: (1)](READMEs/khanlab.md) |  | 2026-04-01 08:15:11+00:00 |
-| 656 | [khongmanhpro/chatbot](https://github.com/khongmanhpro/chatbot) | 1 |  | :heavy_check_mark: |  | 2025-09-24 07:43:26+00:00 |
-| 657 | [kimjetwav/KIMEL_DATASETS](https://github.com/kimjetwav/KIMEL_DATASETS) | 0 | :heavy_check_mark: |  |  | 2021-05-12 19:48:06+00:00 |
-| 658 | [kimsin98/*](https://github.com/kimsin98) [(4)](READMEs/kimsin98.md) | [2](READMEs/kimsin98.md) | [:heavy_check_mark: (3)](READMEs/kimsin98.md) | [:heavy_check_mark: (3)](READMEs/kimsin98.md) | [:heavy_check_mark: (1)](READMEs/kimsin98.md) | 2025-02-24 18:01:23+00:00 |
-| 659 | [kleinerm/Psychtoolbox-3](https://github.com/kleinerm/Psychtoolbox-3) | 116 |  | :heavy_check_mark: |  | 2026-10-16 05:05:47+00:00 |
-| 660 | [knuedd/datalad-slurm](https://github.com/knuedd/datalad-slurm) | 1 |  | :heavy_check_mark: |  | 2026-09-29 16:02:29+00:00 |
-| 661 | [kongtiaowang/conp-dataset](https://github.com/kongtiaowang/conp-dataset) | 0 | :heavy_check_mark: |  |  | 2026-04-30 15:34:31+00:00 |
-| 662 | [kris893/open-webui](https://github.com/kris893/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-05-01 01:36:47+00:00 |
-| 663 | [kush-coder/*](https://github.com/kush-coder) [(2)](READMEs/kush-coder.md) | [0](READMEs/kush-coder.md) |  | [:heavy_check_mark: (2)](READMEs/kush-coder.md) |  | 2026-08-13 07:42:55+00:00 |
-| 664 | [kyleam/*](https://github.com/kyleam) [(2)](READMEs/kyleam.md) | [0](READMEs/kyleam.md) | [:heavy_check_mark: (2)](READMEs/kyleam.md) |  |  | 2021-04-23 13:03:17+00:00 |
-| 665 | [kylinsar/OneChat_OWUI](https://github.com/kylinsar/OneChat_OWUI) | 0 |  | :heavy_check_mark: |  | 2025-02-20 05:26:43+00:00 |
-| 666 | [labgas/*](https://github.com/labgas) [(6)](READMEs/labgas.md) | [0](READMEs/labgas.md) | [:heavy_check_mark: (5)](READMEs/labgas.md) | [:heavy_check_mark: (4)](READMEs/labgas.md) | [:heavy_check_mark: (3)](READMEs/labgas.md) | 2024-05-14 12:54:23+00:00 |
-| 667 | [lagbaix/open-webui](https://github.com/lagbaix/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-12-01 08:01:27+00:00 |
-| 668 | [lattwood/open-webui](https://github.com/lattwood/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-05-09 12:43:11+00:00 |
-| 669 | [leej3/*](https://github.com/leej3) [(13)](READMEs/leej3.md) | [0](READMEs/leej3.md) | [:heavy_check_mark: (10)](READMEs/leej3.md) | [:heavy_check_mark: (4)](READMEs/leej3.md) |  | 2026-10-16 01:37:51+00:00 |
-| 670 | [libertyh/ohbm2020-posters](https://github.com/libertyh/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-24 20:42:35+00:00 |
-| 671 | [libgit2/pygit2](https://github.com/libgit2/pygit2) | 1732 |  | :heavy_check_mark: |  | 2026-09-30 09:29:57+00:00 |
-| 672 | [lin82-2023/NexQbot](https://github.com/lin82-2023/NexQbot) | 0 |  | :heavy_check_mark: |  | 2026-04-11 15:04:04+00:00 |
-| 673 | [linkml/*](https://github.com/linkml) [(8)](READMEs/linkml.md) | [986](READMEs/linkml.md) |  | [:heavy_check_mark: (8)](READMEs/linkml.md) |  | 2026-10-20 20:44:44+00:00 |
-| 674 | [lisds/textbook](https://github.com/lisds/textbook) | 7 |  | :heavy_check_mark: |  | 2024-06-05 16:13:08+00:00 |
-| 675 | [litalmagen/openWebui](https://github.com/litalmagen/openWebui) | 0 |  | :heavy_check_mark: |  | 2025-10-26 18:16:07+00:00 |
-| 676 | [lixuri123/nanobot](https://github.com/lixuri123/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-31 15:48:18+00:00 |
-| 677 | [lm552/nanobot_agent](https://github.com/lm552/nanobot_agent) | 0 |  | :heavy_check_mark: |  | 2026-05-16 20:59:10+00:00 |
-| 678 | [lnnrtwttkhn/*](https://github.com/lnnrtwttkhn) [(20)](READMEs/lnnrtwttkhn.md) | [25](READMEs/lnnrtwttkhn.md) | [:heavy_check_mark: (16)](READMEs/lnnrtwttkhn.md) | [:heavy_check_mark: (6)](READMEs/lnnrtwttkhn.md) |  | 2026-04-16 22:08:49+00:00 |
-| 679 | [lobennett/neuro_workflow](https://github.com/lobennett/neuro_workflow) | 0 |  | :heavy_check_mark: |  | 2026-07-12 16:00:26+00:00 |
-| 680 | [lucasgautheron/*](https://github.com/lucasgautheron) [(3)](READMEs/lucasgautheron.md) | [6](READMEs/lucasgautheron.md) | [:heavy_check_mark: (3)](READMEs/lucasgautheron.md) |  |  | 2022-08-26 20:45:35+00:00 |
-| 681 | [luccas-silveira/zoi-webai](https://github.com/luccas-silveira/zoi-webai) | 0 |  | :heavy_check_mark: |  | 2025-09-26 21:04:49+00:00 |
-| 682 | [lukasvo76/*](https://github.com/lukasvo76) [(2)](READMEs/lukasvo76.md) | [0](READMEs/lukasvo76.md) | [:heavy_check_mark: (2)](READMEs/lukasvo76.md) | [:heavy_check_mark: (2)](READMEs/lukasvo76.md) |  | 2021-09-10 13:41:06+00:00 |
-| 683 | [lumina-ai-inc/chunkr](https://github.com/lumina-ai-inc/chunkr) | 4150 |  | :heavy_check_mark: |  | 2026-09-09 22:54:07+00:00 |
-| 684 | [lvh/reveal.js](https://github.com/lvh/reveal.js) | 0 |  | :heavy_check_mark: |  | 2025-12-28 22:42:04+00:00 |
-| 685 | [lxxx0926/lxx](https://github.com/lxxx0926/lxx) | 0 |  | :heavy_check_mark: |  | 2026-10-13 08:13:21+00:00 |
-| 686 | [lzx-dev/*](https://github.com/lzx-dev) [(2)](READMEs/lzx-dev.md) | [0](READMEs/lzx-dev.md) | [:heavy_check_mark: (2)](READMEs/lzx-dev.md) |  |  | 2023-03-20 15:36:55+00:00 |
-| 687 | [m-xiaobai/nanobot-stock](https://github.com/m-xiaobai/nanobot-stock) | 0 |  | :heavy_check_mark: |  | 2026-07-13 15:22:15+00:00 |
-| 688 | [madboy1319/Zero](https://github.com/madboy1319/Zero) | 0 |  | :heavy_check_mark: |  | 2026-04-15 12:13:21+00:00 |
-| 689 | [maelleF/compute_canada_tuto](https://github.com/maelleF/compute_canada_tuto) | 0 | :heavy_check_mark: |  |  | 2020-10-06 12:17:36+00:00 |
-| 690 | [magic-wormhole/magic-wormhole](https://github.com/magic-wormhole/magic-wormhole) | 22998 |  | :heavy_check_mark: |  | 2026-10-16 16:55:30+00:00 |
-| 691 | [magland/*](https://github.com/magland) [(4)](READMEs/magland.md) | [4](READMEs/magland.md) |  | [:heavy_check_mark: (4)](READMEs/magland.md) |  | 2026-10-12 21:06:54+00:00 |
-| 692 | [makeplane/plane](https://github.com/makeplane/plane) | 61163 |  | :heavy_check_mark: |  | 2026-10-19 09:15:32+00:00 |
-| 693 | [malikwirin/datalad-nix](https://github.com/malikwirin/datalad-nix) | 1 |  | :heavy_check_mark: |  | 2025-06-01 13:47:37+00:00 |
-| 694 | [manelis-lab/myelin-paper-NICL2021](https://github.com/manelis-lab/myelin-paper-NICL2021) | 0 | :heavy_check_mark: |  |  | 2021-08-26 17:22:26+00:00 |
-| 695 | [mangalakulal105/data-on-eks](https://github.com/mangalakulal105/data-on-eks) | 0 |  | :heavy_check_mark: |  | 2024-05-10 10:43:03+00:00 |
-| 696 | [mar10/wsgidav](https://github.com/mar10/wsgidav) | 1245 |  | :heavy_check_mark: |  | 2026-10-18 17:01:04+00:00 |
-| 697 | [marcobarilari/*](https://github.com/marcobarilari) [(4)](READMEs/marcobarilari.md) | [1](READMEs/marcobarilari.md) | [:heavy_check_mark: (4)](READMEs/marcobarilari.md) |  |  | 2023-03-01 04:00:42+00:00 |
-| 698 | [matakanfoca/schemaorg](https://github.com/matakanfoca/schemaorg) | 0 |  | :heavy_check_mark: |  | 2025-08-18 06:17:21+00:00 |
-| 699 | [mathdugre/*](https://github.com/mathdugre) [(2)](READMEs/mathdugre.md) | [0](READMEs/mathdugre.md) | [:heavy_check_mark: (2)](READMEs/mathdugre.md) |  |  | 2026-06-13 08:27:49+00:00 |
-| 700 | [mathworks/MATLAB-support-for-Zarr-files](https://github.com/mathworks/MATLAB-support-for-Zarr-files) | 20 |  | :heavy_check_mark: |  | 2026-10-05 18:38:52+00:00 |
-| 701 | [matrss/datalad-getexec-hypothesis-example-db](https://github.com/matrss/datalad-getexec-hypothesis-example-db) | 0 | :heavy_check_mark: |  |  | 2023-06-18 04:58:05+00:00 |
-| 702 | [mattcieslak/datalad-paper-joss](https://github.com/mattcieslak/datalad-paper-joss) | 0 | :heavy_check_mark: |  |  | 2021-04-14 17:29:52+00:00 |
-| 703 | [mattthro/localllm](https://github.com/mattthro/localllm) | 0 |  | :heavy_check_mark: |  | 2025-05-01 02:48:42+00:00 |
-| 704 | [maxadam2017/midtermproject](https://github.com/maxadam2017/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2020-06-29 22:56:42+00:00 |
-| 705 | [mbombwe-jr/open-webui](https://github.com/mbombwe-jr/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 06:23:39+00:00 |
-| 706 | [mcampello/pandora-ui](https://github.com/mcampello/pandora-ui) | 0 |  | :heavy_check_mark: |  | 2025-05-12 19:12:45+00:00 |
-| 707 | [mdeea/midtermproject](https://github.com/mdeea/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-08-04 05:00:37+00:00 |
-| 708 | [me-pic/*](https://github.com/me-pic) [(2)](READMEs/me-pic.md) | [0](READMEs/me-pic.md) | [:heavy_check_mark: (2)](READMEs/me-pic.md) |  |  | 2026-10-08 13:44:20+00:00 |
-| 709 | [mercure-imaging/mercure](https://github.com/mercure-imaging/mercure) | 103 |  | :heavy_check_mark: |  | 2026-10-07 17:47:30+00:00 |
-| 710 | [mfrebo/vandam-data](https://github.com/mfrebo/vandam-data) | 0 | :heavy_check_mark: |  |  | 2021-06-14 18:46:58+00:00 |
-| 711 | [mgapasawayatgoodvibes-hash/open-webui](https://github.com/mgapasawayatgoodvibes-hash/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-21 14:00:55+00:00 |
-| 712 | [mhaid/*](https://github.com/mhaid) [(3)](READMEs/mhaid.md) | [0](READMEs/mhaid.md) |  | [:heavy_check_mark: (3)](READMEs/mhaid.md) | [:heavy_check_mark: (2)](READMEs/mhaid.md) | 2024-02-12 09:43:09+00:00 |
-| 713 | [michal-ruzicka/SVDR01-DataLad-Demo](https://github.com/michal-ruzicka/SVDR01-DataLad-Demo) | 0 |  | :heavy_check_mark: |  | 2025-11-25 01:56:19+00:00 |
-| 714 | [midakaID/Nanobot](https://github.com/midakaID/Nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-05 02:38:19+00:00 |
-| 715 | [mightysai1997/official-images](https://github.com/mightysai1997/official-images) | 0 |  | :heavy_check_mark: |  | 2024-04-01 07:05:31+00:00 |
-| 716 | [mikapfl/*](https://github.com/mikapfl) [(3)](READMEs/mikapfl.md) | [6](READMEs/mikapfl.md) | [:heavy_check_mark: (3)](READMEs/mikapfl.md) | [:heavy_check_mark: (2)](READMEs/mikapfl.md) |  | 2025-02-04 14:37:52+00:00 |
-| 717 | [mikeymwonggmail/open-webui](https://github.com/mikeymwonggmail/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-29 18:28:51+00:00 |
-| 718 | [mila-iqia/bcachefs](https://github.com/mila-iqia/bcachefs) | 1 | :heavy_check_mark: |  |  | 2022-10-31 16:58:41+00:00 |
-| 719 | [miltoncamacho/midtermproject](https://github.com/miltoncamacho/midtermproject) | 0 |  | :heavy_check_mark: |  | 2023-08-24 22:24:22+00:00 |
-| 720 | [mindungil/*](https://github.com/mindungil) [(3)](READMEs/mindungil.md) | [0](READMEs/mindungil.md) |  | [:heavy_check_mark: (3)](READMEs/mindungil.md) |  | 2025-12-09 19:47:23+00:00 |
-| 721 | [minoojl/ds004078](https://github.com/minoojl/ds004078) | 0 | :heavy_check_mark: |  |  | 2023-02-13 20:53:14+00:00 |
-| 722 | [misrtjakub/*](https://github.com/misrtjakub) [(3)](READMEs/misrtjakub.md) | [0](READMEs/misrtjakub.md) |  | [:heavy_check_mark: (3)](READMEs/misrtjakub.md) |  | 2025-07-10 09:58:00+00:00 |
-| 723 | [miykael/nipype_tutorial](https://github.com/miykael/nipype_tutorial) | 132 |  | :heavy_check_mark: |  | 2024-03-21 15:30:30+00:00 |
-| 724 | [mjboos/testrepo6](https://github.com/mjboos/testrepo6) | 0 | :heavy_check_mark: |  |  | 2020-06-18 12:53:44+00:00 |
-| 725 | [mjh2735/gpt4all](https://github.com/mjh2735/gpt4all) | 0 |  | :heavy_check_mark: |  | 2023-10-27 16:08:33+00:00 |
-| 726 | [mlell/ipkqg.args](https://github.com/mlell/ipkqg.args) | 0 | :heavy_check_mark: |  |  | 2024-02-15 15:21:36+00:00 |
-| 727 | [mmejia23/CF_EP](https://github.com/mmejia23/CF_EP) | 0 |  | :heavy_check_mark: |  | 2024-07-22 03:53:34+00:00 |
-| 728 | [mocheng11123/openwebui](https://github.com/mocheng11123/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-05-01 09:28:37+00:00 |
-| 729 | [mohanadarafe/*](https://github.com/mohanadarafe) [(4)](READMEs/mohanadarafe.md) | [0](READMEs/mohanadarafe.md) | [:heavy_check_mark: (4)](READMEs/mohanadarafe.md) |  |  | 2023-04-26 18:15:49+00:00 |
-| 730 | [mollyic/mriqc](https://github.com/mollyic/mriqc) | 0 |  | :heavy_check_mark: |  | 2025-03-14 05:14:41+00:00 |
-| 731 | [moloney/dcmstack](https://github.com/moloney/dcmstack) | 78 |  | :heavy_check_mark: |  | 2026-03-24 00:23:08+00:00 |
-| 732 | [monarch-initiative/ontogpt](https://github.com/monarch-initiative/ontogpt) | 1064 |  | :heavy_check_mark: |  | 2026-09-10 16:36:04+00:00 |
-| 733 | [monkey-knight/front-fiesta](https://github.com/monkey-knight/front-fiesta) | 0 |  | :heavy_check_mark: |  | 2025-07-03 22:53:43+00:00 |
-| 734 | [mrirecon/bart](https://github.com/mrirecon/bart) | 370 |  | :heavy_check_mark: |  | 2026-03-01 08:00:28+00:00 |
-| 735 | [mschoettner/midtermproject](https://github.com/mschoettner/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2022-02-02 12:27:08+00:00 |
-| 736 | [mslw/*](https://github.com/mslw) [(8)](READMEs/mslw.md) | [0](READMEs/mslw.md) | [:heavy_check_mark: (8)](READMEs/mslw.md) |  |  | 2023-07-25 15:43:30+00:00 |
-| 737 | [msrlab/*](https://github.com/msrlab) [(2)](READMEs/msrlab.md) | [0](READMEs/msrlab.md) | [:heavy_check_mark: (1)](READMEs/msrlab.md) | [:heavy_check_mark: (1)](READMEs/msrlab.md) |  | 2020-07-21 16:18:48+00:00 |
-| 738 | [msventurini/based-open-webui](https://github.com/msventurini/based-open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-20 05:42:06+00:00 |
-| 739 | [msvkvprasad1976/paperwriting](https://github.com/msvkvprasad1976/paperwriting) | 0 |  | :heavy_check_mark: |  | 2026-06-19 17:49:24+00:00 |
-| 740 | [musicheardworldwide/wane-ui](https://github.com/musicheardworldwide/wane-ui) | 1 |  | :heavy_check_mark: |  | 2025-04-22 12:44:15+00:00 |
-| 741 | [muyujx/nanobot](https://github.com/muyujx/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-08-11 07:36:54+00:00 |
-| 742 | [mvaliev/s2-osf-test-1](https://github.com/mvaliev/s2-osf-test-1) | 0 | :heavy_check_mark: |  |  | 2023-01-08 20:44:37+00:00 |
-| 743 | [mvdoc/*](https://github.com/mvdoc) [(2)](READMEs/mvdoc.md) | [0](READMEs/mvdoc.md) | [:heavy_check_mark: (2)](READMEs/mvdoc.md) | [:heavy_check_mark: (1)](READMEs/mvdoc.md) |  | 2018-10-15 17:12:21+00:00 |
-| 744 | [mykrok/mykrok](https://github.com/mykrok/mykrok) | 4 |  | :heavy_check_mark: |  | 2026-08-19 16:43:52+00:00 |
-| 745 | [mzkrasner/*](https://github.com/mzkrasner) [(2)](READMEs/mzkrasner.md) | [0](READMEs/mzkrasner.md) |  | [:heavy_check_mark: (2)](READMEs/mzkrasner.md) |  | 2023-09-18 08:21:05+00:00 |
-| 746 | [n0imposta/nanobot](https://github.com/n0imposta/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-13 21:18:45+00:00 |
-| 747 | [naldea/nnUnet](https://github.com/naldea/nnUnet) | 0 |  | :heavy_check_mark: |  | 2024-11-01 16:00:57+00:00 |
-| 748 | [naming123/nnUNet_NCCT](https://github.com/naming123/nnUNet_NCCT) | 0 |  | :heavy_check_mark: |  | 2025-02-10 11:47:20+00:00 |
-| 749 | [nanoinfraorg/nanoinfra](https://github.com/nanoinfraorg/nanoinfra) | 3 |  | :heavy_check_mark: |  | 2026-10-04 23:30:34+00:00 |
-| 750 | [nata1ka89/my-presentation](https://github.com/nata1ka89/my-presentation) | 0 |  | :heavy_check_mark: |  | 2025-04-26 09:08:31+00:00 |
-| 751 | [naturalistic-data-analysis/naturalistic-data](https://github.com/naturalistic-data-analysis/naturalistic-data) | 1 | :heavy_check_mark: |  |  | 2020-07-13 21:43:12+00:00 |
-| 752 | [navenchary/drf](https://github.com/navenchary/drf) | 0 |  | :heavy_check_mark: |  | 2025-09-08 11:27:50+00:00 |
-| 753 | [nbirnel/who-owns-the-housing](https://github.com/nbirnel/who-owns-the-housing) | 0 |  | :heavy_check_mark: |  | 2025-05-30 19:07:06+00:00 |
-| 754 | [nebius/soperator](https://github.com/nebius/soperator) | 451 |  | :heavy_check_mark: |  | 2026-10-19 12:30:32+00:00 |
-| 755 | [nektos/act](https://github.com/nektos/act) | 72414 |  | :heavy_check_mark: |  | 2026-08-09 22:50:11+00:00 |
-| 756 | [nemarDatasets/*](https://github.com/nemarDatasets) [(924)](READMEs/nemarDatasets.md) | [23](READMEs/nemarDatasets.md) | [:heavy_check_mark: (924)](READMEs/nemarDatasets.md) |  |  | 2026-10-21 22:12:53+00:00 |
-| 757 | [neronain/open-webui](https://github.com/neronain/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 13:50:23+00:00 |
-| 758 | [netbox-community/netbox](https://github.com/netbox-community/netbox) | 21738 |  | :heavy_check_mark: |  | 2026-10-21 05:02:16+00:00 |
-| 759 | [netinvent/command_runner](https://github.com/netinvent/command_runner) | 44 |  | :heavy_check_mark: |  | 2026-06-03 16:14:45+00:00 |
-| 760 | [netneurolab/neuromaps](https://github.com/netneurolab/neuromaps) | 351 |  | :heavy_check_mark: |  | 2026-06-13 07:03:47+00:00 |
-| 761 | [networkx/networkx](https://github.com/networkx/networkx) | 17347 |  | :heavy_check_mark: |  | 2026-10-16 22:01:28+00:00 |
-| 762 | [neuralcoreorg/webui](https://github.com/neuralcoreorg/webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 23:43:44+00:00 |
-| 763 | [neurdylab/physai](https://github.com/neurdylab/physai) | 1 |  | :heavy_check_mark: |  | 2026-01-27 22:24:32+00:00 |
-| 764 | [neurobagel/*](https://github.com/neurobagel) [(3)](READMEs/neurobagel.md) | [32](READMEs/neurobagel.md) |  | [:heavy_check_mark: (3)](READMEs/neurobagel.md) |  | 2026-10-20 18:14:00+00:00 |
-| 765 | [neuroboros/neuroboros](https://github.com/neuroboros/neuroboros) | 18 |  | :heavy_check_mark: |  | 2026-09-28 22:37:26+00:00 |
-| 766 | [neurodesk/neurodesktop](https://github.com/neurodesk/neurodesktop) | 72 |  | :heavy_check_mark: |  | 2026-10-22 05:10:37+00:00 |
-| 767 | [neuroinformatics-unit/*](https://github.com/neuroinformatics-unit) [(3)](READMEs/neuroinformatics-unit.md) | [416](READMEs/neuroinformatics-unit.md) |  | [:heavy_check_mark: (3)](READMEs/neuroinformatics-unit.md) |  | 2026-10-21 09:26:48+00:00 |
-| 768 | [neurolibre/*](https://github.com/neurolibre) [(2)](READMEs/neurolibre.md) | [5](READMEs/neurolibre.md) |  | [:heavy_check_mark: (2)](READMEs/neurolibre.md) |  | 2026-08-31 01:30:44+00:00 |
-| 769 | [neuronets/*](https://github.com/neuronets) [(5)](READMEs/neuronets.md) | [197](READMEs/neuronets.md) | [:heavy_check_mark: (4)](READMEs/neuronets.md) | [:heavy_check_mark: (1)](READMEs/neuronets.md) |  | 2026-04-14 16:29:40+00:00 |
-| 770 | [neuroneural/trained-models](https://github.com/neuroneural/trained-models) | 0 | :heavy_check_mark: |  |  | 2022-08-24 16:37:21+00:00 |
-| 771 | [neuroscout-datasets/*](https://github.com/neuroscout-datasets) [(17)](READMEs/neuroscout-datasets.md) | [0](READMEs/neuroscout-datasets.md) | [:heavy_check_mark: (17)](READMEs/neuroscout-datasets.md) | [:heavy_check_mark: (1)](READMEs/neuroscout-datasets.md) |  | 2021-06-04 17:52:03+00:00 |
-| 772 | [neuroscout/fmriprep-singularity](https://github.com/neuroscout/fmriprep-singularity) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2018-07-01 17:28:26+00:00 |
-| 773 | [neurostuff/*](https://github.com/neurostuff) [(2)](READMEs/neurostuff.md) | [13](READMEs/neurostuff.md) | [:heavy_check_mark: (1)](READMEs/neurostuff.md) | [:heavy_check_mark: (2)](READMEs/neurostuff.md) | [:heavy_check_mark: (1)](READMEs/neurostuff.md) | 2026-10-21 02:36:58+00:00 |
-| 774 | [next-drought/ForestAI-OpenWeb](https://github.com/next-drought/ForestAI-OpenWeb) | 0 |  | :heavy_check_mark: |  | 2025-04-25 17:38:07+00:00 |
-| 775 | [nhessler/stranger_domains](https://github.com/nhessler/stranger_domains) | 0 |  | :heavy_check_mark: |  | 2025-09-04 21:26:38+00:00 |
-| 776 | [nhuneke/dataset-setup-procedures](https://github.com/nhuneke/dataset-setup-procedures) | 2 | :heavy_check_mark: |  |  | 2022-11-01 12:28:01+00:00 |
-| 777 | [nialov/clan-mobile](https://github.com/nialov/clan-mobile) | 0 | :heavy_check_mark: |  |  | 2025-08-17 20:34:38+00:00 |
-| 778 | [nicolocin/*](https://github.com/nicolocin) [(4)](READMEs/nicolocin.md) | [0](READMEs/nicolocin.md) | [:heavy_check_mark: (3)](READMEs/nicolocin.md) | [:heavy_check_mark: (3)](READMEs/nicolocin.md) |  | 2020-11-23 10:49:15+00:00 |
-| 779 | [nih-fmrif/contarg_test_data](https://github.com/nih-fmrif/contarg_test_data) | 0 | :heavy_check_mark: |  |  | 2023-02-16 20:41:20+00:00 |
-| 780 | [niivue/*](https://github.com/niivue) [(2)](READMEs/niivue.md) | [551](READMEs/niivue.md) |  | [:heavy_check_mark: (2)](READMEs/niivue.md) |  | 2026-10-19 04:19:41+00:00 |
-| 781 | [nilearn/nilearn](https://github.com/nilearn/nilearn) | 1449 |  | :heavy_check_mark: |  | 2026-10-22 06:50:56+00:00 |
-| 782 | [nipraxis/textbook](https://github.com/nipraxis/textbook) | 17 |  | :heavy_check_mark: |  | 2023-09-17 23:11:14+00:00 |
-| 783 | [nipreps-data/*](https://github.com/nipreps-data) [(26)](READMEs/nipreps-data.md) | [1](READMEs/nipreps-data.md) | [:heavy_check_mark: (25)](READMEs/nipreps-data.md) | [:heavy_check_mark: (3)](READMEs/nipreps-data.md) |  | 2026-08-11 17:57:12+00:00 |
-| 784 | [nipreps/*](https://github.com/nipreps) [(9)](READMEs/nipreps.md) | [1531](READMEs/nipreps.md) |  | [:heavy_check_mark: (9)](READMEs/nipreps.md) |  | 2026-10-21 00:04:49+00:00 |
-| 785 | [nipy/*](https://github.com/nipy) [(5)](READMEs/nipy.md) | [2179](READMEs/nipy.md) | [:heavy_check_mark: (1)](READMEs/nipy.md) | [:heavy_check_mark: (5)](READMEs/nipy.md) |  | 2026-10-19 15:52:22+00:00 |
-| 786 | [nirajs2552/*](https://github.com/nirajs2552) [(2)](READMEs/nirajs2552.md) | [0](READMEs/nirajs2552.md) |  | [:heavy_check_mark: (2)](READMEs/nirajs2552.md) |  | 2026-01-02 08:29:18+00:00 |
-| 787 | [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) | 77348 |  | :heavy_check_mark: |  | 2025-05-27 20:05:19+00:00 |
-| 788 | [notasecret/gpt4all](https://github.com/notasecret/gpt4all) | 0 |  | :heavy_check_mark: |  | 2023-08-27 01:11:26+00:00 |
-| 789 | [notestaff/datalad-paper-joss](https://github.com/notestaff/datalad-paper-joss) | 0 | :heavy_check_mark: |  |  | 2021-04-16 05:50:31+00:00 |
-| 790 | [notroj/*](https://github.com/notroj) [(2)](READMEs/notroj.md) | [188](READMEs/notroj.md) |  | [:heavy_check_mark: (2)](READMEs/notroj.md) |  | 2026-10-04 15:12:40+00:00 |
-| 791 | [nrdg/*](https://github.com/nrdg) [(3)](READMEs/nrdg.md) | [2](READMEs/nrdg.md) | [:heavy_check_mark: (3)](READMEs/nrdg.md) |  |  | 2022-09-04 22:44:16+00:00 |
-| 792 | [ntolley/*](https://github.com/ntolley) [(5)](READMEs/ntolley.md) | [1](READMEs/ntolley.md) | [:heavy_check_mark: (2)](READMEs/ntolley.md) | [:heavy_check_mark: (3)](READMEs/ntolley.md) |  | 2021-08-30 01:18:46+00:00 |
-| 793 | [nwb-extensions/nwbep-review](https://github.com/nwb-extensions/nwbep-review) | 2 |  | :heavy_check_mark: |  | 2026-08-31 18:33:56+00:00 |
-| 794 | [odin-mit/odin-mit.github.io](https://github.com/odin-mit/odin-mit.github.io) | 0 |  | :heavy_check_mark: |  | 2025-06-18 18:42:48+00:00 |
-| 795 | [odsti/*](https://github.com/odsti) [(2)](READMEs/odsti.md) | [0](READMEs/odsti.md) |  | [:heavy_check_mark: (2)](READMEs/odsti.md) |  | 2025-11-03 14:30:53+00:00 |
-| 796 | [oesteban/*](https://github.com/oesteban) [(13)](READMEs/oesteban.md) | [1](READMEs/oesteban.md) | [:heavy_check_mark: (13)](READMEs/oesteban.md) | [:heavy_check_mark: (1)](READMEs/oesteban.md) |  | 2023-08-02 12:38:01+00:00 |
-| 797 | [ohbm-wannabe/ohbm2020-posters](https://github.com/ohbm-wannabe/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-11-06 21:16:11+00:00 |
-| 798 | [ohbm/*](https://github.com/ohbm) [(2)](READMEs/ohbm.md) | [6](READMEs/ohbm.md) |  | [:heavy_check_mark: (2)](READMEs/ohbm.md) |  | 2026-09-20 04:48:16+00:00 |
-| 799 | [olya-us/mui-presentation](https://github.com/olya-us/mui-presentation) | 1 |  | :heavy_check_mark: |  | 2025-06-19 12:32:25+00:00 |
-| 800 | [ome/*](https://github.com/ome) [(2)](READMEs/ome.md) | [189](READMEs/ome.md) |  | [:heavy_check_mark: (2)](READMEs/ome.md) |  | 2026-10-16 16:14:08+00:00 |
-| 801 | [onepointconsulting/nanobot](https://github.com/onepointconsulting/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-04-28 08:04:47+00:00 |
-| 802 | [open-cogsci/OpenSesame](https://github.com/open-cogsci/OpenSesame) | 281 |  | :heavy_check_mark: |  | 2026-10-08 08:53:26+00:00 |
-| 803 | [open-ephys-plugins/nwb-zarr-format](https://github.com/open-ephys-plugins/nwb-zarr-format) | 0 |  | :heavy_check_mark: |  | 2023-07-17 22:27:02+00:00 |
-| 804 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | 155764 |  | :heavy_check_mark: |  | 2026-10-15 11:09:02+00:00 |
-| 805 | [openMetadataInitiative/*](https://github.com/openMetadataInitiative) [(2)](READMEs/openMetadataInitiative.md) | [11](READMEs/openMetadataInitiative.md) |  | [:heavy_check_mark: (2)](READMEs/openMetadataInitiative.md) |  | 2026-10-21 10:14:54+00:00 |
-| 806 | [openSUSE/snapper](https://github.com/openSUSE/snapper) | 1181 |  | :heavy_check_mark: |  | 2026-10-21 10:46:17+00:00 |
-| 807 | [opening-hours/opening_hours.js](https://github.com/opening-hours/opening_hours.js) | 258 |  | :heavy_check_mark: |  | 2026-10-21 06:09:02+00:00 |
-| 808 | [openneuropet/*](https://github.com/openneuropet) [(2)](READMEs/openneuropet.md) | [42](READMEs/openneuropet.md) |  | [:heavy_check_mark: (2)](READMEs/openneuropet.md) |  | 2026-10-09 15:42:43+00:00 |
-| 809 | [oraios/serena](https://github.com/oraios/serena) | 30644 |  | :heavy_check_mark: |  | 2026-10-20 08:47:27+00:00 |
-| 810 | [p2p-ld/*](https://github.com/p2p-ld) [(2)](READMEs/p2p-ld.md) | [154](READMEs/p2p-ld.md) |  | [:heavy_check_mark: (2)](READMEs/p2p-ld.md) |  | 2026-10-13 23:12:29+00:00 |
-| 811 | [panjd123/open-webui-ruc](https://github.com/panjd123/open-webui-ruc) | 1 |  | :heavy_check_mark: |  | 2025-03-07 01:54:07+00:00 |
-| 812 | [paquiteau/patch-denoising](https://github.com/paquiteau/patch-denoising) | 26 |  | :heavy_check_mark: |  | 2026-10-16 00:43:03+00:00 |
-| 813 | [paramiko/paramiko](https://github.com/paramiko/paramiko) | 9879 |  | :heavy_check_mark: |  | 2026-10-18 02:38:54+00:00 |
-| 814 | [pasukanmeki007/open-webui](https://github.com/pasukanmeki007/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 03:26:17+00:00 |
-| 815 | [paul-reiners/midtermproject](https://github.com/paul-reiners/midtermproject) | 0 |  | :heavy_check_mark: |  | 2024-03-27 17:25:07+00:00 |
-| 816 | [paulozava/lazyclick](https://github.com/paulozava/lazyclick) | 1 |  | :heavy_check_mark: |  | 2025-03-26 11:42:01+00:00 |
-| 817 | [pbrowneCS/Vesta003](https://github.com/pbrowneCS/Vesta003) | 0 |  | :heavy_check_mark: |  | 2025-10-01 13:17:56+00:00 |
-| 818 | [pcamach2/AIDAqc](https://github.com/pcamach2/AIDAqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 13:53:18+00:00 |
-| 819 | [pcardosolei/tooling](https://github.com/pcardosolei/tooling) | 0 |  | :heavy_check_mark: |  | 2025-05-21 14:30:12+00:00 |
-| 820 | [pecansdik/libary](https://github.com/pecansdik/libary) | 0 |  | :heavy_check_mark: |  | 2021-04-10 03:41:07+00:00 |
-| 821 | [pedrocarvi/owui-libre](https://github.com/pedrocarvi/owui-libre) | 0 |  | :heavy_check_mark: |  | 2025-10-31 12:17:39+00:00 |
-| 822 | [pengbo-web/nanobot](https://github.com/pengbo-web/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-07-19 09:02:22+00:00 |
-| 823 | [penjud/open-webui](https://github.com/penjud/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-03-04 22:55:14+00:00 |
-| 824 | [phasheen/revealjs-snuphel](https://github.com/phasheen/revealjs-snuphel) | 0 |  | :heavy_check_mark: |  | 2025-04-28 06:50:04+00:00 |
-| 825 | [physiopy/phys2bids](https://github.com/physiopy/phys2bids) | 66 |  | :heavy_check_mark: |  | 2026-10-19 20:29:03+00:00 |
-| 826 | [pithanakrit/nginx_1](https://github.com/pithanakrit/nginx_1) | 0 |  | :heavy_check_mark: |  | 2021-01-19 08:12:54+00:00 |
-| 827 | [pjungwir/*](https://github.com/pjungwir) [(2)](READMEs/pjungwir.md) | [0](READMEs/pjungwir.md) |  | [:heavy_check_mark: (2)](READMEs/pjungwir.md) |  | 2025-05-14 19:08:32+00:00 |
-| 828 | [playstatle/*](https://github.com/playstatle) [(2)](READMEs/playstatle.md) | [1](READMEs/playstatle.md) |  | [:heavy_check_mark: (2)](READMEs/playstatle.md) |  | 2025-10-01 16:35:16+00:00 |
-| 829 | [plenoptic-org/plenoptic](https://github.com/plenoptic-org/plenoptic) | 95 |  | :heavy_check_mark: |  | 2026-10-14 20:47:51+00:00 |
-| 830 | [pni-data/*](https://github.com/pni-data) [(12)](READMEs/pni-data.md) | [3](READMEs/pni-data.md) | [:heavy_check_mark: (12)](READMEs/pni-data.md) |  |  | 2026-03-23 15:42:57+00:00 |
-| 831 | [pnplab/docker-datalad](https://github.com/pnplab/docker-datalad) | 0 | :heavy_check_mark: |  |  | 2021-12-04 16:20:54+00:00 |
-| 832 | [poldrack/*](https://github.com/poldrack) [(2)](READMEs/poldrack.md) | [71](READMEs/poldrack.md) |  | [:heavy_check_mark: (2)](READMEs/poldrack.md) |  | 2026-02-23 17:28:27+00:00 |
-| 833 | [poldracklab/*](https://github.com/poldracklab) [(3)](READMEs/poldracklab.md) | [227](READMEs/poldracklab.md) |  | [:heavy_check_mark: (3)](READMEs/poldracklab.md) |  | 2026-10-19 20:54:13+00:00 |
-| 834 | [polygonart6777/badmathart](https://github.com/polygonart6777/badmathart) | 0 |  | :heavy_check_mark: |  | 2026-03-10 00:59:18+00:00 |
-| 835 | [prakharranjantransactionsquare/rag-ui-websearch](https://github.com/prakharranjantransactionsquare/rag-ui-websearch) | 0 |  | :heavy_check_mark: |  | 2025-12-01 17:30:18+00:00 |
-| 836 | [pranavmishra90/*](https://github.com/pranavmishra90) [(11)](READMEs/pranavmishra90.md) | [4](READMEs/pranavmishra90.md) | [:heavy_check_mark: (11)](READMEs/pranavmishra90.md) |  |  | 2026-05-27 20:19:41+00:00 |
-| 837 | [predictionguard/Chat-Interface](https://github.com/predictionguard/Chat-Interface) | 0 |  | :heavy_check_mark: |  | 2025-09-30 15:40:09+00:00 |
-| 838 | [preludetech/*](https://github.com/preludetech) [(3)](READMEs/preludetech.md) | [0](READMEs/preludetech.md) |  | [:heavy_check_mark: (3)](READMEs/preludetech.md) |  | 2025-09-21 06:15:21+00:00 |
-| 839 | [primap-community/FAOSTAT_data_primap](https://github.com/primap-community/FAOSTAT_data_primap) | 0 |  | :heavy_check_mark: |  | 2026-09-28 09:30:22+00:00 |
-| 840 | [prism-science/diffuse-processing-mac1-east-west](https://github.com/prism-science/diffuse-processing-mac1-east-west) | 0 |  | :heavy_check_mark: |  | 2026-10-19 02:04:56+00:00 |
-| 841 | [progtw/midtermproject](https://github.com/progtw/midtermproject) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2022-07-08 17:20:35+00:00 |
-| 842 | [protontypes/LibreSelery](https://github.com/protontypes/LibreSelery) | 126 |  | :heavy_check_mark: |  | 2022-08-27 21:17:21+00:00 |
-| 843 | [psadil/ds005256](https://github.com/psadil/ds005256) | 0 | :heavy_check_mark: |  |  | 2025-11-24 23:11:09+00:00 |
-| 844 | [psych-ds/*](https://github.com/psych-ds) [(3)](READMEs/psych-ds.md) | [105](READMEs/psych-ds.md) |  | [:heavy_check_mark: (3)](READMEs/psych-ds.md) |  | 2026-06-08 13:46:34+00:00 |
-| 845 | [py-why/causal-learn](https://github.com/py-why/causal-learn) | 1699 |  | :heavy_check_mark: |  | 2026-09-04 16:50:44+00:00 |
-| 846 | [pynapple-org/pynapple](https://github.com/pynapple-org/pynapple) | 381 |  | :heavy_check_mark: |  | 2026-10-17 14:11:27+00:00 |
-| 847 | [pyout/pyout](https://github.com/pyout/pyout) | 4 |  | :heavy_check_mark: |  | 2025-02-22 15:10:34+00:00 |
-| 848 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 1093 |  | :heavy_check_mark: |  | 2026-06-01 11:06:34+00:00 |
-| 849 | [qd-zzq/open-webui](https://github.com/qd-zzq/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-05-01 20:21:58+00:00 |
-| 850 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | 35170 |  | :heavy_check_mark: |  | 2026-10-21 10:01:38+00:00 |
-| 851 | [qiu8866386/*](https://github.com/qiu8866386) [(5)](READMEs/qiu8866386.md) | [0](READMEs/qiu8866386.md) |  | [:heavy_check_mark: (5)](READMEs/qiu8866386.md) |  | 2025-10-01 17:27:39+00:00 |
-| 852 | [qlux/dataladrepo](https://github.com/qlux/dataladrepo) | 0 | :heavy_check_mark: |  |  | 2019-05-23 15:54:40+00:00 |
-| 853 | [r14227123-cloud/ds003814](https://github.com/r14227123-cloud/ds003814) | 0 | :heavy_check_mark: |  |  | 2026-06-08 06:42:38+00:00 |
-| 854 | [raamana/ohbm2020-posters](https://github.com/raamana/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-29 00:55:09+00:00 |
-| 855 | [radiant-rstats/*](https://github.com/radiant-rstats) [(2)](READMEs/radiant-rstats.md) | [527](READMEs/radiant-rstats.md) |  | [:heavy_check_mark: (2)](READMEs/radiant-rstats.md) |  | 2026-09-20 22:38:25+00:00 |
-| 856 | [rainBuildingTree/test-repo](https://github.com/rainBuildingTree/test-repo) | 0 |  | :heavy_check_mark: |  | 2025-10-01 04:17:06+00:00 |
-| 857 | [rainville-lab/task_stimuli](https://github.com/rainville-lab/task_stimuli) | 0 | :heavy_check_mark: |  |  | 2026-10-13 22:35:03+00:00 |
-| 858 | [ramkpari/ds000102](https://github.com/ramkpari/ds000102) | 0 | :heavy_check_mark: |  |  | 2020-08-17 19:59:25+00:00 |
-| 859 | [razoumov/*](https://github.com/razoumov) [(2)](READMEs/razoumov.md) | [1](READMEs/razoumov.md) | [:heavy_check_mark: (2)](READMEs/razoumov.md) |  |  | 2025-11-12 00:08:32+00:00 |
-| 860 | [rbayom00/presentacion-reveal.js](https://github.com/rbayom00/presentacion-reveal.js) | 0 |  | :heavy_check_mark: |  | 2025-09-24 07:59:41+00:00 |
-| 861 | [reachamirct/chatbotUI](https://github.com/reachamirct/chatbotUI) | 0 |  | :heavy_check_mark: |  | 2025-10-01 09:52:35+00:00 |
-| 862 | [realhenrylo/webui](https://github.com/realhenrylo/webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 17:23:40+00:00 |
-| 863 | [renaissanceee/nnUNet](https://github.com/renaissanceee/nnUNet) | 0 |  | :heavy_check_mark: |  | 2025-08-31 10:40:03+00:00 |
-| 864 | [render-examples/nanobot-render](https://github.com/render-examples/nanobot-render) | 5 |  | :heavy_check_mark: |  | 2026-07-10 16:59:09+00:00 |
-| 865 | [researchapps/datalad-paper-joss](https://github.com/researchapps/datalad-paper-joss) | 0 | :heavy_check_mark: |  |  | 2021-04-07 17:32:30+00:00 |
-| 866 | [reshmanthj/*](https://github.com/reshmanthj) [(2)](READMEs/reshmanthj.md) | [0](READMEs/reshmanthj.md) |  | [:heavy_check_mark: (2)](READMEs/reshmanthj.md) |  | 2025-05-01 10:12:27+00:00 |
-| 867 | [richford/hbn_url_csv](https://github.com/richford/hbn_url_csv) | 0 |  | :heavy_check_mark: |  | 2020-08-08 21:59:08+00:00 |
-| 868 | [river-g-master/my-open-webui](https://github.com/river-g-master/my-open-webui) | 0 |  | :heavy_check_mark: |  | 2025-04-19 14:25:30+00:00 |
-| 869 | [rlaza-aliando/open-ui](https://github.com/rlaza-aliando/open-ui) | 0 |  | :heavy_check_mark: |  | 2025-09-05 17:24:52+00:00 |
-| 870 | [robertoostenveld/*](https://github.com/robertoostenveld) [(20)](READMEs/robertoostenveld.md) | [4](READMEs/robertoostenveld.md) | [:heavy_check_mark: (20)](READMEs/robertoostenveld.md) |  |  | 2022-02-24 14:23:18+00:00 |
-| 871 | [rockNroll87q/ohbm2020-posters](https://github.com/rockNroll87q/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-30 11:53:20+00:00 |
-| 872 | [roman-savitskyi/party-hard](https://github.com/roman-savitskyi/party-hard) | 0 |  | :heavy_check_mark: |  | 2025-07-24 16:49:32+00:00 |
-| 873 | [rordenlab/dcm2niix](https://github.com/rordenlab/dcm2niix) | 1205 |  | :heavy_check_mark: |  | 2026-10-21 11:10:49+00:00 |
-| 874 | [rulsberger/Slides](https://github.com/rulsberger/Slides) | 0 |  | :heavy_check_mark: |  | 2025-03-24 04:17:25+00:00 |
-| 875 | [runaii98/cus-openwebui](https://github.com/runaii98/cus-openwebui) | 0 |  | :heavy_check_mark: |  | 2025-09-06 22:15:52+00:00 |
-| 876 | [rusq/slackdump](https://github.com/rusq/slackdump) | 2834 |  | :heavy_check_mark: |  | 2026-10-20 03:33:13+00:00 |
-| 877 | [rw579/nnUNet](https://github.com/rw579/nnUNet) | 0 |  | :heavy_check_mark: |  | 2024-10-18 14:53:53+00:00 |
-| 878 | [rwalpole/reveal-xmlss-pkg](https://github.com/rwalpole/reveal-xmlss-pkg) | 0 |  | :heavy_check_mark: |  | 2025-09-20 15:36:42+00:00 |
-| 879 | [ryanmgrossi/chatgpt4all](https://github.com/ryanmgrossi/chatgpt4all) | 0 |  | :heavy_check_mark: |  | 2025-02-17 02:20:51+00:00 |
-| 880 | [ryota-murakami/serena](https://github.com/ryota-murakami/serena) | 0 |  | :heavy_check_mark: |  | 2025-12-26 09:19:31+00:00 |
-| 881 | [s-ccs/LSLAutoBIDS](https://github.com/s-ccs/LSLAutoBIDS) | 10 |  | :heavy_check_mark: |  | 2026-05-13 12:09:42+00:00 |
-| 882 | [s3tools/s3cmd](https://github.com/s3tools/s3cmd) | 4919 |  | :heavy_check_mark: |  | 2025-10-22 23:26:17+00:00 |
-| 883 | [saerio/test-of-rigths](https://github.com/saerio/test-of-rigths) | 0 |  | :heavy_check_mark: |  | 2025-07-23 22:42:41+00:00 |
-| 884 | [sailfish009/*](https://github.com/sailfish009) [(3)](READMEs/sailfish009.md) | [0](READMEs/sailfish009.md) | [:heavy_check_mark: (3)](READMEs/sailfish009.md) |  |  | 2021-11-13 21:51:11+00:00 |
-| 885 | [sailfishos-mirror/python-cython](https://github.com/sailfishos-mirror/python-cython) | 0 |  | :heavy_check_mark: |  | 2026-10-19 00:14:21+00:00 |
-| 886 | [samhughess/nnuNetLS2](https://github.com/samhughess/nnuNetLS2) | 0 |  | :heavy_check_mark: |  | 2024-05-06 23:53:42+00:00 |
-| 887 | [sanderlegit/lazygit](https://github.com/sanderlegit/lazygit) | 0 |  | :heavy_check_mark: |  | 2025-04-11 18:03:33+00:00 |
-| 888 | [sangfrois/ds_prep](https://github.com/sangfrois/ds_prep) | 1 | :heavy_check_mark: |  |  | 2023-05-03 13:31:01+00:00 |
-| 889 | [sankhodeep/my-custom-openwebui](https://github.com/sankhodeep/my-custom-openwebui) | 0 |  | :heavy_check_mark: |  | 2025-11-23 10:55:19+00:00 |
-| 890 | [sashapervykh/rs-presentation](https://github.com/sashapervykh/rs-presentation) | 0 |  | :heavy_check_mark: |  | 2025-04-27 07:17:24+00:00 |
-| 891 | [satra/*](https://github.com/satra) [(5)](READMEs/satra.md) | [1](READMEs/satra.md) | [:heavy_check_mark: (5)](READMEs/satra.md) | [:heavy_check_mark: (1)](READMEs/satra.md) |  | 2021-04-16 15:43:55+00:00 |
-| 892 | [satyaog/pybenzinaconcat_test_datasets](https://github.com/satyaog/pybenzinaconcat_test_datasets) | 0 |  | :heavy_check_mark: |  | 2019-12-03 22:06:21+00:00 |
-| 893 | [saulpw/visidata](https://github.com/saulpw/visidata) | 9405 |  | :heavy_check_mark: |  | 2026-10-21 06:16:49+00:00 |
-| 894 | [scalableminds/webknossos](https://github.com/scalableminds/webknossos) | 185 |  | :heavy_check_mark: |  | 2026-10-16 16:26:07+00:00 |
-| 895 | [sccn/labstreaminglayer](https://github.com/sccn/labstreaminglayer) | 788 |  | :heavy_check_mark: |  | 2026-10-14 20:35:04+00:00 |
-| 896 | [schemaorg/schemaorg](https://github.com/schemaorg/schemaorg) | 6281 |  | :heavy_check_mark: |  | 2026-10-21 14:40:17+00:00 |
-| 897 | [scivision/linkchecker-markdown](https://github.com/scivision/linkchecker-markdown) | 39 |  | :heavy_check_mark: |  | 2025-01-08 04:18:45+00:00 |
-| 898 | [scratchrealm/pc-spike-sorting](https://github.com/scratchrealm/pc-spike-sorting) | 0 |  | :heavy_check_mark: |  | 2024-02-13 15:07:36+00:00 |
-| 899 | [seldamat/*](https://github.com/seldamat) [(11)](READMEs/seldamat.md) | [0](READMEs/seldamat.md) | [:heavy_check_mark: (11)](READMEs/seldamat.md) |  |  | 2020-03-04 17:55:55+00:00 |
-| 900 | [sensein/*](https://github.com/sensein) [(2)](READMEs/sensein.md) | [1](READMEs/sensein.md) | [:heavy_check_mark: (1)](READMEs/sensein.md) | [:heavy_check_mark: (1)](READMEs/sensein.md) |  | 2025-02-16 16:36:04+00:00 |
-| 901 | [sethfam/open-webui-custom](https://github.com/sethfam/open-webui-custom) | 0 |  | :heavy_check_mark: |  | 2025-11-16 21:41:41+00:00 |
-| 902 | [sfb1451/*](https://github.com/sfb1451) [(4)](READMEs/sfb1451.md) | [0](READMEs/sfb1451.md) | [:heavy_check_mark: (3)](READMEs/sfb1451.md) | [:heavy_check_mark: (3)](READMEs/sfb1451.md) |  | 2024-04-23 16:24:34+00:00 |
-| 903 | [sharkovsky/fedbiomed_for_ava_stroke](https://github.com/sharkovsky/fedbiomed_for_ava_stroke) | 0 |  | :heavy_check_mark: |  | 2025-11-21 12:59:01+00:00 |
-| 904 | [shashiX07/*](https://github.com/shashiX07) [(2)](READMEs/shashiX07.md) | [2](READMEs/shashiX07.md) |  | [:heavy_check_mark: (2)](READMEs/shashiX07.md) |  | 2025-04-05 22:47:10+00:00 |
-| 905 | [sheenarbw/*](https://github.com/sheenarbw) [(4)](READMEs/sheenarbw.md) | [0](READMEs/sheenarbw.md) |  | [:heavy_check_mark: (4)](READMEs/sheenarbw.md) |  | 2025-08-09 07:53:45+00:00 |
-| 906 | [shinmentakezoo/open-webui](https://github.com/shinmentakezoo/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-01 14:17:11+00:00 |
-| 907 | [shots47s/conp-dataset-test_dataset_do_not_merge](https://github.com/shots47s/conp-dataset-test_dataset_do_not_merge) | 0 | :heavy_check_mark: |  |  | 2019-10-17 13:49:29+00:00 |
-| 908 | [sidgyl-anz/owl](https://github.com/sidgyl-anz/owl) | 1 |  | :heavy_check_mark: |  | 2025-07-15 05:37:29+00:00 |
-| 909 | [sijiewang656997/open-webui](https://github.com/sijiewang656997/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 05:26:03+00:00 |
-| 910 | [silvermockingjay/presentations](https://github.com/silvermockingjay/presentations) | 0 |  | :heavy_check_mark: |  | 2025-05-03 10:18:06+00:00 |
-| 911 | [simonaikido/OpenWeb](https://github.com/simonaikido/OpenWeb) | 0 |  | :heavy_check_mark: |  | 2026-10-16 03:35:44+00:00 |
-| 912 | [simple-repository/simple-repository](https://github.com/simple-repository/simple-repository) | 23 |  | :heavy_check_mark: |  | 2025-11-17 10:58:33+00:00 |
-| 913 | [sinbc2003/GSHS](https://github.com/sinbc2003/GSHS) | 0 |  | :heavy_check_mark: |  | 2025-06-05 15:57:24+00:00 |
-| 914 | [sledgehammervampire/nur-packages](https://github.com/sledgehammervampire/nur-packages) | 0 | :heavy_check_mark: |  |  | 2021-06-22 14:09:19+00:00 |
-| 915 | [slimnsour/ds000206](https://github.com/slimnsour/ds000206) | 0 | :heavy_check_mark: |  |  | 2021-01-26 14:20:22+00:00 |
-| 916 | [smeisler/fsub_extractor](https://github.com/smeisler/fsub_extractor) | 10 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-01-05 23:25:01+00:00 |
-| 917 | [snezzerkezzer/Open-nn](https://github.com/snezzerkezzer/Open-nn) | 0 |  | :heavy_check_mark: |  | 2025-08-23 05:36:44+00:00 |
-| 918 | [soft-eng-practicum/AnalySim](https://github.com/soft-eng-practicum/AnalySim) | 7 |  | :heavy_check_mark: |  | 2026-09-27 19:49:45+00:00 |
-| 919 | [soichih/*](https://github.com/soichih) [(3)](READMEs/soichih.md) | [0](READMEs/soichih.md) | [:heavy_check_mark: (3)](READMEs/soichih.md) |  |  | 2021-04-13 15:23:11+00:00 |
-| 920 | [sourpit/conty](https://github.com/sourpit/conty) | 0 |  | :heavy_check_mark: |  | 2025-12-25 15:36:00+00:00 |
-| 921 | [sparkletown/sparkle-container](https://github.com/sparkletown/sparkle-container) | 0 | :heavy_check_mark: |  |  | 2021-05-13 21:34:13+00:00 |
-| 922 | [spatialtopology/*](https://github.com/spatialtopology) [(2)](READMEs/spatialtopology.md) | [6](READMEs/spatialtopology.md) |  | [:heavy_check_mark: (2)](READMEs/spatialtopology.md) | [:heavy_check_mark: (1)](READMEs/spatialtopology.md) | 2025-11-19 00:14:33+00:00 |
-| 923 | [spenceriam/open-webui-expo](https://github.com/spenceriam/open-webui-expo) | 0 |  | :heavy_check_mark: |  | 2025-06-17 11:27:11+00:00 |
-| 924 | [sred-task-1/official-images](https://github.com/sred-task-1/official-images) | 0 |  | :heavy_check_mark: |  | 2025-10-29 02:53:55+00:00 |
-| 925 | [srigyam5/demo1](https://github.com/srigyam5/demo1) | 0 |  | :heavy_check_mark: |  | 2025-09-03 21:22:13+00:00 |
-| 926 | [sriram5156689/Earnings-presentation](https://github.com/sriram5156689/Earnings-presentation) | 0 |  | :heavy_check_mark: |  | 2025-08-20 04:09:55+00:00 |
-| 927 | [srmemar/mousebytesdataset](https://github.com/srmemar/mousebytesdataset) | 0 | :heavy_check_mark: |  |  | 2021-06-24 19:51:54+00:00 |
-| 928 | [sruckh/serena](https://github.com/sruckh/serena) | 1 |  | :heavy_check_mark: |  | 2025-07-24 07:55:52+00:00 |
-| 929 | [ssdpool/gpt4al](https://github.com/ssdpool/gpt4al) | 0 |  | :heavy_check_mark: |  | 2024-01-29 08:54:35+00:00 |
-| 930 | [sshah99/biolink](https://github.com/sshah99/biolink) | 0 |  | :heavy_check_mark: |  | 2023-06-29 03:55:08+00:00 |
-| 931 | [sssanssss/nanobot_study](https://github.com/sssanssss/nanobot_study) | 0 |  | :heavy_check_mark: |  | 2026-04-27 03:10:45+00:00 |
-| 932 | [sstc-aiteam/open-webui](https://github.com/sstc-aiteam/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-11-05 06:41:28+00:00 |
-| 933 | [stamped-principles/*](https://github.com/stamped-principles) [(2)](READMEs/stamped-principles.md) | [9](READMEs/stamped-principles.md) |  | [:heavy_check_mark: (2)](READMEs/stamped-principles.md) |  | 2026-10-08 16:22:56+00:00 |
-| 934 | [standardgalactic/*](https://github.com/standardgalactic) [(2)](READMEs/standardgalactic.md) | [0](READMEs/standardgalactic.md) | [:heavy_check_mark: (2)](READMEs/standardgalactic.md) |  |  | 2021-09-30 16:09:04+00:00 |
-| 935 | [stephenogg/presentations](https://github.com/stephenogg/presentations) | 0 |  | :heavy_check_mark: |  | 2025-09-12 12:48:58+00:00 |
-| 936 | [stephenokj78/scientific-agent-skills](https://github.com/stephenokj78/scientific-agent-skills) | 1 |  | :heavy_check_mark: |  | 2026-08-28 22:34:09+00:00 |
-| 937 | [stjordanis/ds003430](https://github.com/stjordanis/ds003430) | 0 | :heavy_check_mark: |  |  | 2021-07-05 10:57:29+00:00 |
-| 938 | [stratusadv/dandy](https://github.com/stratusadv/dandy) | 5 |  | :heavy_check_mark: |  | 2026-09-25 17:34:45+00:00 |
-| 939 | [stuchalk/scidata](https://github.com/stuchalk/scidata) | 39 |  | :heavy_check_mark: |  | 2026-05-12 18:12:07+00:00 |
-| 940 | [super-cache-money/open-webui](https://github.com/super-cache-money/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-05-29 09:35:11+00:00 |
-| 941 | [swe-train/nilearn__nilearn](https://github.com/swe-train/nilearn__nilearn) | 0 |  | :heavy_check_mark: |  | 2024-05-21 04:31:20+00:00 |
-| 942 | [tabrezahmed51/open-webui_0118](https://github.com/tabrezahmed51/open-webui_0118) | 1 |  | :heavy_check_mark: |  | 2025-11-30 21:46:10+00:00 |
-| 943 | [tachiu33333/Cogs_138_final_project](https://github.com/tachiu33333/Cogs_138_final_project) | 0 | :heavy_check_mark: |  |  | 2022-08-10 23:23:21+00:00 |
-| 944 | [talmolab/sleap-io](https://github.com/talmolab/sleap-io) | 24 |  | :heavy_check_mark: |  | 2026-10-16 12:53:41+00:00 |
-| 945 | [techsavvy2121/open-web-Lightsail](https://github.com/techsavvy2121/open-web-Lightsail) | 0 |  | :heavy_check_mark: |  | 2025-05-21 19:21:27+00:00 |
-| 946 | [templateflow/*](https://github.com/templateflow) [(33)](READMEs/templateflow.md) | [145](READMEs/templateflow.md) | [:heavy_check_mark: (32)](READMEs/templateflow.md) | [:heavy_check_mark: (2)](READMEs/templateflow.md) |  | 2026-10-07 20:20:21+00:00 |
-| 947 | [theohsiung/Moci-webui](https://github.com/theohsiung/Moci-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 14:35:03+00:00 |
-| 948 | [thewtex/itk-viewer-baseline-testing-data](https://github.com/thewtex/itk-viewer-baseline-testing-data) | 0 | :heavy_check_mark: |  |  | 2022-08-11 01:11:48+00:00 |
-| 949 | [thomasbeaudry/*](https://github.com/thomasbeaudry) [(2)](READMEs/thomasbeaudry.md) | [0](READMEs/thomasbeaudry.md) | [:heavy_check_mark: (2)](READMEs/thomasbeaudry.md) |  |  | 2019-04-26 17:03:22+00:00 |
-| 950 | [tientong98/datalad_demo](https://github.com/tientong98/datalad_demo) | 0 |  | :heavy_check_mark: |  | 2024-05-24 04:22:51+00:00 |
-| 951 | [timcallow/midtermproject](https://github.com/timcallow/midtermproject) | 0 |  | :heavy_check_mark: |  | 2024-10-09 05:56:33+00:00 |
-| 952 | [timvink/mkdocs-table-reader-plugin](https://github.com/timvink/mkdocs-table-reader-plugin) | 161 |  | :heavy_check_mark: |  | 2026-10-11 16:49:49+00:00 |
-| 953 | [tjeong117/blynk](https://github.com/tjeong117/blynk) | 0 |  | :heavy_check_mark: |  | 2025-04-30 17:05:47+00:00 |
-| 954 | [tkkuehn/*](https://github.com/tkkuehn) [(14)](READMEs/tkkuehn.md) | [0](READMEs/tkkuehn.md) | [:heavy_check_mark: (14)](READMEs/tkkuehn.md) | [:heavy_check_mark: (3)](READMEs/tkkuehn.md) |  | 2023-01-20 16:58:59+00:00 |
-| 955 | [tniet/*](https://github.com/tniet) [(2)](READMEs/tniet.md) | [0](READMEs/tniet.md) |  | [:heavy_check_mark: (2)](READMEs/tniet.md) |  | 2025-10-16 18:23:25+00:00 |
-| 956 | [tomerfiliba-org/rpyc](https://github.com/tomerfiliba-org/rpyc) | 1703 |  | :heavy_check_mark: |  | 2026-09-27 18:41:40+00:00 |
-| 957 | [tony83033/openwebuiCustom](https://github.com/tony83033/openwebuiCustom) | 0 |  | :heavy_check_mark: |  | 2025-02-27 07:16:31+00:00 |
-| 958 | [totoriverce/paramiko](https://github.com/totoriverce/paramiko) | 0 |  | :heavy_check_mark: |  | 2024-05-16 09:52:45+00:00 |
-| 959 | [tp81/*](https://github.com/tp81) [(3)](READMEs/tp81.md) | [0](READMEs/tp81.md) | [:heavy_check_mark: (3)](READMEs/tp81.md) | [:heavy_check_mark: (1)](READMEs/tp81.md) |  | 2023-04-03 19:28:21+00:00 |
-| 960 | [transcendentsky/nanobot](https://github.com/transcendentsky/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-06-12 08:57:12+00:00 |
-| 961 | [tristankincaid/gpt4all](https://github.com/tristankincaid/gpt4all) | 4 |  | :heavy_check_mark: |  | 2025-02-16 14:47:05+00:00 |
-| 962 | [tsalo/coco2019-training](https://github.com/tsalo/coco2019-training) | 0 | :heavy_check_mark: |  |  | 2019-01-08 19:42:25+00:00 |
-| 963 | [tsankeuodelfa/midtermproject](https://github.com/tsankeuodelfa/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-06-10 10:01:36+00:00 |
-| 964 | [tsc-galaxy/aibot](https://github.com/tsc-galaxy/aibot) | 0 |  | :heavy_check_mark: |  | 2026-08-20 04:09:41+00:00 |
-| 965 | [tunguyen-195/khanhtran](https://github.com/tunguyen-195/khanhtran) | 0 |  | :heavy_check_mark: |  | 2025-06-22 15:50:02+00:00 |
-| 966 | [tvf-it-team/open-webui](https://github.com/tvf-it-team/open-webui) | 0 |  | :heavy_check_mark: |  | 2026-06-22 23:17:17+00:00 |
-| 967 | [umairqidwai1/YQ-Chatbot](https://github.com/umairqidwai1/YQ-Chatbot) | 0 |  | :heavy_check_mark: |  | 2025-10-03 12:05:25+00:00 |
-| 968 | [uncrumblethecode/Crumble-Ai](https://github.com/uncrumblethecode/Crumble-Ai) | 0 |  | :heavy_check_mark: |  | 2025-08-04 06:38:38+00:00 |
-| 969 | [utrawal9185-cmd/nanobot](https://github.com/utrawal9185-cmd/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-08-06 09:47:06+00:00 |
-| 970 | [uxiun/reveal.js](https://github.com/uxiun/reveal.js) | 0 |  | :heavy_check_mark: |  | 2025-07-01 08:37:10+00:00 |
-| 971 | [valdezm/*](https://github.com/valdezm) [(2)](READMEs/valdezm.md) | [1](READMEs/valdezm.md) |  | [:heavy_check_mark: (2)](READMEs/valdezm.md) |  | 2025-05-13 06:15:18+00:00 |
-| 972 | [valosekj/ohbm2020-posters](https://github.com/valosekj/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-07-01 08:11:54+00:00 |
-| 973 | [vandermeerlab/labs--mvdm](https://github.com/vandermeerlab/labs--mvdm) | 0 | :heavy_check_mark: |  |  | 2020-07-06 21:01:12+00:00 |
-| 974 | [vauei6266/*](https://github.com/vauei6266) [(3)](READMEs/vauei6266.md) | [0](READMEs/vauei6266.md) |  | [:heavy_check_mark: (3)](READMEs/vauei6266.md) |  | 2026-03-04 04:43:39+00:00 |
-| 975 | [vborghe/task_stimuli](https://github.com/vborghe/task_stimuli) | 0 | :heavy_check_mark: |  |  | 2023-10-15 18:18:58+00:00 |
-| 976 | [vcl-Li/PTB](https://github.com/vcl-Li/PTB) | 0 |  | :heavy_check_mark: |  | 2023-09-22 06:44:10+00:00 |
-| 977 | [vcloud369/web-ui](https://github.com/vcloud369/web-ui) | 0 |  | :heavy_check_mark: |  | 2025-04-30 07:22:19+00:00 |
-| 978 | [vdumeaux/sc-candida_paper](https://github.com/vdumeaux/sc-candida_paper) | 2 | :heavy_check_mark: |  |  | 2025-01-20 21:02:32+00:00 |
-| 979 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22746 |  | :heavy_check_mark: |  | 2026-10-21 11:35:37+00:00 |
-| 980 | [venkateshhs/eCRF](https://github.com/venkateshhs/eCRF) | 1 |  | :heavy_check_mark: |  | 2026-10-13 13:19:49+00:00 |
-| 981 | [verakye/ds001907-EDU](https://github.com/verakye/ds001907-EDU) | 0 | :heavy_check_mark: |  |  | 2022-06-19 15:06:10+00:00 |
-| 982 | [veronikavinnichenko/open-webui-rag-format-changes](https://github.com/veronikavinnichenko/open-webui-rag-format-changes) | 0 |  | :heavy_check_mark: |  | 2025-08-14 14:13:41+00:00 |
-| 983 | [vhasili/scientific-agent-skills](https://github.com/vhasili/scientific-agent-skills) | 0 |  | :heavy_check_mark: |  | 2026-09-03 16:21:16+00:00 |
-| 984 | [vicoqi/nanobot](https://github.com/vicoqi/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-08-01 17:54:58+00:00 |
-| 985 | [vidtory-ai/Vidtory-Agent](https://github.com/vidtory-ai/Vidtory-Agent) | 0 |  | :heavy_check_mark: |  | 2026-07-02 09:10:46+00:00 |
-| 986 | [vikramguptatheai/open-webui](https://github.com/vikramguptatheai/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-04-01 04:18:57+00:00 |
-| 987 | [vlbandara/*](https://github.com/vlbandara) [(2)](READMEs/vlbandara.md) | [0](READMEs/vlbandara.md) |  | [:heavy_check_mark: (2)](READMEs/vlbandara.md) |  | 2026-09-11 04:15:54+00:00 |
-| 988 | [vsoch/oci-python](https://github.com/vsoch/oci-python) | 37 |  | :heavy_check_mark: |  | 2025-09-23 21:31:47+00:00 |
-| 989 | [vuminhanh067/dementia](https://github.com/vuminhanh067/dementia) | 0 | :heavy_check_mark: |  |  | 2024-10-30 09:15:27+00:00 |
-| 990 | [vutran8902/OWUI](https://github.com/vutran8902/OWUI) | 0 |  | :heavy_check_mark: |  | 2025-04-16 00:30:44+00:00 |
-| 991 | [wangjl99/omop](https://github.com/wangjl99/omop) | 0 |  | :heavy_check_mark: |  | 2024-04-11 16:51:26+00:00 |
-| 992 | [wangyq0214-fish/nanobot](https://github.com/wangyq0214-fish/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-08-02 07:02:24+00:00 |
-| 993 | [warawut1999/open-webui](https://github.com/warawut1999/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 16:54:40+00:00 |
-| 994 | [weichen0407/ielts-speaking-bot](https://github.com/weichen0407/ielts-speaking-bot) | 0 |  | :heavy_check_mark: |  | 2026-06-08 06:15:44+00:00 |
-| 995 | [weizhang-Indi/cerebellar_atlases](https://github.com/weizhang-Indi/cerebellar_atlases) | 0 | :heavy_check_mark: |  |  | 2023-09-02 20:26:10+00:00 |
-| 996 | [wesordonez/revealjs-demo](https://github.com/wesordonez/revealjs-demo) | 0 |  | :heavy_check_mark: |  | 2025-04-26 18:33:48+00:00 |
-| 997 | [wg-gravity/general](https://github.com/wg-gravity/general) | 0 | :heavy_check_mark: |  |  | 2022-03-11 11:41:47+00:00 |
-| 998 | [whartondylan/Dependabot](https://github.com/whartondylan/Dependabot) | 1 |  | :heavy_check_mark: |  | 2025-11-23 16:44:04+00:00 |
-| 999 | [whiteghostDev/gpt4all](https://github.com/whiteghostDev/gpt4all) | 0 |  | :heavy_check_mark: |  | 2023-08-06 07:03:09+00:00 |
-| 1000 | [whitphx/stlite](https://github.com/whitphx/stlite) | 1677 |  | :heavy_check_mark: |  | 2026-10-20 01:21:05+00:00 |
-| 1001 | [winsonfzyang/ohbm2020-posters](https://github.com/winsonfzyang/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-27 14:55:19+00:00 |
-| 1002 | [wizarddevpro/nanobot](https://github.com/wizarddevpro/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-06 16:33:11+00:00 |
-| 1003 | [wkdddd/*](https://github.com/wkdddd) [(2)](READMEs/wkdddd.md) | [0](READMEs/wkdddd.md) |  | [:heavy_check_mark: (2)](READMEs/wkdddd.md) |  | 2026-10-08 06:28:10+00:00 |
-| 1004 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 10099 |  | :heavy_check_mark: |  | 2026-10-18 23:59:35+00:00 |
-| 1005 | [workflowscommunity/workflowscommunity.github.io](https://github.com/workflowscommunity/workflowscommunity.github.io) | 17 |  | :heavy_check_mark: |  | 2026-10-21 03:40:49+00:00 |
-| 1006 | [woxili880409/nanobot_org](https://github.com/woxili880409/nanobot_org) | 0 |  | :heavy_check_mark: |  | 2026-04-15 06:28:21+00:00 |
-| 1007 | [wtxadmin-oss/*](https://github.com/wtxadmin-oss) [(2)](READMEs/wtxadmin-oss.md) | [0](READMEs/wtxadmin-oss.md) |  | [:heavy_check_mark: (2)](READMEs/wtxadmin-oss.md) |  | 2026-09-12 16:55:53+00:00 |
-| 1008 | [ww-daniel-mora/presentations](https://github.com/ww-daniel-mora/presentations) | 0 |  | :heavy_check_mark: |  | 2026-02-14 03:52:02+00:00 |
-| 1009 | [wyz1213/nanbot](https://github.com/wyz1213/nanbot) | 0 |  | :heavy_check_mark: |  | 2026-05-30 04:43:28+00:00 |
-| 1010 | [xiaoqiangwang317-cmd/synapse](https://github.com/xiaoqiangwang317-cmd/synapse) | 0 |  | :heavy_check_mark: |  | 2026-08-05 12:50:30+00:00 |
-| 1011 | [xingtaofeng/docker-library-clone](https://github.com/xingtaofeng/docker-library-clone) | 0 |  | :heavy_check_mark: |  | 2024-05-11 03:21:02+00:00 |
-| 1012 | [xinthink/sample-revealjs](https://github.com/xinthink/sample-revealjs) | 0 |  | :heavy_check_mark: |  | 2025-04-15 03:16:21+00:00 |
-| 1013 | [xkfisher/openwebui-terraform](https://github.com/xkfisher/openwebui-terraform) | 0 |  | :heavy_check_mark: |  | 2025-08-07 15:34:22+00:00 |
-| 1014 | [xlecours/*](https://github.com/xlecours) [(2)](READMEs/xlecours.md) | [0](READMEs/xlecours.md) | [:heavy_check_mark: (2)](READMEs/xlecours.md) |  |  | 2019-10-09 15:21:01+00:00 |
-| 1015 | [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 15542 |  | :heavy_check_mark: |  | 2026-10-20 01:45:38+00:00 |
-| 1016 | [xuehaipeng2017/openwebui](https://github.com/xuehaipeng2017/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 17:02:12+00:00 |
-| 1017 | [xulixin1968/*](https://github.com/xulixin1968) [(2)](READMEs/xulixin1968.md) | [0](READMEs/xulixin1968.md) |  | [:heavy_check_mark: (2)](READMEs/xulixin1968.md) |  | 2025-05-01 21:10:13+00:00 |
-| 1018 | [xxnuo/open-webui-slim](https://github.com/xxnuo/open-webui-slim) | 1539 |  | :heavy_check_mark: |  | 2026-04-02 10:28:05+00:00 |
-| 1019 | [xxsxss-star/learn_nanobot](https://github.com/xxsxss-star/learn_nanobot) | 0 |  | :heavy_check_mark: |  | 2026-06-23 03:26:11+00:00 |
-| 1020 | [yan-qiu-yu/agent](https://github.com/yan-qiu-yu/agent) | 0 |  | :heavy_check_mark: |  | 2026-05-05 13:44:09+00:00 |
-| 1021 | [yang123hao/openwebui](https://github.com/yang123hao/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-07-15 01:27:42+00:00 |
-| 1022 | [yanjumlinnb-boop/scientific-agent-skills](https://github.com/yanjumlinnb-boop/scientific-agent-skills) | 4 |  | :heavy_check_mark: |  | 2026-06-22 17:27:36+00:00 |
-| 1023 | [yenngolam/FauseyTrio-Public-Demo](https://github.com/yenngolam/FauseyTrio-Public-Demo) | 0 | :heavy_check_mark: |  |  | 2021-09-30 14:43:09+00:00 |
-| 1024 | [yohanchatelain/fmriprep-reproducibility](https://github.com/yohanchatelain/fmriprep-reproducibility) | 0 | :heavy_check_mark: |  |  | 2025-03-21 02:39:40+00:00 |
-| 1025 | [yosob/my-nanobot](https://github.com/yosob/my-nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-11 06:52:05+00:00 |
-| 1026 | [ypid/*](https://github.com/ypid) [(5)](READMEs/ypid.md) | [69](READMEs/ypid.md) | [:heavy_check_mark: (1)](READMEs/ypid.md) | [:heavy_check_mark: (4)](READMEs/ypid.md) |  | 2026-10-17 17:02:08+00:00 |
-| 1027 | [yuanyi1415/Yuanyi-nanobot](https://github.com/yuanyi1415/Yuanyi-nanobot) | 0 |  | :heavy_check_mark: |  | 2026-08-22 15:23:53+00:00 |
-| 1028 | [yumyou/open-webui](https://github.com/yumyou/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-18 08:58:22+00:00 |
-| 1029 | [yuwang/nanobot](https://github.com/yuwang/nanobot) | 2 |  | :heavy_check_mark: |  | 2026-07-09 09:39:53+00:00 |
-| 1030 | [zacandcheese/research](https://github.com/zacandcheese/research) | 0 | :heavy_check_mark: |  |  | 2022-05-12 04:10:37+00:00 |
-| 1031 | [zack-carideo/gpt4all_zjc](https://github.com/zack-carideo/gpt4all_zjc) | 0 |  | :heavy_check_mark: |  | 2023-09-13 20:59:59+00:00 |
-| 1032 | [zenodraft/zenodraft](https://github.com/zenodraft/zenodraft) | 9 |  | :heavy_check_mark: |  | 2024-04-11 18:48:09+00:00 |
-| 1033 | [zhenbah/*](https://github.com/zhenbah) [(2)](READMEs/zhenbah.md) | [0](READMEs/zhenbah.md) |  | [:heavy_check_mark: (2)](READMEs/zhenbah.md) |  | 2025-09-04 15:28:54+00:00 |
-| 1034 | [zhoulingquan/pbot](https://github.com/zhoulingquan/pbot) | 1 |  | :heavy_check_mark: |  | 2026-09-25 18:04:23+00:00 |
-| 1035 | [zigazaga4/ssuajfdn](https://github.com/zigazaga4/ssuajfdn) | 0 |  | :heavy_check_mark: |  | 2026-01-01 13:52:28+00:00 |
-| 1036 | [zijuejue/nanostudy](https://github.com/zijuejue/nanostudy) | 0 |  | :heavy_check_mark: |  | 2026-07-14 05:29:09+00:00 |
-| 1037 | [zipengqqq/my-nanobot](https://github.com/zipengqqq/my-nanobot) | 0 |  | :heavy_check_mark: |  | 2026-09-08 07:35:28+00:00 |
-| 1038 | [zoar2/docker-access-](https://github.com/zoar2/docker-access-) | 0 |  | :heavy_check_mark: |  | 2022-09-23 22:24:19+00:00 |
-| 1039 | [zuojinn/open-webui](https://github.com/zuojinn/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 10:30:49+00:00 |
-| 1040 | [zxenia/mcgill-emc-rna-seq-experiment](https://github.com/zxenia/mcgill-emc-rna-seq-experiment) | 0 | :heavy_check_mark: |  |  | 2021-11-16 21:01:15+00:00 |
-| 1041 | [zyxciss/open-webui-mit](https://github.com/zyxciss/open-webui-mit) | 0 |  | :heavy_check_mark: |  | 2025-10-01 19:19:36+00:00 |
-| 1042 | [zztdandan/acpbot](https://github.com/zztdandan/acpbot) | 1 |  | :heavy_check_mark: |  | 2026-07-08 08:28:33+00:00 |
+| 236 | [Prasanth595/kestra](https://github.com/Prasanth595/kestra) | 0 |  | :heavy_check_mark: |  | 2026-10-23 13:32:05+00:00 |
+| 237 | [Preston-Adams/official-images](https://github.com/Preston-Adams/official-images) | 0 |  | :heavy_check_mark: |  | 2024-08-18 23:05:44+00:00 |
+| 238 | [PrudhviBade/nanobot](https://github.com/PrudhviBade/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-04-27 04:38:02+00:00 |
+| 239 | [Psychtoolbox-3/Psychtoolbox-3](https://github.com/Psychtoolbox-3/Psychtoolbox-3) | 486 |  | :heavy_check_mark: |  | 2026-08-14 14:53:08+00:00 |
+| 240 | [Public-nEUro/Public-nEUro.github.io](https://github.com/Public-nEUro/Public-nEUro.github.io) | 0 |  | :heavy_check_mark: |  | 2026-09-23 11:28:30+00:00 |
+| 241 | [PySlurm/pyslurm](https://github.com/PySlurm/pyslurm) | 574 |  | :heavy_check_mark: |  | 2026-09-04 22:00:42+00:00 |
+| 242 | [PythonChoboman/OpenWebUI](https://github.com/PythonChoboman/OpenWebUI) | 0 |  | :heavy_check_mark: |  | 2025-09-08 01:12:14+00:00 |
+| 243 | [RJi86/NeuroSentry](https://github.com/RJi86/NeuroSentry) | 1 |  | :heavy_check_mark: |  | 2024-01-10 06:59:37+00:00 |
+| 244 | [Raheem-19/serena-optimized](https://github.com/Raheem-19/serena-optimized) | 0 |  | :heavy_check_mark: |  | 2025-09-16 12:33:06+00:00 |
+| 245 | [RahmaNiftaliyev/tpl-MNI152NLin2009cAsym](https://github.com/RahmaNiftaliyev/tpl-MNI152NLin2009cAsym) | 0 | :heavy_check_mark: |  |  | 2026-01-06 10:08:14+00:00 |
+| 246 | [Raj-Lab-UCSF/*](https://github.com/Raj-Lab-UCSF) [(4)](READMEs/Raj-Lab-UCSF.md) | [0](READMEs/Raj-Lab-UCSF.md) | [:heavy_check_mark: (4)](READMEs/Raj-Lab-UCSF.md) |  |  | 2021-04-27 20:35:44+00:00 |
+| 247 | [Ramprasadya/plane](https://github.com/Ramprasadya/plane) | 0 |  | :heavy_check_mark: |  | 2025-10-13 08:49:33+00:00 |
+| 248 | [Rayzeq/quick-settings-audio-panel](https://github.com/Rayzeq/quick-settings-audio-panel) | 154 |  | :heavy_check_mark: |  | 2026-10-10 09:24:47+00:00 |
+| 249 | [Remi-Gau/*](https://github.com/Remi-Gau) [(7)](READMEs/Remi-Gau.md) | [8](READMEs/Remi-Gau.md) | [:heavy_check_mark: (7)](READMEs/Remi-Gau.md) | [:heavy_check_mark: (1)](READMEs/Remi-Gau.md) |  | 2026-07-23 08:13:28+00:00 |
+| 250 | [Renierkotze-eroad/open-webui.old](https://github.com/Renierkotze-eroad/open-webui.old) | 0 |  | :heavy_check_mark: |  | 2025-03-26 08:25:02+00:00 |
+| 251 | [ReproBrainChart/*](https://github.com/ReproBrainChart) [(23)](READMEs/ReproBrainChart.md) | [17](READMEs/ReproBrainChart.md) | [:heavy_check_mark: (13)](READMEs/ReproBrainChart.md) | [:heavy_check_mark: (14)](READMEs/ReproBrainChart.md) |  | 2026-10-16 16:36:26+00:00 |
+| 252 | [Rodent-Cognition-Core/*](https://github.com/Rodent-Cognition-Core) [(4)](READMEs/Rodent-Cognition-Core.md) | [0](READMEs/Rodent-Cognition-Core.md) | [:heavy_check_mark: (4)](READMEs/Rodent-Cognition-Core.md) |  |  | 2021-11-16 21:18:24+00:00 |
+| 253 | [RodrigoLujambio/patrones](https://github.com/RodrigoLujambio/patrones) | 0 |  | :heavy_check_mark: |  | 2026-06-18 13:43:34+00:00 |
+| 254 | [RoelandCosaert/OWUI](https://github.com/RoelandCosaert/OWUI) | 0 |  | :heavy_check_mark: |  | 2026-01-26 09:30:35+00:00 |
+| 255 | [Ronel0810/Ruby_bot](https://github.com/Ronel0810/Ruby_bot) | 0 |  | :heavy_check_mark: |  | 2025-11-23 16:07:05+00:00 |
+| 256 | [Ruberhauptmann/*](https://github.com/Ruberhauptmann) [(2)](READMEs/Ruberhauptmann.md) | [0](READMEs/Ruberhauptmann.md) |  | [:heavy_check_mark: (2)](READMEs/Ruberhauptmann.md) |  | 2024-07-11 08:13:26+00:00 |
+| 257 | [SAADOUNAGHA/saadoundark](https://github.com/SAADOUNAGHA/saadoundark) | 0 |  | :heavy_check_mark: |  | 2025-08-03 15:18:47+00:00 |
+| 258 | [SAYALI8106/Grand_Viva_BT4170](https://github.com/SAYALI8106/Grand_Viva_BT4170) | 0 |  | :heavy_check_mark: |  | 2025-05-29 00:37:52+00:00 |
+| 259 | [SHoony-C/openwebui](https://github.com/SHoony-C/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-02-27 20:09:44+00:00 |
+| 260 | [SIMEXP/*](https://github.com/SIMEXP) [(5)](READMEs/SIMEXP.md) | [22](READMEs/SIMEXP.md) | [:heavy_check_mark: (5)](READMEs/SIMEXP.md) |  |  | 2025-12-18 16:41:02+00:00 |
+| 261 | [SIML-guo/miniforge](https://github.com/SIML-guo/miniforge) | 0 |  | :heavy_check_mark: |  | 2026-06-27 07:04:24+00:00 |
+| 262 | [SOOSEMII/soosemii](https://github.com/SOOSEMII/soosemii) | 0 |  | :heavy_check_mark: |  | 2025-06-01 06:27:16+00:00 |
+| 263 | [STAMPED-dl-morphometrics-biases/*](https://github.com/STAMPED-dl-morphometrics-biases) [(3)](READMEs/STAMPED-dl-morphometrics-biases.md) | [0](READMEs/STAMPED-dl-morphometrics-biases.md) |  | [:heavy_check_mark: (3)](READMEs/STAMPED-dl-morphometrics-biases.md) |  | 2026-07-23 16:37:28+00:00 |
+| 264 | [SWE-Gym-Raw/*](https://github.com/SWE-Gym-Raw) [(2)](READMEs/SWE-Gym-Raw.md) | [0](READMEs/SWE-Gym-Raw.md) |  | [:heavy_check_mark: (2)](READMEs/SWE-Gym-Raw.md) |  | 2025-01-17 12:50:21+00:00 |
+| 265 | [SagaSmithAI/SagaSmith-agent](https://github.com/SagaSmithAI/SagaSmith-agent) | 0 |  | :heavy_check_mark: |  | 2026-09-22 07:03:45+00:00 |
+| 266 | [SaiSandeepKantareddy/machinelearning-books](https://github.com/SaiSandeepKantareddy/machinelearning-books) | 0 | :heavy_check_mark: |  |  | 2018-07-16 15:59:48+00:00 |
+| 267 | [SamDoucet/fauseytrio-public-test](https://github.com/SamDoucet/fauseytrio-public-test) | 0 | :heavy_check_mark: |  |  | 2021-11-16 18:59:57+00:00 |
+| 268 | [SamR1/FitTrackee](https://github.com/SamR1/FitTrackee) | 1172 |  | :heavy_check_mark: |  | 2026-10-11 22:44:10+00:00 |
+| 269 | [SarahK01/Computational-Cognition](https://github.com/SarahK01/Computational-Cognition) | 0 | :heavy_check_mark: |  |  | 2024-10-13 01:14:08+00:00 |
+| 270 | [Sberm/linux-agent](https://github.com/Sberm/linux-agent) | 0 |  | :heavy_check_mark: |  | 2025-04-27 23:35:54+00:00 |
+| 271 | [SebastianDeseke/ihk_presentation](https://github.com/SebastianDeseke/ihk_presentation) | 0 |  | :heavy_check_mark: |  | 2025-07-08 14:38:43+00:00 |
+| 272 | [ShijuPJohn/openwebui-test](https://github.com/ShijuPJohn/openwebui-test) | 0 |  | :heavy_check_mark: |  | 2025-06-07 09:25:46+00:00 |
+| 273 | [Sickeroni/talk_ugaachen2025april_slides](https://github.com/Sickeroni/talk_ugaachen2025april_slides) | 0 |  | :heavy_check_mark: |  | 2025-04-04 11:03:12+00:00 |
+| 274 | [Silence-1031/my-nanobot](https://github.com/Silence-1031/my-nanobot) | 0 |  | :heavy_check_mark: |  | 2026-04-26 13:28:37+00:00 |
+| 275 | [SirraSneha18/azurefileshare](https://github.com/SirraSneha18/azurefileshare) | 0 |  | :heavy_check_mark: |  | 2024-08-12 18:52:01+00:00 |
+| 276 | [Somers1/plane](https://github.com/Somers1/plane) | 0 |  | :heavy_check_mark: |  | 2025-11-05 05:46:11+00:00 |
+| 277 | [SpikeInterface/*](https://github.com/SpikeInterface) [(2)](READMEs/SpikeInterface.md) | [160](READMEs/SpikeInterface.md) |  | [:heavy_check_mark: (2)](READMEs/SpikeInterface.md) |  | 2026-10-16 13:05:30+00:00 |
+| 278 | [TDXCORE/openchatui](https://github.com/TDXCORE/openchatui) | 0 |  | :heavy_check_mark: |  | 2025-09-07 20:48:42+00:00 |
+| 279 | [TIGRLab/human-connectome-project-openaccess](https://github.com/TIGRLab/human-connectome-project-openaccess) | 0 | :heavy_check_mark: |  |  | 2021-05-01 13:31:03+00:00 |
+| 280 | [TM-ACode/Dependabot_Core](https://github.com/TM-ACode/Dependabot_Core) | 0 |  | :heavy_check_mark: |  | 2026-09-01 22:02:26+00:00 |
+| 281 | [Tatiana-Golub/Presentation](https://github.com/Tatiana-Golub/Presentation) | 0 |  | :heavy_check_mark: |  | 2025-04-27 19:07:04+00:00 |
+| 282 | [Tencon99/flutter_open_webui](https://github.com/Tencon99/flutter_open_webui) | 0 |  | :heavy_check_mark: |  | 2025-11-04 03:47:36+00:00 |
+| 283 | [TheLabbingProject/pylabber](https://github.com/TheLabbingProject/pylabber) | 7 |  | :heavy_check_mark: |  | 2024-04-17 00:29:35+00:00 |
+| 284 | [TheOwenLab/2021-Wild-et-al-COVID-Cognition](https://github.com/TheOwenLab/2021-Wild-et-al-COVID-Cognition) | 1 | :heavy_check_mark: |  |  | 2023-07-11 15:40:43+00:00 |
+| 285 | [TheRauch1/open-webui-ubi](https://github.com/TheRauch1/open-webui-ubi) | 0 |  | :heavy_check_mark: |  | 2025-01-10 12:46:16+00:00 |
+| 286 | [TheWizardTower/*](https://github.com/TheWizardTower) [(2)](READMEs/TheWizardTower.md) | [0](READMEs/TheWizardTower.md) |  | [:heavy_check_mark: (2)](READMEs/TheWizardTower.md) |  | 2025-06-12 07:37:08+00:00 |
+| 287 | [Titicia/handedness](https://github.com/Titicia/handedness) | 0 | :heavy_check_mark: |  |  | 2022-05-17 20:52:56+00:00 |
+| 288 | [TobiasKadelka/123420](https://github.com/TobiasKadelka/123420) | 0 | :heavy_check_mark: |  |  | 2019-07-16 12:54:05+00:00 |
+| 289 | [TomasLenc/midtermproject](https://github.com/TomasLenc/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2020-10-22 10:32:28+00:00 |
+| 290 | [Trainer-Blue/daly-comp-analysis](https://github.com/Trainer-Blue/daly-comp-analysis) | 0 | :heavy_check_mark: |  |  | 2026-08-08 11:40:57+00:00 |
+| 291 | [Tranha-hokk/nnUnetv2_ori](https://github.com/Tranha-hokk/nnUnetv2_ori) | 0 |  | :heavy_check_mark: |  | 2024-12-24 05:59:26+00:00 |
+| 292 | [Trees-23/KdmCopilot](https://github.com/Trees-23/KdmCopilot) | 2 |  | :heavy_check_mark: |  | 2026-10-11 18:10:22+00:00 |
+| 293 | [TrueTube/Andriy_Popyk](https://github.com/TrueTube/Andriy_Popyk) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-10-15 10:04:05+00:00 |
+| 294 | [TuJinkai/Nanobot-Desktop](https://github.com/TuJinkai/Nanobot-Desktop) | 0 |  | :heavy_check_mark: |  | 2026-07-28 01:31:33+00:00 |
+| 295 | [UNFmontreal/*](https://github.com/UNFmontreal) [(3)](READMEs/UNFmontreal.md) | [212](READMEs/UNFmontreal.md) |  | [:heavy_check_mark: (3)](READMEs/UNFmontreal.md) | [:heavy_check_mark: (1)](READMEs/UNFmontreal.md) | 2026-10-06 20:18:21+00:00 |
+| 296 | [US-PRASATH/RevealJS-Test](https://github.com/US-PRASATH/RevealJS-Test) | 0 |  | :heavy_check_mark: |  | 2025-08-20 16:48:31+00:00 |
+| 297 | [UTJFritz/datasets.datalad.org](https://github.com/UTJFritz/datasets.datalad.org) | 1 | :heavy_check_mark: |  |  | 2020-11-05 00:07:55+00:00 |
+| 298 | [Veronika-Kashlej/presentation](https://github.com/Veronika-Kashlej/presentation) | 0 |  | :heavy_check_mark: |  | 2025-04-28 13:29:55+00:00 |
+| 299 | [VidyaBipin/bats-core-shell](https://github.com/VidyaBipin/bats-core-shell) | 0 |  | :heavy_check_mark: |  | 2025-02-06 18:38:02+00:00 |
+| 300 | [Vincent-wq/templateflow](https://github.com/Vincent-wq/templateflow) | 0 | :heavy_check_mark: |  |  | 2022-06-15 20:39:12+00:00 |
+| 301 | [VivianChencwy/ds005863](https://github.com/VivianChencwy/ds005863) | 0 | :heavy_check_mark: |  |  | 2025-08-26 21:39:27+00:00 |
+| 302 | [Waqibsk/KOSS_LT_TALK](https://github.com/Waqibsk/KOSS_LT_TALK) | 0 |  | :heavy_check_mark: |  | 2025-08-09 04:51:32+00:00 |
+| 303 | [WiemSaafi/*](https://github.com/WiemSaafi) [(4)](READMEs/WiemSaafi.md) | [0](READMEs/WiemSaafi.md) |  | [:heavy_check_mark: (4)](READMEs/WiemSaafi.md) |  | 2025-09-02 19:38:33+00:00 |
+| 304 | [Woodii1998/coscene-extensions-power-point](https://github.com/Woodii1998/coscene-extensions-power-point) | 0 |  | :heavy_check_mark: |  | 2025-04-20 16:31:02+00:00 |
+| 305 | [Woz13200/open-webui](https://github.com/Woz13200/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-11-12 00:58:20+00:00 |
+| 306 | [XSU15/kestra](https://github.com/XSU15/kestra) | 0 |  | :heavy_check_mark: |  | 2026-10-14 19:51:36+00:00 |
+| 307 | [Xizw4z360XD/multi-agent-automation](https://github.com/Xizw4z360XD/multi-agent-automation) | 0 |  | :heavy_check_mark: |  | 2025-05-10 00:54:44+00:00 |
+| 308 | [Yansanya/UAVbot](https://github.com/Yansanya/UAVbot) | 0 |  | :heavy_check_mark: |  | 2026-04-23 08:24:24+00:00 |
+| 309 | [Yao-yao-ya/tick-ai](https://github.com/Yao-yao-ya/tick-ai) | 0 |  | :heavy_check_mark: |  | 2026-08-22 07:23:45+00:00 |
+| 310 | [Yarski/studyforrest-data-phase2](https://github.com/Yarski/studyforrest-data-phase2) | 0 | :heavy_check_mark: |  |  | 2018-10-26 14:54:17+00:00 |
+| 311 | [Yu-Group/vds-book-supplementary](https://github.com/Yu-Group/vds-book-supplementary) | 89 |  | :heavy_check_mark: |  | 2025-07-01 18:39:25+00:00 |
+| 312 | [YummyYohan/Open-Webui](https://github.com/YummyYohan/Open-Webui) | 1 |  | :heavy_check_mark: |  | 2025-05-03 04:04:18+00:00 |
+| 313 | [Yuvanesh-ux/Project-t](https://github.com/Yuvanesh-ux/Project-t) | 0 |  | :heavy_check_mark: |  | 2025-11-11 22:07:57+00:00 |
+| 314 | [Zeigar/ds001927](https://github.com/Zeigar/ds001927) | 0 | :heavy_check_mark: |  |  | 2020-08-17 20:31:24+00:00 |
+| 315 | [ZhidongZhang96/algonauts_2025.competitors](https://github.com/ZhidongZhang96/algonauts_2025.competitors) | 0 | :heavy_check_mark: |  |  | 2025-01-06 17:27:57+00:00 |
+| 316 | [Zilusion/presentation-svg](https://github.com/Zilusion/presentation-svg) | 0 |  | :heavy_check_mark: |  | 2025-04-26 16:55:12+00:00 |
+| 317 | [a1gorhythm7/ds004473](https://github.com/a1gorhythm7/ds004473) | 0 | :heavy_check_mark: |  |  | 2023-02-09 20:20:39+00:00 |
+| 318 | [aaddrick/claude-desktop-debian](https://github.com/aaddrick/claude-desktop-debian) | 5464 |  | :heavy_check_mark: |  | 2026-10-19 03:02:07+00:00 |
+| 319 | [abcd-j/data-catalog](https://github.com/abcd-j/data-catalog) | 0 |  | :heavy_check_mark: |  | 2025-03-04 14:47:29+00:00 |
+| 320 | [abdulazizalmutlaaq/aziz](https://github.com/abdulazizalmutlaaq/aziz) | 0 |  | :heavy_check_mark: |  | 2026-07-13 11:25:32+00:00 |
+| 321 | [abidecaltech-test2/*](https://github.com/abidecaltech-test2) [(4)](READMEs/abidecaltech-test2.md) | [0](READMEs/abidecaltech-test2.md) |  | [:heavy_check_mark: (4)](READMEs/abidecaltech-test2.md) |  | 2026-09-03 16:56:19+00:00 |
+| 322 | [abitecaltech-test/*](https://github.com/abitecaltech-test) [(3)](READMEs/abitecaltech-test.md) | [0](READMEs/abitecaltech-test.md) |  | [:heavy_check_mark: (3)](READMEs/abitecaltech-test.md) |  | 2026-07-23 16:29:00+00:00 |
+| 323 | [abitecaltech-test1/test1-derivatives-babs-fsl-nidm4.5.0-sourcedata-NIDM](https://github.com/abitecaltech-test1/test1-derivatives-babs-fsl-nidm4.5.0-sourcedata-NIDM) | 0 |  | :heavy_check_mark: |  | 2026-07-23 13:02:53+00:00 |
+| 324 | [actions-oss/act-cli](https://github.com/actions-oss/act-cli) | 7 |  | :heavy_check_mark: |  | 2026-03-01 13:36:50+00:00 |
+| 325 | [aditisaxena12/algonauts_2025.competitors](https://github.com/aditisaxena12/algonauts_2025.competitors) | 0 | :heavy_check_mark: |  |  | 2025-01-21 11:24:51+00:00 |
+| 326 | [aditya-gaharawar/answerv1](https://github.com/aditya-gaharawar/answerv1) | 0 |  | :heavy_check_mark: |  | 2025-05-18 17:31:29+00:00 |
+| 327 | [adminesc/open-webui](https://github.com/adminesc/open-webui) | 1 |  | :heavy_check_mark: |  | 2025-06-20 04:44:55+00:00 |
+| 328 | [adnan-umich/open-webui-sandboxai](https://github.com/adnan-umich/open-webui-sandboxai) | 2 |  | :heavy_check_mark: |  | 2025-06-29 03:13:41+00:00 |
+| 329 | [adulbo28/docker](https://github.com/adulbo28/docker) | 0 |  | :heavy_check_mark: |  | 2021-02-13 12:42:48+00:00 |
+| 330 | [afids/*](https://github.com/afids) [(6)](READMEs/afids.md) | [6](READMEs/afids.md) | [:heavy_check_mark: (6)](READMEs/afids.md) |  |  | 2023-06-22 20:37:31+00:00 |
+| 331 | [afni/*](https://github.com/afni) [(4)](READMEs/afni.md) | [197](READMEs/afni.md) | [:heavy_check_mark: (2)](READMEs/afni.md) | [:heavy_check_mark: (4)](READMEs/afni.md) |  | 2026-10-15 00:16:32+00:00 |
+| 332 | [aiegoo/gpt4all](https://github.com/aiegoo/gpt4all) | 2 |  | :heavy_check_mark: |  | 2024-04-08 16:10:50+00:00 |
+| 333 | [airweave-ai/airweave](https://github.com/airweave-ai/airweave) | 6556 |  | :heavy_check_mark: |  | 2026-06-05 09:52:19+00:00 |
+| 334 | [akhanf/test_datalad](https://github.com/akhanf/test_datalad) | 0 | :heavy_check_mark: |  |  | 2018-03-29 21:06:17+00:00 |
+| 335 | [alekseygenerozov/starforgeDDA25](https://github.com/alekseygenerozov/starforgeDDA25) | 0 |  | :heavy_check_mark: |  | 2025-08-26 06:04:03+00:00 |
+| 336 | [alexlicohen/Cohen2019_Prosopagnosia](https://github.com/alexlicohen/Cohen2019_Prosopagnosia) | 0 | :heavy_check_mark: |  |  | 2020-06-26 23:08:04+00:00 |
+| 337 | [alfastack-in/open-webui](https://github.com/alfastack-in/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-04 15:20:19+00:00 |
+| 338 | [algojogacor/nanobot](https://github.com/algojogacor/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-01 22:37:14+00:00 |
+| 339 | [almightyYantao/open-webui-coreland](https://github.com/almightyYantao/open-webui-coreland) | 0 |  | :heavy_check_mark: |  | 2026-03-06 14:46:36+00:00 |
+| 340 | [amardito/nanobot](https://github.com/amardito/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-07-08 13:20:31+00:00 |
+| 341 | [amirozhan/task_stimuli](https://github.com/amirozhan/task_stimuli) | 1 | :heavy_check_mark: |  |  | 2026-05-31 18:02:43+00:00 |
+| 342 | [amnsbr/laminar_organization](https://github.com/amnsbr/laminar_organization) | 6 |  | :heavy_check_mark: |  | 2023-11-13 13:51:23+00:00 |
+| 343 | [amulyahg25/WebUI](https://github.com/amulyahg25/WebUI) | 0 |  | :heavy_check_mark: |  | 2025-12-01 03:59:52+00:00 |
+| 344 | [anassigit/open-webui](https://github.com/anassigit/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-14 17:41:34+00:00 |
+| 345 | [andrewjahn/AndysBrainBook](https://github.com/andrewjahn/AndysBrainBook) | 206 |  | :heavy_check_mark: |  | 2026-10-14 18:27:22+00:00 |
+| 346 | [andy145s/andy-bot-](https://github.com/andy145s/andy-bot-) | 0 |  | :heavy_check_mark: |  | 2025-07-22 21:49:15+00:00 |
+| 347 | [andykitchen/pycon-de-2025](https://github.com/andykitchen/pycon-de-2025) | 0 |  | :heavy_check_mark: |  | 2025-04-24 12:02:01+00:00 |
+| 348 | [anhct2/owl-ex](https://github.com/anhct2/owl-ex) | 0 |  | :heavy_check_mark: |  | 2025-04-14 10:35:12+00:00 |
+| 349 | [anhede/drone-cyberattack-presentation](https://github.com/anhede/drone-cyberattack-presentation) | 0 |  | :heavy_check_mark: |  | 2026-01-12 13:04:01+00:00 |
+| 350 | [ansible-community/molecule](https://github.com/ansible-community/molecule) | 4159 |  | :heavy_check_mark: |  | 2026-10-14 17:48:40+00:00 |
+| 351 | [apierzch1/*](https://github.com/apierzch1) [(2)](READMEs/apierzch1.md) | [0](READMEs/apierzch1.md) | [:heavy_check_mark: (2)](READMEs/apierzch1.md) |  |  | 2022-11-30 13:58:54+00:00 |
+| 352 | [aplbrain/*](https://github.com/aplbrain) [(3)](READMEs/aplbrain.md) | [3](READMEs/aplbrain.md) |  | [:heavy_check_mark: (3)](READMEs/aplbrain.md) |  | 2026-10-16 18:41:20+00:00 |
+| 353 | [apptainer/apptainer-userdocs](https://github.com/apptainer/apptainer-userdocs) | 7 |  | :heavy_check_mark: |  | 2026-10-12 22:27:27+00:00 |
+| 354 | [apraga/datasets.datalad.org](https://github.com/apraga/datasets.datalad.org) | 0 | :heavy_check_mark: |  |  | 2025-01-25 18:22:35+00:00 |
+| 355 | [aragilar/PPDSolutions](https://github.com/aragilar/PPDSolutions) | 0 | :heavy_check_mark: |  |  | 2025-12-03 22:37:05+00:00 |
+| 356 | [aranyics/datalad-test-aranyics](https://github.com/aranyics/datalad-test-aranyics) | 0 |  | :heavy_check_mark: |  | 2023-09-28 07:15:59+00:00 |
+| 357 | [argonne-lcf/open-webui](https://github.com/argonne-lcf/open-webui) | 2 |  | :heavy_check_mark: |  | 2026-08-28 18:53:07+00:00 |
+| 358 | [arisan17/Airflow-EKS](https://github.com/arisan17/Airflow-EKS) | 0 |  | :heavy_check_mark: |  | 2024-05-15 07:39:41+00:00 |
+| 359 | [aristidb/aws](https://github.com/aristidb/aws) | 246 |  | :heavy_check_mark: |  | 2025-12-08 20:44:06+00:00 |
+| 360 | [arvindgfx1/aiiiiiiiiiii8](https://github.com/arvindgfx1/aiiiiiiiiiii8) | 0 |  | :heavy_check_mark: |  | 2025-10-01 10:37:59+00:00 |
+| 361 | [asharovatova/cicd-presentation](https://github.com/asharovatova/cicd-presentation) | 0 |  | :heavy_check_mark: |  | 2025-05-02 03:12:23+00:00 |
+| 362 | [asmacdo/*](https://github.com/asmacdo) [(5)](READMEs/asmacdo.md) | [0](READMEs/asmacdo.md) |  | [:heavy_check_mark: (5)](READMEs/asmacdo.md) |  | 2026-10-23 00:25:42+00:00 |
+| 363 | [aspirerabbit/MICCAI-PSFHS-challenge](https://github.com/aspirerabbit/MICCAI-PSFHS-challenge) | 0 |  | :heavy_check_mark: |  | 2023-11-22 22:11:14+00:00 |
+| 364 | [ataha24/tpl-Agile12v2016](https://github.com/ataha24/tpl-Agile12v2016) | 0 | :heavy_check_mark: |  |  | 2023-02-07 19:50:30+00:00 |
+| 365 | [atiasavn/open-webui](https://github.com/atiasavn/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-11-01 19:19:24+00:00 |
+| 366 | [atuinsh/atuin](https://github.com/atuinsh/atuin) | 31992 |  | :heavy_check_mark: |  | 2026-10-14 03:26:21+00:00 |
+| 367 | [auto-pi-lot/autopilot](https://github.com/auto-pi-lot/autopilot) | 95 |  | :heavy_check_mark: |  | 2025-02-19 08:42:06+00:00 |
+| 368 | [automationlearners/openwebui](https://github.com/automationlearners/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 00:57:07+00:00 |
+| 369 | [awslabs/*](https://github.com/awslabs) [(2)](READMEs/awslabs.md) | [1082](READMEs/awslabs.md) |  | [:heavy_check_mark: (2)](READMEs/awslabs.md) |  | 2026-10-16 20:27:19+00:00 |
+| 370 | [axiezai/collab-git-tutorial](https://github.com/axiezai/collab-git-tutorial) | 0 |  | :heavy_check_mark: |  | 2020-12-11 00:42:52+00:00 |
+| 371 | [bacalhau-project/*](https://github.com/bacalhau-project) [(2)](READMEs/bacalhau-project.md) | [881](READMEs/bacalhau-project.md) |  | [:heavy_check_mark: (2)](READMEs/bacalhau-project.md) |  | 2026-10-12 19:56:00+00:00 |
+| 372 | [bagususwanto/fe-manai](https://github.com/bagususwanto/fe-manai) | 0 |  | :heavy_check_mark: |  | 2025-07-02 06:28:17+00:00 |
+| 373 | [bannert1337/foss-webui](https://github.com/bannert1337/foss-webui) | 3 |  | :heavy_check_mark: |  | 2026-07-06 18:34:44+00:00 |
+| 374 | [barionleg/ohbm2020-posters](https://github.com/barionleg/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2025-05-13 09:52:28+00:00 |
+| 375 | [bashhh89/opensg](https://github.com/bashhh89/opensg) | 0 |  | :heavy_check_mark: |  | 2025-06-27 11:49:15+00:00 |
+| 376 | [basil9584/LLMWEBAPP3](https://github.com/basil9584/LLMWEBAPP3) | 0 |  | :heavy_check_mark: |  | 2025-04-01 16:22:11+00:00 |
+| 377 | [bastiaanvanassche-tomtom/openstreetmap-presentation](https://github.com/bastiaanvanassche-tomtom/openstreetmap-presentation) | 0 |  | :heavy_check_mark: |  | 2025-04-23 08:20:23+00:00 |
+| 378 | [bats-core/bats-core](https://github.com/bats-core/bats-core) | 6318 |  | :heavy_check_mark: |  | 2026-10-09 19:18:44+00:00 |
+| 379 | [bbfrederick/rapidtide](https://github.com/bbfrederick/rapidtide) | 97 |  | :heavy_check_mark: |  | 2026-10-12 15:01:59+00:00 |
+| 380 | [becharabechara/open-webui-teams](https://github.com/becharabechara/open-webui-teams) | 1 |  | :heavy_check_mark: |  | 2026-05-04 11:16:22+00:00 |
+| 381 | [beckolson/mytest](https://github.com/beckolson/mytest) | 0 | :heavy_check_mark: |  |  | 2021-02-23 19:45:54+00:00 |
+| 382 | [beeware/briefcase](https://github.com/beeware/briefcase) | 3361 |  | :heavy_check_mark: |  | 2026-10-15 02:37:36+00:00 |
+| 383 | [bendhouseart/yaml_fix](https://github.com/bendhouseart/yaml_fix) | 0 |  | :heavy_check_mark: |  | 2022-08-15 17:46:14+00:00 |
+| 384 | [bhanuprasanna2001/datalad-demo](https://github.com/bhanuprasanna2001/datalad-demo) | 1 |  | :heavy_check_mark: |  | 2026-03-04 15:01:09+00:00 |
+| 385 | [bids-bep001/bep001-v1](https://github.com/bids-bep001/bep001-v1) | 0 |  | :heavy_check_mark: |  | 2020-12-01 17:46:28+00:00 |
+| 386 | [bids-standard/*](https://github.com/bids-standard) [(15)](READMEs/bids-standard.md) | [1345](READMEs/bids-standard.md) | [:heavy_check_mark: (1)](READMEs/bids-standard.md) | [:heavy_check_mark: (14)](READMEs/bids-standard.md) |  | 2026-10-22 06:16:27+00:00 |
+| 387 | [big-data-lab-team/*](https://github.com/big-data-lab-team) [(7)](READMEs/big-data-lab-team.md) | [2](READMEs/big-data-lab-team.md) | [:heavy_check_mark: (7)](READMEs/big-data-lab-team.md) |  |  | 2021-11-16 21:14:40+00:00 |
+| 388 | [bigdatasciencegroup/conp-dataset-Synthetic-Animated-Mouse-SAM-University-of-British-Columbia-Datasets-and-3D-models](https://github.com/bigdatasciencegroup/conp-dataset-Synthetic-Animated-Mouse-SAM-University-of-British-Columbia-Datasets-and-3D-models) | 0 | :heavy_check_mark: |  |  | 2021-06-17 23:44:36+00:00 |
+| 389 | [bioimagesuiteweb/bisweb](https://github.com/bioimagesuiteweb/bisweb) | 86 |  | :heavy_check_mark: |  | 2026-09-24 17:31:36+00:00 |
+| 390 | [biolink/biolink-model](https://github.com/biolink/biolink-model) | 266 |  | :heavy_check_mark: |  | 2026-10-09 23:08:47+00:00 |
+| 391 | [bizmate/bizmate-reveal](https://github.com/bizmate/bizmate-reveal) | 0 |  | :heavy_check_mark: |  | 2025-06-05 16:46:45+00:00 |
+| 392 | [bkmo/grub-btrfs-sdv](https://github.com/bkmo/grub-btrfs-sdv) | 0 |  | :heavy_check_mark: |  | 2024-06-20 19:43:05+00:00 |
+| 393 | [bl4km0uz/nanobot](https://github.com/bl4km0uz/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-04-23 08:24:39+00:00 |
+| 394 | [boblemaire/IoTaWatt](https://github.com/boblemaire/IoTaWatt) | 732 |  | :heavy_check_mark: |  | 2026-03-06 22:16:33+00:00 |
+| 395 | [boccorouslan71-svg/nanobot-super-agent](https://github.com/boccorouslan71-svg/nanobot-super-agent) | 0 |  | :heavy_check_mark: |  | 2026-08-23 15:06:10+00:00 |
+| 396 | [boomerangguru/netbox_cicd](https://github.com/boomerangguru/netbox_cicd) | 0 |  | :heavy_check_mark: |  | 2023-12-15 08:25:58+00:00 |
+| 397 | [boutiques/boutiques](https://github.com/boutiques/boutiques) | 63 |  | :heavy_check_mark: |  | 2026-02-04 11:11:57+00:00 |
+| 398 | [bpoldrack/*](https://github.com/bpoldrack) [(7)](READMEs/bpoldrack.md) | [0](READMEs/bpoldrack.md) | [:heavy_check_mark: (7)](READMEs/bpoldrack.md) |  |  | 2021-11-17 16:17:57+00:00 |
+| 399 | [brainbench-org/ibl-bwb](https://github.com/brainbench-org/ibl-bwb) | 3 |  | :heavy_check_mark: |  | 2026-10-12 23:08:01+00:00 |
+| 400 | [brainhack-school2020/stephaniealley_bhs2020_project](https://github.com/brainhack-school2020/stephaniealley_bhs2020_project) | 4 |  | :heavy_check_mark: |  | 2022-12-08 10:07:57+00:00 |
+| 401 | [brainhack-school2022/brotherwood_project](https://github.com/brainhack-school2022/brotherwood_project) | 4 | :heavy_check_mark: |  |  | 2022-08-06 07:19:47+00:00 |
+| 402 | [brainhackorg/brainhack_jupyter_book](https://github.com/brainhackorg/brainhack_jupyter_book) | 14 |  | :heavy_check_mark: |  | 2026-10-05 22:13:28+00:00 |
+| 403 | [brainlife/*](https://github.com/brainlife) [(3)](READMEs/brainlife.md) | [58](READMEs/brainlife.md) |  | [:heavy_check_mark: (3)](READMEs/brainlife.md) |  | 2026-08-07 21:17:29+00:00 |
+| 404 | [brainstem-org/brainstem_support](https://github.com/brainstem-org/brainstem_support) | 3 |  | :heavy_check_mark: |  | 2026-09-29 07:31:24+00:00 |
+| 405 | [brip/ds003768](https://github.com/brip/ds003768) | 0 | :heavy_check_mark: |  |  | 2021-08-17 17:52:45+00:00 |
+| 406 | [buidoanchung/openwebui](https://github.com/buidoanchung/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 15:55:20+00:00 |
+| 407 | [buncel/recht-soziale-bewegungen-presentation](https://github.com/buncel/recht-soziale-bewegungen-presentation) | 0 |  | :heavy_check_mark: |  | 2025-07-10 09:06:11+00:00 |
+| 408 | [c-gr34sl3y/rsg-hack-25-pres](https://github.com/c-gr34sl3y/rsg-hack-25-pres) | 0 |  | :heavy_check_mark: |  | 2025-04-15 08:21:20+00:00 |
+| 409 | [camel-ai/owl](https://github.com/camel-ai/owl) | 20153 |  | :heavy_check_mark: |  | 2026-10-12 09:06:09+00:00 |
+| 410 | [candleindark/*](https://github.com/candleindark) [(2)](READMEs/candleindark.md) | [0](READMEs/candleindark.md) | [:heavy_check_mark: (2)](READMEs/candleindark.md) |  |  | 2026-05-09 00:02:29+00:00 |
+| 411 | [canlab/CanlabCore](https://github.com/canlab/CanlabCore) | 171 |  | :heavy_check_mark: |  | 2026-10-08 01:40:27+00:00 |
+| 412 | [casus/esa-hubble-picture-of-the-week.tutorial](https://github.com/casus/esa-hubble-picture-of-the-week.tutorial) | 1 |  | :heavy_check_mark: |  | 2026-10-06 14:05:11+00:00 |
+| 413 | [catalystneuro/neuroconv](https://github.com/catalystneuro/neuroconv) | 81 |  | :heavy_check_mark: |  | 2026-10-16 09:31:14+00:00 |
+| 414 | [cbogart/*](https://github.com/cbogart) [(2)](READMEs/cbogart.md) | [0](READMEs/cbogart.md) | [:heavy_check_mark: (2)](READMEs/cbogart.md) | [:heavy_check_mark: (2)](READMEs/cbogart.md) |  | 2023-07-01 16:03:05+00:00 |
+| 415 | [cclauss/improveit-dashboard](https://github.com/cclauss/improveit-dashboard) | 2 |  | :heavy_check_mark: |  | 2026-05-30 13:08:46+00:00 |
+| 416 | [ccna-biomarkers/ccna-timeseries](https://github.com/ccna-biomarkers/ccna-timeseries) | 0 | :heavy_check_mark: |  |  | 2022-04-05 22:27:25+00:00 |
+| 417 | [ccwang008/nanobot](https://github.com/ccwang008/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-07-05 04:51:46+00:00 |
+| 418 | [cecilyen/AIDAqc](https://github.com/cecilyen/AIDAqc) | 0 | :heavy_check_mark: |  |  | 2026-08-14 16:16:32+00:00 |
+| 419 | [cehbrecht/*](https://github.com/cehbrecht) [(2)](READMEs/cehbrecht.md) | [0](READMEs/cehbrecht.md) |  | [:heavy_check_mark: (2)](READMEs/cehbrecht.md) |  | 2025-12-12 12:53:00+00:00 |
+| 420 | [celery/*](https://github.com/celery) [(2)](READMEs/celery.md) | [29423](READMEs/celery.md) |  | [:heavy_check_mark: (2)](READMEs/celery.md) |  | 2026-10-15 22:13:14+00:00 |
+| 421 | [cenzulun/AI-Project](https://github.com/cenzulun/AI-Project) | 0 |  | :heavy_check_mark: |  | 2025-10-30 16:00:43+00:00 |
+| 422 | [chaintechki/webui](https://github.com/chaintechki/webui) | 0 |  | :heavy_check_mark: |  | 2025-07-08 11:13:00+00:00 |
+| 423 | [changyoutaxiang/plane](https://github.com/changyoutaxiang/plane) | 0 |  | :heavy_check_mark: |  | 2025-11-19 08:21:32+00:00 |
+| 424 | [chfc-cmi/cmr-seg-tl-sscrofa](https://github.com/chfc-cmi/cmr-seg-tl-sscrofa) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-09-13 12:48:27+00:00 |
+| 425 | [chhe/act](https://github.com/chhe/act) | 0 |  | :heavy_check_mark: |  | 2026-05-20 11:43:45+00:00 |
+| 426 | [chpk/OWUI](https://github.com/chpk/OWUI) | 0 |  | :heavy_check_mark: |  | 2025-05-01 16:04:44+00:00 |
+| 427 | [chrhaeusler/*](https://github.com/chrhaeusler) [(2)](READMEs/chrhaeusler.md) | [0](READMEs/chrhaeusler.md) | [:heavy_check_mark: (2)](READMEs/chrhaeusler.md) | [:heavy_check_mark: (1)](READMEs/chrhaeusler.md) |  | 2023-04-04 17:04:45+00:00 |
+| 428 | [chrispycheng/qa](https://github.com/chrispycheng/qa) | 0 | :heavy_check_mark: |  |  | 2018-05-27 18:28:42+00:00 |
+| 429 | [christen-tung-trinh-partior/dependabot-core](https://github.com/christen-tung-trinh-partior/dependabot-core) | 0 |  | :heavy_check_mark: |  | 2024-09-22 16:49:39+00:00 |
+| 430 | [christineecker/fsnulls](https://github.com/christineecker/fsnulls) | 2 |  | :heavy_check_mark: |  | 2024-09-02 09:23:23+00:00 |
+| 431 | [citation-file-format/citation-file-format](https://github.com/citation-file-format/citation-file-format) | 561 |  | :heavy_check_mark: |  | 2026-09-29 11:14:11+00:00 |
+| 432 | [claraElk/wonkyconn](https://github.com/claraElk/wonkyconn) | 0 | :heavy_check_mark: |  |  | 2026-02-12 17:25:15+00:00 |
+| 433 | [cleiton1231/Nano_bot](https://github.com/cleiton1231/Nano_bot) | 1 |  | :heavy_check_mark: |  | 2026-08-28 11:01:07+00:00 |
+| 434 | [cmadjar/*](https://github.com/cmadjar) [(3)](READMEs/cmadjar.md) | [0](READMEs/cmadjar.md) | [:heavy_check_mark: (3)](READMEs/cmadjar.md) |  |  | 2021-04-26 19:22:23+00:00 |
+| 435 | [cmaumet/ds001907-EDU](https://github.com/cmaumet/ds001907-EDU) | 0 | :heavy_check_mark: |  |  | 2022-06-19 14:52:41+00:00 |
+| 436 | [cmbaatz/open-webui-bak](https://github.com/cmbaatz/open-webui-bak) | 0 |  | :heavy_check_mark: |  | 2025-10-02 21:30:59+00:00 |
+| 437 | [cncf-tags/container-device-interface](https://github.com/cncf-tags/container-device-interface) | 313 |  | :heavy_check_mark: |  | 2026-10-02 13:25:13+00:00 |
+| 438 | [coachlou/*](https://github.com/coachlou) [(2)](READMEs/coachlou.md) | [0](READMEs/coachlou.md) |  | [:heavy_check_mark: (2)](READMEs/coachlou.md) |  | 2026-10-17 22:59:17+00:00 |
+| 439 | [cobwebos/SD-AI-WEBUI](https://github.com/cobwebos/SD-AI-WEBUI) | 0 |  | :heavy_check_mark: |  | 2025-05-01 00:46:46+00:00 |
+| 440 | [compet-cisam/interface](https://github.com/compet-cisam/interface) | 2 |  | :heavy_check_mark: |  | 2026-02-28 17:39:11+00:00 |
+| 441 | [complexbrains/movie10.stimuli](https://github.com/complexbrains/movie10.stimuli) | 0 | :heavy_check_mark: |  |  | 2024-02-22 20:32:13+00:00 |
+| 442 | [conda-forge/*](https://github.com/conda-forge) [(3)](READMEs/conda-forge.md) | [10303](READMEs/conda-forge.md) |  | [:heavy_check_mark: (3)](READMEs/conda-forge.md) |  | 2026-10-18 11:32:29+00:00 |
+| 443 | [connectomicslab/*](https://github.com/connectomicslab) [(4)](READMEs/connectomicslab.md) | [1](READMEs/connectomicslab.md) | [:heavy_check_mark: (4)](READMEs/connectomicslab.md) |  |  | 2021-07-16 14:30:20+00:00 |
+| 444 | [conp-bot/*](https://github.com/conp-bot) [(27)](READMEs/conp-bot.md) | [3](READMEs/conp-bot.md) | [:heavy_check_mark: (27)](READMEs/conp-bot.md) |  |  | 2026-09-02 16:10:36+00:00 |
+| 445 | [conpdatasets/*](https://github.com/conpdatasets) [(27)](READMEs/conpdatasets.md) | [16](READMEs/conpdatasets.md) | [:heavy_check_mark: (27)](READMEs/conpdatasets.md) |  |  | 2025-09-08 14:56:17+00:00 |
+| 446 | [containers/image](https://github.com/containers/image) | 968 |  | :heavy_check_mark: |  | 2025-09-02 20:22:35+00:00 |
+| 447 | [coreinfrastructure/best-practices-badge](https://github.com/coreinfrastructure/best-practices-badge) | 1368 |  | :heavy_check_mark: |  | 2026-10-15 09:54:30+00:00 |
+| 448 | [cortex-lab/phy](https://github.com/cortex-lab/phy) | 433 |  | :heavy_check_mark: |  | 2026-10-16 20:37:19+00:00 |
+| 449 | [courtois-neuromod/*](https://github.com/courtois-neuromod) [(116)](READMEs/courtois-neuromod.md) | [138](READMEs/courtois-neuromod.md) | [:heavy_check_mark: (81)](READMEs/courtois-neuromod.md) | [:heavy_check_mark: (50)](READMEs/courtois-neuromod.md) | [:heavy_check_mark: (32)](READMEs/courtois-neuromod.md) | 2026-10-19 15:17:54+00:00 |
+| 450 | [cpp-lln-lab/*](https://github.com/cpp-lln-lab) [(4)](READMEs/cpp-lln-lab.md) | [6](READMEs/cpp-lln-lab.md) | [:heavy_check_mark: (4)](READMEs/cpp-lln-lab.md) |  |  | 2026-07-23 08:57:20+00:00 |
+| 451 | [cramerjulian21c/AIDAqc_julian](https://github.com/cramerjulian21c/AIDAqc_julian) | 0 | :heavy_check_mark: |  |  | 2026-10-19 12:57:17+00:00 |
+| 452 | [cryo-data/*](https://github.com/cryo-data) [(16)](READMEs/cryo-data.md) | [7](READMEs/cryo-data.md) | [:heavy_check_mark: (16)](READMEs/cryo-data.md) | [:heavy_check_mark: (2)](READMEs/cryo-data.md) |  | 2022-06-03 16:14:12+00:00 |
+| 453 | [cvmfs/cvmfs](https://github.com/cvmfs/cvmfs) | 363 |  | :heavy_check_mark: |  | 2026-10-14 20:50:07+00:00 |
+| 454 | [cy-suite/open-webui](https://github.com/cy-suite/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-03-02 23:03:18+00:00 |
+| 455 | [cynk21/*](https://github.com/cynk21) [(3)](READMEs/cynk21.md) | [0](READMEs/cynk21.md) |  | [:heavy_check_mark: (3)](READMEs/cynk21.md) |  | 2025-09-11 08:22:50+00:00 |
+| 456 | [cython/cython](https://github.com/cython/cython) | 10869 |  | :heavy_check_mark: |  | 2026-10-16 07:43:48+00:00 |
+| 457 | [dPys/ohbm2020-posters](https://github.com/dPys/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-29 03:20:47+00:00 |
+| 458 | [dabaojiexushneg/personalnanobot](https://github.com/dabaojiexushneg/personalnanobot) | 0 |  | :heavy_check_mark: |  | 2026-06-16 12:41:21+00:00 |
+| 459 | [dacadev-official/llm-and-chatgpt](https://github.com/dacadev-official/llm-and-chatgpt) | 0 |  | :heavy_check_mark: |  | 2025-09-01 11:35:26+00:00 |
+| 460 | [dagu-org/dagu](https://github.com/dagu-org/dagu) | 4367 |  | :heavy_check_mark: |  | 2026-10-16 10:51:39+00:00 |
+| 461 | [damienfrancois/dataladset](https://github.com/damienfrancois/dataladset) | 0 | :heavy_check_mark: |  |  | 2023-01-12 15:04:52+00:00 |
+| 462 | [darlingbud/my-nanobot](https://github.com/darlingbud/my-nanobot) | 0 |  | :heavy_check_mark: |  | 2026-04-13 05:44:24+00:00 |
+| 463 | [dartmouth-pbs/psyc161-wi19-srv](https://github.com/dartmouth-pbs/psyc161-wi19-srv) | 0 | :heavy_check_mark: |  |  | 2019-02-07 02:55:14+00:00 |
+| 464 | [datajoint/*](https://github.com/datajoint) [(3)](READMEs/datajoint.md) | [217](READMEs/datajoint.md) |  | [:heavy_check_mark: (3)](READMEs/datajoint.md) |  | 2026-10-19 03:32:17+00:00 |
+| 465 | [datasets-mila/*](https://github.com/datasets-mila) [(351)](READMEs/datasets-mila.md) | [49](READMEs/datasets-mila.md) | [:heavy_check_mark: (211)](READMEs/datasets-mila.md) | [:heavy_check_mark: (346)](READMEs/datasets-mila.md) |  | 2025-04-14 17:10:28+00:00 |
+| 466 | [dattalab/moseq2-app](https://github.com/dattalab/moseq2-app) | 41 |  | :heavy_check_mark: |  | 2026-08-03 21:58:20+00:00 |
+| 467 | [dcasciotti/*](https://github.com/dcasciotti) [(3)](READMEs/dcasciotti.md) | [0](READMEs/dcasciotti.md) | [:heavy_check_mark: (3)](READMEs/dcasciotti.md) | [:heavy_check_mark: (3)](READMEs/dcasciotti.md) |  | 2022-06-15 13:46:02+00:00 |
+| 468 | [dcxchatbot/chat_openwebui](https://github.com/dcxchatbot/chat_openwebui) | 0 |  | :heavy_check_mark: |  | 2025-10-18 14:02:25+00:00 |
+| 469 | [debops-contrib/ansible-checkmk_agent](https://github.com/debops-contrib/ansible-checkmk_agent) | 11 |  | :heavy_check_mark: |  | 2023-01-08 13:56:05+00:00 |
+| 470 | [debops/debops](https://github.com/debops/debops) | 1425 |  | :heavy_check_mark: |  | 2026-10-19 18:12:14+00:00 |
+| 471 | [demetrees-proton/openwebui](https://github.com/demetrees-proton/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-06-23 12:07:49+00:00 |
+| 472 | [dependabot/dependabot-core](https://github.com/dependabot/dependabot-core) | 5808 |  | :heavy_check_mark: |  | 2026-10-21 11:09:06+00:00 |
+| 473 | [devlancer-lucas/gpt4all](https://github.com/devlancer-lucas/gpt4all) | 4 |  | :heavy_check_mark: |  | 2023-06-22 17:02:45+00:00 |
+| 474 | [dguibert/*](https://github.com/dguibert) [(2)](READMEs/dguibert.md) | [6](READMEs/dguibert.md) | [:heavy_check_mark: (2)](READMEs/dguibert.md) |  |  | 2026-09-07 14:16:56+00:00 |
+| 475 | [dh-tech/hugo-bibliography](https://github.com/dh-tech/hugo-bibliography) | 7 |  | :heavy_check_mark: |  | 2026-10-14 20:19:32+00:00 |
+| 476 | [dhivakark/*](https://github.com/dhivakark) [(2)](READMEs/dhivakark.md) | [0](READMEs/dhivakark.md) | [:heavy_check_mark: (2)](READMEs/dhivakark.md) | [:heavy_check_mark: (1)](READMEs/dhivakark.md) |  | 2020-04-20 14:52:17+00:00 |
+| 477 | [dimitri-pletschette/taipyclone](https://github.com/dimitri-pletschette/taipyclone) | 0 |  | :heavy_check_mark: |  | 2026-10-10 17:33:25+00:00 |
+| 478 | [dingsiguo/open-webui](https://github.com/dingsiguo/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-09 08:41:11+00:00 |
+| 479 | [dipy/*](https://github.com/dipy) [(2)](READMEs/dipy.md) | [852](READMEs/dipy.md) |  | [:heavy_check_mark: (2)](READMEs/dipy.md) |  | 2026-10-20 16:02:11+00:00 |
+| 480 | [distribits/distribits-videos](https://github.com/distribits/distribits-videos) | 1 |  | :heavy_check_mark: | :heavy_check_mark: | 2024-08-09 12:41:05+00:00 |
+| 481 | [djarecka/*](https://github.com/djarecka) [(12)](READMEs/djarecka.md) | [0](READMEs/djarecka.md) | [:heavy_check_mark: (12)](READMEs/djarecka.md) | [:heavy_check_mark: (2)](READMEs/djarecka.md) |  | 2022-06-19 10:32:50+00:00 |
+| 482 | [dl-throwaway/*](https://github.com/dl-throwaway) [(12)](READMEs/dl-throwaway.md) | [0](READMEs/dl-throwaway.md) | [:heavy_check_mark: (12)](READMEs/dl-throwaway.md) |  |  | 2021-06-03 20:04:38+00:00 |
+| 483 | [dnkennedy/*](https://github.com/dnkennedy) [(4)](READMEs/dnkennedy.md) | [0](READMEs/dnkennedy.md) | [:heavy_check_mark: (2)](READMEs/dnkennedy.md) | [:heavy_check_mark: (3)](READMEs/dnkennedy.md) | [:heavy_check_mark: (3)](READMEs/dnkennedy.md) | 2019-10-06 16:42:44+00:00 |
+| 484 | [docker-library/official-images](https://github.com/docker-library/official-images) | 7009 |  | :heavy_check_mark: |  | 2026-10-21 11:28:21+00:00 |
+| 485 | [dreamlx/evolvai](https://github.com/dreamlx/evolvai) | 0 |  | :heavy_check_mark: |  | 2025-11-22 09:00:13+00:00 |
+| 486 | [drerx/gpt4all](https://github.com/drerx/gpt4all) | 0 |  | :heavy_check_mark: |  | 2024-02-06 21:37:05+00:00 |
+| 487 | [duecredit/duecredit](https://github.com/duecredit/duecredit) | 247 |  | :heavy_check_mark: |  | 2026-08-20 16:19:48+00:00 |
+| 488 | [dungscout96/ds003645](https://github.com/dungscout96/ds003645) | 0 | :heavy_check_mark: |  |  | 2023-07-24 19:13:52+00:00 |
+| 489 | [duyijinli/nanobot](https://github.com/duyijinli/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-04-27 13:56:30+00:00 |
+| 490 | [e-fortier/task_stimuli](https://github.com/e-fortier/task_stimuli) | 0 | :heavy_check_mark: |  |  | 2022-01-14 15:45:11+00:00 |
+| 491 | [earth-mover/icechunk](https://github.com/earth-mover/icechunk) | 693 |  | :heavy_check_mark: |  | 2026-10-19 19:17:48+00:00 |
+| 492 | [edenede2/bids_repo](https://github.com/edenede2/bids_repo) | 0 |  | :heavy_check_mark: |  | 2025-11-24 09:33:23+00:00 |
+| 493 | [effigies/*](https://github.com/effigies) [(9)](READMEs/effigies.md) | [2](READMEs/effigies.md) | [:heavy_check_mark: (7)](READMEs/effigies.md) | [:heavy_check_mark: (3)](READMEs/effigies.md) |  | 2026-10-19 18:09:18+00:00 |
+| 494 | [efiefiakbari/ds002799](https://github.com/efiefiakbari/ds002799) | 0 | :heavy_check_mark: |  |  | 2020-08-25 23:47:32+00:00 |
+| 495 | [egzakharovich/ebudget-wks-tlsclient-configuration](https://github.com/egzakharovich/ebudget-wks-tlsclient-configuration) | 0 | :heavy_check_mark: |  |  | 2022-10-25 14:45:31+00:00 |
+| 496 | [elegantlyy/CephSage](https://github.com/elegantlyy/CephSage) | 0 |  | :heavy_check_mark: |  | 2026-08-25 07:15:25+00:00 |
+| 497 | [elijahdev0/android-openwebui](https://github.com/elijahdev0/android-openwebui) | 2 |  | :heavy_check_mark: |  | 2026-03-01 15:46:56+00:00 |
+| 498 | [ellentyyu/gsap_presentation](https://github.com/ellentyyu/gsap_presentation) | 0 |  | :heavy_check_mark: |  | 2025-08-27 01:51:27+00:00 |
+| 499 | [elloras1/*](https://github.com/elloras1) [(3)](READMEs/elloras1.md) | [0](READMEs/elloras1.md) | [:heavy_check_mark: (3)](READMEs/elloras1.md) |  |  | 2023-10-12 15:50:52+00:00 |
+| 500 | [elver0429709/agent-owl-api](https://github.com/elver0429709/agent-owl-api) | 0 |  | :heavy_check_mark: |  | 2025-11-07 00:55:26+00:00 |
+| 501 | [emmetaobrien/*](https://github.com/emmetaobrien) [(18)](READMEs/emmetaobrien.md) | [6](READMEs/emmetaobrien.md) | [:heavy_check_mark: (18)](READMEs/emmetaobrien.md) |  |  | 2026-10-16 13:01:50+00:00 |
+| 502 | [emooney/openwebui-ollama](https://github.com/emooney/openwebui-ollama) | 0 |  | :heavy_check_mark: |  | 2025-02-26 01:22:16+00:00 |
+| 503 | [emtee40/EternalTerminal](https://github.com/emtee40/EternalTerminal) | 0 |  | :heavy_check_mark: |  | 2024-03-18 06:02:47+00:00 |
+| 504 | [encode/django-rest-framework](https://github.com/encode/django-rest-framework) | 30211 |  | :heavy_check_mark: |  | 2026-10-14 22:32:27+00:00 |
+| 505 | [eremchuk-mp-8/open-webui](https://github.com/eremchuk-mp-8/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-26 19:51:10+00:00 |
+| 506 | [erikjseidel/netbox](https://github.com/erikjseidel/netbox) | 0 |  | :heavy_check_mark: |  | 2023-05-31 16:03:44+00:00 |
+| 507 | [esavary/phys2bids-modified](https://github.com/esavary/phys2bids-modified) | 0 |  | :heavy_check_mark: |  | 2023-10-03 14:56:03+00:00 |
+| 508 | [ess-kay-p/pre_sales_frontend](https://github.com/ess-kay-p/pre_sales_frontend) | 0 |  | :heavy_check_mark: |  | 2025-09-10 09:17:44+00:00 |
+| 509 | [estesp/manifest-tool](https://github.com/estesp/manifest-tool) | 840 |  | :heavy_check_mark: |  | 2026-10-19 18:49:11+00:00 |
+| 510 | [eugene-pascal/presentation-crypto](https://github.com/eugene-pascal/presentation-crypto) | 0 |  | :heavy_check_mark: |  | 2025-04-05 10:09:34+00:00 |
+| 511 | [excniesNIED/nao-chat](https://github.com/excniesNIED/nao-chat) | 0 |  | :heavy_check_mark: |  | 2025-09-22 03:11:41+00:00 |
+| 512 | [expfactory/expfactory-experiments](https://github.com/expfactory/expfactory-experiments) | 38 |  | :heavy_check_mark: |  | 2023-07-28 16:15:15+00:00 |
+| 513 | [eyescr3am/datalad_test_sibling_irys](https://github.com/eyescr3am/datalad_test_sibling_irys) | 0 |  | :heavy_check_mark: |  | 2024-01-29 18:38:56+00:00 |
+| 514 | [fabrizio-monaco/ki_ethische_probleme_deepfakes](https://github.com/fabrizio-monaco/ki_ethische_probleme_deepfakes) | 0 |  | :heavy_check_mark: |  | 2025-07-06 13:27:32+00:00 |
+| 515 | [fail2ban/fail2ban](https://github.com/fail2ban/fail2ban) | 18838 |  | :heavy_check_mark: |  | 2026-10-10 23:27:09+00:00 |
+| 516 | [fandofastest/my3dmodeling](https://github.com/fandofastest/my3dmodeling) | 0 | :heavy_check_mark: |  |  | 2021-12-20 07:36:32+00:00 |
+| 517 | [fangfufu/Linux-Fake-Background-Webcam](https://github.com/fangfufu/Linux-Fake-Background-Webcam) | 1706 |  | :heavy_check_mark: |  | 2026-02-24 04:04:22+00:00 |
+| 518 | [fanqingsong/open-webui](https://github.com/fanqingsong/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 22:52:28+00:00 |
+| 519 | [farmmp/dandisets](https://github.com/farmmp/dandisets) | 0 | :heavy_check_mark: |  |  | 2026-04-19 17:45:13+00:00 |
+| 520 | [farooqseeru/openwebui](https://github.com/farooqseeru/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-10-05 08:49:32+00:00 |
+| 521 | [fcerpe/*](https://github.com/fcerpe) [(2)](READMEs/fcerpe.md) | [0](READMEs/fcerpe.md) | [:heavy_check_mark: (2)](READMEs/fcerpe.md) |  |  | 2026-02-24 10:50:34+00:00 |
+| 522 | [featherwit525/Nanobot_Rag_MultiAgent](https://github.com/featherwit525/Nanobot_Rag_MultiAgent) | 0 |  | :heavy_check_mark: |  | 2026-04-23 08:05:41+00:00 |
+| 523 | [febri-13/modulLevel9TCPICT](https://github.com/febri-13/modulLevel9TCPICT) | 0 |  | :heavy_check_mark: |  | 2025-08-03 23:04:12+00:00 |
+| 524 | [fedbiomed/fedbiomed](https://github.com/fedbiomed/fedbiomed) | 93 |  | :heavy_check_mark: |  | 2026-10-20 11:07:34+00:00 |
+| 525 | [feilong/tpl-onavg](https://github.com/feilong/tpl-onavg) | 15 | :heavy_check_mark: |  |  | 2024-02-08 18:59:55+00:00 |
+| 526 | [fffflllll/AgentHub](https://github.com/fffflllll/AgentHub) | 0 |  | :heavy_check_mark: |  | 2026-06-18 16:25:50+00:00 |
+| 527 | [ffsho/open-webui](https://github.com/ffsho/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-24 13:03:09+00:00 |
+| 528 | [fictusinscript/niivue](https://github.com/fictusinscript/niivue) | 0 |  | :heavy_check_mark: |  | 2025-04-28 15:04:44+00:00 |
+| 529 | [fieldtrip/fieldtrip](https://github.com/fieldtrip/fieldtrip) | 992 |  | :heavy_check_mark: |  | 2026-10-13 21:46:20+00:00 |
+| 530 | [firetoweak/nanoHelper](https://github.com/firetoweak/nanoHelper) | 0 |  | :heavy_check_mark: |  | 2026-05-18 17:31:45+00:00 |
+| 531 | [flatironinstitute/*](https://github.com/flatironinstitute) [(4)](READMEs/flatironinstitute.md) | [834](READMEs/flatironinstitute.md) |  | [:heavy_check_mark: (4)](READMEs/flatironinstitute.md) |  | 2026-10-13 19:15:07+00:00 |
+| 532 | [flickadamis/gpt4all](https://github.com/flickadamis/gpt4all) | 0 |  | :heavy_check_mark: |  | 2024-02-27 13:39:19+00:00 |
+| 533 | [fluese/T1w_250um](https://github.com/fluese/T1w_250um) | 2 | :heavy_check_mark: |  |  | 2019-04-18 03:09:07+00:00 |
+| 534 | [flyfox2022/Human_Brain_Atlases-desikan-killiany](https://github.com/flyfox2022/Human_Brain_Atlases-desikan-killiany) | 0 | :heavy_check_mark: |  |  | 2021-03-15 19:56:08+00:00 |
+| 535 | [fmops/open-webui](https://github.com/fmops/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-04-01 15:58:15+00:00 |
+| 536 | [fmralign/fmralign](https://github.com/fmralign/fmralign) | 39 |  | :heavy_check_mark: |  | 2026-10-08 09:18:06+00:00 |
+| 537 | [fphsFischmeister/ohbm2020-posters](https://github.com/fphsFischmeister/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-29 16:00:59+00:00 |
+| 538 | [gabilobom/SlidesDigital](https://github.com/gabilobom/SlidesDigital) | 1 |  | :heavy_check_mark: |  | 2025-06-06 22:53:42+00:00 |
+| 539 | [gaiborjosue/OSF-Trained-Models](https://github.com/gaiborjosue/OSF-Trained-Models) | 1 | :heavy_check_mark: |  |  | 2023-08-16 15:23:21+00:00 |
+| 540 | [gallantlab/*](https://github.com/gallantlab) [(3)](READMEs/gallantlab.md) | [892](READMEs/gallantlab.md) |  | [:heavy_check_mark: (3)](READMEs/gallantlab.md) |  | 2026-10-18 04:14:45+00:00 |
+| 541 | [gaotiezhu1/gaotiezhu1](https://github.com/gaotiezhu1/gaotiezhu1) | 0 |  | :heavy_check_mark: |  | 2025-06-01 12:55:48+00:00 |
+| 542 | [garrettmflynn/webnwb](https://github.com/garrettmflynn/webnwb) | 7 |  | :heavy_check_mark: |  | 2024-06-06 15:32:40+00:00 |
+| 543 | [garronej/keycloakify-setup](https://github.com/garronej/keycloakify-setup) | 0 |  | :heavy_check_mark: |  | 2025-06-21 15:48:53+00:00 |
+| 544 | [gccornejo441/fuzzy-octo-potato](https://github.com/gccornejo441/fuzzy-octo-potato) | 0 |  | :heavy_check_mark: |  | 2025-08-16 02:17:24+00:00 |
+| 545 | [gclt7777/zhinengkefu](https://github.com/gclt7777/zhinengkefu) | 0 |  | :heavy_check_mark: |  | 2025-11-14 02:12:00+00:00 |
+| 546 | [gdcc/*](https://github.com/gdcc) [(2)](READMEs/gdcc.md) | [114](READMEs/gdcc.md) |  | [:heavy_check_mark: (2)](READMEs/gdcc.md) |  | 2026-09-13 07:19:27+00:00 |
+| 547 | [gerbs66/slides1](https://github.com/gerbs66/slides1) | 0 |  | :heavy_check_mark: |  | 2025-09-05 13:47:04+00:00 |
+| 548 | [gies-ai-experiments/hackclaw](https://github.com/gies-ai-experiments/hackclaw) | 2 |  | :heavy_check_mark: |  | 2026-04-25 20:33:36+00:00 |
+| 549 | [gilesknap/gphotos-sync](https://github.com/gilesknap/gphotos-sync) | 2083 |  | :heavy_check_mark: |  | 2026-03-17 20:57:13+00:00 |
+| 550 | [gillet-thomas/nnUNet-wandb](https://github.com/gillet-thomas/nnUNet-wandb) | 1 |  | :heavy_check_mark: |  | 2024-10-17 08:48:01+00:00 |
+| 551 | [girder/girder](https://github.com/girder/girder) | 457 |  | :heavy_check_mark: |  | 2026-10-13 14:06:19+00:00 |
+| 552 | [git-annex-remote-rclone/git-annex-remote-rclone](https://github.com/git-annex-remote-rclone/git-annex-remote-rclone) | 197 |  | :heavy_check_mark: |  | 2026-06-20 22:15:55+00:00 |
+| 553 | [glatard/fmriprep-lts-images](https://github.com/glatard/fmriprep-lts-images) | 0 | :heavy_check_mark: |  |  | 2021-05-31 21:42:32+00:00 |
+| 554 | [goodtab/*](https://github.com/goodtab) [(2)](READMEs/goodtab.md) | [0](READMEs/goodtab.md) |  | [:heavy_check_mark: (2)](READMEs/goodtab.md) |  | 2025-07-29 10:10:53+00:00 |
+| 555 | [google/tensorstore](https://github.com/google/tensorstore) | 1547 |  | :heavy_check_mark: |  | 2026-10-20 08:42:41+00:00 |
+| 556 | [gparadis/*](https://github.com/gparadis) [(3)](READMEs/gparadis.md) | [0](READMEs/gparadis.md) |  | [:heavy_check_mark: (3)](READMEs/gparadis.md) |  | 2025-09-22 21:46:38+00:00 |
+| 557 | [grandjeanlab/*](https://github.com/grandjeanlab) [(2)](READMEs/grandjeanlab.md) | [1](READMEs/grandjeanlab.md) | [:heavy_check_mark: (1)](READMEs/grandjeanlab.md) | [:heavy_check_mark: (1)](READMEs/grandjeanlab.md) |  | 2025-05-30 07:29:03+00:00 |
+| 558 | [greentea-icecreme/probeinterface](https://github.com/greentea-icecreme/probeinterface) | 0 |  | :heavy_check_mark: |  | 2025-12-06 03:10:13+00:00 |
+| 559 | [gridgentoo/qdrant](https://github.com/gridgentoo/qdrant) | 0 |  | :heavy_check_mark: |  | 2024-03-19 06:25:29+00:00 |
+| 560 | [griffithlab/civic-v2](https://github.com/griffithlab/civic-v2) | 31 |  | :heavy_check_mark: |  | 2026-10-14 20:01:33+00:00 |
+| 561 | [gufran-codes/SmartBotOpen](https://github.com/gufran-codes/SmartBotOpen) | 0 |  | :heavy_check_mark: |  | 2025-02-05 13:59:29+00:00 |
+| 562 | [gumasruthy/open-webui](https://github.com/gumasruthy/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-04 17:01:05+00:00 |
+| 563 | [gunnarvoet/*](https://github.com/gunnarvoet) [(7)](READMEs/gunnarvoet.md) | [2](READMEs/gunnarvoet.md) | [:heavy_check_mark: (7)](READMEs/gunnarvoet.md) |  |  | 2024-02-13 13:02:47+00:00 |
+| 564 | [guocuixia/gpt4888](https://github.com/guocuixia/gpt4888) | 0 |  | :heavy_check_mark: |  | 2024-03-04 23:10:42+00:00 |
+| 565 | [habitual-it/ceahi11](https://github.com/habitual-it/ceahi11) | 0 |  | :heavy_check_mark: |  | 2025-08-12 02:20:54+00:00 |
+| 566 | [hakimel/reveal.js](https://github.com/hakimel/reveal.js) | 72434 |  | :heavy_check_mark: |  | 2026-09-30 19:38:13+00:00 |
+| 567 | [hamzasalmahi-lab/ds005873-FND](https://github.com/hamzasalmahi-lab/ds005873-FND) | 0 | :heavy_check_mark: |  |  | 2026-05-16 01:42:41+00:00 |
+| 568 | [hanahub/open-webui](https://github.com/hanahub/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-29 02:35:14+00:00 |
+| 569 | [handun818/open-webui](https://github.com/handun818/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-04 08:25:39+00:00 |
+| 570 | [happyl-12/nanobot](https://github.com/happyl-12/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-06-09 01:50:33+00:00 |
+| 571 | [hardihardi/Taipy](https://github.com/hardihardi/Taipy) | 1 |  | :heavy_check_mark: |  | 2025-12-22 20:48:00+00:00 |
+| 572 | [harlequix/moq-timeout-dataset](https://github.com/harlequix/moq-timeout-dataset) | 0 |  | :heavy_check_mark: |  | 2026-06-19 15:09:22+00:00 |
+| 573 | [harrycjs/wikinova](https://github.com/harrycjs/wikinova) | 0 |  | :heavy_check_mark: |  | 2026-07-09 09:52:24+00:00 |
+| 574 | [harshBoii/*](https://github.com/harshBoii) [(2)](READMEs/harshBoii.md) | [0](READMEs/harshBoii.md) |  | [:heavy_check_mark: (2)](READMEs/harshBoii.md) |  | 2025-08-20 14:59:26+00:00 |
+| 575 | [haskell-pkg-janitors/aws](https://github.com/haskell-pkg-janitors/aws) | 1 |  | :heavy_check_mark: |  | 2026-06-24 21:23:22+00:00 |
+| 576 | [hawkrobe/tangrams-fmri-data](https://github.com/hawkrobe/tangrams-fmri-data) | 2 | :heavy_check_mark: |  |  | 2023-08-30 20:15:17+00:00 |
+| 577 | [hcferguson/*](https://github.com/hcferguson) [(3)](READMEs/hcferguson.md) | [0](READMEs/hcferguson.md) | [:heavy_check_mark: (3)](READMEs/hcferguson.md) | [:heavy_check_mark: (1)](READMEs/hcferguson.md) |  | 2022-12-01 16:03:09+00:00 |
+| 578 | [heartexlabs/label-studio](https://github.com/heartexlabs/label-studio) | 28511 |  | :heavy_check_mark: |  | 2026-10-21 11:03:59+00:00 |
+| 579 | [hed-standard/*](https://github.com/hed-standard) [(3)](READMEs/hed-standard.md) | [20](READMEs/hed-standard.md) |  | [:heavy_check_mark: (3)](READMEs/hed-standard.md) |  | 2026-10-20 16:42:33+00:00 |
+| 580 | [hesam305/ds004902](https://github.com/hesam305/ds004902) | 0 | :heavy_check_mark: |  |  | 2025-09-17 08:06:47+00:00 |
+| 581 | [heycatwonton/EssDiveSampleRFOld](https://github.com/heycatwonton/EssDiveSampleRFOld) | 0 |  | :heavy_check_mark: |  | 2024-07-18 16:51:15+00:00 |
+| 582 | [hhw007-code/open-webui](https://github.com/hhw007-code/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-04-01 01:50:06+00:00 |
+| 583 | [hkirk/swtafp-slides](https://github.com/hkirk/swtafp-slides) | 1 |  | :heavy_check_mark: |  | 2026-10-20 10:08:04+00:00 |
+| 584 | [hluk/CopyQ](https://github.com/hluk/CopyQ) | 12523 |  | :heavy_check_mark: |  | 2026-10-21 05:51:35+00:00 |
+| 585 | [hopefuturehu/KAT](https://github.com/hopefuturehu/KAT) | 0 |  | :heavy_check_mark: |  | 2026-05-26 03:51:10+00:00 |
+| 586 | [hotakutsuki/quito-la-ciudad-que-late](https://github.com/hotakutsuki/quito-la-ciudad-que-late) | 0 |  | :heavy_check_mark: |  | 2025-05-28 21:46:04+00:00 |
+| 587 | [howard-wong/nanobot](https://github.com/howard-wong/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-08 17:04:21+00:00 |
+| 588 | [htwangtw/hrvtrt](https://github.com/htwangtw/hrvtrt) | 0 | :heavy_check_mark: |  |  | 2021-05-26 11:19:44+00:00 |
+| 589 | [huaihuaiweng/open-webui](https://github.com/huaihuaiweng/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-11-12 00:50:13+00:00 |
+| 590 | [huangserva/NanoAgent](https://github.com/huangserva/NanoAgent) | 2 |  | :heavy_check_mark: |  | 2026-05-17 10:44:40+00:00 |
+| 591 | [huhudejueqi/huhudejueqi](https://github.com/huhudejueqi/huhudejueqi) | 0 |  | :heavy_check_mark: |  | 2026-06-16 12:11:56+00:00 |
+| 592 | [hurngchunlee/*](https://github.com/hurngchunlee) [(2)](READMEs/hurngchunlee.md) | [0](READMEs/hurngchunlee.md) | [:heavy_check_mark: (2)](READMEs/hurngchunlee.md) |  |  | 2022-01-28 11:39:29+00:00 |
+| 593 | [hyeni87/K-dence-ai](https://github.com/hyeni87/K-dence-ai) | 0 |  | :heavy_check_mark: |  | 2026-10-13 05:42:28+00:00 |
+| 594 | [hyruuk/task_stimuli](https://github.com/hyruuk/task_stimuli) | 0 | :heavy_check_mark: |  |  | 2026-05-26 13:41:06+00:00 |
+| 595 | [icosa-studios/lanturn-webui](https://github.com/icosa-studios/lanturn-webui) | 0 |  | :heavy_check_mark: |  | 2025-09-07 22:35:53+00:00 |
+| 596 | [iimog/datalad-github](https://github.com/iimog/datalad-github) | 0 | :heavy_check_mark: |  |  | 2026-07-03 18:40:45+00:00 |
+| 597 | [ikhgs/gpt4all](https://github.com/ikhgs/gpt4all) | 0 |  | :heavy_check_mark: |  | 2024-07-13 20:19:32+00:00 |
+| 598 | [ildunari/markdown-editor-mcp](https://github.com/ildunari/markdown-editor-mcp) | 0 |  | :heavy_check_mark: |  | 2025-07-03 20:49:25+00:00 |
+| 599 | [imaiguo/OpenWebUI](https://github.com/imaiguo/OpenWebUI) | 0 |  | :heavy_check_mark: |  | 2025-05-27 06:51:54+00:00 |
+| 600 | [imax09-wq/DesktopCommanderMCP](https://github.com/imax09-wq/DesktopCommanderMCP) | 1 |  | :heavy_check_mark: |  | 2025-04-09 23:13:16+00:00 |
+| 601 | [incf-nidash/*](https://github.com/incf-nidash) [(3)](READMEs/incf-nidash.md) | [31](READMEs/incf-nidash.md) | [:heavy_check_mark: (1)](READMEs/incf-nidash.md) | [:heavy_check_mark: (2)](READMEs/incf-nidash.md) |  | 2026-10-19 23:43:51+00:00 |
+| 602 | [indigo-dc/udocker](https://github.com/indigo-dc/udocker) | 1795 |  | :heavy_check_mark: |  | 2025-08-13 17:21:57+00:00 |
+| 603 | [injaamam/ds007526](https://github.com/injaamam/ds007526) | 1 | :heavy_check_mark: |  |  | 2026-04-28 06:18:57+00:00 |
+| 604 | [inm7/*](https://github.com/inm7) [(4)](READMEs/inm7.md) | [7](READMEs/inm7.md) | [:heavy_check_mark: (4)](READMEs/inm7.md) |  |  | 2021-11-03 12:20:10+00:00 |
+| 605 | [intellegin/open-webui](https://github.com/intellegin/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-05-23 16:32:01+00:00 |
+| 606 | [iqrashahzad14/*](https://github.com/iqrashahzad14) [(2)](READMEs/iqrashahzad14.md) | [2](READMEs/iqrashahzad14.md) | [:heavy_check_mark: (2)](READMEs/iqrashahzad14.md) |  |  | 2026-01-12 20:29:31+00:00 |
+| 607 | [isidoregpt/openwebuimod](https://github.com/isidoregpt/openwebuimod) | 0 |  | :heavy_check_mark: |  | 2025-10-01 01:40:28+00:00 |
+| 608 | [ismi9/scientific-agent-skills](https://github.com/ismi9/scientific-agent-skills) | 1 |  | :heavy_check_mark: |  | 2026-08-29 12:30:10+00:00 |
+| 609 | [isomorphic-git/isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) | 8377 |  | :heavy_check_mark: |  | 2026-10-17 09:35:03+00:00 |
+| 610 | [iterate-ch/docs](https://github.com/iterate-ch/docs) | 35 |  | :heavy_check_mark: |  | 2026-10-20 15:42:35+00:00 |
+| 611 | [ivis-akaike/DataLad](https://github.com/ivis-akaike/DataLad) | 0 | :heavy_check_mark: |  |  | 2022-05-12 10:39:39+00:00 |
+| 612 | [ivis-tsukioka/*](https://github.com/ivis-tsukioka) [(4)](READMEs/ivis-tsukioka.md) | [0](READMEs/ivis-tsukioka.md) | [:heavy_check_mark: (4)](READMEs/ivis-tsukioka.md) |  |  | 2022-07-12 09:02:57+00:00 |
+| 613 | [jadecci/*](https://github.com/jadecci) [(2)](READMEs/jadecci.md) | [1](READMEs/jadecci.md) |  | [:heavy_check_mark: (2)](READMEs/jadecci.md) |  | 2026-10-11 15:06:36+00:00 |
+| 614 | [jadynpark/emregPFC](https://github.com/jadynpark/emregPFC) | 0 | :heavy_check_mark: |  |  | 2020-08-24 18:45:20+00:00 |
+| 615 | [jairossaldanha/nano-bot-v2.0](https://github.com/jairossaldanha/nano-bot-v2.0) | 0 |  | :heavy_check_mark: |  | 2026-06-02 17:58:23+00:00 |
+| 616 | [janelia-flyem/dvid](https://github.com/janelia-flyem/dvid) | 203 |  | :heavy_check_mark: |  | 2026-10-20 23:31:07+00:00 |
+| 617 | [jannisborn/paperscraper](https://github.com/jannisborn/paperscraper) | 544 |  | :heavy_check_mark: |  | 2026-10-14 13:21:51+00:00 |
+| 618 | [jasongallant/midtermproject](https://github.com/jasongallant/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-07-01 02:44:53+00:00 |
+| 619 | [jasonpnnl/open-webui-public](https://github.com/jasonpnnl/open-webui-public) | 0 |  | :heavy_check_mark: |  | 2025-08-12 18:09:05+00:00 |
+| 620 | [jaykumar9022/quarterly-report-1](https://github.com/jaykumar9022/quarterly-report-1) | 0 |  | :heavy_check_mark: |  | 2025-08-08 05:32:56+00:00 |
+| 621 | [jazzband/*](https://github.com/jazzband) [(2)](READMEs/jazzband.md) | [3381](READMEs/jazzband.md) |  | [:heavy_check_mark: (2)](READMEs/jazzband.md) |  | 2026-10-10 07:23:43+00:00 |
+| 622 | [jazzmagus/abl2025-slides](https://github.com/jazzmagus/abl2025-slides) | 0 |  | :heavy_check_mark: |  | 2025-06-23 19:02:41+00:00 |
+| 623 | [jbnu-KimGilMoIm/Jeonbuk-AI](https://github.com/jbnu-KimGilMoIm/Jeonbuk-AI) | 0 |  | :heavy_check_mark: |  | 2025-12-10 05:53:41+00:00 |
+| 624 | [jbpoline/datasets.datalad.org](https://github.com/jbpoline/datasets.datalad.org) | 0 | :heavy_check_mark: |  |  | 2018-08-27 01:23:42+00:00 |
+| 625 | [jbwexler/*](https://github.com/jbwexler) [(9)](READMEs/jbwexler.md) | [0](READMEs/jbwexler.md) | [:heavy_check_mark: (9)](READMEs/jbwexler.md) |  |  | 2021-08-01 16:39:00+00:00 |
+| 626 | [jennydaman/*](https://github.com/jennydaman) [(5)](READMEs/jennydaman.md) | [0](READMEs/jennydaman.md) |  | [:heavy_check_mark: (5)](READMEs/jennydaman.md) |  | 2023-07-29 11:32:22+00:00 |
+| 627 | [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) | 83263 |  | :heavy_check_mark: |  | 2026-10-17 11:06:26+00:00 |
+| 628 | [jianlinjiang/open-webui](https://github.com/jianlinjiang/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 04:21:00+00:00 |
+| 629 | [jjzha/chat-aau](https://github.com/jjzha/chat-aau) | 0 |  | :heavy_check_mark: |  | 2025-05-07 11:41:36+00:00 |
+| 630 | [jkolarov/webui](https://github.com/jkolarov/webui) | 0 |  | :heavy_check_mark: |  | 2025-07-13 14:24:21+00:00 |
+| 631 | [jkosciessa/eegmp](https://github.com/jkosciessa/eegmp) | 0 | :heavy_check_mark: |  |  | 2022-11-18 11:13:51+00:00 |
+| 632 | [jkuhl-uni/test-data](https://github.com/jkuhl-uni/test-data) | 0 |  | :heavy_check_mark: |  | 2024-06-05 14:54:07+00:00 |
+| 633 | [joeyzhou98/osf-private-test](https://github.com/joeyzhou98/osf-private-test) | 0 | :heavy_check_mark: |  |  | 2021-03-19 04:59:01+00:00 |
+| 634 | [jonclayden/divest](https://github.com/jonclayden/divest) | 15 |  | :heavy_check_mark: |  | 2026-10-15 16:02:40+00:00 |
+| 635 | [jonescompneurolab/hnn-core](https://github.com/jonescompneurolab/hnn-core) | 83 |  | :heavy_check_mark: |  | 2026-10-08 18:47:56+00:00 |
+| 636 | [jooh/liu_gardner_2018_reanalysis](https://github.com/jooh/liu_gardner_2018_reanalysis) | 0 |  | :heavy_check_mark: |  | 2019-11-06 15:23:07+00:00 |
+| 637 | [joost-de-vries/zio-doobie-transactions](https://github.com/joost-de-vries/zio-doobie-transactions) | 0 |  | :heavy_check_mark: |  | 2025-07-24 20:48:49+00:00 |
+| 638 | [jorrickkeuper/dockerimage](https://github.com/jorrickkeuper/dockerimage) | 0 |  | :heavy_check_mark: |  | 2022-10-07 10:01:11+00:00 |
+| 639 | [joshmoore/ngff-specifications](https://github.com/joshmoore/ngff-specifications) | 1 |  | :heavy_check_mark: |  | 2024-12-04 20:52:07+00:00 |
+| 640 | [jpvaldes/cbbs-imaging-container-fmriprep](https://github.com/jpvaldes/cbbs-imaging-container-fmriprep) | 0 | :heavy_check_mark: |  |  | 2018-05-05 09:17:27+00:00 |
+| 641 | [jreniel/ACE](https://github.com/jreniel/ACE) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-12-11 17:16:40+00:00 |
+| 642 | [jsmentch/nat_nascar](https://github.com/jsmentch/nat_nascar) | 0 | :heavy_check_mark: |  |  | 2023-08-18 20:49:14+00:00 |
+| 643 | [jsol444455/Mod_OpenWebUI](https://github.com/jsol444455/Mod_OpenWebUI) | 0 |  | :heavy_check_mark: |  | 2025-12-01 02:53:27+00:00 |
+| 644 | [juaml/*](https://github.com/juaml) [(2)](READMEs/juaml.md) | [0](READMEs/juaml.md) | [:heavy_check_mark: (2)](READMEs/juaml.md) |  |  | 2026-10-06 19:46:40+00:00 |
+| 645 | [juliebates/my_experiment](https://github.com/juliebates/my_experiment) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2022-06-17 15:31:46+00:00 |
+| 646 | [jungheejung/containers](https://github.com/jungheejung/containers) | 0 | :heavy_check_mark: |  |  | 2020-04-21 18:51:35+00:00 |
+| 647 | [junhaols/ds004078](https://github.com/junhaols/ds004078) | 0 | :heavy_check_mark: |  |  | 2022-10-26 19:47:10+00:00 |
+| 648 | [just-meng/*](https://github.com/just-meng) [(4)](READMEs/just-meng.md) | [1](READMEs/just-meng.md) | [:heavy_check_mark: (1)](READMEs/just-meng.md) | [:heavy_check_mark: (4)](READMEs/just-meng.md) |  | 2026-10-09 14:07:18+00:00 |
+| 649 | [justinlietz93/ds007275](https://github.com/justinlietz93/ds007275) | 0 | :heavy_check_mark: |  |  | 2026-05-09 04:23:30+00:00 |
+| 650 | [jwh99common/open-webui](https://github.com/jwh99common/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-05-20 19:20:25+00:00 |
+| 651 | [kabilar/*](https://github.com/kabilar) [(2)](READMEs/kabilar.md) | [0](READMEs/kabilar.md) | [:heavy_check_mark: (2)](READMEs/kabilar.md) |  |  | 2025-01-11 23:21:55+00:00 |
+| 652 | [kaczmarj/*](https://github.com/kaczmarj) [(2)](READMEs/kaczmarj.md) | [0](READMEs/kaczmarj.md) | [:heavy_check_mark: (2)](READMEs/kaczmarj.md) |  |  | 2019-01-10 14:21:02+00:00 |
+| 653 | [kestra-io/kestra](https://github.com/kestra-io/kestra) | 29613 |  | :heavy_check_mark: |  | 2026-10-15 11:11:13+00:00 |
+| 654 | [kgbarlea/*](https://github.com/kgbarlea) [(2)](READMEs/kgbarlea.md) | [0](READMEs/kgbarlea.md) |  | [:heavy_check_mark: (2)](READMEs/kgbarlea.md) |  | 2026-08-05 19:55:27+00:00 |
+| 655 | [khanlab-datasets/*](https://github.com/khanlab-datasets) [(4)](READMEs/khanlab-datasets.md) | [2](READMEs/khanlab-datasets.md) | [:heavy_check_mark: (4)](READMEs/khanlab-datasets.md) |  |  | 2022-05-04 14:34:57+00:00 |
+| 656 | [khanlab/*](https://github.com/khanlab) [(3)](READMEs/khanlab.md) | [24](READMEs/khanlab.md) | [:heavy_check_mark: (2)](READMEs/khanlab.md) | [:heavy_check_mark: (1)](READMEs/khanlab.md) |  | 2026-04-01 08:15:11+00:00 |
+| 657 | [khongmanhpro/chatbot](https://github.com/khongmanhpro/chatbot) | 1 |  | :heavy_check_mark: |  | 2025-09-24 07:43:26+00:00 |
+| 658 | [kimjetwav/KIMEL_DATASETS](https://github.com/kimjetwav/KIMEL_DATASETS) | 0 | :heavy_check_mark: |  |  | 2021-05-12 19:48:06+00:00 |
+| 659 | [kimsin98/*](https://github.com/kimsin98) [(4)](READMEs/kimsin98.md) | [2](READMEs/kimsin98.md) | [:heavy_check_mark: (3)](READMEs/kimsin98.md) | [:heavy_check_mark: (3)](READMEs/kimsin98.md) | [:heavy_check_mark: (1)](READMEs/kimsin98.md) | 2025-02-24 18:01:23+00:00 |
+| 660 | [kleinerm/Psychtoolbox-3](https://github.com/kleinerm/Psychtoolbox-3) | 116 |  | :heavy_check_mark: |  | 2026-10-16 05:05:47+00:00 |
+| 661 | [knuedd/datalad-slurm](https://github.com/knuedd/datalad-slurm) | 1 |  | :heavy_check_mark: |  | 2026-09-29 16:02:29+00:00 |
+| 662 | [kongtiaowang/conp-dataset](https://github.com/kongtiaowang/conp-dataset) | 0 | :heavy_check_mark: |  |  | 2026-04-30 15:34:31+00:00 |
+| 663 | [kris893/open-webui](https://github.com/kris893/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-05-01 01:36:47+00:00 |
+| 664 | [kush-coder/*](https://github.com/kush-coder) [(2)](READMEs/kush-coder.md) | [0](READMEs/kush-coder.md) |  | [:heavy_check_mark: (2)](READMEs/kush-coder.md) |  | 2026-08-13 07:42:55+00:00 |
+| 665 | [kyleam/*](https://github.com/kyleam) [(2)](READMEs/kyleam.md) | [0](READMEs/kyleam.md) | [:heavy_check_mark: (2)](READMEs/kyleam.md) |  |  | 2021-04-23 13:03:17+00:00 |
+| 666 | [kylinsar/OneChat_OWUI](https://github.com/kylinsar/OneChat_OWUI) | 0 |  | :heavy_check_mark: |  | 2025-02-20 05:26:43+00:00 |
+| 667 | [labgas/*](https://github.com/labgas) [(6)](READMEs/labgas.md) | [0](READMEs/labgas.md) | [:heavy_check_mark: (5)](READMEs/labgas.md) | [:heavy_check_mark: (4)](READMEs/labgas.md) | [:heavy_check_mark: (3)](READMEs/labgas.md) | 2024-05-14 12:54:23+00:00 |
+| 668 | [lagbaix/open-webui](https://github.com/lagbaix/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-12-01 08:01:27+00:00 |
+| 669 | [lattwood/open-webui](https://github.com/lattwood/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-05-09 12:43:11+00:00 |
+| 670 | [leej3/*](https://github.com/leej3) [(13)](READMEs/leej3.md) | [0](READMEs/leej3.md) | [:heavy_check_mark: (10)](READMEs/leej3.md) | [:heavy_check_mark: (4)](READMEs/leej3.md) |  | 2026-10-16 01:37:51+00:00 |
+| 671 | [libertyh/ohbm2020-posters](https://github.com/libertyh/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-24 20:42:35+00:00 |
+| 672 | [libgit2/pygit2](https://github.com/libgit2/pygit2) | 1732 |  | :heavy_check_mark: |  | 2026-09-30 09:29:57+00:00 |
+| 673 | [lin82-2023/NexQbot](https://github.com/lin82-2023/NexQbot) | 0 |  | :heavy_check_mark: |  | 2026-04-11 15:04:04+00:00 |
+| 674 | [linkml/*](https://github.com/linkml) [(8)](READMEs/linkml.md) | [986](READMEs/linkml.md) |  | [:heavy_check_mark: (8)](READMEs/linkml.md) |  | 2026-10-20 20:44:44+00:00 |
+| 675 | [lisds/textbook](https://github.com/lisds/textbook) | 7 |  | :heavy_check_mark: |  | 2024-06-05 16:13:08+00:00 |
+| 676 | [litalmagen/openWebui](https://github.com/litalmagen/openWebui) | 0 |  | :heavy_check_mark: |  | 2025-10-26 18:16:07+00:00 |
+| 677 | [lixuri123/nanobot](https://github.com/lixuri123/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-31 15:48:18+00:00 |
+| 678 | [lm552/nanobot_agent](https://github.com/lm552/nanobot_agent) | 0 |  | :heavy_check_mark: |  | 2026-05-16 20:59:10+00:00 |
+| 679 | [lnnrtwttkhn/*](https://github.com/lnnrtwttkhn) [(20)](READMEs/lnnrtwttkhn.md) | [25](READMEs/lnnrtwttkhn.md) | [:heavy_check_mark: (16)](READMEs/lnnrtwttkhn.md) | [:heavy_check_mark: (6)](READMEs/lnnrtwttkhn.md) |  | 2026-04-16 22:08:49+00:00 |
+| 680 | [lobennett/neuro_workflow](https://github.com/lobennett/neuro_workflow) | 0 |  | :heavy_check_mark: |  | 2026-07-12 16:00:26+00:00 |
+| 681 | [lucasgautheron/*](https://github.com/lucasgautheron) [(3)](READMEs/lucasgautheron.md) | [6](READMEs/lucasgautheron.md) | [:heavy_check_mark: (3)](READMEs/lucasgautheron.md) |  |  | 2022-08-26 20:45:35+00:00 |
+| 682 | [luccas-silveira/zoi-webai](https://github.com/luccas-silveira/zoi-webai) | 0 |  | :heavy_check_mark: |  | 2025-09-26 21:04:49+00:00 |
+| 683 | [lukasvo76/*](https://github.com/lukasvo76) [(2)](READMEs/lukasvo76.md) | [0](READMEs/lukasvo76.md) | [:heavy_check_mark: (2)](READMEs/lukasvo76.md) | [:heavy_check_mark: (2)](READMEs/lukasvo76.md) |  | 2021-09-10 13:41:06+00:00 |
+| 684 | [lumina-ai-inc/chunkr](https://github.com/lumina-ai-inc/chunkr) | 4150 |  | :heavy_check_mark: |  | 2026-09-09 22:54:07+00:00 |
+| 685 | [lvh/reveal.js](https://github.com/lvh/reveal.js) | 0 |  | :heavy_check_mark: |  | 2025-12-28 22:42:04+00:00 |
+| 686 | [lxxx0926/lxx](https://github.com/lxxx0926/lxx) | 0 |  | :heavy_check_mark: |  | 2026-10-13 08:13:21+00:00 |
+| 687 | [lzx-dev/*](https://github.com/lzx-dev) [(2)](READMEs/lzx-dev.md) | [0](READMEs/lzx-dev.md) | [:heavy_check_mark: (2)](READMEs/lzx-dev.md) |  |  | 2023-03-20 15:36:55+00:00 |
+| 688 | [m-xiaobai/nanobot-stock](https://github.com/m-xiaobai/nanobot-stock) | 0 |  | :heavy_check_mark: |  | 2026-07-13 15:22:15+00:00 |
+| 689 | [madboy1319/Zero](https://github.com/madboy1319/Zero) | 0 |  | :heavy_check_mark: |  | 2026-04-15 12:13:21+00:00 |
+| 690 | [maelleF/compute_canada_tuto](https://github.com/maelleF/compute_canada_tuto) | 0 | :heavy_check_mark: |  |  | 2020-10-06 12:17:36+00:00 |
+| 691 | [magic-wormhole/magic-wormhole](https://github.com/magic-wormhole/magic-wormhole) | 22998 |  | :heavy_check_mark: |  | 2026-10-16 16:55:30+00:00 |
+| 692 | [magland/*](https://github.com/magland) [(4)](READMEs/magland.md) | [4](READMEs/magland.md) |  | [:heavy_check_mark: (4)](READMEs/magland.md) |  | 2026-10-12 21:06:54+00:00 |
+| 693 | [makeplane/plane](https://github.com/makeplane/plane) | 61163 |  | :heavy_check_mark: |  | 2026-10-19 09:15:32+00:00 |
+| 694 | [malikwirin/datalad-nix](https://github.com/malikwirin/datalad-nix) | 1 |  | :heavy_check_mark: |  | 2025-06-01 13:47:37+00:00 |
+| 695 | [manelis-lab/myelin-paper-NICL2021](https://github.com/manelis-lab/myelin-paper-NICL2021) | 0 | :heavy_check_mark: |  |  | 2021-08-26 17:22:26+00:00 |
+| 696 | [mangalakulal105/data-on-eks](https://github.com/mangalakulal105/data-on-eks) | 0 |  | :heavy_check_mark: |  | 2024-05-10 10:43:03+00:00 |
+| 697 | [mar10/wsgidav](https://github.com/mar10/wsgidav) | 1245 |  | :heavy_check_mark: |  | 2026-10-18 17:01:04+00:00 |
+| 698 | [marcobarilari/*](https://github.com/marcobarilari) [(4)](READMEs/marcobarilari.md) | [1](READMEs/marcobarilari.md) | [:heavy_check_mark: (4)](READMEs/marcobarilari.md) |  |  | 2023-03-01 04:00:42+00:00 |
+| 699 | [matakanfoca/schemaorg](https://github.com/matakanfoca/schemaorg) | 0 |  | :heavy_check_mark: |  | 2025-08-18 06:17:21+00:00 |
+| 700 | [mathdugre/*](https://github.com/mathdugre) [(2)](READMEs/mathdugre.md) | [0](READMEs/mathdugre.md) | [:heavy_check_mark: (2)](READMEs/mathdugre.md) |  |  | 2026-06-13 08:27:49+00:00 |
+| 701 | [mathworks/MATLAB-support-for-Zarr-files](https://github.com/mathworks/MATLAB-support-for-Zarr-files) | 20 |  | :heavy_check_mark: |  | 2026-10-05 18:38:52+00:00 |
+| 702 | [matrss/datalad-getexec-hypothesis-example-db](https://github.com/matrss/datalad-getexec-hypothesis-example-db) | 0 | :heavy_check_mark: |  |  | 2023-06-18 04:58:05+00:00 |
+| 703 | [mattcieslak/datalad-paper-joss](https://github.com/mattcieslak/datalad-paper-joss) | 0 | :heavy_check_mark: |  |  | 2021-04-14 17:29:52+00:00 |
+| 704 | [mattthro/localllm](https://github.com/mattthro/localllm) | 0 |  | :heavy_check_mark: |  | 2025-05-01 02:48:42+00:00 |
+| 705 | [maxadam2017/midtermproject](https://github.com/maxadam2017/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2020-06-29 22:56:42+00:00 |
+| 706 | [mbombwe-jr/open-webui](https://github.com/mbombwe-jr/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 06:23:39+00:00 |
+| 707 | [mcampello/pandora-ui](https://github.com/mcampello/pandora-ui) | 0 |  | :heavy_check_mark: |  | 2025-05-12 19:12:45+00:00 |
+| 708 | [mdeea/midtermproject](https://github.com/mdeea/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-08-04 05:00:37+00:00 |
+| 709 | [me-pic/*](https://github.com/me-pic) [(2)](READMEs/me-pic.md) | [0](READMEs/me-pic.md) | [:heavy_check_mark: (2)](READMEs/me-pic.md) |  |  | 2026-10-08 13:44:20+00:00 |
+| 710 | [mercure-imaging/mercure](https://github.com/mercure-imaging/mercure) | 103 |  | :heavy_check_mark: |  | 2026-10-07 17:47:30+00:00 |
+| 711 | [mfrebo/vandam-data](https://github.com/mfrebo/vandam-data) | 0 | :heavy_check_mark: |  |  | 2021-06-14 18:46:58+00:00 |
+| 712 | [mgapasawayatgoodvibes-hash/open-webui](https://github.com/mgapasawayatgoodvibes-hash/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-21 14:00:55+00:00 |
+| 713 | [mhaid/*](https://github.com/mhaid) [(3)](READMEs/mhaid.md) | [0](READMEs/mhaid.md) |  | [:heavy_check_mark: (3)](READMEs/mhaid.md) | [:heavy_check_mark: (2)](READMEs/mhaid.md) | 2024-02-12 09:43:09+00:00 |
+| 714 | [michal-ruzicka/SVDR01-DataLad-Demo](https://github.com/michal-ruzicka/SVDR01-DataLad-Demo) | 0 |  | :heavy_check_mark: |  | 2025-11-25 01:56:19+00:00 |
+| 715 | [midakaID/Nanobot](https://github.com/midakaID/Nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-05 02:38:19+00:00 |
+| 716 | [mightysai1997/official-images](https://github.com/mightysai1997/official-images) | 0 |  | :heavy_check_mark: |  | 2024-04-01 07:05:31+00:00 |
+| 717 | [mikapfl/*](https://github.com/mikapfl) [(3)](READMEs/mikapfl.md) | [6](READMEs/mikapfl.md) | [:heavy_check_mark: (3)](READMEs/mikapfl.md) | [:heavy_check_mark: (2)](READMEs/mikapfl.md) |  | 2025-02-04 14:37:52+00:00 |
+| 718 | [mikeymwonggmail/open-webui](https://github.com/mikeymwonggmail/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-29 18:28:51+00:00 |
+| 719 | [mila-iqia/bcachefs](https://github.com/mila-iqia/bcachefs) | 1 | :heavy_check_mark: |  |  | 2022-10-31 16:58:41+00:00 |
+| 720 | [miltoncamacho/midtermproject](https://github.com/miltoncamacho/midtermproject) | 0 |  | :heavy_check_mark: |  | 2023-08-24 22:24:22+00:00 |
+| 721 | [mindungil/*](https://github.com/mindungil) [(3)](READMEs/mindungil.md) | [0](READMEs/mindungil.md) |  | [:heavy_check_mark: (3)](READMEs/mindungil.md) |  | 2025-12-09 19:47:23+00:00 |
+| 722 | [minoojl/ds004078](https://github.com/minoojl/ds004078) | 0 | :heavy_check_mark: |  |  | 2023-02-13 20:53:14+00:00 |
+| 723 | [misrtjakub/*](https://github.com/misrtjakub) [(3)](READMEs/misrtjakub.md) | [0](READMEs/misrtjakub.md) |  | [:heavy_check_mark: (3)](READMEs/misrtjakub.md) |  | 2025-07-10 09:58:00+00:00 |
+| 724 | [miykael/nipype_tutorial](https://github.com/miykael/nipype_tutorial) | 132 |  | :heavy_check_mark: |  | 2024-03-21 15:30:30+00:00 |
+| 725 | [mjboos/testrepo6](https://github.com/mjboos/testrepo6) | 0 | :heavy_check_mark: |  |  | 2020-06-18 12:53:44+00:00 |
+| 726 | [mjh2735/gpt4all](https://github.com/mjh2735/gpt4all) | 0 |  | :heavy_check_mark: |  | 2023-10-27 16:08:33+00:00 |
+| 727 | [mlell/ipkqg.args](https://github.com/mlell/ipkqg.args) | 0 | :heavy_check_mark: |  |  | 2024-02-15 15:21:36+00:00 |
+| 728 | [mmejia23/CF_EP](https://github.com/mmejia23/CF_EP) | 0 |  | :heavy_check_mark: |  | 2024-07-22 03:53:34+00:00 |
+| 729 | [mocheng11123/openwebui](https://github.com/mocheng11123/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-05-01 09:28:37+00:00 |
+| 730 | [mohanadarafe/*](https://github.com/mohanadarafe) [(4)](READMEs/mohanadarafe.md) | [0](READMEs/mohanadarafe.md) | [:heavy_check_mark: (4)](READMEs/mohanadarafe.md) |  |  | 2023-04-26 18:15:49+00:00 |
+| 731 | [mollyic/mriqc](https://github.com/mollyic/mriqc) | 0 |  | :heavy_check_mark: |  | 2025-03-14 05:14:41+00:00 |
+| 732 | [moloney/dcmstack](https://github.com/moloney/dcmstack) | 78 |  | :heavy_check_mark: |  | 2026-03-24 00:23:08+00:00 |
+| 733 | [monarch-initiative/ontogpt](https://github.com/monarch-initiative/ontogpt) | 1064 |  | :heavy_check_mark: |  | 2026-09-10 16:36:04+00:00 |
+| 734 | [monkey-knight/front-fiesta](https://github.com/monkey-knight/front-fiesta) | 0 |  | :heavy_check_mark: |  | 2025-07-03 22:53:43+00:00 |
+| 735 | [mrirecon/bart](https://github.com/mrirecon/bart) | 370 |  | :heavy_check_mark: |  | 2026-03-01 08:00:28+00:00 |
+| 736 | [mschoettner/midtermproject](https://github.com/mschoettner/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2022-02-02 12:27:08+00:00 |
+| 737 | [mslw/*](https://github.com/mslw) [(8)](READMEs/mslw.md) | [0](READMEs/mslw.md) | [:heavy_check_mark: (8)](READMEs/mslw.md) |  |  | 2023-07-25 15:43:30+00:00 |
+| 738 | [msrlab/*](https://github.com/msrlab) [(2)](READMEs/msrlab.md) | [0](READMEs/msrlab.md) | [:heavy_check_mark: (1)](READMEs/msrlab.md) | [:heavy_check_mark: (1)](READMEs/msrlab.md) |  | 2020-07-21 16:18:48+00:00 |
+| 739 | [msventurini/based-open-webui](https://github.com/msventurini/based-open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-20 05:42:06+00:00 |
+| 740 | [msvkvprasad1976/paperwriting](https://github.com/msvkvprasad1976/paperwriting) | 0 |  | :heavy_check_mark: |  | 2026-06-19 17:49:24+00:00 |
+| 741 | [musicheardworldwide/wane-ui](https://github.com/musicheardworldwide/wane-ui) | 1 |  | :heavy_check_mark: |  | 2025-04-22 12:44:15+00:00 |
+| 742 | [muyujx/nanobot](https://github.com/muyujx/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-08-11 07:36:54+00:00 |
+| 743 | [mvaliev/s2-osf-test-1](https://github.com/mvaliev/s2-osf-test-1) | 0 | :heavy_check_mark: |  |  | 2023-01-08 20:44:37+00:00 |
+| 744 | [mvdoc/*](https://github.com/mvdoc) [(2)](READMEs/mvdoc.md) | [0](READMEs/mvdoc.md) | [:heavy_check_mark: (2)](READMEs/mvdoc.md) | [:heavy_check_mark: (1)](READMEs/mvdoc.md) |  | 2018-10-15 17:12:21+00:00 |
+| 745 | [mykrok/mykrok](https://github.com/mykrok/mykrok) | 4 |  | :heavy_check_mark: |  | 2026-08-19 16:43:52+00:00 |
+| 746 | [mzkrasner/*](https://github.com/mzkrasner) [(2)](READMEs/mzkrasner.md) | [0](READMEs/mzkrasner.md) |  | [:heavy_check_mark: (2)](READMEs/mzkrasner.md) |  | 2023-09-18 08:21:05+00:00 |
+| 747 | [n0imposta/nanobot](https://github.com/n0imposta/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-13 21:18:45+00:00 |
+| 748 | [naldea/nnUnet](https://github.com/naldea/nnUnet) | 0 |  | :heavy_check_mark: |  | 2024-11-01 16:00:57+00:00 |
+| 749 | [naming123/nnUNet_NCCT](https://github.com/naming123/nnUNet_NCCT) | 0 |  | :heavy_check_mark: |  | 2025-02-10 11:47:20+00:00 |
+| 750 | [nanoinfraorg/nanoinfra](https://github.com/nanoinfraorg/nanoinfra) | 3 |  | :heavy_check_mark: |  | 2026-10-04 23:30:34+00:00 |
+| 751 | [nata1ka89/my-presentation](https://github.com/nata1ka89/my-presentation) | 0 |  | :heavy_check_mark: |  | 2025-04-26 09:08:31+00:00 |
+| 752 | [naturalistic-data-analysis/naturalistic-data](https://github.com/naturalistic-data-analysis/naturalistic-data) | 1 | :heavy_check_mark: |  |  | 2020-07-13 21:43:12+00:00 |
+| 753 | [navenchary/drf](https://github.com/navenchary/drf) | 0 |  | :heavy_check_mark: |  | 2025-09-08 11:27:50+00:00 |
+| 754 | [nbirnel/who-owns-the-housing](https://github.com/nbirnel/who-owns-the-housing) | 0 |  | :heavy_check_mark: |  | 2025-05-30 19:07:06+00:00 |
+| 755 | [nebius/soperator](https://github.com/nebius/soperator) | 451 |  | :heavy_check_mark: |  | 2026-10-19 12:30:32+00:00 |
+| 756 | [nektos/act](https://github.com/nektos/act) | 72414 |  | :heavy_check_mark: |  | 2026-08-09 22:50:11+00:00 |
+| 757 | [nemarDatasets/*](https://github.com/nemarDatasets) [(924)](READMEs/nemarDatasets.md) | [23](READMEs/nemarDatasets.md) | [:heavy_check_mark: (924)](READMEs/nemarDatasets.md) |  |  | 2026-10-21 22:12:53+00:00 |
+| 758 | [neronain/open-webui](https://github.com/neronain/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 13:50:23+00:00 |
+| 759 | [netbox-community/netbox](https://github.com/netbox-community/netbox) | 21738 |  | :heavy_check_mark: |  | 2026-10-21 05:02:16+00:00 |
+| 760 | [netinvent/command_runner](https://github.com/netinvent/command_runner) | 44 |  | :heavy_check_mark: |  | 2026-06-03 16:14:45+00:00 |
+| 761 | [netneurolab/neuromaps](https://github.com/netneurolab/neuromaps) | 351 |  | :heavy_check_mark: |  | 2026-06-13 07:03:47+00:00 |
+| 762 | [networkx/networkx](https://github.com/networkx/networkx) | 17347 |  | :heavy_check_mark: |  | 2026-10-16 22:01:28+00:00 |
+| 763 | [neuralcoreorg/webui](https://github.com/neuralcoreorg/webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 23:43:44+00:00 |
+| 764 | [neurdylab/physai](https://github.com/neurdylab/physai) | 1 |  | :heavy_check_mark: |  | 2026-01-27 22:24:32+00:00 |
+| 765 | [neurobagel/*](https://github.com/neurobagel) [(3)](READMEs/neurobagel.md) | [32](READMEs/neurobagel.md) |  | [:heavy_check_mark: (3)](READMEs/neurobagel.md) |  | 2026-10-20 18:14:00+00:00 |
+| 766 | [neuroboros/neuroboros](https://github.com/neuroboros/neuroboros) | 18 |  | :heavy_check_mark: |  | 2026-09-28 22:37:26+00:00 |
+| 767 | [neurodesk/neurodesktop](https://github.com/neurodesk/neurodesktop) | 72 |  | :heavy_check_mark: |  | 2026-10-22 05:10:37+00:00 |
+| 768 | [neuroinformatics-unit/*](https://github.com/neuroinformatics-unit) [(3)](READMEs/neuroinformatics-unit.md) | [416](READMEs/neuroinformatics-unit.md) |  | [:heavy_check_mark: (3)](READMEs/neuroinformatics-unit.md) |  | 2026-10-21 09:26:48+00:00 |
+| 769 | [neurolibre/*](https://github.com/neurolibre) [(2)](READMEs/neurolibre.md) | [5](READMEs/neurolibre.md) |  | [:heavy_check_mark: (2)](READMEs/neurolibre.md) |  | 2026-08-31 01:30:44+00:00 |
+| 770 | [neuronets/*](https://github.com/neuronets) [(5)](READMEs/neuronets.md) | [197](READMEs/neuronets.md) | [:heavy_check_mark: (4)](READMEs/neuronets.md) | [:heavy_check_mark: (1)](READMEs/neuronets.md) |  | 2026-04-14 16:29:40+00:00 |
+| 771 | [neuroneural/trained-models](https://github.com/neuroneural/trained-models) | 0 | :heavy_check_mark: |  |  | 2022-08-24 16:37:21+00:00 |
+| 772 | [neuroscout-datasets/*](https://github.com/neuroscout-datasets) [(17)](READMEs/neuroscout-datasets.md) | [0](READMEs/neuroscout-datasets.md) | [:heavy_check_mark: (17)](READMEs/neuroscout-datasets.md) | [:heavy_check_mark: (1)](READMEs/neuroscout-datasets.md) |  | 2021-06-04 17:52:03+00:00 |
+| 773 | [neuroscout/fmriprep-singularity](https://github.com/neuroscout/fmriprep-singularity) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2018-07-01 17:28:26+00:00 |
+| 774 | [neurostuff/*](https://github.com/neurostuff) [(3)](READMEs/neurostuff.md) | [17](READMEs/neurostuff.md) | [:heavy_check_mark: (1)](READMEs/neurostuff.md) | [:heavy_check_mark: (3)](READMEs/neurostuff.md) | [:heavy_check_mark: (1)](READMEs/neurostuff.md) | 2026-10-23 15:26:16+00:00 |
+| 775 | [next-drought/ForestAI-OpenWeb](https://github.com/next-drought/ForestAI-OpenWeb) | 0 |  | :heavy_check_mark: |  | 2025-04-25 17:38:07+00:00 |
+| 776 | [nhessler/stranger_domains](https://github.com/nhessler/stranger_domains) | 0 |  | :heavy_check_mark: |  | 2025-09-04 21:26:38+00:00 |
+| 777 | [nhuneke/dataset-setup-procedures](https://github.com/nhuneke/dataset-setup-procedures) | 2 | :heavy_check_mark: |  |  | 2022-11-01 12:28:01+00:00 |
+| 778 | [nialov/clan-mobile](https://github.com/nialov/clan-mobile) | 0 | :heavy_check_mark: |  |  | 2025-08-17 20:34:38+00:00 |
+| 779 | [nicolocin/*](https://github.com/nicolocin) [(4)](READMEs/nicolocin.md) | [0](READMEs/nicolocin.md) | [:heavy_check_mark: (3)](READMEs/nicolocin.md) | [:heavy_check_mark: (3)](READMEs/nicolocin.md) |  | 2020-11-23 10:49:15+00:00 |
+| 780 | [nih-fmrif/contarg_test_data](https://github.com/nih-fmrif/contarg_test_data) | 0 | :heavy_check_mark: |  |  | 2023-02-16 20:41:20+00:00 |
+| 781 | [niivue/*](https://github.com/niivue) [(2)](READMEs/niivue.md) | [551](READMEs/niivue.md) |  | [:heavy_check_mark: (2)](READMEs/niivue.md) |  | 2026-10-19 04:19:41+00:00 |
+| 782 | [nilearn/nilearn](https://github.com/nilearn/nilearn) | 1449 |  | :heavy_check_mark: |  | 2026-10-22 06:50:56+00:00 |
+| 783 | [nipraxis/textbook](https://github.com/nipraxis/textbook) | 17 |  | :heavy_check_mark: |  | 2023-09-17 23:11:14+00:00 |
+| 784 | [nipreps-data/*](https://github.com/nipreps-data) [(26)](READMEs/nipreps-data.md) | [1](READMEs/nipreps-data.md) | [:heavy_check_mark: (25)](READMEs/nipreps-data.md) | [:heavy_check_mark: (3)](READMEs/nipreps-data.md) |  | 2026-08-11 17:57:12+00:00 |
+| 785 | [nipreps/*](https://github.com/nipreps) [(9)](READMEs/nipreps.md) | [1531](READMEs/nipreps.md) |  | [:heavy_check_mark: (9)](READMEs/nipreps.md) |  | 2026-10-21 00:04:49+00:00 |
+| 786 | [nipy/*](https://github.com/nipy) [(5)](READMEs/nipy.md) | [2179](READMEs/nipy.md) | [:heavy_check_mark: (1)](READMEs/nipy.md) | [:heavy_check_mark: (5)](READMEs/nipy.md) |  | 2026-10-19 15:52:22+00:00 |
+| 787 | [nirajs2552/*](https://github.com/nirajs2552) [(2)](READMEs/nirajs2552.md) | [0](READMEs/nirajs2552.md) |  | [:heavy_check_mark: (2)](READMEs/nirajs2552.md) |  | 2026-01-02 08:29:18+00:00 |
+| 788 | [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all) | 77348 |  | :heavy_check_mark: |  | 2025-05-27 20:05:19+00:00 |
+| 789 | [notasecret/gpt4all](https://github.com/notasecret/gpt4all) | 0 |  | :heavy_check_mark: |  | 2023-08-27 01:11:26+00:00 |
+| 790 | [notestaff/datalad-paper-joss](https://github.com/notestaff/datalad-paper-joss) | 0 | :heavy_check_mark: |  |  | 2021-04-16 05:50:31+00:00 |
+| 791 | [notroj/*](https://github.com/notroj) [(2)](READMEs/notroj.md) | [188](READMEs/notroj.md) |  | [:heavy_check_mark: (2)](READMEs/notroj.md) |  | 2026-10-04 15:12:40+00:00 |
+| 792 | [nrdg/*](https://github.com/nrdg) [(3)](READMEs/nrdg.md) | [2](READMEs/nrdg.md) | [:heavy_check_mark: (3)](READMEs/nrdg.md) |  |  | 2022-09-04 22:44:16+00:00 |
+| 793 | [ntolley/*](https://github.com/ntolley) [(5)](READMEs/ntolley.md) | [1](READMEs/ntolley.md) | [:heavy_check_mark: (2)](READMEs/ntolley.md) | [:heavy_check_mark: (3)](READMEs/ntolley.md) |  | 2021-08-30 01:18:46+00:00 |
+| 794 | [nwb-extensions/nwbep-review](https://github.com/nwb-extensions/nwbep-review) | 2 |  | :heavy_check_mark: |  | 2026-08-31 18:33:56+00:00 |
+| 795 | [odin-mit/odin-mit.github.io](https://github.com/odin-mit/odin-mit.github.io) | 0 |  | :heavy_check_mark: |  | 2025-06-18 18:42:48+00:00 |
+| 796 | [odsti/*](https://github.com/odsti) [(2)](READMEs/odsti.md) | [0](READMEs/odsti.md) |  | [:heavy_check_mark: (2)](READMEs/odsti.md) |  | 2025-11-03 14:30:53+00:00 |
+| 797 | [oesteban/*](https://github.com/oesteban) [(13)](READMEs/oesteban.md) | [1](READMEs/oesteban.md) | [:heavy_check_mark: (13)](READMEs/oesteban.md) | [:heavy_check_mark: (1)](READMEs/oesteban.md) |  | 2023-08-02 12:38:01+00:00 |
+| 798 | [ohbm-wannabe/ohbm2020-posters](https://github.com/ohbm-wannabe/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-11-06 21:16:11+00:00 |
+| 799 | [ohbm/*](https://github.com/ohbm) [(2)](READMEs/ohbm.md) | [6](READMEs/ohbm.md) |  | [:heavy_check_mark: (2)](READMEs/ohbm.md) |  | 2026-09-20 04:48:16+00:00 |
+| 800 | [olya-us/mui-presentation](https://github.com/olya-us/mui-presentation) | 1 |  | :heavy_check_mark: |  | 2025-06-19 12:32:25+00:00 |
+| 801 | [ome/*](https://github.com/ome) [(2)](READMEs/ome.md) | [189](READMEs/ome.md) |  | [:heavy_check_mark: (2)](READMEs/ome.md) |  | 2026-10-16 16:14:08+00:00 |
+| 802 | [onepointconsulting/nanobot](https://github.com/onepointconsulting/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-04-28 08:04:47+00:00 |
+| 803 | [open-cogsci/OpenSesame](https://github.com/open-cogsci/OpenSesame) | 281 |  | :heavy_check_mark: |  | 2026-10-08 08:53:26+00:00 |
+| 804 | [open-ephys-plugins/nwb-zarr-format](https://github.com/open-ephys-plugins/nwb-zarr-format) | 0 |  | :heavy_check_mark: |  | 2023-07-17 22:27:02+00:00 |
+| 805 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | 155764 |  | :heavy_check_mark: |  | 2026-10-15 11:09:02+00:00 |
+| 806 | [openMetadataInitiative/*](https://github.com/openMetadataInitiative) [(2)](READMEs/openMetadataInitiative.md) | [11](READMEs/openMetadataInitiative.md) |  | [:heavy_check_mark: (2)](READMEs/openMetadataInitiative.md) |  | 2026-10-21 10:14:54+00:00 |
+| 807 | [openSUSE/snapper](https://github.com/openSUSE/snapper) | 1181 |  | :heavy_check_mark: |  | 2026-10-21 10:46:17+00:00 |
+| 808 | [opening-hours/opening_hours.js](https://github.com/opening-hours/opening_hours.js) | 258 |  | :heavy_check_mark: |  | 2026-10-21 06:09:02+00:00 |
+| 809 | [openneuropet/*](https://github.com/openneuropet) [(2)](READMEs/openneuropet.md) | [42](READMEs/openneuropet.md) |  | [:heavy_check_mark: (2)](READMEs/openneuropet.md) |  | 2026-10-09 15:42:43+00:00 |
+| 810 | [oraios/serena](https://github.com/oraios/serena) | 30644 |  | :heavy_check_mark: |  | 2026-10-20 08:47:27+00:00 |
+| 811 | [p2p-ld/*](https://github.com/p2p-ld) [(2)](READMEs/p2p-ld.md) | [154](READMEs/p2p-ld.md) |  | [:heavy_check_mark: (2)](READMEs/p2p-ld.md) |  | 2026-10-13 23:12:29+00:00 |
+| 812 | [panjd123/open-webui-ruc](https://github.com/panjd123/open-webui-ruc) | 1 |  | :heavy_check_mark: |  | 2025-03-07 01:54:07+00:00 |
+| 813 | [paquiteau/patch-denoising](https://github.com/paquiteau/patch-denoising) | 26 |  | :heavy_check_mark: |  | 2026-10-16 00:43:03+00:00 |
+| 814 | [paramiko/paramiko](https://github.com/paramiko/paramiko) | 9879 |  | :heavy_check_mark: |  | 2026-10-18 02:38:54+00:00 |
+| 815 | [pasukanmeki007/open-webui](https://github.com/pasukanmeki007/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 03:26:17+00:00 |
+| 816 | [paul-reiners/midtermproject](https://github.com/paul-reiners/midtermproject) | 0 |  | :heavy_check_mark: |  | 2024-03-27 17:25:07+00:00 |
+| 817 | [paulozava/lazyclick](https://github.com/paulozava/lazyclick) | 1 |  | :heavy_check_mark: |  | 2025-03-26 11:42:01+00:00 |
+| 818 | [pbrowneCS/Vesta003](https://github.com/pbrowneCS/Vesta003) | 0 |  | :heavy_check_mark: |  | 2025-10-01 13:17:56+00:00 |
+| 819 | [pcamach2/AIDAqc](https://github.com/pcamach2/AIDAqc) | 0 | :heavy_check_mark: |  |  | 2025-05-28 13:53:18+00:00 |
+| 820 | [pcardosolei/tooling](https://github.com/pcardosolei/tooling) | 0 |  | :heavy_check_mark: |  | 2025-05-21 14:30:12+00:00 |
+| 821 | [pecansdik/libary](https://github.com/pecansdik/libary) | 0 |  | :heavy_check_mark: |  | 2021-04-10 03:41:07+00:00 |
+| 822 | [pedrocarvi/owui-libre](https://github.com/pedrocarvi/owui-libre) | 0 |  | :heavy_check_mark: |  | 2025-10-31 12:17:39+00:00 |
+| 823 | [pengbo-web/nanobot](https://github.com/pengbo-web/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-07-19 09:02:22+00:00 |
+| 824 | [penjud/open-webui](https://github.com/penjud/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-03-04 22:55:14+00:00 |
+| 825 | [phasheen/revealjs-snuphel](https://github.com/phasheen/revealjs-snuphel) | 0 |  | :heavy_check_mark: |  | 2025-04-28 06:50:04+00:00 |
+| 826 | [physiopy/phys2bids](https://github.com/physiopy/phys2bids) | 66 |  | :heavy_check_mark: |  | 2026-10-19 20:29:03+00:00 |
+| 827 | [pithanakrit/nginx_1](https://github.com/pithanakrit/nginx_1) | 0 |  | :heavy_check_mark: |  | 2021-01-19 08:12:54+00:00 |
+| 828 | [pjungwir/*](https://github.com/pjungwir) [(2)](READMEs/pjungwir.md) | [0](READMEs/pjungwir.md) |  | [:heavy_check_mark: (2)](READMEs/pjungwir.md) |  | 2025-05-14 19:08:32+00:00 |
+| 829 | [playstatle/*](https://github.com/playstatle) [(2)](READMEs/playstatle.md) | [1](READMEs/playstatle.md) |  | [:heavy_check_mark: (2)](READMEs/playstatle.md) |  | 2025-10-01 16:35:16+00:00 |
+| 830 | [plenoptic-org/plenoptic](https://github.com/plenoptic-org/plenoptic) | 95 |  | :heavy_check_mark: |  | 2026-10-14 20:47:51+00:00 |
+| 831 | [pni-data/*](https://github.com/pni-data) [(12)](READMEs/pni-data.md) | [3](READMEs/pni-data.md) | [:heavy_check_mark: (12)](READMEs/pni-data.md) |  |  | 2026-03-23 15:42:57+00:00 |
+| 832 | [pnplab/docker-datalad](https://github.com/pnplab/docker-datalad) | 0 | :heavy_check_mark: |  |  | 2021-12-04 16:20:54+00:00 |
+| 833 | [poldrack/*](https://github.com/poldrack) [(2)](READMEs/poldrack.md) | [71](READMEs/poldrack.md) |  | [:heavy_check_mark: (2)](READMEs/poldrack.md) |  | 2026-02-23 17:28:27+00:00 |
+| 834 | [poldracklab/*](https://github.com/poldracklab) [(3)](READMEs/poldracklab.md) | [227](READMEs/poldracklab.md) |  | [:heavy_check_mark: (3)](READMEs/poldracklab.md) |  | 2026-10-19 20:54:13+00:00 |
+| 835 | [polygonart6777/badmathart](https://github.com/polygonart6777/badmathart) | 0 |  | :heavy_check_mark: |  | 2026-03-10 00:59:18+00:00 |
+| 836 | [prakharranjantransactionsquare/rag-ui-websearch](https://github.com/prakharranjantransactionsquare/rag-ui-websearch) | 0 |  | :heavy_check_mark: |  | 2025-12-01 17:30:18+00:00 |
+| 837 | [pranavmishra90/*](https://github.com/pranavmishra90) [(11)](READMEs/pranavmishra90.md) | [4](READMEs/pranavmishra90.md) | [:heavy_check_mark: (11)](READMEs/pranavmishra90.md) |  |  | 2026-05-27 20:19:41+00:00 |
+| 838 | [predictionguard/Chat-Interface](https://github.com/predictionguard/Chat-Interface) | 0 |  | :heavy_check_mark: |  | 2025-09-30 15:40:09+00:00 |
+| 839 | [preludetech/*](https://github.com/preludetech) [(3)](READMEs/preludetech.md) | [0](READMEs/preludetech.md) |  | [:heavy_check_mark: (3)](READMEs/preludetech.md) |  | 2025-09-21 06:15:21+00:00 |
+| 840 | [primap-community/FAOSTAT_data_primap](https://github.com/primap-community/FAOSTAT_data_primap) | 0 |  | :heavy_check_mark: |  | 2026-09-28 09:30:22+00:00 |
+| 841 | [prism-science/diffuse-processing-mac1-east-west](https://github.com/prism-science/diffuse-processing-mac1-east-west) | 0 |  | :heavy_check_mark: |  | 2026-10-19 02:04:56+00:00 |
+| 842 | [progtw/midtermproject](https://github.com/progtw/midtermproject) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2022-07-08 17:20:35+00:00 |
+| 843 | [protontypes/LibreSelery](https://github.com/protontypes/LibreSelery) | 126 |  | :heavy_check_mark: |  | 2022-08-27 21:17:21+00:00 |
+| 844 | [psadil/ds005256](https://github.com/psadil/ds005256) | 0 | :heavy_check_mark: |  |  | 2025-11-24 23:11:09+00:00 |
+| 845 | [psych-ds/*](https://github.com/psych-ds) [(3)](READMEs/psych-ds.md) | [105](READMEs/psych-ds.md) |  | [:heavy_check_mark: (3)](READMEs/psych-ds.md) |  | 2026-06-08 13:46:34+00:00 |
+| 846 | [py-why/causal-learn](https://github.com/py-why/causal-learn) | 1699 |  | :heavy_check_mark: |  | 2026-09-04 16:50:44+00:00 |
+| 847 | [pynapple-org/pynapple](https://github.com/pynapple-org/pynapple) | 381 |  | :heavy_check_mark: |  | 2026-10-17 14:11:27+00:00 |
+| 848 | [pyout/pyout](https://github.com/pyout/pyout) | 4 |  | :heavy_check_mark: |  | 2025-02-22 15:10:34+00:00 |
+| 849 | [python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer) | 1093 |  | :heavy_check_mark: |  | 2026-06-01 11:06:34+00:00 |
+| 850 | [qd-zzq/open-webui](https://github.com/qd-zzq/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-05-01 20:21:58+00:00 |
+| 851 | [qdrant/qdrant](https://github.com/qdrant/qdrant) | 35170 |  | :heavy_check_mark: |  | 2026-10-21 10:01:38+00:00 |
+| 852 | [qiu8866386/*](https://github.com/qiu8866386) [(5)](READMEs/qiu8866386.md) | [0](READMEs/qiu8866386.md) |  | [:heavy_check_mark: (5)](READMEs/qiu8866386.md) |  | 2025-10-01 17:27:39+00:00 |
+| 853 | [qlux/dataladrepo](https://github.com/qlux/dataladrepo) | 0 | :heavy_check_mark: |  |  | 2019-05-23 15:54:40+00:00 |
+| 854 | [r14227123-cloud/ds003814](https://github.com/r14227123-cloud/ds003814) | 0 | :heavy_check_mark: |  |  | 2026-06-08 06:42:38+00:00 |
+| 855 | [raamana/ohbm2020-posters](https://github.com/raamana/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-29 00:55:09+00:00 |
+| 856 | [radiant-rstats/*](https://github.com/radiant-rstats) [(2)](READMEs/radiant-rstats.md) | [527](READMEs/radiant-rstats.md) |  | [:heavy_check_mark: (2)](READMEs/radiant-rstats.md) |  | 2026-09-20 22:38:25+00:00 |
+| 857 | [rainBuildingTree/test-repo](https://github.com/rainBuildingTree/test-repo) | 0 |  | :heavy_check_mark: |  | 2025-10-01 04:17:06+00:00 |
+| 858 | [rainville-lab/task_stimuli](https://github.com/rainville-lab/task_stimuli) | 0 | :heavy_check_mark: |  |  | 2026-10-13 22:35:03+00:00 |
+| 859 | [ramkpari/ds000102](https://github.com/ramkpari/ds000102) | 0 | :heavy_check_mark: |  |  | 2020-08-17 19:59:25+00:00 |
+| 860 | [razoumov/*](https://github.com/razoumov) [(2)](READMEs/razoumov.md) | [1](READMEs/razoumov.md) | [:heavy_check_mark: (2)](READMEs/razoumov.md) |  |  | 2025-11-12 00:08:32+00:00 |
+| 861 | [rbayom00/presentacion-reveal.js](https://github.com/rbayom00/presentacion-reveal.js) | 0 |  | :heavy_check_mark: |  | 2025-09-24 07:59:41+00:00 |
+| 862 | [reachamirct/chatbotUI](https://github.com/reachamirct/chatbotUI) | 0 |  | :heavy_check_mark: |  | 2025-10-01 09:52:35+00:00 |
+| 863 | [realhenrylo/webui](https://github.com/realhenrylo/webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 17:23:40+00:00 |
+| 864 | [renaissanceee/nnUNet](https://github.com/renaissanceee/nnUNet) | 0 |  | :heavy_check_mark: |  | 2025-08-31 10:40:03+00:00 |
+| 865 | [render-examples/nanobot-render](https://github.com/render-examples/nanobot-render) | 5 |  | :heavy_check_mark: |  | 2026-07-10 16:59:09+00:00 |
+| 866 | [researchapps/datalad-paper-joss](https://github.com/researchapps/datalad-paper-joss) | 0 | :heavy_check_mark: |  |  | 2021-04-07 17:32:30+00:00 |
+| 867 | [reshmanthj/*](https://github.com/reshmanthj) [(2)](READMEs/reshmanthj.md) | [0](READMEs/reshmanthj.md) |  | [:heavy_check_mark: (2)](READMEs/reshmanthj.md) |  | 2025-05-01 10:12:27+00:00 |
+| 868 | [richford/hbn_url_csv](https://github.com/richford/hbn_url_csv) | 0 |  | :heavy_check_mark: |  | 2020-08-08 21:59:08+00:00 |
+| 869 | [river-g-master/my-open-webui](https://github.com/river-g-master/my-open-webui) | 0 |  | :heavy_check_mark: |  | 2025-04-19 14:25:30+00:00 |
+| 870 | [rlaza-aliando/open-ui](https://github.com/rlaza-aliando/open-ui) | 0 |  | :heavy_check_mark: |  | 2025-09-05 17:24:52+00:00 |
+| 871 | [robertoostenveld/*](https://github.com/robertoostenveld) [(20)](READMEs/robertoostenveld.md) | [4](READMEs/robertoostenveld.md) | [:heavy_check_mark: (20)](READMEs/robertoostenveld.md) |  |  | 2022-02-24 14:23:18+00:00 |
+| 872 | [rockNroll87q/ohbm2020-posters](https://github.com/rockNroll87q/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-30 11:53:20+00:00 |
+| 873 | [roman-savitskyi/party-hard](https://github.com/roman-savitskyi/party-hard) | 0 |  | :heavy_check_mark: |  | 2025-07-24 16:49:32+00:00 |
+| 874 | [rordenlab/dcm2niix](https://github.com/rordenlab/dcm2niix) | 1205 |  | :heavy_check_mark: |  | 2026-10-21 11:10:49+00:00 |
+| 875 | [rulsberger/Slides](https://github.com/rulsberger/Slides) | 0 |  | :heavy_check_mark: |  | 2025-03-24 04:17:25+00:00 |
+| 876 | [runaii98/cus-openwebui](https://github.com/runaii98/cus-openwebui) | 0 |  | :heavy_check_mark: |  | 2025-09-06 22:15:52+00:00 |
+| 877 | [rusq/slackdump](https://github.com/rusq/slackdump) | 2834 |  | :heavy_check_mark: |  | 2026-10-20 03:33:13+00:00 |
+| 878 | [rw579/nnUNet](https://github.com/rw579/nnUNet) | 0 |  | :heavy_check_mark: |  | 2024-10-18 14:53:53+00:00 |
+| 879 | [rwalpole/reveal-xmlss-pkg](https://github.com/rwalpole/reveal-xmlss-pkg) | 0 |  | :heavy_check_mark: |  | 2025-09-20 15:36:42+00:00 |
+| 880 | [ryanmgrossi/chatgpt4all](https://github.com/ryanmgrossi/chatgpt4all) | 0 |  | :heavy_check_mark: |  | 2025-02-17 02:20:51+00:00 |
+| 881 | [ryota-murakami/serena](https://github.com/ryota-murakami/serena) | 0 |  | :heavy_check_mark: |  | 2025-12-26 09:19:31+00:00 |
+| 882 | [s-ccs/LSLAutoBIDS](https://github.com/s-ccs/LSLAutoBIDS) | 10 |  | :heavy_check_mark: |  | 2026-05-13 12:09:42+00:00 |
+| 883 | [s3tools/s3cmd](https://github.com/s3tools/s3cmd) | 4919 |  | :heavy_check_mark: |  | 2025-10-22 23:26:17+00:00 |
+| 884 | [saerio/test-of-rigths](https://github.com/saerio/test-of-rigths) | 0 |  | :heavy_check_mark: |  | 2025-07-23 22:42:41+00:00 |
+| 885 | [sailfish009/*](https://github.com/sailfish009) [(3)](READMEs/sailfish009.md) | [0](READMEs/sailfish009.md) | [:heavy_check_mark: (3)](READMEs/sailfish009.md) |  |  | 2021-11-13 21:51:11+00:00 |
+| 886 | [sailfishos-mirror/python-cython](https://github.com/sailfishos-mirror/python-cython) | 0 |  | :heavy_check_mark: |  | 2026-10-19 00:14:21+00:00 |
+| 887 | [samhughess/nnuNetLS2](https://github.com/samhughess/nnuNetLS2) | 0 |  | :heavy_check_mark: |  | 2024-05-06 23:53:42+00:00 |
+| 888 | [sanderlegit/lazygit](https://github.com/sanderlegit/lazygit) | 0 |  | :heavy_check_mark: |  | 2025-04-11 18:03:33+00:00 |
+| 889 | [sangfrois/ds_prep](https://github.com/sangfrois/ds_prep) | 1 | :heavy_check_mark: |  |  | 2023-05-03 13:31:01+00:00 |
+| 890 | [sankhodeep/my-custom-openwebui](https://github.com/sankhodeep/my-custom-openwebui) | 0 |  | :heavy_check_mark: |  | 2025-11-23 10:55:19+00:00 |
+| 891 | [sashapervykh/rs-presentation](https://github.com/sashapervykh/rs-presentation) | 0 |  | :heavy_check_mark: |  | 2025-04-27 07:17:24+00:00 |
+| 892 | [satra/*](https://github.com/satra) [(5)](READMEs/satra.md) | [1](READMEs/satra.md) | [:heavy_check_mark: (5)](READMEs/satra.md) | [:heavy_check_mark: (1)](READMEs/satra.md) |  | 2021-04-16 15:43:55+00:00 |
+| 893 | [satyaog/pybenzinaconcat_test_datasets](https://github.com/satyaog/pybenzinaconcat_test_datasets) | 0 |  | :heavy_check_mark: |  | 2019-12-03 22:06:21+00:00 |
+| 894 | [saulpw/visidata](https://github.com/saulpw/visidata) | 9405 |  | :heavy_check_mark: |  | 2026-10-21 06:16:49+00:00 |
+| 895 | [scalableminds/webknossos](https://github.com/scalableminds/webknossos) | 185 |  | :heavy_check_mark: |  | 2026-10-16 16:26:07+00:00 |
+| 896 | [sccn/labstreaminglayer](https://github.com/sccn/labstreaminglayer) | 788 |  | :heavy_check_mark: |  | 2026-10-14 20:35:04+00:00 |
+| 897 | [schemaorg/schemaorg](https://github.com/schemaorg/schemaorg) | 6281 |  | :heavy_check_mark: |  | 2026-10-21 14:40:17+00:00 |
+| 898 | [scivision/linkchecker-markdown](https://github.com/scivision/linkchecker-markdown) | 39 |  | :heavy_check_mark: |  | 2025-01-08 04:18:45+00:00 |
+| 899 | [scratchrealm/pc-spike-sorting](https://github.com/scratchrealm/pc-spike-sorting) | 0 |  | :heavy_check_mark: |  | 2024-02-13 15:07:36+00:00 |
+| 900 | [seldamat/*](https://github.com/seldamat) [(11)](READMEs/seldamat.md) | [0](READMEs/seldamat.md) | [:heavy_check_mark: (11)](READMEs/seldamat.md) |  |  | 2020-03-04 17:55:55+00:00 |
+| 901 | [sensein/*](https://github.com/sensein) [(2)](READMEs/sensein.md) | [1](READMEs/sensein.md) | [:heavy_check_mark: (1)](READMEs/sensein.md) | [:heavy_check_mark: (1)](READMEs/sensein.md) |  | 2025-02-16 16:36:04+00:00 |
+| 902 | [sethfam/open-webui-custom](https://github.com/sethfam/open-webui-custom) | 0 |  | :heavy_check_mark: |  | 2025-11-16 21:41:41+00:00 |
+| 903 | [sfb1451/*](https://github.com/sfb1451) [(4)](READMEs/sfb1451.md) | [0](READMEs/sfb1451.md) | [:heavy_check_mark: (3)](READMEs/sfb1451.md) | [:heavy_check_mark: (3)](READMEs/sfb1451.md) |  | 2024-04-23 16:24:34+00:00 |
+| 904 | [sharkovsky/fedbiomed_for_ava_stroke](https://github.com/sharkovsky/fedbiomed_for_ava_stroke) | 0 |  | :heavy_check_mark: |  | 2025-11-21 12:59:01+00:00 |
+| 905 | [shashiX07/*](https://github.com/shashiX07) [(2)](READMEs/shashiX07.md) | [2](READMEs/shashiX07.md) |  | [:heavy_check_mark: (2)](READMEs/shashiX07.md) |  | 2025-04-05 22:47:10+00:00 |
+| 906 | [sheenarbw/*](https://github.com/sheenarbw) [(4)](READMEs/sheenarbw.md) | [0](READMEs/sheenarbw.md) |  | [:heavy_check_mark: (4)](READMEs/sheenarbw.md) |  | 2025-08-09 07:53:45+00:00 |
+| 907 | [shinmentakezoo/open-webui](https://github.com/shinmentakezoo/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-01 14:17:11+00:00 |
+| 908 | [shots47s/conp-dataset-test_dataset_do_not_merge](https://github.com/shots47s/conp-dataset-test_dataset_do_not_merge) | 0 | :heavy_check_mark: |  |  | 2019-10-17 13:49:29+00:00 |
+| 909 | [sidgyl-anz/owl](https://github.com/sidgyl-anz/owl) | 1 |  | :heavy_check_mark: |  | 2025-07-15 05:37:29+00:00 |
+| 910 | [sijiewang656997/open-webui](https://github.com/sijiewang656997/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 05:26:03+00:00 |
+| 911 | [silvermockingjay/presentations](https://github.com/silvermockingjay/presentations) | 0 |  | :heavy_check_mark: |  | 2025-05-03 10:18:06+00:00 |
+| 912 | [simonaikido/OpenWeb](https://github.com/simonaikido/OpenWeb) | 0 |  | :heavy_check_mark: |  | 2026-10-16 03:35:44+00:00 |
+| 913 | [simple-repository/simple-repository](https://github.com/simple-repository/simple-repository) | 23 |  | :heavy_check_mark: |  | 2025-11-17 10:58:33+00:00 |
+| 914 | [sinbc2003/GSHS](https://github.com/sinbc2003/GSHS) | 0 |  | :heavy_check_mark: |  | 2025-06-05 15:57:24+00:00 |
+| 915 | [sledgehammervampire/nur-packages](https://github.com/sledgehammervampire/nur-packages) | 0 | :heavy_check_mark: |  |  | 2021-06-22 14:09:19+00:00 |
+| 916 | [slimnsour/ds000206](https://github.com/slimnsour/ds000206) | 0 | :heavy_check_mark: |  |  | 2021-01-26 14:20:22+00:00 |
+| 917 | [smeisler/fsub_extractor](https://github.com/smeisler/fsub_extractor) | 10 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-01-05 23:25:01+00:00 |
+| 918 | [snezzerkezzer/Open-nn](https://github.com/snezzerkezzer/Open-nn) | 0 |  | :heavy_check_mark: |  | 2025-08-23 05:36:44+00:00 |
+| 919 | [soft-eng-practicum/AnalySim](https://github.com/soft-eng-practicum/AnalySim) | 7 |  | :heavy_check_mark: |  | 2026-09-27 19:49:45+00:00 |
+| 920 | [soichih/*](https://github.com/soichih) [(3)](READMEs/soichih.md) | [0](READMEs/soichih.md) | [:heavy_check_mark: (3)](READMEs/soichih.md) |  |  | 2021-04-13 15:23:11+00:00 |
+| 921 | [sourpit/conty](https://github.com/sourpit/conty) | 0 |  | :heavy_check_mark: |  | 2025-12-25 15:36:00+00:00 |
+| 922 | [sparkletown/sparkle-container](https://github.com/sparkletown/sparkle-container) | 0 | :heavy_check_mark: |  |  | 2021-05-13 21:34:13+00:00 |
+| 923 | [spatialtopology/*](https://github.com/spatialtopology) [(2)](READMEs/spatialtopology.md) | [6](READMEs/spatialtopology.md) |  | [:heavy_check_mark: (2)](READMEs/spatialtopology.md) | [:heavy_check_mark: (1)](READMEs/spatialtopology.md) | 2025-11-19 00:14:33+00:00 |
+| 924 | [spenceriam/open-webui-expo](https://github.com/spenceriam/open-webui-expo) | 0 |  | :heavy_check_mark: |  | 2025-06-17 11:27:11+00:00 |
+| 925 | [sred-task-1/official-images](https://github.com/sred-task-1/official-images) | 0 |  | :heavy_check_mark: |  | 2025-10-29 02:53:55+00:00 |
+| 926 | [srigyam5/demo1](https://github.com/srigyam5/demo1) | 0 |  | :heavy_check_mark: |  | 2025-09-03 21:22:13+00:00 |
+| 927 | [sriram5156689/Earnings-presentation](https://github.com/sriram5156689/Earnings-presentation) | 0 |  | :heavy_check_mark: |  | 2025-08-20 04:09:55+00:00 |
+| 928 | [srmemar/mousebytesdataset](https://github.com/srmemar/mousebytesdataset) | 0 | :heavy_check_mark: |  |  | 2021-06-24 19:51:54+00:00 |
+| 929 | [sruckh/serena](https://github.com/sruckh/serena) | 1 |  | :heavy_check_mark: |  | 2025-07-24 07:55:52+00:00 |
+| 930 | [ssdpool/gpt4al](https://github.com/ssdpool/gpt4al) | 0 |  | :heavy_check_mark: |  | 2024-01-29 08:54:35+00:00 |
+| 931 | [sshah99/biolink](https://github.com/sshah99/biolink) | 0 |  | :heavy_check_mark: |  | 2023-06-29 03:55:08+00:00 |
+| 932 | [sssanssss/nanobot_study](https://github.com/sssanssss/nanobot_study) | 0 |  | :heavy_check_mark: |  | 2026-04-27 03:10:45+00:00 |
+| 933 | [sstc-aiteam/open-webui](https://github.com/sstc-aiteam/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-11-05 06:41:28+00:00 |
+| 934 | [stamped-principles/*](https://github.com/stamped-principles) [(2)](READMEs/stamped-principles.md) | [9](READMEs/stamped-principles.md) |  | [:heavy_check_mark: (2)](READMEs/stamped-principles.md) |  | 2026-10-08 16:22:56+00:00 |
+| 935 | [standardgalactic/*](https://github.com/standardgalactic) [(2)](READMEs/standardgalactic.md) | [0](READMEs/standardgalactic.md) | [:heavy_check_mark: (2)](READMEs/standardgalactic.md) |  |  | 2021-09-30 16:09:04+00:00 |
+| 936 | [stephenogg/presentations](https://github.com/stephenogg/presentations) | 0 |  | :heavy_check_mark: |  | 2025-09-12 12:48:58+00:00 |
+| 937 | [stephenokj78/scientific-agent-skills](https://github.com/stephenokj78/scientific-agent-skills) | 1 |  | :heavy_check_mark: |  | 2026-08-28 22:34:09+00:00 |
+| 938 | [stjordanis/ds003430](https://github.com/stjordanis/ds003430) | 0 | :heavy_check_mark: |  |  | 2021-07-05 10:57:29+00:00 |
+| 939 | [stratusadv/dandy](https://github.com/stratusadv/dandy) | 5 |  | :heavy_check_mark: |  | 2026-09-25 17:34:45+00:00 |
+| 940 | [stuchalk/scidata](https://github.com/stuchalk/scidata) | 39 |  | :heavy_check_mark: |  | 2026-05-12 18:12:07+00:00 |
+| 941 | [super-cache-money/open-webui](https://github.com/super-cache-money/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-05-29 09:35:11+00:00 |
+| 942 | [swe-train/nilearn__nilearn](https://github.com/swe-train/nilearn__nilearn) | 0 |  | :heavy_check_mark: |  | 2024-05-21 04:31:20+00:00 |
+| 943 | [tabrezahmed51/open-webui_0118](https://github.com/tabrezahmed51/open-webui_0118) | 1 |  | :heavy_check_mark: |  | 2025-11-30 21:46:10+00:00 |
+| 944 | [tachiu33333/Cogs_138_final_project](https://github.com/tachiu33333/Cogs_138_final_project) | 0 | :heavy_check_mark: |  |  | 2022-08-10 23:23:21+00:00 |
+| 945 | [talmolab/sleap-io](https://github.com/talmolab/sleap-io) | 24 |  | :heavy_check_mark: |  | 2026-10-16 12:53:41+00:00 |
+| 946 | [techsavvy2121/open-web-Lightsail](https://github.com/techsavvy2121/open-web-Lightsail) | 0 |  | :heavy_check_mark: |  | 2025-05-21 19:21:27+00:00 |
+| 947 | [templateflow/*](https://github.com/templateflow) [(33)](READMEs/templateflow.md) | [145](READMEs/templateflow.md) | [:heavy_check_mark: (32)](READMEs/templateflow.md) | [:heavy_check_mark: (2)](READMEs/templateflow.md) |  | 2026-10-07 20:20:21+00:00 |
+| 948 | [theohsiung/Moci-webui](https://github.com/theohsiung/Moci-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 14:35:03+00:00 |
+| 949 | [thewtex/itk-viewer-baseline-testing-data](https://github.com/thewtex/itk-viewer-baseline-testing-data) | 0 | :heavy_check_mark: |  |  | 2022-08-11 01:11:48+00:00 |
+| 950 | [thomasbeaudry/*](https://github.com/thomasbeaudry) [(2)](READMEs/thomasbeaudry.md) | [0](READMEs/thomasbeaudry.md) | [:heavy_check_mark: (2)](READMEs/thomasbeaudry.md) |  |  | 2019-04-26 17:03:22+00:00 |
+| 951 | [tientong98/datalad_demo](https://github.com/tientong98/datalad_demo) | 0 |  | :heavy_check_mark: |  | 2024-05-24 04:22:51+00:00 |
+| 952 | [timcallow/midtermproject](https://github.com/timcallow/midtermproject) | 0 |  | :heavy_check_mark: |  | 2024-10-09 05:56:33+00:00 |
+| 953 | [timvink/mkdocs-table-reader-plugin](https://github.com/timvink/mkdocs-table-reader-plugin) | 161 |  | :heavy_check_mark: |  | 2026-10-11 16:49:49+00:00 |
+| 954 | [tjeong117/blynk](https://github.com/tjeong117/blynk) | 0 |  | :heavy_check_mark: |  | 2025-04-30 17:05:47+00:00 |
+| 955 | [tkkuehn/*](https://github.com/tkkuehn) [(14)](READMEs/tkkuehn.md) | [0](READMEs/tkkuehn.md) | [:heavy_check_mark: (14)](READMEs/tkkuehn.md) | [:heavy_check_mark: (3)](READMEs/tkkuehn.md) |  | 2023-01-20 16:58:59+00:00 |
+| 956 | [tniet/*](https://github.com/tniet) [(2)](READMEs/tniet.md) | [0](READMEs/tniet.md) |  | [:heavy_check_mark: (2)](READMEs/tniet.md) |  | 2025-10-16 18:23:25+00:00 |
+| 957 | [tomerfiliba-org/rpyc](https://github.com/tomerfiliba-org/rpyc) | 1703 |  | :heavy_check_mark: |  | 2026-09-27 18:41:40+00:00 |
+| 958 | [tony83033/openwebuiCustom](https://github.com/tony83033/openwebuiCustom) | 0 |  | :heavy_check_mark: |  | 2025-02-27 07:16:31+00:00 |
+| 959 | [totoriverce/paramiko](https://github.com/totoriverce/paramiko) | 0 |  | :heavy_check_mark: |  | 2024-05-16 09:52:45+00:00 |
+| 960 | [tp81/*](https://github.com/tp81) [(3)](READMEs/tp81.md) | [0](READMEs/tp81.md) | [:heavy_check_mark: (3)](READMEs/tp81.md) | [:heavy_check_mark: (1)](READMEs/tp81.md) |  | 2023-04-03 19:28:21+00:00 |
+| 961 | [transcendentsky/nanobot](https://github.com/transcendentsky/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-06-12 08:57:12+00:00 |
+| 962 | [tristankincaid/gpt4all](https://github.com/tristankincaid/gpt4all) | 4 |  | :heavy_check_mark: |  | 2025-02-16 14:47:05+00:00 |
+| 963 | [tsalo/coco2019-training](https://github.com/tsalo/coco2019-training) | 0 | :heavy_check_mark: |  |  | 2019-01-08 19:42:25+00:00 |
+| 964 | [tsankeuodelfa/midtermproject](https://github.com/tsankeuodelfa/midtermproject) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2021-06-10 10:01:36+00:00 |
+| 965 | [tsc-galaxy/aibot](https://github.com/tsc-galaxy/aibot) | 0 |  | :heavy_check_mark: |  | 2026-08-20 04:09:41+00:00 |
+| 966 | [tunguyen-195/khanhtran](https://github.com/tunguyen-195/khanhtran) | 0 |  | :heavy_check_mark: |  | 2025-06-22 15:50:02+00:00 |
+| 967 | [tvf-it-team/open-webui](https://github.com/tvf-it-team/open-webui) | 0 |  | :heavy_check_mark: |  | 2026-06-22 23:17:17+00:00 |
+| 968 | [umairqidwai1/YQ-Chatbot](https://github.com/umairqidwai1/YQ-Chatbot) | 0 |  | :heavy_check_mark: |  | 2025-10-03 12:05:25+00:00 |
+| 969 | [uncrumblethecode/Crumble-Ai](https://github.com/uncrumblethecode/Crumble-Ai) | 0 |  | :heavy_check_mark: |  | 2025-08-04 06:38:38+00:00 |
+| 970 | [utrawal9185-cmd/nanobot](https://github.com/utrawal9185-cmd/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-08-06 09:47:06+00:00 |
+| 971 | [uxiun/reveal.js](https://github.com/uxiun/reveal.js) | 0 |  | :heavy_check_mark: |  | 2025-07-01 08:37:10+00:00 |
+| 972 | [valdezm/*](https://github.com/valdezm) [(2)](READMEs/valdezm.md) | [1](READMEs/valdezm.md) |  | [:heavy_check_mark: (2)](READMEs/valdezm.md) |  | 2025-05-13 06:15:18+00:00 |
+| 973 | [valosekj/ohbm2020-posters](https://github.com/valosekj/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-07-01 08:11:54+00:00 |
+| 974 | [vandermeerlab/labs--mvdm](https://github.com/vandermeerlab/labs--mvdm) | 0 | :heavy_check_mark: |  |  | 2020-07-06 21:01:12+00:00 |
+| 975 | [vauei6266/*](https://github.com/vauei6266) [(3)](READMEs/vauei6266.md) | [0](READMEs/vauei6266.md) |  | [:heavy_check_mark: (3)](READMEs/vauei6266.md) |  | 2026-03-04 04:43:39+00:00 |
+| 976 | [vborghe/task_stimuli](https://github.com/vborghe/task_stimuli) | 0 | :heavy_check_mark: |  |  | 2023-10-15 18:18:58+00:00 |
+| 977 | [vcl-Li/PTB](https://github.com/vcl-Li/PTB) | 0 |  | :heavy_check_mark: |  | 2023-09-22 06:44:10+00:00 |
+| 978 | [vcloud369/web-ui](https://github.com/vcloud369/web-ui) | 0 |  | :heavy_check_mark: |  | 2025-04-30 07:22:19+00:00 |
+| 979 | [vdumeaux/sc-candida_paper](https://github.com/vdumeaux/sc-candida_paper) | 2 | :heavy_check_mark: |  |  | 2025-01-20 21:02:32+00:00 |
+| 980 | [vectordotdev/vector](https://github.com/vectordotdev/vector) | 22746 |  | :heavy_check_mark: |  | 2026-10-21 11:35:37+00:00 |
+| 981 | [venkateshhs/eCRF](https://github.com/venkateshhs/eCRF) | 1 |  | :heavy_check_mark: |  | 2026-10-13 13:19:49+00:00 |
+| 982 | [verakye/ds001907-EDU](https://github.com/verakye/ds001907-EDU) | 0 | :heavy_check_mark: |  |  | 2022-06-19 15:06:10+00:00 |
+| 983 | [veronikavinnichenko/open-webui-rag-format-changes](https://github.com/veronikavinnichenko/open-webui-rag-format-changes) | 0 |  | :heavy_check_mark: |  | 2025-08-14 14:13:41+00:00 |
+| 984 | [vhasili/scientific-agent-skills](https://github.com/vhasili/scientific-agent-skills) | 0 |  | :heavy_check_mark: |  | 2026-09-03 16:21:16+00:00 |
+| 985 | [vicoqi/nanobot](https://github.com/vicoqi/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-08-01 17:54:58+00:00 |
+| 986 | [vidtory-ai/Vidtory-Agent](https://github.com/vidtory-ai/Vidtory-Agent) | 0 |  | :heavy_check_mark: |  | 2026-07-02 09:10:46+00:00 |
+| 987 | [vikramguptatheai/open-webui](https://github.com/vikramguptatheai/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-04-01 04:18:57+00:00 |
+| 988 | [vlbandara/*](https://github.com/vlbandara) [(2)](READMEs/vlbandara.md) | [0](READMEs/vlbandara.md) |  | [:heavy_check_mark: (2)](READMEs/vlbandara.md) |  | 2026-09-11 04:15:54+00:00 |
+| 989 | [vsoch/oci-python](https://github.com/vsoch/oci-python) | 37 |  | :heavy_check_mark: |  | 2025-09-23 21:31:47+00:00 |
+| 990 | [vuminhanh067/dementia](https://github.com/vuminhanh067/dementia) | 0 | :heavy_check_mark: |  |  | 2024-10-30 09:15:27+00:00 |
+| 991 | [vutran8902/OWUI](https://github.com/vutran8902/OWUI) | 0 |  | :heavy_check_mark: |  | 2025-04-16 00:30:44+00:00 |
+| 992 | [wangjl99/omop](https://github.com/wangjl99/omop) | 0 |  | :heavy_check_mark: |  | 2024-04-11 16:51:26+00:00 |
+| 993 | [wangyq0214-fish/nanobot](https://github.com/wangyq0214-fish/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-08-02 07:02:24+00:00 |
+| 994 | [warawut1999/open-webui](https://github.com/warawut1999/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 16:54:40+00:00 |
+| 995 | [weichen0407/ielts-speaking-bot](https://github.com/weichen0407/ielts-speaking-bot) | 0 |  | :heavy_check_mark: |  | 2026-06-08 06:15:44+00:00 |
+| 996 | [weizhang-Indi/cerebellar_atlases](https://github.com/weizhang-Indi/cerebellar_atlases) | 0 | :heavy_check_mark: |  |  | 2023-09-02 20:26:10+00:00 |
+| 997 | [wesordonez/revealjs-demo](https://github.com/wesordonez/revealjs-demo) | 0 |  | :heavy_check_mark: |  | 2025-04-26 18:33:48+00:00 |
+| 998 | [wg-gravity/general](https://github.com/wg-gravity/general) | 0 | :heavy_check_mark: |  |  | 2022-03-11 11:41:47+00:00 |
+| 999 | [whartondylan/Dependabot](https://github.com/whartondylan/Dependabot) | 1 |  | :heavy_check_mark: |  | 2025-11-23 16:44:04+00:00 |
+| 1000 | [whiteghostDev/gpt4all](https://github.com/whiteghostDev/gpt4all) | 0 |  | :heavy_check_mark: |  | 2023-08-06 07:03:09+00:00 |
+| 1001 | [whitphx/stlite](https://github.com/whitphx/stlite) | 1677 |  | :heavy_check_mark: |  | 2026-10-20 01:21:05+00:00 |
+| 1002 | [winsonfzyang/ohbm2020-posters](https://github.com/winsonfzyang/ohbm2020-posters) | 0 | :heavy_check_mark: |  |  | 2020-06-27 14:55:19+00:00 |
+| 1003 | [wizarddevpro/nanobot](https://github.com/wizarddevpro/nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-06 16:33:11+00:00 |
+| 1004 | [wkdddd/*](https://github.com/wkdddd) [(2)](READMEs/wkdddd.md) | [0](READMEs/wkdddd.md) |  | [:heavy_check_mark: (2)](READMEs/wkdddd.md) |  | 2026-10-08 06:28:10+00:00 |
+| 1005 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 10099 |  | :heavy_check_mark: |  | 2026-10-18 23:59:35+00:00 |
+| 1006 | [workflowscommunity/workflowscommunity.github.io](https://github.com/workflowscommunity/workflowscommunity.github.io) | 17 |  | :heavy_check_mark: |  | 2026-10-21 03:40:49+00:00 |
+| 1007 | [woxili880409/nanobot_org](https://github.com/woxili880409/nanobot_org) | 0 |  | :heavy_check_mark: |  | 2026-04-15 06:28:21+00:00 |
+| 1008 | [wtxadmin-oss/*](https://github.com/wtxadmin-oss) [(2)](READMEs/wtxadmin-oss.md) | [0](READMEs/wtxadmin-oss.md) |  | [:heavy_check_mark: (2)](READMEs/wtxadmin-oss.md) |  | 2026-09-12 16:55:53+00:00 |
+| 1009 | [ww-daniel-mora/presentations](https://github.com/ww-daniel-mora/presentations) | 0 |  | :heavy_check_mark: |  | 2026-02-14 03:52:02+00:00 |
+| 1010 | [wyz1213/nanbot](https://github.com/wyz1213/nanbot) | 0 |  | :heavy_check_mark: |  | 2026-05-30 04:43:28+00:00 |
+| 1011 | [xiaoqiangwang317-cmd/synapse](https://github.com/xiaoqiangwang317-cmd/synapse) | 0 |  | :heavy_check_mark: |  | 2026-08-05 12:50:30+00:00 |
+| 1012 | [xingtaofeng/docker-library-clone](https://github.com/xingtaofeng/docker-library-clone) | 0 |  | :heavy_check_mark: |  | 2024-05-11 03:21:02+00:00 |
+| 1013 | [xinthink/sample-revealjs](https://github.com/xinthink/sample-revealjs) | 0 |  | :heavy_check_mark: |  | 2025-04-15 03:16:21+00:00 |
+| 1014 | [xkfisher/openwebui-terraform](https://github.com/xkfisher/openwebui-terraform) | 0 |  | :heavy_check_mark: |  | 2025-08-07 15:34:22+00:00 |
+| 1015 | [xlecours/*](https://github.com/xlecours) [(2)](READMEs/xlecours.md) | [0](READMEs/xlecours.md) | [:heavy_check_mark: (2)](READMEs/xlecours.md) |  |  | 2019-10-09 15:21:01+00:00 |
+| 1016 | [xournalpp/xournalpp](https://github.com/xournalpp/xournalpp) | 15542 |  | :heavy_check_mark: |  | 2026-10-20 01:45:38+00:00 |
+| 1017 | [xuehaipeng2017/openwebui](https://github.com/xuehaipeng2017/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 17:02:12+00:00 |
+| 1018 | [xulixin1968/*](https://github.com/xulixin1968) [(2)](READMEs/xulixin1968.md) | [0](READMEs/xulixin1968.md) |  | [:heavy_check_mark: (2)](READMEs/xulixin1968.md) |  | 2025-05-01 21:10:13+00:00 |
+| 1019 | [xxnuo/open-webui-slim](https://github.com/xxnuo/open-webui-slim) | 1539 |  | :heavy_check_mark: |  | 2026-04-02 10:28:05+00:00 |
+| 1020 | [xxsxss-star/learn_nanobot](https://github.com/xxsxss-star/learn_nanobot) | 0 |  | :heavy_check_mark: |  | 2026-06-23 03:26:11+00:00 |
+| 1021 | [yan-qiu-yu/agent](https://github.com/yan-qiu-yu/agent) | 0 |  | :heavy_check_mark: |  | 2026-05-05 13:44:09+00:00 |
+| 1022 | [yang123hao/openwebui](https://github.com/yang123hao/openwebui) | 0 |  | :heavy_check_mark: |  | 2025-07-15 01:27:42+00:00 |
+| 1023 | [yanjumlinnb-boop/scientific-agent-skills](https://github.com/yanjumlinnb-boop/scientific-agent-skills) | 4 |  | :heavy_check_mark: |  | 2026-06-22 17:27:36+00:00 |
+| 1024 | [yenngolam/FauseyTrio-Public-Demo](https://github.com/yenngolam/FauseyTrio-Public-Demo) | 0 | :heavy_check_mark: |  |  | 2021-09-30 14:43:09+00:00 |
+| 1025 | [yohanchatelain/fmriprep-reproducibility](https://github.com/yohanchatelain/fmriprep-reproducibility) | 0 | :heavy_check_mark: |  |  | 2025-03-21 02:39:40+00:00 |
+| 1026 | [yosob/my-nanobot](https://github.com/yosob/my-nanobot) | 0 |  | :heavy_check_mark: |  | 2026-05-11 06:52:05+00:00 |
+| 1027 | [ypid/*](https://github.com/ypid) [(5)](READMEs/ypid.md) | [69](READMEs/ypid.md) | [:heavy_check_mark: (1)](READMEs/ypid.md) | [:heavy_check_mark: (4)](READMEs/ypid.md) |  | 2026-10-17 17:02:08+00:00 |
+| 1028 | [yuanyi1415/Yuanyi-nanobot](https://github.com/yuanyi1415/Yuanyi-nanobot) | 0 |  | :heavy_check_mark: |  | 2026-08-22 15:23:53+00:00 |
+| 1029 | [yumyou/open-webui](https://github.com/yumyou/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-08-18 08:58:22+00:00 |
+| 1030 | [yuwang/nanobot](https://github.com/yuwang/nanobot) | 2 |  | :heavy_check_mark: |  | 2026-07-09 09:39:53+00:00 |
+| 1031 | [zacandcheese/research](https://github.com/zacandcheese/research) | 0 | :heavy_check_mark: |  |  | 2022-05-12 04:10:37+00:00 |
+| 1032 | [zack-carideo/gpt4all_zjc](https://github.com/zack-carideo/gpt4all_zjc) | 0 |  | :heavy_check_mark: |  | 2023-09-13 20:59:59+00:00 |
+| 1033 | [zenodraft/zenodraft](https://github.com/zenodraft/zenodraft) | 9 |  | :heavy_check_mark: |  | 2024-04-11 18:48:09+00:00 |
+| 1034 | [zhenbah/*](https://github.com/zhenbah) [(2)](READMEs/zhenbah.md) | [0](READMEs/zhenbah.md) |  | [:heavy_check_mark: (2)](READMEs/zhenbah.md) |  | 2025-09-04 15:28:54+00:00 |
+| 1035 | [zhoulingquan/pbot](https://github.com/zhoulingquan/pbot) | 1 |  | :heavy_check_mark: |  | 2026-09-25 18:04:23+00:00 |
+| 1036 | [zigazaga4/ssuajfdn](https://github.com/zigazaga4/ssuajfdn) | 0 |  | :heavy_check_mark: |  | 2026-01-01 13:52:28+00:00 |
+| 1037 | [zijuejue/nanostudy](https://github.com/zijuejue/nanostudy) | 0 |  | :heavy_check_mark: |  | 2026-07-14 05:29:09+00:00 |
+| 1038 | [zipengqqq/my-nanobot](https://github.com/zipengqqq/my-nanobot) | 0 |  | :heavy_check_mark: |  | 2026-09-08 07:35:28+00:00 |
+| 1039 | [zoar2/docker-access-](https://github.com/zoar2/docker-access-) | 0 |  | :heavy_check_mark: |  | 2022-09-23 22:24:19+00:00 |
+| 1040 | [zuojinn/open-webui](https://github.com/zuojinn/open-webui) | 0 |  | :heavy_check_mark: |  | 2025-10-01 10:30:49+00:00 |
+| 1041 | [zxenia/mcgill-emc-rna-seq-experiment](https://github.com/zxenia/mcgill-emc-rna-seq-experiment) | 0 | :heavy_check_mark: |  |  | 2021-11-16 21:01:15+00:00 |
+| 1042 | [zyxciss/open-webui-mit](https://github.com/zyxciss/open-webui-mit) | 0 |  | :heavy_check_mark: |  | 2025-10-01 19:19:36+00:00 |
+| 1043 | [zztdandan/acpbot](https://github.com/zztdandan/acpbot) | 1 |  | :heavy_check_mark: |  | 2026-07-08 08:28:33+00:00 |
 
 ## Inner circle
-| # | Repository (6741) | Stars (2386) | Dataset (6632) | `run` (188) | `containers-run` (9) | Last Modified |
+| # | Repository (6742) | Stars (2386) | Dataset (6633) | `run` (188) | `containers-run` (9) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproNim/*](https://github.com/ReproNim) [(36)](READMEs/ReproNim.md) | [509](READMEs/ReproNim.md) | [:heavy_check_mark: (24)](READMEs/ReproNim.md) | [:heavy_check_mark: (23)](READMEs/ReproNim.md) | [:heavy_check_mark: (2)](READMEs/ReproNim.md) | 2026-10-16 10:32:26+00:00 |
 | 2 | [adswa/*](https://github.com/adswa) [(39)](READMEs/adswa.md) | [50](READMEs/adswa.md) | [:heavy_check_mark: (37)](READMEs/adswa.md) | [:heavy_check_mark: (14)](READMEs/adswa.md) | [:heavy_check_mark: (2)](READMEs/adswa.md) | 2024-01-17 12:26:38+00:00 |
@@ -1065,7 +1066,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 4 | [con/*](https://github.com/con) [(28)](READMEs/con.md) | [148](READMEs/con.md) | [:heavy_check_mark: (2)](READMEs/con.md) | [:heavy_check_mark: (28)](READMEs/con.md) |  | 2026-10-19 11:07:44+00:00 |
 | 5 | [dandi-containers/pynwb-mpi](https://github.com/dandi-containers/pynwb-mpi) | 0 |  | :heavy_check_mark: |  | 2019-10-20 21:58:30+00:00 |
 | 6 | [dandi/*](https://github.com/dandi) [(25)](READMEs/dandi.md) | [121](READMEs/dandi.md) | [:heavy_check_mark: (5)](READMEs/dandi.md) | [:heavy_check_mark: (23)](READMEs/dandi.md) |  | 2026-10-20 03:54:01+00:00 |
-| 7 | [dandisets/*](https://github.com/dandisets) [(960)](READMEs/dandisets.md) | [18](READMEs/dandisets.md) | [:heavy_check_mark: (960)](READMEs/dandisets.md) | [:heavy_check_mark: (1)](READMEs/dandisets.md) |  | 2026-10-22 18:45:29+00:00 |
+| 7 | [dandisets/*](https://github.com/dandisets) [(961)](READMEs/dandisets.md) | [18](READMEs/dandisets.md) | [:heavy_check_mark: (961)](READMEs/dandisets.md) | [:heavy_check_mark: (1)](READMEs/dandisets.md) |  | 2026-10-24 01:01:10+00:00 |
 | 8 | [dandizarrs/*](https://github.com/dandizarrs) [(5443)](READMEs/dandizarrs.md) | [9](READMEs/dandizarrs.md) | [:heavy_check_mark: (5443)](READMEs/dandizarrs.md) |  |  | 2026-10-14 08:49:53+00:00 |
 | 9 | [datalad-collection-1/*](https://github.com/datalad-collection-1) [(6)](READMEs/datalad-collection-1.md) | [1](READMEs/datalad-collection-1.md) | [:heavy_check_mark: (6)](READMEs/datalad-collection-1.md) |  |  | 2018-12-04 19:09:16+00:00 |
 | 10 | [datalad-datasets/*](https://github.com/datalad-datasets) [(19)](READMEs/datalad-datasets.md) | [235](READMEs/datalad-datasets.md) | [:heavy_check_mark: (19)](READMEs/datalad-datasets.md) | [:heavy_check_mark: (13)](READMEs/datalad-datasets.md) |  | 2026-07-07 17:47:13+00:00 |
