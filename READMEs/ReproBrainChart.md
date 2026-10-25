@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (23) | Stars (17) | Dataset (13) | `run` (14) | `containers-run` | Last Modified |
+| # | Repository (23) | Stars (18) | Dataset (13) | `run` (14) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproBrainChart/BHRC_BIDS](https://github.com/ReproBrainChart/BHRC_BIDS) | 0 | :heavy_check_mark: |  |  | 2024-05-30 22:40:30+00:00 |
 | 2 | [ReproBrainChart/BHRC_CPAC](https://github.com/ReproBrainChart/BHRC_CPAC) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-05-26 19:32:14+00:00 |
@@ -14,7 +14,7 @@
 | 11 | [ReproBrainChart/CCNP_XCP-D](https://github.com/ReproBrainChart/CCNP_XCP-D) | 0 |  | :heavy_check_mark: |  | 2026-07-01 18:06:31+00:00 |
 | 12 | [ReproBrainChart/CCNP_fMRIPrep-Anat](https://github.com/ReproBrainChart/CCNP_fMRIPrep-Anat) | 0 |  | :heavy_check_mark: |  | 2026-10-16 16:36:26+00:00 |
 | 13 | [ReproBrainChart/CCNP_fMRIPrep-Func](https://github.com/ReproBrainChart/CCNP_fMRIPrep-Func) | 0 |  | :heavy_check_mark: |  | 2026-07-01 18:06:18+00:00 |
-| 14 | [ReproBrainChart/HBN_BIDS](https://github.com/ReproBrainChart/HBN_BIDS) | 2 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-06-17 20:43:12+00:00 |
+| 14 | [ReproBrainChart/HBN_BIDS](https://github.com/ReproBrainChart/HBN_BIDS) | 3 | :heavy_check_mark: | :heavy_check_mark: |  | 2024-06-17 20:43:12+00:00 |
 | 15 | [ReproBrainChart/HBN_CPAC](https://github.com/ReproBrainChart/HBN_CPAC) | 3 |  | :heavy_check_mark: |  | 2026-05-28 14:31:03+00:00 |
 | 16 | [ReproBrainChart/HBN_FreeSurfer](https://github.com/ReproBrainChart/HBN_FreeSurfer) | 0 | :heavy_check_mark: |  |  | 2024-06-07 19:22:52+00:00 |
 | 17 | [ReproBrainChart/NKI_BIDS](https://github.com/ReproBrainChart/NKI_BIDS) | 2 | :heavy_check_mark: |  |  | 2024-06-17 20:46:25+00:00 |
