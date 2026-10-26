@@ -27,7 +27,7 @@
 | 24 | [con/tributors](https://github.com/con/tributors) | 14 |  | :heavy_check_mark: |  | 2026-05-19 18:13:13+00:00 |
 | 25 | [con/try-aind-1](https://github.com/con/try-aind-1) | 0 |  | :heavy_check_mark: |  | 2025-11-13 21:10:33+00:00 |
 | 26 | [con/visidata-demos](https://github.com/con/visidata-demos) | 1 |  | :heavy_check_mark: |  | 2026-09-15 19:18:06+00:00 |
-| 27 | [con/yarikoptic-historia](https://github.com/con/yarikoptic-historia) | 0 |  | :heavy_check_mark: |  | 2026-10-13 04:50:35+00:00 |
+| 27 | [con/yarikoptic-historia](https://github.com/con/yarikoptic-historia) | 0 |  | :heavy_check_mark: |  | 2026-10-26 02:34:41+00:00 |
 | 28 | [con/yolo](https://github.com/con/yolo) | 15 |  | :heavy_check_mark: |  | 2026-09-17 23:18:16+00:00 |
 
 ## Gone
