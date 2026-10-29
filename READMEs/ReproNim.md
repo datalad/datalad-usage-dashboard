@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (36) | Stars (509) | Dataset (24) | `run` (23) | `containers-run` (2) | Last Modified |
+| # | Repository (36) | Stars (511) | Dataset (24) | `run` (23) | `containers-run` (2) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [ReproNim/ABCD-visidata](https://github.com/ReproNim/ABCD-visidata) | 1 | :heavy_check_mark: |  |  | 2026-01-23 15:53:51+00:00 |
 | 2 | [ReproNim/FAIR_neuroimaging_with_NIDM](https://github.com/ReproNim/FAIR_neuroimaging_with_NIDM) | 0 | :heavy_check_mark: |  |  | 2025-09-03 19:36:36+00:00 |
@@ -17,7 +17,7 @@
 | 14 | [ReproNim/ds000003-demo-fastsurfer](https://github.com/ReproNim/ds000003-demo-fastsurfer) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-04-10 16:25:09+00:00 |
 | 15 | [ReproNim/ds000003-qc](https://github.com/ReproNim/ds000003-qc) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2019-08-31 12:40:29+00:00 |
 | 16 | [ReproNim/ds001907-EDU](https://github.com/ReproNim/ds001907-EDU) | 0 | :heavy_check_mark: |  |  | 2022-05-13 11:30:14+00:00 |
-| 17 | [ReproNim/llm-workshop-kg](https://github.com/ReproNim/llm-workshop-kg) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-10-16 10:32:26+00:00 |
+| 17 | [ReproNim/llm-workshop-kg](https://github.com/ReproNim/llm-workshop-kg) | 2 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-10-16 15:28:49+00:00 |
 | 18 | [ReproNim/module-reproducible-basics](https://github.com/ReproNim/module-reproducible-basics) | 5 |  | :heavy_check_mark: |  | 2021-04-28 12:33:17+00:00 |
 | 19 | [ReproNim/neurodocker](https://github.com/ReproNim/neurodocker) | 361 |  | :heavy_check_mark: |  | 2026-10-01 04:46:18+00:00 |
 | 20 | [ReproNim/nobrainer-benchmarkit](https://github.com/ReproNim/nobrainer-benchmarkit) | 1 | :heavy_check_mark: |  |  | 2022-11-10 18:37:02+00:00 |
