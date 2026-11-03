@@ -1,11 +1,11 @@
 ## Active
-| # | Repository (5) | Stars (2181) | Dataset (1) | `run` (5) | `containers-run` | Last Modified |
+| # | Repository (5) | Stars (2187) | Dataset (1) | `run` (5) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [nipy/heudiconv](https://github.com/nipy/heudiconv) | 282 |  | :heavy_check_mark: |  | 2026-10-05 13:32:06+00:00 |
+| 1 | [nipy/heudiconv](https://github.com/nipy/heudiconv) | 286 |  | :heavy_check_mark: |  | 2026-10-05 13:32:06+00:00 |
 | 2 | [nipy/heudiconv-joss-paper](https://github.com/nipy/heudiconv-joss-paper) | 2 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-07-17 21:09:07+00:00 |
 | 3 | [nipy/nibabel](https://github.com/nipy/nibabel) | 799 |  | :heavy_check_mark: |  | 2026-11-01 04:02:36+00:00 |
-| 4 | [nipy/nipype](https://github.com/nipy/nipype) | 835 |  | :heavy_check_mark: |  | 2026-10-19 04:40:04+00:00 |
-| 5 | [nipy/nitime](https://github.com/nipy/nitime) | 263 |  | :heavy_check_mark: |  | 2026-09-01 00:32:39+00:00 |
+| 4 | [nipy/nipype](https://github.com/nipy/nipype) | 836 |  | :heavy_check_mark: |  | 2026-11-02 04:27:20+00:00 |
+| 5 | [nipy/nitime](https://github.com/nipy/nitime) | 264 |  | :heavy_check_mark: |  | 2026-09-01 00:32:39+00:00 |
 
 ## Gone
 No repositories found!
