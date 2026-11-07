@@ -4,7 +4,7 @@
 | 1 | [LAAC-LSCP/EL1000](https://gin.g-node.org/LAAC-LSCP/EL1000) | 0 | 2025-04-25 15:58:59+00:00 |
 | 2 | [LAAC-LSCP/Unsupervised_Metrics_CLD_Sy](https://gin.g-node.org/LAAC-LSCP/Unsupervised_Metrics_CLD_Sy) | 0 | 2022-07-18 16:13:53+00:00 |
 | 3 | [LAAC-LSCP/align-vandam](https://gin.g-node.org/LAAC-LSCP/align-vandam) | 0 | 2023-08-30 12:52:47+00:00 |
-| 4 | [LAAC-LSCP/childconvo-public](https://gin.g-node.org/LAAC-LSCP/childconvo-public) | 0 | 2026-09-02 17:09:58+00:00 |
+| 4 | [LAAC-LSCP/childconvo-public](https://gin.g-node.org/LAAC-LSCP/childconvo-public) | 0 | 2026-11-04 07:11:41+00:00 |
 | 5 | [LAAC-LSCP/longform-hardware-audio-test](https://gin.g-node.org/LAAC-LSCP/longform-hardware-audio-test) | 0 | 2022-11-15 14:40:27+00:00 |
 | 6 | [LAAC-LSCP/managing-storing-sharing-paper](https://gin.g-node.org/LAAC-LSCP/managing-storing-sharing-paper) | 0 | 2021-10-29 11:53:20+00:00 |
 | 7 | [LAAC-LSCP/providence](https://gin.g-node.org/LAAC-LSCP/providence) | 0 | 2026-02-12 11:00:52+00:00 |
