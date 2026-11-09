@@ -806,7 +806,7 @@
 | 803 | [dandisets/001766](https://github.com/dandisets/001766) | 0 | :heavy_check_mark: |  |  | 2026-03-13 17:04:17+00:00 |
 | 804 | [dandisets/001767](https://github.com/dandisets/001767) | 0 | :heavy_check_mark: |  |  | 2026-03-18 15:05:46+00:00 |
 | 805 | [dandisets/001768](https://github.com/dandisets/001768) | 0 | :heavy_check_mark: |  |  | 2026-10-08 05:28:00+00:00 |
-| 806 | [dandisets/001769](https://github.com/dandisets/001769) | 0 | :heavy_check_mark: |  |  | 2026-10-22 22:10:37+00:00 |
+| 806 | [dandisets/001769](https://github.com/dandisets/001769) | 0 | :heavy_check_mark: |  |  | 2026-11-02 21:26:31+00:00 |
 | 807 | [dandisets/001771](https://github.com/dandisets/001771) | 0 | :heavy_check_mark: |  |  | 2026-04-09 16:06:39+00:00 |
 | 808 | [dandisets/001773](https://github.com/dandisets/001773) | 0 | :heavy_check_mark: |  |  | 2026-08-21 21:47:09+00:00 |
 | 809 | [dandisets/001775](https://github.com/dandisets/001775) | 0 | :heavy_check_mark: |  |  | 2026-04-18 06:03:54+00:00 |
@@ -938,7 +938,7 @@
 | 935 | [dandisets/002034](https://github.com/dandisets/002034) | 0 | :heavy_check_mark: |  |  | 2026-10-19 22:01:04+00:00 |
 | 936 | [dandisets/002035](https://github.com/dandisets/002035) | 0 | :heavy_check_mark: |  |  | 2026-10-22 18:55:18+00:00 |
 | 937 | [dandisets/002037](https://github.com/dandisets/002037) | 0 | :heavy_check_mark: |  |  | 2026-10-24 01:01:10+00:00 |
-| 938 | [dandisets/002039](https://github.com/dandisets/002039) | 0 | :heavy_check_mark: |  |  | 2026-10-27 10:46:12+00:00 |
+| 938 | [dandisets/002039](https://github.com/dandisets/002039) | 0 | :heavy_check_mark: |  |  | 2026-10-27 13:16:00+00:00 |
 | 939 | [dandisets/002040](https://github.com/dandisets/002040) | 0 | :heavy_check_mark: |  |  | 2026-10-27 09:31:00+00:00 |
 | 940 | [dandisets/002041](https://github.com/dandisets/002041) | 0 | :heavy_check_mark: |  |  | 2026-10-28 05:47:28+00:00 |
 | 941 | [dandisets/002042](https://github.com/dandisets/002042) | 0 | :heavy_check_mark: |  |  | 2026-10-28 22:46:25+00:00 |
