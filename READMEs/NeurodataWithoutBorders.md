@@ -2,7 +2,7 @@
 | # | Repository (2) | Stars (41) | Dataset | `run` (2) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [NeurodataWithoutBorders/lindi](https://github.com/NeurodataWithoutBorders/lindi) | 17 |  | :heavy_check_mark: |  | 2026-03-19 21:12:48+00:00 |
-| 2 | [NeurodataWithoutBorders/nwbinspector](https://github.com/NeurodataWithoutBorders/nwbinspector) | 24 |  | :heavy_check_mark: |  | 2026-10-28 20:00:38+00:00 |
+| 2 | [NeurodataWithoutBorders/nwbinspector](https://github.com/NeurodataWithoutBorders/nwbinspector) | 24 |  | :heavy_check_mark: |  | 2026-11-09 18:08:27+00:00 |
 
 ## Gone
 No repositories found!
