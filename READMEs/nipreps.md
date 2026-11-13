@@ -4,7 +4,7 @@
 | 1 | [nipreps/acres](https://github.com/nipreps/acres) | 0 |  | :heavy_check_mark: |  | 2026-08-01 14:23:21+00:00 |
 | 2 | [nipreps/fmriprep](https://github.com/nipreps/fmriprep) | 762 |  | :heavy_check_mark: |  | 2026-11-02 23:45:11+00:00 |
 | 3 | [nipreps/mriqc](https://github.com/nipreps/mriqc) | 382 |  | :heavy_check_mark: |  | 2026-09-17 17:41:03+00:00 |
-| 4 | [nipreps/nibabies](https://github.com/nipreps/nibabies) | 39 |  | :heavy_check_mark: |  | 2026-10-30 21:21:44+00:00 |
+| 4 | [nipreps/nibabies](https://github.com/nipreps/nibabies) | 39 |  | :heavy_check_mark: |  | 2026-11-05 17:54:39+00:00 |
 | 5 | [nipreps/nipost](https://github.com/nipreps/nipost) | 2 |  | :heavy_check_mark: |  | 2026-11-03 14:50:40+00:00 |
 | 6 | [nipreps/nipreps.github.io](https://github.com/nipreps/nipreps.github.io) | 3 |  | :heavy_check_mark: |  | 2026-05-07 12:31:30+00:00 |
 | 7 | [nipreps/nireports](https://github.com/nipreps/nireports) | 13 |  | :heavy_check_mark: |  | 2026-11-05 10:53:21+00:00 |
