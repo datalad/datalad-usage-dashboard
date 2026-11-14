@@ -1781,7 +1781,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 4 | [distribits/*](https://hub.datalad.org/distribits) [(4)](READMEs/hub-datalad-org/distribits.md) | [3](READMEs/hub-datalad-org/distribits.md) | 2026-09-30 13:52:25+00:00 |
 | 5 | [edu/*](https://hub.datalad.org/edu) [(7)](READMEs/hub-datalad-org/edu.md) | [0](READMEs/hub-datalad-org/edu.md) | 2026-04-29 09:26:59+00:00 |
 | 6 | [forgejo/runner-images](https://hub.datalad.org/forgejo/runner-images) | 0 | 2026-10-16 12:01:01+00:00 |
-| 7 | [git-annex/*](https://hub.datalad.org/git-annex) [(3)](READMEs/hub-datalad-org/git-annex.md) | [0](READMEs/hub-datalad-org/git-annex.md) | 2026-11-07 14:25:40+00:00 |
+| 7 | [git-annex/*](https://hub.datalad.org/git-annex) [(3)](READMEs/hub-datalad-org/git-annex.md) | [0](READMEs/hub-datalad-org/git-annex.md) | 2026-11-14 14:51:39+00:00 |
 | 8 | [handbook/*](https://hub.datalad.org/handbook) [(8)](READMEs/hub-datalad-org/handbook.md) | [0](READMEs/hub-datalad-org/handbook.md) | 2026-01-23 09:15:11+00:00 |
 | 9 | [hcp-openaccess/*](https://hub.datalad.org/hcp-openaccess) [(4550)](READMEs/hub-datalad-org/hcp-openaccess.md) | [0](READMEs/hub-datalad-org/hcp-openaccess.md) | 2025-09-12 13:07:17+00:00 |
 | 10 | [j.goddard/*](https://hub.datalad.org/j.goddard) [(3)](READMEs/hub-datalad-org/j.goddard.md) | [0](READMEs/hub-datalad-org/j.goddard.md) | 2025-09-12 13:07:21+00:00 |
@@ -1795,7 +1795,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | 18 | [studyforrest/*](https://hub.datalad.org/studyforrest) [(3)](READMEs/hub-datalad-org/studyforrest.md) | [0](READMEs/hub-datalad-org/studyforrest.md) | 2025-09-12 13:07:20+00:00 |
 | 19 | [test-resources/*](https://hub.datalad.org/test-resources) [(4)](READMEs/hub-datalad-org/test-resources.md) | [0](READMEs/hub-datalad-org/test-resources.md) | 2025-09-12 13:07:18+00:00 |
 | 20 | [wjm/datalad-blog](https://hub.datalad.org/wjm/datalad-blog) | 0 | 2026-11-04 21:49:32+00:00 |
-| 21 | [www/*](https://hub.datalad.org/www) [(2)](READMEs/hub-datalad-org/www.md) | [0](READMEs/hub-datalad-org/www.md) | 2026-11-05 23:37:11+00:00 |
+| 21 | [www/*](https://hub.datalad.org/www) [(2)](READMEs/hub-datalad-org/www.md) | [0](READMEs/hub-datalad-org/www.md) | 2026-11-11 03:29:53+00:00 |
 | 22 | [yarikoptic/dandi-000029](https://hub.datalad.org/yarikoptic/dandi-000029) | 0 | 2025-09-12 13:07:22+00:00 |
 
 ## Gone
@@ -1809,7 +1809,7 @@ This file is automatically updated using GitHub Actions workflows. It lists Git 
 | --- | --- | --- | --- |
 | 1 | [CAIRT/*](https://atris.fz-juelich.de/CAIRT) [(6)](READMEs/atris/CAIRT.md) | [0](READMEs/atris/CAIRT.md) | 2026-01-13 10:49:56+00:00 |
 | 2 | [CRISTA/*](https://atris.fz-juelich.de/CRISTA) [(4)](READMEs/atris/CRISTA.md) | [0](READMEs/atris/CRISTA.md) | 2026-10-16 14:09:38+00:00 |
-| 3 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(89)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2026-11-06 04:07:40+00:00 |
+| 3 | [MeteoCloud/*](https://atris.fz-juelich.de/MeteoCloud) [(89)](READMEs/atris/MeteoCloud.md) | [0](READMEs/atris/MeteoCloud.md) | 2026-11-11 21:04:03+00:00 |
 | 4 | [b.vogel/*](https://atris.fz-juelich.de/b.vogel) [(5)](READMEs/atris/b.vogel.md) | [0](READMEs/atris/b.vogel.md) | 2026-09-18 07:27:36+00:00 |
 | 5 | [g.guenther/*](https://atris.fz-juelich.de/g.guenther) [(5)](READMEs/atris/g.guenther.md) | [1](READMEs/atris/g.guenther.md) | 2026-07-23 08:57:53+00:00 |
 | 6 | [m.risse/*](https://atris.fz-juelich.de/m.risse) [(9)](READMEs/atris/m.risse.md) | [0](READMEs/atris/m.risse.md) | 2026-10-13 10:45:45+00:00 |
