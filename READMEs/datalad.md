@@ -1,13 +1,13 @@
 ## Active
-| # | Repository (48) | Stars (858) | Dataset (26) | `run` (28) | `containers-run` | Last Modified |
+| # | Repository (48) | Stars (860) | Dataset (26) | `run` (28) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [datalad/artwork](https://github.com/datalad/artwork) | 1 |  | :heavy_check_mark: |  | 2024-08-08 09:09:32+00:00 |
-| 2 | [datalad/datalad](https://github.com/datalad/datalad) | 673 |  | :heavy_check_mark: |  | 2026-11-01 23:47:05+00:00 |
+| 2 | [datalad/datalad](https://github.com/datalad/datalad) | 676 |  | :heavy_check_mark: |  | 2026-11-12 15:47:11+00:00 |
 | 3 | [datalad/datalad-action-test](https://github.com/datalad/datalad-action-test) | 0 | :heavy_check_mark: | :heavy_check_mark: |  | 2023-02-10 01:42:57+00:00 |
 | 4 | [datalad/datalad-blog](https://github.com/datalad/datalad-blog) | 1 | :heavy_check_mark: | :heavy_check_mark: |  | 2026-04-25 13:53:51+00:00 |
 | 5 | [datalad/datalad-catalog](https://github.com/datalad/datalad-catalog) | 18 |  | :heavy_check_mark: |  | 2024-11-28 20:35:52+00:00 |
-| 6 | [datalad/datalad-container](https://github.com/datalad/datalad-container) | 11 |  | :heavy_check_mark: |  | 2026-07-20 21:52:39+00:00 |
-| 7 | [datalad/datalad-crawler](https://github.com/datalad/datalad-crawler) | 7 |  | :heavy_check_mark: |  | 2026-09-25 21:01:27+00:00 |
+| 6 | [datalad/datalad-container](https://github.com/datalad/datalad-container) | 11 |  | :heavy_check_mark: |  | 2026-11-11 13:31:01+00:00 |
+| 7 | [datalad/datalad-crawler](https://github.com/datalad/datalad-crawler) | 7 |  | :heavy_check_mark: |  | 2026-11-10 18:00:20+00:00 |
 | 8 | [datalad/datalad-dataverse](https://github.com/datalad/datalad-dataverse) | 10 |  | :heavy_check_mark: |  | 2026-10-14 09:35:27+00:00 |
 | 9 | [datalad/datalad-deprecated](https://github.com/datalad/datalad-deprecated) | 0 |  | :heavy_check_mark: |  | 2026-07-20 12:40:13+00:00 |
 | 10 | [datalad/datalad-ebrains](https://github.com/datalad/datalad-ebrains) | 3 |  | :heavy_check_mark: |  | 2023-07-14 11:33:10+00:00 |
@@ -18,13 +18,13 @@
 | 15 | [datalad/datalad-gooey](https://github.com/datalad/datalad-gooey) | 8 |  | :heavy_check_mark: |  | 2024-02-20 12:08:16+00:00 |
 | 16 | [datalad/datalad-installer](https://github.com/datalad/datalad-installer) | 9 |  | :heavy_check_mark: |  | 2026-09-24 19:30:33+00:00 |
 | 17 | [datalad/datalad-metalad](https://github.com/datalad/datalad-metalad) | 16 |  | :heavy_check_mark: |  | 2025-12-07 17:58:11+00:00 |
-| 18 | [datalad/datalad-neuroimaging](https://github.com/datalad/datalad-neuroimaging) | 19 |  | :heavy_check_mark: |  | 2026-09-05 15:02:03+00:00 |
-| 19 | [datalad/datalad-next](https://github.com/datalad/datalad-next) | 13 |  | :heavy_check_mark: |  | 2026-10-28 00:36:12+00:00 |
+| 18 | [datalad/datalad-neuroimaging](https://github.com/datalad/datalad-neuroimaging) | 19 |  | :heavy_check_mark: |  | 2026-11-10 18:01:07+00:00 |
+| 19 | [datalad/datalad-next](https://github.com/datalad/datalad-next) | 13 |  | :heavy_check_mark: |  | 2026-11-11 14:22:41+00:00 |
 | 20 | [datalad/datalad-nuitka](https://github.com/datalad/datalad-nuitka) | 0 | :heavy_check_mark: |  |  | 2022-08-12 17:13:20+00:00 |
 | 21 | [datalad/datalad-openneuropet](https://github.com/datalad/datalad-openneuropet) | 0 |  | :heavy_check_mark: |  | 2023-09-11 09:54:12+00:00 |
 | 22 | [datalad/datalad-paper-joss](https://github.com/datalad/datalad-paper-joss) | 3 | :heavy_check_mark: |  |  | 2021-06-26 04:05:27+00:00 |
 | 23 | [datalad/datalad-revolution](https://github.com/datalad/datalad-revolution) | 4 |  | :heavy_check_mark: |  | 2019-05-14 21:39:49+00:00 |
-| 24 | [datalad/datalad-xnat](https://github.com/datalad/datalad-xnat) | 4 |  | :heavy_check_mark: |  | 2026-03-16 21:45:47+00:00 |
+| 24 | [datalad/datalad-xnat](https://github.com/datalad/datalad-xnat) | 4 |  | :heavy_check_mark: |  | 2026-11-10 14:48:14+00:00 |
 | 25 | [datalad/datalad.org](https://github.com/datalad/datalad.org) | 4 |  | :heavy_check_mark: |  | 2025-04-15 01:37:52+00:00 |
 | 26 | [datalad/datasets.datalad.org](https://github.com/datalad/datasets.datalad.org) | 7 | :heavy_check_mark: | :heavy_check_mark: |  | 2025-10-17 07:11:07+00:00 |
 | 27 | [datalad/datasets.datalad.org--labs](https://github.com/datalad/datasets.datalad.org--labs) | 0 | :heavy_check_mark: |  |  | 2018-05-18 20:47:27+00:00 |
@@ -47,7 +47,7 @@
 | 44 | [datalad/testrepo_gh](https://github.com/datalad/testrepo_gh) | 0 | :heavy_check_mark: |  |  | 2021-06-03 19:20:15+00:00 |
 | 45 | [datalad/testrepo_gh-sub__1](https://github.com/datalad/testrepo_gh-sub__1) | 0 | :heavy_check_mark: |  |  | 2025-12-19 18:55:51+00:00 |
 | 46 | [datalad/testrepo_gh-sub__1-d-sub_-_1](https://github.com/datalad/testrepo_gh-sub__1-d-sub_-_1) | 0 | :heavy_check_mark: |  |  | 2021-06-03 19:19:59+00:00 |
-| 47 | [datalad/tutorials](https://github.com/datalad/tutorials) | 18 |  | :heavy_check_mark: |  | 2023-08-03 21:01:44+00:00 |
+| 47 | [datalad/tutorials](https://github.com/datalad/tutorials) | 17 |  | :heavy_check_mark: |  | 2023-08-03 21:01:44+00:00 |
 | 48 | [datalad/videos-onlinebrainintensive-2017](https://github.com/datalad/videos-onlinebrainintensive-2017) | 2 | :heavy_check_mark: |  |  | 2018-01-22 16:59:22+00:00 |
 
 ## Gone
