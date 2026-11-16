@@ -2,7 +2,7 @@
 | # | Repository (3) | Stars (17) | Dataset (1) | `run` (3) | `containers-run` (1) | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [neurostuff/autonima](https://github.com/neurostuff/autonima) | 4 |  | :heavy_check_mark: |  | 2026-11-05 21:00:45+00:00 |
-| 2 | [neurostuff/neurostore](https://github.com/neurostuff/neurostore) | 13 |  | :heavy_check_mark: |  | 2026-11-03 02:30:43+00:00 |
+| 2 | [neurostuff/neurostore](https://github.com/neurostuff/neurostore) | 13 |  | :heavy_check_mark: |  | 2026-11-16 07:54:35+00:00 |
 | 3 | [neurostuff/simulate-cbma](https://github.com/neurostuff/simulate-cbma) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2021-04-02 21:18:33+00:00 |
 
 ## Gone
