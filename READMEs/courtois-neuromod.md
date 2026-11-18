@@ -6,7 +6,7 @@
 | 3 | [courtois-neuromod/anat](https://github.com/courtois-neuromod/anat) | 2 | :heavy_check_mark: |  |  | 2026-11-06 16:36:45+00:00 |
 | 4 | [courtois-neuromod/anat.atlases](https://github.com/courtois-neuromod/anat.atlases) | 0 | :heavy_check_mark: |  |  | 2026-11-06 16:36:39+00:00 |
 | 5 | [courtois-neuromod/anat.freesurfer](https://github.com/courtois-neuromod/anat.freesurfer) | 0 | :heavy_check_mark: |  |  | 2026-11-06 16:36:51+00:00 |
-| 6 | [courtois-neuromod/anat.freesurfer_longitudinal](https://github.com/courtois-neuromod/anat.freesurfer_longitudinal) | 1 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-08 19:06:26+00:00 |
+| 6 | [courtois-neuromod/anat.freesurfer_longitudinal](https://github.com/courtois-neuromod/anat.freesurfer_longitudinal) | 1 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-11-06 16:36:57+00:00 |
 | 7 | [courtois-neuromod/anat.freesurfer_stats](https://github.com/courtois-neuromod/anat.freesurfer_stats) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2024-11-16 03:04:08+00:00 |
 | 8 | [courtois-neuromod/anat.pycortex](https://github.com/courtois-neuromod/anat.pycortex) | 0 | :heavy_check_mark: |  |  | 2026-11-06 16:37:06+00:00 |
 | 9 | [courtois-neuromod/anat.smriprep](https://github.com/courtois-neuromod/anat.smriprep) | 0 | :heavy_check_mark: |  |  | 2026-11-06 16:37:11+00:00 |
@@ -49,7 +49,7 @@
 | 46 | [courtois-neuromod/hcptrt.fmriprep](https://github.com/courtois-neuromod/hcptrt.fmriprep) | 0 | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | 2026-11-06 16:40:11+00:00 |
 | 47 | [courtois-neuromod/hcptrt.mriqc](https://github.com/courtois-neuromod/hcptrt.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-09-22 17:15:44+00:00 |
 | 48 | [courtois-neuromod/hcptrt.stimuli](https://github.com/courtois-neuromod/hcptrt.stimuli) | 0 | :heavy_check_mark: |  |  | 2023-07-24 02:52:39+00:00 |
-| 49 | [courtois-neuromod/hcptrt.tsnr](https://github.com/courtois-neuromod/hcptrt.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-09-29 20:21:34+00:00 |
+| 49 | [courtois-neuromod/hcptrt.tsnr](https://github.com/courtois-neuromod/hcptrt.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-11-06 16:40:25+00:00 |
 | 50 | [courtois-neuromod/langlocalizer.mriqc](https://github.com/courtois-neuromod/langlocalizer.mriqc) | 0 |  | :heavy_check_mark: | :heavy_check_mark: | 2026-11-06 16:40:47+00:00 |
 | 51 | [courtois-neuromod/langlocalizer.stimuli](https://github.com/courtois-neuromod/langlocalizer.stimuli) | 0 | :heavy_check_mark: |  |  | 2023-12-07 20:54:39+00:00 |
 | 52 | [courtois-neuromod/langlocalizer.tsnr](https://github.com/courtois-neuromod/langlocalizer.tsnr) | 0 |  | :heavy_check_mark: |  | 2026-11-06 16:40:58+00:00 |
