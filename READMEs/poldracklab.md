@@ -3,7 +3,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [poldracklab/fitlins](https://github.com/poldracklab/fitlins) | 82 |  | :heavy_check_mark: |  | 2026-08-17 15:32:01+00:00 |
 | 2 | [poldracklab/poldracklab.github.io](https://github.com/poldracklab/poldracklab.github.io) | 3 |  | :heavy_check_mark: |  | 2026-11-16 13:12:07+00:00 |
-| 3 | [poldracklab/pydeface](https://github.com/poldracklab/pydeface) | 142 |  | :heavy_check_mark: |  | 2026-11-09 18:12:43+00:00 |
+| 3 | [poldracklab/pydeface](https://github.com/poldracklab/pydeface) | 142 |  | :heavy_check_mark: |  | 2026-11-23 18:15:37+00:00 |
 
 ## Gone
 No repositories found!
