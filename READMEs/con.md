@@ -1,5 +1,5 @@
 ## Active
-| # | Repository (28) | Stars (149) | Dataset (2) | `run` (28) | `containers-run` | Last Modified |
+| # | Repository (28) | Stars (150) | Dataset (2) | `run` (28) | `containers-run` | Last Modified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [con/.github](https://github.com/con/.github) | 0 |  | :heavy_check_mark: |  | 2026-07-08 15:59:17+00:00 |
 | 2 | [con/annextube](https://github.com/con/annextube) | 3 |  | :heavy_check_mark: |  | 2026-11-23 13:57:48+00:00 |
@@ -10,9 +10,9 @@
 | 7 | [con/dev-centerforopenneuroscience.org](https://github.com/con/dev-centerforopenneuroscience.org) | 0 |  | :heavy_check_mark: |  | 2026-11-05 21:49:32+00:00 |
 | 8 | [con/duct](https://github.com/con/duct) | 13 |  | :heavy_check_mark: |  | 2026-11-25 21:08:47+00:00 |
 | 9 | [con/duct-gallery](https://github.com/con/duct-gallery) | 0 |  | :heavy_check_mark: |  | 2026-09-16 13:48:07+00:00 |
-| 10 | [con/eval-under](https://github.com/con/eval-under) | 0 |  | :heavy_check_mark: |  | 2026-11-09 14:54:25+00:00 |
+| 10 | [con/eval-under](https://github.com/con/eval-under) | 0 |  | :heavy_check_mark: |  | 2026-11-23 16:21:08+00:00 |
 | 11 | [con/fscacher](https://github.com/con/fscacher) | 2 |  | :heavy_check_mark: |  | 2026-10-26 14:13:49+00:00 |
-| 12 | [con/git-annex](https://github.com/con/git-annex) | 30 |  | :heavy_check_mark: |  | 2026-11-14 02:34:19+00:00 |
+| 12 | [con/git-annex](https://github.com/con/git-annex) | 31 |  | :heavy_check_mark: |  | 2026-11-25 20:47:24+00:00 |
 | 13 | [con/journals](https://github.com/con/journals) | 0 |  | :heavy_check_mark: |  | 2024-05-03 21:05:38+00:00 |
 | 14 | [con/mechababs](https://github.com/con/mechababs) | 1 |  | :heavy_check_mark: |  | 2026-11-19 17:12:34+00:00 |
 | 15 | [con/nwb2bids](https://github.com/con/nwb2bids) | 5 |  | :heavy_check_mark: |  | 2026-11-16 18:27:28+00:00 |
